@@ -1,0 +1,104 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Handles:
+	________
+
+	_luego de haber creado tanto el sistema del armature, y como también, a partir de éste el sistema de 
+
+	handles, en uno de los lados del character
+
+
+	_es hora de duplicar éste y reflejarlo al otro lado del character, para que así, se complete el sistema de
+
+	rig, personalizado
+
+
+
+	Cursor 3d:
+
+	_para lo cuál, primeramente debemos de colocar el cursor 3d, en el centro del viwport 3d, para lo cuál, 
+
+	debemos de abrir el menú contextual de "Snap", shortcut, "Shoft + S", en el cuál, debemos de seleccionar la
+
+	opción de "Cursor To Center", para que así, el sistema coloque el cursor 3d, en el centro del viewport 3d
+
+
+	
+	Chains:
+
+	_para a continuación proceder ha seleccionar las chains, ó cadenas de huesos ha duplicar; como la cadena de
+
+	huesos del arm, leg, así, como también, sus respectivos handles
+
+
+	
+	Duplication:
+
+	_para posteriormente con todos las chains, y handles, ha duplicar de todas las extremidades seleccionados
+
+	duplicar todos éstos bones, a través, del shortcut, "Shoft + D", para a continuación hacer 
+
+	"Mouse Righ Click", para que así, los bones, duplicados mantengan su posición original
+
+
+	
+	Pivot:
+
+
+	_para a continuación aún con todos los bones, duplicados seleccionado
+
+	_cambiar el modo de pivote de los bones, al modo de cursor 3d, para que así, los bones, seleccionados ahora
+
+	tengan el pivote, en la ubicación donde se encuentre el cursor 3d
+
+
+	_para lo cuál, debemos aplicar el shortcut, ".", (punto en el teclado), para que así, el pivote se coloque
+
+	ahora en en la ubicación del cursor 3d, que debería ser el centro del viewport 3d, ó grid
+
+
+
+	Mirrow:
+
+	_para posteriormente hacer el reflejado de los bones, al lado opuesto del character, a través, del shortcut,
+
+	"Control + M + X", más "Mouse Left Click" 
+
+
+	_para aceptar así, la transformación y que los bones, respectivos ahora se coloquen de forma reflejada 
+
+	sobre el otro lado del character
+
+
+	
+	Rename Bones:
+
+	_para por último, aún con los bones, respectivos seleccionado tenemos la posibilidad de renombrar éstos de
+
+	forma invertir 
+
+
+	_para lo cuál, debemos de ir ha "Armature/Flip Names", para que así, los bones, que previamente por ejemplo,
+
+	tenían como parte de su denominación la letra ó palabra "L/Left", ahora pasen ha tener "R/Right", de forma
+
+	automática
+
+
+

@@ -1,0 +1,39 @@
+
+
+
+
+	Blender: los tipos de pelo en el cgi
+		https://www.youtube.com/watch?v=0Bv8h-XGjd0
+
+
+		Blender: pelo por planos 2d parte 1. El sistema de partículas.
+			https://www.youtube.com/watch?v=GuMBtqD9te8
+
+			Blender: pelo por planos 2d parte 2. La textura de pelo.
+				https://www.youtube.com/watch?v=4fDaaYBnFAo&t=5s
+
+				Blender: pelo por planos 2d parte 3. Aplicación manual de planos.
+					https://www.youtube.com/watch?v=ZE-Q111ipYw
+
+
+
+	Pelo / Cabello en Blender 2.59 - TUTORIAL - Perublend3D
+		https://www.youtube.com/watch?v=ABt2HNJqJYg
+
+
+	Blender 2.59/2.6 Tutorial - Particle Hair part 1: Hair shape and physics (watch in HD!)
+		https://www.youtube.com/watch?v=a8ktxdhQCPM
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Generales Caracteristicas y Opciones:
+	____________________________________
+
+	_tenemos la posibilidad de crear cabello a través de diferentes métodos
+
+
+

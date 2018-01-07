@@ -1,0 +1,106 @@
+
+
+
+	Blender 2.68: Animación con Graph Editor
+		https://www.youtube.com/watch?v=8UKEGOy-x9g
+
+
+	Blender 2,68: Animar objetos con Shape Keys
+		https://www.youtube.com/watch?v=tvb4dM4QKd4
+
+
+	Blender 2.68: Rigging avanzado con Shape Keys y Custom Bones
+		https://www.youtube.com/watch?v=Bl2FHX80KTo&t=15s
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Shape Keys Option Panel:
+	________________________
+
+	_más el panel de shape keys, nos ofrece una serie de comando los cuáles, nos permitirán realizar 
+
+	diferentes tipos de acciones a través de las cuáles, podremos ejecutar operaciones útilles y complejas
+
+	en ciertos casos, éstas son:
+
+
+		_Transfer Shape Key:
+
+			_(Indeterminado)
+
+
+		_Join Ass Shape:
+
+			_ésta opción nos permitirá tomar morfología de referencia de otra mesh, para que así,
+
+			de ésta manera, poder transferir una shape, de una mesh, ha otra en forma de shape key
+
+
+			_para lo cuál, debemos de seleccionar la mesh, que hará de referencia para luego 
+
+			seleccionar la mesh, en la cuál, agregaremos la shape key, resultante y con ambas
+
+			seleccionados aplicamos el comando "Join Ass Shape"
+
+
+		_Mirrow Shape Key:
+
+			_ésta opción nos pemrite invertir ó reflejas una shape key, creada previamente así, 
+
+			podremos hacer que las deformaciones que se realizan por ejemplo en la cordenada "X",
+
+			ahora se realizen en la cordenada "-X"
+
+
+		_Mirrow Shape Key (Topology):
+
+			_(Indeterminado)
+
+
+		_New Shape from Mix:
+
+			_ésta opción nos permnite crear una nueva shape key, a partir de la deformación actual
+
+			de la mesh, principal en la cuál, descanzas todas las shape keys 
+
+
+			_éstos permite hacer shape keys, complejas al permitirnos crear shape keys, como punto
+
+			de partida a partir de la sumatoria ó fusión de una ó varioas shape keys, existentes
+
+			previamente
+
+
+			_lo cuál, por otra parte nos permitirá equilibrar deformaciones y equiparar simetrías
+
+			al combinar éste comando con el de "Mirrow Shape Keys"
+
+
+		_Delete All Shapes:
+
+			_ésta opción nos permite eliminar toda la lista de shape keys, existente previamente
+
+
+		_Move To Up:
+
+			_ésta opción nos permite subir una shae key, en la lista hasta la parte de arriba
+
+
+		_Move To Bottom:
+
+			_ésta opción nos permite bajar una shae key, en la lista hasta la parte de abajo
+
+
+
+
+
+
+
+

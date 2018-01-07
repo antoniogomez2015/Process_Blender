@@ -1,0 +1,172 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Limit Transformations:
+	______________________
+
+	_también, es altamente recomendable limitar las transformaciones y limitaciones de los handles, ó controles
+
+	del sistema para que así, éstos no tengan una deformación deliberada
+
+
+	_de ésta manera, podremos controlar hasta cierto grado la amplitud de movimiento así, como también, el tipo
+
+	de transformación que puede tener cada control ó handle, del sistema de movimiento del character
+
+
+	
+	
+	Properties and Attributes:
+	__________________________
+
+	_primeramente podemos activar y desactivar propiedades enteras así, como también, includo atributos 
+
+	específicos de una handle, ó control determinado
+
+
+	_así, por ejemplo; al handle de "L Clavicule", podremos desactivarla las propiedades de "Location", y 
+
+	"Scale", las cuáles, no utilizará en el mivimiento natural del shoulder, u hombro
+
+
+	_y dejarle sólo activas la propiedada de "Rotation", excecto el atributo "Rotation/Z", el cuál, no 
+
+	utilizará en el movimiento articular natural del shoulder, u hombro
+
+
+	_como podremos ver podemos configurar las propiedades y atributos de forma personalizada en relación a la
+
+	lógica y sentodo de la artuculación respectivo para un determinado handle, en concreto
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo armature, y con éste seleccionado entrar en 
+
+	"Pose Mode"
+
+
+	_para luego seleccionar un rsepectivo handle, y con éste seleccionado tendremos dos opciones las cuáles, son:
+
+		
+		_ir ha "Viewport 3/Properties/Transform (N)", y allí, ver las propiedades que nos interesa y dejar 
+
+		activar y las que no aplicar el ícono de candado para que así, queden desactivada para ese bone, ó
+
+		handle, en concreto
+
+
+		_ir ha "Properties/Bone Bone/Transform Look", y allí, ver las propiedades que nos interesa y dejar 
+
+		activar y las que no aplicar el ícono de candado para que así, queden desactivada para ese bone, ó
+
+		handle, en concreto
+
+
+
+
+	Coordinates:
+	____________
+
+	_más también, tendremos la posbilidad de limitar la longitud, ó radios de movimiento de las propiedades y
+
+	atributos permitidos
+
+
+	_de ésta manera, podremos limitar tanto los ángulos como los rádios de acción de por ejemplo, del handle,
+
+	del shoulder, ú hombro
+
+
+	_para lo cuál, tenemos dos luegares diferentes de acción lo cuáles son:
+
+
+		_debemos de ir al panel viewport 3d, "Propiedades/Transform/Rotation/", shortcut, "N", en la cuál, 
+
+		debemos de cambiar la opción de "Quaterrium(WXYZ)", por "XYZ Euler", para tener así, un control de 
+
+		los atributos sólo en cordenadas "XYZ"
+
+
+		_ó yendo ha "Properties/Bone Bone/Transform Lock/", en la cuál, debemos de cambiar la opción de 
+
+		"Quaterrium(WXYZ)", por "XYZ Euler", para tener así, un control de los atributos sólo en cordenadas
+
+		"XYZ"
+
+
+
+	_las cuáles, se correspoderán con las cordenadas utilizadas por los constraint, los cuáles, utilizamores 
+
+	para limitar a los atributos permitidos
+
+
+
+
+	Limit Values:
+	_____________
+
+	_para a continuación seleccionar el objeto de tipo armature, y con éste seleccionado vamos ha "Pose Mode"
+
+
+	_para luego seleccionar un bone, ó handle, al cuál, deseamos agregerle un limitador de movimiento y con
+
+	éste handle, ó bone, respectivo seleccionado vamos ha "Properties/Bone Constrint/Bone Constraint/" 
+
+
+	_en el cuál, debemos de selección un tipo de constraint, de tipo "Limit Rotation", en cuál, debemos de
+
+	configurar activando y desactivando cordenadas en relación a las cordenadas ó atributos activadas para
+
+	éste bone, ó handle
+
+
+	_donde primeramente debemos de cambiar del modo de "World Space", por "Local Space", en las opciones de
+
+	constraint "Limit Rotation", respectivo
+
+
+	_de ésta manera, podremos limitar los radios ó ángulos de acción para cada atributo en concreto tanto para
+
+	su rango de acción positivo como negativo en relación a lógica y sentido de la articulación ha controlar
+
+
+	_lo cuál, podremos repetir para todos los handles, del character set
+
+
+	
+	NOTE: para lo cuál, lo más recomendado es editar lo límites de los atributos permitidos en el viewport 3d,
+
+	lo mejor es colocar el modo de orientación en "Loca", de forma temporarl en el viewport
+
+
+	_para lo cuál, disponemos del shortcut, "Alt + Spacebar", con el handle, respectivo seleccionado para que
+
+	así, podamos ver como trabajarán las cordenadas "Locales", las cuáles, con las mismas que contempla los
+
+	constrain
+
+
+	_y posteriormente de haber terminado el proceso de edición de límites podremos volver ha colocar los axis,
+
+	en modo global
+
+	
+
+
+
+
+

@@ -1,0 +1,188 @@
+
+
+
+esculpir modelos en el modo de sculpting, de blender a través, de imágenes utilizadas como alphas
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Generales:
+__________
+
+
+	_preliminarmente debemos tener un character y objecto con un modificador multiresolution, aplicado para
+
+	que así, pueda ver una diferencia en el surface, del motivo
+
+
+	_así, como también, ésta character, ó motivo debe de tener uvs, creadas previamente para que así, se puedan
+
+	posteriormente sacar el mapa de "normals", entre ambas resoluciones
+
+
+
+	Textures:
+	_________
+
+	_lo siguiente será ir ha "properties/texture/", y darle al "+", plus, para crear una nueva textura en el
+
+	modo "Brush", y en "Type", elegimos la opción por defecto de "Image or Movie"
+
+
+	_para luego ir más abajo en éstas mismas opciones elegir así, en las opciones de "Image", la ruta del archivo
+
+	de tipo imágen ha utilizar en el proceso ó las imagenes deseadas
+
+
+
+	Brush Options:
+	______________
+
+	_para luego estando en el modo "Sculpt Mode", ir las opciones del panel de brushes, shortcut; "T", en el cuál,
+
+	podremos seleccionar la brush, ha utilizar para el proceso de proyección, ej; la brush "Clay", shortcut; "C/2"
+
+
+	_para luego, en el mismos panel de brushes, bajar hasta las opciones de "Texture", en la cuál, podremos 
+
+	seleccionar entre las texturas que cargamos en "properties/texture", en uno de los pasos anteriores
+
+
+	
+	Brush Mapping:
+	______________
+
+	_así, con la texture deseada seleccionada debemos ir posteriormente a las opciones a continuación de 
+
+	"Brush Mapping", en la cuál, debemos seleccionar la opción de "Stencil", para que así, la textura que hemos
+
+	seleccionado en el tag texture, sea visible ahora en el viewport, a la hora de posar el mouse, sobre cualquier
+
+	área del viewport, 3d
+
+
+	
+	Stroke:
+	_______
+
+	_las opciones de stroke, nos permitirán seleccionar el tipo de comportamienta que tomará la brush, seleccionada
+
+	así, ésta pdrá servir para diferentes aplicaciones de puntura, modulación y calcado entre otras posibles shortcut:
+
+	"E", sobre el viewport, 3d
+
+
+	NOTE: para proyectar una textura solamente debemos colocar en las opciones de "Brush mapping/View Plane", y en
+
+	las opciones de "Stroke/Anchored", para que así, la textura quede anclada a la posición del mouse a la hora de
+
+	ser aplicada así, podremos proyectar la textura 
+
+
+
+	Menús:
+	______
+
+
+		_Stroke Method: E
+
+
+		_Angle Control: R
+
+
+
+
+	Stroke Method:
+	______________
+
+
+		_Cuve:
+
+
+			_indeterminada
+
+		_Line:
+
+			_ésta es similar a la opción estándar "Space", más ésta permite crear una línea guía de 
+
+			trayectoria
+
+
+		_Anchored:
+
+			_ésta opción permite colocar la imágen a proyectar, y escalar ésta antes de aplicarla
+
+
+		_AirBrush:
+
+			_ésta es similar a la opción estándar "Space", más ésta es acumulativa
+
+
+		_Space:
+
+			_ésta es la opción estándar por defecto
+
+
+		_Drag Dots:
+
+			_ésta opción es similar ha "Anchored", más ésta nos permite desplazar el brush, hasta una 
+
+			posición deseada mientras nos deja ver la textura sobre la superficie
+
+
+		_Dots:
+
+			_ésta opción es similar ha "Anchored", más ésta nos permite desplazar el brush, hasta una 
+
+			posición deseada mientras nos deja ver la textura sobre la superficie
+
+
+
+
+
+	Brush Mapping:
+	______________
+
+		
+		_Stencil:
+
+			_ésta opción nos permite ver y configurar la textura en el viewport, así, podremos ajustar 
+
+			la textura antes de aplicarla con la brush, respectiva
+
+
+				_Scalar texture: Shift + mouse right click + drag
+
+			
+				_Rotate texture: Control + mouse right click + drag
+
+
+				_Move rexture: mouse right click + drag
+
+
+		_Random:
+
+			_
+
+
+		_3D:
+
+			_
+
+
+		_Tiled:
+
+			_
+
+
+		_Area Plane:
+
+			_
+
+
+		_View Plane:
+
+			_
+

@@ -1,0 +1,44 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Nodos:
+______
+
+
+	Node Editor/Compositing/Add/OutPut/:
+
+
+	_tenemos ha nuestra disposición el nodo de "Viewer", el cuál nos permitirá prescindir del panel "UVImage Editor", ya 
+
+	que éste nodo nos permitirá poder cargar el resultado del render en el mismo panel Node Editor, ha modo de background,
+
+	así, podremos ver directamente el resultado de las modificaciones de forma más ámplia
+
+
+	_para lo cuál, tendremos que activar la opción de "Backgrop", en la parte inferior del panel Node Editor, en el modo
+
+	Compositing
+
+
+	_así, como también, conectar el sistema de nodos el nuevo nodo "Viewer"
+
+
+	_tenemos la posibilidad de navegar en la imágen de render de fondo del panel compositing, para éste debemos de hacer
+
+	"alt + mouse midle click and drag"
+
+
+
+
+
+

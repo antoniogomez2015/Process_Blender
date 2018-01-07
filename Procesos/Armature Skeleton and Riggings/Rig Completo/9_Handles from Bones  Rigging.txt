@@ -1,0 +1,83 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Handles controls:
+_________________
+
+
+	_éstos son extensiones de los mismos bones, ó huesos ubicados en las articulaciones, de ésta manera,
+
+	inabilitar éstos bones, del sistema de deformación y dejarlos sólo para el sistema de visualización y
+
+	controladores de tipo handle, que servirán para representar el sistema de riggings, a través, de formas
+
+	personalizadas de tipo spline
+
+
+
+	Handles Settings:
+	_________________
+
+	_primero procederemos ha crear lo bones, que harán de handles, en las articulaciones ó joints, que desiemos
+
+	que éstos tengan un control de tipo handle rig
+
+
+	_luego, es conveniente renombrar éstos ej; "L_handle_elbow", y así, sucesivamente
+	
+
+	_más luego, ha todos los handles, al tener éstos que controlar la dirección ej; de la pierna y no estar superditado 
+
+	al movimiento de la pierna en su totalidad ó bones, parciales es preciso entonces desparentar éstos bones, del 
+
+	sistema esquemático 
+
+
+	_para ésto, debemos estar en "edit mode", shortcut; "Tab", para leugo, seleccionar el respectivo bone, que hará
+
+	de handle knne, siguiendo con el ejemplo
+
+
+	_y con éste bone, seleccionado vamos a las opciones de "Armature/Parent/Clear/Clear Parent", ó shortcut: 
+
+	"Alt + P", para que así, éste bone quede independiente de los demás aunque dentro del mismo armature ó sistema
+
+
+	_así, ésta acción de desparentar bones, debemos repetirla para todos lo bones, que harán de handles, controladores
+
+	del sistema para que así éstos se comporten de forma independiente al movimniento de los bones, de deformación
+
+	del sistema
+
+
+	_así, como también, debemos seleccionar cada bone, que hará del handle, controlador del sistema ó rig, y con éste
+
+	seleccionado ir ha "properties/bone/", y deschequear ó desactivar la opción de "Deform", para que así, éstos bones,
+
+	no deformen la geometría del character
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+

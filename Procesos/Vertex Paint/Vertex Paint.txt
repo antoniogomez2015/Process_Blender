@@ -1,0 +1,91 @@
+
+1_la mesh, deseada debe haber pasado por el proceso de UVWrap
+
+
+2_ya con el proceso de UVWrarp, la mesh, trae una textura incorporada en el proceso la cuál se utilizará para 
+
+la proyección del proceso de pintado y proyección, más para el proceso de "Texture Paint", debe de crearse otra textura
+
+
+
+3_ahora creamos una nueva textura para el proceso de texture paint, yendo ha 
+
+
+	3.1_Properties/Texture/New Texture +, esta nueva textura la renombramos, ej: "BodyPaint"
+
+
+	3.2_en Type: seleccionamos "Image or Movie"
+
+
+	3.3_en Image: seleccionamos la texture que corresponde al proceso previo de UVWrap, ej: UVMotive,
+
+	ya que en esta es donde se encuentra las proyecciones UVs, del motivo
+
+
+4_ahora si procedemos a ir al modo "Vertex Paint" shortcut "V"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+EDICIÖN / PINTADO / PROYECTION
+______________________________
+
+
+
+
+brush size: F, ó [/]
+
+
+brush stretch/fuerza: shift + F
+
+
+Set Vertex Colors: Shift + K (rellenar con color)
+
+
+cuenta gotas: S
+
+
+brush hiden: M
+
+
+
+brush F Add: 1
+
+
+brush F Blur: 2
+
+
+brush F Brush: 3
+
+
+brush F Darken: 6
+
+
+brush F Draw: 7
+
+
+brush F lighten: 8
+
+
+brush F Mix: 9
+
+
+brush F Multiply: 0
+
+
+brush F Pich: shift + 1
+
+
+brush F Sustract: shift + 2
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+CONSIDERACIONES
+_______________
+
+
+
+
+

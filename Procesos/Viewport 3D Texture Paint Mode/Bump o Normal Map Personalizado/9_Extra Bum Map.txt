@@ -1,0 +1,102 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Extra Bumb Map:
+	_______________
+
+	_tenemos la posibilidad de crear más de una bump map, ó normal map, para así, tener diferentes tipos y niveles
+
+	de detalle en diferentes mapas los cuáles, podremos graduar de forma independiente
+
+	
+	_así, podremos por ejemplo en un mapa tener los detalles como arrugas, verrugas, líneas de expresión, otros
+
+
+	_y en otro mapa tener los detalles de los poros de la piel, imperfecciones báses, otros, la ventaja de éste 
+
+	método es que podremos emular la porosidad y detalles como imperfecciones logradas en el mapa principal de 
+
+	"Diffuse Color" 
+
+
+	_para que así, tanto los detalles principales del "Diffuse Color", principal coincidas con los 	detalles del 
+
+	mapa principal del "Bump Map", ó "Normal Map"
+
+
+
+	Compilación de Diffuse Map:
+	___________________________
+
+	_donde primeramente en blender, tendremos que hacer un bake, en el caso de que queramos fusionar más de una 
+
+	mapa de color difuso 
+
+
+	_para lo cuál, los respectivos mapas deben estar activados en "Properties/Texture Texture" 
+
+
+	_así, como tambén, podremos ajustar la densidad de cada uno de éstos yendo a las opciones de 
+
+	"Properties/Texture Texture/Influence", y allí ajustar la influencia u opacidad de cada respectivo mapa
+
+
+	_para posteriormente ir a las opciones de "Properties/Render Render/",y allí bajar hasta las opciones de "Bake",
+
+	y allí, en las opciones de "Bake Mode:" seleccionar la opción de "Textures" 
+
+
+	_para que así, blender, fusione todas las texturas que tengan la misma opción de tipo material yendo ha 
+
+	"Properties/Texture Texture/Inlfuence/Col"
+
+
+	_de ésta manera, podremos hacer que blender, nos genere una sóla textura como material difuso el cuál, 
+
+	utilizaremos posteriormente en Photoshop
+
+
+	
+	Transpolación:
+	______________
+
+	_para lo cuál, lo más recomendable es abrir el "Diffuse Color", en una aplicación como "Photoshop", y allí,
+
+	proceder ha duplicar el map diffuse color
+
+
+	_para posteriormente proceder ha desaturar éste shortcut, "Control + Shift + U", ó incluso hacer variaciones 
+
+	previas de tono y saturación shortcut, "Control + Alt + U"
+
+
+	_para posteriormente proceder ha guardar éste nuevo mapa con un nuevo nombre descriptivo el cuál, usaremos como
+
+	bump map, en blender, sobre el motivo ó character
+
+
+	
+	Integración:
+	____________
+
+	_luego podremos intedrar éste nuevo mapa de tipo bump, con los demás mapas en blender, sera a través, del proceso
+
+	de render blender, ó a través, del proceso de render cycles
+
+
+
+

@@ -1,0 +1,140 @@
+
+
+
+	Blender Tutorial - Switching between Multiple Cameras in an Animation
+
+		https://www.youtube.com/watch?v=2KwjSiI9umU
+
+
+		Blender - Switching between multiple cameras during an animation
+
+			https://www.youtube.com/watch?v=PugtkaOrDIY
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Múltiples Cámaras Animadas:
+	___________________________
+
+	_tenemos la posibilidad de crear diferentes cámaras dentro de una misma escena para que así, podamos realizar diferentes
+
+	secuencias y planos dentro de la composición de una animación en blender
+
+
+	_para que así, podamos secuencias las cámaras respectivas en las escena animación la posición de éstas así, como la cámara
+
+	que estará activa ó visible en un momento determinado
+
+
+
+		Escena:
+		_______
+
+		_de ésta maenra, debemos de creada una escena con los elementos animados ó estáticos así, como también, debemos de
+
+		tener creadas las cámaras así, como también, debemos de animar éstas cámaras y su interación con los elementos de la
+
+		escena y a su con las demás cámaras de la escena
+
+
+		Animar Cámara:
+		______________
+
+		_para lo cuál, primeramente será al panel "Properties/Scene Scene/Scene", y allí, ubicar las opciones de 
+
+			
+			_"Camara"
+
+
+		_a través, de las cuáles, podremos seleccionar la cámara que estará activa en la escena y poder así, animar y secuenciar
+
+		las cámaras existentes más fácilmente
+
+			
+			_más también, dispondremos de shortcut, para activar un cámara seleccionar para que así, esté activa
+
+
+				_Control + 0
+
+
+		_de ésta manera, podremos seleccionar una cámara y aplicar el shortcut, "I", en el viewport 3d, para que así, nos 
+
+		aparezca el menú de animación "Insert Keyframe Menu", en el cuál, seleccionaremos la opción de "Location"
+
+
+		_para posteriormente mover el cabezal del timeline, hasta una nueva ubicación en el tiempo y volver así, ha aplicar
+
+		el shortcut, "I", para que así, un nuevo keyframe, sea agregado en esa respectiv ubicación en el tiempo
+
+
+		_Proceso que debemos repetir para cada una de las cámras de la escena ha animar y secuenciar
+
+
+
+
+	Multi-Camara Workflow:
+	______________________
+
+	_de ésta manera, una vez, hayamos creado y animados las cáramas respectivamente en la escena debemos de proceder ahora ha
+
+	secuencias éstas cámaras en el tiemeline
+
+
+	_para lo cuál, debemos hacer uso de las marks, a través, de las cuáles, podremos signar el punto donde se creará un "shot",
+
+	ó punto de cámara
+
+
+
+		Secuencia:
+		__________
+
+
+		1_así, lo primero que tendremos que hacer es seleccionar la cámara que deseamos secuencias como primera cámara shortcut,
+
+		
+			_"Control + 0"
+
+
+		2_de ésta manera, primeramente debemos de ubicar el cabezal del timeline, en un punto determinado donde desemoa iniciar
+
+		ha secuencia la primera cámara
+
+
+		3_y una vez hayamos colocado el cabezal en el lugar deseado debemos de agregar en ese punto una marca shortcut, "M", y
+
+		para editar la marca que hemos creado dispondremos del shortcut, "Control + M", para que así, podamos indicar un nombre
+
+		distintivo ha ésta marca, ej; "Shot1"
+
+
+		4_para a continuación en el mismo punto ó ubicación del cabezal donde hemos creado la marca debemos de aplicar el
+
+		shortcut
+
+
+			_"Control + B"
+
+
+		_para que así, un key frame, de secuencia de cámara sea agregado de ésta manera, podremos avenzar en cabezal hasta
+
+		otro punto en el tiempo y volver ha repetir el proceso de crear una nueva marca en ese punto y posteriormente en ese
+
+		mismo punto aplicar el shortuct, "Control + B"
+
+
+
+	_de ésta manera, posteriormente al avanzar el cabezal del timeline, podremos ver que ahora las cámras estarán secuenciadas
+
+	correctamente
+
+
+
+
+
+	

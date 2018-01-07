@@ -1,0 +1,315 @@
+
+
+
+	Blender: material piel humana 3: el mapa de textura parte 1
+
+		https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+	Creating Skin Texture
+
+		https://www.youtube.com/watch?v=GUqO2ZQVDp4
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	3_Multi Patter Skin:
+	____________________
+
+	_de ésta mnaera, podemos hacer doferentes tipos de archivos de textura compleja de piel al mismo que lo hemos
+
+	hecho para el sistema de "Pores Skin 4K.psd"
+
+
+	_de ésta manera, podremos hacer diferentes tipos de archivos con diferentes tipos de piel ha aplicar y en diferentes
+
+	tamaños de formato como "2K, 4K, 6K, 8K"
+
+
+	_para lo cuál, utilizaremos el siguiente proceso de creación:
+
+
+
+	Módulo:
+	_______
+
+	_primeramente para la creación de un supermódulo debemos previamente crear el módulo, para lo cuál, debemos de
+
+	cargar primeramente la muestra ó pattern, en Photoshop
+
+
+	_ésta debe de ser un textura ó un compuesto de ellas en alta resolución para obtener así, los mejores resultados
+
+
+	
+	Ajuste de Patrón:
+
+	_para lo cuál, con imágen de muestra cargada la cuál, desemos convertir de una pattern activa en el panel layers,
+
+	vamos al nemú "Filter/Other/Offset"
+
+
+	_para que así, se nos abra un panel a través, del cuál, podremos configurar las opciones y criterios del plugins:
+
+
+		_Horizontal:
+
+			_ésta opción hará desface horizontal de la imágen
+
+
+		_Vertical:
+
+			_ésta opción hará desface vertical de la imágen
+
+
+		_Undefined Área:
+
+
+			_Set to Transparent:
+
+				_ésta opción dejará las áreas desfazadas como áreas transparentes
+
+
+			_Repeat Edge Pixels:
+
+				_ésta opción dejará las áreas desfazadas como áreas con pixeles estirados
+
+
+			_Warp Around:
+
+				_ésta opción dejará las áreas desfazadas como áreas repetidas e invertidas
+
+				(opción recpmendada)
+
+
+	_de ésta manera, primeramente podremos hacer un desface a la vez, por ejemplo para el sentido horizontal, el cuál, 
+
+	debemos de hacerlo al 50%, de la imágen ó a la mitad de ésta
+
+
+	_para luego repetir éste desface para el otro sentido en éste caso el sentido vertical
+
+
+	_para que así, nos quede la imágen desfazada ha modo de cruz, lo cuál, nos permitirá borrar ó corregir éstos 
+
+	patrones que dejan éstas conturas a través, de diferentes herramientas de clonación, parches y ajuste de imágen 
+
+	otros
+
+
+	_para posteriormente de haber ajustado la imágen y sus patrones y costuras es hora de crear el patrón ó "pattern",
+
+	para lo cuál, seleccionamos todo el contenido de la layer, shortcut, "Control + A", y vamos al menú 
+
+	"Edit/Deffine Patern"
+
+
+	_para que así, nos aparezca una ventana contextual en la cuál, podremos asignarle un nombre a la nueva muestra ha
+
+	generar la cuál, utilizaremos posteriormente
+
+
+
+
+	
+
+	Supermódulo:
+	____________
+
+	_para posteriormente cunado ya tengamos un módulo perfectamente creado y estémos seguros de que ha éste a la 
+	
+	hora de modularlo no se le verán las costuras ni los patrones entonces si podremos comenzar a modular éste a
+
+	a través, de Photoshop
+
+
+	_para lo cuál, primeramente debemos de crear un nuevo documento con las dimensiones deseadas ej; "4K"
+
+
+	_para posteriormente seleccionar todo el área del documento yendo al panel layer, y haciendo 
+
+	"Control + Left Click", sobre el ícono de la layer, para que así, se selecione todo el área de la layers, ó 
+
+	también, yendo al menú "Select/All", shortcut, "Control + A"
+
+
+	_y con el área del documento seleccionada ir ha "Edit/Fill", shortcut, "Shift + F5", para que así, nos aparezca
+
+	un menú contextual en el debemos seleccionar las opciones de:
+
+
+		_Contents:
+
+			_Pattern
+
+
+		_Custom Pattern:
+
+			_debemos seleccionar la pattern, que hemos guardado previamente
+
+
+		_Script:
+
+			_en ésta opción podremos configurar diferentes comportamientos siendo uno de los más relevantes
+
+			"Random Fill"
+
+
+		_Blending:
+
+			_mode: Normal
+
+
+		_Opacity:
+
+			_100%
+
+
+
+	Save Preset:
+	____________
+
+	_de ésta manera, posterior de haber modulado la textura podremos guardar ésta en forma .psd, para disponer de
+
+	ésta cada vez que estemos texturizando un motivo ó character
+
+
+	_así, como también, hacer varias versiones de ésta tanto para los diferentes tamaños como "2K, 4K, 6K, 8K"
+	
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Resaltado de Imágenes:
+______________________
+
+
+	Enhance Texture and Detail with Intelligent High Pass Sharpening
+
+		https://www.youtube.com/watch?v=mOHPQbyHbtI
+
+
+	NOTA: ésta textuas resultantes las podremos utilizar directamente como mapas de refuerzo tanto para los diffuse
+
+	color como para los bump map, así, como también, como para ser combinadas en determinadas layers, de igualmente
+
+	de diffuse color, y bump map, en photoshop, a través, de los modos de funsión como "Vivid Light", y similares
+
+
+
+
+	Super Detail:
+	_____________
+
+	_primero debemos de hacer un duplicado de la respectiva textura, shortcut, "Shift + D", la cuál, podremos 
+
+	renombrar ej: "Low Texture", y hacer si es necesario ajustes de contraste y ganancia para garantizar un mejor 
+
+	resultado
+
+
+	_para posteriormente selecciona la textura "Low Texture", y con ésta seleccionada ir a 
+
+	"Filter/Blur/Surface Blur", para que así, se nos abra un panel contextual en el cuál, podremos configurar las
+
+	opciones del efecto:
+
+
+		_Radio:
+
+			_intensidad del efecto
+
+
+		_Threshold:
+
+			_umbral ó capacidad de penetración del efecto
+
+
+
+	_para luego de haber aplicado el efecto de "Surface Blur", a la layer, "Low Texture", debemos ahora seleccioanr
+
+	la textura original y con ésta seleccionada vamos ha "Image/Apply Image", para que así, se nos abra un panel 
+
+	contextual en el cuál, podremos configurar el efecto deseado:
+
+
+		_Source:
+
+			_éste indicará un valor por defecto para ésta layer
+
+
+		_Layer:
+
+			_ésta debe ser la layer, de la cuál, tomará la informaicón en éste caso "Low Texture"
+
+
+		_Channel:
+
+			_RGB
+
+
+		_Blending:
+
+			_Sustract
+
+
+		_Opacity:
+
+			_100
+
+
+		_Preserve Transparency
+
+			_(indeterminado
+
+
+		_Mask:
+
+			_(indeterminado)
+
+
+		_Scale:
+
+			_2
+
+
+		_Offset:
+
+			_0
+
+
+
+	_y por último la layer, original la colocamos en el modo de fusión "Vivid Light", en el panel Layer, en Photoshop
+
+
+
+
+	Método Alternativo y Directo:
+	_____________________________
+
+	_primero debemos de hacer un duplicado de la respectiva textura, shortcut, "Shift + D", y hacer si es necesario
+
+	ajustes de contraste y ganancia para garantizar un mejor resultado
+
+
+	_para luego seleccionar ésta textura e ir ha "Filter/Other/High Pass", para que así, se nos abra una ventana 
+
+	contextual a través, de la cuál, podremos ajustar los parámetros del efecto los cuáles, son:
+
+
+		_Raduis:
+
+			_e indicaremos un valor de "10"
+
+
+	_y ha ésta layer, que hemos diplicado le colocaremos un modo de fusión de "Overlay", en panel de layers, de 
+
+	Photoshop
+
+
+
+				

@@ -1,0 +1,156 @@
+
+
+
+
+	Características y comportamientas de las curves and splines, en blender
+
+
+		Blender Surface Modelling With Network Curve
+			https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Lot Extrusion por Anillos NURBS:
+	________________________________
+
+	_tenemos la posibilidad de crear formas complejas en blender, formas tridimensionales totalmente 
+
+	configurables a través, de la modalidad de "Surface NURBS"
+
+
+	_lo cuál, nos permitirá extruir anillos de splines, replicados con variaciones así, como también, de 
+
+	extruir splines, en paralelo sólamente para el constructivismo de elementos complejos como automáviles y
+
+	elementos de diseño industrial, otros
+
+
+
+	NURBS:
+	______
+
+	_para lo cuál, primeramente debemos de crear un elemento de tipo nurb, en el viewport 3d, para lo cuál,
+
+	podemos hacer uso del shortcut, "Shift + A/Add/Surface/", y allí darle a la opción de "Nurb Curve", para
+
+	que así, el sistema agrege una nueva nurb, base la cuál, podremos editar posteriormente entrando a su modo
+
+	de edición
+
+
+
+	NURB Modeling:
+	______________
+
+	_para posteriormente de haber creado una nurb, base en la escena debemos editar ésta hasta lograr la forma
+
+	deseada a construir, para lo cuál, debemos de seleccioanr el objeto de tipo nurb, que hemos creado y con
+
+	éste seleccionado entramos a su modo de edición, shortcut, "Tab"
+
+
+	_para que así, podamos ver que las nurbs, son representadas de modo subdivision surface, lo cuál, quiere
+
+	decir que las splines, y posteriormente las superficies estarán representadas a partir de tres vertex, ó
+
+	pntos
+
+
+	_de ésta manera, debemos de seleccionar un vertex, e ir lo ubicando en las áreas deseadas así, como también,
+
+	debemos de ir extruyendo éstos hasta conformar la forma deseada
+
+
+	_así, como también, de ir seleccionando las spline, que vayamos creando shortcut, "Control + L", para que
+
+	así, podamos ir duplicando éstas shortcut, "Shift + D", para posteriormente ir reubicando éstas de forma
+
+	paralela y con variaciones de transformación en relación a las anteriores
+
+
+	_y para cerrar splines, luego de ajustado y extruido los vertex, necesarios para construir así, la forma
+
+	deseada en muchos requerimemos cerrar las splines, para lo cuál, debemos de seleccioanr tanto el primer
+
+	como el último vertex, de la spline y a continuación aplicaremos el sortcut, "F", para que así, la spline,
+
+	sea cerrada automáticamente
+
+
+
+
+	Surface NURB:
+	_____________
+
+	_y luego de haber editado todas las formas ó splines, replicadas y moduladas entonces es hora de crear la
+
+	forma NURB, resultante para lo cuál, debemos de seleccionar todos los vertex, de todas las splines, creadas
+
+	dentro de éste objeto ha crear, shortcut, "A/A"
+
+
+	_para a continuación crear la forma ó surperficie NURB, shortcut, "F", para que así, el sistema cree la 
+
+	forma nurb, resultante la cuál, podremos editar ó ajustar entrando nuevamnete al "Edit Mode", del sistema
+
+	NURB
+
+
+	_de ésta manera, ésta surface nurb, al momento de su creación y posteriormente la podremos ajustar y variar
+
+	para que así, podamos cambiar la resolución de ésta y su apariencia así, como también, sus características
+
+	de cara a una conversión ha "PolyMesh", mode
+
+
+	_para lo cuál, debemos de selecionar ésta e ir ha "Properties/Data Objet Data/Shape", y allí, ajustar los
+
+	valores de "Resolution | U/V", tanto para previsualización como para render, los cuáles determinarán la
+
+	apariencia y conversión, render, otros
+
+
+
+	Active Spline:
+
+	_así, como también, en el proceso de de modelado y creación de surface nurb, ó ajuste de splines, podremos
+
+	de ajustar el comportamiento y alcance de las surface nurbs, generadas sobre las esplines, respectivas por
+
+	medio de las opciones de "Properties/Data Objet Data/Active Spline", en la cuál, podremos hacer ajustes en
+
+	los valores de "Order", y "Resolution"
+
+
+	_a través, de los cuáles, podremos hacer que surface nurbs, ocupe menos ó más espacio posible en relación
+
+	a la splines, así, como tambíen, hacer desplazamientos de ésta ha modo de "Offset"
+
+
+
+	
+	Extende:
+	________
+
+	_más alternativamente de haber creado la forma nurb, resultante podremos convertir ésta en "Polymesh", 
+
+	para poder así, poder aplicar materiales, procesos UVs, Texturas, y demás procesos de producción
+
+
+	_para lo cuál, debemos seleccionar el objeto de tipo nurb, en "Object Mode", y con éste seleccionado 
+
+	aplicar el shortcut, "Alt + C", para que así, nos aparesca el menú contextural "Convert To", 
+
+
+	_para que así, podamos seleccionar la opción de "Mesh From Curve/Surf/Text", para que así, ahora el objeto
+
+	de tipo NURB, obtengamos un objeto de tipo PolyMesh, el cuál, podremos editar posteriormente de forma
+
+	normal y convencional
+
+
+
+	

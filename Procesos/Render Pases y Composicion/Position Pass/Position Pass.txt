@@ -1,0 +1,180 @@
+
+
+
+
+	Position Pass
+
+
+
+		How to render world position pass
+
+			https://blender.stackexchange.com/questions/7397/how-to-render-world-position-pass
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Position Pass:
+	______________
+
+
+
+	Escena:
+	_______
+
+
+	_primeramente debemos de tener nuesta escena creadas con los elementos ha renderizar en position pass, totalmente 
+
+	creados	y mapeados y animados correctamente respectivamente
+
+
+	_más para el proceso de position pass, es recomendable centrar la escena completa al centro del set, ó stage, para
+
+	que así, todo quede centrado de forma preconcevida
+
+
+	
+	Materials:
+	__________
+
+	_debemos de aplicar un material para todos los elementos en la escena para que así, todos éstos elementos aparescan
+
+	como un todo en el render position pass como un sóo material
+
+
+
+
+	Configuración de Pases:
+	_______________________
+
+
+	_para luego ir al panel "Render Layers/Passes", y allí, seleccionar los pases deseamos en relación el proceso ha
+
+	realizar ó nuestras necesidades 
+
+
+	_en éste caso no necesitamos configurar algún pase de los predefinidos ya que realizaremos un pase con material
+
+	aplicado para que éste emule a través, de nodos un mapa de position pass
+
+
+
+
+	Node Editor/Shaders:
+	____________________
+
+	_leugo de que hayamos agregado un material general para todos los elementos de la escena debemos de ir al panel
+
+	node editor, shortcut, "Shift + F3"
+
+	
+	_así, como también, debemos de colocar el render en modo "Cycles Render", en la parte superior de la interface, para
+
+	que así, el sistema active los nodos de materiales
+
+
+	_para posteriormente ir al panel node editor, y en la parte inferior de éste activar las opciones de "Shaders", para
+
+	que así, podamos empezar ha configurar los nodos necesario para conformar el position pass
+
+
+
+	_Shift +a/Add/Input/Geometry
+
+		_de ésta manera, incorporaremos la información espacial de la geometría y del set, del entorno del viewport,
+
+		para que así, podamos conformar el position pass
+
+
+	_Shift +a/Add/Converter/Separate RGB
+
+		_de ésta manera, debemos conectar la salida de el node "Geometry/Position", al nodo "Separate RGB", para que
+
+		así, podamos combinar ó intercambiar los colores para la generación del mapa
+
+
+	_Shift +a/Add/Converter/Combine RGB
+
+		_y ahora debemos conectar los nodos "Separate RGB | Combine RGB", de ésta manera, debemos conectar conales 
+
+		de la siguiente manera; el canal "R", de "Separate RGB", con el canal "B", del nodo "Combine RGB", y el canal 
+
+		"G", con el canal "R", y el canal "B", con el canal "G"
+
+
+	_Shift +a/Add/Input/Light Path
+
+		_éste nodo nos permitirá agregar la información de la iluminación de la escena la cuál, utilizaremos 
+
+		posteriormente
+
+
+	_Shift +a/Add/Shader/Emission
+
+		_y luego debemos de conectar la selida del nodo "Combine RGB/image", con la entrada del nodo "Emission/Color",
+
+		para que así, el material tome la información de los canales de color que hemos invertido ó combinado en 
+
+		pasos anteriores
+
+
+	_Shift +a/Add/Shader/Mix Shader
+
+		_para a continuación conectar el node "Light Path/is Camara Ray", con la entrada del nodo "Mix Shader/Fac",
+
+		así, como también, la salida del nodo "Emission/Emission", con la entrada del nodo "Mix Shader/Shader2", 
+
+		ó la segunda entrada
+
+
+	_Shift +a/Add/Output
+
+		_para luego conectar el nodo "Mix Shader/Shader", con la entrada del nodo "Material Output/Surface", de ésta
+
+		manera, ya tendremos listo el position pass
+
+
+
+
+	Visualización:
+	______________
+
+	_tenemos la posibilidad de visualizar éste mapa en el viewport 3d, para lo cuál, tenemos que estar en el viewport 3d,
+
+	y aplicar el shortcut, "Shift + Z", de ésta manera, podremos ver los colores del mapa aplicado sobre los elementos
+
+	3d
+
+
+
+
+	Configuración de Render:
+	________________________
+
+
+	_para posteriormente ir a el panel "Render Render/Output/", y allí, en las opciones de archivo de salida seleccionar
+
+	la opción de "Targa", u otros 
+
+
+			
+
+	Renderizado de Pases:
+	_____________________
+
+
+	_para luego hacer el render, donde previamente hemos escogido el tamaño de salida y la ruta de salida para los 
+
+	archivos en caso de que estemos renderizando una secuencia de imágenes ó video, más en los casos de que estemos
+
+	renderizando un frame, único debemos entonces lanzar el render y guardar el renrizado el cuál, es mostrado en el 
+
+	viewport del panel UVMap Editor, shortcut, "F3"
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mirrow Skeleton System:
+	_______________________
+
+
+		Cursor 3D:
+		__________
+
+		_primero debemos colocar el cursor 3d, en el centro de viewport, para ésto abrimos el menú de "Snap", shortcut,
+
+		"Shift + S", y seleccionamos la opción de "Cursor to Center", para que así, el cursor se centro en el centro del 
+	
+		plano axis, he allí la importancia de que el centro de gravedad vertical del character, se encuentre también, junto
+
+		en éste punto central del exis, para que así, el proceso de reflejado por simetría se realice correctamente
+
+
+
+		Selección:
+		__________
+
+		_ahora tenemos que entrar al modo "edit mode", y seleccionar todos los bones, correspontientes a las chains, ó 
+
+		cadenas a duplicar y reflejar de forma de espejo
+
+
+
+		Duplicado:
+		__________
+
+		_ahora con los bones, seleccionados de las respectivas cadenas ó chains, hacemos un duplicado de éstos, shortcut,
+
+		"Shift + D + mouse left click", para que así, éstos bones, duplicados mantengan la posición original de los bones de 
+
+		los cuales éstos fueron duplicados
+
+
+
+		Pivot:
+		______
+
+		_ahora tenemos que hacer que el pivot, de la suma de todos los bones seleccionados se vaya hasta la ubicación del 
+
+		cursor 3d, el cuál, debería de estar en el centro del axis, del plano del viewport, para ésto vamos a las opciones
+
+		del viewport "pivot point", y seleccionamos la opción de "cursor 3d", shortcut ". (doc/punto)", para que así, el
+
+		pivit, tome la ubicación del cursor 3d, que es la del centro del plano que es la que necesitamos para el proceso 
+
+		de reflejado de espejo
+
+
+		Mirrow:
+		_______
+
+		_a continuación hacemos mirrow, yendo ha "armature/mirrow/X Global", ó shortcut "Control + M + X + mouse left click"
+
+
+	
+		Auto Rename:
+		____________
+
+		_tenemos la posiblidad de renombrar a todos los elementos bones, duplicados de forma reflejada para que éstos tomen
+
+		el prefijo opuesto al asignado a los bones, de los cuales fueron duplicados y reflejados, de allí la importancia de
+
+		renombrar los bones, correctamenta a través, del uso de prefijos
+
+
+		_así, tendremos que seleccionar a todos los bones, duplicados y reflejados en el proceso anterior, leugo abrimos el
+
+		menú "Specials", shortcut "W", y seleccionamos la opción de "Flip Names", así, todos los nomsbres de los bones, ej;
+
+		que tenían el prefijo "L_", ahora éstos tendrán el prefijo "R_", de forma automática
+
+
+
+
+
+
+

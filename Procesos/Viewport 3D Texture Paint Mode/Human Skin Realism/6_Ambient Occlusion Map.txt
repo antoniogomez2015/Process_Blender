@@ -1,0 +1,251 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	6_Ambient Occlusion Map:
+	________________________
+
+	_éste nos permitirá representar la columetría a través, del "Cavity", lo cuál, hará visible la topología del motivo
+
+	ó character
+
+
+	_así, como también, éste mapa nos permitirá resaltar la volumetría y efecto de 3d, y profundidad sobre el motivo ó
+
+	character
+
+
+
+	Creación de AO Map:
+	___________________
+
+	_para lo cuál, debemos de crear primeramente una nueva textura, se a través, del panel "Texture Paint/Slots", ó a 
+
+	través, del panel "Properties/Texture Texture", el cuál, debemos de renombrar y crear con las mismas dimensiones que los
+
+	mapas que hemos generado para el proceso de "Diffuse Maps" 
+
+
+	_de ésta manera, iremos al panel "Texture Paint/Slots/Add Texture Paint Slot/", y seleccionamos la opción de 
+
+	"Diffuse Color"
+
+
+	_para que así, nos aparesca un panel contextual en el cuál, podremos indicar las características del mapa ha generar:
+
+
+		_podremos indicar un nombre para la nueva textura ha generar ej: "AO Map"
+
+
+		_así, como también, unas dimensiones, las cuáles, deben ser las mismas que las que utilizamos para la generación
+
+		de los mapas de "Diffuse Color", en éste caso "4K"
+
+
+		_así, como también, un color el cuál, en éste caso será irrelevante ya que éste será sustituido en el proceso de
+
+		volcado de la información de Ambient Occlusion generado sobre la textura
+
+
+		_la transparencia en éste caso también, nos será irrelevante ya que éste será un mapa único sobre la textura en
+
+		relación al slot, de "AO"
+
+
+		_y la profundidad de bits, también, nos será irrelevante y no es tan conveniente activarla ya que ésta aumentará
+
+		los tiempos del proceso y cálculo de AO Map
+
+
+
+	Volcado AO Map:
+	_______________
+
+
+	Asignación de Textura:
+
+	_para posteriormente proceder ha volcar la información del mapa AO, sobre la textura que hemos generado para el AO
+
+
+	_para lo cuál, debemos de seleccionar el motivo ó character, en el viewport 3d, y entrar en "Edit Mode", shortcut, 
+
+	"Tabulador"
+
+
+	_para posteriormente proceder ha selecionar todos los sub-elementos del character, shortcut, "A/A"
+
+
+	_para posteriormente ir al panel "UV Map Editor",shortcut, "Shift + F10", y en la parte inferior del panel 
+
+	"UV Map Editor", seleccionar la respectiva textura que hemos generado para el proceso y volcado del proceso de AO Map
+
+
+
+	Visualización AO:
+
+	_y para visualizar, calibrar y configurar el AO, resultante del proceso, debemos primeramente de ir al panel 
+
+	viewport 3d, y colocar el modo de visualización en: "Rendered"
+
+
+	_y posteriormente ir al panel "Properties/World World/", y estando allí, activar el modo de "Ambient Occlusion", para
+
+	que así, podamos configurar sus características de visualización en el viewport, y de render, las cuáles son:
+
+
+		_Factor:
+
+			_al aumentar el valor de el factor se aumenta ó exagera el efecto de AO, en el viewport 3d, y en el
+
+			render más también, se aumentará el ruido generado por el sistema, el valor por defecto es de "1"
+
+
+		_Blend Mode:
+
+			_el valor normal y por defecto de modo de funsión con los demás shaders, es "Add", más también, 
+
+			dispondremos del modo de fusión de "Multiply", el cuál, incrementará el efecto
+
+
+	_así, como también, podremos activar el modo de visualización de "Ambient occlusion", directamente en el viewport 3d,
+
+	sin la necesidad de estar en el modo de visualización de "Rendered"
+
+
+	_de ésta manera, debemos estar en el viewport 3d, e ir al panel de propiedades de éste, shortcut, "N", y estando allí,
+
+	debemos de ir a las opciones de "Shading", y activar la opción de "Ambient Occlusion", para que así, éste se visible
+
+	ha simple vista
+
+	
+
+
+	Configuración y Resolución del AO Map:
+
+	_más también, tendremos la posibilidad de configurar el comportamiento y calidad del mapa de AO, ha visualizar y ha
+
+	generar en una textura por medio de un volcado para lo cuál, debemos de ir al panel "Properties/World World/", y
+
+	estando allí, ir a las opciones de "Gather"
+
+
+	_de ésta manera, "Gather", nos ofrecerá las siguientes opciones de configuración:
+
+
+		_Raytrace;
+
+			_ésta es la opción más completa y recomendada que da mejores resultados y más rápidos
+
+
+			_Distancia:
+
+				_interación en relación a la distancia de las "Islands", en el UVs, del UV Map
+
+
+			_Samples:
+
+				_en más cantidad de samples mayor será la resolución del mapa resultante lo que quiere decir
+
+				que éste tendrá menos ruido más exigirá más recursos y tiempo del sistema, especialmente útil 
+
+				para superficies brillantes, piel y elementos de alto detalle
+
+
+				_entre menos sea el valor indicado mayor cantidad de reuido hará en el mapa resultante y el
+
+				proceso de cálculo será más rápido; en algunos casos se requiere que haya ruido sobre todo en
+
+				superficies rugosas y sucias, otros
+
+
+			_Falloff:
+
+				_(Indeterminado)
+
+
+			_Stretngt:
+
+				_(Indeterminado)
+
+
+			_Constant QMC:
+
+				_(Indeterminado)
+
+
+		_Approximate:
+
+			_modo de cálculo alternativo
+
+
+
+	Volcado AO Map:
+
+	_para posteriormente de haber asignado la respectiva nueva textura generada al motivo ó character, y de haber 
+
+	configurado las opciones de vosialización y render de AO
+
+
+	_es hora de ir a las opciones de "Properties/Render Render", y bajar hasta las opciones de "Bake", y allí, 
+
+	seleccionar la opción de "Ambient Occlusion"
+
+
+	_y con character, ó motivo en viewport 3d, en edit mode, y con la textura respectiva asignada procedemos ha 
+
+	hacer "Bake", para que así, el sistema comience ha realizar el cálculo y volcado del AO, sobre la respectiva 
+
+	textura ha generar
+
+
+	_la cuál, posteriormente de haber finalizado el proceso de volcado AO, y de estar conformes con el resultado
+
+	podremos guardar ésta textura generada en el disco duro, a través, del panel "UV Image Editor", y para ver éste
+
+	panel a través, del shortcut, "Shift + F10", y para guardar la textura generar a través, del shortcut, "F3", a 
+
+	la cuál, le podremos asignar un nombre característicos como "AO Map.png"
+
+
+
+
+			
+
+				

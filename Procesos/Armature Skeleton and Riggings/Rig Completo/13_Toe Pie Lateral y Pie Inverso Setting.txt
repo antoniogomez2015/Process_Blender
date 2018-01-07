@@ -1,0 +1,414 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Pie Inverso y Lateral System:
+_____________________________
+
+
+	_ahora procederemos con las configuraciones y relacionamientos en bones, y chains, para que así, el
+
+	sistema quede articulado correctamente
+
+
+
+	Creación de handles:
+	____________________
+
+	_primero vamos ha crear los handles, que controlarán al sistema, para ésto, debemos estar en edit mode,
+
+	y proceder ha seleccionar los efectores de los bones, de las articulaciones del pie, en éste caso serán,
+
+	las articulaciones del bone, de las puntas de los dedos, de la bola del pie
+
+
+	Targets para Iks:
+	_________________
+
+	_así, primeramente seleccionamos el efector de la bola del "pie inverso", del bone, del metatarso, ó también,
+
+	podríamos decir, seleccionar el efector del bone, que va desde la punta de los dedos hasta la bola del pie 
+
+	llamado "L_toe_inver_fingers", y extruimos su efector hacia arriba
+
+
+	_para leugo, seleccionar el efector del bone figers, del toe,ó pie, llamado "L_Toe_Fingers", y lo extruimos 
+
+	hacia arriba
+
+
+	Pole Vectors para Iks:
+	______________________
+
+	_para leugo, seleccionar éstos bones, que hemos extruido de las articulaciones y con ambos seleccionados
+
+	porcedemos ha desparentarlos, shortcut; "Alt + P/Clear Parent"
+
+
+	_y aún con ambos bones, seleccionados procedemos ha volverlos ha duplicar, shortcut: "Shift + D", y colocamos
+
+	éstos nuevos duplicados de los bones, un poco más arriba y distanciados de los anteriores
+
+
+	Handle Bridge:
+	______________
+
+	_para luego procedemos ha extruir otro bone, a partir del "efector", que sale de bone fingers, del "pie inverso", 
+
+	en éste caso, "L_toe_inver_fingers", (como si fuesemos ha crear otro bone, para los fingers, ó dedos de los pies),
+
+	más en éste caso sería a partir del efector del pie inverso que se encuentra en la bola del pie ó ball
+
+
+	Bone Bridge:
+	____________
+
+	_así, éste nuevo bone, lo extruimos hacia más allá, de los fingers, para que así, sobre salga de los demás y
+
+	sea visible y manejable por nosotros, éste bone, el cuál, servirá de puente para lograr las rotaciones del 
+
+	sistema
+
+
+	_así, luego de haber creado éste útilmo bone, llamado "L_handle_bridge", iremos ha "properties/bone/Relations",
+
+	y desactivaremos sus opciones de "Inherit Rotación", para que así, ésta no nos moleste en las posteriores 
+
+	configuraciones 
+
+
+	NOTA: si se nos complica la duplicación de bones, a partir de roots, de chains, ó cademos podremos simplemente
+
+	duplicar uno bone, de los efectores dispinibles y luego duplicar éste las veces que lo necesitemos para lograr
+
+	los cuatro bones, necesarios
+
+
+	Master Control:
+	_______________
+
+	_ahora procedemos ha crear un control general para el pie, para ésto, en edit mode, creamos un bone, shortcut,
+
+	Shift + A, de ésta manera se generará un nuevo bone, al sistema de armature, en el lugar donde se encuentre el
+
+	cursor 3d, que debería ser en la mitar del pie ó toe
+
+	
+	Rename Handles:
+	_______________
+
+	_así, como también, a los bones "Targets para Iks", procedemos ha renombrar éstos, para el primer juego de dos 
+
+	bones, duplicados nos servirán de bones, handles, para los sistemas IK, que le colocaremos al sistema de pie 
+
+	inverso, así, renombraremos éstos dos bones, de la siguiente manera:
+
+
+
+		_"L_IK_Toe_fingers"
+
+			_el cuál, nos servirá como bone, controlador para el ik, de los fingers, y posterior controlador
+
+			de la rotación desde la punta de los dedos
+
+
+		_"L_IK_Toe_Metatarso"
+
+			_el cuál, nos servirá como bone, controlador para el ik, del metatarso ó ball, y posterior 
+
+			controlador de la rotación desde la bola de pie ó metatarso
+
+
+	_y el segundo grupo de bones, "Pole Vectors para Iks", duplicados nos servirán como pole vector, del sistema ik, 
+
+	creados anteriormente, de ésta manera, debemos renombrar éstos de la siugiente manera:
+
+
+		_"L_IK_Toe_finger_pole"
+
+			_el cuál, nos servirá de pole vector, el ik, aplicado el bone, de los finger
+
+
+		_"L_IK_Toe_metatarso_pole"
+
+			_el cuál, nos servirá de pole vector, el ik, aplicado el bone, de los metatarso
+
+
+	_y al bone, "Bone Bridge", que utilizaremos de puente lo renombraremos como:
+
+			
+		_ "L_handle_bridge""
+
+
+	_así, como también, renombraremos el bone, que hemos creado como "Master Control" controlar del pie 
+
+	al cuál nombraremos como: 
+
+
+		_"L_Toe_Handle_Master"
+
+
+
+	Parent bones 1:
+	_______________
+
+	_ya en éste punto, debemos comenzar ha emparentar bones, en éste caso debemos seleccioanr el último bone,
+
+	de tipo handle, que creamos al cuál, lo renombramos como "L_handle_bridge", seleccionaremos así, específicamente
+
+	su "efector", para leugo seleccionar con shift, el siguiente bone, "L_toe_inver_fingers", correspondiente al 
+
+	pie inverso, específicamente el bone, que va de regreso desde las punta de los dedos hasta la bola de pie
+
+
+	_y con ambos bones, seleccionar en ese orden debemos hacer parent, shortcur; "Control + P", para que así, nos
+
+	salga solo la elección ó opción de "Conected", (si nos apareces más opciones como "Keep Offset", habremos 
+
+	seleccionado mal el efecto y bone, respectivo)
+
+
+
+	Parent bones 2:
+	_______________
+
+	_para justo a continuación del paso anterior seleccionar el bone, de tipo handle, que creamos para que cumpla 
+
+	de handle, y bone para el ik, llamado en éste caso "L_IK_Toe_metatarso"
+
+
+	_para luego, seleccionar con shift, el bone, llamado "L_toe_inver_fingers", correspondiente al "pie inverso", 
+
+	específicamente el bone, que va de regreso desde las punta de los dedos hasta la bola de pie
+
+	
+	_y con ambos seleccionar en éste orden hacer parent, shortcut; "Alt + P", y seleccionamos la opción de 
+
+	"Keep Offset"
+
+
+
+	Parent bones 3:
+	_______________
+
+
+	_para justo a continuación del paso anterior seleccionar el bone, de tipo handle, que creamos para cumpla de 
+
+	handle, y bone para el ik, llamado en éste caso "L_IK_Toe_fingers"
+
+
+	_para luego, seleccionar con shift, el bone, llamado "L_handle_bridge"
+
+	
+	_y con ambos seleccionar en éste orden hacer parent, shortcut; "Alt + P", y seleccionamos la opción de 
+
+	"Keep Offset"
+
+
+
+	Parent bones 4:
+	_______________
+
+	_para leugo seleccionar el bone, llamado en éste caso, "L_Handle_ankle", ó handle, principal controlador del pie
+
+	y pierna
+
+
+	_para leugo, seleccionar con shift, el último bone, del pie inverso, llamado "L_toe_inver_metatarso", el cuál,
+
+	va desde el metatarso hasta el ankle, ó tobillo
+
+
+	_y con ambos bones, seleccionados y en el respectivo orden hacemos parent, shortcut; "Alt + P", y seleccionamos
+
+	la opción de "Keep Offset"
+
+
+
+	Parent bones 5:
+	_______________
+
+	_para leugo, seleccionar el bone, que hace de handle, como pole vector, para la knee, ó rodilla de la pierna ó leg
+
+
+	_para leugo seleccionar con shift, el bone, de tipo handle, correspondiente a la planta del pie que en éste caso
+
+	hemos renombrado como "L_toe_inver_plant"
+
+	_para leugo, con ambos bones, seleccionados en el orden respectivo hacer parent, shortcut; "Control P", y seleccionar
+
+	la opción de "Keep Offset"
+
+
+	
+	Parent bones 6:
+	_______________
+
+	_ahora procederemos ha seleccionar el bone, de la planta del pie, llamado en éste caso "L_toe_inver_plant", para luego
+
+	seleccionar con "shift", el bone, transversal del "pie lateral", que va de adentro hacia afuera, llamado en éste
+
+	caso "L_Toe_Lateral_Out"
+
+
+	_y con ambos bones, seleccionados y en el orden correcto hacer parent, shortcut, "Control + P", y seleccionar la opción
+
+	de "Keep Offset"
+
+
+	
+	Parent bones 7:
+	_______________
+
+	_para luego, seleccionar el bone, transversal del "pie lateral", que va de adentro hacia afuera, llamado en éste caso 
+
+	"L_Toe_Lateral_Out"
+
+
+	_para luego, seleccionar con "shift", el bone, transversal del "pie lateral", que va de afuera hacia adentro, llamado en 
+
+	éste caso "L_Toe_Lateral_In"
+
+
+	_y con ambos seleccionados y en el orden correcto hacer parent, shortcut, "Control + P", y seleccioanr la opción de
+
+	"Keep Offset"
+
+
+
+	Parent bones 8:
+	_______________
+
+	_para luego, seleccionar el bone, transversal del "pie lateral", que va de afuera hacia adentro, llamado en éste caso 
+
+	"L_Toe_Lateral_In"
+
+
+	_para leugo, seleccioanr con "shift", el bone, que hemos creado como control master del pie, llamado en éste caso 
+
+	"L_Toe_Handle_Master"
+
+
+	_y con ambos bones, seleccionados en el respectivo orden hacer parent, shortcut, "Control + P", y seleccionamos la 
+
+	opción de "Keep Offset"
+
+
+
+	Parent bones 9:
+	_______________
+
+	_y por último, procedemos ha emparentar los bones, de tipo handle, que han servido a los sistema de ik, como 
+
+	pole vectors, con el control master del pie, para que así, éstos sean arrastrados con el sistema del pie y pierna y
+
+	no se queden atras causando problemas de rotación colateral
+
+
+	_de ésta manera, podremos ha seleccionar primero el bone, llamado en éste caso "L_IK_Toe_metatarso_pole", para luego
+
+	seleccionar con "shift", el bone "L_Toe_Handle_Master", y con ambos seleccionados hacemos parent, shortcut; 
+
+	"Control + P", y seleccionamos la opción de "Keep offset"
+
+
+	_para luego repetir la acción seleccionando primero el bone, llamado en éste caso "L_IK_Toe_fingers_pole", para luego
+
+	seleccionar con "shift", el bone "L_Toe_Handle_Master", y con ambos seleccionados hacemos parent, shortcut; 
+
+	"Control + P", y seleccionamos la opción de "Keep offset"
+
+
+
+
+
+	IK System:
+	__________
+
+	_ahora procederemos ha aplicar los ik, a los bones, del pie inverso para así, ir acoplando el sistema con sus
+
+	respecticos controladores ó handles, para lo cuál, tendremos que estar en el modo "Pose Mode"
+
+
+	IK 1:
+	_____
+
+	_ya en éste punto vamos aplicar un sistema ik, al bone, del metatarso correspondiente al pie normal llamado en 
+
+	éste caso "L_Toe_Tarso", y para dicho sistema de ik, utilizaremos como bone, controlador ó handle, al bone, 
+
+	llamado "L_IK_Toe_Metatarso"
+
+
+	_de ésta manera, podreceremos ha seleccionar primero el bone, "L_Toe_Tarso", y luego el bone, 
+
+	"L_IK_Toe_Metatarso", y con ambos bones, seleccionar en el orden correcto pricedemos ha aplicar el ik, a través,
+
+	de su shortcut; "Shift + I"
+
+
+	_o también, podríamos aplicar el ik, de forma manual, para éste modo debemos primero selecciónar el bone, 
+
+	"L_Toe_Tarso", y con éste seleccionado ir ha "properties/constraint/", y seleccionar "Kinematic Inverse",
+
+	ó también, a través, del menú ontextual de constraint, shortcut, "Control + Shift + C"
+
+
+	_para leugo proceder ha configurar el constraint, sobre los bones que éste accionará y sus controladores ó handles, y
+
+	de ésta manera, el bone, "L_IK_Toe_Metatarso", será el bone, handle, del ik, aplicado al bone, "L_L_Toe_Tarso",
+
+
+	_y en éste punto, se han desacomodado los bones, por ésta acción, sólo debemos ir a las propiedades del constrinar, que
+
+	hemos aplicado del ik y ajustar el valor de "Chain Lenght: 1", y colocar un valor de uno/1", para así, limitar el alcance
+
+	de la incluencia del sistema ik, y no afecte a los demás bones, del sistema
+
+
+	_e igualmente en las propiedades el constraint, IK, vamos a las propiedades de "Pole Target", y volvemos ha seleccionar
+
+	"Armature", y como bone, seleccionaremos "L_IK_Toe_metatarso_pole", para que éste controle la dirección del sistema ik
+
+
+	
+	IK 2:
+	_____	
+
+	_ya en éste punto vamos aplicar un sistema ik, al bone, de los fingers correspondiente al pie normal llamado en 
+
+	éste caso "L_Toe_Fingers", y para dicho sistema de ik, utilizaremos como bone, controlador ó handle, al bone, 
+
+	llamado "L_IK_Toe_fingers"
+
+
+	_de ésta manera, seleccionaremos el bone _Toe_Fingers", y con éste seleccionado le aplicaremos un sistema ik, shorcut;
+
+	"Control + Shift + C", y seleccionaremos la opción de "inverse kinematic"
+
+
+	_y leugo entraremos a sus opciones de configuración y en "Chain Lenght", colocamores un valor de "1", y en "Target", 
+
+	seleccionaremos "Armature", y en "bone", seleccionaremos el bone, "L_IK_Toe_fingers"
+
+
+	_y en la sección de "Pole Target", seleccionaremos "Armature", y en "Bone", seleccionaremos el bone, de 
+
+	"L_IK_Toe_finger_pole"
+
+
+
+
+
+	

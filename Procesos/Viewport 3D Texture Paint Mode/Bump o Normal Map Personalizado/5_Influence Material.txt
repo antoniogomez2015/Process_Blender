@@ -1,0 +1,40 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Influence Material:
+	___________________
+
+	_para luego ir a las opciones de la textura en éste caso de la textura que hace de bump, ó normal map 
+
+
+	_para lo cuál, debemos seleccionar la respectiva textura yendo a las opciones de "Texture Paint/Slopts/", ó 
+
+	yendo ha "Properties/Texture Texture"
+
+
+	_para luebo con la textura respectiva seleccionada bajar hasta la parte de más abajo en la sección de:
+
+	"Properties/Texture Texture/Influence", y allí, desactivar la opción de: "Col", ó color, y activar la opción de:
+
+	"Normal"
+
+
+	_para que así, éste mapa haga las funciones de mapa de normales ó bump
+
+
+

@@ -1,0 +1,46 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Armature Modifier:
+	__________________
+
+
+		_para un mayor control y un mejor comportamiento del skinning, podemos configurar las opciones del modificador
+
+		"Armature"
+
+
+		_para ésto, seleccionamos el mesh, character, y vamos a las opciones de "Properties/Modifiers/Armature", y allí,
+
+		activamos las opciones de "Presenve Volume", para que así, éste respete lo mayor posible la topología de la mesh,
+
+		character
+
+
+
+
+
+	Edición del Skinning ó Envelope:
+	________________________________
+
+
+		_
+
+

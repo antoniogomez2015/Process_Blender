@@ -1,0 +1,70 @@
+
+
+1_Add/Curve/Bezier, shift + A
+
+
+2_en Data Object Data, podemos elegir en Shape/ 2D ó 3D, en 2D, limitamos la acción de la cordenada "Z"
+
+	_las líneas guías en modo 3D, indican la dirección de la spline así, como la suavidad en relación a 
+
+	la cantidad de guías así, como la velocidad para animaciones y simulaciones
+
+	_estas características las podemos modificar en: Data Object Data/Shape/Resolution/, (Preview/Render)
+
+
+3_entrar en modo edit, tab
+
+
+4_modos de "Handles", para la extrución y edición de la espline resultante, 
+
+	Curve/Control Point/Set Handle Type/, shortcut "V" 
+
+
+	4.1_Automatic: modo por defecto, la extrusión abedece a la dirección del handle de la dirección de la 
+
+	extrusión y sería una curva smooth/suave
+
+
+	4.2_Vector: este modo permite hacer una extrusión con ángulos rector obviando la dirección de los handles
+
+
+	4.3_Aligned: este modo permite hacer una extrusión sin ángulos agudos
+
+
+	4.4_Free: este modo liberar la correlación entre ambos handles, de esta manera podemos hacer ediciones 
+
+	independientes el uno del otro en relación al vertex al cuál pertenecen
+
+
+
+5_extrude: "E"
+
+
+
+6_Specials:
+
+	_Subdivide: seleccionamos 2 vertex de la spline y aplicamos subdivisiones + F6, para incremetar más 
+
+	segmentos
+
+
+	_Switch Direction/invertir dirección de la spline
+
+
+7_Toggle Cyclic/cerrar curvas ó spline: Alt + C
+
+
+8_Rotación de las guías: Curve/Control Points/Tilt, Control + T + Drag
+
+
+9_Limpiar rotación de guías: Curve/Control Points/Clear Tilt, Alt + T
+
+
+10_rescalar Normals/suavizar spline y handles: Curve/Control Points/Recalc Normals, Control + N
+
+
+
+
+
+
+

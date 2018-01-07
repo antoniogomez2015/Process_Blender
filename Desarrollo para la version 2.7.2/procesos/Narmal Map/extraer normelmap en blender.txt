@@ -1,0 +1,27 @@
+
+
+	1_primero modelamos en forma poliginal lo la forma deseada
+
+	2_a la forma creada procedemos a crearle los "Mask Seam", ó líneas de corte para procedo de UVs
+
+	3_luego procedemos a esculpir la forma que hemos creado previamente
+
+	4_ahora hacemos una copia del modelo, shortcut Control + D, este duplicado lo debemos dejar en el mismo lugar que el modelo esculpido, en las cordenadas 0.0.0
+
+		4.1_ha este modelos duplicado debemos quitarle los modificadores que tenga, tanto el modificador "Multires", como el "Mirrow", para así, obtener el low poly del modelo
+
+		4.2_ahora podriamos duplicarl el 3D viewer, para abrir el panel de UVImage editor, para crear una nueva textura en la cuál fijaremos el NormalMap, generado
+
+			4.2.1_ahora en el panel UVImagen, creamos una nueva textura, dándole a "New", y la pintamos de color blando
+
+	5_ahora procedemos a extraer ó crear los UVs, sobre la textura blanca que hemos creado, yendo al panel UVs, shortcut "U", y hacemos "Unwrarp"
+
+	6_ahora para el procedo de creación de los normal maps, seleccionamos primero el modelo de "Low Poly", y luego seleccionamos el modelo "Hight Ply", (es fundamental respetar este orden)
+
+	7_luego ambas meshes, profesionales vamos el panel de "Render/Bake", y seleccionamos en Bake Mode: Normals
+
+		
+
+	
+
+	

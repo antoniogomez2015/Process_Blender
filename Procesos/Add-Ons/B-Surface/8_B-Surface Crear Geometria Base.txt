@@ -1,0 +1,49 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Crear Geometría Base:
+	_____________________
+
+	_para lo cuál, necesitaremos al menos dos trazos preferiblemente paralelos con el brush, de la herramienta
+
+	grease pencil
+
+
+	_para lo cuál, debemos de activar el brush, ha utilizar, yendo ha "Vewport 3D/Tool/Crease Pencil/Draw", en
+
+	cuál, debemos de activar el pincel ó brush, "Draw", ó a través, del shortcut, "D", sostenido y arrastramos
+
+	sobre el viewport 3d. y sobre la geometría ó motivo respectivo
+
+
+	_para que así, procedamos ha ir creando trazados con la herramienta grease pencil, los cuáles, se 
+
+	convertirán posteriormente en geometría gracias al addon, b-surface
+
+
+	_para posteriormente con ambos trazos creados hacer ir a las opciones de "viewport 3D/Tool/B-Surface",
+
+	y allí, darle a la opción de "Add Surface", para que así, nueva geometría sea agregada respectivamente
+
+
+	_la cuál, podremos ajustar ó modificar posteriormente en las opciones de b-surface, para que así, podamos
+
+	hacer variaciones en relación a la cantidad de geometría ó resolución resultante 
+
+
+	_para lo cuál, dispondremos de shortcut, a través, del cuál, podremos acceder a las opciones de 
+
+	configuración de la geometría optenido éste es, "F6"
+
+

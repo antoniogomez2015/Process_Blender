@@ -1,0 +1,95 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+		_primero debemos tener listo nuestro character por lo general en una versión low poly, ó en retopology, adaptado
+	
+		para el proceso de riggings, and skinning, ó envelope, es decir, éste debe estar en baja resolución y con las 
+
+		extremidades abiertas ó separadas para facilitar el proceso, así, como también, el centro de gravedad del character,
+
+		que signa la mitad del mismo debe de coincidir con la midad de plano del axis, del viewport
+
+
+
+	Skeleton System ó Armature:
+	___________________________
+
+		
+		Armature:
+		_________
+
+		_és recomendable primero colocar el cursor en el centro de gravedad del character, previamente, para ésto vamos al
+
+		modo edit, y seleccionamos los vextes, del área circundante a la cintura del character, y luego hacemos shortcut,
+
+		"shift + s/Cursor to Seleted", así, el cursos irá hasta el punto medio de los sub-elementos seleccionados
+
+
+		_luego creamos un skeleton system, para ésto, debemos crear un objeto de tipo armature, estando en modo object, yendo 
+
+		ha "shift + A/Add/Armature/Single Bone", así, éste se creará en la posición del cursor
+
+
+		Display:
+		________
+
+		_para poder visualizar las chains, de bones, a través, del character, debemos seleccionar el armature, object, e ir
+
+		ha "properies/data object data/display", y activar la opción de "X-Ray", para que así, podamos ver a través, de la
+
+		geometría ó mesh, de nuestro character
+
+
+		Skeleton System:
+		________________
+
+
+		_ahora debemos seleccionar el "Single Bone", que creamos en el paso anterior y entramos al modo de edición, "edit",
+
+		shortcut, "Tab", así, en el modo de edit, podremos ver que el "single bone", se compone de un "root", ó raíz, y un
+
+		"head", ó cabeza
+
+
+		_ahora debemos empezar ha modular el skeleton system, deseado sobre la mesh, de nuestro character, en relación a la
+
+		lógica y cinemática de nuestro characarter 
+
+		
+		_para ésto, debemos seleccionar la "head", ó cabeza de nuestro "single bone",
+
+		en "edit mode", y comenzar ha mover ésta así, como de extruir ésta para crear nuevos bones, a través, del shortcut,
+
+		"E + mouse and drag", ó también moviendonos hasta un punto de destino con "control + mouse left click", de ésta manera
+
+		podremos ir creando las diferentes chains, ó cadenas que conforman nuestro character, ej; una cadena de bones, y joints,
+
+		los "arms", ó brazos, otra para las "legs", y así, secesivamente, todo éste proceso por lo general lo hacemos en el lado
+
+		izquierdo del character, contemplando la posibilidad de reflejar todo el proceso hacia el otro lado posteriormente para
+
+		ahora tiempo y proceso
+
+
+
+

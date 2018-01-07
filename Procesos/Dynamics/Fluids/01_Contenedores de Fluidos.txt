@@ -1,0 +1,47 @@
+
+
+
+Dinamicas en Blender
+
+	
+	V2V y Lynda
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Contenedores:
+_____________
+
+
+
+	_para crear un contenedor de fluidos a partir de una forma base, debemos de seleccionar ésta forma ó motivo en el 
+
+	viewport 3d, ésta forma de geometría podría ser un cubo por ejemplo
+
+
+	_así, con éste motivo seleccionado iremos a las opciones del panel "Properties/Physics/", y haremos click, sobre la
+
+	opción de "Fluid"
+
+
+	_para que así, el sistema nos configure éste motivo como un elemento parte del sistema de fluidos y nos deje ahora 
+
+	escoger el tipo de elemento será éste elemento dentro ó parte del sistema de fluidos
+
+
+	_así, a través, de la opción de "Type", podremos escoger el tipo de elemento y comportamiento que optará éste elemento
+
+	dentro del sistema de fluidos
+
+
+	_de ésta manera, seleccionaremos la opción de "Domain", la cuál, convertirá nuestro motivo en un elemento de tipo 
+
+	contenedor dentro del sistema de fluidos
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+
+
+
+
+Blender Dynamics /Smoke
+
+
+	referencia:
+
+		Tutorial Blender. Mallas con soft body en 5 minutos (Español)
+
+			https://www.youtube.com/watch?v=kbIYmX7zrIE
+
+		utorial Soft Body en Blender
+
+			https://www.youtube.com/watch?v=DiO52a-iK_k
+
+		Blender 3D Tutorial - Softbody Simulation (deutsch)
+
+			https://www.youtube.com/watch?v=Fn4dIaNG6VE
+
+
+		Blender apunte: como activar física de tejidos
+
+			https://www.youtube.com/watch?v=rh_I6agT8S4
+
+
+		Simple and Fun Soft Body Physics in Blender!
+
+			https://www.youtube.com/watch?v=4gYsxqNJyu8
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Soft Body:
+	__________
+
+
+		1_lo primero que tendremos que hacer es tener un objeto de tipo mesh, el cuál, hará de superficie receptora
+
+		como por ejemplo un plano el cuál, hará de suelo ó cualquier otra forma en relación a la lógica de la escena
+
+
+		_de ésta manera, debemos de seleccionar esta mesh, y con ésta seleccionar ir ha "Physis/", y allí, le activamos
+
+		la opcion de "Collision", ha éste objecto para que así, éste objeto ahora responda a propiedades dinamicas
+
+		como las de soft body
+
+
+		2_para posteriormente crear las otras geometrías las cuáles, harán de rigid body, de ésta manera, debemos de
+
+		seleccionar cada una de éstas y con una de éstas seleccionadas vamos a las opciones de "Physics/", y allí,
+
+		debemos de activarle la opción de "Rigid Body", para que así, éste elemento ahora se un elemento dinámico 
+
+		de tipo soft body 
+
+
+		3_en la mayoría de los casos será conveniente ha un elemento al cuál, le hemos activado las opciones de soft body,
+
+		será la desactivación de las opciones de "Sift Body Goal", ya que ésta opción mantendrá al respectivo elementos
+
+		de forma suspendida en su posición lo es útil sólo para un cierto tipo de casos
+
+
+		_de ésta maenra, al desactivar la opción de "Soft Body Goal", ahora el respectivo elemento si responderá a la
+
+		gravedad por defecto generada por el sistema general para que así, éste elemento si pueda interacturar con los
+
+		demás elementos de la escena dinámica
+
+
+
+	Soft Body Edges:
+	________________
+
+	_ésta serie de opciones nos permitirá controlar el comportamiento que tendrán los distintos elementos blandos que conformarán
+
+	el sistema en relación a nuestras necesidades
+
+
+
+		Pull: (desinflado)
+		_____
+
+		_ésta opción hará el elemento elástico cuando una superficie colisione contra otra superficie, estirando 
+
+		y contrayendo el elemento hasta que éste recobra el estado de reposo perdiendo parte de su forma original
+
+
+		Push: (inflado)
+		_____
+
+		_ésta opción tratará de mantener la forma original cuando una superficie colisione contra otra superficie
+
+
+		Bending: (amortiguación)
+		_______
+
+		_ésta opción tratará de mantener la forma original del objeto luego de éste haber solisionado con otro elemento
+
+		de ésta manera, podremos utilizar ésta opción junto con las opciones de "Push", para mantener la forma del
+
+		objeto original
+
+
+

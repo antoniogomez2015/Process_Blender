@@ -1,0 +1,201 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Armature:
+	_________
+
+
+	Consideraciones:
+
+	_debemos de crear un armature, ó sistema de huesos ó skeleton system, el cuál, es recomendable crear la 
+
+	mitad de éste para luego suplicar éste de forma reflejada así, como también, todos los controles creados
+
+	sobre éste como los handles, y demás relaciones, emparentamientos y constraints, posibles
+
+
+
+	Main Root:
+
+	_es preciso que coloquemos el bone, principal  ó número "1", el cuál, se crea por defecto al crear ó cargar 
+
+	el armature system object, en la escena
+
+	
+	_de ésta manera, debemos de colocar éste bone, como el bone, correspondiente a la cadera ó hip, del 
+
+	character, para que así, a través, de éste el sistema pueda hacer que el character, pueda agacharse ó 
+
+	inclinar las rodillas y por ende todo el character
+
+
+	_así, de ésta manera, utilizaremos éste bone, como punto de partida para generar la spine, y demás partes
+
+	ó extremidades del cuerpo respectivo
+
+
+
+	Chains:
+
+	_posteriormente de haber creado el sistema base de armature, podemos comenzar ha crear las partes ó 
+
+	extremidades del character, para lo cuál, describiremos ha modo general las estructuras ha seguir ó ha 
+
+	tomar en cuenta para la creación de un character, como un rig global
+
+
+
+	Master Control:
+
+		_éste corresponderá el bone, principal y por lo general será el primer bone, ha crear a partir de
+
+		haber creado el sistema de armature, base
+
+
+		_para lo cuál, debemos seleccionar el objeto de tipo armature, y entrar a su edit mode, shortcut,
+
+		"Tab", y sin ningún bone, seleccionado previamente debemos hacer "Shift + A", teniendo el cursor 
+
+		3d, en el centro del viewport 3d, para que así, el sistema genere un nuevo bone, a partir de ésta
+
+		nueva posición y como una nueva cadena ó chains, de bones, idependiente de la nativa ó original
+
+		
+		_éste bone, lo debemos renombrar ej; "Handle Master"
+
+
+		_así, como también, debemos de seleccionar éste bone, en edit mode, e ir ha 
+
+		"Properties/Bone Bone/Deform", y allí, desactivar ésta opción para que así, éste bone, no esté
+
+		contemplado en el proceso de weight map, ó envelope, ó skinning, posteriormente
+
+
+
+		Spine:
+
+
+			_la spina ó columna vertebral estará conformada por lo genera por "5", bones, en forma de
+
+			doble "S", para lo cuál, lo más recomendado es crear ésta en el viewport 3d, axonométrico
+
+			"Left/Right", para tener así, una mayor precisión
+
+
+			_Handle Hip
+
+				_Spine1
+
+					_Spine2
+
+						_Handle Chest-Spine3
+
+							_Neck1
+			
+								_Neck2
+									
+
+
+		_Head:
+
+			_la cabeza estará conformada sólo por una sólo bone, el cuál, estará unido ó partirá a 
+
+			partir del último bone, del cuello de la columna ó spine
+
+
+			_Head
+
+		
+
+
+		_Arms:
+
+			_el estructura de "shoulder", ó hombro pueda estar formada por sólo el brazo ó "arm", ó
+
+			también, contemplar la estrctura de la clavícula la cuál, será opcional
+
+
+			_la estructura adicional de hombro ó clavícula nos permitirá articular el hombro de forma
+
+			opcional
+
+
+			_L Clavicula
+
+				_L Humero
+
+					_L Radio
+
+						_L MetaCarpo
+
+
+		_Hands:
+
+			_la estructura de los dedos estará conformada por las tres falanges para cada dedo 
+
+			respectivamente
+
+
+			_y ésta será un cadena ó chain, independiente de bones, ó huesos para lo cuál, podremos
+
+			el bone, correspondiente al "L MetaCarpo", shortcut, "Y", en "Edit Mode", ó crear uno a
+
+			partir de éste punto indicando ésta posición a través, del cursor 3d
+
+
+			_las cadena de bones, para los fingers, son las siguientes:
+
+
+				_L Finger Tumb Falange1, 2
+
+				_L Finger Index Falange1, 2, 3
+
+				_L Finger Midle Falange1, 2, 3 
+
+				_L Finger Ring Falange1, 2, 3
+
+				_L Finger Pinky Falange1, 2, 3
+
+
+		_Legs:
+
+			_la pierta estará conformada por dos bones, a través, de los cuáles, se podrá articular la
+
+			pierna entera la cuál, arrastrará el pie
+
+
+			_L Femur
+
+				_L Tibia
+
+
+					Foot:
+
+						_en éste caso, la estructura del pie está simplificada y no 
+
+						contempla "fingers"
+
+
+						_L MetaTarso
+
+							_L Fingers
+
+
+
+
+

@@ -1,0 +1,40 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Nodos:
+______
+
+
+	Node Editor/Compositing/Add/Color/:
+
+
+	_tenemos ha nuestra disposición el nodo de "Mix", el cuál nos permitirá mezclar ó fusionar el resultado de varios 
+
+	nodos a la vez, los cuales nos tienen por que ser del apartado de color, si no que de éste nodo permite fusionar el
+
+	resultado de dos nodos diferente sea cuál sea su ámbito ó aplicación
+
+
+
+	_para lo cuál, éste nodo de dispone de dos inputs, de entrada y un "Fac", ó factor de intercalado ó fusión entre ambos
+
+	valores de entrada
+
+
+	_así, como también, dispone de modos de fusión bastante ámplios como los de Photoshop
+
+
+		
+
+
+

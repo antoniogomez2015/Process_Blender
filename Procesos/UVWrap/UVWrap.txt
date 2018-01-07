@@ -1,0 +1,50 @@
+
+
+1_seleccionar una de las vistas ó el outliner y convertirlo en el panel "UV/image Editor", sobre el panel Shift + F10
+
+
+2_a la mesh, deseada le crearemos y asignaremos un material, yendo ha Properties/Material/New Material +
+
+
+3_en el panel UVWrap, creamos una nueva textura, en + New:
+
+	3.1_Name: le colocamos por ej: UVMotive
+
+	3.2_With: 4096
+
+	3.3_Height: 4096
+
+	3.4_Generated Type: UV Grid
+
+
+4_seleccionamos la mesh, deseada y entramos en modo edit mode
+
+
+5_seleccionamos los sub elementos faces deseados para cada extracción deseada de la mesh,
+
+es recomendable hacer loops y rings, de edges, luego convertirlos a vertex y luego a faces
+
+
+6_luego vamos a Mesh/UV UnWrarp, ó el shortcut "U"/ unwrap, así se proyectará la extracción de la selección que hemos
+
+
+indicado a través de las faces, seleccionadas en el panel "UV/image Editor"
+
+
+7_las proyecciones que vamos realizando debemos irlas moviendo y quidando del área de proyección para que éstas no se
+
+superpongan con las siguientes, para eso disponemos de los modo de selección siguientes:
+
+	7.1_vertex
+
+	7.2_edges
+
+	7.3_ island
+
+más las opciones de translate, rotate, scale, convencionales que funcionan de la misma manera de las edición de los UVs
+
+
+8_por último ajustaremos la posición y tamaño de cada una de las extracciones realizadas de las partes de la meshs, dentro del áres
+
+del canvas que representará la textura de la mesh
+

@@ -1,0 +1,309 @@
+
+
+
+
+	Blender 2.7 Tutorial #57 : Post-Processing & Video Effects #b3d
+
+		https://www.youtube.com/watch?v=Zqp8wDVNnOU
+
+
+	BB- Use Video Sequencer Editor to cache nodes compositing
+		
+		https://www.youtube.com/watch?v=icDGunOwK-k
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Compositing and Video Secuence Editor:
+	______________________________________
+
+	_ésta opción nos permitirá integrar la composición del panel "node editor", y 3d viewport, dentro del panel 
+
+	"Video Secuence Editor", para que así, podamos aumentar las posibilidades de composición y producción
+
+
+	_para que así, podamos integrar de fora más ámplia y con más herramientos más material de archivo y composición
+
+
+
+
+	Render Setup:
+	_____________
+
+	_primeramente debemos de configurar las opciones de pos proceso de render de blender para que así, blender, de salida a las
+
+	opciones de pos procesamiento
+
+
+	_para lo cuál, debemos ir las opciones de
+
+
+		_"Properties/Render Redner/Post Processing/"
+
+
+	_en la cuáles, encontremos las opciones a su vez de
+
+
+		_Compositing
+
+		_Secuence
+
+
+	_éstas opciones lo más recomendable es tenerlas activadas para una mayor integraciones entre los paneles internos de blender
+
+
+
+
+
+	Composite Setup:
+	________________
+
+	_para leugo ir al panel "Node Editor", y allí, conformar dos ramas ó branchs, mínimas en la lógica de una composición en la
+
+	cuál, deseamos integrar diferentes elementos en una escena la cuál, deseamos a su vez, enviar al panel "Video Secuence Editor"
+
+
+	
+		_Shift + A/Add/Input/Render Layers
+
+
+			_a través, de éste nodo podremos cargar en éste el resultado del render del panel viewport 3d, dentro del panel
+
+			node editor, para lo cuál, debemos hacer un render previo del panel viewport 3d, shortcut, "F12"
+
+
+			_para que así, éste render sea cargado en el nodo de "Render Layers", dentro del panel "Node Editor"
+
+
+
+		NOTA:
+
+
+
+			Index Pass:
+			___________
+	
+			_más para que los elementos de la escena puedan ser integrados correctamente lo más recomendables es
+
+			seleccionar éstos elementos en el viewport 3d, ó outliner, y una vez hemos seleccionado uno ó más elementos
+
+			de tipo mesh, ir a las opciones de 
+
+
+				"Properties/Data Object Data/Relations/"
+
+
+			_y allí, en las opciones de
+
+
+				_"Pass Index"
+
+
+			_indicar un index, para cada respectivo elemento ó para cada reserva matte, que deseamos realizar sobre los
+
+			elementos de la escena
+
+
+
+			Object Index:
+			_____________
+
+			_así, como también, tendremos que ir a las opciones de render pass, para configurar éste respectivo pase yendo
+
+			ha
+
+
+				_"Properties/Render Layers/Pasess"
+
+
+			_y allí, activar el pase de
+
+
+				_Object Index
+
+
+			_para que así, éste pase contemplado por el sistema de render y así, éste matte, esté disponible en el proceso
+
+			de composición
+
+
+			
+			ID Mask:
+			________
+
+			_Shift + A/Add/Converter/ID Mask
+
+				_para posteriormente cargar éste nodo "ID Mask". en el panel node editor, al cuál, a su vez, debemos
+
+				de conectarle la salida de el nodo "Render Layers/IndexOB"
+
+
+				_y a su vez, debemos de conectar el nodo "ID Mask", en la entrada del nodo "Mix/Fac", para que así,
+
+				el nodos "Render Layers", reciba en éste caso el matte, que hemos creado previamente en el proceso
+
+				render para que así, la composición se vea correctamente
+
+
+
+		_Shift + A/Add/Input/Image | Image-Secuence
+
+
+			_para que así, a través, de éste nodo podamos importar una imágen ó secuencia de imágenes las cuál, deseamos
+
+			incorporar dentro del panel node editor
+
+
+			_la cuál, a su vez, deseamos que interactúe con el render del nodo "Render Layers"
+
+
+			_para lo cuál, debemos de integrar tanto el nodo "Render Layers", como el nodo "Image", a través de un nodo
+
+			de tipo "Shift + A/Add/Color/Mix"
+
+
+
+		_Shift + A/Add/Output/Composite
+
+
+			_y éste nodo "Mix", a su vez, lo debemos conectar con el nodo de salida ó integración "Composite", para que
+
+			éste nodo composite, le pueda enviar la información al panel "Video Secuence Editor"
+
+
+
+
+
+	Video Secuence Editor Setup:
+	____________________________
+
+	_para a contnuación abrir el panel "video secuence editor", shortcut, "Shift + F8", en el cuál, podremos activar las opciones
+
+	de "Use Backdrop", para que así, podamos la composición resultante sobre éste panel
+
+
+	_más posteriormente para cargar ó incorporar el resultado del panel "node editor", dentro del panel "video secuence editor",
+
+	disponemos de un método directo
+
+
+
+		_Shift + A/Scene/Scene
+
+			_de ésta manera, se agregará una nueva secuencia al panel "video secuence editor", la cuál, conformará la
+
+			visualización previa del panel viewport 3d, aún no la visualización del "Node Editor"
+
+
+			_de ésta manera, tendremos varias opciones y modos de visualización dentro del panel "video secuence editor",
+
+			por lo cuál, luego de haber cargado la composición del panel "node editor", como una secuencia dentro del
+
+			panel "video secuence editor"
+
+
+			_debemos entonces configurar el modo de visualización deseado en relación a los resultados ó a los elementos
+
+			paneles ó modos de render que deseamos tener dentro del panel "video secuence editor"
+
+
+			_de ésta manera, debemos de seleccionar la secuencia de la escena que hemos cargado dentro del panel
+
+			"video secuence editor", y una vez seleccionada debemos de abrir sus opciones ó propiedades shortcut, "N"
+
+
+			_en la cuál, debemos de bajar hasta las opciones de 
+
+
+				_"Scene Preview/Render"
+
+
+			_y en ésta sección dispondremos de varias opciones entre las cuáles dispondremos de las siguientes:
+
+
+
+				_OpenGL Preview:
+
+					_tener activada ésta opción nos permitirá visualizar sólo el panel viewport 3d, a través,
+
+					de las opciones de visualización de las opciones de "View Mode", expresadas en a continuación
+
+					
+					_de ésta manera, como podremos ver ésta opción es muy útil cuando sólo deseamos incorporar
+
+					dentro del panel "video secuence editor", sólo el contenido del panel viewport 3d, ó sólo la
+
+					geometría 3d, y demás elementos de la escena
+
+
+					_descartando los demás elementos y composiciones del panel "Node Editor"
+
+
+					NOTA: ésta opción pueda resultado diferentes y mejor calidad cuando tenemos instalada una 
+
+					tarjeta ó aceleradora gráfica potente y última generación de lo contrario lo más recomendado
+
+					es colocar ésta opción en desactivada la cuál, viene activada por defecto
+
+
+
+				_View Mode:
+
+					_ésta opción nos permitirá disponer de los mismos modos de visualización del panel viewport 3d,
+
+					de ésta manera, podremos disponer el contenido del viewport 3d, tanto en modo de visualización
+
+					alámbrica, sombreada, texturizada, renderización en tiempo real ó render final
+
+
+					_de ésta manera, como podremos ver podremos configurar el modo de visualización en el panel
+
+					"video secuence editor", en relación a nuestras necesidades y requerimientos de composición
+
+
+					NOTA: ésta opción aplica sólo cuando tenemos la opción de "OpenGL Preview", activada
+
+
+
+		_por último cuando hayamos realizado cambios en el panel "Node Editor", éstos cambios no se actualizarán 
+
+		automáticamente en el panel "Video Secuence Editor", si no que tendremos que actualizar éstos de forma manual
+
+
+		_para lo que dispondremos en el panel "Video Secuence Editor", de la opción ó botón de 
+
+
+			_"Refesh Sequencer"
+
+
+		_en la parte inferior del panel "Video Secuence Editor", para que así, la secuencia de la escena importada respectiva
+
+		sea actualizada correctamente a los últimos cambios realizados en el panel node editor
+
+
+
+
+
+
+	NOTA: la opción de incorporar el contenido del panel "Node Editor", no es muy recomendable aún, ya que requeriríamos de una
+
+	gran cantidad de momoria RAM, procesador y aceleración gráfica 3d, de última generación de alto nivel para poder mover y
+
+	visualizar las composiciones dentro del panel "Video Secuence Editor"
+
+
+	_más en las opciones de "Preferences/System/Sequencer/Clip Editor", dispondremos de una opción que nos permitirá reasignar
+
+	memoria para éstos procesos de forma personalizada shortcut, "Control + Alt + U"
+			
+
+
+
+
+
+
+
+

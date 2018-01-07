@@ -1,0 +1,63 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Retopology:
+___________
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Workflow: Bsurface:
+___________________
+
+
+	
+	Add-ons:
+	________
+
+
+	_primero debemos instalar y activar el add-ons, "Bsurface"
+
+
+		_Activación: Blender User Preferences/Add-ons/"Mesh: Bsurface GLP Edition" 
+
+
+		_Location: 3D View/EditMode/ToolShelf
+
+
+
+	Mesh Base:
+	__________
+
+
+	_debemos crear ó tener un "objecto", disponible, puede ser una mesh, que ya estemos utilizando como
+
+	una retopología previa ó utilizar una agregada nueva como ej, un "plane", al cuál, le eliminaremos
+
+	sus vertex, para quedarnos así, sólo con objeto vacío temporalmente
+
+
+	Crease Pencil:
+	______________
+
+	
+	_ahora creamos un "Crease Pencil", nuevo en el menú lateral derecho, shortcut: "N"
+
+
+	_y en el panel lateral izquierdo, shortcut: "T", vamos a la "Tab/Crease Pencil", e indicamos las
+
+	opciones de:
+
+	
+		_Surface
+
+		_Only Endpoints
+
+
+
+
+

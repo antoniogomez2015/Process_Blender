@@ -1,0 +1,235 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Skinning Armature:
+__________________
+
+
+	_para vincular el armature, ó skeleton system, a la mesh, del character, deseado debemos
+
+	primero estar en el "Object Mode"
+
+
+	_luego seleccionamos primero el mesh, del character, deseado
+
+
+	_luego seleccionamos el armature, ó skeleton system, respectivo
+
+
+	_ahora con ambos elementos seleccionados hacemos "Control + P", para abrir el panel
+
+	"Set Parent To", y seleccionamos la opción de "With Automatic Weights"
+
+
+	_de esta manera veremos que al articulas los diferentes bones, y chains en el modo "Pose Mode",
+
+	la mesh, del character se moverá en conjunción al armature ó skeleton system, y así, estará
+
+	establecido el skinning
+
+
+
+Edit Skinning ó Envelope Map:
+_____________________________
+
+	_primero, debemos seleccionar el low mesh, ó retopology, del character y con éste seleccionado vamos al modo de
+
+	el panel "Weight Paint", shortcut; "Control + Tabulador"
+
+
+
+	Mirrow Weights Basic:
+	_____________________
+
+	_así, como también, es altamente recomendable trabajar de forma reflejada la edición de pesos ó weights, de un
+
+	character, cuando éste es simétrico
+
+
+	_para ésto, en el modo de "Weight Paint", shortcut; "control + Tab", y allí, vamos a las opciones de "Tools/Options/",
+
+	y allí, en la pestaña de "Optiones", activamos ó chequeamos la opción de "X Mirror", para que así, lo que hagamos
+
+	en un lado también, se transfiera hacia el otro lado
+
+
+
+	Mirrow Weights Advanced:
+	________________________
+
+	_y en caso de que no sea posible trabajar por la opción anterior de "X Mirror", existe otra opción aunque mucho más
+
+	laboriosa, para lo cuál, tenemos que estar en el modo "Weight Paint", e ir a las opciones de 
+
+	"properties/data object data/vertex groups"
+
+
+	_y allí, debemos de eliminar los grupos de vertices correspondientes a los bones, a los cuales deseamos que sean 
+
+	mirror, ó reflejados
+
+
+	_es decir, si deseamos reflejar el "L_foreArm", al "R_foreArm", entonces en éste caso, tendremos que eliminar el
+
+	"R_foreArm", de la lista de "vertex groups"
+
+
+	_para posteriormente seleccionar el vertex group, ha duplicar, en éste caso del ejemplo es "L_foreArm", y con éste
+
+	seleccionado vamos ha las opciones de "vertex groups", del lado derecho darle a la flecha ó arrow, de color negro
+
+	que mira hacia abajo y darle a la opción de "Copy Vertex Group", así, el sistema nos hará una copia del vertex group,
+
+	seleccionada en éste caso "L_foreArm_copy"
+
+
+	_para leugo, con éste nuevo grupo creado "L_foreArm_copy", ir nuevamente a las opciónes de la flecha negra y darle
+
+	ha la opción de "Mirror Vertex Group", para que así, éstos datos sean reflejados hacia el otro lado del character
+
+
+	_para que así, sólo nos quede renombrar éste nuevo grupo creado, pudiendo cambiar el nombre de "L_foreArm_copy", por
+
+	"R_foreArm", para que así, el sistema funcione correctamente
+
+
+	_y así, podremos repetir éste proceso para el resto de bones, del sistema de armaturey y skeleton
+
+
+
+
+	Brushes:
+	________
+
+	_en éste panel el flujo de trabajo ó workflow, es bastante similar al de los demás modos de pintura y de escultura
+
+	así, podremos ajustar las herramientas de pintura del siguiente modo:
+
+
+		
+		_Brush Add:
+
+			_Keyboard 1
+
+
+		_Brush Blur:
+
+			_Keyboard 2
+
+
+		_Brush Darken:
+
+			_Keyboard 3
+
+
+		_Brush Draw:
+
+			_Keyboard 4
+
+
+		_Brush Lighten:
+
+			_Keyboard 5
+
+
+		_Brush Mix:
+
+			_Keyboard 6
+
+
+		_Brush Mulitiply:
+
+			_Keyboard 7
+
+	
+		_Brush Sustract:
+
+			_Keyboard 8
+
+
+
+
+	Brushes Setting:
+	________________
+
+
+
+		_Brush Size:
+
+			_F + Arrows up/down/left/right
+
+
+		_Brush Weight:
+
+			_Shift + F + up/down/left/right
+
+
+		_Gradient Weight Tool:
+			
+			_Control + Alt + Mouse left click and drag
+
+
+		Stroke Method:
+
+			_E
+
+
+		Wareframe Mode:
+
+			_Z
+
+
+		Vertex Mode:
+
+			_V
+
+
+
+	Select Bone Armature Direct:
+	____________________________
+
+	_para luego, proceder ha seleccionar un bone, de trabajo sobre el cuál, haremos correcciones y ajustes para lo
+
+	cuál, contamos con dos opciones; la primera y más sencilla y hacer "mouse right click", sobre un bone, directamente
+
+	sobre el armature, para que así, éste bone, quede seleccionado para su edición del skinning
+
+
+
+	Select Bone Armature Panel:
+	___________________________
+
+	_y otra opción es haciendo "Shift + mouse left click", sobre cualquier parte de la mesh ó low poly, para que así,
+
+	el sistema nos muestre un menú contextual con los bones, más cercanos y posibles ha seleccionar
+
+
+
+	Select Bone Armature mirrow:
+	____________________________
+
+	_alternativamente existe otra opción de seleccionar un bone, opuesto ej; si tenemos un bone, seleccionado "L_", 
+
+	podremos seleccionar su par "R_", de ésta manera, si tenemos seleccionado el "L_Femur", podremos de forma directa
+
+	seleccionar el "R_Femur", para lo cuál, contamos con el shortcut, "Control + Shift + F"
+
+
+
+
+
+	
+	
+

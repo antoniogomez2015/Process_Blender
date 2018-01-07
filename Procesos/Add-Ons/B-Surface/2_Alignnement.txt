@@ -1,0 +1,42 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Alignnement:
+	____________
+
+	_también, es aconsejable trabajar al centro del grid y viewport 3d, para que así, podamos trabajar 
+
+	posteriormente de forma siétrica entre otras ventajas
+
+
+	_para lo cuál, debemos de colocar el cursor en el centro del grid, para lo cuál, debemos de abrir el menú
+
+	de "Snap", shortcut, "Shft + S", en el cuál, debemos de escoger la opción de "Cursor To Center"
+
+
+	_para posteriormente también, alinear al centro la geometría ha topologizar para lo cuál, debemos de abrir
+
+	el menú de "Set Orion", shortcut, "Shift + Control + Alt + C", en el cuál, dispondremos de diferentes
+
+	opciones como
+
+
+		_"Orion To 3D Cursor"
+
+
+		_y "Geometry To Orion"
+
+
+	_de ésta manera, podremos alinear todos los elementos al centro del grid, y viewport 3d
+

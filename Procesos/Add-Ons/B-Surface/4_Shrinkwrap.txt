@@ -1,0 +1,49 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Shrinkwrap:
+	___________
+	
+	_para posteriormente al objeto de topo polymesh, que hemos creado y debajo vació previamente ahora lo 
+
+	debemos de seleccionar y aplicar un modificador de tipo "Shringwarp", ya que éste addon, trabaja 
+
+	necesariamente con éste modificador
+
+
+	_y en las opciones de "Target", de éte modficador seleccionaremos el objeto de tipo polymesh, el cuál, se
+
+	corresponderá con el elemento ha retopologizar
+
+
+	_para que así, ésta futura geometría se siña y siga la morfología del motivo ó character, respectivamente
+
+
+
+	Realtime:
+
+	_así, como también, en la parte superior del modificador "Shringwrap", debemos de activarle el cuarto ícono
+
+	de "Cage", (que es como un triángulo invertido y el otro que son cuatro vertex) para que así, éste siempre 
+
+	se actualize y muestre los cambios realizados en tiempo real
+
+
+	
+	Display:
+
+	_para por último con el objeto de tipo polymesh, seleccionado ir ha "Properties/Object Object/Display", y
+
+	allí, activar la opción de "X-Ray", para que así, podamos ver a través, de él posteriormente
+

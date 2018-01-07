@@ -1,0 +1,68 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Armature:
+_________
+
+
+
+	Skeleton System:
+	________________
+
+	
+	_primero ya debemos de tener el mesh, del character, al cuál, deseamos agregarle un skeleton system
+
+
+	_ahora para agregar un skeleton system, hacemos "Shift + A/Add/Armature/Single Bone", así, se 
+
+	agregará un elemento de tipo "Armature", ó bone
+
+
+	_ahora para podremos colocar este elemento "bone", en el luegar deseado según la cinemática del character
+
+
+	-----------------------------------------------------------------------------------------------------
+	
+
+
+	Chain Bones:
+	____________
+
+
+	_ahora con el objeto bone, seleccionado y en la ubicación deseada entramos al modo "Edit Mode",
+
+	shortcut "Tabulador"
+
+
+	_así, en el modo "Edit Mode", podremos seleccionar de el bone, tanto el root, como el effector, del
+
+	mismos
+
+
+	_de esta manera, podremos seleccionar el efector del bone, respectivo y extruir éste, para esto,
+
+	con el efector del bone, deseado seleccionado debemos hacer extrusión, shortcut "E", proyectando
+
+	así, en nuevo bone, creado hasta su nueva ubicación, de esta manera podremos crear chains, ó cadenas
+
+	de huesos en relación y necesidad de la cinemática de nuestro character
+
+
+	_otra forma de extruir bones, más práctica es seleccionar un bone, en "Edit Mode", y hacer 
+
+	"Control + Mouse left click", sobre un punto en el canvas del vewport, y así, se crearán más
+
+	bones
+	

@@ -1,0 +1,126 @@
+
+
+
+
+	Blender 2.74: El addon LoopTools
+
+		https://www.youtube.com/watch?v=ymyp269aJYo
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	LoopTools:
+	__________
+
+	_éste nos permitirá extender las posibilidades de modelado de blender
+
+
+	_éste addon, ya biene incluido en blender, de forma por defecto, el cuál, sólo tendremos que activarlo yendo a
+
+	las propiedades de blender, shortcut, "Control + Alt + U", y buscamos "Wranger", para que así, podamos ubicar
+
+	y activar éste addons
+
+
+	_y posteriormente de haber activar éste addon, demos de darle a la opción de "Save Users Setting", para que así,
+
+	ésta configuración se mantenga y siempre esté disponible a la hora de abrir la aplicación
+
+
+
+	Ubicación:
+
+	_éste lo podremos ubicar luego de activado en el "viewport 3d/Tools", estando en "Edit Mode", en la parte inferior 
+
+	del panel encontraremos una nueva sección de "LoopTools", con todas sus herramientas
+
+
+	_así, como también, lo encontraremos en el panel contextual "Special", shortcut, "W", en "Edit Mode"
+
+
+
+	LoopTools:
+	__________
+
+
+		_Bridge:
+
+			_ésta opción nos permnitirá hacer puente entre dos edge loops, seleccionados de un elemento más varias
+
+			opciones de configuración
+
+
+		_Circle:
+
+			_ésta opción nos permnitirá convertir una selección de tipo loop, en un círculo perfecto y geométrico
+
+
+		_Curve:
+
+			_ésta opción nos permnitirá hacer suavizados espaciales de geometría así, podremos por ejemplo seleccionar
+
+			loops, en los extremos de un cilindro senoseidal no seleccionando así, los loops, intermedios para luego 
+
+			con ambos loops, de los extremos seleccionados del cilindro aplicamos "Curve"
+
+
+			_para que así, el sistema trace un línea reacta entre ambos loops, alineando los loops, intermedios para 
+
+			que así, todos los loops, pasen ha estar ordenados en relación a los dos loops, seleccionados previamente
+
+
+			_la curva que traza entre ambos loops, seleccionado estará superditada al tipo de criterio seleccionado en
+
+			las opciones del efecto
+
+
+		_Flatten:
+
+			_ésta opción nos permnitirá convertir una selección de faces, en una superficie plana en relación a la 
+
+			vista de la cámara ó del criterio seleccionado en sus opciones
+
+
+		_Gstrtch:
+
+			_ésta opción nos permnitirá hacer que sub-elementos seleccionados como vertex, y edges, se siñan ha un
+
+			trazo creado libremente en el viewport 3d, por la herramienta "Grease Pencil", shortcut, 
+
+			"D + Mouse Left Click and Drag", para luego de haber creado el trazado de grease pencil, aplicar la 
+
+			herramienta "Gstrtch", para que así, los susb-elementos seleccionado se siñan al trazado automáticamente
+
+
+		_Lot:
+
+			_ésta opción nos permnitirá hacer lot, de diferentes loops, seleccionado al mismo modo que lo hace "Maya",
+
+			creando así, varios edges loop, y seleccionando éstos en orden y lugo aplicando "LOT", el sistema creará
+
+			geometría a partir de éstos
+
+
+		_Relax:
+
+			_ésta opción nos permnitirá suavisar selecciones para que así, éstas se ajustes al tipo de curva ó criterio
+
+			señeccionado en sus opciones y fuerza de aplicación
+
+
+		_Space:
+
+			_ésta opción nos permnitirá distribuir sub-elementos como vertex, y edges, para que así, éstos 
+
+			sub-elementos seleccionados se reubiquen de forma equidistante uno de otros lo cuál, es especialmente útil
+
+			para procesos de modelado y retopología
+
+
+
+

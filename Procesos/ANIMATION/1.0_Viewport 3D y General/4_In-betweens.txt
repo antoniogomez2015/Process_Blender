@@ -1,0 +1,65 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_también, tendremos opciones avanzadas de animación las cuales nos permitirán en éste caso buscar puntos
+
+	medios entre poses de animación aplicados como keyframes, así, podremos buscar un punto medio y similares
+
+	entre las poses entre los diferentes keyframes, de un character
+
+	
+	_de ésta manera, podremos crear nuevo keyframes, intermedios de animación entre keyframes, existentes
+
+
+	NOTA: ésta opción estará disponible sólo para objetos de tipo "Armature", ó skeletons, ya que ésta modalidad
+
+	sólo estará disponible en el panel "Viewport 3D/Pose Mode/Pose/In-betweens"
+
+
+
+
+in-betweens:
+
+
+	_primeramente debemos de tener un character, creado y animado para que así, de ésta manera, podremos a través
+
+	del cabezal del timeline, ubicarnos entre los frames, de dos keyframes, deseados para que así, a partir de éste
+
+	punto podamos aplicar el shortcut, ó acción de "In-betweens"
+
+
+	_para ésto vamos al "Pose/in-betweens", ó a través, del shortcut, "Control + E / Shift + E"
+
+
+	_de ésta manera, a partir de éste punto del que apliquemos el shortcut, "Control + E", el cursor en el 
+
+	viewport 3d, cambiará por dos flechas ó arrows, invertidas lo que nos indicará que podremos mover el mouse,
+
+	de forma horizontal hacia la izquierda y hacia la derecha para que la animación se desarrollo que reprodusca
+
+
+	_en relación a la posición del motivo en el keyframe, anterior y el keyframe, siguiente para que así, ubicado
+
+	en un frame, de un punto medio podamos determinar un punto de interpolación media el cuál, podremos convertir
+
+	también, en un nuevo keyframe
+
+
+	NOTA: controlar el sistema de "In-betweens", a través, del mouse, directamente en el viewport 3d, no siempre
+
+	da los resultados más esperados por ende, lo más recomendado es aplicarl el shortcut, "Control + E", e ur al
+
+	panel de "Viewport 3D/Tools", shortcut, "T", y allí, en la parte inferior de éste controlar el sistema 
+
+	de "In-betweens"
+
+
+

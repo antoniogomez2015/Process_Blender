@@ -1,0 +1,133 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Transfiriendo Textures in Texture Paint Mode: (transferir texturas con pinceles sobre una textura de materal del motivo)
+_____________________________________________
+
+
+
+	Generales:
+	__________
+
+	_continuando con el proceso anterior "10_Painting color of textures", podemos también, agregar texturas para transferir
+
+	la información de éstas sobre el motivo a través, de brushes
+
+
+
+	Texture:
+	________
+
+	_para lo cuál, vamos a las opciones de brushes, en el mode "Texture Paint", shortcut; "T", y vamos hasta las opciones de 
+
+	"Tools/Texture", y le damos ha el "+", Plus, ó "New" para que así, una nueva textura sea asignada para la proyección ó
+
+	transferencia de puntura por textura
+
+
+	_para luego, ir a las opciones de "Properties/Texture", y allí, entrar en el modo de textura del ícono en forma de 
+
+	"Mosaico", rojo y blanco y no en el de material que parece un botón metálico circular
+
+
+	_y jsuto a continuación debemos serciorarnos que la opción de "Brush", esté activada en "Properties/Texture/Icono Mosaico"
+
+
+	_para luego a continuación en "Properties/Texture/Icono Mosaico", renombrar la textura ha cargar con un nombre descriptivo
+
+
+	_para luego en las opciones de "Type", seleccionar "Image or Movie"
+
+
+	_para luego en ésta misma sección "Properties/Texture/Icono Mosaico", ir a las opciones de "Image", y darle ha "Open", para
+
+	que así, podamos cargar una nueva textura la será la que utilizaremos para el proceso de proyección y transeferencia de
+
+	información
+
+
+	_de ésta manera, podremos repetir éste proceso para cuantas imagenes necesitemos para el proceso de Texture Pinting
+
+
+
+	
+	Brush Mapping:
+	______________
+
+	_éstas opciones nos permiten seleccionar el comportamiento que tendrá la textura para diferentes métodos y posibilidades
+
+	de proyección y workflows
+
+
+	_más la más importante para el proceso de transferencia de información es la opción de "Stencil", la cuál, nos permitirá
+
+	ver la textura en el viewport, para que así, podamos ajustar ésta ha nuestra medida y proporción al motivo
+
+
+
+	Stroke:
+	_______
+
+	_y las opciones de stroke, nos permitirán ajustar el comportamiento que tendrán las brushes, para aplicar la textura
+
+
+	
+	Stencil viewport workflow:
+	__________________________
+
+	_mover la textura en el viewport:
+
+		_mouse right click and drag
+
+
+	_rotar la imágen:
+
+		_Control + mouse right click and drag
+
+
+	_escalar la imágen:
+
+		_Shift mouse right click and left/right drag
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

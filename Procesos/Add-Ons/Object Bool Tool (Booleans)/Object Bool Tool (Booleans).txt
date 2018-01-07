@@ -1,0 +1,23 @@
+
+
+
+
+Referencia
+
+
+	Use booleans like a pro in Blender
+
+		https://www.youtube.com/watch?v=Vf2M1bxZYk0
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Object Bool Tool:
+	_________________
+
+
+		_

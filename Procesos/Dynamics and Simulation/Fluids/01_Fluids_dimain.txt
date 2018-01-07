@@ -1,0 +1,152 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un domain, es el master, de un sistema de fluidos, el cuál, será el delimitador ó contenedor último del
+
+		fluido como también, éste controlará las emisiones de fluidos de los respectivos emisores así, como los 
+
+		procesos de simulación y rendern, otros
+
+
+		_así, también, podremos agregar elementos que hagan de obstáculos ó contenedores personalizados como 
+
+		copas, otros, para realizar simulaciones de fluidos más complejas
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó contenedor del fluido
+
+
+
+	Fluid:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionado vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Fluid", para éste objeto así, éste estará disponible para los procesos de simulación
+
+
+	Domain:
+	_______
+
+
+		_ahora con el objeto proxi, seleccionado vamos ha "Properties/Physics/Fluid Type/", y seleccionamos
+
+		la opción de "Domain", así, éste objeto proxi, se comportará con el contenedor del fluido así, como
+
+		el controlador de todo el sistema de fluidos
+
+
+		_para ver posteriormente en emisor que incluiremos dentro de éste contenedor debemos de colocar el
+
+		modo de visualización ha almámbrico, shortcut, "Z", para que así, podamos ver los elementos dentro
+
+		del contenedor dinámico
+
+
+
+	Simulate:
+	_________
+
+		_para relizar a previsualizar una simulación es preciso haberla realizado previamente para ésto,
+
+		previamente debemos haber creado un objeto de tipo "Physics/Fluid/Fluid"
+
+
+		_así, para realizar la simulación debemos seleccionar el objeto contenedor y luego ir ha 
+
+		"Properties/Physics/", y darle ha precalcular simulación "Bake Reg", así, aparecerá una barra en la
+
+		parte superior de la aplicación en la cuál, podremos ver el proceso de cálculo así, como también,
+
+		si deseamos cancelar el proceso
+
+
+
+	Preview:
+	________
+
+
+		_luego de haber calculado la simulación de fluido yendo en la sección de "Fluid/", con el contenedor ó "domain", 
+
+		seleccionado a través, del botón "Bake (seg)"
+
+
+		_para que ahora si, podremos mover el cabezal del timeline, para poder ver así, la simulación ejecutarse en el 
+
+		viewport 3d, shortcut "Alt + A"
+
+
+
+		NOTA: cundo la somulación aún se está calculando a través, del botón "Bake", ésta no se irá haciendo visible
+
+		directamente en el viewport 3d, sino que tendremos que esperar a que se termine de realizar la simulación para
+
+		poder reproducir ésta ó cuando hayamos parado la simulación a través, del shortcut, "Alt + A"
+	
+
+
+	Resolution:
+	___________
+
+		_en los domain, ó contenedores podremos controlar la resolución que éstos tendrá ó lo que es lo mismo; lo que
+
+		la simulación de fluido tendrá
+
+
+		_de ésta manera, en relación al "tipo", de fluido deseado es que ajustaremos en relación a pruebas y ha estándares
+
+		la resolución del contenedor y del fluido
+
+
+		_así, podremos realizar fluidos más espesos como magmas, acites, gradas, dulces, rellenos, pasta otros, los cuáles, 
+
+		requerirán una resolución más baja como también, fluidos más ligeros como agua, pinturas, colorantes combustibles, 
+
+		otros los cuáles, requerirán una resolución más alta	
+
+
+		_de ésta manera, dispondremos de los valores de resolución "Final/Preview", y es a través, de éstos valores a través,
+
+		de los cuáles, podremos ir doblando la resolución del sistema tanto para la visualización en el viewport 3d, como
+
+		para el render final
+
+
+		_más en éste proceso hay que tener en cuenta diferentes características colaterales como las siguientes:
+
+
+			_el peso en megabytes, del proceso al aumentar la resolución ó el espacio de éste proceso el disco duro 
+
+			de nuestro sistema
+
+
+			_otro aspecto muy importante es el tiempo de procesado ya que al aumentar la resolución también aumentará
+
+			de forma exponencial el tiempo de cálculo requerido para finalizar el proceso
+
+
+			_y el aspecto más limitante del proceso es que también, y de forma colateral cuando aumentamos la resolución
+
+			del proceso, éste proceso tambien, rquerirá mucha más momoria ram. para finalizar éste proceso de ésta manera,
+
+			prodremos aumentar la resolución del fluido ó contenedor en relación a la cantidad máxima de memoria ram, 
+
+			instalada y cuanta de ésta memoria esté disponible en un momento determinado
+

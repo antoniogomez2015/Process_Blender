@@ -1,0 +1,189 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	B-Surfaces General:
+	___________________
+
+	_la modalidad de b-surfaces, puede crear polígonos de la nada a través, de la aplicación de trazados por
+
+	medio de la herramienta de grease pencil brush
+
+
+	_así, como también, ésa puede extender polígonos de un área existente previamente
+
+
+	NOTE: la modalidad del addon, B-Surface, no es invasiva por lo cuál, podremos hacer ajustes sobre vertex,
+
+	y demás sub-elementos de la retopología resultante, de ésta manera, podremos mover, rotar, demás opciones
+
+	posibles como extruir, eliminar, fusionar, otros y después, volver ha utilizar ha herramienta de b-surface,
+
+	sin ningún problema de incompatibilidad posterior
+
+
+
+	NOTE: la dirección con la cuál, comenzamos ha realizar trazados con la herramienta de grease pencil, es
+
+	importante lo que quiere decir, es que si comenzamos ha hacer trazados de izquierda ha derecha, con el 
+
+	brush, de grease pencil, debemos ternimar de indicar los trazados en la misma dirección, y en ningún
+
+	momentos debemos de intercambiar éste sentido ó dirección para que así, la topología en esas áreas no 
+
+	aparezca de forma invertida
+
+
+	
+	B-Surface Options:
+	__________________
+
+	_la modalidad de creación de geometría de b-surface, disponde de las siguientes opciones de configuración
+
+	y edición las cuáles, son las siguientes:
+
+
+
+		_Add Surface:
+
+			_ésta opción nos permitirá crear geometría a partir de los trazados existentes en el 
+
+			viewport 3d, hechos con la herramienta de grease pencil
+
+
+		_Cross:
+
+			_ésta opción determinará la cantidad de loops, poligonales horizontales en la geometría
+
+			resultante
+
+
+		_Follow:
+
+			_ésta opción determinará la cantidad de loops, poligonales verticales en la geometría
+
+			resultante
+
+
+		_Edit Strokes:
+
+			_(Indeterminado)
+
+
+		_Cyclic Cross:
+
+			_ésta opción permite "cerrar", el loop, de geometría circular como el anillo de los ojo ó 
+
+			boca, ya que ésta opción controla lo loops, en el sentido de la extrusión normal
+
+			NOTE: activar ésta opción en el menú contextual "F6"
+
+
+		_Cyclic Follow:
+
+			_ésta opción permite "cerrar", los loop, de geometría en paralelo especialmente útil para
+
+			casos en los que hay geometría colateral ya que ésta opción controla lo loops, en el 
+
+			transversal de la extrusión normal
+
+			NOTE: activar ésta opción en el menú contextual "F6"
+
+
+		_Loops on Stroke:
+
+			_ésta opción hará que los polígonos resultantes pasen exactamente por donde ha pasado
+
+			el stroke, de la brush, de la herramienta de grease pencil
+
+
+		_Automatic Join:
+
+			_(Indeterminado)
+
+
+		_Keep Strokes:
+
+			_(Indeterminado)
+
+
+
+
+	Crear Geometría Base:
+	_____________________
+
+	_para lo cuál, necesitaremos al menos dos trazos preferiblemente paralelos con el brush, de la herramienta
+
+	grease pencil
+
+
+	_para lo cuál, debemos de activar el brush, ha utilizar, yendo ha "Vewport 3D/Tool/Crease Pencil/Draw", en
+
+	cuál, debemos de activar el pincel ó brush, "Draw", ó a través, del shortcut, "D", sostenido y arrastramos
+
+	sobre el viewport 3d. y sobre la geometría ó motivo respectivo
+
+
+	_para que así, procedamos ha ir creando trazados con la herramienta grease pencil, los cuáles, se 
+
+	convertirán posteriormente en geometría gracias al addon, b-surface
+
+
+	_para posteriormente con ambos trazos creados hacer ir a las opciones de "viewport 3D/Tool/B-Surface",
+
+	y allí, darle a la opción de "Add Surface", para que así, nueva geometría sea agregada respectivamente
+
+
+	_la cuál, podremos ajustar ó modificar posteriormente en las opciones de b-surface, para que así, podamos
+
+	hacer variaciones en relación a la cantidad de geometría ó resolución resultante 
+
+
+	_para lo cuál, dispondremos de shortcut, a través, del cuál, podremos acceder a las opciones de 
+
+	configuración de la geometría optenido éste es, "F6"
+
+
+
+
+	Extender Geometría existente:
+	_____________________________
+
+	_para lo cuál, debemos de seleccionar una línea de sub-elementos por ejemplo vertx, y con éstos 
+
+	seleccionados 
+
+
+	_procedemos ha crear más trazos con la herramienta grease pencil, para posteriormente ir a las opciones
+
+	del panel b-surface, y aplicar "Add Surface", para que así, la nueva geometría agregada quede unida a la
+
+	línea de vertex, seleccionada previamente
+
+
+	_de ésta manera, podremos extender geometría sobre áreas más grandes y complejas dentro de un topología
+
+	más extensa y compleja
+
+
+	_lo cuál, trae muchas ventajas más allá de la aparente de no tener que posteriormente empatar ambos 
+
+	topologías hechas de forma aislada si no que más aún, nos permitirá indicarle al sistema de forma 
+
+	automática que la nueva topología generada se cree con la mis resolución ó cantidad de vertices, tanto
+
+	en la cordenada "U", y "V", lo cuál, nos facilitará el trabajo de gran manera
+
+
+
+

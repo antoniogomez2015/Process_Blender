@@ -1,0 +1,307 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	1_Dos mapas de "Diffuse Color":
+	_______________________________
+
+	_éste nos permitirá representar el corlos piel ó carne humana más los detalles base como poros e inperfecciones 
+
+	básicas como aleatorias
+
+
+
+	Requerimientos:
+	_______________
+
+	_el motivo ó character, debe de tener creado el proceso de UVs, previamente así, como también, debe de tener aplicado
+
+	un material base
+
+
+
+	Diffuse Color:
+	______________
+
+	_ahora debemos de crear la textura la cuál, utilizaremos como mapa de color para lo cuál, podremos crear éste de dos
+
+	maneras diferentes, la primera sería yendo ha "Properties/Texture Texture/Material/", y allí, le damos ha "+ New", la
+
+	segunga opción es ir al panel "Texture Paint/Slots (shortcut "T")/Add Texture Paint Slot/Diffuse Color/" para 	que así, 
+
+	nos aparesca una ventana contextual en el cuál, podremos indicar un nombre para ésta nueva textura así, como unas 
+
+	dimensiones para ésta, como también, podremos indicar un color, una transparencia y una profundidad de color de 32bits,
+
+	de coma flotante para la representación de alto detalle
+
+
+	_para el mapa base de "Diffuse Color", ó "Capa de Imprimasión Base", podremos crear la textura con las siguientes 
+
+	características:
+
+
+		_Nombre:
+
+			_Diffuse Base
+
+
+		_Dimensiones:
+
+			_mínimo 4k ha 6k
+
+			_es recomendable hacer el proceso de múltiples "materials", para así, dividir el proceso de UVs, en
+
+			diferentes materiales para que así, podamos obtener la mayor resolución
+
+
+		_Transparencia:
+
+			_para el mapa base no requeriremos transparencia en el mapa ya que éste cubrirá toda la superficie
+
+
+		_Color:
+
+			_el color nos resultará indiferente ya que éste lo sustiuremos con el color skin, ó carne base 
+
+			posteriormente en el proceso de puntura y texturizado
+
+
+		_Profundidad de Bits:
+
+			_ésta opción es totalmente opción la cuál, nos pemritirá obtener más detalles finos en las áreas 
+
+			pequeñas aunque hará el proceso más pesado
+
+
+	_para que así, luedo de haber creado la imágen con las características deseadas debemos de ir al panel "UV Map Editor",
+
+	y guardar la textura que hemos creado a través, del shortcut: "F3", en nuestro disco duro
+
+
+
+	Asignación de Textura:
+	______________________
+
+	_luego debemos de asignar ésta textura al motivo ó character, para lo cuál, debemos de ir al viewport 3d, y entrar en
+
+	"Edit Mode", shortcut, "Tabulador"
+
+
+	_para posteriormente seleccionar todos los sub-elementos del character, ó motivo shortcut, "A/A"
+
+
+	_para luego volver al panel "UV Map Editor", y seleccionar la imágen de la textura de "Diffuse Color", que hemos creado
+
+	previamente para que así, ahora si quede asignada ésta textura ha la geometría de nuestro motivo ó character
+
+
+	
+	Color Base:
+	___________
+
+	_y posteriormente de haber creado la textura para el diffuse color, asignado ésta al motivo ó character, y guardado 
+
+	ésta en el disco duro de nuestro equipo es hora de utilizar ésta textura para comenzar el proceso
+
+
+	_primeramente debemos de ir al panel "Texture Paint", u colocar el modo de visualización en "Material", para poder 
+
+	así, visualizar todos los materiales en el viewport 3d, así como también, es recomendable ir las propiedades del panel
+
+	viewport 3d, shortcut, "T", e ir a las opciones de "Shading", y colocar la opción de "GLSL", para una mejor 
+
+	visualización
+
+
+	_para posteriormente cargar una imágen de muestras de colores de skin, al panel "UV Map Editor", para extraer de ésta 
+
+	los colores
+
+
+	_de ésta manera, debemos de colocar el panel "UV Map Editor", en modo "Paint", para que así, a través, del shortcut,
+
+	"S", e sample color, proceder ha tomar muestras las cuáles, se irán almacenando en la sección de "tools/color", del
+
+	panel "Texture Paint"
+
+
+	_para que así, ahora si con el color de muestra de color carne ó skin, base, proceder ha aplicar éste sobre todo el 
+
+	motivo ó character, seleccionando la brush "Fill", en el panel "Texture Paint", shortcut, "2"
+
+
+	_para posteriormente con el respectivo color carne deseado seleccionado en la muestras de color y con la brush "Fill",
+
+	proceder ha ajustar el "Stretching", ó fuerza de la brush, "Fil", en éste caso shortcut, "Shift + F" 
+
+
+	_la cuál, debemos de colocar en un valor de "1", ó máxima dureza para lo cuál, debemos de hacer 
+
+	"Mouse Left/Right and Drag", sobre cualquier parte del motivo ó character, para que así, éste sea rellenado con el 
+
+	respectivo color de muestra
+
+
+	_y para guardar éstos cambios sobre ésta textura y cualquier otra a la cuál, se le hayan hecho cambios podremos ir a 
+
+	las opciones de "Texture Paint/Slots/", y darle a la opción de "Save All Images", para que así, todas las imágenes
+
+	correspondientes ha texturas que hayamos previamente guardado en el disco para los diferentes shaders sean reguardadas
+
+	ó actualizados los cambios realizados sobre éstas de forma automática con sólo apretar éste botón
+
+
+
+
+	Layer Control:
+	______________
+
+	_más posteriormente de haber creado la nueva textura y shader, podremos controlar éste y hacer que éste a su vez, 
+
+	interactúe con los demás shaders y texturas para lo cuál, disponemos de dos controls ubicados en dos partes diferentes
+
+	aunque con la misma función, éstos son los siguientes:
+
+
+		_Blend Type:
+
+			_éste mos permitirá indicar el criterio de funsión a través, de diferentes tipos de modos de fusión ha
+
+			modo de Photoshop
+
+
+			_y para acceder ha éstos debemos de ir a las opciones de "Properties/Texture Texture/Influence/",
+
+			y allí, podremos acceder a las opciones de "Blend Mode", y proceder ha seleccioanr el modo de funsión
+
+			deseado
+
+			
+			_otra ofrma de acceder ha éstos parámetros sería yendo ha "Texture Paint/Slots (shortcut T)/BlendT/",
+
+			y allí, seleccionar el modo de funsión deseado
+
+
+		_Influence:
+
+			_y para acceder ha éstos debemos de ir a las opciones de "Properties/Texture Texture/Influence/Col",
+
+			y allí, podremos aumentar ó disminuir la influencia de éste shader, y textura a través, de valores
+
+			indicados con rangos entre "1-0"
+
+
+
+
+
+	
+	Bake Diffuse Color Textures: (consecutivo)
+	____________________________
+
+	_posteriormente debemos de repetir ésta serie de procesos para la creación del mapa "Diffuse Detail", con algunas
+
+	variantes para agregar los así, los detalles, y dicho proceso de creación se explica en siguiente archivo llamado 
+
+	"Diffuse Color Detail.txt"
+
+	
+	_para que así, de ésta manera, en éste nuevo mapa "Diffuse Color Detail", proceder ha agregar un rubosidad en las 
+
+	mejillas y en algunas zonas del rostros con más depresiones
+
+
+	_para posteriormente proceder ha acoplar ambas texturas de diffuse map, tanto la textura "Diffuse Color", como la
+
+	textura "Diffuse Color Detail"
+
+
+	_para lo cuál, debemos crear otra nueva imágen de textura difusa sobre la cuál, se realizará el volcado de ambas 
+
+	texturas en éste caso "Diffuse Color", y "Diffuse Detail"
+
+
+	_para posteriormente seleccionar el motivo y en el viewport 3d, entrar en "Edit Mode", shortcut, "Tabulador", y 
+
+	seleccionar en el panel "UV Map Editor", la nueva textura que creamos y renombramos ej; "Difuse Mix", la cuál, debe 
+
+	de tener las mismas dimensiones y características que las texturas de "Diffuse", que hemos creado previamente para 
+
+	que así, ésta textura quede asignada a la geometría del motivo ó character, de forma temporal para el proceso de 
+
+	volcado
+
+
+	_para luego a través, del método de "Bake/Textures", proceder ha generar la nueva textura "Diffuse Mix"
+
+	textura del volcado de ambas texturas "Diffuse", para el proceso de "Poros y detalles", en Photoshop, posteriormente
+
+
+	
+	
+	Ambien Occlusion Map: (consecutivo)
+	_____________________
+
+	_así, como también, en éste punto antes de irnos a los programas de edición 2d, como Photoshop, es recomendable crear
+
+	y guardar el AO Map, el cuál, usaremos en proceso de creación de detalles, efectos en Photoshop, y otros
+
+
+	_y éste proceso lo tendremos detallado en archivo "Ambient Occlusion.txt"
+
+
+	
+
+	Posproducción en Photoshop: (consecutivo)
+	___________________________
+
+	_para posteriormente llevarnos ambos mapas, tanto el mapa que hemos creado y llamado "Diffuse Mix", y el "AO Mao", los
+
+	cuáles, superpondremos para comenzar con el proceso de creación de poros y detalles en la piel ha nivel general
+
+
+
+
+	
+
+
+
+			
+
+				

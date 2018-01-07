@@ -1,0 +1,60 @@
+
+
+
+
+	Características y comportamientas de las curves and splines, en blender
+
+
+		Blender Surface Modelling With Network Curve
+			https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Tri-Dimensional Surface:
+	________________________
+
+	_tenemos la posibilidad de crear formas complejas en blender, de forma tridimensional a partir de la creación
+
+	de forma compleja Bi-Dimensional
+
+
+	_para lo cuál, luego de haber terminado el proceso de creación y rellenado de la forma 2d, podremos ir a 
+
+	"Priperties/Data Objet data/Geometry/Magnification", y allí, tendremos la siguientes opciones:
+
+
+
+		_Extrude: 
+
+			_para así, éste cobre volúmen en una tercera cordenada en éste caso la cordenada "Z"
+
+
+
+		_Offset:
+
+			_éste valor nos permitirá expandir la forma para ajustar y evitar lo vertex, montados unos 
+
+			sobre otros
+
+
+		_Depth:
+
+			_éste valor nos permitirá crear un bisel para dar así, una apariencia con más volúmen y con una
+
+			resolución y suavizadp mayor 
+
+
+		_Resolution:
+
+			_éste valor nos permitirá aumentar la resolución ó geometría asignada al bisel generado
+
+
+	
+
+
+
+
+	

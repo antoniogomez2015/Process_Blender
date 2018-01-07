@@ -1,0 +1,53 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Aplicación del Skinning ó Envelope:
+	___________________________________
+
+
+		_para unir tanto el skeleton system, ó armature, con el mesh, del character, para que el skeleton system, tenga
+
+		acción sobre la mesh, del character, primero debemos estar en "object mode"
+
+
+		_luego debemos seleccionar el mesh, character, entrar en el modo "edit mode", shortcut "Tab", e ir ha 
+
+		"Properties/Data Object Data/Vertex Groups", y proceder ha eliminar todos los vertex groups, existentes, ya que 
+
+		éstos harán interferencia en el proceso de auto skinning
+
+
+		_así, como también, con la mesh, del character, seleccionada debemos entrar en "edit mode", y seleccionar todos los
+
+		sub-elementos del character, shortcut "A/A", para luego ir al panel de opciones, shortcut "T/Tools/", y buscar la
+
+		opción de "Remove Doubles", para que así, sea eliminados los vertex, dobles que harán interferencia en el proceso
+
+		de skinning
+
+
+		_luego debemos seleccionar primero el mesh, del character, luego debemos seleccionar skeleton system, y luego
+
+		debemos hacer un emparentamiento de elementos a través, del panel "Set Parent To", shortcut "Control + P", 
+
+		y seleccionar la opción de "With Automatic Weights"
+
+
+

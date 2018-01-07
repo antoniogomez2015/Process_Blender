@@ -1,0 +1,33 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	General:
+	________
+
+	_el timeline, nos permitirá controlar los criterios de animación así, como también, los controles básicos
+
+	
+	_de ésta manera, a través, del panel timeline, podremos crear animaciones bases y configuraciones las
+
+	cuáles, podremos controlar y ajustar a través, de otros páneles más específicos para la animación como el
+
+	dope sheet, action, graph editor, otros
+
+
+
+	Timeline Shortcuts:
+	___________________
+
+	_
+
+
+
+

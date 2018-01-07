@@ -1,0 +1,137 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Painting Color in Texture Paint Mode: (proyectar colores sobre una textura de materal del motivo)
+_____________________________________
+
+
+
+	Generales:
+	__________
+
+	_primero debemos estar en la opción de "blender render", y no en cycles
+
+
+	
+	Uvs:
+	____
+
+	_el motivo debe de tener UVs, creados previamente para que así, el proceso de pintado pueda volcarse correctamente
+
+	sobre la textura	
+
+
+	
+	Shading: (opcional)
+	________
+
+	_para tener una visualización de la textura debemos ir a las opciones del panel derecho del vieport, shortcut; "N", y buscar
+
+	las opciones de "Shading", y seleccionar la opción de "GL SL", para luego pasar el modo de visualización de texturas del
+
+	viewport, shortcut, "Alt + Z", así, podremos ver la iluminación y sobras sobre el motivo luego de aplicar la iluminación
+
+
+
+	Lighting: (opcional)
+	_________
+
+	_luego para éste modod de shading, debemos de crear en el viewport, al menos una uliminación la cuál, debe de apuntar hacia 
+
+	el motivo, éstas pueden ser luz puntura, direccional ó ambiental
+
+
+	
+	Material:
+	_________
+
+	_para ésto, debemos de seleccioanrel motivo en el viewport, y con éste seleccionado ir a las opciones de "properties/material", 
+
+	y allí, buscar las opciones de "Data", y seleccioanr la opción de "Object", para que así, el material existente se elimine de
+
+	éste objeto para que así, podamos crear un nuevo material a través, del "+", Plus, ó la el botón "New", de ésta manera, se
+
+	creará un nuevo material para el motivo seleccionado, dicho material lo podemos renombrar ej; "Motive", éste proceso lo debemos
+
+	repetir si el motivo se compone de diferentes partes a las cuales le podemos asignar éste mismos material u otros nuevos
+
+
+
+	Texture Paint:
+	______________
+
+	_luego colocamos el modo "Texture Paint", y vamos a sus opciones de "Tools/Add Paint Slot", y seleccionamos allí, la opción
+
+	de "Difufse Color"
+
+	
+	_así, se nos abrirá una ventana contextual en la cuál, podremos asignarle un nobre a la nueva textura de material difuso así,
+
+	como también, podremos indicar tanto un ancho como un alto, es recomendale el tamaño de 2K, ó 2048x2048, para que así, de 
+
+	ésta manera, podamos pintar sobre el motivo sobre la nueva textura creada
+
+
+
+	UVImage Editor:
+	_______________
+
+	_debemos de abrir un nuevo panel en la interface, y en éste, cargar el módulo de "UVImage Editor", shortcut; "Shift + F10",
+
+	para luego seleccionar el motivo en el viewport, y entrar en el modo de edición del motivo, shortcut; "Tabulador", y 
+
+	seleccionar todos los sub-elementos que conforman el motivo, shortcut; "A/A", y con todos los sub-elementos seleccionados
+
+	volver al panel UVImage Editor y seleccionar la textura que creamos en el paso anterior, ej: "Diffuse Color", para que así, 
+
+	el volcado del proceso de pintura se haga en relación a los uvs, del motivo
+
+
+	_ésta textura en éste punto es recomendable guardar en el disco dura para evitar riesgos que el programa de cierre 
+
+	inesperadamente y perdamos toda la información de la textura y de lo que hayamos puntado sobre ésta, shorcut, para guardar
+
+	sobre el panel UVImage Editor, shortcut; "F3"
+	
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

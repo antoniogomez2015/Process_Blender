@@ -1,0 +1,57 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Eyelashes Particle Material:
+	____________________________
+
+	_de ésta manera, luego de haber creado el sistema de partículas sobre el motivo ó character, y de haber asignado 
+
+	las eyelashes, de forma manual y personalizada y de haber estilizado éstas
+
+
+	_podremos también, asignarles un nuevo material para hacer que éstas tengan una apariencia realista para lo cuál,
+
+	debemos de crearle un nuevo material al motivo ó character,
+
+
+	_para lo cuál, debemos de ir "Properties/Material Material/", y allí, dale a la opción de "+", para que así, se
+
+	agregue un nuevo slot, de material, y posteriormente darle ha la opción de "+ New", para que así, de ésta manera,
+
+	se agregue un nuevo material el cuál, podremos renombrar como "Eyelashes"
+
+
+	_de ésta manera, en la sección de "Diffuse", seleccionaremos un color marrón muy ocuro para las pestañas
+
+
+	_y ahora debemos asignale dicho material sólo a las pestamañas y no el body, de nuestro motivo ó character para
+
+	lo cuál, con el motivo ó character, seleccionado vamos a "Properties/Render/", y allí, en el campo de materiales
+
+	seleccionaremos el material que hemos creado y personalizado, en éste caso "eyelashes", para que así, ahora las
+
+	partículas ó hebras tomen el color de éste nuevo material
+
+
+	_luego debemos de volver a las opciones del material "Eyelashes", e ir a las opciones de 
+
+	"Properties/Specular/Intensity", y allí, debemos de bajar éste valor hasta un valor de "0.1", por ejemplo
+	
+
+
+
+	
+
+
+
+
+

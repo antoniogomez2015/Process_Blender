@@ -1,0 +1,144 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	IK:
+	___
+
+
+		_la kinem'atica invertida nos permite emular los comportamientos naturales de joints, ó articulaciones más 
+
+		realistas y sobre todo más automatizadamente
+
+		
+		_para characters, bípedos especialmente humanos es recomendable hacer conexiones de solo dos bones, ó hueos 
+
+		a través, del modificador "modifier", "Inverse Kinematic",para que así, evitemos variaciones y malas articulaciones 
+
+		a la hora de reflejar éstos sistemas de un lado al otro "L_R", por medio de la duplicación por simetría
+
+
+		_de ésta manera podremos configurar toda la kinemática inversa de lado ej; left, para luego luego duplicar todo el
+
+		sistema, tanto el "armature", con el "ik", como un sólo conjunto
+
+
+
+	IK Aplicación:
+	______________
+
+
+		Requerimiento:
+		______________
+
+
+		_para crear una kinemática inversa se necesita al menos dos bones, ó huesos que entre ambos conformen una articulación 
+
+		ó "jont", de ésta manera un sistema "Ik", podrá estar conformado por dos bones, ó más
+
+
+		_y para ésto debemos estar en "edit mode", shortcut "Tabulador", y luego seleccionar el último bone, de cadena ó chain, 
+
+		deseada a convertir en un sistema ik, ej: "Femur_L/Tibia_L", así, para crear un sistema ik, de una pierna "leg", debemos
+
+		seleccionar el bone, respectivo a la "tibia", de la pierna
+
+
+		_luego con el bone, respectivo seleccionados vamos ha "Properties/Bone Constrints/", shortcut "Control + Shift + C", y allí,
+
+		seleccionamos la opción de "Inverse Kinematics"
+
+
+
+		Configuración:
+		______________
+
+
+		Chain Length:
+		_____________
+
+
+		_al momento de haber aplicado un sistema ik, éste tendrá un alcance total de la cadena de bone, al cuál, éste pertenece ó
+
+		está ubicado
+
+
+		_y para limitar el alcance del sistema IK, para que éste sólo modifique un área restringida en relación a la extremidad ó 
+
+		articulaciones deseadas debemos indicarle de cuantos huesos ó bones, se conforma ésta, para ésto vamos a las opciones de:
+
+		
+			_"Properties/Bone Csnstrints/IK", y en las opciones de "Chain Length:", indicamos la cantidad de bones, ej: "2"
+
+
+		NOTE:	cuando deseamos realizar estructuras de articulación complejas ik, como las que incluyen brazo y hombro, debemos
+
+			hacer cadenas kinemática inversa de tres bones ó dos articulaciones ó joints, para que éstas funcionen correctamente
+
+			a la hora de hacer el funcionalismo del brazo a partir de la rotación del hombro
+
+
+		Target:
+		_______
+
+		_así, como también, podremos indicar un elemento handle, controlador para que éste maneje el sistema IK, si el sistema IK,
+
+		será controlado a través, del modo "pose mode", entonces éste elemento handle, controlador será un bone, extra el cuál, 
+
+		estará desparentado "clear parent", "edit mode/alt + p"
+
+
+		_de ésta manera en las opciones de "Properties Bones Constraints/IK/Target", podremos seleccionar en éste caso "Armature",
+
+		para que así, estén activas las opciones de seleccionar "Bone", en la cuál, podremos seleccionar el respectivo bone, handle,
+
+		ej; "L_leg_handle_proxi", de ésta manera éste bone, controlará todo el sistema IK, en "pose mode", shortcut "Control + Tab"
+
+
+
+		Pole Target:
+		____________
+
+		_también, tenemos la opción de indicar un elemento handle, controlados para que éste cambie la dirección de la articulación
+
+		en el espacio, ésta opción es especialmente útil para codos "elbows", y rodillas "neek", otros
+
+
+		_para ésto debemos crear un bone, especialmente para ésta función en edit mode, así, como renombrar éste, para ir a las opciones
+
+		de "Properties/Bone Constraints/IK/Pole Target", y seleccionar la opción de "Armature", para que así, nos aparescan las opciones
+
+		de "Bone", y poder así, seleccionar el respectivo bone, ej: "L_Arm_Elbow_Handle", de ésta manera éste bone, controlará la dirección
+
+		del sistema de IK, en el espacio
+
+
+		Alternativo:
+		____________
+
+
+		_alternativamente al sistema "pose mode", podemos trabajar también, en sistema IK en "object mode", en éste caso en las opciones de
+
+		"Target", de los pasos anteriores tendremos que seleccionar directamente un forma personalizada de tipo "spline", la cuál, controlará
+
+		el sistema IK, directamente en el "object mode"
+	
+
+
+

@@ -1,0 +1,86 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Character Control Master:
+_________________________
+
+
+	_para éste punto en el que ya hemos terminado el proceso de rigging, es fundamental para un correcto y sobre todo
+
+	funcional rig, para animación es preciso la organización y gerarquización de los elementos partes del sistema de 
+
+	rig, para lo cuál, haremos la siguiente estructura
+
+
+
+	Handles:
+	________
+
+	_la primera estructura recomendada es hacer un grupo, a través, de un elemento de tipo null, el cuál, sirva de 
+
+	contenedor para los demás elementos de tipo handle
+
+
+	_para ésto, debemos de colocar el el cursor al centro, shortcut, "Shift + S", para luego crear un elemento de tipo
+
+	"empty", shortcut; "Shift + A/Empty/Plain Axes", el cuál, renombraremos como "Hanles"
+
+
+	_de ésta manera, podremos arrastrar ha todos los elementos "objects", que hemos creado en la forma de splines, 
+
+	personalizadas para que sirvan de proxis, handles, dentro de éste elemento último que hemos creado que renombramos 
+
+	como "Handles", así, tendremos ha todos los elementos handles, organizados dentro de un sólo grupo
+
+
+
+	Character_Master_Handle_Control:
+	________________________________
+
+	_así, como también, debemos crear un control maestro el cuál, nos permitirá controlar todo el character al unísono
+
+	con todos los sistemas que éste incorpora como los son; el mesh, el rig, skeleton, otros
+
+
+	_para ésto, debemos de colocar el el cursor al centro, shortcut, "Shift + S", para luego crear un elemento de tipo
+
+	"orbject", spline, shortcut; "Shift + A/Mesh/", y seleccionamos la opción de "Circle", de ésta manera, podremos 
+
+	seleccionar éste nuevo objecto, "circle", y entrar ha su modo de edición shortcut; "Tabulador", para que así, podamos
+
+	hacer una forma personalizada de éste el cuál, podremos renombrar ej: "Character_Master_Handle_Control", y ubicar 
+
+	justo debajo del character
+
+
+	_de ésta manera, podremos utilizar éste elemento que hemos creado como un contenedor ó grupo en el cuál, iremos agregando
+
+	ó emparentando los demás elemento partes del sistema
+
+
+	_así, iremos arrastrando sobre éste los elementos como:
+
+		_"Armature"
+
+		_"Handles"
+
+		_"repology Low"
+
+		_"Skeleton System"
+
+
+	_de ésta manera, ahora podremos mover y controlar el character, a través, de éste controlador principal 
+
+

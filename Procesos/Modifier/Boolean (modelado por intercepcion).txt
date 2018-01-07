@@ -1,0 +1,87 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+		Use booleans like a pro in Blender
+
+			https://www.youtube.com/watch?v=Vf2M1bxZYk0
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_el motive, debe de tener la mayor resolución posible así, como de smooth, para que así, tenga una mejor 
+
+		representación en el viewport
+
+
+	Boolean:
+	________
+
+
+		_para ésto, seleccionamos el mesh, motive, en "objet mode", a la cuál, deseamos que se le aplique la deformación
+
+		y vamos ha "Properties/Modifiers/", y agregamos el modificador "Boolean"
+
+
+		_luego, en las opciones de "Object", debemos seleccionar la mesh, que intercepta la mesh, motive
+
+
+		_así, como también, seleccionar el criterio de deformación entre los cuales disponemos:
+
+		
+			_Difference:
+
+				_ésta opción sustrae una forma contra la otra forma
+
+
+			_Union:
+
+				_éste opción fusiona ambas formas en una sola mesh poligonal
+
+
+			_Intersect:
+
+				_ésta opción crea un forma resultante en zona de intercepción entre ambas formas
+
+
+		_en todos éstos casos tendremos que borrar u ocultar la mesh, de interacción sobre la mesh, del motive,
+
+		para que así, ésta mesh, no interfiera ó solape la mesh, resultante
+
+
+	Boolean Xpress:
+	_______________
+
+
+		_alternativamente también, tenemos un comando el cuál, nos brinda todas éstas opciones de forma directa
+
+		sin la necesidad de aplicar modificadores ni modificarlos
+
+
+		_para ésto, debemos seleccionar ambas meshes, a interacturar seleccionando primero la mesh, a motive, 
+
+		y luego la mesh, que auxiliar
+
+
+		_luego con ambas meshes, seleccionadas hacemos "Shortcut: Control + Shift + B", así, nos aparecerá un menú
+
+		"Boolean", en el cuál, podremos seleccionar directamente el método de acción ha realizar
+
+
+	
+

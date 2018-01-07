@@ -1,0 +1,199 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Facial Rig:
+___________
+
+
+
+	_en blender, disponemos de varias opciones ó modalidades de crear rig, faciales donde entre
+
+	la más básica esta la opción compuesta por shape keys, controladas por handles
+
+
+	_como también, a través, de la opción hooks, que nos permite hacer rigs, más libre e incluso
+
+	controlado por cinemática por CGI Facial Mocap, a través, de proxis de video los cuales 
+
+	podremos trackear, para seguir y emular el movimiento
+
+
+	_e incluso podríamos utilizar ésta técnica de emulación de movimiento a través, de video para
+
+	animar todo el character, por medio de planos de video
+
+
+	
+
+
+Facial Rig with Shape Keys:
+___________________________
+
+
+	Shape Keys:
+	___________
+
+	_primero debemos proceder con la creación de las shape keys, de las diferentes partes ha animar del rostro
+
+	como por ejemplo, un shape key, para la ceja, otra para el párpado, otra para la boca, otros
+
+
+
+	Armature:
+	_________
+
+	_para a continuación proceder ha crear un nuevo armature a parte del existente en el proceso del skeleton
+
+	system, ó rigging body
+
+
+	_para ésto, hacemos en edit mode, "shift + A/Armature/Single Bone", para luego, posicionar éste bone, en una 
+
+	de las posiciones de los shape keys, creadas, por ejemplo, podríamos colocar éste objecto de tipo armature,
+
+	en la posición del shape key, del entrecejo el cuál, se encuentra en la parte media del character
+
+
+
+	Extrude Bones:
+	______________
+
+	_para luego, seleccionar éste elemento de tipo armature, en edit mode, y con éste seleccionado entrar ha su modo
+
+	de edición de "Edit Mode", shortcut, "Tab"
+
+
+	_para luego, seleccionar el bone, y comenzar ha duplicar éste shortcut "shift + D", para que así, dispongamos de 
+
+	más bones, separados los cuales podremos ubicar en las demás posiciones donde existan shapes kays, previamente 
+
+	creadas como por ej, para los labios, mentón, párpados, cejas, otros, en cada lado del rostro ó face
+
+
+	
+
+	Handles Personalizados:
+	_______________________
+
+	_para luego, salir al modo "object mode", y proceder ha crear diferentes handles, personalizados a través, de splines,
+
+	con formas características a las zonas ha controlar, por ej; podríamos hacer handles, de splines, con formas como por
+
+	ej; de ceja, labios, párpado, mentón, otros, para leugo sustituir los bones, que hemos creado previamente por éstos
+
+	handles, personalizados
+
+
+	_para ésto, leugo de haber creado todos los objetos de tipo spline, que harán de handles, personalizados procederemos
+
+	ha seleccionar el armature, que creamos para el rostro ó face, y con éste seleccionado entraremos al modo "Pose Mode"
+
+
+	_y procederemos ha seleccionar un bone, ha personalizar por ej, el bone, de la ceja izquierda y con éste seleccionado
+
+	en "pose mode", iremos ha sus opciones de "properties/bone/display/custom shape:", y allí, seleccionaremos el objeto
+
+	de tipo spline, que hemos creado y editado previamente, en éste ejemplo, es "L_Handle_Ceja", para luego darle ha la 
+
+	opción de "Wireframe", para que así, ésta spline sea visible dentro de la estructura del armature
+
+
+	_y así, de ésta manera, podremos retetir éste proceso para el resto de bones, y shape keys, hasta terminar con el face
+
+
+
+
+	Drivers Handles Personalizados:
+	_______________________________
+
+	_para luego en seleccionar la mesh, ó retopology, del character, en "edit mode", ó en "object mode", vamos ha las 
+
+	opciones "properties/data object data/shape keys"
+
+
+	_y procedemos ha seleccionar cualquiera de las shape keys, ha relacionar con un handles, personalizado respecitvo
+
+	para que así, con la shape key, deseada seleccionada nos posamos sobre slider, de "Value:", y hacemos "mouse right click",
+
+	sobre ésta y seleccionamos la opción de "Add Drivers", para que así, ésta shape key, quede relacionada con el sistema del
+
+	panel "graph editor/drivers"
+
+
+	_de ésta manera, procederemos ha crear un nuevo panel en la interface, en el cuál, cargaremos el panel "Graph Efitor", y
+
+	en la barra inferior de éste cambiaremos la opción de "F-Curve", por la opción de "Drivers"
+
+
+	_para a continuación en el panel izquierdo de éste panel graph editor, seleccionar la shape key respectiva para leugo, con
+
+	ésta seleccionada desplegar el panel derecho de opciones del panel graph editor, shortcut, "N", e ir hasta la parte inferior
+
+	hasta encontra la sección de "Drivers"
+
+
+	_para que así, en las opciones de "drivers/type", seleccionemos la opción de "Averaged Value"
+
+
+	_y más abajo en la otra opción de "Type", dejaremos la opción por defecto de "Transform Channel"
+
+
+	_y en la opción del ícono de "Object", seleccionaremos el armature, respectivo que creamos para el face rig, para que así,
+
+	se abra justo debajo de éste un nuevo campo en el cuál, podemos seleccionar el respectivo bone, ha relacionar con la spline,
+
+	personalizada
+
+
+	_para leugo, seleccionar la cordenada de trabajo, en Type, la cuál, estará determinada por el tipo de handle, en éste caso para 
+
+	la ceja la cuál, tendrá un movimiento de abajo hacia arriba 
+
+
+	_y para saber la cordenada de trabajo de un bone, de forma más fácil, podremos seleccionar el armature, en pose mode, e ir ha 
+
+	las opciones de "properties/armature/display/", y allí, activamos las opciones de "Axes", para que así, cada bone, nos muestre 
+
+	sus ejes de trabajo
+
+
+	_y en las opciones de "Space", seleccionar la opción de "Local Space"
+
+
+	
+	Handles Limits:
+	_______________
+
+	_así, como también, para tener un mejor control y comprensión de alcance y limitaciones de los handles, podemos también, crear
+
+	límites para éstos
+
+
+	_a través, de constraints, como por ejemplo en pose mode, con el handle, respectivo seleccionado ir a las opciones de 
+
+	"properties/constraint/", y allí, agregar el constraint, "limit Location", a través, del cuál, podremos limitar el desplazamiento
+
+	de la cordenada de trabajo para que así, el handle, no pueda desplazarse más allá de lo que en realidad necesita
+
+
+	_así, como también, con el handles, repectivo seleccionado podemos ir a las opciones del panel 3d view, del panel derecho shortcut,
+
+	"N", donde encontraremos en la parte sueperior las opcioens de "Location, Rotation, Scale", en las cuales podemos bloquear las
+
+	cordenadas no deseadas a través, de un candado en la perte derecha de éstas
+
+
+
+
+

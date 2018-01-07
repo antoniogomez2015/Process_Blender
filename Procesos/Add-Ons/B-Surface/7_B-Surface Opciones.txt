@@ -1,0 +1,86 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	B-Surface Options:
+	__________________
+
+	_la modalidad de creación de geometría de b-surface, disponde de las siguientes opciones de configuración
+
+	y edición las cuáles, son las siguientes:
+
+
+
+		_Add Surface:
+
+			_ésta opción nos permitirá crear geometría a partir de los trazados existentes en el 
+
+			viewport 3d, hechos con la herramienta de grease pencil
+
+
+		_Cross:
+
+			_ésta opción determinará la cantidad de loops, poligonales horizontales en la geometría
+
+			resultante
+
+
+		_Follow:
+
+			_ésta opción determinará la cantidad de loops, poligonales verticales en la geometría
+
+			resultante
+
+
+		_Edit Strokes:
+
+			_(Indeterminado)
+
+
+		_Cyclic Cross:
+
+			_ésta opción permite "cerrar", el loop, de geometría circular como el anillo de los ojo ó 
+
+			boca, ya que ésta opción controla lo loops, en el sentido de la extrusión normal
+
+			NOTE: activar ésta opción en el menú contextual "F6"
+
+
+		_Cyclic Follow:
+
+			_ésta opción permite "cerrar", los loop, de geometría en paralelo especialmente útil para
+
+			casos en los que hay geometría colateral ya que ésta opción controla lo loops, en el 
+
+			transversal de la extrusión normal
+
+			NOTE: activar ésta opción en el menú contextual "F6"
+
+
+		_Loops on Stroke:
+
+			_ésta opción hará que los polígonos resultantes pasen exactamente por donde ha pasado
+
+			el stroke, de la brush, de la herramienta de grease pencil
+
+
+		_Automatic Join:
+
+			_(Indeterminado)
+
+
+		_Keep Strokes:
+
+			_(Indeterminado)
+
+

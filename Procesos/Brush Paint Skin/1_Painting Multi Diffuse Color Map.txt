@@ -1,0 +1,375 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+
+		Texture Projecting:
+		___________________
+
+		Blender - "Micky" Ch.1 - Pt. 8 - Prepping the reference images for texture mapping
+
+			https://www.youtube.com/watch?v=dHWwLKretts
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Painting Multi Diffuse Color Map:
+_________________________________
+
+
+	UVMap:
+	______
+
+	
+	_primeramente necesitamos tener una material base para el motivo; para lo cuál, perimeramente el motivo debe de tener
+
+	creado el proceso UVMap, previamente
+
+
+	_para a continuación a partir de haber creado el proceso de UVs, proceder ha ir al panel UV Image Editor, y en la parte
+
+	interior de éste darle a la opción de "+ New", y proceder ha crear una nueva textura a la cuál, debemos de asignarle un
+
+	nombre característico así, como unas dimensiones, ej; 2048 x 2048px
+
+
+
+	Diffuse Map Base:
+	_________________
+
+	
+	_para posteriormente agregar un material base ha nuestro motivo ó character, en el caso en éste no tubiese un manterial
+
+	agregado ó asignado
+
+
+
+	Material:
+
+	_para lo cuál, debemos primeramente entonces es ir al panel "properties/material material", y allí, darle a la opción de
+
+	"+ New", para así, agregar ó crear un nuevo material al motivo ó character
+
+
+
+	Texture:
+
+	_para posteriormente agregar también, una nueva textura sobre el motivo ó character, para el proceso de pintado y texturizado
+
+	para lo cuál, debemos primeramente ir al panel "properties/ texture texture", y allí a la opción de "+ New", para que así, se
+
+	cree una nueva textura vacía para el motivo ó character
+
+
+	_para a continuación ir a las opciones más abajo en el panel "properties/ texture texture/", "Type", y seleccionar allí, la
+
+	opción de "Image or Movie"
+
+
+	_para posteriormente ir a las opciones más abajo de "properties/ texture texture/", "Image", y alli, seleccionar la imágen que
+
+	creamos en el momento de crear el UVMap
+
+
+	_para que así, si podamos ir al panel "Texture Paint", y proceder con el proceso de pintura
+
+
+
+
+	
+	Crear New Diffuse Map: (en modo Blender Render)
+	______________________
+
+
+	_tenemos la posibilidad de crear más de una material de color difuso u otro para que así, podamos agregar detalles
+
+	extras en éste nuevo material difuso de color
+
+
+	_con la diferencia que éste nuevo material difuso tendrá canal alpha, para que así, éste deje ver el material de 
+
+	color de fondo exitente previamente
+
+
+
+	Fase 1:
+
+
+	_donde primeramente debemos de tener seleccionado el material base y textura que creamos en el paso anterior de
+
+	"Diffuse Map Base"
+
+
+	_para que así, sobre éste material base, crear nuevas texturas para que éstas texturas varias tabajen al unísono unas 
+
+	sobre otras
+
+	
+	_para posteriormente ir al panel "Texture Paint/Tools/Slots/Available Paint Slots/Add Texture Paint Slot/", y allí,
+
+	seleccionamos "Diffuse Color", para que así, se nos abra una ventana contextual la cuál, nos preguntará por un 
+
+	nombre para la textura ha generar así, como su tamaño, ej: 2048 x 2048px, su color y canal alpha como tipo
+
+
+	_de ésta manera, debemos entrar en la opción de "Color", y en canal alpha, debemos indicar un valor de "0", para 
+
+	que así, ésta textura se presenta de forma transparente y solo sea visibles las partes que pintemos en ésta a modo 
+
+	de pintura extra 
+
+
+	_así, luego de haber creado la nueva textura para el nuevo material debemos colocar justo debajo en las opciones de 
+
+	"Blend Ty", el modo de fusión de texturas "Color", u otros similar que más nos convenga
+
+
+	_así, para pintar en ésta textura, debemos seleccionar ésta en la sección del panel 
+
+	"Texture Paint/Tools/Slots/Available Paint Slots/Add Texture Paint Slot/", para que así, pintemos en su espacio a 
+
+	parte de color fuera de la textura original 
+
+
+	_más asi, como también, debemos seleccionar posteriormente en el panel "UV Texture Editor", la repectiva textura que 
+
+	hemos creado para éste repectivo canal ó nuevo "Slot", creado y seleccionado actualmente
+
+
+	_así, como también, es altamente recomendable guardar ésta textura en nuestro disco duro tanto en el momento de crear 
+
+	éstas así, como también, cuando hayamos terminado el proceso de pintura sobre ésta
+
+
+	_más para poder visualizar ambas texturas al unísono el panel "Texture paint", debe estar en modo de visualización 
+
+	de "Material", de lo contrario en el viewport, se mostrarán los diffuse maps, de forma individual
+
+
+	NOTA: de ésta manera, debemos ir repitiéndo éste proceso tanto para los canales ó slots, tanto para los colores base,
+
+	amarillo, rojo y azul, respectivamente y una adicional para una canal gris opcional
+
+
+	_para posteriormente unificar éstos éstos vía el panel "Node Editor", shortcut "Shift + F3", en el modo "Render Cycles"
+
+
+
+
+
+	Crear Diffuse Map: (en modo Cycles Render)
+	__________________
+
+	_para ésto, primero debemos ir al panel "Node Editor", y agregar un nodo de "Shift + A/Shader/Mix Shader", el cuál, 
+
+	conectaremos ha "Mix Shader/Shader", ha el nodo "Diffuse BSDF/Color"
+
+
+	_para leugo crear otros nodo "Shift + A/Texture/Image Texture", de ésta manera conectaremos ambos nodos de 
+
+	"Image Textura", tanto el existente previamente como el nuevo que acabamos de crear, así, conectaremos éstos ha 
+
+	"Image Texture/Color", al nodo "Mix Shader/Shader 1/2"
+
+
+	_de ésta manera, aparecerá en el panel "Texture Paint/Tools/Slots/Abailable Paint Slots", la nueva textura que hemos 
+
+	creado, en éste ejemplo la textura "Alter Diffuse Detail1"
+
+
+	_así, para poder ambas texturas de forma superpuestas en el viewport, del panel "Texture Paint", debemos activar la 
+
+	opción de visualización de "Material"
+
+
+	_de ésta manera, podremos seleccionar el material "Alter Diffuse Detail1", 
+
+	"Texture Paint/Tools/Slots/Abailable Paint Slots", y comenzar ha pintar sobre éste
+
+
+	_y por último para controlar el modo de fusión e interacción tendremos que ajustar el modo de porcentaje de mezcla 
+
+	en el panel "Node Editor", a través, del nodo "Mix Shader", ajustando entre valores de "0-1"
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Opción alternativa:
+___________________
+
+
+	Tutorial:
+
+		Multi Layered Painting in Blender 2.72
+
+			https://www.youtube.com/watch?v=DXGkee_BWHo&t=1433s
+
+
+UVs:
+____
+
+	_primero el motivo ó character, debe de tener aplicado el proceso UVs, para que así, se puedan volcar las texturas 
+
+	posteriormente sobre los UVs, correctamente
+
+
+
+Material:
+_________
+
+	_para luego ir ha "properties/material/", y ubicar allí, las opciones de "Data", y selecciona la opción de "Object", 
+
+	para que así, podamos agregar un nuevo material especialmente para éste motivo ó character
+
+
+	_para que así, de ésta manera, podamos darle al "+", ó "New", y crear un nuevo material el cuál, es recomendable 
+
+	renombrar ej; "Motivo"
+
+
+
+Texture Paint:
+______________
+
+	_para luego ir al modo "Texture Paint/Tools/Add a paint slot bellow/Add Paint Slot", y allí, seleccionar la opción de 
+
+	"Diffuse Color", para que así, se abra una ventana en la cuál, podremos indicar un nombre para la nueva textura ha 
+
+	generar así, como unas dimensiones para ésta como ancho y alto
+
+
+	_de ésta manera, ya tendremos el motivo listo para comenzar ha pintar sobre la primera layer, de pintura
+
+
+
+Multi Texture:
+______________
+
+	_más también, tendremos la posibilidad de crear más de una textura para nuestro character, ó motivo para lo cuá, 
+
+	tendremos que ir ha "properties/texture/", y seleccionar el ícono de "material, el circular plateado no el rojo de 
+
+	mosaicos
+
+
+	_y así, en la lista de materiales debemos seleccioanr un material que esté vacío ó disponible para que así, nos 
+
+	aparezcan las opciones de "+", ó "New", y poder así, generar un nuevo material extra
+
+
+	_y dejando por defecto las opciones de "Type", justo a continuación con la opción seleccionada de "Image or Movie"
+
+
+	_para leugo bajar en ésta misma sección "properties/texture/", hasta las opciones de "imagen", luego de haber creado 
+
+	una nueva textura en el paso anterior
+
+
+	_para que así, en las opciones de "properties/texture/image", darle al "+", ó "New", y crear una nueva textura 
+
+	alternativa para que así, se nos abra una ventana en la cuál, debemos de indicarle un nombre a la nueva textura ha 
+
+	generar así, como ambién, debemos indicarle unas dimensiones de ancho y alto
+
+	
+	_y en las opciones de "Generated Type", seleccionar la opción de "Blank" (de escoger otra opción el sistema no 
+
+	funcionará)
+
+
+
+Save: (éste paso es fundamenta para que funcione el sistema)
+_____
+
+
+	_de de haber creado ambas texturas es recomendables guardar éstas para lo cuál, debemos seleccionar la mesh, del 
+
+	motivo ó character en el viewport 3d, y entrar en su modo de edición shortcut; "tabulador", y seleccionar todos sus 
+
+	sub-elementos, shorcut: "A/A", para luego ir al panel UVImage Editor, shortcut; "Shift + F10", y en la parte inferior 
+
+	de éste seleccionar el ícono de imágen y allí, seleccionar cada una de las respectivas texturas ha guardar, y a 
+
+	continuación darle ha "image/save ass", ó shortcut; "F3"
+
+
+	_y posteriormente mientras vayamos avanzando en el proceso de pintura sobre nuestro motivo ó character, es altamente 
+
+	aconsejable ir guardando cada una de las texturas para que así, se vaya guardando el resultado en cada una de éstas 
+
+	texturas independientes
+
+
+
+Visualización:
+______________
+
+	_es aconsejable primeramente ir a las opcioens de "properties/texture/image", y allí activarle ha cada slot textura la 
+
+	opción de "Show Alpha", para visualizar así, como se comportan los materiales de forma plana y superpuesta
+
+
+	_y para ver ambos texturas sobre el mismo material interactuando entre si es necesario colocar el modo de visualización 
+
+	del viewport 3d, en modo de "Solid", ha "Material"
+
+
+	_más si deseamos una visualización plana de las texturas sin la influencia de la iluminación y enviroment, y demás 
+
+	elementos de la escena podemos ir a las opciones de "properties/materials/shading/", y allí, activar la opción de 
+
+	"Shadeless"
+
+
+
+Post Producción:
+________________
+
+	_y cuando hayamos finalizado el proceso de pintura con todas las layers, de pinturas ahora podremos ir ha por ejemplo; 
+
+	Phothoshop, y cargar en éste todas las texturas generadas en el proceso de pintura
+
+
+	_de ésta manera, podremos acoplar todas las layers, e incluso darles los últimos toques finales antes de convertirlas 
+
+	en una única layer, definifita para el motivo ó character
+
+
+	_y posteriormente tendremos la posibilidad de cargar éste nueva textura master, la cuál, podremos cargar como forma 
+
+	"jpg", ó formado "psd"
+
+

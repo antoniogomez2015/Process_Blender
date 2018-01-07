@@ -1,0 +1,75 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Armature Parent:
+________________
+
+
+
+	_cuando disponemos de un character, segmentado tipo robot, ej, donde el "brazo", esta separado 
+
+	ó es otra geometría diferente a la del ante brazo y, así, sucesivamente podríamos utilizar el
+
+	sistema de emparentamiento a través, de skeleton system/armature
+
+
+	------------------------------------------------------------------------------------------------
+
+
+	Armature:
+	_________
+
+	_primero ubicarmos toda la geometría del character en lugar ó pose deseada
+
+
+	_luego creamos un "Shift + A/Add/Armature/Single Bone", éste lo colocamos en el lugar deseado según
+
+	la cinemática del character
+
+
+
+	Chains:
+	_______
+
+	_luego con el object bone, seleccionado entramos al modo de edición "Tab", y procedemos ha extruir 
+
+	éste "E", para crear las cadenas deseadas, este proceso lo podemos repetir hasta terminar el character,
+
+	como también, podríamos duplicar las cadenas creadas y ajustas su posición demás
+
+
+	Parent: (Pose Mode)
+	_______
+	
+	_ahora seleccionamos una chain, ó cadena deseada y vamos al modo "Pose Mode"
+
+	
+	_luego vamos al explorer, y seleccionamos la mesh, respectiva al bone determinado deseado ha emparentar
+
+	con ésta
+
+
+	_luego de seleccionar la mesh, respectiva deseada debemos seleccionar el bone, deseado respectivo
+
+	
+	_luego con ambos elementos seleccionados vamos al menú de emparentamiento shortcut "Control + P", y,
+
+	seleccionamos la opción de "Set Parent To/Bone"
+
+
+	_de esta manera el mesh, respectiva deseada quedará emparentada al bone, respectivo deseado, así, 
+
+	podremos repetir este paso hasta terminar de emparentar todo nuestro character de forma práctica
+	

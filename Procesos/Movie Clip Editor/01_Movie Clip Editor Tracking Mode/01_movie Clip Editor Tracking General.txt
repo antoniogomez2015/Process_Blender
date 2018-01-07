@@ -1,0 +1,33 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	General:
+	________
+
+	_éste panel nos permitirá realizar procesos de tracking, y procesos de enmascarados vectoriales para diferentes procesos
+
+	de producción y composición respectivamente
+
+
+	
+	

@@ -1,0 +1,41 @@
+
+
+
+	How to Master Video Editing in Blender.
+
+		https://www.youtube.com/watch?v=42AQ_EtRVq4
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Modifiers:
+	__________
+
+	_más también tenemos la posibilidad de agregar modificadores a los clips, cargados en el panel "Video Secuence Editor",
+
+	para que así, podamos aumentar las posibilidades de edición de los clips, en el timeline, y su relación entre si
+
+
+	_de ésta manera, debemos seleccionar un clip, y con éste seleccionado ir a las opciones del panel de propiedades shorcut,
+
+	"N"
+
+	
+	_y allí, bajar hasta las opciones de "Modifiers", donde debemos de activar ésta opciónes para que así, éstas estén disponibles
+
+	para éste clip, respectivo
+
+
+	_dentro de las cuáles, disponemos de balance de color, tono saturación y brillo, contraste, curvas de gamma, máscaras, blanco
+
+	y negro, otros
+
+
+	_y éstos modificadores se cargarán en el mismo panel de herramientas del panel "Video Secuence Editor", y es ellí, donde
+
+	debemos de editar y configurar éstos respectivos modificadores aplicados a un clip, determinado del timeline

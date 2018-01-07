@@ -1,0 +1,139 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	2_Diffuse Detail:
+	_________________
+
+	_a través, de éste mapa podremos agregar más detalles de cara a la textura de color difuso final la cuál, estará
+
+	compuesta de varias texturas y shaders, trabajando al unísono
+
+
+	_lo cuál, nos permitirá más flexibilidad de edición al permitirnos poder cambiar tanto la opacidad como el modo de
+
+	de funsión de ambos mapas de color difuso lo cuál, es especialmente útil para el proceso de producción como de 
+
+	posproducción
+
+
+	
+	Diffuse Detail Map:
+	___________________
+
+	_de ésta manera, debemos de crear un nuevo mapa de textura para éste nuevo shader, de diffuse map, a través, de los 
+
+	siguientes pasos:
+
+
+
+	Diffuse Map:
+
+	_para lo cuál, debemos primeramente de ir al panel "Texture/Slots/Add Texture Paint Slot"
+
+
+	_para que así, se nos abra una ventana contextual en la cuál, podremos configurar el nuevo mapa y shader, ha generar:
+
+
+		_podremos asignar un nombre para la nueva textura ha generar, en éste caso la nombraremos como "Diffuse Detail"
+
+
+		_así, como también, podremos darle un tamaño ó una dimensiones en éste caso le indicaremos el mismo tamaño que
+
+		le indicamos al "Diffuse Color", base, en éste caso "4K"
+
+
+		_también, podremos indicarle un color, en éste caso lo dejaremos por defecto en color negro
+
+
+		_así, como también, podremos indicarle una transparencia para el mapa en éste caso haremos doble click, sobre
+
+		el recuadro de color negro y entraremos a las opciones de color para indicar en "Alpha", un valor de "0", para
+
+		que así, éste mapa se cree con un valor totalmente transparente y no obtruya así, a los demás shaders, y 
+
+		texturas aplicadas sobre el motivo ó character
+
+
+		_más también, debemos de activarle de modo seguido la opción de "Alphas"
+
+
+		_y por último la opción de "32Bits", ésta opción es totalmente opciónal, ésta la podemos activar para tener una
+
+		mejor representación en los detalles finos más ésta opción relentizará el proceso
+
+
+
+	Blend Mode:
+	___________
+
+	_ésta opción la podremos configurar en dos lugares diferentes tanto en el panel "Texture Paint/Slot/Blend Type", y allí,
+
+	podremos seleccionar por ejemplo el modo de "Mix", que por lo general es el más recomendado ó estándar
+
+
+	_así, como también, ésta opción la podremos configurar yendo ha "Properties/Texture Texture/Influence/Blend"
+
+
+	
+	Influence:
+	__________
+
+	_así, como también, podremos controlar ó graduar la intensidad de éste mapa en relación a los demás mapas existentes
+
+	para lo cuál, debemos a las opciones de "Properties/Textures Textures/Influente/Diffuse/Color/"
+
+
+	_de ésta manera, podremos variar la intensisdad de éste mapa en relación a las demás texturas y shaders
+
+
+	
+	Optional:
+	_________
+
+	_de ésta manera, podremos fusionar éste mapa con del "Diffuse Color", base en blender, através, de "Bake/Material",
+
+	ó en Photoshop, para ir sumando detalles de piel y demás características
+
+
+	_para lo luego volver ha tener disponible y de forma independientes los mapas de "Diffuse Color", y "Diffuse Detail",
+
+	para volver ha comenzar el proceso ó ciclo una y otra vez, hasta tener el motivo ó character totalmente optimizado 
+
+	

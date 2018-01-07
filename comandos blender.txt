@@ -1,0 +1,214 @@
+Alt + Control + x = historial de la historia
+
+Control + v = opciones de vertices
+
+Control + w = opciones especiales
+
+Control + F = opciones de poligonos o faces
+
+Control + Alt + Shit + C = opciones de Orion y pivote
+
+Shit + G = seleccionar similar para edicion de objetos
+
+H = ocultar seleccion
+
+Alt + H = mostrar selecciones ocultas
+
+Shit + H = ocultar elementos no seleccionados
+
+Alt + space bar = orientacion de objetos
+
+Alt + M = opciones de Marge o fusion de objetos
+
+Y = split o dividir
+
+P = separar
+
+V = rip o dividir aristas
+
+Control + E = extrusion por region
+
+Shit + E = extrusion individual
+
+Alt + E = extrusion menu contextual
+
+orientacion de desplazamiento hacia una cordenada (luego de extruir o modelando), antes de la accion del movimiento aplicar una vez y soltar: x,Y,Z
+
+Control + U = salvar preferencias de usuarios
+
+Shit + Control + O = abrir documentos recientes
+
+Control + Tabulador = opciones de sub objetos poligonales
+
+c = pincel de seleccion
+
+B = rectangulo de seleccion
+
+Alt + B = rectangulo de seleccion aislante o (solo), para salir de la seleccion volver a aplicar, Alt + B
+
+Z = vista alambria en la vista seleccionada
+
+Alt + Z = vista texturizada en la vista seleccionada
+
++ - = Zoom 
+
+Shit + R = rotacion de objeto en el orion o origen del objeto (mas cordenada opcional: X,Y,Z)
+
+Control + Alt + S = escala de objeto proporcional en el orion del objeto mientras se arrastra
+
+Control + Alt + Shit + S = escala de objeto a lo ancho o alto en el orion del objeto mientras se arrastra
+
+Control + Shit + S = Snap a o ajuste a
+
+Control2 + Shit + Tabulador = Snap Type
+
+Shit2 + Tabulador = Snap Transformation edition
+
+Alt + F = convertir selecciones de aristas en selecciones de facetas
+
+ponto, doc, home, inicio = zoom a seleccion
+
+Control + Alt + Q = paso de una vista a 4 vistas
+
+U = UW Mapping menu contextual
+
+X = wareframe mode view
+
+Alt + AltGr + Z = texture mode view
+
+T = panel de herramientas
+
+N = panel de opciones
+
+O = edicion proporcional o soft selection: arrastrar objetos seleccionados y con el scroll del mouse gradas el area de accion
+
+Shit + O = tipo de edicion proporcional
+
+F = creacion de aristas y facetas nuevas en modo de edicion de objetos
+
+1 = vista frontal/ from
+
+3 = Vista derecha/ right
+
+7 = vista superior/ top
+
+Alt + 1 = vista tracera/ back
+
+Alt + 3 = vista izquierda/ left
+
+Alt + 7 = vista inferior/ button
+
+5 = este permite pasar cualquier vista (from, left, right, top, otras), con proyeccion en perspectiva a proyeccion ortogonal o sin distorcion
+
+4,5 = permiten orbitar gradualmente de forma horizontalmente por pasos
+
+2,8 = permiten orbitar gradualmente de forma verticalmente por pasos  
+
+control + arrow o flecha left, right = avance o cambio de la configuracion siguiente o anterior
+
+Control + arrow o flecha + up arriba, down abajo = maximizacion del panel seleccionado
+
+Alt + scrollbar = avanzar/retroceder un fotograma en la linea de tiempo
+
+Shit + Up/Dow Arrow = avance/retroceso de 10 fotogramas en la linea de tiempo
+
+Control + Control2 + S = saver over
+
+Control + scrollbar = travelling de camara en el visor seleccionado
+
+Control + T = Redraw Timer
+
+Control + Alt + D = debug menu contectual
+
+(modo objeto) Control + Tabulador = Weight Paint mode
+
+(modo objeto) Control + I = intercambio de objetos seleccionables al que esta seleccionado
+
+(modo objeto) P = preview de render
+
+(modo objeto) Alt + Control + U = preferencias del programa
+
+(modo objeto) I = Kinematica invertida menu
+
+(modo objeto) , = orientacion de base del objeto o bounding box center
+
+(modo objeto) . = orientacion de base el cursor 3D
+
+(modo objeto) Alt + . = orientacion active element
+
+(modo objeto) Control + , = orientacion mediam point
+
+(modo objeto) V = vertex paint mode option
+
+(modo objeto) M = menu capas o layers
+
+(modo objeto) X = warefrane mode view
+
+(modo objeto) Alt + X = texture mode view
+
+(modo objeto) Control + T = menu contextual constrain objects
+
+(modo objeto) Control + A = menu contextual Apply
+
+(modo objeto) Control + G = agrupar objetos
+
+(modo objeto) Control + Shit + C = Add Contraint (with target) menu contextual
+
+(modo objeto) Alt + G, R,S,O = clear o reset propiedad (transformacion o posicion, rotacion, escala, origen)
+
+(modo objeto) Control + G = select grouped menu contextual
+
+(modo objeto) Control + Alt + W = nuevo programa abierto como copia del actual de blender
+
+(modo objeto) Control + W = opciones especiales de restriccion de render
+
+(modo objeto) Control + M = reflejar objeto seleccionado (luego de la accion debemos indicar cordenada: X,Y.Z), para que aplique la accion
+
+(modo objeto) Shit + F2 = cambiar el visor actual por el visor Logic editor
+
+(modo objeto) Shit + F3 = cambiar el visor actual por el visor Node editor
+
+(modo objeto) Shit + F4 = cambiar el visor actual por el visor Phython console editor
+
+(modo objeto) Shit + F5 = cambiar el visor actual por el visor perpective editor
+
+(modo objeto) Shit + F6 = cambiar el visor actual por el visor Graph editor
+
+(modo objeto) Shit + F7 = cambiar el visor actual por el visor propiedades editor
+
+(modo objeto) Shit + F8 = cambiar el visor actual por el visor Video secuence editor
+
+(modo objeto) Shit + F9 = cambiar el visor actual por el visor Outliner editor
+
+(modo objeto) Shit + F10 = cambiar el visor actual por el visor UV/image editor
+
+(modo objeto) Shit + F11 = cambiar el visor actual por el visor Tex editor
+
+(modo objeto) Shit + F12 = cambiar el visor actual por el visor Dopesheet editor
+
+(modo objeto) Alt +F11 = aplicaciones fullscreen desbordada sin pestañas
+
+(modo objeto) Alt + F3 = screenshop de la aplicacion completa
+
+(modo objeto) Control + F3 = salvar screenshop
+
+(modo objeto) U = make single user (data de objeto a grupo de datos)
+
+(modo UV/image editor) Alt + left click = loops selecto sub object
+
+(modo UV/image editor) Shit + B = seleccion de borde (rectangulo de seleccion de sub objeto)
+
+(modo UV/image editor) G = translate (luego indicar cordenada; X,Y, para aplicar la accion)
+
+(modo UV/image editor) R = rotation (luego indicar cordenada; X,Y, para aplicar la accion)
+
+(modo UV/image editor) S = scale (luego indicar cordenada; X,Y, para aplicar la accion)
+
+
+
+
+
+
+
+
+ 

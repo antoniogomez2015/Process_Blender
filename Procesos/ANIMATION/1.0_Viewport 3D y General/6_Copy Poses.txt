@@ -1,0 +1,40 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_también, tenemos la posibilidad de copiar y pegar poses, incluso hasta de manera invertida
+
+
+
+
+Copy/Paste Pose:
+
+
+	_para lo cuál, disponemos en el modo "pose Mode", de las siguientes opciónes, para ésto, debemos ir a las
+
+	opciones de "Pose/Copy Pose"
+
+
+	_ó a través, de los shortcuts: 
+
+
+		_Control + C
+
+		_Control + V
+
+		_Control + Shift + V
+
+
+	_de ésta manera, podremos copiar poses a través, del tiempo en el timeline, así como también, invertir
+
+	poses copiadas previamente
+
+
+

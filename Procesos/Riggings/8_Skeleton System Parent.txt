@@ -1,0 +1,49 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Skeleton System Parent:
+	_______________________
+
+
+		_luego de haber crear el "Armature", ó "Skeleton System", ahora debemos emparentar cada una de sus partes, 
+
+		entencido de que hemos creado el skeleton system, a través, de diferentes chains, ó cadenas de bones, ó huesos
+
+
+		_así, en "edit mode", debemos seleccionar el primer bone, de una respectiva cadena ej; el bone correspondiente al 
+
+		"L_Femur", de la cadena ó chain, de una pierna ó "Leg", para luego seleccionar el bone al cuál, desamos emparentar
+		
+		ésta respectiva cadena de la leg, ó pierna, en éste caso será el bone, central del skeleton system, y con ambos bones,
+
+		seleccionamos vamos ha "Armatute/Parent/", y aplicamos "Make", ó shortcut "Control + P", y aplicamos la opción de 
+
+		"Keep offset", para que así, todos los bones, mantengan la posición original
+
+
+		_así, tendremos que repetir éste proceso hasta unir todas las chains, cadenas unas con otros según la lógica del
+
+		character, para que al final podamos model en "pose mode", todo el character, a través, de un handle, control principal
+
+
+
+
+
+

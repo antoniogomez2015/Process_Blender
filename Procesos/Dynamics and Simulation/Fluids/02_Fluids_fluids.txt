@@ -1,0 +1,65 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un fluid, es un objeto el cuál hará de emisor de fluido dinámico para ésto debemos crear un elemento 
+
+		de tipo mesh, que hará de proxi, a partir del cuál, se comenzará ha generar el fluido en relación al 
+
+		volúmen de éste objeto
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó fluido el cuál, deberá ser más
+
+		pequeño y caber dentro del objeto "Domain", ó contenedor que previamente debimos haber creado
+
+
+
+	Fluid:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionado vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Fluid", para éste objeto para que así, éste esté disponible para los procesos 
+
+		de simulación
+
+
+	Fluid/Fluid:
+	____________
+
+
+		_ahora con el objeto proxi, seleccionado vamos ha "Properties/Physics/Fluid Type/", y seleccionamos
+
+		la opción de "Fluid", para que así, éste objeto proxi, se comportará en el fluido propiamente a la
+
+		hora de realizar la simulación ya que la simulación se realizará a partir de ésta forma de éste objeto
+
+
+		_luego tendremos que colocar ha éste elemento proxi, dentro del objeto contenedor ó "domain", ó 
+
+		colocarlo según la lógica de la escena
+
+
+		_luego podremos ocultar el objeto proxi, del fluido para que éste no esté visible en el viewport
+
+		más el fluido si estará visible en el viewport
+
+
+

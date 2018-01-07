@@ -1,0 +1,77 @@
+
+
+
+
+Blender Dynamics /Smoke
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Container Domain:
+	_________________
+
+		1_primero debemos seleccionar el contenedor "domain", luego con éste seleccionado vamos a las opciones
+
+		de "Properties/Material/", y creamos un nuevo material para el contenedor, éste lo renombramos ej;
+
+		"domain", 
+
+			_y lo cambiamos a tipo de visualización "Volume"
+
+			_así, como también, cmabiaremos su densidad ha "0"
+
+
+		2_también, agregaremos una nueva textura al material del contenedor domain, yendo ha "Properties/Material
+
+		/Texture/", y allí agregaremos una nueva textura de tipo 
+
+
+			_"Voxel Data", 
+
+
+		_ésta es una textura preparada para representar varios tipos de elementos dinámcos
+
+
+
+		3_así, iremos a las opciones de "Voxel Data", y en "File Format", seleccionamos la opción de "Smoke", y en 
+
+		las opciones de "Domain Object", seleccionaremos el objeto del outliner, que representa al contenedor en
+
+		éste caso es "Container"
+	
+
+
+		4_y aún con el conenedor ó domain, seleccionado tendremos que ir las opciones de "Texture Texture/Influente",
+
+		y allí, activas las opciones de
+
+
+			_Density:
+
+				_debemos activar ésta opción
+
+
+			_Emission:
+
+				_debemos activar ésta opción
+
+
+			_Emission Color: (OJO)
+
+				_debemos de desactivar ésta opción
+
+
+
+	NOTA: sa resultados inesperados en últimas versiones de blender, ya que en éstas últimas versiones de blender, el sistema
+
+	no creará un sistema de partículas junto en el sistema de humo, de ésta manera, el sistema de texturizado y renderizado
+
+	hasta éste punto contempla el texturizado y renderizado en el blender render, a través, de éste método el cuál, por lo
+
+	vista ha quedado obsoleto
+
+
+

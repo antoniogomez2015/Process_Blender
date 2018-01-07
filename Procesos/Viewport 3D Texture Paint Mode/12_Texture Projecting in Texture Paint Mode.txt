@@ -1,0 +1,331 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+
+		Texture Projecting:
+		___________________
+
+		Blender - "Micky" Ch.1 - Pt. 8 - Prepping the reference images for texture mapping
+
+			https://www.youtube.com/watch?v=dHWwLKretts
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+UvMap:
+______
+
+
+	_el character, ó motivo debe tener aplicado el proceso de uvmap, para obtener así, obtener los uvs, de proyección 
+
+	para los posteriores procesos de mapas y texturas en sus diferentes aplicaciones, especialmente para obtener el
+
+	UVMaster, general del character, ó motivo
+
+
+	_para el proceso de texturizado y mapas en producción tendremos que realizar diferentes tipos de mapas de uvs, para
+
+	los diferentes procesos de proyección dentro la producción de los diferentes mapas
+
+
+
+	UvMap Master:
+	_____________
+
+	_primero procedemos ha realizar el proceso normal para extracción de los uvs, del character a través, de la 
+
+	generación de seams, para luego hacer unwrap, así, obtendremos el uvmap, master, en el cuál, se proyectarán las demás
+
+	proyecciones, es recomendable crear un mapa de mínimo de 2k, "2048x2048px", ha 4k "4096x4096px"
+
+
+	_luego vamos "properties/data object data/UV Maps", y allí, renombramos el exitente ej, "UVMap_Master"
+
+
+	_es aconsejable exportar el uvmap, generado para poder editar texturas en programas externos como photoshop, para ésto
+
+	vamos al modo de "edit", y en el panel UVImage Editor, vamos ha "UVs/Export UV Layout", y exportamos el uvmap
+
+
+	---------------------------------------------------------------------------------------------------------
+
+
+NOTE:	de aquí en adelante se refiere al proceso de texture proyection por proyección axonométrica
+
+
+	UvMap From/Left/Top/Back:
+	_________________________
+
+	_luego debemos crear nuevos mapas de uvs, con la proyección de uvs, en relación al plano axonométrico respectivo, ej,
+
+	from/left/back..
+
+
+	
+	1_Crear nuevo UVMap:
+	____________________
+
+	_para ésto seleccionamos la mesh, del character, y luego debemos colocar la cámara en la vista axonométrica de proyección
+
+	en éste caso la vista "Left", shortcut; "3", y en su modo axonométrico shortcut; "5" y luego entramos en su modo de edición 
+
+	shortcut; "Tabulador", para luego seleccionamos todos los sub-elementos del motivo y vamos al panel de propiedades y 
+
+	buscamos la pestaña de "Properties/Data Object Data/UV Maps", y le damos al plus, ó más "(+)", para crear así, un nuevo 
+
+	uvmap
+
+
+	_luego debemos renombrar éste nuevo uvmap, que hemos creado ej, "UVMap_Left", y dejarlo seleccionado para aplicar una nueva
+
+	proyección sobre éste y no sobre el original ó UVMap Master
+
+
+
+
+	2_Proyectar UVMap:
+	__________________
+
+	_para luego, con los sub-elementos del motivo seleccionado en el modo de edición en la vista respectiva en éste caso "Left",
+
+	y en su modalidad axonométrica procedemos ha hacer una nueva proyección desde esa vista, shortcut; "U", y seleccionamos la
+
+	opción de "Project From View"
+
+
+	_así, podremos ver que el motivo ahora es proyectado sobre una nueva UVMap_Left, proyección y no en la orignal en el panel
+
+	"UVMap Editor", shortcut; "Shift + F10", así, luego de haber proyectado la proyección de una de las vistas deseadas debemos
+
+	ajustar el tamaño y la posición de ésta nueva proyección en el panel UVMap Editor para que así, ésta se ajuste al tamaño 
+
+	del canvas	
+	
+
+	_luego vamos al panel UV Image Editor, y cargamos la imágen de proyección a proyectar sobre el character, en éste 
+
+	caso será la imágen de "left"
+
+
+	_es aconsejable editar las imágenes antes de importaras para que éstas tengan el mismo tamaño y coinsidan así, como
+
+	también, se podria clonar las partes que se superpondrían en las diferentes vistas para convertirlas en piel para cada
+
+	una de las vistas respectivas, ej, las cejas que se verían correctamente en la vista from, estorbarían un poco en las
+
+	vistas de los costados, de ésta manera podríamos clorar las cejas para convertirlas en piel para las vistas laterales
+
+
+	_éste proceso lo repetimos para cada una de las proyecciones deseadas como "from/back/left/right/top/bottom", tanto en las
+
+	indicaciones del primer paso como las de éste segungo paso
+
+	
+
+	3_Mapeo manual de textura:
+	__________________________
+
+	_ahora para tener una mejor viualización es aconsejable hacer selecciones parciales de los sub-elementos del motivo así, 
+
+	primero iremos ha "properties/data object data/uv mpas", y allí, en la lista seleccionaremos el uvmap, respectivo en éste
+
+	así, seleccionaremos el UVMap_Left
+
+
+	_y con el uvmap, respectivo seleccionado vamos el viewport, y seleccionamos el motivo y entramos a su modo de edición
+
+	shortcut; "tabulador", y procedemos ha seleccionar sus sub-elementos correspondientes a la perspectiva de proyección en
+
+	éste caso serán los sub-elementos del lado izquierdo ó "left", shortcut, para selección rectangular 
+
+	"B + mouse left click anddrag", shortcut, seleccionar por lazzo, "Control + mouse left click and drag"
+
+
+	_de ésta manera, con los sub-elementos correspondientes a la proyección "UVMap_Left", seleccionados hacemos una inversión 
+
+	de sub-elementos, shortcut; "Control +I", para poder así, ocultar los sub-elementos que no nos interesan ó estorban para 
+
+	éste proceso específicamente, de ésta manera, podremos ocultar éstos sus-elemento haciendo el comando ó shortcut; "H", 
+
+	y cuando hayamos terminado todo el proceso posterior de proyección podremos hacer visible todos los sub-elementos ocualtos
+
+	previamente a través, del shortcut; "Alt + H"
+
+
+	_de ésta manera los sub-elementos de la parte posterior ha la vista de proyección no nos impedirán una correcta 
+
+	visualización en el panel UVMap Editor, para el siguiente proceso explicado a continuación
+
+
+	_ahora tendremos que hacer que la proyección de la geometría proyectada sobre la imágen en el panel Uv Image Editor,
+
+	conincidan, para ésto debemos hacer deformaciones de la mesh, en el panel Uv Image Editor, a través, de la herramienta
+
+	de edición proporcional, shortcut "o", hasta que la mesh, coincida los más posible
+
+
+
+	5_Combine Textures Cone Projection:
+	___________________________________	
+
+	_ahora para combinar todos las texturas de las respectivas proyecciones como form,left,otras, debemos ir primero ha
+
+	"properties/data objet data/uv map", y seleccionar allí, el "UVMap_Master", que creamos el cuál, tiene la proyección 
+
+	general del motivo ó character
+
+
+	para leugo ir al modo "Texture Paint", y en su panel tool, de la iaquierda debemos hasta las opciones de 
+
+	"Tools/Add a material and paintin slot/", y desplegar llí, las opciones y seleccionar "Diffuse Color", para que así, se
+
+	nos abra una ventan en la cuál podremos indicar un nombre para la nueva textura ha genera ej; "Marter Diffuse Color", así,
+
+	como las dimensiones de ésta en ancho y alto, es recomendable indicar un tamaño mínimo de 2k, ó 2048x2048px, ó superior 
+
+	ha 4k
+
+
+	_para posteriormente volver al panel "Texture Paint", en el panel izquierdo "tools/brush", y allí, seleccionamos la brush,
+
+	"Clone", shortcut; "1"
+
+
+	_para leugo a las opciones en "Texture Paint/Tools/Slots/Painting Mode", y allí, seleccionar la opción de "Image", para que
+
+	así, a continuación justo debajo de ésta opción podamos en escoger en "Canvas Image", las lista de imagenes que hemos 
+
+	utilizado para todas las respectivas proyecciones de las diferentes vistas como form,lef,right, como también, las texturas
+
+	master y demás texturas
+
+
+	_de ésta manera, en éste campo "Canva Image", debemos seleccionar la última textura que creamos "Marter Diffuse Color", sobre
+
+	la cuál, serán volcadas las demás texturas de las diferentes proyecciones y por último en las opciones de "UV Map", 
+
+	seleccionamos la opción de "UV Map"
+
+
+	_para leugo volver a las opciones de "Texture Paint/Tools/Brush/Clone", y allí, activar la opción de "Clone from image UV map",
+
+	y a continuación justo debamo escoger en "Source Clone Imange", la respectiva imagen de cada una de las proyecciones ha 
+
+	transpolar a la textura "Marter Diffuse Color", en éste caso, seleccionaremos la imágen de la proyección "From", y por útlimo
+
+	seleccionar en las opciones de "Source Clone UV Map", la opción de "UVMap_Left"
+
+
+	_para que la proyección se realice tomando los mismos ajustes que creamos sobre la imagen respectiva en cada proyección de UVs,
+
+	con sus respectivos ajustes y correcciones de deformación
+
+
+	_y para tener una mejor proyección es aconsejable en éste caso desactivar las opciones de proyección ó pintura libre, para
+
+	éstos debemos ir a las opciones en "Texture Paint/Options/Projection Paint/", y allí, desactivar las opciones opciones:
+
+
+		_Oclude
+
+		_Normal
+
+
+	_para que así, la proyección sólo se realice de una mejor manera
+
+
+	_por último sólo nos quedará proyectar las imagenes sobre la textura principal "Marter Diffuse Color", para lo cuál, debemos
+
+	en viewport, 3d, colocar la vista izquierda en éste ejemplo, shortcut; "3", y la vista axonométrica, shortcut; "5", para que
+
+	así, en el modo "Texture paint", y con las brush, "Clone", y con textura correcta ó respectiva "Left", y con el UVMap, correcto
+
+	para ésta textura "UVMap_Left"
+
+
+	_procederemos entonces ha ir pintando sobre la mesh, del "Marter Diffuse Color", y UVMap_Master, de ésta manera, podremos ver
+
+	que la textura se irá proyecctando correctamente que ésta biene corregida de su respectiva corrección
+
+	
+	_y de ésta manera, iremos cambiando tanto de textura, en las opciones de "Texture  Paint/Tools/Brush/Clone/Source Clone Image",
+
+	y en las opcioens de "Source Clone UV Map", y así, como también, en las opciones de las diferentes vistas en viewport, como 
+
+	los son form,left,irght,top, otros
+
+
+	_y de ésta manera, podremos ir reconfeccionando el motivo ó character, sumando todas las proyecciones en una sola master
+
+	textura global hasta obtener un resultado óptimo
+	
+
+
+
+	6_Viewer Texture in Cycle:
+	__________________________
+
+	_para poder visualizar la proyección uvs, que estamos realizando, en éste caso Left, debemos abrir el panel node editor,
+
+	y agregar los siguientes nodos:
+
+
+
+		_shortcut: shift + a "Add/Texture/Image Texture", ésta debemos conectarla ha "Diffuse BSDF/Color"
+
+
+		_shortcut: shift + a "Add/Input/UV Map", ésta debemos conectar ha "Image Texture/Vector", y en el campo de 
+
+		opciones del nodo "UV Map", debemos seleccionar la proyección de uvs, deseada en éste caso "UVMap_From"
+
+
+	de ésta manera podremos renderizar la textura proyectada, más para poder ver la textura en el viewport, para poder
+
+	tener una mayor referencia en el viewport para ajustar mejor la proyección debemor colocar la opción de "metod de display",
+
+	en la cuál, colocaremos la opción de "Texture", shorcut "Alt + Z"
+
+
+
+NOTE:	ahora debemos repetir éste proceso a partir de "UvMap From/Left/Top/Back", para obtener así, las demás proyecciones 
+
+	tanto de los planos "form/back/left/right/top"...
+	
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+

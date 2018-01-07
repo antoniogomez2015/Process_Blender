@@ -1,0 +1,51 @@
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Decimate:
+	_________
+
+	_disponemos en blender, de forma nativa de un modificador a través, del cuál, podremos hacer decimation, 
+
+	ó disminución de geometría al modo que lo hace "ZBrush"
+
+
+	_éste proceso contempla la conversión en gran medida de la geometría ha triads, ó triángulos poligonales
+
+	sober todo en reducciones muy grandes de polígonos lo cuál, no siempre es conveniente
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo polymesh, y con éste seleccionado ir ha el panel
+
+	"Properties/Modifiers/", y allí, seleccionar el modificador "Decinamte"
+
+
+
+	Configuración:
+
+	_el cuál, dispone de varias opciones ó criterios de acción donde el más recomendado es "Collapse", el cuál,
+
+	tratará en lo más posible de mantener la polígonos en forma de "Quads", y de mantener la topología y 
+
+	morfología original
+
+
+	_para que así, a través, de la opcion de "Ratio", por medio de un slider, podamos disminuir la cantidad de
+
+	geometría resultante en el objeto
+
+
+	_de ésta manera, cuando estemos conformes con la geometría resultante debemos de darle a la opción de
+
+	"Apply", para que así, los cambios se apliquen de forma permanente y podamos posterior seguir con el 
+
+	proceso de edición, mapeo, texturizado, animación, render, otros
+
+
+	

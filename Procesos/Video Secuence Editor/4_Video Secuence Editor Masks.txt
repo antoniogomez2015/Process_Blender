@@ -1,0 +1,141 @@
+
+
+
+	Using Masks in Blender's Video Sequence Editor
+
+		https://www.youtube.com/watch?v=TDGB3SNXJrM
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Masks:
+	______
+
+	_más también tenemos la posibilidad de agregar máscaras a los clips, de video para que así, podamos aumentar las 
+
+	posibilidades de producción e integración con el demás material ó clip, en el tiemeline, del panel video secuence editor
+
+
+	_para lo cuál, debemos de hacer uso del panel "Movie Clip Editor", para que así, podamos ir hasta la parte inferior de éste
+
+	panel en las opciones de "Mode", y seleccionar el modo de "Mask", para que así, podamos trabajar en la modalidad de máscaras
+
+
+	_de ésta manera, debemos de abrir el clip, de video ó secuencia de imágenes en el panel "Movie Clip Editor", más debemos
+
+	serciorarnos de que el clip, ó material de archivo que está en el panel "Video Secuence Editor", y el que cargaremos en el 
+
+	panel "Movie Clip Editor", tienen las mismas dimensiones y proporciones 
+
+
+	_para que así cuando hayamos uso de la máscara que hagamos en el panel "Movie Clip Editor", ésta no desproporcione en el panel
+
+	"Video Secuence Editor", si los clips, en éste tienen unas dimensiones y proporciones diferentes al las del clip, cargado en
+
+	el panel "Movie Clip Editor"
+
+
+
+
+
+	Crear Masks:
+	____________
+
+	_para a continuación proceder con la creación de una máscara para lo cuál, debemos de aplicar el siguiente comando
+
+
+		_"Control + Mouse Left Click and Drag"
+
+
+	_para que así, ir agregando puntos ó vertex, a através, de los cuáles, podremos ir conformando la máscara respectiva
+
+
+		Set Handle Type:
+		________________
+
+		_más también dispondremos de un menú para la edición de nodos a través, del cuál, podremos cambiar el comportamiento
+
+		de los vertex, y las explines, ó paths, a través, de éstos
+
+
+		_para lo cuál, dispondremos del shortcut 
+
+
+			_"V"
+
+
+
+	Utilizar Máscara:
+	_________________
+
+	_y posteriormente de haber creado y ajustado y hasta animado una ó más máscaras en el panel "Movie Clip Editor", del motivo
+
+	respectivo
+
+
+	_es hora de utilizar ó llamar éstas respectivas máscaras en el panel "Video Secuence Editor", de ésta manera, debemos de
+
+	seleccionar el clip, el cuál, correspondel al material referencial a la máscara en el panel "Video Secuence Editor", y con
+
+	éste seleccionado ir al panel de propiedades shorctu, "N"
+
+
+	_y allí, ir hasta las opciones de "Modifiers", y allí, agregar un modificador de tipo "Mask", al clip, correspondiente a la
+
+	máscara que hemos realizado y ajustado previamente
+
+
+	_para que así, en las opciones del modificador podamos seleccionar el nombre de la máscara adecuada así, como también, en las
+
+	opciones en las cuáles, debemos cambiar la opción de "Strip", por la opción "Mask", para que así, la máscara funcione correctamente
+
+
+
+	_en ocaciones requeriremos invertir la máscara que hemos realizado para lo cuál, debemos de volver al panel "Movie Clip Editor",
+
+	y en éste ir a las opciones de propiedades shortcut, "N", y bajar hasta las opciones de "Mask Layer", para que allí, podamos 
+
+	darle a la opción de "Opacity", para que así, podamos acceder al ícono de "Invert", a través, del cuál, podremos invertir la máscara
+
+
+	_en ocaciones también, requeriremos visualizar la máscara que hemos realizado directamente en el panel "Movie Clip Editor", para 
+
+	lo cuál, debemos de volver al panel "Movie Clip Editor", y en éste ir a las opciones de propiedades shortcut, "N", y bajar 
+
+	hasta las opciones de "Mask Display", para que allí, podamos darle a la opción de "Overlay", para que así, podamos ver 
+
+	la máscara ó matte, directamente en el panel "Movie Clip Editor"
+
+
+	NOTA: en ocaciones en los que realicemos cambios como invertir la máscara ó mover un vertex, de la máscara quizas los cambios
+
+	no se actualizen de inmediato para lo cuál, tendremos que activar ó mover algotro valor para que así, el sistema se actualize
+
+
+	NOTA: si en el proceso de edición ó inversión de la máscara el panel "Movie Clip Editor", se pone negro aplicar el siguiente
+
+	shortcut, para la solución "M/M", de ésta manera, volveremos ha ver la imágen en color normalmente
+
+
+
+	NOTA: también, podríamos utilizar el panel "uvmap editor", para edición de imágenes como fondos y elementos de composición
+
+	para que así, podamos agregarles máscaras ha éstos elementos que a su vez estamos utilizando dentro del panel 
+
+	"Video Secuence Editor", para que así, podamos llamar ha estas máscaras posteriormente en el panel "Video Secuence Editor",
+
+	y enmascarar éstos respectivos clips
+
+
+
+
+
+
+
+
+

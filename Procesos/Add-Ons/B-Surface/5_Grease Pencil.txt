@@ -1,0 +1,65 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Grease Pencil:
+	______________
+
+	_y para la creación de la geometría el sistema hace uso de la herramienta de grease pencil, a través, 
+
+	podremos indicar a través, de sus brushes, donde y como deseamos la geometría y topología resultante
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo polymesh, que hemos dejado vacío y renombrado en
+
+	éste caso como "Retopologia", y con éste seleccionado entrar a su modo de edición shortcut, "Tab"
+
+
+
+	New Layer:
+
+	_para a continuación ir a las propiedes del viewport 3d, shortcut, "N", y ubicar en la parte superior las
+
+	opciones de "Grease Pencil Layers", las cuáles, debemos de activar y así, como también, darle a la opción
+
+	de "Mew", 
+
+	
+	_para que así, se cree una nueva layer, de grease pencil, en la cuál, podremos trabajar y, a su vez, en las
+
+	opciones del panel greae pencil layer, debemos de pasar la opción de "Scene", ha "Object", para que así,
+
+	el grease pencil, se siña a las superficies poligonales sobre las cuáles, éste pase
+
+
+
+	Grease Pencil Tab:
+
+	_para a continuación en el viewport 3d, al panel de herramientas shortcut, "T", en el cuál, debemos de 
+
+	ubicar la pestaña de "Grease Pencil", 
+
+
+	_en la cuál, debemos de ubicar las opciones de "Stroke Placement", y cambiar la opción de "Cursor", por la
+
+	opción de "Surface", para que así, el brush, activo contemple y se seña a las respectivas superficies en
+
+	el viewport 3d 
+
+
+
+
+
+
+
+

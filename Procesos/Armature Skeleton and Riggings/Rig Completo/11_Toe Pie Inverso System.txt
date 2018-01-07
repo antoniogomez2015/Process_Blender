@@ -1,0 +1,113 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Toe System:
+___________
+
+
+	_más ahora para disponer de todas las porpiedades de movimientos del pie, debemos hacer una estructura
+
+	para que así, tengamos un mejor control del sistema de articulación del pie y de sus características
+
+
+	_éste sistema es el pie inverso el cuál, nos brinda características avanzadas del pie
+
+
+
+	Duplicade Bones:
+	________________
+
+	_para el siguiente proceso debemos estar en "edit mode", para que podamos editar lo bones, ó huesos
+
+	
+	_para luego, seleccionar el bone, correspondiente al metatarso del pie, ó también serviría cualquier bone,
+
+	que nos parezca preciso
+
+
+	_y con éste bone, seleccionado del sistema procedemos ha duplicar éste, shortcut; "Shift + D", para luego,
+
+	desemparentar éste para que así, éste bone, ya no obedesca a la estructura de movimiento del sistema shortcut;
+
+	"Alt + P", y seleccionamos la opción de "Clear Parent"
+
+
+	_para luego, proceder ha reposicionar éste bone, y colocarlo como si fuese la planta del pie y así, también,
+
+	procedemos ha renombrar éste, ej, "L_toe_inver_plant"
+
+
+
+	Extrusion de pie inverso:
+	_________________________
+
+	_para luego, a partir del efector ó cola del bone, que hemos duplicado y reposicionado en el paso anterior
+
+	procederemos ha extruir desde el efector de éste bone, que debe de estar en las punta de los dedos del pie
+
+
+	_de ésta manera, haremos dos extrusiones, una que conformará la bola del pie ó metatarso y otra extrusión que
+
+	hará de tobillo ó "ankle"
+
+
+	_y luego de haber hecho éstas dos nuevas extrusiones debemos reposicionar éstar, una a la altura de la bola
+
+	del pie ó metatarso y la otra a la altura del tobillo ó ankle, respectivamente para ésta operación es 
+
+	recomendable hacer uso del cursor 3d, y de las opciones de snap
+
+
+	_así, lograremos la siguiente estructura de bones de pie inverso:
+
+
+		L_toe_inver_plant
+
+			L_toe_inver_fingers
+
+				L_toe_inver_metatarso
+
+
+	_ésta cadena ó chain, de bones, que constituyen el pie inverso es recomendable crearle un grupo de bone, para 
+
+	que así, podamos diferenciarla más rápidamente de los demás bones
+
+	
+	_para ésto, lo primero que debemos hacer es estar en modo "Pose Mode", para leugo seleccionar todos los bones que 
+
+	conforman el sistema de pie inverso que hemos creado para luego ir ha "properties/armature/bones groups", y darle 
+
+	al "+", plus, de ésta manera se creará un nuevo grupo en la lista de grupos
+
+
+	_de ésta manera, podremos renombrar éste grupo con un nombre distintivo para leugo, con los bones, respectivos
+
+	seleccionados darle ha la opción de "Assign", para que así, los bones, seleccionados sean agregados al grupos
+
+	respectivo
+
+
+	_y así, como también, podremos agregarle un theme, de color el cuál se diferencie del color de los demás bones
+
+
+
+
+	
+
+
+
+
+
+

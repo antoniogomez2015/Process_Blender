@@ -1,0 +1,215 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_podemos lograr el hiperrealismo en blender, a través, de una serie de procesos de texturización, mapeo y render,
+
+	por medio de diferentes métodos, tecnologías e integraciones de forma nativa y a través, de diferentes programas
+
+
+
+	Dimensión:
+	__________
+
+	_de ésta manera, lo más recomendado es lograr el siguiente proceso de creación de texturas y shaders, a través,
+
+	de los cuáles, vamos ha configurar los comportamientos de todos los procesos físico implícitos en el proceso de
+
+	render y posproducción, éstos son los siguientes:
+
+
+
+		1_Cinco mapas de "Diffuse Color":
+
+			1_el primero nos permitirá representar el color piel ó carne humana más los detalles base como poros e
+
+			inperfecciones básicas como aleatorias
+
+
+			_los sub-pasos siguientes son sub-procesos que se realizarán en Photoshop, como partes del primer 
+
+			mapa diffuse generado
+			
+
+				1.1_Tres capas de ruido:
+
+					_ésta opción nos permitirá crear capas en Photoshop, para representar los poros e
+
+					imperfecciones en la piel y carne humana
+
+
+				1.2_Capa de ajuste de brillos:
+
+					_ésta opción nos permitirá crear capas en Photoshop, para ajustar el brillo en la 
+
+					piel y carne humana
+
+
+
+				1.3_Capa de ajuste de tono y saturación:
+
+					_ésta opción nos permitirá crear capas en Photoshop, para representar los tones de la 
+
+					piel y carne humana de una forma más correcta
+
+
+
+				1.4_Capa de ajuste de niveles:
+
+					_ésta opción nos permitirá crear capas en Photoshop, para representar los valorse de
+
+					luminancia de la piel y carne humana
+
+
+
+				1.5_Desaturación de los labios:
+
+					_ésta opción nos permitirá crear capas en Photoshop, para representar los labios de una
+
+					forma más natural
+
+
+
+		2_Diffuse Detail:
+
+			_en éste siguiente mapa de "Diffuse Map", llamado en éste caso "Diffuse Detail", representaremos los
+
+			detalles adicionales de la piel como rubocidades, rugocidades, arrugas, verrugas, líneas de expresión,
+
+			otros
+
+
+
+		3_Multi Patter Skin:
+
+			_en éste mapa crearemos diferentes patrones de textura de piel en Photoshop, a través, del modo
+
+			de creación "Pattern", personalizados y un proceso de modulación para que así, la textura generada
+
+			parezca lo más real posible y a su vez, que éste patrón se vea lo menos posible
+
+
+		4_Caracterización:
+
+			_en éste cuarto mapa de diffuse color, podremos mapear elementos más complejos y definidos como las cejas ó
+
+			"eyebrows", cuero cabelludo, depresiones de las orejas y canal auditivo, acentuar algunas arrugas con color,
+
+			fosas nazales, resaltado de los párpados  y ojeras ha modo de sombras y manchas, ropa base; (si ésta está 
+
+			integrada dentro del mismo modelado de la cabeza y exremidades ha modo de escultura en un sólo bloque, método 
+
+			utilizado en los retratos esculpidos)
+
+
+
+		5_Venas y Arrugas Pricipales:
+
+			_lo más recomendado de aplicar las venas y las arrugas más marcadas en un nuevo shader, para así, podamos 
+
+			modicadicar la intensidad e influencia de éstas sobre todo el sistema y así, como también, para que éstas
+
+			no se entre mezclen con otros elementos de retoque dentro de otros shaders
+
+
+
+		6_Un mapa de "Ambient Occulision", "AO":
+
+			_ésta opción nos permitirá crear un mapa de de "cavity", ó "AO", "ambient Occlusion", a através, del
+
+			cuál, podremos optener las zonas en penumbras sobre el motivo por medio de las cuáles, podremos lograr
+
+			una mayor realismo así, como también, una ayuda en la visualización de los mapas en Photoshop
+
+
+		
+
+		7_Dos mapas de Bump filtrado para acentuar iluminaciones propias:
+
+			_de ésta manera, podremos crear dos mapas de bump map, a través, de los cuáles podremos separar los
+
+			procesos de tanto el relieve como del detalle, de la siguiente manera:
+
+
+				7.1_a través, del primer mapa de textura, podremos generar y emular los poros e imperfecciones
+
+				logradas en los mapas de "Diffuse Color", para lo cuál, debemos de hacer un "Mix", de todos los
+
+				"Diffuse maps", que hemos creado hasta ahora, lo más fácil es hacerlo en  Photoshop, de ésta
+
+				manera, utilizaremos éste mapa en escala de grises para aplicarlo como bump map
+
+
+				7.2_y en el segundo "bump map", podremos crear los detalles más finos y detallados como líneas 
+
+				de expresión, arrugas, berrugas, citatrices, otros
+
+
+
+		8_Specualar Shader:
+
+			_éste nos permitirá controlar las zonas especulares del motivo ó character, lo que lo hará más realista
+
+			y  su vez, podremos controlar así, de forma consciente las áreas donde deseamos que éste tenga más brillo
+
+			ó valores de luminancia ó especilaridad, otros
+
+
+		
+		9_SSS Shader (Single Map):
+
+			_éste nos permitirá agregar el defecto de densidad ó de la piel ó presencia de una dermis y una
+
+			epidermis así, como de una tonacidad y plasticidad de la piel, otros
+
+
+			_
+
+
+
+
+		10_Back Scatter:
+
+			_
+
+
+	

@@ -1,0 +1,49 @@
+
+
+
+
+	referencia
+
+		023 Curso Blender - Rigging de personajes (Manual)
+
+			https://www.youtube.com/watch?v=vKjCKN_NqQs
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Modos y Criterios:
+__________________
+
+
+	_existens tres tipos de modalidades ó aplicaciones relacionadas con los skeleton systems and riggings, éstos son:
+
+
+		_object mode
+
+		_edit mode
+
+		_pose mode
+
+
+	éstos modos aplican tanto para la configuración como para la ejecución del skeleton sistem
+
+
+	_más exclusivamente para ejecución del skeleton system, sólo contaremos con los modos de:
+
+		
+		_pose mode
+
+		_object mode
+
+
+	cada uno con sus características y particularidades como ventajas y desventajas, las cuales veremos por
+
+	a parte en procesos bien diferenciados
+
+
+
+
+

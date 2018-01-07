@@ -1,0 +1,131 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	DopeSheet:
+	__________
+
+	_luego de haber realizado los ajustes de cámara, aspecto de pixel, focal, centro óptico y refine, también, dispondremos 
+
+	de otra herramienta en la cuál, podremos visualizar y compara el margen de error de cada tracks points, de forma comparativa
+
+
+	_e incluso podremos organizar la visulización de los tracks points, en relación a su efectividad entre otras opciones para que
+
+	podamos seleccionar los tracks points, deseados y borrar éstos ó a través, de un rango mínimo aceptable para que así, los
+
+	tracks points, que estén fuera de ese rango sean eliminados ó descartados automáticamente
+
+
+	_para lo cuál, debemos de abrir otro panel "movie Clip Editor", para que así, podamos ir a las opciones inferiores de éste hasta
+
+	las opciones de "DopeSheet"
+
+
+	_para que así, cambie el modo de visualización ha docs, ó puntos de rastreo ó trackeo e información del proceso
+
+
+
+
+		DopesSheet Sort Fields:
+		_______________________
+
+		_de ésta manera, en la parte inferior tendremos un menú desplagables a través, del cuál, podremos ordenar los 
+
+		tracks points, mostrados en el panel
+
+
+			_Name:
+
+				_ésta es la opción por defecto la cuál, no realizará ningún tipo de ordenamiento de las tracks points,
+
+				mostrados en el panel
+
+
+			_Average Error:
+
+				_ésta opción mostrará los tracks points, ha modo de average ó ponderación entre ellos en relación a la
+
+				cantidad de error contemplada en su resultado del proceso de cálculo
+
+
+			_Total:
+
+				_ésta opción ordenará los tracks point, de forma descendente en relación a la cantidad de error 
+
+				contemplada en su resultado del proceso de cálculo, mostrando así, desde el primer tracks point, en la
+
+				parte superior del panel con menos error hasta el último tracks points, con más error en la parte 
+
+				inferior del panel
+
+
+			_Longest:
+
+				_ésta opción ordenará los tracks point, de forma descendente en relación a la cantidad de error 
+
+				contemplada en su resultado del proceso de cálculo, mostrando así, desde el primer tracks point, en la
+
+				parte superior del panel con menos error hasta el último tracks points, con más error en la parte 
+
+				inferior del panel
+
+
+
+		Isolate and edition:
+		____________________
+
+		_de ésta manera, para visualizar un track point, específico y seleccionado en el panel "Movie Clip Editor/Clip Mode", 
+
+		debemos de ir al panel "Movie Clip Editor/DopeSheet Mode", y en la parte superior seleccionar ícono de puntero 
+
+
+		_para que así, sólo sea mostrado en éste panel el track point, seleccionado para que así, podamos saber que información 
+
+		ó error tiene un track point, determinando así, que tracks points, deben ser descartados ó eliminados ó no de forma
+
+		manual ó uno ha uno
+
+		
+		_en relación al análisis visual que vayamos haciendo del comportamiento de tracks points, en el viewport del panel
+
+		movie clip editor/clip mode
+
+
+
+	_de ésta manera, en resumen; podremos ver que el panel "Movie Clip Editor/DopeSheet Mode", nos permitirá ver y determinar un 
+
+	umbrar de error aceptable ya que podremos ver el track point, con menos  error ejemplo; "0.1", y el track point, con más error
+
+	ejemplo; "48"
+
+
+	_para que así, podamos determinar que para éste tipo tracking, realizado el rango ó umbral de error debería de ser de "4", por
+
+	ó ejemplo ó mecho menor ó el rango recomendable de "0.5"
+
+
+
+
+
+
+

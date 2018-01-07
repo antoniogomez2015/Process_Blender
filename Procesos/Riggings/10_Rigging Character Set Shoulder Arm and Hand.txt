@@ -1,0 +1,207 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+	023 Curso Blender - Rigging de personajes (Manual)
+
+		https://www.youtube.com/watch?v=vKjCKN_NqQs
+
+
+	tutorial blender rigging basico ,español
+
+		https://www.youtube.com/watch?v=2Lm1Ukjj5mE
+
+
+	Blender 2.6 Tutorial 30 - IK Rigging Pt. 1 / 3
+
+		https://www.youtube.com/watch?v=4yiC6pEQMAw
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Rigging Character Set:
+______________________
+
+
+
+	Shoulder, Arm and Hand:
+	_______________________
+
+
+		Kinemática Invertida Arm: 
+		_________________________
+
+		_para el sistema brazo-hombro, será necesario la aplicación de un sistema IK, de tres niveles ó dos articulaciones 
+
+		que contemplen tanto el brazo como el hombro para que así, éstas logren un movimiento más articulado tanto el hombro 
+
+		como del brazo al unísono
+
+
+		_para ésto debemos seleccionar el del bone "L_Radio", y con éste seleccionado vamos a las opciones de "Properties
+
+		/Bone Constraints/IK/", para que así, en las opciones de "Chain Lenth", le indiquemos la cantidad de 3, bones
+
+
+
+		Kinemática Invertida Hand:
+		__________________________ 
+
+		_para articular los dedos ó fingers, de forma más flexible es aconsejable colocar un sistema IK, en cada finger, para 
+
+		sus tres respectivas partes que conforman un dedo 
+
+
+		_para ésto, debemos seleccionar el bone ej: "L_handle_finger_Pinky3", y con éste seleccionamos ir a las opciones de
+
+		"Properties/Bone Constraints/IK", y en las opciones de "Chain Length", indicamos 3, bones
+
+
+		_éstos pasos los debemos repetir para el resto de los dedos de la mano
+
+
+
+		Constraints Rotation dedos:
+		___________________________
+
+		_ahora debemos hacer que el respectivo handle, que hemos creado para controlar la falange completa de cada dedo controle
+
+		su respectivo dedo
+
+
+		_para ésto debemos primero seleccionar el bone, handle, controladory luego seleccionar el primero bone ó root, de la respectiva
+
+		chain, ó cadena del fonger, respectivo y, luego con ambos bones, seleccionados vamos ha "Properties/Bone Constrinats/", y allí
+
+		agregar el constraints "Copy Rotation", shortcut "Control + Shift + C"
+
+
+		_para luego en las opciones del constraints "Copy Rotación", debemos dejar sólo la cordenada de acción ej, "Y", es posible tener
+
+		que aplicar la opción de "Invert", justo debajo de la cordenada seleccionada
+
+
+		_así, como también, cambiar el "Space", de trabajo e indicar "Local Space", "Local Space"
+
+
+
+		Target Muñeca:
+		______________
+
+		_debemos crear un target, para el sistema ik, del brazo, para controlar éste a través, de la muñeca 
+
+		
+		_para ésto, debemos seleccionar el bone, que contiene el sistema IK, en éste caso el bone, "L_Radio", para que así, podramos ir 
+
+		a las opciones de "Properties/Bone Constraints/IK"
+
+
+		_y en las opciones de "Target", seleccionar el "Skeleton System", "Armature", en su defecto para luego seleccionar el bone, 
+
+		respectivo al handle, proxi, respectivo a la muñeca, en éste caso es "L_Handle_Arm", así, podremos controlar el sistema ik,
+
+		del brazo a través de éste
+
+
+		Target Fingers:
+		_______________
+
+		_debemos crear un target, para el sistema ik, de cada finger, para controlar éstos a través, de cada yema de los dedos
+
+
+		_para ésto, debemos seleccionar el bone, que contiene el sistema IK, en éste caso es ej; el bone, "L_handle_finger_Pinky3", 
+
+		para que así, podramos ir a las opciones de "Properties/Bone Constraints/IK"
+
+
+		_y en las opciones de "Target", seleccionar el "Skeleton System", "Armature", en su defecto para luego seleccionar el bone, 
+
+		respectivo al handle, proxi, respectivo de los dedos, en éste caso es "L_Hand_Finger_Tip_Handle_Pinky", así, podremos controlar 
+
+		el sistema ik, de la yema de los dedos
+
+
+		_de ésta manera podremos repetir éste paso para el resto de los dedos de la mano
+
+
+
+		Pole Targets:
+		_____________
+
+		_así, mismos para controlar la articulación del brazo en el espacio debemos crear un target, para el codo del brazo
+
+
+		_para ésto, debemos seleccionar el bone, que contiene el sistema IK, en éste caso es ej; el bone, "L_Radio", para que así, 
+
+		podramos ir a las opciones de "Properties/Bone Constraints/IK"
+
+
+		_y en las opciones de "Target", seleccionar el "Skeleton System", "Armature", en su defecto para luego seleccionar el bone, 
+
+		respectivo al handle, proxi, respectivo al codo, en éste caso es "L_Handle_Elbow", así, podremos controlar el sistema ik, 
+
+		del codo del brazo
+
+
+		
+		Targets Shape:
+		______________
+
+		_también, tendremos la posibilidad de personalizar la forma que tendrán los handles, controladores de los respectivos targets,
+
+		que configurado hasta ahora, para ésto debemos crear previamente una forma
+
+
+		_para ésto, vamos ha shortcut "Shif + A/Add/Mesh/Circle", por ejemplo como también, podemos hacer un forma personalizada
+
+		a través de sub-elementos vertex, otros (ésta modalidad no acepta spline, curves)
+
+
+	
+		Target Parents:
+		_______________
+
+		_ahora para que tanto la mano como el brazo y hombro se articulen al unísono y como un solo cuerpo con la lógica de la 
+
+		cinemática respectiva del character, debemos emparentar los handles, ó targets, correctamente
+
+
+		_para ésto, debemos hacer un emparentamente que vaya desde los dedos hasta la parte principal del hombro y más allá
+
+
+		_así, primero seleccionamos el primero handle, del finger, ó dedo meñique, en éste caso es "L_Hand_Finger_Tip_Handle_Pinky",
+
+		el cuál, será emparentado con el handle, que controla la falange de ese mismo dedo, en éste caso es "L_Hand_Finger_Handle_Pinky",
+
+		para que así, con ambos handles, seleccionados abrimos el panel "Set Parent to/Make Parent", y seleccionamos la opción de:
+
+		"L_Hand_Finger_Handle_Pinky", así, al mover éste último se moverá también, el anterior
+
+
+		_
+
+
+
+
+
+
+		
+
+
+
+
+

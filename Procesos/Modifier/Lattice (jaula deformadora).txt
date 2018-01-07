@@ -1,0 +1,89 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_el motive, nesh, debe de tener una resolución aceptable ha alta para así, el deformador laticce pueda hacer
+
+		una deformación visible y factible ante la forma original del objeto
+
+
+	Lattice:
+	________
+
+
+		_ahora vamos ha "object mode", y hacemos "shortcut: Shift + A/Add/Lattice", así, se creará un cuadrado que
+
+		representará el objeto deformador lattice, el cuál tendremos que escalar y reubicar para que éste se adapte
+
+		a la forma de nuestro motive
+
+
+		_más tenemos la posibilidad de editar las sub-divisiones del lattice, en relación a la complejidad y necesidad
+
+		de modificación del motive, a modificar, para ésto seleccionamos el objeto lattice, y vamos ha las opciones de
+
+		"Properties/Data Object Data/Lattice", y allí, podremos agregar más dib-divisiones al lattice
+
+
+
+	Lattice Deform:
+	_______________
+
+
+		_ahora debemos relacionar tanto la geometría mesh, motive, con el objeto lattice, para ésto, primero seleccionamos
+
+		la mesh, motive, y luego vamos a las opciones de "Properties/Modifiers/", y agregamos un modificador de tipo "Lattice"
+
+
+		_y en las opciones del modificador vamos ha "Lattice/Object/", y buscamos el objeto lattice, que creamos previamente
+
+		en el viewport, así, éste quedará relacionado a la mesh, motive
+
+
+		_de ésta manera que si ahora seleccionamos el objeto lattice, en el viewport, y entramos ha "edit mode", shortcut "Tab", 
+
+		podremos ahora seleccionar los sub-elementos vertex, del objeto lattice, y comenzar ha deformarlos percatándonos
+
+		que así, también, se comenzará ha deforman la mesh, motive
+
+
+		_también, es especialmente útil la edición proporcional en éste médoto, shortcut "O"
+
+
+
+	Consideraciones:
+	________________
+
+
+		_ésta modalidad por modificador no es destructiva, ésto quiere decir que en cualquier momento podríamos tanto apagar el
+
+		modificador como eliminar éste
+
+
+		_otra opción es aplicar directamente al modificador para que así, éste se aplique sobre la mesh, motive, así, sólo
+
+		tendríamos que eliminar o reutilizar el objeto lattice, en el vewport
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Movie Clip Editor/Graph Editor:
+	_______________________________
+
+
+		Activar Graph Editor:
+		_____________________
+
+		_para activar el modo de visualización del graph editor en el panel "Movie Clip Editor", debemos ir a las opciones
+
+		de la parte de abajo del panel "Movie Clip Editor", y allí, darle a la opción de "Graph", para que así, pasemos al
+
+		modo de visualización de gráficos del proceso de trackeo deseado
+
+
+		_en la mayoría de casos lo más recomendado es crear otro panel de "Movie Clip Editor", y éste si colocarlo en el modo
+
+		de visualización de gráficos
+
+
+		_para que así, consevemos el panel "Movie Clip Editor", original en el modo de visualización de "Clips", y podamos así,
+
+		seguir viendo la visualización del clip, trackeado y poder hacer correcciones e interpretaciones del resultado
+
+
+
+
+		Lectura e Interpretación:
+		_________________________
+
+		_luego de haber terminado el proceso de trackeo automatizado de todos los tracks points, generados por ele sistema 
+
+		tendremos la posibilidad de ver un gráfico ó espectro del umbral de los tracks points, que han tenido más ó menos 
+
+		éxito
+
+
+		_donde podremos ver un gráfico el cuál, a través, de ondas y picos nos mostrará a través, de dos colores lo preciso 
+
+		ó exacto de cada track point
+
+
+		_de ésta manera, éste gráfico nos mostrará los tracks points, que han tenido más éxito ó que han sido más precisos 
+
+		de color "verde", los cuáles, a su vez, permanecen más cerca del centro de la onda ó espectro
+
+
+		_más los tracks points, menos exactos ó precisos el sistema los representará de un color "rojo", los cuáles, a su vez, 
+
+		estarán representados ó proyectados más hacia las afueras de la onda ó espectro del gráfico, hacia la periferia de éste
+
+
+		_de ésta manera, podremos determinar que tracks points, deseamos eliminar directamente en ésta vista de gráfico lo cuál, 
+
+		ayudará al criterio de ponderación del sistema
+
+
+
+		
+		Edición:
+		________
+
+		_de ésta manera, una vez hemos interpretado el gráfico y ya sabemos que elementos ó tracks points, deseamos eliminar
+
+		en relación a laprecisión deseada
+
+
+		_entonces es hora de seleccionar los tracks points, directamente en el gráfico para lo cuál, lo más recomendado es
+
+		seleccionar todos los tracks points, primero para saber la ubicación real de los nodos ó picos de éstos en el gráfico
+
+
+		_para lo cuál, podremos utilizar el shortcut, "A/A", para que así, todos los keyframes, generados por ele sistema se
+
+		muestren en el gráfico como un "Doc", el cuál, podremos editar ó eliminar posteriormente
+
+
+			_hay que seleccionar previamente todos los tracks points, por que el sistema nos muestra en el gráfico no sólo
+
+			los keyframes, de cada tracks points, si no que también, nos muestran la evolución y tendencia de los tracks points,
+
+			a través, del tiempo y ésta representación éxtra no es seleccionable más si puede confundirse con los keyframes,
+
+			reales
+
+
+		_para que así, posteriormente podamos seleccionar los tracks points, uno por uno ó varios a la vez, para que así, podamos
+
+		editar éstos
+
+
+			_Editar Track Point:
+
+				_con el track point, seleccionado aplicamos el shortcut, "G + mouse Up/Down Drag"
+
+
+			_Borrar Track Point:
+
+				_con el track point, seleccionado aplicamos el shortcut, ó keyboard "Delete"
+
+
+
+
+
+

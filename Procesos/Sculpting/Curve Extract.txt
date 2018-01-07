@@ -1,0 +1,44 @@
+
+
+
+Curve Extract
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	_tenemos la posibilidad de hacer extracciones de geometrías en el "Object Mode", especialmente
+
+	útil para el proceso de sculpido entre otros procesos
+
+
+	_para esto, debemos generar una spline, de forma deseada puede ser através, del menú:
+
+	"Shift + A/Add/Curve/..", y seleccionar una de las opciones y editarla hasta lograr la forma
+
+	deseada
+
+
+	_luego debemos colocar esta spline en la orientación de una de las vistas axonimétricas deseadas
+
+	ej: "Right View"
+
+
+	_luego debemos interceptar ambos elementos es decir, hacer que la spline, se encuentre dentro de la
+
+	mesh, motive, en el área ha extraer deseada
+
+
+	_a continuación procedemos a seleccionar la spline, y luego seleccionamos la mesh, motive, y, con ambas
+
+	seleccionadas aplicamos "Grease Cut", a través, de su shortcut: "Control + Shift + B", así, se abreirá
+
+	el menú "Booleans", en el cuál, encontraremos en la parte inferior la sección de "Grease Cut"
+
+
+	_de esta manera habremos extraido una nueva forma y un nuevo objeto en el explorer
+
+	

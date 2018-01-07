@@ -1,0 +1,153 @@
+
+
+
+
+	Blender Add-on: BLAM - the camera calibration toolkit
+
+		https://www.youtube.com/watch?v=yeWzQYh7iH0
+
+
+			https://github.com/stuffmatic/blam
+
+				http://stuffmatic.github.io/
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Blam:
+	_____
+
+	_éste nos permitirá extraer la ccámara de una imágen en blender, de forma práctiva y rápida para que así, 
+
+	podamos obtener un cámara 3d, a partir de la referencia de una imágen 2d, al mismo modo que lo hacer 
+
+	after effects
+
+
+	_para que así, podamos hacer montajes, reconstrucciones, camara mapping, camara projection, otros
+
+
+
+
+	Plugins:
+
+	_primeramente debemos tener correctamente instalado y activado el plugins, en nuestro sistema
+
+
+	
+	Reference:
+
+	_para a continuación ir al panel "Movie Clip Editor", y allí, en la parte inferior del panel darle a 
+
+	la opción de "Open", para que así, se nos abra el explorador de blender, en el cuál, podremos navegar
+
+	hasta la ubicación de la imágen para que ésta sea cargada
+
+
+
+	Static Camara Calibration:
+
+	_para posteriormente ir a las opciones del panel "Movie Clip Editor", shortcut, "T", hasta el tag 
+
+	"Misc", en el cuál, se encuentran las opciones del plugins "Static Camara Calibration"
+
+
+	_donde primeramente en las opciones de "Method", por lo general seleccionaremos la opción de 
+
+	"Two Vanishing Point", ó dos puntos de fuga para la escena
+
+
+	_para a continuación en las opciones de "Line Set", correspondientes a cada layer set, de cada 
+
+	grease pencil, creado en los cuáles, debemos de indicar la cordenada de trabajo, así, por ejemplo;
+
+	para las líneas horizontales por lo general será la cordenada "X", y para las verticales será la 
+
+	cordenada "Z", por que va hacia arriba
+
+
+	_y posteriormente, podremos ir hasta las opciones de "Optical", y allí, seleccionar 
+
+	"Image Midpoint"
+
+
+	
+
+	Perspective:
+
+	_para a continuación ir a las opciones del Movie Clip Editor, shortcut, "N", en la cuál, debemos bajar
+
+	hasta las opciones de "Grease Pencil", en la cuál, debemos de crear una nueva layer, de trabajo
+
+
+	_para a continuación a través, del brush, de grease  pencil, indicarle al sistema a través, de líneas
+
+	reactas la perspectiva la escena ha emular para que así, el sistema posteiormente a partir de ésta  
+
+	información pueda recostruir la respectiva cámara con la cuál, grabada la escena respectiva
+
+
+	_de ésta manera, debemos de crear dos layers, diferentes de grease pencil, una para las líneas 
+
+	horiozntales y otra para la líneas de referencia verticales, cada una de ésta con un color diferente
+
+
+	_de ésta maenra, cuando creemos una nueva layer, de grease pencil, debemos de bajar hasta sus opciones
+
+	de "Tint", y allí, seleccionar un color ej, rojo para las líneas horizontales, para posteriormente en 
+
+	las opciones de "Factor", de éste colocar un valor de "1", para que así, el color sea visible
+
+
+	_par a continuación repetir el proceso con un color azul para las líneas de referencia verticales
+
+	
+	_de ésta manera, para crear líneas rectas sobre la imágen, debemos de aplicar el shortcut, 
+
+	"Control + D + Mouse Left Click and Drag", sin soltar el mouse, hasta una nueva ubicación la cuál, 
+
+	será el final de la línea ha generar
+
+
+	_de ésta manera, debemos de ir creando líneas sugerentes en relación a la estructura de los elementos
+
+	de la escena y a su vez, de forma implícita de los puntos de fuga existentes en la escena
+
+
+
+
+	Camara Set:
+
+	_de ésta manera, cuando hayamos cargado la imágen de referencia y sobre ésta creado las referencias 
+
+	de perspectiva a través, de la herramienta de grease pencil, y posteriormente haber configurado las 
+
+	opciones del plugins blam
+
+
+	_entonces es hora de crear la cámara a partir de las indicaciones y referencias indicada para lo cuál,
+
+	debemos ir a las opciones del plugins, yendo ha "Movie Clip Editor/Tool/Misc/Static Camara Calibration",
+
+	y allí, darle a la opción de "Calibrate active camara"
+
+
+	NOTE: para lo cuál, es requerido que el tipo de rotación de la cámara existente en la escena y demás 
+
+	elementos en ésta tengan el topo de rotación "Quaterrion (WXYZ)"
+
+
+
+
+
+
+
+
+
+
+

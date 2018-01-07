@@ -1,0 +1,230 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Movie Clip Editor Automatic DopeSheet Solve Error Refine:
+	_________________________________________________________
+
+	_de ésta manera, ahora debemos proceder ha tratar de bajar éste error a la mínima expresión posible para que así, el resultado
+
+	ha generar sea lo más exacto posible
+
+
+	_primeramente debemos cersionarnos de que hemos configurado previamente los siguientes parámetros los cuáles ayudarán a una
+
+	mejor interpretación del material analizado por el sistema no que permitirá un mejor resultado
+
+
+	
+	NOTA: el margen ó rango de error máximo recomendable ó aceptable de la opción de "Solve error", debería de ser "0.5"
+
+
+
+
+	Camara:
+	_______
+
+		_para configurar la cámara debemos de ir ha
+
+
+			_"Movie Clip Editor/Properties (N)/Camara/"
+
+
+		_y allí, podremos seleccionar un preset, existentes que coincida con la cámara con la cuál, hemos grabado el material 
+
+		analizado
+
+
+		NOTA: si no saber éste dato no prelativo para obtener un buen resultado del proceso
+
+
+
+
+	Sensor:
+	_______
+
+		_para configurar el sensor de la cámara debemos de ir ha
+
+
+			_"Movie Clip Editor/Properties (N)/Camara/Sensor"
+
+
+		_y allí, podremos indicar el tamaño del sensor de la cámara con la cuál, grabamos el material analizado, por defecto 
+
+		está en 35mm, si por ejemplo; el material de archivo fue grabado con una cámara APSC, debemos indicar éste tamño
+
+
+		NOTA: si no saber éste dato no prelativo para obtener un buen resultado del proceso
+
+
+
+
+	Pixel Aspect:
+	_____________
+
+		_para configurar el aspecto del pixel debemos de ir ha
+
+
+			_"Movie Clip Editor/Properties (N)/Camara/Pixel Aspect"
+
+
+		_y allí, podremos seleccionar indicar el aspecto del pixel, por defecto el aspecto del pixel es cuadrado "1", más si
+
+		sabemos que el aspecto del pixel es panorámico ó anamórfico debemos indicar éste valor para que así, el sistema sepa
+
+		que el pixel en éste caso es rectangular y no cuadrado y en que proporción
+
+
+		NOTA: si no saber éste dato no prelativo para obtener un buen resultado del proceso
+
+
+
+
+	Optical Center:
+	_______________
+
+		_para configurar el centro óptico debemos de ir ha
+
+
+			_"Movie Clip Editor/Properties (N)/Camara/Optical Center"
+
+
+		_y allí, podremos indicar cuál, deseamos que sea el centro óptico de la toma por lo general el centro óptico de la toma
+
+		deberá ser el centro de la imágen tanto en la horizontal como en la vertical en relación al formato con el cuál, fue
+
+		gramado el material analizado ó tamño del "Sensor"
+
+
+		_ésta opción cobra valor en planos en los que les hemos modificado el centro óptico por distintos procesos de producción
+
+		como por ejemplo en proceso de estabilizado de imágen, recomposición de imágenes, montajes, otros
+
+
+		NOTA: si no saber éste dato no prelativo para obtener un buen resultado del proceso
+
+
+
+	Lens:
+	_____
+
+		_para configurar longitud focal de la óptica debemos de ir ha
+
+
+			_"Movie Clip Editor/Properties (N)/Lens/"
+
+
+		_y allí, podremos indicar una facal utilizada en milímetros para que así, el sistema sepa cuál, fue la perspectiva
+
+		utilizada y por ende la distorsión posible intríncica en escena
+
+
+		_así, como también, podremos indicar el tipo de distorsión aproximada a través, de dos valores seleccionables
+
+
+			_Polynomial:
+
+				_(Indeterminado)
+
+
+			_Divisions:
+
+				_(Indeterminado)
+
+
+
+		NOTA: si no saber éste dato no prelativo para obtener un buen resultado del proceso
+
+
+
+
+	Refine:
+	_______
+
+	_por otra parte el panel "Movie Clip Editor", dispone de algoritmos para la mejora y optimización de los procesos trackeo para
+
+	que así, podamos mejorar los resultados de un análisis
+
+
+	_para lo cuál, debemos de ir a las opciones de "Refine", yendo ha
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Solve/Refine"
+
+
+	_para así, podamos seleccionar uno de los algoritmos disponibles para el proceso de optimización
+
+
+
+		_Nothing:
+
+			_ésta opción no realizará ningún cambio ó análisis 
+
+
+		_Focal Length:
+
+			_ésta opción contemplará la longitud focal indicada para el cálculo y mejoramiento del resultado
+
+
+		_Focal Length K1:
+
+			_ésta opción contemplará la longitud focal indicada más "K1", para el cálculo y mejoramiento 
+
+			del resultado
+
+
+		_Focal Length K1, K2:
+
+			_ésta opción contemplará la longitud focal indicada más "K1, y K2", para el cálculo y mejoramiento 
+
+			del resultado
+
+
+			_** éste es la opción más recomendada y la que arroja mejores resultados
+
+
+		_Focal Length, Optical Center, K1, K2:
+
+			_ésta opción contemplará la longitud focal indicada más  el centro óptico y "K1, y K2", para el 
+
+			cálculo y mejoramiento del resultado
+
+
+		_Focal Length, Optical Center:
+
+			_ésta opción contemplará la longitud focal indicada más el centro óptico, para el cálculo y 
+
+			mejoramiento del resultado
+
+
+		_K1, K2:
+
+			_(Indeterminado)
+
+
+
+
+	
+
+
+
+

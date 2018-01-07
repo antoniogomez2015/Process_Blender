@@ -1,0 +1,211 @@
+
+
+
+
+	Blender Tutorials : Track, Match, Blend 20 Gun Composite With Cycles
+		https://www.youtube.com/watch?v=69afZkO7qbc
+
+		Blender Tutorials : Track, Match, Blend 19 Object &amp; Camera Track
+			https://www.youtube.com/watch?v=XuNew5QmPWU&t=1s
+
+
+
+		Camera tracking en blender [2.72] Español
+			https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Camara Tracker:
+	_______________
+
+	_tenemos la posibilidad de trackear ó extraer una cámara de un material de archivo como una secuencia de imágenes ó clip,
+
+	de video
+
+
+	_para que así, podamos hacer mostajes y pos producción a través, de elementos 3d, sobre sobre elementos naturales de la
+
+	escena del clip, de video ó secuencia de imágenes referencial así, como otros procesos de paso contínuo
+
+
+
+	Movie Clip Editor:
+	__________________
+
+	_primeramente debemos hacer visible el panel "Movie Clip Editor", por ejemplo en el panel de timeline, ó viewport 3d
+
+
+	_para a continuación ir a la parte inferior de éste panel movie clip editor, hasta la opción de "Open", para que así, podamos
+
+	navegar a través, del explorador de archivos de blender hasta la secuencia de imágenes ó clip, de video, hasta el material
+
+	que deseamos trackerar ó extrar la información de la cámara
+
+
+	NOTA: es preciso que previamente hayamos ajustado el material de trabajo sea éste una secuencia de imágenes ó clip, de video
+
+	de ésta manera, debemos abrir éste en una aplicación de edición y editor ó cortar las áreas vacías ó áreas que no son de 
+
+	interés para el proceso, por que de lo contrario el sistema contemplará éstas áreas no deaseadas y dará error a la hora 
+
+	de generar la cámara 3d, así, como también, podríamos utilizar el "Video Secuence Editor", nativo de blender, para la edición
+
+	del material a utilizar
+
+
+		
+		Crear Trackers:
+		_______________
+
+		_para a continuación en panel "Movie Clip Editor", ir agregando puntos de trackeo en las áreas de interés ha trackear
+
+		para lo cuál, debemos de hacer 
+
+
+			_"Mouse Left Click + Control", para que así, se agrege un punto de trackeo en respectivo punto donde hicimos
+
+			click, con el mouse sobre la imágen en el viewport
+
+
+		_éstos puntos de trackeo que vayamos creando los podremos ajustar respectivamente en punto de alto contraste así, como
+
+		ampliar su área de rastreo a través, del handle, que incorpora cada handle
+
+
+		NOTA: se necesitan al menos "8", puntos de trackers, para generación de una camara solver, dentro del viewport 3d 
+
+
+
+		Reastrear Trackers:
+		___________________
+
+		_para rastrear lo trackers, debemos seleccionarlos todos ó rastrearlos uno ha uno seleccionando uno ha uno para hacer
+
+		el proceso de forma individual cara cada uno de éstos
+
+
+		_de ésta manera, con todos los trackers, deseados seleccionados vamos ha las opciones de del panel "Track", 
+
+		de herramientas shortcut "T", del panel "Movie Clip Editor", ó podremos inicializar el rastreo a través, 
+
+		del shortcut
+
+
+			_"Control + T"
+
+
+
+
+		Camara Solver:
+		______________
+
+
+			Camara Presset:
+			_______________
+
+			_una vez hayamos reminado de rastrear todos los puntos de trackeo correctamente debemos de ir a las opciones
+
+			del panel propiedades del panel "Movie Clip Editor", shortcut, "N", y allí, ir hasta las opciones de "Camara",
+
+			en la cuál, podremos escoger un presset, de cámara por ejemplo: Go Pro... Nikon... Canon, otros
+
+
+			_para que así, el sistema reconozca más fácilmente el tipo de cámara utilizada en el proceso de la toma del
+
+			material de archivo respectivamente
+
+	
+			Lens:
+			_____
+
+			_y un poco más abajo en el panel propiedades del panel "Movie Clip Editor", encontraremos las opciones de "lens",
+
+			en las cuáles, podremos indicar la focal que hemos utilizado para la generación de la toma del material ó source
+
+
+
+			Refine:
+			_______
+
+			_para leugo en el panel "Movie Clip Editor", a las opciones de "tools/", shortcut, "T", en la pestaña de "Solve",
+
+			bajar hasta las opciones de "Refine:", y allí, seleccionar la ocpión de 
+
+
+				_"Focal Length K1 K2"
+
+
+			
+
+			Solve Camara Motion:
+			____________________
+
+			_para a continuación un poco más abajo del panel "Movie Clip Editor/Toos/Solve/", darle al botón 
+
+			"Solve Camara Motion", para que así, el sistema calcule y traiga la cámara de la secuencia de imágenes ó clip,
+
+			de video y la cree una cámara en el entorno del viewport 3d, con los movimientos a su vez, extraidos del 
+
+			proceso de trackeo
+
+
+
+
+		Scene Setup:
+		____________
+
+		_para posteriormente en el panel "Movie Clip Editor/Toos/Solve/", ir a las opciones de "Scene Setup", y allí, darle
+
+		a los botones de
+
+
+			_Set ass Background:
+
+				_para que así, el clip, de video ó secuencia de imágenes pase ha estar de donde de la cámara en el
+
+				viewport 3d, del panel "viewport 3d", y podamos así, continuar con el proceso de composición 3d, como
+
+				camara mapping, otros
+
+
+			_Setup Tracking Scene:
+
+				_así, como también, a través, de éste botón tendremos la posibilidad de pasar los puntos de trackeo 
+
+				al panel viewport 3d, para que así, podamos relacionar elementos ha éstos puntos que pasarán al panel
+
+				viewport 3d, ha modo de null objectos
+
+
+				_los cuáles, nos serán útiles para diferentes procesos de producción
+
+
+
+		Proxis:
+		_______
+
+		_así, como también, tendremos la posibilidad de generar un geometría a modo de bounding box, ó maya alámbrica 
+
+		perimetral del conjunto de los puntos de trackeo con el movimiento capturado por éstos
+
+
+		_para que así, a través, de éste proxi, dentro del viewport 3d, podremos copiar ésta posición y demás características
+
+		para que así, podamos sustituir éste elemento por personalizado
+
+
+		_para éstos en el panel "Movie Clip Editor/propiedades", shortcut, "N", debemos bajar hasta las opciones de 
+
+		"Proxy/TimeCode", en las cuáles, podremos condigurar las características del proxy, para así, poder crear éste
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Retopology:
+___________
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Workflow: Convencional:
+_______________________
+
+
+	
+	Snap:
+	_____
+
+
+	_primero activamos las opciones de "Snap", shortcut: "Shift + Tab"
+
+
+	_luego debemos seleccionar entre las opciones de snap, shortcut: "Control + Shift + Tab",
+
+	así, podremos seleccionar las opciones de "face"
+
+
+	Mesh Base:
+	__________
+
+	_para implementarlo primero debemos tener una geometría de retopología creada previamente
+
+	antes de implementarlo, para esto, podemos utilizar por ej, el add-ons, de:
+
+	"Object Mode/Retopology/RetopoFlow/", en el cuál, podremos utilizar las opciones de "Contours",
+
+	ó "Polystrips"
+
+
+	_otra opción más directa es crear un plano y ubicarlo sobre el modelo y empezar a través, de éste
+
+	a proyectar las partes de retopología
+
+
+	Extrusion F2:
+	_____________
+
+
+	_y, en versiones actuales disponemos del add-ons, instalado de: 
+
+	"User Preferences/Add-ons/Mesh: F2", el cuál, debemos activar para poder implementarlo
+
+
+	_así, para implementar el modo de extrusión "F2", debemos primero crear "edge loops", extruyendo
+
+	vertex "Shortcut: E + drag", para construir así, las líneas de edge loops, en las direcciones deseadas
+
+
+	_y para implementar el proceso de extursión "F2", debemos tener 2, dos, líneas de "edges loops",
+
+	contiguas para poder implementar la extrusión "F2"
+
+
+	_de esta manera, teniendo ya activado el add-ons, de "F2", y creadas ya las "edges loops", contiguas
+
+	necesarias
+
+
+	_debemos seleccionar al menos dos vertex, ó un edge, correspondiente a la bese inicial de donde partirá
+
+	la extrusión 
+
+
+	_así, luego debemos simplemente desplazar el "mouse", sobre la dirección de extrusión deseada en 
+
+	relación a la dirección de los "edges loops", creados contiguos,
+
+
+	_y, luego de mover el mouse, en la dirección de la extrusión aplicamos el shortcut "F", para ir 
+
+	extruyendo ó creando "Faces", entre los "edges loops", contiguos creados previamente
+
+
+
+
+
+
+
+
+

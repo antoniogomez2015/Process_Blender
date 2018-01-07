@@ -1,0 +1,45 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_el motive, debe de lo más simple posible para una mejor representación de los biseles en el viewport
+
+
+	Bevel:
+	______
+
+
+		_para ésto, seleccionamos el mesh, motive, en "objet mode", y vamos ha "Properties/Modifiers/", y agregamos el
+
+		modificador "bevel"
+
+
+		_así, podremos ajustar el tamaño del bisel "Width", así, como también agregar más segmentos de interpolación, por
+
+		lo general el biselado se agrega a los "edges", más también, disponemos de la opción de agregar el bisel a los
+
+		vertex, por medio de la opción de "Only Vertices", así, como también, ajustar el criterio de acción como el ángulo,
+
+		otros
+		
+
+	
+

@@ -1,0 +1,285 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Spine Armature:
+_______________
+
+
+	_para crear una spine, ó columna vertebral debemos de ir "Shift + A/Armature/Single Bone",
+
+	para que así, podamos entrar al modo de "edit mode", con el elemento "Armature", que hemos
+
+	creado que así, podamos extruir más bones, en relación a la lógica y orientación de la spine
+
+
+
+Armature Bone Sub-Division:
+___________________________
+
+	_y para éste tipo de trabajo como lo es el de "Tail", colas ó "Spine", ó espina dorsal ó 
+
+	columna, es altamente recomendable la modalidad de visualización de sub-bones 
+
+
+	_para ésto, debemos primero seleccionar el armature, en "Object Mode", e ir a las opciones de
+
+	"properties/Armature/Display/", y allí seleccionar la opción de "B-Bone", ya que ésta opción
+
+	si permite la visualización y acción de los bones, con sub-divisiónes intermedias
+
+
+
+	Deform:
+	_______
+
+	_para que así, de ésta manera, con el armature, seleccionado ir a al modo "Edit Mode", para luego 
+
+	seleccionar los bones, deseados e ir a las opciones de "properties/bone bone/Bendy Bones/Segments", y allí, indicar la cantidad de segmentos para cada 
+
+	bone, respectivamente
+
+
+	
+	Pose Mode:
+	__________
+
+	_para luego, con el armature, seleccionado ir al modo "Pose Mode", para que así, podamos ver y 
+
+	hacer uso de las características y ventajas de los bones, con sub-divisiones intermedias
+
+
+
+Spine Spline Handle Rig:
+________________________
+
+	_así, como también, ha éstos sistema flexibles de cadenas de bones, sub-divididas podemos controlarlos
+
+	a través, de rigs, avanzados a través, de aplines, y elementos controladores en puntos estratégicos
+
+	en relación a la lógica y kinemática de nuestro character, otros
+
+
+
+	Curve:
+	______
+
+	_así, podremos crear un objecto de tipo spline, yendo ha "Shift + A/Curves/Beizer", para que así, procedamos
+
+	ha seleccionar ésta objecto de tipo spline, y entremos ha su modo de edición en "Edit Mode", y procedamos
+
+	ha extruir ésta spline, en relación a la topología y lógica de nuestro character, en éste caso siguiendo
+
+	la forma de la spine, ó tail, ó cola respectivamente, tratando de hacer una extrusión por vextes de la
+
+	apline, en relación a la cantidad proporcional de bones, de la respectiva cadena ó chain
+
+
+	_asi, procederemos ha colocar ésta spline, dentro del sistema de skeleton, de la columna ó cola 
+
+	respectivamente para que así, ésta emule la forma y posición del armature original
+
+
+	_para lo cuál, es conveniente seleccionar los sub-elementos de la spline, y con éstos seleccionados abrir
+
+	el menú contextual de "Set Handle Type", y allí, seleccionar la opción de "Vector"
+
+
+
+	Spline IK:
+	__________
+
+	_y posteriormente seleccionaremos el objeto de tipo "Armature", e iremos al modo "Pose Mode", y en el cuál,
+
+	procederemos ha seleccionar el último bone, creado de la respectiva cadena ha contorlar para posteriormente
+
+	con éste bone, seleccionar irnos a las opciones de "properties/constraint/" 
+
+
+	_y allí, seleccionaremos el constraint "Spline IK", y en sus opciones de "Target", seleccionaremos la spline, 
+
+	que hemos creado con controlar el armature, de la spine, ó tail, ó cola respectivamente
+
+
+	_así, como en las opciones de "Chain Length", el constraint, podremos indicar la influencia en relación a la
+
+	cantidad de bones, existente en la cadena respectiva del armature, de la spine, ó tail respectivamente
+
+
+
+	Controladores Hooks:
+	____________________
+
+	_así, como también, ahora podremos controlar ésta curva que controlará a su vez, el sistema y para ésto, debemos
+
+	de seleccionar la spline, que hemos creado ya con el constraint, "Spline IK", aplicado y con ésta seleccionada
+
+	vamos ha "Edit Mode", y allí, procedamos ha seleccionar un vertex, de la spline, en el cuál, desiemos crear un
+
+	controlador ó handle, para que luego hagamos "Control + H", para que así, nos aparezca el panel contextual 
+
+	"Hooks"
+
+	
+	_para que así, en éste panel "Hooks", podamos seleccionar la opción de "Hook to New Object", para que así, el 
+
+	sistema cree un elemento de tipo "Empty/Plain Axis", en la ubicación del vertex, seleccionado
+
+
+	_de ésta manera, podremos repetir el proceso para el resto de handles, que desiemos agregar como controladores
+
+
+	_para que así, de ésta manera, podamos controlar a través, de éstos elementos de tipo empty, todo el sistema de
+
+	spine, ó tail, respectivamente y desde "Object Mode"
+
+
+	
+	Handles:
+	________
+
+	_para a continuación crear bones, ha modo de extensiones los cuáles, harán de handles, éstos es conveniente 
+
+	extenderlos hacia atras de la spine
+
+
+	_así, como también, es conveniente desactivar las opciones de deformación sobre éstos bones, para lo cuál, 
+
+	debemos ir a las opciones de "Properties/Bones Bones/Deform", para a continuación desactivar ésta opción para
+
+	cada uno de éstos respectivos bones, que harán de handles
+
+
+	_éstos handles, es conveniente crearle un grupo para que así, éstos tengan un color característico para lo cuál,
+
+	debemos estar en "Pose Mode", para a continuación seleccionar el object "Armature", respectivo e ir a las 
+
+	opciones de "Properties/Data Object Data/Bone Groups"
+
+
+	_en la cuál, debemos darle a la opción de "+", para que así, se cree un nuevo grupo en el cuál, podremos agregar
+
+	los respectivos bones, seleccionados correspondientes a los bones, que harán de handles
+
+
+	_para posteriormente asignar éstos ha éste grupo a través, del botón "Assign", en ésta misma sección para a 
+
+	continuación entrar en la sección de "Color", y seleccionar un preset de color para que así, los respectivos bones
+
+	queden teñidos de ese color
+
+
+	
+	Handles Customs:
+	________________
+
+	_para a continuación generar una shape, personalizada para sustituir la forma de los bones, estándar por una
+
+	forma personalizada
+
+	_para lo cuál, debemos de estar en object mode, para a continuación crear una nueva mesh, para lo cuál, debemos
+
+	aplicar el shortcut, "Shift + A/Mesh/Circle", para que así, se cree una nueva mesh, sin relleno y forma alámbrica
+
+	vacía ó sin relleno
+
+	
+	_la cuál, podremos personalizar aplicando el shortcut, "F6", y bajar sus sub-divisiones ha "12", por ejemplo así,
+
+	como también, podremos editar la forma de ésta mesh, shortcut, "Tab"
+
+
+	_para a contnuación seleccionar el object, de tipo "Armature", y con éste seleccionado estar en "Pose Mode", para
+
+	a continuación seleccionar un bone, que hará de handle
+
+
+	_y con éste seleccionado ir a las opciones de "Properties/Bone Bone/Display/Custom Shape", y allí, seleccionar la
+
+	forma personalizada que hemos creado y preparado para éste fin, y en las opciones debemos activar la opción de
+
+	"Wareframe", para que así, ésta sea visible en los demás modos de visualización y edición
+
+
+
+	Anchor:
+	_______
+
+	_para a continuación relacionar los elementos hooks, controladores de los puntos de la spline, con los handles que
+
+	hemos creado y personalizado  través, de bones
+
+
+	_de ésta manera, debemos de seleccionar el object, de tipo "Armature", para a continuación entrar en "Pose Mode",
+
+	y proceder ha seleccionar un elemento de tipo object "Empty", creado a partir del proceso "Hook", para a continuación
+
+	seleccionar un bone, de tipo handle, y con ambos seleccionados debemos aplicar el shortcut, "Control + P", para que 
+
+	así, se abra el menú contextual "Set Parent To", en el cuál, debemos seleccionar la opción de "Bone"
+
+
+	_de ésta manera, podremos repetir éste proceso para el resto de hooks, y handles, respectivamente
+
+
+
+	Parents:
+	________
+
+
+	_primeramente debemos de seleccionar el objet, de tipo "Armature", y con éste seleccionado debemos entrar en el
+
+	"Pose Mode"
+
+	_para a continuación comenzar ha emparentar cada uno de los bones, handles, entre si en relación a la lógica de
+
+	spine, emparentando así, desde el bone, más cervical hasta el bone, más lumbar
+
+
+	_para lo cuál, debemos seleccionar un bone, más hacia la cervical para a continuación seleccionar otro bone, más
+
+	hacia la lumbar y con ambos seleccionados aplicar el shortcut, "Control + P", para que así, se abra el menú 
+
+	contextual "Set Parent To", en el cuál, debemos de seleccionar la opción de "Bone"
+
+
+	_para que así, al mover lo handles, más lumbares, lo bones, de tipos handles, de más arriba también, se muevan
+
+	de forma emparentados unos con otros
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+

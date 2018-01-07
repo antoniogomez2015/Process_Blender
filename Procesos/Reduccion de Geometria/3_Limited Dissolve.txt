@@ -1,0 +1,94 @@
+
+
+
+	Ref
+
+		http://blender.stackexchange.com/questions/31467/how-to-reduce-vertex-count-on-a-mesh
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Limited Dissolve:
+	_________________
+
+	_disponemos de una opción de simplificación de geometría integrada a través, de la cuál, podremos 
+
+	simplificar geometría hasta cierto
+
+
+	_que si integramos éste método con otros métodos podremos lograr grandes resultados
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo polymesh, y con éste seleccionado entrar en 
+
+	"Edit Mode", shortcut, "Tab"
+
+
+	_y allí, seleccionados todos los sub-elementos shortcut, "A/A", los cuál,es en éte caso pueden ser tanto
+
+	vertex, edges, faces, indistintamente
+
+
+	_para a continuación aplicar el shortcut, "Supr", para que así, nos aparesca el menú contextual de "Delete",
+
+	en el cuál, debemos de seleccionar la opción de "Limited Dissolve"
+
+
+	_para que así, sean borrados todos la geometría posible que se encuentra en un mismo plano a través, de un
+
+	umbral de trabajo indicado en grados
+
+
+	_ésto permitirá que la geometría pueda ser simplificada en gran manera por defecto en relación a la misma
+
+	morfología del objeto y de la topología del mismo
+
+
+	Seeting:
+
+	_más para configrar las opciones despues de haber aplicado éste comando podremos hacer ésto yendo a las
+
+	opciones del panel de herramientas del viewport 3d, shortcut, "T", las cuáles, estarán en la parte inferior
+
+	de éste panel
+
+
+	_para lo cuál, luego de haber aplicado el comando no podremos realizar otra acción posterior por que de ser
+
+	así, las opciones para éste comando serán eliminadaas
+
+
+	_más también, dispondremos de un acceso rápido ha éstas opciones, shortcut, "F6"
+
+
+	_de ésta manera, dispondremos de las siguientes opciones:
+
+
+		Max Angle:
+
+			_ésta opción nos permite indicar el ángulo ó grados de acción entre mayor sera el grado
+
+			indicado más geometría simplificará el sistema
+
+
+			_más hay que tener en cuenta que entre mayor sea el grado ha aplicar más comprometida se
+
+			verá la morfología resultante
+
+
+		_All Boundaries:
+
+			_todos los límites, ésta opción da resultados sólo en algunos casos
+
+
+		_Delimit:
+
+			_criterio de la delimitación, el más recomendado es el normal
+
+
+

@@ -1,0 +1,81 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Introducción:
+	_____________
+
+	_tenemos la posibilidad de crear bump maps, personalizados en blender, lo que nos permitirá eliminar el proceso
+
+	de creación de bump maps, a partir de la fuerza bruta de tener que crear un motivo ó character de alta resolución
+
+	en el cuál, realizar los detalles más finos del character, ó motivo
+
+	
+	_de ésta manera, podremos ahora crear ha modo de pintura ó paint, el proceso de emulación de detalles a través,
+
+	del mapa bump map, en el modo "Texture Paint", de blender y no en el modo "Sculpting", de blender 
+
+
+	_de ésta manera, podremos llegar más lejos en la creación de detalles así, como también, no necesitaremos tantos 
+
+	recursos del sistema lo cuál, es una limitante en blender
+
+
+
+	Generales:
+	__________
+
+	_primeramente debemos de configurar blender, para que éste nos permite editar el mapa de normales ó bump map, y
+
+	así, como también, éste nos permita visualizar éste mapa en el viewport, 3d, para que así, podamos editar éste
+
+	mapa en tiempo real que lo vamos creando ó editando
+
+
+		Blender Render:
+
+			_el renderizador debe de estar en "Blender Render", ya que éste ofrece mejores ventajas y más 
+
+			avanzadas ya que el "Render Cycles", es más experimental y tiene más limitantes de cara al 
+
+			control de la interface, y demás funciones en general de blender
+
+
+		_Cycles Render:
+
+			_de ésta manera, cuando hayamos terminado con todo el flujo de edición de materiales y textura
+
+			entonces si, pasaremos al motor de render "Cycle", para el proceso de renderizado y composición
+
+			aunado del panel "Node Editor"
+
+
+
+		_Shading:
+
+			_en el viewport, 3d, debemos de tener el modo de "Shading", en el modo "GLSL", y para acceder ha
+
+			éste panel ó sección debemos de hacer uso del shortcut, "N"
+
+
+
+		_Sombreado:
+			
+			_el viewport, 3d, lo debemos de colocar en el modo de sombreado de "Material"
+
+
+

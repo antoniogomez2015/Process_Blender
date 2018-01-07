@@ -1,0 +1,107 @@
+
+
+
+	Blender 2.68: Animación con Graph Editor
+		https://www.youtube.com/watch?v=8UKEGOy-x9g
+
+
+	Blender 2,68: Animar objetos con Shape Keys
+		https://www.youtube.com/watch?v=tvb4dM4QKd4
+
+
+	Blender 2.68: Rigging avanzado con Shape Keys y Custom Bones
+		https://www.youtube.com/watch?v=Bl2FHX80KTo&t=15s
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Create Shape Keys:
+	__________________
+
+
+	Basis:
+
+	_para lo cuál, primeramente debemos tener creado un objeto de tipo mesh, el cuál, hará de motivo ó 
+
+	character, el cuál, debemos de tener seleccionado en object mode
+
+
+	_para a continuación con éste seleccionado ir a las opciones de "Properties/data Object Data/", y allí,
+
+	bajar hasta las opciones de "Shape Keys"
+
+
+	_para que así, en el panel de shape keys, apliquemos el "+", para que así, una shape keys, sea agregada
+
+	al panel shape keys
+
+
+	_la cuál, la primera shape key, agregada será la pose base del motivo ó character, la cuál, será 
+
+	requerida por que ésta será la que tome el sistema como punto de partida ó de comparativa a través, de 
+
+	la cuál, hará deformaciones en relación a las shape keys, creadas posteriormente
+
+
+	_de ésta manera, ésta shape keys, inicial tendrá un nombre por defecto de "Basis"
+
+
+	
+	Custom Shape Key:
+
+	_más para crear nuevas shapes keys, personalizadas tendremos que volverle ha dar al "+", en la sección
+
+	de shape keys, para que así, otra keys key, sea generada en la sección ó panel de shape keys, la cuál,
+
+	podremos renombrar con un nombre característico, ej, "Smile"
+
+
+	_para a continuación proceder ha editar el motivo ó character, seleccionado mientras que a su vez,
+
+	seleccionamos en la sección de "Properties/Data Object Data/Shape Keys", el nombre de la nueva 
+
+	shape Keys, que hemos creado y renombrado previamente, en éste caso "Smile"
+
+
+
+		Edit Mode:
+
+		_y para editar ésta nueva shape key, podremos hacerlo en "edit mode", con las herramientas de 
+
+		deformación ó a través, de la herramienta de edición proporcional shortcut, "O", "Shift + O"
+
+
+		
+		Sculpt Mode:
+
+		_así, como también, podremos hechar mano de las herramienta y diferentes modos de escultura para
+
+		que así, de ésta manera, podamos lograr resultados más orgánicos y con más posibilidades 
+
+		plásticas y expresivas, otros
+
+		
+		_para lo cuál, en las opciones de la sección "Properties/Data Object Data/Shape Keys/Value", 
+
+		debemos de colocar éste valor en "1", para que así, podamos modiciar la geometría del motivo ó 
+
+		character, en el modo sculpt mode
+	
+
+
+
+
+
+
+
+
+
+
+
+

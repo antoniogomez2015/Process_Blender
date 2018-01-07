@@ -1,0 +1,39 @@
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	1_creamos la cámara ó tulizammos una existente
+
+
+	2_creamos la spline, que hará de trayectoria para la cámara
+
+
+	3_creamos un elemento de tipo "Empty", Add/Empty/, ej: "Plain Axis", lo renombramos ej: "ancla", y lo 
+
+	colocamos en el centro ó donde lo precisemos para utilizar este como ancla y que a su vez no sea 
+
+	renderizable
+
+
+	4_ahora vamos a relacionar la cámara con el ancla, para que la cámara siempre mire al al ancla; para esto
+
+	seleccionamos primero la cámara y luego el ancla, luego aplicamos "Object/Track/Lock Track Constraint", ó 
+
+	"control + T/ Lock Track Constraint", así, al mover la cámara esta siempre apuntará al ancla
+
+
+	5_ahora para relacionar la cámara con la spline, que hará de trayectoria de animación, primero 
+
+	seleccionamos la cámara y luego la spline y vamos ha "Object/Parent/Follow Path", ó 
+
+	"control + P/ Follow Path"
+
+
+
+

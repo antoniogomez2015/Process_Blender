@@ -1,0 +1,81 @@
+
+
+
+	Making Objects/Camera's Follow a Path in Blender 2.66 -The Tutorial Brothers
+		https://www.youtube.com/watch?v=SqOso5jgYa4
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Paths de Animación:
+	___________________
+
+	_tenemos la posibilidad de crear paths, ó trayectorias de animación para objetos y cámaras y demás 
+
+	elementos
+
+
+	_para lo cuál, debemos de crear una surva para que crear a partir de ésta una spline, que hará de path,
+
+	ó trayectoria de animación
+
+
+	_para lo cuál, debemos de utilizar el shortcut, "Shift + A/Add/Curve/Path", para que así, sea agregado
+
+	a la escena un elemento de tipo "Curve", el cuál, podremos editar y ajustar hasta lograr la forma ó 
+
+	trayectoria de animación deseada
+
+
+
+	Visualización:
+
+	_para el proceso de edición lo más recomendado es ir a las opciones las herramientas del panel viewport 3d,
+
+	shortcut, "N", y allí, bajar hasta las opciones de "Curve Display", y allí, desactivar las opciones de
+
+	"handles" , y "Normals", para así, tener una mejor visualización a la hora de extruir y ajustar los vertex
+
+	que conformarán el path, de animación
+
+
+
+	Alineación:
+
+	_para posteriormente colocar en el inicio de la spline, que hará de trayectoria de animación al motivo ha
+
+	animar sobre el path, de animación el cuál, podría ser una mesh, ó cámara ó cuálquier otro elemento como 
+
+	una luz, otros
+
+
+
+	Enparentamiento:
+
+	_para a continuación seleccionar primero el motivo, sea éste un mesh, ó cámara para luego seleccionar el
+
+	path, ó trayectoria de animación y con ambos seleccionados hacer "Control + P", para que así, nos aparesca
+
+	el menú contextual de "Set Parent To", en el cuál, seleccionaremos la opción de "Follow Path"
+
+
+
+	Animación:
+
+	_para que así, ahora al darle play, en el timeline, podremos que ahora el motivo seguirá al path, ó 
+
+	trayectoria de animación, shortcut, Alt + A
+
+
+	_así, como también, podremos hacer ajustes de la duración de la animación del motivo sobre el path, para 
+
+	lo cuál, debemos seleccionar el objecto de tipo curve, que hace path, de animación e ir sus opciones de
+
+	"Properties/Data objet Data/Path Animation", y allí, ajustas las opciones de "Frames/ Evaluation Times"
+
+
+

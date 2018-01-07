@@ -1,0 +1,43 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Skinning ó Envelope Parent:
+	___________________________
+
+		_tenemos la posibilidad de hacer envelopes, directos a través, de un emparentamiento entre los bones, y las partes
+
+		directamente del character, ésta opción es epecialmente útil para characteres simples y sobre todo que están 
+		
+		separadas sus extremidades por partes así, como robots, otros
+
+
+		_para ésto, seleccionamos el objeto "armature", respectivo y vamos al modo "pose mode", shortcut, "Control + Tab"
+
+
+		_luego seleccionamos al elemento "mesh", parte del character, respectiva que será el "hijo", luego seleccionamos
+
+		el bone, del skeleton system, que será el "padre", luego abrimos el panel "Set Parent To", shortcut "Control + P",
+
+		y seleccionamos la opción de "bone", así, al mover el bone, ó joint, respectivo se moverá también el mesh, respectivo
+
+		del character
+
+
+

@@ -1,0 +1,60 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+	Creating a Realistic Head in Blender -- part 09 -- Beard, Eyebrows, and Eyelashes
+		https://www.youtube.com/watch?v=zsyKhJ-BOJk
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Vertex Group:
+	_____________
+
+	_y para controlar el proceso de expansión y alcance de las partículas en éste caso de las hebras podemos hacer
+
+	uso de los "Weight maps", a través, de los cuáles, podremos controlar las influencias y cargas del sistema de
+
+	partículas sobre la respectiva superficie
+
+
+	
+	Vertex Groups:
+	
+	_para lo cuál, primeramente debemos de crear al menos un grupo de sub-elementos de tipo "Face", para lo cuál,
+
+	debemos de seleccionar el motivo ó character, y con éste seleccionado entrar en "Edit Mode", shortcut, "Tab"
+
+
+	_para posteriormente entrar en el modo de sub-elementos "faces", shortcut; "Control + Tab", para que así, nos
+
+	aparesca un nemú contextual en el cuál, podremos selecciona el modo de selección de "faces"
+
+
+	_de ésta manera, debemos de selecionar todos las "faces", correspondientes al área que deseamos tenga en éste
+
+	caso "cabello", ó hebras 
+
+
+	_para posteriormente con las respectivas faces, seleccionadas ir a "Properties/Data Objet Data/Vertex Group/",
+
+	y allí, darle a la opción de "+", para que así, se cree un nuevo grupo de vertices el cuál, podremos renombrar
+
+	ej: "HeadHair"
+
+
+	_para posteriormente aún estando en "edit mode", y en "Properties/Data Objet Data/Vertex Group/", darle a la 
+
+	opción de "Assign", para que así, las faces, respectivas seleccionadas queden ahora si, asignado al nuevo 
+
+	respectivo "Vertex Group", que hemos creado y renombrado como "HeadHair", en éste caso
+
+
+	_de ésta manera, el sistema de "Weight Map", utiliza la información de los "Vertex Group", para conformar áreas
+
+	de peso ó weight, predeterminadas

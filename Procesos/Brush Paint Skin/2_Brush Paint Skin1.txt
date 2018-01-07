@@ -1,0 +1,163 @@
+
+
+Reference:
+
+	Blender tutorial painting skin from scratch
+		https://www.youtube.com/watch?v=q32iqVD-Yyc
+
+	Blender Skin Painting Tutorial Part 2
+		https://www.youtube.com/watch?v=xoly4gxYdGw
+
+	texture painting in blender 2.73
+		https://www.youtube.com/watch?v=_9z1kSYwSSQ
+
+
+	Blender Skin Texturing and Shading tutorial
+		https://www.youtube.com/watch?v=Ryi_pYqcavs
+
+	How to Paint Realistic Skin Tones
+		https://www.youtube.com/watch?v=PPdkEEYo3F0
+
+	How to Paint Skin Realistically-Remastered
+		https://www.youtube.com/watch?v=-7EpXCnN0lo
+
+	How To Paint SKIN - Basics
+		https://www.youtube.com/watch?v=3fApnpQ0lw0
+
+	zBrush Skin Texture - Stream Timelapse
+		https://www.youtube.com/watch?v=yKl3RPoptQI
+
+
+	CGblender | A Realistic PBR Skin with Subsurface Scattering | Blender Tutorial
+		https://www.youtube.com/watch?v=M_kl5UgPIhE
+
+
+	
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Base Colors:
+____________
+
+
+	Sample Reference:
+	_________________
+
+
+	_lo más recomendable para transpolar colores de muestras es obtener éstos a través, de una imágen la cuál, podamos
+
+	muestrear
+
+
+	_para lo cuál, debemos de cargar ésta imágen en el panel "UV Texture Editor", shortcut "Shift + F10", para que así,
+
+	vayamos hasta la parte interior del panel uv texture editor, y le demos al íconos de "Folder", para que así, se nos
+
+	abra el explorar de blender, en el cuál, podremos ubicar la imágen de referencia
+
+
+	_para posteriormete proceder ha tomar las muestras de color de ésta imágen a partir del shortcut "S", sostenido sobre
+
+	la parte de la imágen ha muestrear
+
+
+	_así, como también, podremos cargar varias imágenes de referencia para el mismo fin
+
+
+
+
+	Color Skin Base:
+	________________
+
+
+	_primero debemos de crear una colores bases para crear a partir de éstos la textura de piel
+
+	
+	_éstos colores base componen la densidad y profundidad de la piel, éstos son:
+
+
+	Skin Base: #F2C5A6
+
+		_éste compone la sumatoria de los otros colores base, desde el nivel sub-cutáneo hasta los más superficiales
+
+
+		_de ésta manera, debemos aplicar éste color a modo de base sobre todo el motivo ó character, en el modo
+
+
+
+	Aplicación:
+
+
+	_para aplicar éste color base sobre todo el motivo de forma rápida y práctiva lo más recomendable es estando en el 
+
+	panel texture paint, es seleccionar la brush, "Fill"
+
+
+	_para posterior afinar la dureza del la brush, fill, al máximo shortcut "Shif + F", la cuál, debemos de colocar en el
+
+	valor de "1.00", para que así, éste rellene al motivo ó character por completo
+
+
+	_para por último con la brush, "Fill", seleccionada y así, como también, el color "Skin", seleccionado en el wheel,
+
+	de color sólo queda posarnos sobre el motivo en el viewport, 3d, y hacer "mouse left click", para que así, la brush,
+
+	fill, rellene el motivo ó character, por completo y con tan sólo un lcick
+
+
+
+
+	Color Sub-Cutáneo 1:
+	____________________
+
+
+	_para posteriormente comenzar ha aplicar el color más sub-cutáneo correspondiento de con la dermis, ó la parte más
+
+	profunda de la piel donde hay más basos sanguíneos
+
+	
+	_donde la gama de colores que más se aproxima son los rojos ó cálidos como rojo, carmín, naranja:
+
+
+	Skin Base: #C13E2D
+
+		_éste color ó resultado de color puede componerse de la aplicación de uno ó más colores cálidos sobre parte 
+
+		específicas del motivo
+
+
+		_las partes del motivo sobre las cuáles, se aplicará éste color cálido ó rojo oscuro serán las áreas en las 
+
+		cuáles, hay más depresiones ó cavidades sobre la morfología del motivo ó character
+
+
+		_ya que éstas áreas tienen la suficiente profundidad de dermis y epidermis, ya que éstas áreas están más lejos
+
+		ó distantes a la superficie respectiva del cráneo
+
+
+		_por ejemplo sobre las cuéncas de los ojos, orejas, boca, mejillas, otros
+
+
+		_más no debe aplicarse ésta gama de color sobre las partes prominentes como pómulos, mentón, frente, otros,
+
+		ya que éstas áreas no tienen la suficiente profundidad de dermis y epidermis, ya que éstas áreas están más 
+
+		cerca ó próximas a la superficie respectiva del cráneo
+
+
+
+	Aplicación:
+
+
+	_para aplicar éste color es recomendado utilizar la brush, "TexDraw", en el panel Texture Paint
+
+
+	_para que así, a través, de pinceladas vayamos aplicando el color rojo cálido oscuro sobre las máreas de más densidad
+
+	de dermis y epidermis del motivo

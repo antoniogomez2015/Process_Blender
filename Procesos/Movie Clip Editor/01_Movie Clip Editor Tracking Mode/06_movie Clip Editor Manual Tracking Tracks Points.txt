@@ -1,0 +1,114 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	movie Clip Editor | Manual Tracking Tracks Points:
+	__________________________________________________
+
+
+
+	Generales:
+	__________
+
+	_una de las formas más precisas de crear el proceso de tracking, es hacerlo de forma manual, sea que vayamos ha trackear
+
+	uno ó más puntos trackeos
+
+
+	_de ésta manera, podremos trackear uno ó más punto a la vez, para que así, podamos controlar más el proceso en relación al 
+
+	tipo de proceso de producción ha realizar
+
+
+	_ya que en algunos procesos la ubicación del punto de trackeo incluirá mucho ó será prepronderante para el resultado como
+
+	por ejemplo para procesos de remapeo como los procesos de "corner pin", otros
+
+
+	_como también, para el replanteamiento de planos y las capturas refenciales de perspectiva para producción entre otras muchas
+
+	posibilidades
+
+
+
+
+	Track Point:
+	____________
+
+	_de ésta manera, tendremos tres formas para crear punto de trackeo en el panel "Movie Clip Editor"
+
+
+		1_la primera opción para agregar un track point es yendo ha
+
+
+			_Movie Clip Editor/Track/Add Marker and Move
+
+
+		_para que así, el sistema genere un punto de track, en el viewport del panel "Movie Clip Editor"
+
+
+		
+		2_la segunda forma yendo ha el panel 
+
+
+			_"Movie Clip Editor/Tool (T)/Marker/Add"
+
+
+		_de ésta manera, podremos aplicar éste comando ó botón sin ningun otro track point, seleccionado para que así, el
+
+		sistema cree ó genere otro nuevo punto de trackeo sobre el viewport, del panel "Movie Clip Editor"
+
+
+
+
+		3_la segunda opción consta de posarnos sobre el viewport del panel "Movie Clip Editor", y allí, aplicar el shortcut
+
+
+			_"Control + Mouse Left Click"
+
+
+		_para que así, el sistema cree un nuevo punto de rastreo el cuál, podremos reubicar y ajustar a las necesidades del
+
+		proceso de rastre del mismo modo que hacemos en "After Effects"
+
+
+
+
+	Consideraciones:
+	________________
+
+
+		_es aconsejable colocar el cabezal del timeline, en frame, inicial para llevar así, un orden en el proceso de trackeo
+
+		ó rastreo
+
+
+		_debemos de colocar el punto de rastreo en una ubicación la cuál, tenga contrastre en relación al área circundante
+
+		y ésta área en contraste debe entrar toda en el área de rastreo ó búsqueda del punto de tracker, para que así, el
+
+		sistema pueda rastrear y seguir toda ésta área de contraste
+
+
+
+
+

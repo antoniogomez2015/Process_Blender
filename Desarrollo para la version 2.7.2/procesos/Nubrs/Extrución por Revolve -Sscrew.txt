@@ -1,0 +1,35 @@
+
+
+
+
+proceso para hacer extruciones por revolución "Revolve"
+
+
+
+	1_procedemos a crear el spline que hará de path, a partir de su centro y el plano principal
+
+		1.1_prmero creamos una forma poligonal ej: "add/mesh/plane", entraremos en el modo de sub elementos, para eliminar todos los vertes que componen 
+
+		esta forma mesh, y nos quedaremos sólo con un vertex
+
+		1.2_ahora prodecemos a extrudir este vertex, para crear a partir de este "edges", con la forma deseada
+
+			1.2.1_extrución: con el vertex, seleccionado hacemos Alt + X, así, se duplicará el veretx, creando entre estos una arista ó "edges",
+
+			así, povemos el nuevo vertex, creado a la nueva posición, de esta manera iremos conformando la forma deseada
+
+	2_luego que tengamos creada la forma deseada a través de vertex, y edges, vamos al modo "Object mode", y aplicamos un modificador ha esta mesh, "Screw",
+
+	en las propiedades del modificador ajustamos la cordenada utilizada para el proceso de extrución por revolución, por lo general es la cordenada "Y",
+
+		2.1_esto lo hacemos en; Axis: "Y axis"
+
+		2.2_también podemos ajustar el ángulo, si deseamos extruir sólo en una cantidad de grados deseados, en. Angle: "360",
+
+		2.3_así, como también los steps, ó resolución de la geometría final en visualización y en el render, en: Steps "16", y Render Steps: "16"
+		
+		2.4_es recomentable desactivar la opción de "Smooth Shading", de este modificador para que suavize excesivamente los polígonos
+
+		2.5_su vuelvo al modo de "edit mode", podré modificar la forma del path, de vertex, y edges, para cambiar ó ajustar la forma resultante 
+
+		2.6_para finalizar debemos hacer "Aplly", para que se aplique el modificador y quede conformada la nueva mesh

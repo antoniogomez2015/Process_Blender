@@ -1,0 +1,133 @@
+
+
+
+
+Blender Dynamics /Smoke
+
+
+	referencia:
+
+		https://www.youtube.com/watch?v=lYTVOdcgyP8
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Container Domain:
+	_________________
+
+		_lo primero es abrir un nuevo panel en la parte inferior "recomendado", y cargar en el el panel de 
+
+		"node editor", shortcut "Shift + F3"
+
+
+		_luego con el container/domain, seleccionado vamos ha "Properties/Material", y activamos las opciones 
+
+		"use nodes"
+		
+
+
+		_"Shift + A/Add/Input/Attributes" 
+
+			_luego vamos al panel "node editor/material", agregamos éste lo duplicamos y renombramos ambos ej: 
+
+			"Density", y "Frame", 
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	otro tutorial más sencillo y directo:
+
+		Blender tutorial: Fuego y Humo en Cycles
+
+			https://www.youtube.com/watch?v=kGENojRqxzQ
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Emitter:
+	________
+
+
+		_primero en pestaña superior de la interface, en la sección motores de render seleccionamos la opción
+
+		"Cycles Rneder"
+
+		_luego seleccionamos el objeto emisor de humo, en éste caso eso es "Emitter", y nos vamos ha 
+
+		"Properties/Material", y allí, activamos la opción de "User Nodes", ó directamente podríamos activar 
+
+		ésta misma opción en el panel node editor
+
+		_luego abrimos un nuevo panel "Node Editor", en la parte inferior camiándolo por el panel "Timeline",
+
+		shortcut "Shift + F3"
+
+
+		_en el cuál, debemos debemos de activar el modo de nodos "Shader Shaders", a través, de los botones
+
+		de la parte inferior del panel node editor
+
+
+
+
+	Nodes Setup:
+	____________
+
+
+
+		_Shift + A/Add/Shaders/Volume Absorption"
+
+			_luego eliminamos el shader por defecto "difuse", y agregamos el nodo "Volume Absorption", el cuál, nos
+
+			permitirá visualizar el volúmen del humo generado
+
+
+		 _Shift + A/Add/Shaders/Volume Scatter"
+
+			_luego creamos éste shader, el cuál, nos permitirá visualizar la superficie del humo generado
+
+
+		_Shift + A/Add/Shaders/Add Shader" 
+
+			_en el cuál, conectaremos ambos shaders, uno en cada entrada respectivamente, tanto el nodo "Volume Absorption"
+
+			como el nodo "Volume Scatter", creados en los dos pasos anteriores en sus dos respectivos 
+
+			"Inputs/Shader", y a su vez, luego conectar éste "Add Shader/Shader-Output", ha "Material Output/Volume-input",
+
+			"OJO": no al "Material Output/Surface-input"
+
+
+		_Shift + A/Add/Input/Attribute
+
+			_éste nodo en su campo interno lo renombraremos con el nombre por ejemplo; "Density"
+
+
+			_el cuál, conectaremos su salida de "Attribute/Fac", con la entrada del nodo "Volume Absorption/Density",
+
+			para que así, el humo recobre su forma natural ó creada por nosotros previamente por el proceso de creación
+
+
+
+
+	NOTA: podríamos seguir el tutorial para agregar más nodos y sistemas para llamas y demás elementos
+"
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Armature Properties:
+____________________
+
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Layer:
+	______
+
+
+	_tenemos la posibilidad de almacenar las diferentes chadenas y bones, específicos en diferentes
+
+	layers, ó capas, esto es especialmente útil para algunos procesos de edición y producción
+
+
+	_así, en el modo "Edit Mode", podremos seleccionar los bones, deseados y asignarlos a una nueva
+
+	layer, a través, del shortcut "M", ó yendo a las opciones del bone, ó del armature	
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Display:
+	________
+
+
+	_disponemos de varios opciones de visualizacion para las chain, de bones, ands joints, donde
+
+	"Octalhedr", es la más común y por defecto más disponemos de otras más simplificadas, otros
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Bone Groups:
+	____________
+
+
+	_en el modo "Pose Mode", tenemos la posibilidad de crear grupos de bones, esto nos permite
+
+	hacer diferenciaciones de grupos a través, de colores entre los diferentes grupos, esto es
+
+	especialmente útil para el proceso de rigging, en characters, simétricos, otros
+
+
+	_para esto, seleccionamos el chain, deseada y entramos el modo "Pose Mode"
+
+
+	_luego debemos seleccionar los bones, deseados los cuales conformarán el nuevo grupo de bones,
+
+	ahora con los bones, deseados seleccionados vamos ha las opciones de "Armature/Bone Groups", y
+
+	de damos a las opcioens de agregar "+", a continuación sin deseleccionar los bones, deseados le
+
+	damos "Assign", para asignar así, los bones, seleccionados al nuevo grupo de bones, creado
+
+
+	_ahora debemos desplegar las opciones de "Default Color", para seleccionar un grupo de colores
+
+	alternativo para determinado grupo deseado
+
+
+
+

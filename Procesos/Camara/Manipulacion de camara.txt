@@ -1,0 +1,78 @@
+
+
+
+
+Blender manipulación de camara
+
+
+	Referencia:
+
+		09 - Blender Tutorial - Rendering (Cycles)
+
+			https://www.youtube.com/watch?v=WTa9Xhr8Jls
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Manipular cámara de forma externa:
+__________________________________
+
+
+	_convertir cámara ha cámara activa: select camara + control + 0, (en el path numérico del teclado)
+
+	
+	_ver a través, de la cámara: 0, (en el path numérico del teclado)
+
+
+	_colocar la cámara en la vista actual: Control + Alt + 0, (en el path numérico del teclado)
+
+
+
+Manipular cámara viendo a través, de ésta: 
+__________________________________________
+
+
+NOTE: ("0", en el path numérico del teclado)
+
+
+
+	_mover cámara como objeto: G + mouse drag
+
+
+	_hacer Roll, de cámara: R + mouse drag
+
+
+	_Track Roll, de cámara: R + R + mouse drag (para mover la cámara libremente)
+
+
+	_Zoom In/Out: G, + luego:  mouse midle click, + luego: mouse Up/Down
+
+
+	_Fly Mode: Shift + F (emula navegación de cámara 3d)
+
+		_Navegar en modo Fly Mode: W/S/A/D (mando del techado "arrows")
+
+
+	_Cámara View:
+
+		_Primero debemos abrir el panel de propiedades: "N"
+
+
+		_luego debemos chequear la opción de "Lock camara to view", asi, podremos mover, orbitar la cámara, y hacer los
+
+		demás movimientos como normalmente los hacemos cuando orbitamos sobre un objeto en el modo pespectiva en el 
+
+		viewport, ésto nos permitirá la máxima movilidad y flexibilidad a la hoara de posicionar la cámara
+
+		
+		_Pero luego de configurar la cámara en el lugar deseado debemos desactivar la opción de "Lock camara to view",
+
+		para que así, podamos salir del modo cámara fácilmente y poder editar los otros objetos de la escena
+
+
+
+

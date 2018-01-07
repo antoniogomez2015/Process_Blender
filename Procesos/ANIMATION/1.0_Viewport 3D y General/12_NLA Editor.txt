@@ -1,0 +1,162 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_más también, contamos con una panel para la "No-Linear Animation", así, de ésta manera tendremos un 
+
+	secuenciador de animación ha modo del secuenciador de softimage, otros, por medio de clips, de animación
+
+	ó acciones previamente creadas y aplicables y ajustables ó editables
+
+
+	_ésto nos permitirá unas opciones más avanzadas de composición de animación así, como también, de las
+
+	posibilidades de ajuste del timming, y demás elementos de la animación general y específica
+
+
+
+
+NLA Editor:
+
+
+	Crear acciones desde el "dope sheet panel":
+	___________________________________________
+
+
+	_para lo cuál, debemos abrir el panel dope sheet, y seleccionar en éste el modo de "Action Editor"
+
+
+	_así, como también, en el viewport, 3d, tendremos que tener un motivo a través, del cuál, generar una
+
+	animación la cuál, se cargará como una acción ó clip, de animación
+
+
+	_para luego, volver al panel NLA Editor, y hacer "+ New", en la sección inferior de acciones para que
+
+	así, se cree una nueva acción, a la cuál, debemos renombrar, ej: clip1
+
+
+	_para que así, si podamos proceder ha animar nuestro motivo en las propiedades translate, rotate, scale,
+
+	otras
+
+
+	_así, luego de haber realizado la animación deseada sobre nuestro motivo y sobre la acción creadaen el 
+
+	panel dope sheet, debemos ir posteriormente ir al panel "NLA Editor", por que ya la animación ya quedado 
+
+	fijada como un nuevo clip, en el panel NLA Editor
+
+
+	_y ya en el panel NLA Editor, encontraremos dos flechas juntas hacia abajo indicándonos que debemos darle 
+
+	click, sobre éstas para que así, se despliegen los clips, existentes ó almacenados en el panel, de ésta 
+
+	manera, podremos ver el clip, generado previamente en el panel dope sheet, a través, del nombre que le hemos
+
+	asígnado así, como también, por su visualización gráfica a través, de una barra de color amarillo
+
+
+	Edit Clip:
+	__________
+
+	_más si desemos editar un clip, existente, tendremos que ir al panel "NLA Editor/Edit", y seleccionar entre
+
+	las opciones de:
+
+
+		_Start Editing Stashed Action: shortcut: Shift + Tab
+
+		_Start Twaking Strip Actions: shortcut: Tab
+
+
+	_de ésta manera, podremos activar ó desactivar las opciones de edición de un clip, así, cuando un clip, esta
+
+	habilitado para ser editado éste se tornará por lo general de color verde
+
+
+	_de ésta manera, cuando un clip, esta disponible para la edición podremos editar sus atributos como translation,
+
+	rotation, scale, otros, en el panel "Graph Editor", ó de forma manuel en el menú de propiedades lateral, 
+
+	shortcut: "N", en el viewport 3d
+
+
+	_ya que cuando un clip, no está disponible para la edición éste no permitirá edición alguna, ni en el panel 
+
+	graph editor, ni de forma manual tampoco
+
+
+
+	Clips Properties:
+	_________________
+
+	_así, como también, podremos editar de forma relativa los clips, en el panel NLA Editor, luego de haber sido
+
+	creados para ésto debemos abrir abrir el panel derecho, shortcut: "N", de ésta manera, podremos cambiar el 
+
+	nombre de los clips, así, como también, la duración de los mismos, agregar modificadores, ajustar la influencia
+
+	de éstos, otros
+
+
+
+	News Clips:
+	___________
+
+	_más para agregar más clips, generados con el mismo motivo al panel NLA Editor, nos debemos estar en el modo
+
+	de "Start Editing Stashed Action", ó modo de edición de de clips, si no más bien, en el modo de "NO", edición
+
+	de clips
+
+
+	_así, con sólo avanzar un poco el timeline, hasta la nueva ubicación deseada y seguir animando las propieades
+
+	deseadas, shortcut; "I", y seguir así, generando la animación que desiemos que conforme el nuevo clip
+
+
+	_así, podremos ver que desde el mismo momento que creados el primer keyfreme nuevo de éste nuevo clip, se habrán
+
+	agregado nuevamente las flechas dobles en el panel NLA Editor, indicandonos que existe un nuevo clip, de animación
+
+	creado y listo para usar ó secuenciar
+
+
+	_de ésta manera, podremos seguir repitiendo el proceso y crear cuantos clips, desiemos ó necesitemos en nuestras
+
+	animaciones
+
+
+	_así, como también, a través, del panel dope sheet, a través, del cuál, podremos ir generando nuevas acciones ó
+
+	clips, para lo cuál, sólo tendremos que en el campo de acciones designar otro nombre para la nueva acción generada 
+
+	y leugo darle "enter", y comenzar ha realizar la nueva animación de las mismas partes del clip, anterior ó de partes
+
+	nuevas ó nuevos bones, del mismo elementos, de ésta manera, también, iremos generando más clips, de animación
+
+
+	_así, como también, ir generando también, nuevos tracks, dentro del panel NLA Editor/Add/Add Tracks
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+

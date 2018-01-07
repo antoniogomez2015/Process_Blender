@@ -1,0 +1,42 @@
+
+
+
+
+Referencia
+
+	Blender Tutorial: Cast Modifier
+
+		https://www.youtube.com/watch?v=PWxN5mP310E
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_es recomendable que el motive, tenga una buena resolución para que éste represente correctamente la deformación
+
+
+	Cast:
+	________
+
+
+		_para ésto, seleccionamos el mesh, motive, en "objet mode", y vamos ha "Properties/Modifiers/", y agregamos el
+
+		modificador "Cast"
+
+
+		_luego vamos a las opciones de Cast type, y elegimos el tipo de forma geométrica ha emular, entre las que disponemos
+
+		esphere, cylinder, cuboid, de ésta manera, el motive, amulará una de éstas formas seleccionadas al ser deformada
+
+		por la mesh, auxiliar ó proxi
+
+
+		_luego en las opciones de "Control Object", podremos seleccionar la mesh auxiliar que hará de proxi, deformador

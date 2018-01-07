@@ -1,0 +1,45 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Extender Geometría existente:
+	_____________________________
+
+	_para lo cuál, debemos de seleccionar una línea de sub-elementos por ejemplo vertx, y con éstos 
+
+	seleccionados 
+
+
+	_procedemos ha crear más trazos con la herramienta grease pencil, para posteriormente ir a las opciones
+
+	del panel b-surface, y aplicar "Add Surface", para que así, la nueva geometría agregada quede unida a la
+
+	línea de vertex, seleccionada previamente
+
+
+	_de ésta manera, podremos extender geometría sobre áreas más grandes y complejas dentro de un topología
+
+	más extensa y compleja
+
+
+	_lo cuál, trae muchas ventajas más allá de la aparente de no tener que posteriormente empatar ambos 
+
+	topologías hechas de forma aislada si no que más aún, nos permitirá indicarle al sistema de forma 
+
+	automática que la nueva topología generada se cree con la mis resolución ó cantidad de vertices, tanto
+
+	en la cordenada "U", y "V", lo cuál, nos facilitará el trabajo de gran manera
+
+
+
+

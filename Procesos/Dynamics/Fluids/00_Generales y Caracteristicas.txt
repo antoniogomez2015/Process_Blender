@@ -1,0 +1,37 @@
+
+
+
+Dinamicas en Blender
+
+	
+	V2V y Lynda
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Contenedores:
+_____________
+
+
+
+	_los contenedores son necesarios por que los cuales son los que permiten indicarle al sistema donde comenzará y donde
+
+	terminará un sistema de fluidos dentro del espacio 3d, dentro del viewport 3d, en la interface
+
+
+	_de ésta manera, podremos personalizar un contenedor a través, de una forma ó geometría base la cuál, podremos convertir
+
+	ó asignar como un contenedor para un sistema de fluidos
+
+
+	_de ésta manera, podremos generar tanto fluidos estáticos como fluidos dinámicos
+
+
+
+
+
+
+
+

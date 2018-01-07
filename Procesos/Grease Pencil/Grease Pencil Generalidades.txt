@@ -1,0 +1,37 @@
+
+
+Grease Pencil
+
+
+
+	Tutorial:
+
+		Grease Pencil en Blender 2.73
+			https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Teniendo activado y creado Crease Pencil:
+_________________________________________
+
+
+
+	_Draw: D, sostenido and drag
+
+
+	_Draw Line: Control + D, sostenido and drag
+
+
+	_Draw Doc: Control + D, sostenido and Mouse Left Click
+
+
+	_Draw Edge Loops: Control + D, sostenido and Mouse Right Click
+
+		_para terminar la acción de crear "Edge Loops", hacemos "Mouse Right Click"
+
+
+

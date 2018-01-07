@@ -1,0 +1,178 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+PRODCESO HIGH DYNAMIC
+_____________________
+
+1_modelamos la mesh, del motivo en low poly
+
+
+2_luego la mesh, low poly la duplicamos, shift + D, y la primera la llevamos a una nueva layer
+
+
+3_a la loe mesh, copiada le aplicamos un modificador subdiv, con un nivel de definición deseado para que se vea suavizado
+
+
+4_ahora aplicamos el modificador subdiv, para que se aplique esta definición a la mesh, que llevaremos al modelado
+
+
+5_ahora vamos al modo "Sculpt Mode"
+
+
+6_ahora activamos la opción "Enbla Dyntopo", para la resconstrucción dinámica de la maya y las siguientes opciones
+
+
+	6.1_Subdivide Edges
+
+	6.2_Constant Detail
+
+
+7_Symtetry / Lock:
+
+	Mirror: X
+
+
+
+
+////////////////////////////////
+
+WORKFLOW
+________
+
+
+Brush Radius: F
+
+
+Brush Strengh: shift + F
+
+
+Smooth Stroke / Lazy Move: shift + S
+
+
+
+
+
+////////////////////////////////
+
+BRUSHES
+_______
+
+
+F Brush: X
+
+F Smooth: S
+
+F Grab: G
+
+F Inflate/Deflate: I
+
+F Layer: L
+
+F Mask: M
+
+F Pinch/Magnify: P
+
+F Crease: shift + C
+
+F Faltten/Contrast: shift + T
+
+F Polish: shift + R
+
+F Snake Hock: K
+
+
+F Blob Brush: 1
+
+F Brush: 2
+
+F Clay Brush: 3
+
+F Clay Strips Brush: 4
+
+F Crease Brush: 5
+
+F Draw Brush: 6
+
+F Fill/Deepen: 7
+
+F Flatten/Contrast Brush: 8
+
+F Grab Brush: 9
+
+F Inflate/Deflate: 0
+
+
+
+F Layer Brush: shift + 1
+
+F Nudge Brush: shift + 2
+
+F Pinch/Magnify Brush: shift + 3
+
+F Polish Brush: shift + 4
+
+F Scrape/Peaks: shift + 5
+
+F SculptDraw Brush: shift + 6
+
+F Smooth Brush: shift + 7
+
+F Snake Hook: shift + 8
+
+F Thumb Brush: shift + 9
+
+F Twist Brush: shift + 0
+
+
+PARA USO CON MASCARAS
+______________________
+
+F Layer Brush: shift + 1
+
+F Mask Brush: shift + 2
+
+F Nudge Brush: shift + 3
+
+F Pinch/Magnify Brush: shift + 4
+
+F Polish Brush: shift + 5
+
+F Scrape/Peaks: shift + 6
+
+F SculptDraw Brush: shift + 7
+
+F Smooth Brush: shift + 8
+
+F Snake Hook: shift + 9
+
+F Thumb Brush: shift + 0
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////
+
+MENUS
+_____
+
+
+Stroke Method: E
+
+
+Brush Select: C
+
+
+Angle Control: R
+
+
+
+

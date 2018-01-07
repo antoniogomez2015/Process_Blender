@@ -1,0 +1,71 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Toe System:
+___________
+
+
+	_éstas opciones son agregables al pie inverso para lograr así, los movimientos laterales del pie, ya
+
+	que el pie inverso hace los siguientes movimientos, levantar el pie el talón, levantar el piel desde
+
+	la bola del piel y también, desde la punta de los dedos
+
+
+
+	Crear Bones:
+	____________
+
+	_para el paso, debemos estar en "edit mode", con el armature, seleccionado y procederemos ha crear un 
+
+	nuevo bone, shortcut; "Shift A", de ésta manera, se agregará un nuevo bone, de forma automática al sistema
+
+	el cuál, no estará vinculado ha ningna cadena ó chain
+
+
+	
+	Position Cruzada:
+	_________________
+
+	_más ahora, debemos colocar éste bone, de forma transversal al pie ó toe, atravezando la inión del metatarso
+
+	con la base de los fingers, en la horizontal
+
+
+	_de ésta manera, colocaremos el root, de éste bone, de la parte interna del pie
+
+
+	_para luego, duplicar éste bone, y colocarlo de forma invertida, es decir, el root, orientado hacia la parte
+
+	externa del toe, y el efector hacia la parte interna, y éste duplicado lo caloremos un poco más hacia atras
+
+	para tener así, una mayor visualización y acceso ha éste
+
+
+	_y para hacer ésta inversión de bones, y que mantengar su relatividad inversa es recomendable la utilización
+
+	del cursor 3d, así, como el snap
+
+
+	_éstos bones, los podemos renombrar, ej: "L_Toe_Lateral_In", "L_Toe_Lateral_Out"
+
+
+	_es aconsejable colocar éstas dos cadenas de bones, cruzados en el centro del toe, para un mejor manejo y 
+
+	alcance de éstos en equilibrio con el character
+
+
+
+

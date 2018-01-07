@@ -1,0 +1,75 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Movie Clip Editor Movie Tracking Tracks Points:
+	_______________________________________________
+
+	_de ésta manera, luego de haber configurado respectivamente el output, de blender así, como el panel 
+
+	"Movie Clip Editor/Track Tool"
+
+
+	_debemos ahora comenzar ha crear los puntos de tracks, deseados en relación al tipo de trabajo ha realizar
+
+
+
+
+	Casos de Trackeo:
+	_________________
+
+
+	1_de ésta manera, por ejemplo; si deseamos capturar sólo el movimiento de elemento determinado de la escena debemos de crear
+
+	como mínimo
+
+	
+		_(1), un punto de trackeo
+
+
+	2_más si deseamos también, deseamos incorporar la rotación del plano ó toma de la cámara debemos de crear como mínimo 
+
+
+		_(2), dos puntos de trackeo
+
+
+	3_más para si deseamos incorporar cambios de escala ó perspectiva también, entonces para esos casos es recomendable y como
+
+	mínimo incorporar 
+
+
+		_(4), cuatro puntos de trackeo
+
+
+	4_más si lo que deseamos es extraer u obtener la cámara con la cuál, fue tomada ó gravada el escena ó clip, de película para
+
+	que así, podamos replicar ésta cámara en el entorno 3d, y como también reproducir los planos de la perspectiva y demás
+
+	elementos de referencia en ese caso requeriremos de crear como mínimo 
+
+
+		_(8), ocho punto de trackeo
+
+
+
+
+

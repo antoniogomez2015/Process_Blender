@@ -1,0 +1,87 @@
+
+
+
+
+texturas con transparencias en blender
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+modalidad para versión de render estandar de blender:
+______________________________________________________
+
+
+	_primero debemos crearle al motive, el proceso de uvmap
+
+
+	_luego debemos ir a las opciones de properties/material, y agregarle un nuevo material al motive, luego bajamos a las 
+
+	opciones de "transparency", y activamos éstas y en el valor de "Alpha", colocamos un valor de "0"
+
+
+	_luego debemos ir a las opciones de properties/texture, y agregamos un nueva textura al motive, y en las opciones de
+
+	"type", seleccionamos la opción de "image or movie", luego bajamos en la sección de "image", seleccionamos una existente
+
+	ó le damos ha "Open", y buscamos un en nuestro equipo, luego bajamos a las opciones de "cordinates", y seleccionamos "UV",
+
+	
+
+	_por último bajamos a las opciones de "incluence", y activamos las opciones de "alpha"
+
+	
+	_así, podremos ver que al renderizar el motive se renderizará con la transparencia
+
+
+	_y para visualizar las transparencias en el viewport, podemos abrir el menú de propiedades del viewport, shortcut "N",
+
+	e ir a las opciones de "shading", y seleccionar la opción de "GLSL"
+
+
+
+
+
+
+
+modalidad para versión de render Cyles Render:
+______________________________________________
+
+
+	_primero debemos crearle al motive, el proceso de uvmap
+
+
+	_luego debemos ir a las opciones de properties/material, y agregarle un nuevo material al motive
+
+
+	_luego vamos al node editor y agregamos un nodo "shader/mix shader"
+
+
+	_ahora agregamos un nuevo material al motive, sea a través, de las opciones del material/color, ó a través,
+
+	del "node editor/texture/image texture"
+
+
+	_luego duplicamos el node "image texture", que creamos en el paso anterior y conectamos "image texture/alpha",
+
+	al nodo "mix shader/fac"
+
+
+	_luego agregamos un nodo "shader/transparent BSDF", éste lo conectamos al primer input, del nodo "mix shader"
+
+
+	_luego conectamos el nodo por defecto del material "difuse BSDF", al segundo input, del nodo "mix shader"
+
+	
+	_así, al renderizar podremos ver que el motive, se renderizará con transparencia
+
+
+	_y para visualizar las transparencias en el viewport, para ésto, vamos a las opciones de "display viewport", y 
+
+	seleccionamos la opción de "mateiral", así el motive se mostrará en el vieport, con su respectiva transparencia
+
+
+

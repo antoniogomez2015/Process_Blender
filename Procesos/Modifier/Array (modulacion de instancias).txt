@@ -1,0 +1,52 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_el motive, debe de lo más simple posible para ligera representación de las réplicas en el viewport
+
+
+	Array:
+	______
+
+
+		_para ésto, seleccionamo sel mesh, motive, en "objet mode", y vamos ha "Properties/Modifiers/", y agregamos el
+
+		modificador "Array"
+
+
+		_podemos indicar la duplicación tanto por una cantidad determinada de elementos "Fixed Count", como también,
+
+		a través, de una longitud, "Fix Length" y las réplicas que quepan en ella como también, a través, de las réplicas
+
+		que quepan dentro de la longitud de una curva "Fix Curve"
+
+
+		_y también, podemos controlar el desface y proyección de las réplicas configuradas a través, de dos controls ambos
+
+		en cordenadas axis, éstos son: "Constant Offset", "Relative Offset", otra opción a través, de la topología de un 
+
+		objeto "Object Offset"
+
+
+		_también, podemos indicar si deseamos que si las réplicas al colapsar éstas se fusionen, activando la opción de 
+
+		"Marge", indicando un umbral "Distant:"
+

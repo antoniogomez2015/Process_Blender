@@ -1,0 +1,33 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+		https://www.youtube.com/watch?v=Kup4ppJTeSg&t=658s
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Composición:
+	____________
+
+	_luego de haber terminado el proceso de trackeo y refinamiento de los resultados es hora del volver al panel viewport 3d,
+
+	y comenzar con el proceso de composición
+
+
+	_para que así, podamos hacer uso de la escena extraida del plano ó imágenes de referencia a la escena del viewport 3d, a 
+
+	través, de los tracks points, y la cámara
+
+
+	

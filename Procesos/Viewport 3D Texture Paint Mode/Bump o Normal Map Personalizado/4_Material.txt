@@ -1,0 +1,38 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Material:
+	_________
+
+	_para luego ir a las opciones del material aplicado sobre el character, ó motivo para lo cuál, debemos ir a las
+
+	opciones de "Properties/Material Material/Specular", y colocar el valor de: "Intensity", en "0.000" 
+
+
+	_para que así, el material no tenga reflejos indeseados que no nos permita una visualización corecta del material, 
+
+	la superficie y las texturas como también, de los efectos que vayamos creando con el efecto de bump, ó normal map
+
+
+	_de ésta manera, tendremos una apreciación plana del color y de las texturas sobre el efecto normal map
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+
+
+
+
+Blender Dynamics / Smoke
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un collision, en un objecto el cuál, hará de colisionador ó resistencia al humo ó sistema gaseoso 
+
+		para que así, éste objeto de tipo colisionador pueda interactuar con el humo
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó fluido
+
+
+
+	Smoke:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Smoke", para éste objeto así, éste estará disponible para los procesos de simulación
+
+		
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+	Collision:
+	__________
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Collision", para éste objeto así, éste estará disponible para los procesos de simulación
+
+		y colisión
+
+
+

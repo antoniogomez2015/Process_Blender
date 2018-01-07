@@ -1,0 +1,88 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Unir dos Islas de Geometría Existente:
+	______________________________________
+
+
+
+	Método 1:
+
+	_para lo cuál, debemos de seleccionar una línea de sub-elementos por ejemplo vertex, con la misma cantidad
+
+	de sub-elementos textex, cada uno para que no hay incompatibilidad a la hora de integrar ambas topologías
+
+
+	_para posteriormente con ambas lineas de vertex, seleccionada; una a cada extremo de cada isla procedemos
+
+	ha agregar como mínimo "dos", trazos con la herramienta grease pencil
+
+
+	_para a continuación ir a las opciones de b-surface, y aplicar "Add Surface", para que así, el área vacía
+
+	entre ambas islas sea ahora rellenada con nueva geometría la 
+
+
+	cuál, contemplará la geometría existente en cada isla, así, como también, tanto las islas como la nueva 
+
+	geometría ahora todas estarán unidas en una sola gometría resultante
+
+
+
+
+	Método 2:
+
+	_el método dos es una variante del primero a diferencia que éste permite que la geometría resultante 
+
+	agregada de forma adicional contemple la dirección y área de los trazados guías a través, de los cuáles,
+
+	se ha creado éste método
+
+
+	_para lo cuál, igualmente que el método "1", debemos de seleccionar la misma cantidad de vertex, en cada
+
+	extremos de dos islas y con ambos seleccionados debemos de crear al menos dos trazados con la herramienta
+
+	brush, de grease pencil
+
+
+	_más con la diferencia de que éstos trazados los debemos realizar en los extremos de las respectivas líneas
+
+	de tertex, seleccionadas en cada isla
+
+
+	_así, de ésta manera, en vez de crear los trazados paralelos a las líneas de vertex, seleccionadas en cada
+
+	isla; en éste caso los trazados realizaremos de forma perpendicular ha éstos, es decir, en 90, grados y en
+
+	los extremos de las respectivas selecciones
+
+
+	_ó lo que es lo mismo decir, que a partir de el primer vertex, seleccionado crearemos el primer trazado y
+
+	a partir del último vertex, seleccionado crearemos el segundo trazado
+
+
+	_tratando siempre de que los trazados toquen y salgan de éste vertex, respectivos para que así, el sistema
+
+	no de problemas
+
+
+	_para a continuación ir a las opciones de b-surface, y aplicar "Add Surface", para que así, el sistema 
+
+	agrege nueva geometría superfitada a las islas y al área signada por los trazados
+
+
+
+

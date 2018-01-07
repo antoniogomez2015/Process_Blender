@@ -1,0 +1,137 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+	SS Shader Pro
+
+	https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+		
+	9_SSS Shader (Single Map):
+
+	_éste nos permitirá agregar el defecto de densidad ó de la piel ó presencia de una dermis y una epidermis así, 
+
+	como de una tonacidad y plasticidad de la piel, otros
+
+
+
+	Activación:
+
+	_para activar ésta modalidad en "Render Blender Mode", (en cycles es diferentes), hay que ir ha
+
+	"Properties/Material Material/", y allí, bajar hasta las opciones de "Subsurface Scattering", y activar ésta
+
+	opción
+
+
+
+	Reqeurimientos:
+
+	_el motivo ó character, debe de estar iluminado desde detras para que así, la iluminación pase a través, de las
+
+	partes más blandas ó expuestas ó prominentes del motivo ó character, y así, éstas se vean más translúcidas, otros
+
+
+
+
+	Visualización:
+
+	_éste no será visible en el viewport 3d, de ésta manera, tendremos que hacer modificaciones en la configuración
+
+	para posteriormente hacer pruebas de render, e ir ajustando los cambios posteriormente
+
+
+
+	Configuración:
+
+	_en el modo de "Render Blender", dispondremos de los siguientes controles para configurar el comportamiento de
+
+	la modadalidad de subsurface scattering, los cuáles son:
+
+
+		_SSS Presets:
+
+			_los presets, no es conveniento tocarlos ya que éstos dan error y dan lag, en el sistema
+
+
+		_IOR:
+
+			_el "índice de refracción", es la dureza con la cuál, insiden las sombreas
+
+
+		_Scale:
+
+			_éste valor controlará la capacidad de dispersión de las sombras
+
+
+		_Color:
+
+			_
+
+
+		_Texture:
+
+			_
+
+
+		_RGB Radius:
+
+			_
+
+
+		_Scatterint Weight:
+
+			_From:
+
+				_
+
+
+			_Back:
+
+				_
+
+
+		_Error:
+
+			_
+
+
+	

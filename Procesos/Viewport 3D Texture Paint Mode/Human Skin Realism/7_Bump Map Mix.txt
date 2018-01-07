@@ -1,0 +1,208 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	7_Bump Map Mix:
+	_______________
+
+
+	_Dos mapas de Bump filtrado para acentuar iluminaciones propias:
+
+
+		_de ésta manera, podremos crear dos mapas de bump map, a través, de los cuáles podremos separar los procesos 
+
+		de tanto el relieve como del detalle, de la siguiente manera:
+
+
+			7.1_a través, del primer mapa de textura, podremos generar y emular los poros e imperfecciones 
+
+			logradas en los mapas de "Diffuse Color", para lo cuál, debemos de hacer un "Mix", de todos los
+
+			"Diffuse maps", que hemos creado hasta ahora, lo más fácil es hacerlo en  Photoshop, de ésta
+
+			manera, utilizaremos éste mapa en escala de grises para aplicarlo como bump map
+
+
+			7.2_y en el segundo "bump map", podremos crear los detalles más finos y detallados como líneas 
+
+			de expresión, arrugas, berrugas, citatrices, otros
+
+
+
+	Composición:
+
+	_la composición y acoplado de imágenes ó en éste caso de mapas lo podríamos hacer directamente en blender, más al ser 
+
+	tantos mapas a la vez, y todos éstos tener un tamaño mínimo de 4K, los cuál, retardaría demaciado el proceso y 
+
+	comprometería la estabilidad de blender, al punto de hacer colapsarlo
+
+
+	_por ésta razón, éste proceso de composición y acoplado de imágenes es mejor hacer en Photoshop, el cuál, no tendrá 
+
+	problemas en hacer éste proceso e incluso nos brianda más posibilidades de aumentar ó atenuar ciertos procesos
+
+
+	_de ésta manera, debemos de abrir Photoshop, e ir cargando dentro de un mismos canvas cada uno de los  "5", mapa de 
+
+	"Diffuse Color", que hemos generado y en el mismo orden
+
+
+	_los cuáles, acoplaremos de la siguiente configuración:
+
+
+		_Diffuse 1: (Color carne base y AO Map)
+
+			_éste será la última capa y que estará más abajo en el panel layers, de Photoshop, la cuál, tendrá 
+
+			una:
+
+				_Opacidad de "100%", 
+
+
+				_y un modo de fusión "Normal"
+
+
+
+		_Diffuse 2: (Skin Base Detail)
+
+			_textura complementaria con patrón irregular de piel realista en alto detalle el cuál, irá sobre la 
+
+			layer, "Diffuse 1", y tendrá una: 
+
+
+				_Opacidad de "50%", 
+
+
+				_y un modo de fusión de "Linear Burn"
+
+
+
+		_Diffuse 3: (Diffuse Detail)
+
+			_textura en la cuál, se ha aplicado rubosidad y detalles generales correctivos sobre la piel la cuál,
+
+			irá sobre la layer, "Diffuse 2", y tendrá una:
+
+				
+				_Opacidad de: "4%",
+
+
+				_y un modo de fusión de "Color Burn"
+
+
+
+		_Diffuse 4: (Diffuse Com, ó compuesto)
+
+
+			_textura en la cuál, se ha agregado los rasgos característicos como dejas, pecas, manchas, arrugas, 
+
+			otros, la cuál, irá sobre la layer, "Diffuse 3", y tendrá una:
+
+
+				_Opacidad de: "100%",
+
+
+				_y un modo de fusión de "Normal"
+
+
+
+		_Diffuse 5: (Vains ó venas)
+
+
+			_textura en la cuál, hemos aplicado las venas sobre el motivo ó character la cuál, irá sobre la 
+
+			layer, "Diffuse 4", y tendrá una:
+
+
+				_Opacidad de: "5%",
+
+
+				_y un modo de fusión de: "Normal"
+
+
+
+	_para posteriormente de tener ya todos los mapas en orden y con su opacidad y modos de fusión respectivos es hora de
+
+	acoplar éstos en una sóla layer, para lo cuál, podremos hacer uso del shortcut, "Control + Shift + E", para que así,
+
+	todos las layers, se acoples sobre la layer, base
+
+
+	_para luego desaturar ésta shortcut, "Control + ALt + U", ya que de éste mapa resultante nos interesa es sólo su
+
+	información tonal y no de color
+
+
+	_y opcionalmente en relación del resultado deseados podremos en éste punto hacer ajustes de contraste, valor, brillo,
+
+	saturación, otros antes de exportar éste mapa resultante
+
+
+	_para posteirormente guardar ésta textura ó mapa resultando con un nombre ej, "Bump Mix.png"
+
+
+
+	Aplicación:
+
+	_para posteriormente volver ha blender, y allí, ir ha "Texture Paint/Slots/Add Texture Paint Slot/", y allí seleccionar
+
+	la opción de "Diffuse Color", para que así, creemos un nuevo slot, de textura el cuál, podremos renombrar ej, "Bump Mix"
+
+
+	_para posteriormente ir ha "Properties/Textures Textures/", y allí, bajar hasta las opciones de "Images", para que así,
+
+	podamos cargar la textura que hemos generado de forma compuesta en Photoshop
+
+
+	_para luego ir a "Properties/Textures Textures/", y allí, bajar hasta las opciones de "Influence", y allí desenmarcar la 
+
+	opción de "Diffuse Color", y activar la opción de "Geometry/Normal", y en su opacidad colocar un valor muy bajo, ej: 
+
+	"0.150", en éste caso
+
+
+	_para que así, el mapa compuesto que hemos generado no trabajo como mapa de color sino, como mapa de bump map
+
+
+
+
+
+
+	

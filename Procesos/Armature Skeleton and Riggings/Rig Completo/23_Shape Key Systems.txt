@@ -1,0 +1,284 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Shape Keys Introduction:
+________________________
+
+
+	Facial Rig:
+	___________
+
+	_los sistemas de shape keys, nos permitirán hacer animaciones controladas y animable, por
+
+	ejemplo para hacer diferentes expresiones del rostro y tener la posibilidad posteriormente
+
+	de graduar la intensidad de éstas e incluso de mezclar unas y otras en diferentes grados
+
+
+	_entendiendo así, que las shape keys, no son más que la transición en posiciones de vertex, 
+
+	en diferentes espacios y tiempos pero en animación no lineal
+
+
+	
+	Anatomy and Muscle System:
+	__________________________
+
+	_para también, a través, de éstas podemos ir más allá en posibilidades de las shape keys,
+
+	pudiendo controlar partes del comportamiento del body
+
+
+	_como por ejemplo; lo que pasa cuando un character, se inclina hacia delante y es un poco
+
+	obeso ó trae ropa, así, a través, de las shape keys, podremos hacer que la adiposida sobre
+
+	salga hacia adelante ó que la ropa también, tome protagonismos
+
+
+	_de ésta manera, podremos controlar como se comporta el cuerpo en determinadas situaciones y
+
+	movimientos de diferentes partes de un character
+
+
+	_así, como también, podríamos simular músculos de partes del cuerpo ó ocaciones específicas
+
+	en animaciones controladas ó emular músculos ha nivel generalizado del character
+
+
+
+
+Facial Shape Key:
+_________________
+
+
+	Shape Key Default:
+	__________________
+
+	_primero debemos seleccionar el mesh, del character, ó retopology, e ir ha "properties/data object data/"
+
+	hasta las opcioens de "Shape Keys", para a continuación darle al "+", plus, para que así, nos cree un 
+
+	shape keys, base, llamada por dedault "Basis", la cuál, estará conformada por la pose base ó actual que 
+
+	tiene el character, hasta éste punto que creado la shape key "basis"
+
+
+
+	Shape Personalizada:
+	____________________
+
+	_para luego, si darle nuevamente al "+", ó plus, y crear una nueva shape key, persinalizada la cuál, podremos
+
+	renombrar con un nombre descriptivo, ej; "Smile", ó sonrisa, otros
+
+
+	_así, ésta nueva shape keys, que hemos creado y renombrado como "Smile", se habrá creado con una valor de 
+
+	influencia de "Value: 0", el cuál, tendremos que colocar el slider, en un valor de "1", de influencia para que
+
+	podamos entrar y editar ésta shape key
+
+
+	_para luego, darle al ícono de "Apply Shape Key in Edit Mode", en la sección de "Shape Key", para que así,
+
+	podamos entrar en edit mode, shortcut "tab", y proceder ha editar los vertices, correspondientes ha shape key,
+
+	que desiamos que tenga un comportamiento característicos, en éste caso, los vertices correspondientes a la 
+
+	sonrisa
+
+
+	_de ésta manera, es altamente recomendable para la mayoría de los cosos en los que estemos editando vertices
+
+	para la personalización de shape keys, la utilización de la edición proporcional en edit mode, shortcut, "o",
+
+	así, como también, la de sus diferentes opciones
+
+
+
+Anatomy Shape Keys:
+___________________
+
+	_en el siguiente ejemplo continuaremos con el ejemplo de la introducción y haremos una corrección de animación
+
+	de una postura a través, de las opciones de shape keys
+
+
+	_para que así, el character, al inclinar la spine, hacia adelante requiera de nuestra parte una corrección 
+
+	anatómica sobre el addomen, otros
+
+
+
+	Basis Shape Keys:
+	_________________
+
+	_primero, seleccionaremos la mesh, ó retopology, del character, e iremos en "Object Mode", a las opciones de
+
+	"properties/data object data/shape keys"
+
+
+	_y allí, procederemos ha crear la primera shape keys, la cuál, será la pose base llamada por defecto como "Basis",
+
+	la cuál, podremos renombrar como por ejemplo "Standard"
+
+
+
+	Personalizada Shape Key:
+	________________________
+
+	_para luego darle al "+", ó plus para crear un nueva shape keys, personalizada la cuál, podremos renombrar ej;
+
+	"Abdómen_flacido"
+
+
+	_para a continuación colocar el character, en la posición deseada ha corregir, en éste ejemplo es con la spine,
+
+	inclinada hacia adelante ó corbado
+
+
+
+	Edit Shape Key Personalizada:
+	_____________________________
+
+	_para a continuación darle al botón "Apply Shape Keys in Edit Mode", para luego, entrar en "edit mode", shortcut;
+
+	"tab", para comenzar ha hacer la edición de vertices del área ha corregir ó mejorar para ésta posición específica
+
+
+	-y si llegasemos ha tener algún problema de deformación inesperada sobre el character, en éste punto bastaría para
+
+	corregirlo con tener el mesh, ó retopology, seleccionado y estando en edit mode, para a continuación ir a las 
+
+	opciones de "properties/modifiers/", para que así, podamos tener acceso al modificador aplicado "Armature", el cuál,
+
+	nos ofrece un botón de "Edit Mode", el cuál, nos permitirá hacer correcciones y ajustes sin problemas colaterales
+
+
+
+	Sculpting:
+	__________
+
+	_así, como también, como un plus en la edición avanzada de las shape keys, tenemos la posibilidad de hacer 
+
+	modificaciones a través, del modo de "Sculp Mode"
+
+
+	_así, estando edit mode, ahora podemos pasar ha "Sculp Mode", para luego con el mesh, ó retopology, seleccionado
+
+	ir a las opciones de "properties/data object data/shape keys/", y allí, en las opciones de shape keys, darle al
+
+	botón de "Conmutados", hasta que éste cambie de apariencia, hasta que cambie de una apariencia de "Pin", ha 
+
+	"dos circulos uno sobre el otro"
+
+
+	_de ésta manera, la shape key, se conmutará permitiendo la edición en el modo sculp mode, ampliando así, las 
+
+	posibilidades de adición e interrelación entre diferentes partes de la aplicación
+
+
+	_así, podremos proceder ha esculpir como lo haríamos para cualquiera de los ejemplos de escultura y con todas las
+
+	herramientas y pinceles de esculpido, otros
+
+
+	_y cuando hayamos finalizado la edición en "Sculp Mode", podremo volver ha "Object Mode", e ir nuevamente a las
+
+	opciones de "properties/data object data/shape keys", y darle nuevamente al conmutador para que éste tome nuevamente
+
+	la apariencia de "Pin", de ésta manera, podremos ver que la edición que hicimos en sculpt mode, habrá desarecido y
+
+	es por que ahora ésta edición ha pasado ha la shape keys, y ahora es controlada a través, del slider, "Value: 0/1",
+
+	de la respectiva shape key
+
+
+
+	Driver Shape Keys:
+	__________________
+
+	_ahora vamos ha relacionar la shape key, que hemos creado y personalizado para la corrección del abdómen de nuestro
+
+	character, con bone, que hará la flexión ó handle, de la spine, ó columna vertebral
+
+
+	_para ésto, primero seleccionamos la mesh, ó retopology, del character, y en "object mode", vamos a las opciones de
+
+	"properties/data object data/shape keys/", y allí, seleccionamos la shape keys, que hemos creado en éste caso 
+
+	"abdomen_flacido"
+
+
+	_y con ésta shpe key, seleccionada vamos hasta su slider, "Value", y hacemos "mouse right click", sobre éste y 
+
+	seleccionamos la opción de "Add Driver", para que así, éste se agrege a las opciones de "drivers", del panel 
+
+	"F-Curve Editor", ó "Graph Editor"
+
+
+	_así, de ésta manera, pocedemos ha crear un nuevo panel en la interface, en el cuál, cargaremos el panel "Graph Editor",
+
+	y cambiaremos en la barra inferior su opción por defecto de trabajo de "F-Curve", ha "Drivers"
+
+
+	_para que así, nos aparezca en la lista la mesh, respectiva al character, así, como la shape keys, asignado en el paso
+
+	anterior y el gráfico que representa ha ésta
+
+
+	_para que luego, seleccionemos la shape key, respectiva en el panel "Graph Editor/Dirvers", y con ésta seleccionada
+
+	desplemos las opciones del panel derecho "Graph Editor/Drivers", shortcut, "N", y vayamos hasta las opciones inferiores 
+
+	de éste panel llamadas "Drives"
+
+
+	_para que así, en las opciones de "Drivers/Type", seleccionemos la opción de "Averaged Value", para que así, se activen
+
+	las opciones inferiores de "Type", en la cuál, elegiremos la opción de "Transform Channel"
+
+
+	_y para a continuación justo en las opciones que están más abajo selección en el ícono de "Object", seleccionar "Armature",
+
+	para que así, nos aparezca un campo en el cuál, podremos indicar el bone, específico el cuál, controlará la shape key
+
+
+	_más justo a contunuación del paso anterior, podremos también, indicar la acción tomar en cuenta de éste bone, así, podremos
+
+	selección entre translation, rotación y así, como la cordenada de trabajo así, como también, justo debajo podremos seleccionar
+
+	el espacio de trabajo si será global ó local, y en éste caso nos convendrá seleccionar la opción de "Local Space"
+
+
+	_y de ésta manera, ya tendremos listo el sistema y así, al rotar el vertebra ó bone, de la spine, respectiva del armature del
+
+	character, nos percataremos que también, será aplicada en proporción la shape key, personalizada que creado y asignado
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+

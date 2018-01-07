@@ -1,0 +1,203 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_éste panel nos permite ver las fuerzas e interacciones entre las propiedades y sus valores y a su vez,
+
+	su relación con la velocidad de animación y su interacción entre los demás elementos
+
+
+	_lo cuál, nos permitirá mover keyframes, para tener un control total sobre el timming, y detalles generales
+
+	y avanzados de la animación
+
+
+
+
+Navegación:
+
+
+	The Dope Sheet Panel: Shft + F6
+
+
+	Zoom: scroll mouse ó Control + mouse midle click and drag left/right
+
+
+	Pan: Shift + mouse midle and drag left/right
+
+
+	Play/Stop: Alt + A
+
+	
+	Mover el cabezal frame to frame: Alt + Scroll mouse
+
+
+	Mover el cabezal de 10 en 10 frames: Shift + Arrows up/down
+
+
+	Mover el cabezal Star Star/End Frame: Shift + Arrows left/right
+
+
+	Set Star Frame workArea: S
+
+
+	Set End Frame workArea: E
+
+
+	Marks: M
+
+
+	Rename Mask: Control + M
+
+
+	Selection rectangular: B + mouse left click and drag
+
+
+	Selection laso: Control + mouse left click and drag
+
+
+
+Edit Keyframes:
+
+
+	_para poder mover keyframes, de posición dentro del panel the graph editor, debemos seleccionar un
+
+	keyframes, en particular haciendo "mouse right click", para luego arrastrar uno de sus handles, hasta 
+
+	una nuea ubicación y, para finalizar la operación debemos "mouse left click", para que así, el handle,
+
+	respectivo quede fijado en la nueva ubicación
+
+
+
+Interpolation Mode Panel:
+
+	_así, como también, podremos seleccionar que tipo de interlación realizará un determinado keyframe, 
+
+	para lo cuál, contamos con un panel contextual, shortcut "T", ó yendo ha "Key/Interpolation Mode"
+
+
+	_así, podremos seleccionar el tipo de interpolación como "liner/beizer/constant", otras
+
+
+
+Handle Type:
+
+	_así, como también, podremos elegir cuál, será el comportamiento de los handles, de un keyframes, entre
+
+	si, de ésta manera, podremos vincular y desvincular los handles de un keyframe, para cambiar así, el
+
+	comportamiento espacial y de velocidad de la respectiva propiedad
+
+
+	_shortcut: "V"
+
+
+	_así, nos aparecerán una serie de opciones las cuales son:
+
+
+		_Free:
+
+			_ésta opción convierte a los handles, independientes uno de otro
+
+
+		_Vector:
+
+			_ésta opción los alinea los handles, en relación a la dirección de la curva de cada lado 
+
+			del handle, ó mejor dicho elimina el efecto de transición ó curva y los deja linear
+
+
+		_Aligned:
+
+			_ésta opción unifica los handles, los cuales han sido previamente independizados
+
+
+		_Automatic:
+
+			_ésta opción hace que la dirección de los handles unificados sea en relación a la curva
+
+			de entrada y de salida de la transición entre ambos handles,
+
+
+			_lo cuál, es especialmente útil cuando movelos los keyframes, y deseamos que los handles 
+
+			en su conjunto mantengan los cambios de dinámicos de las curvas
+
+
+		_Auto Clamped:
+
+			_ésta opción unifica los handles y los alinea lo mejor posible en relación a la curva de
+
+			entrada y de salida de los handles
+
+
+
+
+Easing Type:
+
+	_así, como también, contaremos con un panel contextual para aceleración y desaceleración, a través, del
+	
+	cuál, podremos indicar la aceleración de entrada y de salida de un keyframe
+
+
+	_shortcut: Control + E
+
+
+
+
+Extrapolation Mode:
+
+	_así, como también, disponemos de opciones avanzadas a través, del menú contextual extrapolation mode,
+	
+
+	_shortcut: Shift + E
+
+
+
+
+
+	_de ésta manera, podremos extender propiedades de animación para hacer incluso ciclos de animación, otros
+
+
+	_para ésto, debemos seleccioanr el último keyframe, donde deseamos que termine la animación que se repetirá
+
+	ó se sostendrá en el tiempo, para luego aplicar unos de los criterios disponibles, para que así, la propiedad
+
+	seleccionada se sostenga ó se repita en el tiempo, otros
+
+
+
+Add F-Curve Modifier:
+
+
+	_y aunado a las opciones de extrapolación del paso anterior, tenemos a la disposición los modificadores los
+
+	cuales no son destructivos y hacen lo mismo de las opción anterior más éstos llevan más allá las alternativas
+
+	de automatización y ciclos entre otras opciones posibles
+
+
+	_shortcut: Control + Shift + M
+
+
+	_de ésta manera, podremos agregar modificadores para convertir la curva de animación de propiedad con el efecto
+
+	visual de "noise", ó cicle, otros
+
+
+	_y para ver éstas propiedades de éstos modificadores tendremos que abrir las propiedades del panel F-Curve Editor,
+
+	shortcut: "N", de ésta manera manera, podremos configurar, aplicar y eliminar modificadores
+
+
+
+
+

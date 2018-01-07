@@ -1,0 +1,80 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Painting color of textures de Texture Paint Mode:
+_________________________________________________
+
+
+	Panel UV/Image Editor:
+	______________________
+
+	_primero debemos abrir otro panel uv/image editor, a parte del existente ó abierto en el cuál, podremos abrir otras
+
+	imagenes de referencia de las cuales podremos tomas los colores para nuestro motivo
+
+
+	_de ésta manera, en un panel uv/image editor, podremos pintar las  texturas en forma plana y en el otro panel 
+
+	uv/image editor, podremos tomar colores de referencia de imagenes
+
+
+	
+	Sample Color:
+	_____________
+
+	_así, podremos cargar imagenes de nuestro disco a éste nuevo panel de uv/image editor para muestrear sus colores
+
+
+	_de ésta manera, luego de haber cargado la imágen deseada ha mostrar debemos colocar el modo del panel en "Paint"
+
+	para que así, este disponible para las opciones de pintura
+
+
+	_para que así, nos posemos en una parte de la imágen en la cuál, hay un color que nos interese muestrear para luego
+
+	darle el shortcut, "S", de "Sample Color", de ésta manera, el color será tomado por la brushed, activa en el panel
+
+	texture paint, y así, de ésta manera podremos pintar a través, de los colores sampleados de imagenes
+
+
+	
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

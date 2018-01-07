@@ -1,0 +1,55 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_la opción del constrint, child of, de relacionar elementos con otros, ésto es especialmente útil para
+
+	hacer animaciones complejas por ej; que un personaje ó character, tome un arma como la mano, otros
+
+
+	_de ésta manera, através, de éste constraint, podremos tomar y soltar elementos de forma interactiva
+
+
+
+
+Constraint Child Of:
+
+
+	_para ésto, debemos tener un elemento ó motivo, en el modo objecto modo, aunque éstas opciones tienen
+
+	más sentido en la opción de pose mode, con un character, completo
+
+
+	_y con una parte del character seleccionado, ej, el handle, de una mano, vamos a "properties/constraint",
+
+	ó shortcut; "Control + Shift + C", y seleccionamos el constrint, de "Child of"
+
+
+	_y en el constrint, child of, en las opciones de target, podremos seleccionar el elemento ha relacionar
+
+	en éste caso sería una weapon, otros
+
+
+	_y en las opciones de "bone", debemos seleccionar el bone, del armature, respectivo ha relacionar, de ésta
+
+	manera ambos elementos quedarán relacionados
+
+
+	_así, podremos relacionar las propiedades, "position/scale/rotation", de éstos
+
+
+	_más por otro lado disponemos de la opción de "influence", con la cuál, podremos ajustar la influencia ó
+
+	acción de fuerza de éste constraint, para que así, podamos controlar la interacción entre ambos elementos
+
+	relacionados
+
+
+

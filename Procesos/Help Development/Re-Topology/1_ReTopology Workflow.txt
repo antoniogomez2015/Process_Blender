@@ -1,0 +1,267 @@
+
+
+DETALLES
+
+
+tenemos la posibilidad de realizar procesos de retopología, a elementos, "character", creados en alta resolución
+
+y a través, de este proceso podemos hacer una versión con una topología más baja "Low Poly"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Re-Topology:
+____________
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+Importación:
+____________
+
+
+
+	_primero cargamos el modelo al centro del viewport, por lo general este biene en formato .OBJ, para cargarlo
+
+	vamos ha "File/Import/Warefram (.OBJ)", seleccionamos el archivo deseado y lo importamos a la escena
+
+
+------------------------------------------------------------------------------------------------
+
+Geometría Base:
+_______________
+
+
+
+	_ahora procedemos a crear una geometría base de la ccuál podremos comenzar el proceso de retopología, para
+
+	dicho proceso contamos con dos métodos, los cuales son los siguientes
+
+
+		_podemos crear una mesh, ej "Add/Mesh/Plane", ó "Shift+A/Mesh/Plane", y entrar al modo de edición
+
+		poligonal y, borrar todos los vertex, y dejar uno solo, ó seleccionar todos los vertex, y hacer
+
+		"Alt+M/Margeg/At Center", para que así, todos los vertex, colapsen al centro e igualmente conservemos
+
+		sólo un vertex, para comenzar con el proceso
+
+
+		otro método es crea una mesh ej "Add/Mesh/Plane", ó "Shift+A/Mesh/Plane", y colocar este plano creado
+
+		en un lugar deseado donde desemos comerzar el proceso, así, este plano hará de el primer "polygon", del
+
+		procedemos a extruir a partir de él, para comenzar el proceso
+
+
+
+------------------------------------------------------------------------------------------------
+
+Mirrow - Simetry:
+_________________
+
+
+
+	_para trabajar de forma reflejada debemos centrarl la mesh/base, ó polygon base, que creamos en el paso anterior
+
+	y dependiendo del método utilizado en el paso anterior tendremos que hacer lo siguiente:
+
+
+		1_método vertex/marge, tendremos que colocar este vertex, inicial en el centro del "Axix/Z", en el lugar
+
+		donde deseamos comenzar el proceso, ej, en la comesula del labio, a continuación tendremos que extruir
+
+		este vextex, al menos "3", veces, hasta formar un cuadrado ó polygon, pero sin cerrar la última cara,
+
+		luego seleccionamos los "cuatro", vertex, creados hasta ahora creados haciendo "control + mouse left 
+
+		click and drag", hasta seleccionar todos los vertex, y conlos cuatro vertex, seleccionamos hacemos
+
+		"Edit mode/Mesh/Faces/Make Edge-Faces", ó "Control + F", ó "F", así, a partir de los cuatro vertex,
+
+		se generará el primer "Polygon", con el cuál, podremos comenzar el proceso
+
+
+		
+		2_método plane/polygon, tendremos que colocar este plane/polygon, inicial en el centro del "Axix/Z", en
+ 
+		el lugar donde deseamos comenzar el proceso, ej, en la comesula del labio, luego entramos al modo de
+
+		edición "Control + Tab", para dividir este plane/polygon, por la mitad, para que así, tengamos vertex,
+
+		en el medio del polygon, que coincidan con el centro del plano, para esto, estando en el modo de edición
+
+		hacemos "Control + R", para activar la herramienta "Loop Cut and Slide", y agregamos una división al
+
+		centro que coincida en el centro de plano por lo general con la cordenada "Z", posteriormente 
+
+		seleccionamos los vertex, que coresponden a la mitad derecha ó la mitad que será reflejada y los
+ 
+		borramos, por que estos vertex/polygon, que hemos borrados serán representados por el modificador
+
+		"Mirrow"
+
+
+	_así, al ternimar de ubicar los elementos iniciales para comenzar con el proceso podemos salir del modo
+
+	de edición y seleccionar el objeto e ir ha al panel "Properties/Modifiers/Mirrow", debemos serciorarnos
+
+	de que ambas meshes, se tocan y no queda espacio entre ellas y que se fusionan a través, del modificador
+
+	"mirrow"
+
+
+
+------------------------------------------------------------------------------------------------
+
+Snap Surface:
+_____________
+
+
+
+	_ahora debemos activar las opciones de snap, de superficie para que así, la retopología que realizemos
+
+	se siña, al modelo base ó proxi, para esto, debemos hacer "click", en el icon de "Snap", en la barra inferior
+
+	del panel y, en el modo de snap, seleccionar la opción de "Face", luego en la misma barra inferior de opciones
+
+	devemos activar las opciones de "Snap Onto Itselft ", y "Proyect Individual Elements on the Surface the other 
+
+	Objects", ahora sólo nos falta ir a la vista axonométrica de la cara del modelo que vamos ha retopologizar, ej:
+
+	"From/ortho", "1/path", para que podamos proyectar la geometría base sobre la mesh motive, proxi, para eso
+
+	tenemos que seleccionar un "vertex", y con este seleccionado lo movemos un poco "Transforma/G, and drag", para
+
+	que así, entre en acción el snap, y proyecte este vextex, sobre la superficie proxi, de esta manera, debemos
+
+	repetir este proceso en todos los vertex, de la geometría inicial, para así, comenzar el proceso de forma
+
+	correcta y auto ajustada, esta opción aplica para ambos método de geometría base explicados anteriormente
+
+
+------------------------------------------------------------------------------------------------
+
+Re-Topology Workflow:
+_____________________
+
+
+
+	_para continuar con el proceso de retopología, tenemos varias opcioens de workflow, estas son:
+
+
+	_podemos ir extruyendo los vertex, con "E", and "dra", hasta una nueva posición, así, podremos
+
+	repetir este paso formando trayectorias seguiendo la topología del objecto proxi, así, haremos
+
+	líneas cntínuas de "Vertex/Edges"
+
+
+	_luego, podemos repetir este proceso haciendo trayectorias de líneas de "Vertex/Edges", paralelas
+
+	a la creada anteriormente
+
+
+	_luego para unir las trayectorias de vertex/edges, creadas paralelamente podemos ir haciendo 
+
+	selecciones de cuatro/4, vertex, y haciendo "Make Edge-Faces". ó "F", para ir formando "Polygons", 
+
+	a partir de los vertex, ya existentes creados por nosotros en la trayectorias de vertex/edges, 
+
+	paralelas
+
+
+	_otra opción es de trabajar con "una" trayectoria de vertex/edges, creada es seleccionar los vertex,
+
+	de los cuales esta se componen y extruirlos "E", hacia la dirección de una trayectoria de vertex/edges,
+
+	paralela posible, para así, convertir las trayectorias de vertex/edges, a polýgons, de forma inmediada
+
+	y con mejor esfuerzo ó "pasos" (esta es la opción más recomendada)
+
+
+
+------------------------------------------------------------------------------------------------
+
+Visualización:
+______________
+
+
+
+	_para una mejor visualización podemos agregar materiales a los elementos, tanto a la mesh/poxi, como
+
+	a la mesh, retopology, así, podremos agregarle la propiedad de "Transparency", al material del elemento
+
+	proxi, para que así, esta sea un poco transparence, para esto debemos hacer lo siguiente:
+
+
+		_seleccionar la mesh/proxi, y con esta selecciona ir ha "Properties/Object/", y allí, activar
+
+		la opción de "Transparency", así, esta opción del material estará disponible para ser activable
+
+
+		_luego vamos ha "Properties/Material/", y activamos la sección de "Transparency", leugo en 
+
+		transparency, seleccionamos 
+
+
+			_"Z Transparency"
+
+
+			_Apha: colocamos un velor inferior a "1"
+
+
+		_luego, aún con el elemento proxi, seleccionado vamos ha el panel de opciones derecho "N",
+
+		y vamos a las opciones de "Shading", y allí, debemos elegir las opciones siguientes:
+
+
+			_mode: (podemos elegir cualquiera de la 2/dos)
+
+
+				_Multitexture
+
+
+				_GLSL
+
+
+			_Backface Culling:
+
+
+				_de las opciones de "shading", elegimos sólo esta opción, (dejamos las demás
+
+				deseleccionadas)
+
+
+------------------------------------------------------------------------------------------------
+
+Review Result:
+______________
+
+
+
+	_para visualizar como nos esta quedando la reropología ó la geometría resultante podemos hacer uso
+
+	de las opciones de ocultar y mostrar elementos en le vieport, para esto hacemos lo siguiente
+
+
+		_en modo objecto ó "Object Mode", y con la mesh, correspondiente a la retopología resultante
+
+		seleccionada vamos ha "Object/Show-Hiden/Hiden UnSeleted", ó "Shift + H", así, podremos ver
+
+		la geometría resultante de forma aisla de la demás geometría permitiéndonos ver las 
+
+		imperfecciones y demás elementos lo cuál, nos permite hacer ajuste de última hora, otros
+
+
+		_y para hacer visible nuevamente la mesh, proxi. previamente ocultada devemos hacer lo siguiente
+
+		"Object/Show-Hiden/Show Hiden", ó "Alt + H" 
+
+
+

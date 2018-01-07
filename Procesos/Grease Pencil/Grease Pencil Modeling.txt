@@ -1,0 +1,87 @@
+
+
+Grease Pencil
+
+
+
+	Tutorial:
+
+		Grease Pencil en Blender 2.73
+			https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+		Sesión 2: IHMAN 3D School Scultp personaje con Blender
+			https://www.youtube.com/watch?v=YGGqPL3-xMI
+				_ir ha minuto 54
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Teniendo activado y creado Crease Pencil:
+_________________________________________
+
+
+
+
+	-----------------------------------------------------------------------------------------------------
+
+	Grease Cut:
+	___________
+
+
+	_tenemos la posibilidad de hacer extracciones a través, de la herramienta de "Grease Pencil"
+
+
+	_para esto, podremos hacer es enmarcados el área deseada a través, del modo de creación "Edge Loops", 
+
+	de la herramienta grease pencil, para esto:
+
+
+	NOTE:	es altamenta aconsejable hacer este "enmarcado", con la herramienta Greaase Pencil, en una vista
+
+		axonométrica como puede ser la vista "Top,Left,Right..."
+
+
+		_hacemos una selección de extracción a través, del shortcut: 
+
+		"Control + D, sostenido and Mouse Right Click and Drag", y, a contuniación hacemos
+
+		"Mouse Left Click", hasta completar la sección de edge loops, deseada
+
+
+	_a continuación de haber creado el área "enmarcada", con le herramienta Grease Pencil, debemos coloca
+
+	la vista ó una cámara axonométrica donde la geometría ha extraer, este seleccionada y esté sobre el
+
+	trazado Grease Pencil, creado para el enmarcado
+
+
+		_ej: por lo general si generamos el enmarcado con la herramienta Grease Pencil, en la vista 
+
+		"Left", ahora para la proyección debemos colocar la vista "Right"
+
+
+
+	_luego de haber generado el enmarcado con la herramienta Grease Pencil, y de haber colocado la vista
+
+	axonométrica correcta vamos al "Menú Left/Sculpt/", y aplicamos "Grease Cut", shortcut: "T"
+
+
+	_ó también, podemos hacerlo a través, de su shortcut: "Control + Shift + B", y seleccionamos la opción
+
+	de "Grease Cut"
+
+
+	_de esta manera se generará en el explorer un nuevo objecto el cuál, representará el área extraida
+
+	la cuál, fue el área enmarcada con la herramienta Grease Pencil
+
+
+	-----------------------------------------------------------------------------------------------------
+
+
+

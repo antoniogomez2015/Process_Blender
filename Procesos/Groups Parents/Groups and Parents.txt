@@ -1,0 +1,135 @@
+
+
+
+
+	Agrupar objetos en Blender
+
+		https://www.youtube.com/watch?v=K_tbXxUwjrA
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Layer:
+	______
+
+	_una de las opciones para agrupar elementos en blender y poder seleccionar u ocualtar éstos de para los 
+
+	diferentes tipos de procesos como modelado y animación, otros, forma rápica y práctica es a través, de layers
+
+
+	_y para hacer uso del grupo respectivo debemos de seleccionar al menos uno de los elementos parte del grupo en
+
+	el viewport 3d, ó en el outliner
+
+
+	_para posteriormente estando en "Object Mode", ir a las opciones de "Select/Grouperd", shortcut, "Shift + G",
+
+	y seleccionando la opción de "Layer", para que así, se seleccionen todos los elementos dentro de esa respectiva
+
+	layer
+
+
+	NOTA: así, como también, disponemos del menú contextual de "F6"
+
+
+
+	Parent:
+	_______
+
+	_la opción de parent, no permitirá relacionar elmeento lo cuál, en determiando casos traerá ventajas y en otros
+
+	desventajas ya que ésta opción cambiará la estructura de los elementos dentro del outliner, y podría en 
+
+	determinados casos hacer que los elementos tengan movimientos indeseados ó colaterales
+
+
+	_para lo cuál debemos primero seleccionar todos los elementos será hijos de un elemento padre, para posteriormente
+
+	y por último seleccionar el elementos que hará de padre ó de elemento contenedor de los demás elementos elementos
+
+	seleccionados previamente
+
+
+	NOTA: también, podríamos crear un elemento extra como un elemento de tipo "Emty", ó vacio en el cuál, emparentar
+
+	los demás elementos lo cuál, nos pemritirá poder ubicar previamente el lugar donde se colocará éste elemento y 
+
+	donde éste tendrá su punto de anclaje para todo el grupo de elementos emparentados ha éste lo cuál, trae una 
+
+	ventaja
+
+
+	_para posteriormente hacer "Set Parent To", shortcut, "Control + P", y seleccionaremos la opción de "Object", para
+
+	que así, todos los elementos seleccionados queden superditados a las acciones transformación del último elemento
+
+	seleccionado ó elemento padre
+
+
+	_y para romper relaciones entre elementos padres e hijos, shortcut, "Alt + P/Clear Parent"
+
+
+	
+	Groups:
+	_______
+
+	_la opción de grupos, nos permitirá agrupar elementos más ésta opción no implica ninguna modificación ó alteración
+
+	en el panel outliner, ni en la relación entre los elemementos existentes lo cuál, es la opción más recomendada
+
+
+	_y aunado a lo anterior los grupos nos permiten la rápida incorporación de éstos dentro de otros documentos de
+
+	blendee, sea a través, de las opciones de "Append", ó "Link", importando grupos enteros y no elementos sueltos
+
+	de entre escenas y escenas lo cuál, es muy limitante y que los elementos no se intercambian correctamente con
+
+	todos sus materiales y configuraciones originales correctamente
+
+
+	_así, de ésta manera, para crear un nuevo grupo debemos de seleccionar primeramente los elementos los cuáles, 
+
+	deseamos que conformen el nuevo grupo
+
+
+	_para luego, con los respectivos elementos seleccionados y entando en "Object Mode",vamos ha 
+
+	"Object/Group/Create New Group", ó shortcut, "Control + G", para que así, se cree un nuevo grupo para que así,
+
+	a partir de ese preciso momento se abrá abierto una etiqueta en la parte inferior del panel "Viewport 3D/Tool",
+
+	llamado "Create New Tool", en el cuál, podremos indicar un nombre personalizado para nuevo grupo creado
+
+
+	_y para hacer uso del grupo respectivo debemos de seleccionar al menos uno de los elementos parte del grupo en
+
+	el viewport 3d, ó en el outliner, lo cuál, en éste caso será fácil ya que los elementos que se encuentran dentro
+
+	de grupos su contorno cambia de color en relación al respectivo grupo
+
+
+	_para posteriormente estando en "Object Mode", ir a las opciones de "Select/Grouperd", shortcut, "Shift + G",
+
+	y seleccionando la opción de "Group", para que así, se seleccionen todos los elementos dentro del respectivo
+
+	grupo
+
+	
+	NOTA: así, como también, disponemos del menú contextual de "F6"
+
+
+	_así, como también, nos podría salir una lista de grupo si los objetos respectivos son compartidos en diferentes
+
+	grupos creados previamente
+
+
+
+
+
+
+
+

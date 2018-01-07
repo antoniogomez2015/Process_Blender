@@ -1,0 +1,354 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Settings:
+	_________
+
+
+	Group Model:
+	____________
+
+	_lo más recomendado es crear un nuevo objecto en la escena de tipo empty, en el cuál, organizaremos los
+
+	elementos que conforman el character
+
+
+	_como por ejemplo, el armature, el agrupamiento de proxi handles, y la mesh, de retopología de referencia
+
+
+	_para que así, podamos seleccionar éste objeto de tipo empty, que hemos creado y con éste seleccionado 
+
+	aplicamos el shortcut, "Control + G", para crear un nuevo grupo
+
+
+	_para justo a continuación ir a las opciones del panel de herramientas del viewport 3d, shortcut, "T", y en 
+
+	éstas bajamos hasta la parte más abajo en la cuál, entraremos las opciones del grupo que hemos creado 
+
+
+	_en la cuál, podremos indicar un nombre personalizado para nuevo grupo creado el cuál, podremos renombrar 
+
+	ejemplo: "Character Pro"
+
+
+	_de ésta manera, podremos hacer "Appedn", ó "Link", en otro proyecto y así, poder importar éste sistema 
+
+	para su uso práctivo y rápido de forma pre cargada
+
+
+
+	Groups Bones:
+	_____________
+
+
+	Bone General Group:
+
+	_así, como también, es recomendable crear un group, de bones, de todos los handles del character, para que
+
+	así, podamos acceder rápidamente ha todos los handles, ó controles del character, para que así, a paritr de
+
+	éste grupo general ó principal
+
+
+	_podamos por ejemplo crear un character set, así, como también, crear keyframes directos a través, de una
+
+	selección múltiple de todos los handles, dentro de éste grupo maestro
+
+
+	_para lo cuál, debemos primeramente seleccionar el objeto de tipo armature, para posteriormente entrar en 
+
+	el "Pose Mode"
+
+
+	_para posteriormente proceder ha seleccionar todos los bones, que hacen de handles, personalizados ó rig, 
+
+	del respectivo motivo ó character
+
+
+	_y con éste seleccionados tendremos dos opciones para la creación de grupos, las cuáles, son:
+
+
+		_vamos ha "Properties/data Object data/Bone Groups", para que allí, le demos ha la opción de "+", 
+
+		para que así, un nuevo gurpo sea agreado ha dicho panel ó sección el cuál, podremos renombrar ej, 
+
+		"Character Handles"
+
+
+		_más otra manera, más práctica sería a través, del shortcut, "Control + G", la cuál, creará un grupo
+
+		de bones, ó handles automático el cuál, podremos renombra abriendo el panel de "tools", del panel
+
+		viewport, shortcut, "T", en el cuál, en la parte inferior de éste podemos encontrar las opciones
+
+		de grupo que hemos creado de bones, ó handles, en la cuál, podremos renombrar éste con un nombre
+
+		descriptivo
+
+
+		_como también, podremos acceder ha éstas opciones a través, de su menú contextual a través, del 
+
+		shortcut, "F6"
+
+
+	_para porteriormente aún con los handles, respectivos seleccionados debemos darle a la opción de "Assign",
+
+	en las opciones del panel "Bone Groups"
+
+
+	_para que así, los respectivos bones, ó handles, queden relacionado con el nuevo grupo que hemos creado y
+
+	renombrado
+
+
+	_para que así, posteriormente podamos acceder ha éstos handles, de forma práctiva y de inmediada a través,
+
+	de dos métodos los cuáles son:
+
+
+		_el primer método es abriendo el panel contextual de "Selecte Grouped", a través, del shortcut,
+
+		"Shift +G", para que así, nos aparezca el panel de slected grouped, en el cuál, debemos seleccionar
+
+		la opción de "Group", para que así, todos los handles, partes del grupo sean seleccionados
+
+
+		_y como segundo método podremos a "Properties/Data Object Data/Bone Groups", en el cuál, podremos
+
+		darle a la opción de "Select", para que así, todos los handles, partes del grupo sean seleccionados
+
+
+
+	Hand Group:
+
+	_así, como también, es conveniente crear grupos de bones, ó handles, de sub-sistemas complejos dentro de la
+
+	estructura de un motivo ó character
+
+
+	_como por ejemplo, podríamos crear un grupo de huesos para cada mano del character, para que así, podamos 
+
+	seleccionar rápidamente la estructura de los dedos y metacarpo de forma rápida y práctica
+
+
+	_para lo cuál, con los respectivos bones, seleccionados aplicamos el shortcut, "Control + G", y "F6", para
+
+	crear así, y renombrar dichos grupos los cuáles, utilizaremos posteriormente
+
+
+
+
+
+
+	Poses:
+	______
+
+
+	Full Pose Base:
+
+	_más luego de haber terminado de crear todo el sistema de armature, rig, y handles, personalizados así,
+	
+	como los respectivos emparentamientos y constraints
+
+
+	_también, es recomendable crearle al character, y sistema en general una pose base en la librería de 
+
+	poses
+
+
+	_para que así, éste conserve siempre la posibilidad de volver a la posición base original en el proceso de
+
+	animación posterior
+
+
+
+
+	Hands Left/Right Base:
+
+	_así, como tmabién, es recomendable crearle poses ó sub-poses sólo a las manos del character, en éste caso
+
+	a través, de los grupos que previamente hemos creado de todos los handles, ó bones, de las manos
+
+
+	_para que así, podamos en el proceso de la animación resetear la posición de sólo las manos lo cuál, 
+
+	agilizará en gran manera, todo el proceso de animación
+
+
+	_para lo cuál, debemos debemos de ir ha "Properties/Data Object Data/Bone Group", y allí, seleccionar el
+
+	respectivo grupo de la mano
+
+
+	_para a continuación con el grupo respectivo seleccionado darle a la opción de "Select", ó shortcut, 
+
+	"Shift + G/Grouped"
+
+
+	_para que así, todos los bones, ó handles, de la mano respectiva sean seleccionados para que así, a 
+
+	continuación podamos ir ha "Properties/data Object Data/Pose Library", y darle ha "+" 
+
+
+	_para que así, una nueva pose sea agregada al panel a partir de los bones, ó handles, seleccionados y a su
+
+	vez, a la posición que tienen éstos actualmente
+
+
+	_ó a través, del shortcut, "Shift + L", para crear una nuevo pose de una selección para posteriormente
+
+	renombrar ésta shortcut, "Control + Shift + L", la cuál, podremos renombrar con un nombre descriptivo
+
+
+
+
+	Keying Sets:
+	____________
+
+	_así, como también, para un mejor manejo a la hora de animación, es recomendable crearle al sistema su 
+
+	propio keyset, el cuál, contendrá todo los handles, y demás elementos animables del character
+
+
+	_lo cuál, aligerará la visualización en los diferentes páneles de animación así, como también, para el
+
+	sistema
+
+
+	_ya que así, éste tendrá menos controles que animar y tomar en cuenta los cuáles, son redundantes
+
+
+	_para lo cuál, debemos seleccionar el armature, y con éste selecciondo ir a las opciones de
+
+	"Properties/Scene Scene/Keying Sets", y en éstas darle al "+"
+
+
+	_para que así, se genere un nuevo grupo de keyset, el cuál, podremos renombrar ej; "Character Set", el cuál,
+
+	quedará seleccionado para el sistema para posteriormente personalizar con los handles, del character
+
+
+	_para luego seleccionar uno de los handles, del character/armature, en "Pose Mode", y con éste seleccionado
+
+	ir a las propiedades del panel viewport 3d, shortcut, "N", específicamente a las opciones de 
+
+	"Transform/Location"
+
+
+	_y en éstas hacer "Mouse Right Click", y seleccionar la opción en el menú contual de "Add All to Keyset",
+
+	para que así, todas las propiedades de "Transform", de ese handle, en específico se agreguen al sistema de
+
+	keyset, seleccionado y creado por nosotros
+
+
+	_de ésta manera, podremos repetir éstas acciones para el resto de handles, que conforman el character, para
+
+	que así, ahora al animar éste se animarán sólo los handles, del character, y no todos sus huesos
+
+	
+	_más si adicionalmente deseamos agregar sólo uno ó varios atributos de una propiedad podremos hacerlo 
+
+	posándonos en éste y aplicando el shortcut, "K"
+
+
+
+
+	
+	Character Set:
+	______________
+
+
+	Embeb:
+
+	_al exportar un character, ó motivo por medio los "Groups", podremos importar éstos dentro de otro proyecto
+
+	por medio de los métodos de "Append", y "Link"
+
+
+	_de ésta manera, podremos importar un character, ó motivo con todas sus meshes, rigging, poses,  
+
+	bone groups y demás elementos relacionados
+
+
+	_más las opciones de "Keying Set", que hayamos creado de forma personalizado en el proyecto base u original
+
+	no será importado dentro del proceso de append, ó link
+
+
+	_de ésta manera, tendremos que exportar éste de forma independiente como un archivo a parte del proyecto de
+
+	blender
+
+
+	
+	Export:
+
+	_de ésta manera, tendremos que exportar el keying Set, que hemos creado de forma personalizada con todos los
+
+	handles, de animación para el respectivo character, el cuál, utilizaremos cuando utilizemos el character,
+
+	posteriormente
+
+
+	_así, tendremos que ir ha "Properties/Scene Scene/Keying Set/", en la cuál, debemos de ubicar las opciones 
+
+	de "Export to File"
+
+
+	_para que así, se nos abra el explorador de blender en el cuál, podremos indicar la ruta de exportación del
+
+	archivo de tipo "python", con extensión de archivo ".py"
+
+
+
+	
+	Import:
+
+	_para a continuación cuando hayamos importado el character, dentro de otro proyecto sea a través, del método
+
+	append, ó link
+
+
+	_debemos de importar el archivo que hemos exportado de tipo ".py", el cuál, contiene la información del 
+	
+	"Keying Set", que hemos creado y personalizado de todos los handles, del character, en el proyecto original
+
+
+	_para lo cuál, primeramente debemos de abrir el panel de "Text Editor", shortcut, "Shift + F11", y en éste
+
+	debemos ir a la barra inferior hasta las opciones de "Open"
+
+
+	_a través, de la cuál, podremos de acceder al explorador de blender, en el cuál, podremos ubicar el archivo
+
+	de tipo ".py", que hemos exportado previamente para abrir éste en el panel "Text Editor"
+
+
+	_para a continuación darle a la opción de "Run Script", para que así, el script, se ejecute y por ende el
+
+	"Keying Set", del character, original sea cargado en ésta escena
+
+
+	_para que así, éste esté disponible como keying set, de animación para el respectivo character
+
+
+
+
+
+

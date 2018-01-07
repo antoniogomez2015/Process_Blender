@@ -1,0 +1,106 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Parent System:
+______________
+
+
+
+	_tenemos la posibilidad directa de emparentar elementos esta es la opción más práctica la cuál,
+
+	prescinde del proceso del skeleton and rigging
+
+
+	_disponemos de un menú contextual "Set Parent To", con las opciones de emparentamiento a través, 
+
+	del shortcut "Control + P"
+
+
+	_así, primero seleccionamos el elemento que será el padre y, luego seleccionamos el ó los elementos
+
+	que serán hijos ó emparentados, (en el Object Mode), luego hacemos "Control + p"  y seleccionamos
+
+	la opción de "Set Parent To/Object"
+
+
+	_así podremos ver que en el explorer el elemento padre contiene dentro de sí los elementos hijos
+
+		
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Emparentamiento y Workflow Bone:
+________________________________
+
+
+
+	Parent:
+	_______
+
+
+	_en "Edit Mode", debemos seleccionar los elementos bones, que serán hijos y luego seleccionar al 
+
+	elemento bone, que será el padre
+
+
+	_luego abrimos el menú de emparentamiento, shortcut "Control P", y seleccionamos la opción de:
+
+
+
+		_Connected:
+
+			_esta opción emparenta los bones más los une haciéndolos contiguos, esta opción
+
+			es especialmente útil para continuar cadenas ó chains
+
+
+		_Keep OffSet:
+
+			_esta opción emparenta los bones, respetando sus distancias y ubicaciones equidistantes
+
+			entre ambos bones, esta opción es la más recomendada para diferentes procesos
+
+
+
+	Un-Parent:
+	__________
+
+
+	_en "Edit Mode", podemos seleccionar bones, y desparentar sus relaciones entre éstos para diferentes
+
+	procesos
+
+
+	_así, seleccionamos los bones, ha desparentar y aplicamos el shortcut "Alt + P", así, dispondremos de
+
+	las siguientes opciones:
+
+
+
+		_Clear Parent:
+
+			_esta opción permite desvincular y desparentar los bones, esta opción es la más recomendada
+
+			y usada para diferentes procesos
+
+
+		_Disconnect Bones:
+
+			_esta opción  desparenta pero no desvincula los bones, esta opción es útil para ciertos procesos
+
+			en los renecitamos el emparentamiento relativo
+

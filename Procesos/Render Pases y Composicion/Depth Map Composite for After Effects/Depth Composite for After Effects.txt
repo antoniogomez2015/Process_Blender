@@ -1,0 +1,112 @@
+
+
+
+
+	Depth Pass
+
+
+
+		Blender Tutorial: How to Render a Z pass in Blender for After Effects
+
+			https://www.youtube.com/watch?v=Zd9xzPKMIWE
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Depth Map Composite for After Effects: 
+	______________________________________
+
+	_de ésta manera, podremos componer los pases que hemos renderizado directamente en blender para lo cuál, podremos
+
+	posarnos sobre el panel viewer 3d, y cargar en éste panel el panel "Node Editor", shortcut, "Shift F3"
+
+
+	_para a continuación ir a las opciones del panel node editor, en la parte inferior de éste, y cambiar a las opciones 
+
+	de tipo de nodos a trabajar por "Compositing", para que así, estén disponibles los nodos de tipo composición
+
+
+	_de ésta manera, en el panel node editor, debemos de cargar el archivo multi-pass, que hemos renderizado previamente
+
+	para lo cuál, debemos de agregar los siguientes nodos:
+
+
+		_Shift + a/Add/Input/Multiple Images/
+
+			_para que así, el sistema agrege un nodo con rende multipass, que hemos creado previamente
+
+
+		_Shift + a/Add/Output/Viewer
+
+			_podamos ver éste pase de forma independiente directamente ó la composición generada en fondo y 
+
+			a tamaño completo del panel node editor, para lo cuál, debemos ir a la parte inferior de éste panel 
+
+			y activar la opción de 	"Backdrop"
+
+
+			_en ocaciones será necesario hacer doble click, sobre el nodo de viewer, para que así, éste muestre
+
+			el pase que tiene relacionada en el fondo del panel node editor
+
+
+		_Shift + a/Add/Vector/Normalizer/
+
+			_para que así, podamos relacionar una de las salidas de pase  "Mis", ha éste nodo "Normalize", para 
+
+			que así, niveles ó pre ecualizar éste mapa previamente
+
+
+		_Shift + a/Add/Color/Invert/
+
+			_en algunos casos será necesario inveritr el mapa de depth, ó profundidad de ésta manera, tenemos 
+
+			ésta opción de forma alternativa cuando requiramos invertir el sentido u orientación del mapa depth
+
+
+
+		_Shift + a/Add/Converter/ColorRamp/
+
+
+			_también, podremos pasar el pase depth, por éste rampa de valores para que así, ajustar ó graduar
+
+			la gamma ó rango dinámico en relación a la compresión ó expansión de valores que desiemos de ésta
+
+			manera, podremos controlar el mapa resultante e nuestras necesidades
+
+
+		_Shift + a/Add/Output/FileOutput
+
+
+			_de ésta manera, podremos relacionar el último node "ColorRamp", al nodo "FileOutput", para 
+
+			a continuación seleccionar una ruta de salida en nodo FileOutput, donde será guardado el render
+
+			resultante del proceso de composición
+
+
+			_para que así, posamos volver ha lanzar el render sea yendo a las opciones del panel "render", 
+
+			ó a través, del shortcut, "F12", para que así, podamos guardar el respectivo archivo generado 
+
+			del depth, generado
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

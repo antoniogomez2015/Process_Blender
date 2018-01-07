@@ -1,0 +1,237 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	movie Clip Editor | Automatic Tracking Tracks Points:
+	_____________________________________________________
+
+
+
+	Generales:
+	__________
+
+	_más también, tendremos la posibilidad de crear todo el proceso de track, de forma automática y ponderada para que así, el
+
+	sistema agrege la cantidad de track points, que el considere para que así, el sistema pondere las áreas más exactas rastreadas
+
+	con las áreas menos exactas en relación a la cantidad de tracks points creados
+
+
+	_ésta opción es útil cuando no requerimos unas posiciones concretas para los track points, para ningún proceso de producción
+
+	específico
+
+
+	_de ésta manera, podremos utilizar ésta opcíon para la mayoría de procesos ha nivel general ya que el sistema creará una gran
+
+	cantidad de track point, los cuáles, cubrirán la mayoría de requerimientos generales para los distintos procsos posibles ha
+
+	realizar
+
+
+	NOTA: la ventaja de éste proceso es que no requeriremos estar rectificando cada track point, cuando éste pierda el área de 
+
+	referencia ha rastrear ya el sistema hará un ponderación de los tracks points, que hayan tenido más éxito así, como también,
+
+	nosotros podremos refinamiento ó descarte de ésta búsqueda y criterio pudiendo descartar así, los tracks points, menos certeros
+
+
+
+
+	Detect Features:
+	________________
+
+	_de ésta manera, para agregar múltiples tracks points, de forma automática y determinada por el sistema debemos de ir a las
+
+	opciones de "Detect Features", yendo ha 
+
+
+		_Movie Clip Editor/Tool (T)/Marker/Detect Features
+
+
+	_para que así, el sistema agrege una gran cantidad de tracks points, en relación a la complejidad de la imágen, secuencia ó
+
+	clip, respectivamente
+
+
+	_una vez creado los multi tracks points, los cuáles se crearán todos pre seleccionados para que así, podamos re escalarlos en
+
+	relación al tamaño y complejidad de la imágen
+
+
+
+
+	Tracking:
+	_________
+
+	_una vez creado todos los multi tracks points, a través, del proceso anterior podremos realizar el proceso de rastreo 
+
+	normalmente
+
+
+	_para lo cuál, debemos de ubicar el cabezal del timeline, en un punto determinado como el inicial para que así, podamos aplicar
+
+	los shortcut, convencinales para el proceso de trackeo
+
+
+		_Tracking Forwad: 
+
+			_Control + T
+
+
+		_Tracking Backward:
+
+			_Shift + Control + T
+
+
+		_Clear Track Path:
+
+			_Shift + Alt + T
+
+
+		_Clear Before:
+
+			_Shift + T
+
+
+		_Clear After:
+
+			_Alt + T
+
+
+
+
+	Movie Clip Editor/Graph Editor:
+	_______________________________
+
+
+		Activar Graph Editor:
+		_____________________
+
+		_para activar el modo de visualización del graph editor en el panel "Movie Clip Editor", debemos ir a las opciones
+
+		de la parte de abajo del panel "Movie Clip Editor", y allí, darle a la opción de "Graph", para que así, pasemos al
+
+		modo de visualización de gráficos del proceso de trackeo deseado
+
+
+		_en la mayoría de casos lo más recomendado es crear otro panel de "Movie Clip Editor", y éste si colocarlo en el modo
+
+		de visualización de gráficos
+
+
+		_para que así, consevemos el panel "Movie Clip Editor", original en el modo de visualización de "Clips", y podamos así,
+
+		seguir viendo la visualización del clip, trackeado y poder hacer correcciones e interpretaciones del resultado
+
+
+
+
+		Lectura e Interpretación:
+		_________________________
+
+		_luego de haber terminado el proceso de trackeo automatizado de todos los tracks points, generados por ele sistema 
+
+		tendremos la posibilidad de ver un gráfico ó espectro del umbral de los tracks points, que han tenido más ó menos 
+
+		éxito
+
+
+		_donde podremos ver un gráfico el cuál, a través, de ondas y picos nos mostrará a través, de dos colores lo preciso 
+
+		ó exacto de cada track point
+
+
+		_de ésta manera, éste gráfico nos mostrará los tracks points, que han tenido más éxito ó que han sido más precisos 
+
+		de color "verde", los cuáles, a su vez, permanecen más cerca del centro de la onda ó espectro
+
+
+		_más los tracks points, menos exactos ó precisos el sistema los representará de un color "rojo", los cuáles, a su vez, 
+
+		estarán representados ó proyectados más hacia las afueras de la onda ó espectro del gráfico, hacia la periferia de éste
+
+
+		_de ésta manera, podremos determinar que tracks points, deseamos eliminar directamente en ésta vista de gráfico lo cuál, 
+
+		ayudará al criterio de ponderación del sistema
+
+
+
+		
+		Edición:
+		________
+
+		_de ésta manera, una vez hemos interpretado el gráfico y ya sabemos que elementos ó tracks points, deseamos eliminar
+
+		en relación a laprecisión deseada
+
+
+		_entonces es hora de seleccionar los tracks points, directamente en el gráfico para lo cuál, lo más recomendado es
+
+		seleccionar todos los tracks points, primero para saber la ubicación real de los nodos ó picos de éstos en el gráfico
+
+
+		_para lo cuál, podremos utilizar el shortcut, "A/A", para que así, todos los keyframes, generados por ele sistema se
+
+		muestren en el gráfico como un "Doc", el cuál, podremos editar ó eliminar posteriormente
+
+
+			_hay que seleccionar previamente todos los tracks points, por que el sistema nos muestra en el gráfico no sólo
+
+			los keyframes, de cada tracks points, si no que también, nos muestran la evolución y tendencia de los tracks points,
+
+			a través, del tiempo y ésta representación éxtra no es seleccionable más si puede confundirse con los keyframes,
+
+			reales
+
+
+		_para que así, posteriormente podamos seleccionar los tracks points, uno por uno ó varios a la vez, para que así, podamos
+
+		editar éstos
+
+
+			_Editar Track Point:
+
+				_con el track point, seleccionado aplicamos el shortcut, "G + mouse Drag"
+
+
+			_Borrar Track Point:
+
+				_con el track point, seleccionado aplicamos el shortcut, ó keyboard "Delete"
+
+
+
+
+
+	Error Calcule:
+	______________
+
+	_luego de haber terminado el proceso de tracking, automático a través, de todos los tracks points, que ha agregado el ssitema
+
+	de forma automática
+
+
+
+
+
+

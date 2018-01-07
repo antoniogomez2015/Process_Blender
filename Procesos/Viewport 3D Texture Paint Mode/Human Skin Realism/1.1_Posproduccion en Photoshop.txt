@@ -1,0 +1,215 @@
+
+
+
+	Blender: material piel humana 3: el mapa de textura parte 1
+
+		https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+	Creating Skin Texture
+
+		https://www.youtube.com/watch?v=GUqO2ZQVDp4
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	5_Posproducción en Photoshop:
+	_____________________________
+
+	_de ésta mnaera, procedemos ha abrir el mapa "Diffuse Mix.png", que hemos generado blender, a partir del proceso
+
+	de volcado entre los mapa "Diffuse Color", y "Diffuse Detail"
+
+
+	
+	Pores Skin:
+	___________
+
+	_para lo cuál, lo más recomendado es crear un sistema de poros y detalles en Photoshop, a través, de un objeto
+
+	inteligente sobre cuál, crearemos los efectos para que éstos sean siempre editables y no destructivos de forma
+
+	estándar para un tamaño de mapa determinado
+
+
+	_de ésta manera, podremos tener diferentes versiones de éste onjunto de efectos para las versiones de mapas tanto
+
+	en "2K", "4K", "6k", y "8K", por ejemplo
+
+
+	_así, de ésta manera, sólo será cuestión de aplicar cargar el mapa ha editar ha éste archivo ó proyecto Photoshop,
+
+	y hacer el ajuste de layers, y de los efectos del sistema de poros y detalles
+
+
+	_de ésta manera, vamos ha construir el sistema de efectos a través, de los siguientes pasos:
+
+
+
+	Smart Object:
+	
+	_primeramente crearemos un archivo con las dimensiones de 4k, shortcut, "Control + N"
+
+
+	_en el cuál, crearemos una nueva layer, shortcut, "Control + Shift + N", de color gris al 50%, y con la opacidad 
+
+	de un 50%, y con el modo de fusión "Normal"
+
+
+	_ésta layer, la debemos de convertir en un "Smart Objet", yendo al panel de layers, y haciendo 
+
+	"Mouse Right Click", sobre el nombre de ésta layer, para que así, se abra un menú contextual en el cuál, 
+
+	escogeremos la opción de "Convert to Smart Object"
+
+	
+	Effects:
+
+		1_de ésta manera, el primer efecto que agregaremos será el "Filter/Noise/Add Noise", el cuál, 
+
+		configuraremos con unos valores de:
+
+
+			_Amount:
+
+				_indicaremos una cantidad de "10"
+
+
+			_Distribution:
+
+				_indicaremos "Uniform"
+
+
+			_Monocrimatic:
+
+				_activaremos ésta opción
+
+
+
+		2_así, el segundo efecto que agregaremos al sistema será el "Filter/Blur/Gussian Blur", el cuál, 
+
+		configuraremos con unos valores de:
+
+
+			_Radius:
+
+				_indicaremos un radio de "1"
+
+
+
+		3_para luego, agregar el tercer effecto al sistema el cuál, será "Filter/Style/Emboss", el cuál, 
+
+		configuraremos con unos valores de:
+
+
+			_Angle:
+
+				_indicaremos un ángulo de "45"
+
+
+			_Height:
+
+				_indicaremos una altura de "6"
+
+
+			_Amount:
+
+				_indicaremos una cantidad de "60%" 
+
+
+
+
+	Mapeo de Textura:
+	_________________
+
+	_más también, tendremos la posibilidad de mapear éste patrón de poros de piel sobre nuestra textura ó mapa de
+
+	"Diffuse Mix", a través, de un efecto especial para ésto en Photoshop
+
+
+	NOTA: es más recomendable aplicar éste mapeo del mapa de "Pores", sobre el "Diffuse Color", y no sobre el
+
+	"Diffuse Detail",
+
+
+	_para lo cuál, debemos primeramente de cargar la textura "Diffuse Mix", dentro del mismo documento en éste caso
+
+	"Pores Skin.psd"
+
+
+	_para posteriormente diplicar la textura "Diffuse Mix", que hemos cargado en éste documento
+
+
+	_y con la textura duplicada ir ha "Filter/Texture/Texturize"
+
+
+	NOTA: para hacer que Photoshop, active todos los filtros y efectos, debemos de ir ha "Edit/Preferences/Plugins/",
+
+	y allí, le damos a la opción de "Show all Filter Gallery groups and names"
+
+
+	_para que así, al aplicar el efecto "Texturize", se nos abra un menú completo en Photoshop, en el cuál, podremos
+
+	configurar las texturas ha aplicar
+
+
+	_de ésta manera, buscaremos en la parte superior derecha el mini menú en la opción de "Textura", para cargar
+
+	así, la textura de de poros que hemos creado "Pores Skin 4K", en éste caso
+
+
+	_para posteriormente ajustar los valores siguientes:
+
+
+		_Scaling:
+
+			_éste indica tamaño ó reescalado de la textura ó mapa de poros
+
+
+		_Relief:
+
+			_éste indica la intensidad ó profundidad aplicada sobre la textura de destino
+
+
+		_Light:
+
+
+			_éste indica la dirección de la luz para la generación del efecto
+
+
+
+		_Invert:
+
+
+			_éste nos da la opción de invertir el sistema
+
+
+
+	_alternativamente podríamos aplicar el mapa de poros directamente sobre la textura de "Diffuse Mix", en el panel
+
+	Layers, de Photoshop, jugando con los modos de fusión y la opacidad, otros
+
+
+
+	Fusión:
+	_______
+
+	_para posteriormente cargar en éste mismo docuento de Photoshop, el texture map, AO Map, el cuál, lo fusionaremos
+
+	con la layer, "Diffuse Color, ó Mix", a través, del modo de fusión "Liminocity", y con una opacidad del "50%"
+
+
+	_para posteriormente guardar éste archivo reescribiendo al original el cuál, previamente debimos hacer una copia
+
+	de seguridad llamada por ejemplo "Diffuse Color save.png"
+
+
+	
+
+
+
+
+
+ 				

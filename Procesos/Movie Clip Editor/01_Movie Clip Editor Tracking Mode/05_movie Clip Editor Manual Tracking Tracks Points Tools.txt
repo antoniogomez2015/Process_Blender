@@ -1,0 +1,189 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Movie Clip Editor | Tracking Tracks Points Tools:
+	_________________________________________________
+
+
+
+	Track:
+	______
+
+
+		_Movie Clip Editor/Properies (N)/Track
+
+			_tenemos la posibildad de tener una visualización constante y aumentada el área en concreto rastreada para que
+
+			podamos tener una apreciación de si el área deseada a rastrear está en foco para que así, podamos hacer
+
+			correcciones y tener un apoyo gráfico y visual
+
+
+			_de ésta manera, podremos realizar una mejor supervisión en el proceso de rastreo ó trackeo, así, podremo tener
+
+			en panel propiedades del panel "Movie Clip Editor/Track", desplegado para que así, podamos tener visible ésta
+
+			opción de ayuda
+
+
+
+
+	Lock to Selection:
+	__________________
+
+
+		_Movie Clip Editor/Properies (N)/Display
+
+			_e incluso para llevar más allá las posibilidades de seguimiento y supervisión del proceso de rastre prodremos
+
+			hacer que la cámara ó foco del viewport, del panel "Movie Clip Editor", se centre sólo en el área ó point track,
+
+			seleccionado
+
+
+			_para que así, también, tengamos la visualización del área deseada directamente en el viewport, lo que nos 
+
+			permitirá visualizar el flujo y suavidad entre la interpolación entre keyframe, y keyframe, generado 
+
+
+			_así, como también, si el punto de rastreo ó trackeo perdiera su referencia y se desviara hacia otra área 
+
+			de referencia inesperada ó no deseada
+
+
+			_de ésta manera, en las opciones de "Display", debemos de activar la opción de 
+
+
+				_"Lock to Selection"
+
+
+
+
+	Search:
+	_______
+
+		_Movie Clip Editor/Properies (N)/Marker Display
+
+			_más también, tendremos la posibilidad de personalizar el área de busqueda para que así, podamos adaptar éste
+
+			ha nuestras necesidades y hacer de forma dinámica ó cambiante a través, del tiempo
+
+
+			_para lo cuál, debemos de seleccionar un punto de trackeo y con éste seleccionado ir a las opciones de
+
+			"Marker Display", y allí activar la opción de
+
+
+				_Search
+
+
+			_para que así, un recuadro perimetral sea creado sobre el tracker point, seleccionado de ésta manera, podremos
+
+			ahora ajustar el tamaño de éste y cambiar su posición y escala a través, del tiempo en relación a nuestras
+
+			necesidades
+
+
+
+	Tracking Point:
+	_______________
+
+
+		_Movie Clip Editor/Tools (T)/Track
+
+			_de ésta manera, una vez hayamos creado un ó más puntos de trackeo y haber configurado las tools, 
+
+			de visualización y ayuda y demás opciones podremos ahora comenzar con el proceso de trackeo para cada uno de 
+
+			éstos track point, respectivamente
+
+
+			_así, en las opciones de "Tool/Track", encontraremos un productor en el cuál, podremos avanzar hacia adelante
+
+			ó hacia atras en el proceso de trackeo en relación a nuestras necesidades
+
+
+
+				Frame Forward: (avanzar hacia adelante)
+
+					_Alt + Left Arrow Moderboard
+
+
+				_Frame Backward: (avanzar hacia atras)
+
+					_Alt + Right Arrow Moderboard
+
+
+				_Tracking Fordwar: (rastrear hacia adelante)
+
+					_Control + T
+
+
+				_Tracking Backward: (rastrear hacia atras)
+
+					_Shift + Control + T
+
+
+
+			_más también, tendremos otras opciones ó shortcuts, que nos ayudarán en el proceso de trackeo ó rastreo
+
+
+
+				_Clear Track Path: Shift + Alt + T
+
+					_ésta opción nos permitirá borrar todo el proceso de trackeo realizado sobre un punto de 
+
+					trackeo seleccionado
+
+
+
+				_Clear Before: Shift + T
+
+					_ésta opción nos permitirá elimiar el proceso de trackeo realizado sobre un punto de 
+
+					trackeo seleccionado en relación a la ubicación del cabezal del timeline, hacia atras ó hacia
+
+					el inicio de la secuencia ó clip, respectivo
+
+
+					_ésta opción es especialmente útil para cuando tenemos que rectificar un proceos de trackeo
+
+
+				_Clear After: Alt + T
+
+					_ésta opción nos permitirá elimiar el proceso de trackeo realizado sobre un punto de 
+
+					trackeo seleccionado en relación a la ubicación del cabezal del timeline, hacia adelante ó hacia
+
+					el final de la secuencia ó clip, respectivo
+
+
+					_ésta opción es especialmente útil para cuando tenemos que rectificar un proceos de trackeo
+
+
+
+
+
+
+
+

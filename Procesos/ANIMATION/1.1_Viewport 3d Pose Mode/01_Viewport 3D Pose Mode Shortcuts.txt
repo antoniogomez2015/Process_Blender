@@ -1,0 +1,44 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Viewport 3D Pose Mode Shortcuts:
+	________________________________
+
+
+		_Propagate Menú: Alt + P
+
+		_Select Grupped Menú: Shift + G
+
+		_Toggle Bone Options Menú: Shift + W
+
+		_Add IK Menú: Shift + I
+
+		_Pose Library Add Pose Menú: Shift + L
+
+		_Pose Library Rename Pose Menú: Control + Shift + L
+
+		_Pose Library Remove Pose Menú: Alt + L
+
+		_Brows Pose: Control + L (con el Armature Seleccionado y hacemos Mouse Scrooll para que así,
+
+		se apliquen todas las poses existentes sobre el character, para que así, podamos ver cuál, aplicar)
+
+
+		_Redraw Timer Menú: Control + Alt + T
+
+		_Specials Menú: W
+
+		_
+
+
+
+
+

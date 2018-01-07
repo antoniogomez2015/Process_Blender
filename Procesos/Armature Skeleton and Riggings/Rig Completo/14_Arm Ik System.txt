@@ -1,0 +1,59 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Arm Ik System:
+______________
+
+	_más posteriormente de haber creado la estructura de bones, correspondiente con el brazo ó 
+
+	"aerm/foream/hand/fingers"
+
+
+	_procederemos con la aplicación de los sistemas ik, a partir del forearm
+
+
+	
+	Ik ForeArm:
+	___________
+
+	_así, comenzaremos con el sistema ik, del ante brazo de ésta manera, seleccionaremos en éste caso al bone,
+
+	"L_radio", y procederemos ha aplicar un sistema ik, shortcut; "Control + Shift + C", y seleccionaremos la 
+
+	opción de "Kinematic Inverse"
+
+
+	_para posteriormente ir ha sus parámetros de configuración y en "Target", seleccionaremos "Armature", y en
+
+	bone, seleccionaremos el bone, que hará de handle, controlador del arm, en éste caso será el bone, 
+
+	"L_Handle_hand"
+
+
+	_y en las opciones de "Pole Target", seleccionaremos "Armature", y en "Bone", seleccionaremos la opción de 
+
+	"L_Handle_elbow"
+
+
+	_y en las opciones de "Chain Lenght", seleccionaremos "2"
+
+
+	_más si tenemos problemas de torción ó desface del ángulo de articulación contaremos con la opción de 
+
+	"Pole Angle", con la cuál, podremos variar el ángulo de la articulación
+
+
+
+

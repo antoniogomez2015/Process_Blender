@@ -1,0 +1,226 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Bake Bump Normal Map:
+_____________________
+
+
+	Seleccionar Textures Map: (Render Blender Mode)
+	_________________________
+
+	_más después de haber creado y guardado todos las texturas creadas previamente para todos los mapas utilizados en el
+
+	proceso, ahora debemos hacer un volcado de éstos al haber finalizado todos los procesos de edición y pintado de todos
+
+	los mapas para que así, éstos queden consolidados y fijados ha sus respectivas texturas
+
+
+	_de ésta manera, no basta con darle ha el panel "Texture Paint/Slots/" "Save All Images", para que las texturas editadas
+
+	sean guardadas si no que aparte hay que hacer un volcado de éstas para que así, podamos exportarlas correctamente
+
+
+
+	Bake Bump Normal:
+	_________________
+
+	_de ésta manera, primero tenemos que ir al panel "Texture Paint/Slots/Available Paint Slots/", y en la lista de mapas de
+
+	texturas dejar sólo activado ó chequeado el mapa de Bump Normal Map, del material de relieves, por lo general será 1
+
+
+	_para luego ir al panel de "UV/Texture Editor", y en éste crear una nueva textura "+ New", la cuál, guardaremos en disco
+
+	con el nombre de "Bump Map", por ejemplo
+
+
+	_para leugo ir a las opciones de "properties/render/bake", y allí, en las opciones de "Bake Mode", debemos seleccionar en
+
+	éste caso "Normal", más en éste caso es recomendable desactivar la opción de "Clear", la cuál, deja el fondo no utilizado
+
+	de la textura en modo transparente
+
+
+	_para luego ir al panel de "Object Mode", y seleccionar nuestro motivo y con éste seleccionado entrar en el modo de edición, 
+
+	shortcut; "Tab", ó tabulador
+
+
+	_para a continuación seleccionar todos los sub-elementos del character, shortcut; "A/A"
+
+
+	_y de ésta manera con todos los sub-elementos del character seleccionados, debemos serciorarnos que en el panel "UV/Image Editor",
+
+	está cargada la nueva imágen que creamos en la cuál, deseamos volcar la información del nuevo mapa de textura combinado ha generar 
+
+	para luego ir ha "properties/render/Bake", y hacer "Bake", para que así, el sistema haga un volcado de toda la información del 
+
+	mapa de textura "Normal" sobre el nuevo mapa de textura, generando así, un nuevo mapa de textura con el volcado de la información
+
+
+	_y para finalizar, debemos guardar los cambios del volcado sobre la nueva textura que hemos generado previamente para ésta textura
+
+	para ésto, vamos al panel uv/texture editor, y hacemos shortcut; "Alt + S", ó "image/save as image"
+
+
+
+
+	--------------------------------------------------------------------------------------------------------------------------
+
+
+	Bake Bump Normal MultiResolution Modifiar:
+	__________________________________________
+
+	_ésta es una de las opciones más práctivas ya que nos permite en un sólo paso hacer todo el proceso con los mejores
+
+	resultados
+
+
+	Low Poly:
+	_________
+
+	_primero debemos de tener creado nuestro motivo ó character, en baja resolución ó en low poly
+
+
+
+	UVs:
+	____
+
+	_así, como también éste motivo ó character, debe de tener aplicado el proceso de UV Map, creados previamente
+
+
+	
+	Sculpting:
+	__________
+
+	_para leugo aplicar el modificador "MultiResolution", sobre el motivo ó character, para que así, de ésta manera,
+
+	proceder con el proceso de escultura digital en la cuál, podremos ir aumentando detalle sobre el motivo mientras
+
+	que a su vez, vamos aumentando niveles de subdivisión en el modificador multiresolution
+
+
+	_así, como también, podremos agregar alto detalle bajo como piel y arrigas, otros, el proceso de matte projection, 
+
+	a través, de texturas en el modo de sculpting, en la máxima resolución posible en el modificador multiresolution
+
+
+	
+	Bake MultiResolution:
+	_____________________
+
+	_para que así, al terminar todo el proceso de escultura y de detalle sobre el motivo ó character, extrar todo ese
+
+	detalle volcándolo sobre una nueva textura a parte la cuál, podremos exportar para poder utilizarla posteriormente
+
+
+	_así, lo primero que tendremos que hacer es seleccionar el motivo ó character, en el viewport 3d, y entrar en su 
+
+	modo de edición, shortcut; "Tabulador", para luego seleccionar todos sus sub-elementos, shortcut; "A/A", y con todos
+
+	sus sub-elementos seleccionados vamos al panel "UVMap Editor", shortcut; "Shift + F10", éste lo podemos abrir el 
+
+	otro panel a parte; y ya en el panel UVMap Editor, debemos de crear una nueva textura con los sub-elementos del motivo
+
+	ó character, seleccioandos, de ésta manera, nos aparecerá, una ventana contextual en la cuál, podremos asignarle un
+
+	nombre y unas dimensiones en ancho y alto para lo cuál, es recomendable indicale un tamño mínimo de 2K, ha 4K, ya que
+
+	es en ésta textura donde será volcado el proceso de "normal map"
+
+
+	_y posteriormente lo que tendremos que hacer es seleccionar el motivo ó character, en el viewport 3d, para luego
+
+	ir ha "properties/modifier/", y allí, ubicar el modificados aplicado "Multiresolution"
+
+
+	_y en las opciones del modificador "multiresolution/preview", bajar su valor hasta "0", para que así, haya la mayor
+
+	diferencia entre el estado original del motivo y el estado de deformación por el modificador multiresolution
+
+
+	_de ésta manera, podremos ver que cuando colocamos la opción "multiresolution/preview", ha "0", el motivo ó character,
+
+	se verá muy "faceteado", lo cuál, se imprimirá también, como detalle sobre el mapa de normales generados lo cuál, no
+
+	es conveniente
+
+	
+	_así, para evitar ésto debemos seleccionar el motivo ó character, e ir al "viewport 3d/tools/shading/", y allí, aplicar
+
+	la opción de "Smooth", para que así, la maya, ó mesh, del motivo ó character, sea suavizada y así, no se vea "faceteada",
+
+	si no suavizada
+
+
+	_para leugo ya con la mesh, del character suavizada y con la opción del "Preview", del modificador Multiresolution en "0",
+
+	entonces ahora si prodremos ir a las opciones en "Properties/Render/Bake"
+
+
+	_y en las opcioens de "Properties/Render/Bake/Bake Mode", seleccioanr la opción de "Normals", y allí mismo deemos activar
+
+	las opciones de "Bake from Multires", y las opciones de "Clear"
+
+
+	_y por último para finalizar el proceso debemos darle al botón de "Bake", para que así, se realice el cálculo del mapa
+
+	ha exportar para que luego y automáticamente éste sea volcado a la textura que tiene asignada el motivo ó character la
+
+	cuál, creamos previamente
+
+
+	_y finalmente debemos guardar el mapa generado en el UVMap Editor, shortcut; "F3", así, debemos guardar éste mapa en nuestro
+
+	disco duro para utilizar posteriormente sobre el motivo ó character
+	
+
+
+
+	
+
+
+
+
+	
+	
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

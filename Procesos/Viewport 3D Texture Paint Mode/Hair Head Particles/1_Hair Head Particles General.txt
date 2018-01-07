@@ -1,0 +1,36 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+	Creating a Realistic Head in Blender -- part 09 -- Beard, Eyebrows, and Eyelashes
+		https://www.youtube.com/watch?v=zsyKhJ-BOJk
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_tenemos la posibilidad de crear cabello sobre nuestro motivo ó character, así, como barba y bello corporal sobre
+
+	todo el body, de éste
+
+
+	_de ésta manera, podremos complementar a una base del color del cuero cabelludo sobre una textura de uno de los
+
+	materiales "Diffuse Color"
+
+	
+	_para posteriormente sobre ésta sea a través, del mismo motivo ó de otra geometría con la forma de la parte 
+
+	superior de la cabeza a la cuál, iría por dentro del cráneo ó señido ha éste ha la cuál, le aplicaremos un 
+
+	sistema de partículas a través, del cuál, emularesmo el cabello muy corto en éste caso
+
+
+

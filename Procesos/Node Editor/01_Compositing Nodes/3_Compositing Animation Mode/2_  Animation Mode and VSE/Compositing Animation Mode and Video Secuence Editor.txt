@@ -1,0 +1,34 @@
+
+
+
+	
+	BLENDERSUSHI / AN Video Sequence Editor (VSE) Basic (LIVENODING057)
+
+		https://www.youtube.com/watch?v=l_HEYHSXjR4
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Node Editor Animation Mode and Video Secuence Editor:
+	_____________________________________________________
+
+	_Tenemos la posibilidad de integrar el Node Editor/Animation Mode (Add-ons), para potencializar el compositing, como el 
+
+	motion graphycs, entre otras posibilidades de producción
+
+
+	_de ésta manera, podremos potencializar las posibilidades del plugins, ó add-ons, "animation_nodes-master", con las 
+
+	capacidades y características del panel "Video Secuence Editor"
+
+
+	_de ésta manera, podremos llevar más las posibilidades del motion graphycs, y composición con el proceso del secuenciador
+
+	nativo de blender, y sus posibilidades, efectos y demás herramientas
+
+
+
+

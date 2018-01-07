@@ -1,0 +1,131 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+NOTE:	en este ejemplo haremos un desarrollo para controlar dos estados ó shape keys, a través,
+
+	de un slider persnalizado por nosotros
+
+------------------------------------------------------------------------------------------------
+
+
+
+Add Slider Control:
+___________________
+
+
+
+	_para extender las prestaciones y características de los elementos disponemos de la posibilidad
+
+	de sliders controls, para hacer transiciones entre estados ó propiedades de forma gradual
+
+
+	------------------------------------------------------------------------------------------------
+
+
+	Slider:
+	_______
+
+
+	_primero debemos construir la forma de slider control, deseado a través, de diferentes elementos
+
+	como curve bezier, splines, y elementos empty, un slider, por lo general se compone de las 
+
+	siguientes partes:
+
+
+		_un punto de marcado inicial
+
+		_un punto de marcado final
+
+		_un slider, ó línea de desplazamiento marcada ó determinada
+
+		_y un handle, ó cabezal el cuál, hará el desplazamiento sobre el slider
+
+
+	_estos elemento debemos colocarlo según la lógica del slider, también
+
+
+	_es aconsejable agrupar estos elemento emparentados dentro otro elemento empty, que así, no 
+
+	congestionen el explirer, y sea más fácil su manejo, otros
+
+
+
+	------------------------------------------------------------------------------------------------
+
+
+	Shape Keys:
+	___________
+
+
+	_ahora seleccionamos el character, en "Object Mode", y vamos a las opcioens de "Object Data/Shape Keys/",
+
+	y seleccionamos el shape keys, que hemos creado y modificado, en este caso "Smile", y vamos a su 
+
+	atributo "Value", éste lo colocamos en el valor de "Cero/0", y hacemos "Mouse Right Click/", sobre 
+
+	éste y seleccionamos la opción de "Add Drivers"
+
+
+
+	------------------------------------------------------------------------------------------------
+
+
+	Graph Editor:
+	_____________
+
+
+	_ahora procedemos ha abrir el panel "Graph Editor"
+
+
+	_ahora en las opcioens de "Mode", en el panel graph editor, escogemos la opción de "Drivers"
+
+
+	_luego en la lista de drivers, disponibles escogemos el driver, deseado, en este caso es;
+
+
+		_Retopo_3_Model_polystrips.001
+
+
+			_Key
+
+				_Value (Smile)
+
+
+	_ahora seleccionamos el driver, ha editar en este caso "Value (Smile)", y vamos al panel derecho
+
+	del graph editor, shortcut "N", y vamos a las opciones de "Drivers/Type:", y seleccionamos la 
+
+	opción de "Scripted Expression"
+
+
+	_luego bajamos hasta las opciones está "Var", en la cuál, debemo indicar un nombre personalizado
+
+	para la variable, ej, "Blend_Shape"
+
+
+	_y más abajo en las opciones está "Ob/Bon", en la cuál, debemos escoger el objeto que hace ó hará
+
+	de handle, ó cabezal que controlará el desplazamineto del slider
+
+
+	_y más abajo en las opciones está "Type:", debemos indicar la cordenada de trabajo del splider,
+
+	en este caso es la cordenada "X Location"
+
+
+	_y más abajo en las opciones está "Space", en la cuál, debemos escoger la opción de ""
+
+
+

@@ -1,0 +1,164 @@
+
+
+
+Convertir un video en secuencia de imágenes y una secuencia de imágenes en video en blender
+
+
+	Referencia:
+
+		Tutorial convertir avi a png
+
+			https://www.youtube.com/watch?v=CUYnLc3RjEE&feature=iv&src_vid=AAiGOXHYNJE&annotation_id=annotation_3018784799
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Configuración de la interface:
+______________________________
+
+	_primero debemos activar la ventana de "Video Secuence Editor", en la parte inferior de la inferface,
+
+	shortcut: "Shift + F8"
+
+
+	_para luego en la parte superior de la interface, cargar la ventana de "Movie Clip Editor"
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Cargar el material de archivo:
+______________________________
+
+
+	_ahora debemos procede ha abrir el video respectivo deseado en ambos módulos ó ventanas, así, primero lo
+
+	abriremos en el "Movie Clip Editor", para ésto vamos a la parte inferior del panel y en su parte hay un 
+
+	botón que dice "Open", a través, del cuál, podremos navegar hasta la ubicación del archivo de video, de
+
+	ésta manera el video se podrá reproducir en el viewport, del respectivo panel
+
+
+	
+	_luego, debemos también, cargar el video en el panel "Video Secuence Editor", para ésto vamos a las 
+
+	opciones de "Add/Movie/", y navegamos hasta la ubicación del archivo de video y lo cargamos en el panel
+
+	para que así, podamos ver su respectiva layer, en el timeline, del panel
+
+
+	_para para recolocar ésta layer, en el frame, "0", del panel "Video Secuence Editor", debemos hacer lo 
+
+	siguiente:
+
+
+	NOTE:	_para navegar en el panel "Video Secuence Editor", para hacer "Zoom", del timeline, debemos hacer
+
+		"Scroll", del mouse, hacia arriba y hacia abajo
+
+
+		_para hacer mover enteramente el timiline, para reajustar su posición, debemos hacer 
+
+		"mouse right click and drag"
+		
+		-------------------------------------------------------------------------------------------------
+
+
+		_primer debemos tomar el cabezal del timeline, y arrastrarlo hasta el frame "0"
+
+
+		_luego debemos seleccionar el clip, con "mouse right click and drag", para activar así, las 
+	
+		opciones de transformación y movimiento del click, para que así, podamos arrastrar el click, 
+
+		hasta una nueva ubicación, especificamente hasta el frame "0/1", donde se encuentra el cabezal
+
+		del respectivo panel y, para finalizar la acción y que el clip, de video se quede en el lugar
+
+		deseado debemos darle ha "mouse left click", para que así, podamos fijar el video en esa 
+
+		respectiva nueva ubicación
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Preparar el render de exportación:
+__________________________________
+
+
+	_más para ajustar la nueva duración del video debemos ir al panel timeline "el cuál, no debemos eliminar"
+
+	y en las opciones de "Start/End", del panel timeline, podremos marginar el tamaño del timeline, del panel
+
+	"Video Secuence Editor"
+
+
+	_ahora para configurar el render, debemos saber las características del video, para eso vamos a la 
+
+	ubicación del archivo en el explorador y hacemos "mouse right click", sobre el video y elegimos la opción
+
+	de "propiedades/detalles", en la cuál, podremos ver tanto las dimensiones, ancho alto, como el frame 
+
+	rate, para saber si el video es ha "24-30", frame, por segundo
+
+
+	_para que así, éstas características que hemos tomado del video se las coloquemos en las opciones de 	
+
+	formato render de blender así, vamos a las opciones de "Render Render/Dimensions/Resolution", y colocamos
+
+	las dimensiones del video y en "frame rate", colocamos su respectivo intervalo del video real así, como
+
+	también, debemos colocar la escala del video en "100%", no en previa de "50%", que está por defecto
+
+
+	_ahora debemos indicar la ruta del salida del render en una carpeta especificada por nosotros para ésto,
+
+	vamos a las opciones de "Render Render/Output/"
+
+
+	_por último nos queda indicar el formato de salida de archivo del render para ésto, vamos a las opciones
+
+	de "Render Render/Output/", y en formato de arhivo escogemos la opción por ejemplo de "JPEG"
+
+	
+	_para ahora si darle a la opción de "Animation", para que comience el render ha crear nuestra nueva 
+
+	secuencia de imagenes
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Ahora para convertir una secuencia de imagenes en un video:
+___________________________________________________________
+
+
+	_para ésto primero vamos al panel "Video Secuence Editor/Add/Image", y navegamos hasta la ubicación de la
+
+	secuencia de imagenes y seleccionamos la primera imágen de la secución y luego con "Shift + Control", 	
+
+	seleccionamos la última imágen de la secuencia para luego abrir la secuencia en el panel 
+
+	"Video Secuence Editor"
+
+
+	_y para visualizar éste nuevo clip, debemo también, cargarlo en el panel "Movie Clip Editor", y vamos a 
+
+	las opciones de "Clip/Open Clip", shirtcut "Alt + O", y navegamos hasta la ubicación de la secuencia 
+
+	deseada y seleccionamos el primer frame, y abrimos la secuencia seleccionando tan sólo un frame, de ésta
+
+
+	_para luego repetir los pasos del proceso de render de arriba, más con la diferencia de la configuración
+
+	que será para una salida de video en vez, de una secuencia de imagenes
+
+
+
+
+
+

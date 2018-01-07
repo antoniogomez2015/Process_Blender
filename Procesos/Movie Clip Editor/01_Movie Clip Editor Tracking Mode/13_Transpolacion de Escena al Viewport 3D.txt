@@ -1,0 +1,181 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Transpolacion de Escena al Viewport 3D:
+	_______________________________________
+
+	_una vez terminado el proceso de trackeo y optimización es hora de hacer un volcado de la escena virtual trackeada en el
+
+	panel "Movie Clip Editor", al panel "Viewport 3d"
+
+
+
+
+	Reset Camara:
+	_____________
+
+	_para que así, podamos continuar con el proceso de producción para lo cuál, lo primero será resetear la cámara existente para
+
+	que así, ésta se ubique en el centro del viewport 3d, y ésta a su vez, mire hacia abajo
+
+
+		_para lo cuál, debemos de seleccionar la cámara y reseter su ubicación a través, del shortcut
+
+
+			_Alt + G
+
+			_Alt + R
+
+
+	_para luego hacer correcciones de rotación
+
+
+
+
+
+	Orientation System:
+	___________________
+
+	_para posteriormente alinear el sistema de tracks point, generado en el viewport 3d, a partir del proceso de track points, y 
+
+	camara solver, con el grid, ó grilla del viewport 3d, para que así, el sistema quede alineado y no más arriba ni más abajo de
+
+	éste plano referencial lo cuál, es altamente recomendable
+
+
+	_para lo cuál, debemos de ir al panel "Movie Clip Editor/Clip Mode", y allí seleccionar al menos tres tracks pints, ó más en un 
+
+	distrobución triangular los cuáles, por lo general corresponderán también, el floor, ó piso de la escena trackeada en la imágen
+
+
+	_para posteriormente con los respectivos tracks points, seleccionar ir ha
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Orientation/Floor"
+
+
+	_para que así, todo el sistema de tracks points, en el viewport 3d, sean alineados en grid, el viewport 3d, centrando
+
+	así, todo el sistema generado con el grid, de la escena generada
+
+
+
+
+
+	Origen System:
+	______________
+
+	_así, como también, podremos indicar un origen ó centro del sistema para que así, por lo general éste también, se 
+
+	alinie con el centro del grid, del viewport 3d
+
+
+	_para lo cuál, debemos de selecccionar un track point, en el panel "Movie Clip Editor/Clip Mode", y con éste seleccionado
+
+	ir a las opciones de
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Orientation"
+
+
+	_y allí, darle al botón u opción de
+
+
+		_"Set Orion"
+
+
+	_para que así, el sistema centre ha éste track point, seleccionado en el centro del viewport 3d, así, como calateralmente a los
+
+	demás tracks points, respectivamente en sus posiciones equidistantes
+
+
+
+
+
+	Eje de Cordenadas:
+	__________________
+
+	_así, como también, dremos indicar cuál, será el eje de cordenadas ha emular para que así, el sistema emule ó se adapte al eje
+
+	de cordenadas del viewport 3d, de ésta manera, habrá una correlación entre ambas escenas
+
+
+	_para lo cuál, debemos de selecccionar un track point, en el panel "Movie Clip Editor/Clip Mode", y con éste seleccionado
+
+	ir a las opciones de
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Orientation"
+
+
+	_y allí, darle al botón u opción de
+
+
+		_"Set X Axis" ó
+
+		_"Set Y Axis"
+
+			_en relación al tipo de plano que queremos hacer referencia ante el sistema en relación a las necesidades
+
+			de producción
+
+
+	_para que así, el sistema cambie ó realinea la dirección de todos los tracks points, para que así, todos éstos se elinien con
+
+	la cordenada de trabajo seleccionada como cordenada de alineación principal en relación a su vez, con las cordenadas del grid,
+
+	del viewport 3d
+
+
+
+	
+	Scale System:
+	_____________
+
+	_más también, tendremos la posibilidad de reescalar todo el sistema de tracks points, creado en el viewport 3d, para que así,
+
+	éste pueda adaptarse al tamaño real de la escena que deseamos recostruir en el viewport 3d
+
+
+	_para lo cuál, debemos de selecccionar dos tracks points, contiguos con una distancia promedio entre éstos y los demás a su vez,
+
+	de otros tracks points, en el panel "Movie Clip Editor/Clip Mode", y con éstos seleccionados
+
+	vamos a las opciones de
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Orientation"
+
+
+	_y allí, darle al botón u opción de
+
+
+		_"Distance" 
+
+		
+
+	_y en ésta opción indicar un valor relativo que estimemos haya entre ambos tracks points, que hemos seleccionado en el panel
+
+	"Movie Clip Editor/Clip Mode", por ejemplo, podríamos indicar que entre ambos tracks points, hay "40cm"
+
+
+	_de ésta manera, el el sistema reescalará todo el sistema con ésta referencia de escala indicada por nosotros
+
+
+
+

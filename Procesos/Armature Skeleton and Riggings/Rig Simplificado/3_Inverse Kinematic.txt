@@ -1,0 +1,101 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Inverse Kinematic:
+	__________________
+
+	_para algunos de los casos el proceso de ik, es omitido para que así, la animación pueda hacerse manejando
+
+	hueso ha uso
+
+
+	_más en el siguiente bloque de información explicaremos el proceso para un character, con el proceso de ik,
+
+	aplicado
+
+
+	_para lo cuál, debemos seleccionar el armature, para a continuación colocar el modo de "Pose Mode", para 
+
+	posteriormente proceder ha seleccionar los handles, y bones, respectivos a las cadenas ó chains, a las
+
+	cuáles, deseamos aplicarle ik
+
+
+
+	IK Chain:
+
+	_para crear un sistema de ik, sobre una cadena ó chains, de huesos ó bones, disponemos de un proceso 
+
+	automatizado el cuál, hará gran parte del trabajo por nosotros
+
+
+	_de ésta manera, tendremos que seleccionar dos bones, los cuáles, estarán conformados primeramente por el
+
+	bone, que hace de handle, respectivo de la cadena ó chain, y seguido ha éste bone, ó handle 
+
+
+	_debemos de seleccionar el último bone, de la cadena chain, ó el bone, que está más cercano al handle, y
+
+	con ambos bones, seleccionados aplcicamos el shortcut, "Control + Shift + C", para que así, se nos abra
+
+	el menú contextual de "Add Constraint (Width Targets)", en el cuál, seleccionaremos la opción de 
+
+	"Inverse Kinematic"
+
+
+	_para que así, un sistema de ik, sea agregado a la respectiva extremidad ó chain, el cuál, tomará un color
+
+	amarillo sobre el bone, sobre el cuál, éste fué aplicado 
+
+
+	_para que así, podamos seleccionar éste y podamos posteriormente configurarlo estando aún en "pose mode",
+
+	ir ha "Properties/Bone Constraint/", y allí, podremos ajustar la longitud de la cadena ó alcance del ik,
+
+	entre otras opciones
+
+
+	_de ésta manera, podremos repetir todo éste proceso para crear así, las demás cadenas ó chains, de las 
+
+	demás extremidades
+
+
+
+	Pole Vector:
+
+	_de ésta maenra, en las opciones de "Properties/Bone Constraint/", podremos asignar un bone, para la función
+
+	de controlar la dirección de la rodilla ó knee, el cuál, lo debimos de preparar previamente con el nombre
+
+	de "L Handle Knee" 
+
+
+	_así, como también, de haber ubicado en la posición correcta y como una cadena ó chain, independiente
+
+
+	_de ésta manera, podremos repetir éste proceso para el resto de pole vector ó pole targets, como por 
+
+	ejemplo, para el correspondiente al codo ó elbow, otros
+
+	
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+
+
+
+	How to Master Video Editing in Blender.
+
+		https://www.youtube.com/watch?v=42AQ_EtRVq4
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Video Secuence Editor:
+	______________________
+
+	_tenemos la posibilidad de editar material de archivo como secuencias de imágenes, clips, de video y composiciones
+
+	realizadas de forma nativa dentro de blender
+
+
+
+	Generalidades:
+	______________
+
+	1_el panel "Video Secuence Editor", trabajará con las dimensiones del panel "Render Render/Dimensions", de ésta manera,
+
+	debemos de configurar previamente las dimensiones de salida de archivo para que así, haya coherencia entre el material que
+
+	vayamos ha importar y la escena de trabajo así, como también, con las opciones de frame rate, que hayamos seleccionado
+
+
+
+
+	Video Secuence Editor:
+	______________________
+
+	_para posteriormente abrir el panel "Video Secuence Editor", sea a través, de los presets, de la interface, ó convirtiendo 
+
+	por ejemplo el panel timeline, ó viewport 3d, en el panel "Video Secuence Editor", para lo cuál, dispondremos del shortcut,
+
+	"Shift + F8"
+
+
+
+	
+	1-Configuración:
+	________________
+
+
+	_más los más recomendable es crear un interface, personaliada en la cuál, borrados todos los páneles por defecto dejando 
+
+	sólo un panel visible para que así, podamos dividir éste de forma horizontal y luego, la mitad de arriba también dividirla 
+
+	pero en éste caso de forma verticalmente 
+
+
+	_para que así, en una las mitades ó ventanas de la perte superior cargar el panel node editor "Dope Sheet", shortcut, 
+
+	"Shift + F12"
+
+
+	_y en la otra ventana disponible de la parte de arriba cargar el panel "Video Secuence Editor", shorcut, "Shift + F8", para 
+
+	luego en éste panel ir a las opciones de abajo y seleccionar el modo de visualización de "Preview", para que así, podamos 
+
+	utilizar éste panel para la visualización del panel "Video Secuence Editor", de la parte interior donde editaremos el material 
+
+	posteriormente
+
+
+	_y en la ventana de abajo, debemos de cargar el panel "Video Secuence Editor", el cuál, lo dejaremos en su configuración normal
+
+	y en el cuál, editaremos el material de archivo ó clips, en relación a lo que desiemos realizar
+
+
+	NOTA: el panel "Video Secuence Editor", en sus botones de abajo combien permiteconmutar ó vidivir éste panel para que así, en
+
+	el mismo panel se pueda visualizar en la parte superior el "Prevew", u otra scope, de ésta manera podremos simplificar 
+
+	la interface, de gran manera
+
+
+
+
+	2-Load Secuences:
+	_________________
+
+	_ahora para cargar el material de trabajo al panel "Video Secuence Editor", disponemos de dos opciones la más recomendad
+
+	es abrir sobre el panel superior de "Dope Sheet", el panel de "File Browser", el cuál, hará de explorador dentro de la misma 
+
+	interface, para que así, a través, de éste podamos navegar cómodamente hasta la ubicación respectivo de los archivos a cargar 
+
+	y de forma visual
+
+
+	_para que así, cuando hayamos ubicado uno de éstos archivos podamos arrastrarlos sobre el panel de "Video Secuence Editor",
+
+	para que así, éstos sean cargados al timeline, de éste panel
+
+
+	_otra forma la cuál, es más específica sería a través, del shortcut 
+
+
+		_"Shift + A/Add/Image"
+
+			_ésta opción nos permitirá cargar una única imágen estática ó si seleccionamos en el explorador que se abrirá 
+
+			toda una seuencia de imágenes, ésta secuencia será cargada como un clip, de video
+
+
+			_de ésta manera, para seleccionar todos los frames, de una secuencia de imágenes en el explorador de elementos 
+
+			de blender, dispondremos del siguiente shortcut, "A/A"
+
+
+
+
+	3-Clip Properties:
+	__________________
+
+	_los clips, dentro del panel "Video Secuence Editor", disponen de propiedades a través, de los cuáles, podremos ajustar los
+
+	atributos de éstos
+
+
+	_para lo cuál, debemos de ir a al panel de herramientas del panel "Video Secuence Editor", a través, del shortcut, "N", para
+
+	que así, con un clip, de video seleccionado podamos acceder a las propiedades de un clip, respectivo y editar éstas como por
+
+	ejemplo la opacidad ó el modo de fusión
+
+
+	_e incluso tendremos la posibilidad de animar éstas propiedades para que así, podamos hacer interactuar los diferentes clips,
+
+	entre si
+
+
+	_de ésta manera, podremos controlar posteriormente éstos keyframes, de animación de las propiedades de los clips, en el panel
+
+	"Dope Sheets", como por ejemplo para animación de opacidad ó fundido entre dos clips, superpuestos
+
+
+
+
+
+	4-Edit Tracks:
+	______________
+
+	_luego de haber cargado los clips, de video ha editar debemos de comenzar ha editar éstos para lo cuál, dispondremos de los
+
+	siguiente comandos y shortcuts, así, como procesos y procedimientos para la edición
+
+
+
+		Mover Clips:
+		____________
+
+	
+		_"Mouse Right Click and Drag"
+
+			_para mover un clip, de un lado ha otro ó de una pista ha otra disponemos de ésta acción
+
+
+			_y para confirmar ésta nueva posición debemos aplicar la acción "Mouse Left Click", para que el clip, tome 
+
+			esa nueva posición respectiva
+
+
+			_otra opción para mover un clip, es a través, del shortcut
+
+
+				_G and drag
+
+
+
+		Cut Clip:
+		_________
+
+		_más para dividir un clip, en dos partes debemos ubicar el cabezal del timeline, en el área deseada y allí, aplicar
+
+		el shortcut
+
+
+			_K
+
+
+		_de ésta manera, podremos marginar material de archivo y seleccionar y reubicar las áreas de el material deseado
+
+
+
+		Extender-Contraer Clip:
+		_______________________
+
+		_tenemos la posibilidad de cambiar la longitud de un clip, en relación a nuestras necesadades de ésta manera 
+
+		descartaremos totogramas limitando el área de visualización de la longitud del clip, respectivo sin aumentar ó 
+
+		disminuir la volocidad de reproducción del respectivo clip
+
+
+		NOTA: lo que equivaldría ha hacer "K", cut, en cualquiera de los extremos del clip, para así, marginar éste
+
+		
+		_para lo cuál, dispondremos del shortcut
+
+
+			_E and drag
+
+
+
+
+
+
+
+
+
+
+

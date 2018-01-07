@@ -1,0 +1,132 @@
+
+
+
+
+creando normal map, personalizado en blender
+
+
+	Referencia:
+
+		Tutorial Pintura Digital - Textura e Normalmap | Royal 3D Studio
+
+			https://www.youtube.com/watch?v=RGJcMj5kQSo
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	UVMap:
+	______
+
+		_primero procedemos ha crear el uvmap, el motive
+
+
+
+	Material:
+	_________
+
+		_para ésto, vamos a properties/material, y creamos un nuevo material para el motive, respectivo
+
+
+
+	Texture:
+	________
+
+		_ahora para crear una nueva textura al meterial, vamos a properties/texture, y le damos ha nueva textura
+
+		(+), en "type", indicamos "image or movie", y en "image", le damos ha "new", y creamos una nueva textura
+
+
+		_ó también, nos podríamos saltar éste paso e ir directamente ha "texture paint", en las opciones de tools,
+
+		shortcut "T", nos pedirá que creemos una nueva textura en "add paint slot", en la cuál, esgeremos la opción
+
+		de "diffuse color", y crearemos una nueva textura
+
+
+		_así, procederemos a pintar sobre nuestro modelo en el viewport, ó en el "uv image editor"
+
+
+
+	Slots:
+	______
+
+
+		_ahora en las opciones de texture paint/tools,vamos a la pestaña de slots, y allí, le damos ha "Add Texture Paint",
+
+		para así, poder agregar una nueva textura adicional, en éste caso una nueva textura de "normal map"
+
+
+		_así, seleccionaremos y crearemos una nueva textura de normal map, la cuál, la crearemos con las siguientes 
+
+		características: 
+
+	
+			_tamaño ó domensiones: 4k
+
+			_color: R:0,G:0,B:0,A:0.5 (colocando así, el canal alpha en 0.5 %)
+
+			_32Bits: activaremos ésta opción en la nueva textura
+
+
+		_ahora volvemos a las opciones de texture paint/tools,vamos a la pestaña de slots, y allí, seleccionamos la nueva
+
+		textura que creamos, en éste caso "motiveMaterial Normal"
+
+
+		_luego vamos a las opciones de metodo de display, del viewport, y seleccionamos la opción de "material"
+
+
+		_luego vamos ha "properties/material/shading/", y activamos la opción de "shadeless", para así, poder ambos materiales
+
+		a la vez
+
+
+		_ahora vamos "properties/texture/", y creamos una nueva textura y la renombramos ej: "MatCap", luego bajamos hasta las
+
+		las opciones de "image", y creamos una nueva image ej: "MatCapNew", ésta la creamos con un color gris y ha 32bits, luego
+
+		bajamos a las opciones de "Mapping/Cordinates:", y seleccionamos la opción de "Normal", luego bajamos a las opciones de
+
+		"Blend", y seleccionamos las opciones de "Multiply", para poder ver así, las texturas sobre el arte original en el motive
+
+
+	Scene:
+	______
+
+
+		_este proceso requiere iluminación, por ende en la escena deben de existir luces para que el efecto pueda verse
+
+
+		_luego debemos de asegurarnos que el viewport, está en modo ó método de visualización de "material"
+
+
+		_y volvemos al las opciones de texture paint/tools,vamos a la pestaña de slots, y allí, seleccionamos la textura
+
+		que creamos correspondiente al "normal map"
+
+
+		_para así, por último comenzar a puntar sobre la superficie del modelo en relación al pintado que ya hemos realizado
+
+		en el "diffuse material", para que haya una correlación entre ambos materials
+
+
+	Paint:
+	______
+
+
+		_color black: 
+
+			_el color seleccionado para pintar black, ó negro creará realives sobre la superficie
+
+
+		_Color white:
+
+			_el color seleccionado para pintar white, ó blanco creará depresiones sobre la superficie
+
+		
+
+
+

@@ -1,0 +1,254 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Movie Clip Editor Settings:
+	___________________________
+
+	_antes de realizar un tracking, lo primero será la configuración del panel "Movie Clip Editor", en relación de nuestras 
+
+	necesidades de producción así, podremos configurar el panel para un tipo de trackeo específico como por ejemplo para trackeos
+
+	de planos 3d, como trackeos para la corrección de perspectiva ó para la corrección de movimiento ó para el simple rastreo 
+
+	de posición, otros
+
+
+	
+		Tracking Setting:
+		_________________
+
+		_de ésta manera, en el panel "Movie Clip Editor", podremos ir ha el panel "Tool/Track", shortcut, "T", y allí, ir 
+
+		a las opciones de "Tracking Setting", en las cuáles, podremos ver las opciones de
+
+
+
+			_Tracking Presset:
+
+
+				_Blurry Footage:
+
+					_ésta opción nos pemritirá indicar material de archivo en enborronamiento ó con un desenfoque
+
+					acusado sea éste por movimientos bruscos ó por una material de mala calidad
+
+
+				_Default:
+
+					_ésta es la opción por efecto para el material grabado de forma convencional con una calidad
+
+					media ó promedio y con un movimiento de cámara normal
+
+
+				_Fast Motion:
+
+					_ésta opción nos permitirá indicar que el material tiene una calidad media ó promedia más el
+
+					movimiento de cámara es rápido
+
+				_Planar:
+
+					_ésta opción nos permitirá indicar que la calidad del material es media ó promedia y el 
+
+					movimiento de cámara también, es normal ó suave
+
+
+
+			_R/G/B:
+
+				_podremo marginar entre incluir en el análisis todos los canales de color ó excluir uno ó varios
+
+				de los canales disponibles como los son r,g,b
+
+
+			_Points:
+
+				_así, como también, podremos graduar ó variar el tamaño de la muestras ó área central del muestreador
+
+				ha generar así, como el área de búsqueda ó área perimetral del rastreador
+
+
+
+			_Motion:
+
+				_así, como también, elegir ó seleccionar el criterio de acción ó de trabajo del ssitema de ésta manera,
+
+				dispondremos de los siguientes tipo ó modo de trabajo del sistema
+
+
+
+					_Loc:
+
+						_ésta opción nos pemritirá hacer trackeos para el rastreo de sólo movimiento así, como
+
+						también, para procesos de estabilizado simples
+
+
+						_para diferentes procesos de producción en los cuáles, deseamos obtener el movimiento
+
+						referencial de un elemento determinado de la escena
+
+
+						_ésta opción es especialmente útil para lo casos en que la cámara se mueve ó trepida
+
+						para que así, podamos posteriormente corregir éste movimiento ó por el contrario,
+
+						podamos rastrear el movimiento de un punto determinado
+
+
+
+					_LocRot:
+
+						_ésta opción nos pemrnitirá también, contemplar la rotación de la escena con más de un
+
+						tracker, agregado ó punto de rastreo
+
+
+						_de ésta manera, podremos clacular también, cambios en dirección ó rotación de la cámara
+
+						en su mismo eje mientras ésta a su vez, también, se mueve ó trepida
+
+
+						_para que así, posteriormente podamos suvizar éste movimiento ó trastrear un punto
+
+						determinado ó igualmente hacer un estabilizado de la imágen
+
+
+					_LocScale:
+
+						_ésta opción nos pemritirá hacer un rastreo del movimiento ó trepidación de la cámara
+
+						así, como también, la del cambio de perspectiva ó cuando la cámara avanza ó retrocede
+
+						en la escena a través, del tiempo
+
+		
+						_de ésta manera, para éste repquerimiento concreto en que sepamos que la cámara hacer
+
+						éstos dos movimientos disponemos de ésta opción
+
+
+						_lo cuál, es especialmente útil para detectar el movimiento de la cámara y a su vez,
+
+						los cambios de perspectiva en la escena
+
+
+
+					_LocRotScale:
+
+						_una opción más completa aún nos brinda la posibilidad de poder capturar el movimiento 
+
+						ó trepidación de la cámara mientras que a su vez, podremos detectar la rotación y la
+
+						escala a su vez
+
+
+						_de ésta manera, podremos detectar todos los movimientos posible de la cámara lo cuál,
+
+						nos permitirá realizar todo tipos de proceso de forma mixta
+
+
+					_Affine:
+
+						_(Indeterminado)
+
+
+					_Perspective:
+
+						_ésta opción nos pemritirá hacer detección ó cambio de la perspectiva en imágen de
+
+						forma dedicada para lo cuál, el sistema incorporará todos los tipos de lectura de
+
+						forma incorporada "LocRotScale", los cuáles, utilizará para la detección del cambio
+
+						de perspectiva
+
+
+			_Match:
+
+
+				_Keyframe:
+
+					_ésta opción utilizará para la muestra de cálculo de rastreo el fotograma actual para 
+
+					la generación del keyframe, del proceso de trackeo resultante
+
+
+				_Previous Frame:
+
+					_ésta opción utilizará para la muestra de cálculo de rastreo el fotograma anterior para 
+
+					la generación del keyframe, del proceso de trackeo resultante
+
+
+
+			_Prepass:
+
+				_ésta opción nos pemritirá indicar el criterio de acción para el proceso de rastreo en éste caso,
+
+				podremos indicar la opción de un "pase ó cálculo de muestra del frame, previo", para la generación 
+
+				del trackeo y keyframe, actual ha generar
+
+
+			_Normalized:
+
+				_ésta opción nos pemritirá indicar el criterio de acción para el proceso de rastreo en éste caso,
+
+				podremos indicar la opción de un "pase normalizado ó cálculo de muestra de frames, anteriores", y el
+
+				muestreo del frame, actual para la generación del trackeo y keyframe, actual ha generar
+
+
+
+			Extra Settings:
+			_______________
+
+
+				_Use Mask:
+
+					_ésta opción nos pemritirá la incorporación de máscaras en el sistema de rastreo para que así,
+
+					podamos excluir áreas ante el proceso de rastreo de zonas determinadas de la escena
+
+
+				_Correlation:
+
+					_(Indeterminado)
+
+
+				_Frames Limit:
+
+					_(Indeterminado)
+
+
+				_Margin:
+
+					_(Indeterminado)
+
+
+				_Weight:
+
+					_(Indeterminado)
+	
+

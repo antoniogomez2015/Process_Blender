@@ -1,0 +1,19 @@
+
+
+
+	
+	DATA TYPES | Blender Animation Nodes (Visual Programming for Artists)
+
+		https://www.youtube.com/watch?v=_7ZaA_Zi1UI
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Node Editor Animation Mode Nodes Data Type:
+	___________________________________________
+
+	_
+

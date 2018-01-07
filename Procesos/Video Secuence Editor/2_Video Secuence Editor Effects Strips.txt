@@ -1,0 +1,101 @@
+
+
+
+	How to Master Video Editing in Blender.
+
+		https://www.youtube.com/watch?v=42AQ_EtRVq4
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Effects Strips:
+	_______________
+
+	_tenemos la posibilidad de agregar efectos el timeline, los cuáles, modificarán a los respectivos clips, que estén a su
+
+	alcance
+
+
+	_para lo cuál, sobre el panel "Video Secuence Editor", debemos aplicar el siguiente shortcut "Shift + A/Effects Strip",
+
+	para que así, podamos acceder ha todos los efectos disponibles para los clips, de video
+
+
+
+
+	_Shift + A/Effects Strip/Color
+
+		_éste nos permitirá agregar un color sólido para agregar negros ó cuadros de color faltante, para complementar 
+
+		un chrome, un color blando para hacer una entrada ó transición, otros
+
+
+
+	_Shift + A/Effects Strip/Cross
+
+		_éste nos permitirá hacer un fundido entre dos clips, contiguos sean éstos que estén en una misma pista ó en pistas
+
+		independientes 
+
+
+		_para lo cuál, debemos de seleccionar ambos clips, ha fundir para que así, podamos aplicar el shorcut
+
+		Shift + A/Effects Strip/Cross, de ésta manera, se agregará un nuevo clip, de tipo cross, entre ambos clips
+
+
+
+		NOTA: si embos clips, estaban sontiguos y en la misma pista y sin espacio entre ellos, el clip, de tipo "Cross", 
+
+		no será visible más si hacer "G and drag", entre ambos clips, éste clip, se hará paso entre ambos clips, base
+
+
+		_de ésta manera, podamos extender éste cross efect, que se ha agregado en el timeline, hasta que éste tome un color
+		
+
+		rosado
+
+
+		_de ésta manera, el espacio ahora generado entre ambos clips, ahora representará la transición ó montaje entre ambos
+
+		clips, implicados
+
+
+
+
+	_Shift + A/Effects Strip/Wipe
+
+		_éste nos permitirá hacer una cortina ó limpiar el clip, anterio con el clip, nuevo de ésta manera, podremos crear 
+
+		una transición entre ambos videos
+
+
+		_para lo cuál, debemos de seleccionar ambos clips, ha fundir para que así, podamos aplicar el shorcut
+
+		Shift + A/Effects Strip/Wipe, de ésta manera, se agregará un nuevo clip, de tipo cross, entre ambos clips
+
+
+
+	_Shift + A/Effects Strip/Gaussina Blur
+
+		_éste nos permitirá la posibilidad de poder desenfocar un clip
+
+
+		_para lo cuál, sólo bastará con seleccionar un clips, al cuál, deseamos aplicar el desenfoque para que así, podamos 
+
+		aplicar el shorcut Shift + A/Effects Strip/Gaussin Blur, de ésta manera, se agregará un nuevo clip, de tipo 
+
+		Gaussian Blur, sobre el respectivo clip, seleccionado previamente
+
+
+		_para que así, posteriormente poder ir al panel propiedadesl del panel video secuence editor, shortcut, "N", y allí,
+
+		editar las opciones del efecto específicamente "Effects Strip/Size X/Y"
+
+
+
+

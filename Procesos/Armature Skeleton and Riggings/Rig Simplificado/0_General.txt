@@ -1,0 +1,83 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_tenemos la posibilidad de crear un sistema de rig, bípedo base a través, del cuál, podremos rápidamente
+
+	intervenir un personaje ó character, adaptando el sistema de rig, para que éste pueda funcioanr en el nuevo
+
+	character
+
+
+
+	Scene:
+
+	_para lo cuál, lo más recomendado es en el outliner, proceder ha organizar la escena para que éste trabajo 
+
+	en relación al sistema de rig
+
+
+	_donde primeramente nos aseguraremos el cursor 3d, está en el centro del viewport 3d, para lo cuál, debemos 
+
+	de abrir el menú contextual de "Snap", shortcut, "Shift + S", y en el cuál, escogeremos la opción de 
+
+	"Cursor to Center"
+
+
+	_para lo cuál, posteriormente lo más recomendable es estando en object mode, proceder ha crear un nuevo objeto 
+
+	de tipo "empty", el cuál, nos renombraremos como "Scene", y en el cuál, emparentaremos todos los elementos base 
+
+	de la escena como la cámara, la ilumiación, screen, de iluminación, otros
+
+
+	_así, como también, podremos renombrar éstos elementos como "light left, light right, light back"
+
+
+	_más es muy recomendable guardar éstos elementos en una layer, shortcut, "M", la última layers, disponible
+
+
+	_e incluso es recomendable guarda también, éstos elementos dentro de un grupo, para lo cuál, debemos seleccionar
+
+	éstos y hacer "Control + G", para a continuación en el panel "viewport 3d/Tools", en la parte inferior de éste
+
+	asignarle un nombre ha éste nuevo grupo, ej: "Scene"
+
+
+		_para posteriormente poder acceder ha éste grupo, debemos abrir el menú contextual "Select Grupped" 
+
+		shortcut, "Shift + G/Group"
+
+
+
+	Display:
+
+	_más también, es conveniente en el proceso de creación seleccionar el objeto de tipo "Armature", y con éste 
+
+	seleccionado ir ha "Properties/Data Object Data/Display/", y allí, activar la opción de "X-Ray" 
+
+
+	_para que así, podamos ver los bones, a través, de la geometría y demás elementos en la escena
+
+	
+
+
+
+

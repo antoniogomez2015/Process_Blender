@@ -1,0 +1,96 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Multi UVMap:
+	____________
+
+	_para la creación de motivosó characters, de alto detalle cuerpo completo ó incluso sobre heads, es altamente
+
+	recomendable la utilización de "Multi-Maps", tanto los los mapas de normales como para los mapas de color ó
+
+	diffuse
+
+
+	_lo cuál, nos permitirá extender las posibilidades de resolución y por ende la capacidad de representar detalles
+
+	sobre el motivo ó character
+
+
+	_para lo cuál, debemos de crear dos procesos de uvmap, a parte uno del otro, de ésta manera, debemos hacer el
+
+	siguiente proceso:
+
+
+		_donde primeramente debemos de seleccionar el motivo ó character, y entrar en "Edit Mode", shortcut:
+
+		"Tabulador"
+
+
+		_para posteriormente seleccionar todos sus sub-elementos, shortcut: "A/A"
+
+
+		_para luego ir al panel "Properties/Data Object Data/", y bajar hasta las opciones de "UV Map", y estando
+
+		allí, debemos darle a la opción de "+ new", para crear así, un nuevo mapa de uvs, a parte del existente
+
+		ó base que ya previamente le hemos creado al motivo ó character, con la distribución general de las partes
+
+		del mismo motivo ó character		
+
+
+		_de ésta manera, ahora debemos seleccionar el nuevo UV Map, que hemos creado y renombrarlo en el panel 
+
+		"Properties/Data Object Data/UV Map", para posteriormente con éste seleccionado ir al viewport, 3d, y 
+
+		allí, proceder ha hacer un nuevo proceso de "Mark Seams", sobre el character, ó motivo en relación del
+
+		área ha resaltar por ejemplo; resaltar la cabeza sobre demás áreas del motivo ó character, las cuáles, ya
+
+		están contempladas de forma normal en el UV Map, base
+
+
+		_así, luego de haber creado las nuevas "Mark Seams", sobre el motivo ó character, es hora de crear un 
+
+		nuevo "UnWrarp", shortcut, "U"
+
+
+		_para posteriormente ir al panel "UV Map Editor", shortcut, "Shift + F10", y allí, proceder ha configurar
+
+		las "Inslands", generadas colocándo la zona más grande la zona de interés y las demás en lugares ó zonas
+
+		más pequeñas
+
+
+		_de ésta manera, a través, de un mapa más grande y con el área de interés como primer plano lograremos la
+
+		máxima resolución y nitidez para lograr así, la máxima representación del detalle sobre el motivo ó 
+
+		character
+
+
+		_para posteriormente luego de haber terminado el proceso de edición componener todos los mapas generados
+
+		sean de normals, maps, como de diffuse colors, y otros en el panel "Node Editor", en la modalidad de 
+
+		"Render Cycles"
+
+
+		
+
+
+
+

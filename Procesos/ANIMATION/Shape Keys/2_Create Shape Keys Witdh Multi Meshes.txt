@@ -1,0 +1,79 @@
+
+
+
+	Blender 2.68: Animación con Graph Editor
+		https://www.youtube.com/watch?v=8UKEGOy-x9g
+
+
+	Blender 2,68: Animar objetos con Shape Keys
+		https://www.youtube.com/watch?v=tvb4dM4QKd4
+
+
+	Blender 2.68: Rigging avanzado con Shape Keys y Custom Bones
+		https://www.youtube.com/watch?v=Bl2FHX80KTo&t=15s
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Create Shape Keys Witdh Multi Meshes:
+	_____________________________________
+
+	_más también, tendremos la posibilidad de crear shape keys, a partir de múltiples meshes, ó geometrías
+
+	las cuáles, servirán de referencia para tomar de éstas información de su morfología la cuál, podrá
+
+	aplicarse ha otro character, ó ha una de las propias meshes
+
+
+	
+	References:
+	___________
+
+	_para lo cuál, debemos tener previamente creadas y editadas previamente las meshes, las cuáles, servirán
+
+	de ferenciancia para crear el sistema de shape keys
+
+
+	_las cuáles, podremos preparar editando éstas a través, de las herramientas de edición proporcional ó
+
+	a través, de las herramientas de escultura
+
+
+
+	Extract Shape Keys:
+	___________________
+
+	_para a continuación seleccionar la mesh, ó motivo ó character, a la cuál, le aplicaremos ó asignaremos
+
+	las shape keys, extraidas u obtenidas de las demás meshes, de referencia
+
+
+	_y con ésta seleccionada vamos ha "Properties/Data Object Data/Shape Keys", y allí, le damos la "+", 
+
+	para que así, el sistema genere la shape keys, "Basis"
+
+
+	_para a continuación seleccionar una de la meshes, de referencia y a continuación seleccionar la mesh,
+
+	del motivo ó character, y con ambas seleccionadas en ese orden volvemos a la sección de 
+
+	"Properties/Data Object Data/Shape Keys", y allí, le damos al ícono debajo de las opciones de "+-" 
+
+
+	_en forma de arrow, hacia abajo de color oscuro y seleccionamos la opción "Join as Shapes", para que 
+
+	así, una nueva key shape, sea agregada al panl de shape keys, la cuál, contendrá la morfología de la 
+
+	mesh, de referencia de la cuál, la hemos tomado
+	
+
+
+
+
+

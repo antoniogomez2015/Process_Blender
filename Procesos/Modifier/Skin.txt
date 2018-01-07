@@ -1,0 +1,307 @@
+
+
+
+
+Referencia
+
+	
+	Blender 2.69: Modelando con el modificador Skin
+
+		https://www.youtube.com/watch?v=8xEImBwNgws
+
+		https://www.youtube.com/watch?v=6fw8r0wo0hE
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Características:
+	________________
+
+
+	_especialmente útil para el proceso creativo ó de creación de personajes y prototipos ya que el cuál, nos permitirá
+
+	poder extruir geometría poligonal en vivo y en directo a través, de sub-elementos de tipo polymesh, específicamente
+
+	"Edges"
+
+
+	_de ésta manera, a través, de un objeto de tipo mesh, podremos entrar en el modo de edición de éste, shortcut, "Tab",
+
+	y comenzar ha extruir los vertex, de éste	
+
+
+	_para que así, a través, de éste método obtener edges, los cuáles, tomará como referencia el sistema del modificador
+
+	skin, para crear a partir de éstos nueva geometría
+
+
+	_pudiéndo construir así, las extremidades del character, a la mitad de éste para que así, podamos utilizar un 
+
+	modificador de tipo "Mirrow", para a través, de éste reflejar los vertex, hacia el otro lado del character
+
+
+
+	Display:
+
+	_para éste proceso de creación ó extrusión lo más recomendado es seleccionar el mesh object, del character, y con éste
+
+	seleccionado entrar en el edit mode, de éste shortcut, "tab"
+
+
+	_para posteriormente pasar al modo de visualización "Wireframe", del viewport 3d, shortcut, "Z", para que así, veamos
+
+	la geometría resultante de forma alámbrica y a su vez, podamos ver también, los vertex, de extrusión y podamos así,
+
+	editar éstos y continuar con el proceso de creación y extrusión
+
+
+	
+	Prestaciones:
+
+	_lo cuál, nos permitirá poder crear un modelos base el cuál, podremos mover, y crear poses al detalle
+
+
+	_más posteriormente de haber creado la pose y la forma general de la geometría desada podremos posteriormente hasta
+
+	esculpir en vivo y en directo mientras que conservamos las propiedades y posibilidad de ajuste y movimiento de las 
+
+	articulaciones y extremidades que vayamos creando
+
+
+		_para lo cuál, tendremos la posibilidad de convertir éste sistema de skin, en un sistema de "armature"
+
+
+	_lo cuál, presenta una gran ventaja al proceso convencional de escultura sobre una mesh, base estática
+
+
+	_lo cuál equivale ha tener un character, base creado con un sistema de rig, creado previamente, lo cuál, pude obtener
+
+	también, a través, del proceso del modificador skin, como un producto final de todo el proceso lo cuál, veremos
+
+	posteriormente
+
+
+
+
+	Skin:
+	_____
+
+
+	Modifiers:
+
+
+		Skin:
+
+		_primero procedemos ha agregar sobre objeto de tipo mesh, del character, un modificador de tipo "Skin", para 
+
+		lo cuál, debemos de ir ha "Properties/Modifiers Object Modifiers/", y allí, selecciona el modificador de tipo 
+
+		skin, para que así, éste sea asignado al character
+
+
+		Mirrow:
+
+		_y posteriormente procedemos ha agregar sobre objeto de tipo mesh, del character, un modificador de tipo 
+
+		"Mirrow", para lo cuál, debemos de ir ha "Properties/Modifiers Object Modifiers/", y allí, selecciona el 
+
+		modificador de tipo mirrow, para que así, éste sea asignado al character
+
+
+		Subsurf:
+
+		_y posteriormente procedemos ha agregar sobre objeto de tipo mesh, del character, un modificador de tipo 
+
+		"Subsurf", para lo cuál, debemos de ir ha "Properties/Modifiers Object Modifiers/", y allí, selecciona el 
+
+		modificador de tipo Subsurf, para que así, éste sea asignado al character
+
+
+
+
+
+	Modeling:
+
+	_para modelar ó modificar la geometría resultante de forma nativa en relación al modificador skin, podremos seleccionar
+
+	el objeto de tipo polymesh, del motivo y con éste seleccionado entrar a su edit mode, shortcut, "tab"
+
+
+	_para a continuación proceder ha extruir los vertex, para ir generando edges, los cuáles, tomará el sistema del
+
+	modificador para la generación de geometría nueva
+
+
+	_más también tendremos la posibilidad de hacer escalados de áreas en específico; las cuáles, deben de encontrarse en
+
+	las áreas de vertex, ó articulaciones del motivo en relación a las extrusiones que vayamos realizando
+
+	
+		_para lo cuál, disponemos de un shortcut, "Control + A and Drag", el cuál, podremos aplicar cuando tengamos
+
+		un vertex, seleccionado en edit mode, del mesh, del character
+
+
+
+	Skin Options:
+
+	_el modificador skin, nos ofrece las siguientes opciones de configuración
+
+
+		_Create Armature:
+
+
+			General:
+
+			_ésta opción nos pemritirá convertir el sistema de skin, en un sistema de rig, automático tanto en
+
+			su relación de armature/bones, como weight maps
+
+
+			_más antes de aplicar ésta opción es recomendable aplicar el modificador mirrow, para que así, se
+
+			hagan permanentes la vertex, reflejados hacia el otro lado del character, y éstos sean tomados en
+
+			cuenta por el nuevo sistema de rig, ha generar
+
+
+			
+			Armature system:
+
+			_y para aplicar ésta opció sólo debemos estar en object mode, y con el motivo ó character, 
+
+			seleccionado
+
+
+			_para que así, a partir de éste punto, se agregue otro modificador al sistema, éste es el modificador
+
+			"Armature", el cuál, controlará el nuevo sistema de rig, generado a partir de los vertex, y edges,
+
+			existentes en el motivo ó character
+
+
+			_de ésta manera, ahora podremos seleccionar el character, en entrar en "pose mode", shortcut, "tab",
+
+			para que así, tengamos la posibilidad de seguir ajustando la pose para el proceso de animación y 
+
+			aplicar sistema de IK; y demás elementos de animación ó de creación a través, del proceso de 
+
+			escultura
+
+
+
+			Sculpting:
+
+			_más para proceder con el proce de escultura sobre el character, debemos primeramente aplicar el
+
+			modificador de "Skin"
+
+			
+			_así, como también, podremos ocultar ó eliminar el modificador de "Subsurf", para agregar en vez de
+
+			éste, el modificador "Multiresolution", el cuál, es más a corde para el proceso de scultura
+
+
+			_para ahora si, seleccionar el character y entrar en el modo "Sculpt Mode", y proceder con el 
+
+			proceso de escultura normal
+
+
+			_más con diferencia en relación al proceso normal de escultura de que ahora podremos seleccionar el
+
+			objeto de tipo "Armature", en el "Outliner", y con éste seleccionado entrar en el "Pose Mode"
+
+
+			_y hacer ajustes y cambios en la pose práctivamente en vivo mnientras esculpimos lo cuál, nos brinda
+
+			unas posibilidades ha otro nivel en el proceso creativo y de producción
+
+
+
+		_Add Skin Data:
+
+			_
+
+
+		_Branch Sm:
+
+			_éste mos permitirá crear una geometría más integrada ó con un volúmen más homogéneo en relación a 
+
+			los vertex, ó articulaciones creadas
+
+
+			_es decir, que hará superficies más lisas donde hay dos ó más edges, con ángulos de ésta manera, 
+
+			evitará tener que representar ese ángulo simplificando la geometría resultante
+
+			
+
+
+		_Smooth Shading:
+
+			_ésta opción suavizará la geometría resultante para que éste tome una apariencia más suavizada en
+
+			el viewport 3d
+
+
+		_Axis:
+
+			_ésta opción nos permnite seleccionar la cordenada de trabajo siendo la más común la cordenada "X"
+
+
+		_Mark Loose:
+
+			_ésta opción nos permitirá ponderar el rescalado realizado con el shortcut, "Control + A and Drag" 
+
+			hecho sobre uno ó mas vertex, contiguos en relación a un vertex, seleccionado
+
+
+			_lo cuál, permitirá que el vertex, seleccionado tome un rescalado similar a la media de la escala	
+
+			de los vertex, contiguos ha éste		
+
+
+		_Clear Loose:
+			
+			_ésta opción deshace los cambios realizados por la opción de "Mark Loose"
+
+
+		_Mark Root:
+
+			_ésta opción nos permitirá indicar el vertex, principal ó inicial del sistema, por lo general será
+
+			el primer vertex, que creamos y ésta por lo general deberá estar en el centro del viewport 3d, para
+
+			que así, se realize correctamente el reflejado del sistema a través, del modificador mirrow
+
+
+			NOTE: no es recomendable cambiar deliveradamente el vertex roots, ya que ésto puede traer resultados
+
+			inesperados y no siempre deseables
+
+
+		_Equialize Radi:
+
+			_esta opción nos permitirá equiparar ó hacer simétrico un rescalado hecho previamente sobre la
+
+			geometría creada a partir de un vertex, seleccionado
+
+
+			_de ésta manera, un vertex, al cuál, hemos rescalado a través, del shortcut, "Control + A and Drag",
+
+			pero de forma restringida, es decir, en sólo una ó dos cordenadas
+
+
+			_y es así, a través, de la opción de "Equialize Radi", que podemos hacer que el respectivo escalado
+
+			que antes estaba aplicado sobre una ó dos cordenadas; ahora pase ha estar en las tres cordenadas
+
+
+
+
+

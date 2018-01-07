@@ -1,0 +1,353 @@
+
+
+
+Desarrollo en modo de trabajo, navegación y desarrollo MAYA (para esto abrimos el welconscreen, haciendo click sobe icono de blender 
+en la pestaña de arroba de blender í al inicial el programa)
+
+
+
+
+viewer:
+
+	-vistas ortogonales ó axonométricas (funcionan en modo "object mode")
+
+		-from view: Control +1
+
+		-back view: Control + 2
+
+		-left view: Control + 3
+
+		-right view: Control + 4
+
+		-top view: Control + 5
+
+		-buttom: Control + 6
+
+		-prespective view: Control + 7
+
+		-camara view: Control + 0
+
+	-1 viewer/4 viewer: Spacebar
+
+	-maximize panel: Shift + spacebar
+
+
+	-logic editor: Shift + F2
+
+	-node editor: Shift + F3
+
+	-phython console: Shift + F4
+
+	-3D view: Shift + F5
+
+	-graph editor: Shift + F6
+
+	-properties: Shift + F7
+
+	-video secuence editor: Shift + F8
+
+	-outliner: Shift + F9
+
+	-UVImage editor: Shift + F10
+
+	-text editor: shift + F11
+
+	-dope sheet: Shift + F12
+
+
+
+
+modos de edición:
+
+
+	-object/edit polygon: tab
+
+
+
+
+menus contextuales:
+
+	-sub elements: "mouse right click"
+
+	-specials: Control + Mouse right + click
+
+	-orientation: Shift + Mouse right + click
+
+	-add: Shift + A
+	
+	-snap: Control + Shift + A
+
+		-snap vertex: V
+
+		-snap: edges: C
+
+	-set origin: Control + shift + alt + C
+	
+	-vertices edit: Control + V
+
+	-edge edti: Control + E
+
+	-faces edit: Control + F
+
+	-select similar: Shift + G (en modo edit poly)
+	
+	-marge: Alt + M (modo edición poligonal)
+
+	-UV Mapping: U (en modo de edición poligonal)
+
+	-constrain: Control + Shift + C (en modo object) 
+
+	-insert keyframes: S (en modo object) 
+
+	-redraw timer: Control + Alt + T
+
+	-preferences: Control + Alt + U
+
+	-apply: Control + Alt + A
+
+	-parent: P
+
+	-clear track: Alt + T
+
+	-make local: L
+
+	-seled linked: Shift + L
+
+	-search: Control + spacebar
+
+	-convert to: Alt + C (en modo object (con una mesh seleccionada) (para desvincular splines, de mesh creadas a través de nurbs extrude)
+
+
+
+Tools:
+
+	knife: K + mouse left + click, en el canvas
+
+
+
+
+modelado poligonal:
+
+
+	-translate axis: W
+
+	-scale axis: E
+
+	-rotate axis: R
+
+		-si hace "mouse left click + draw", sobre uno de los handles, este hará una escalado atrayendo los elementos hacia ese axis
+
+		-si hace "shift + mouse left click + draw", sobre uno de los handles, este hará un escalado proporcional de todo lo seleccionado
+
+		-si activamos una herramienta (traslate,scale,rotate), y hacemos "mouse left click + draw", sobre cualquier axis, podemos escribir en "keyboard/number",
+		
+		el grado de escalado ó transformación que queremos, ej: escalar al "0.1", porciento %, (tipeamos "0.1") del tamaño original, sin soltar la herramienta 
+
+
+	-repeat action: F3 (repetir la última acción realizada)
+
+	-extender selección: Shift + (.)
+
+	-contraer seleccion: Shift + (,)
+
+	-select/de-select all: Control + A/A
+
+	-select paint sub elements: shift + Q (en el modo edit polygon)
+
+	-hide selection: Alt + H
+
+	-show hide: Control + Shift + H
+
+	-proportional edit mode On/Off: O
+
+		-curve mode: Shift + O (esta opción permite cambiar el modo de la curva)
+
+	
+	-edge loops: Control + R, (para agregar más de un edge loops, hacemos "scroll mouse", antes de soltar ó aplicar la tool)
+
+	-extrude edges: Alt + X	
+
+	-fill holes: seleccionamos los edges, que conforman el área abierta: Alt + F
+
+	-isolate selection: Shift + I
+
+
+
+
+
+
+
+modo object:
+
+
+	-subdivision en niveles: en nodo de edición poligonal Control + 1,2,3,...
+
+	-combine mesh/join: Control + J
+
+	-duplicar mesh: Alt + D
+
+	-selección de recorte: Alt + B
+
+
+animacion:
+
+	play timeline: Alt + V
+
+
+
+
+
+modo de menus contextuales de nodos:
+
+	
+	para activar esta opción vamos al panel de preferences, shortcut Control + Alt + U, y vamos a la sección de "Addons", en el buscados escribimos "pie",
+
+	así, nos saldrá la opción de "User Interface: Pie Menus: Oficial", habilitamos esta opción, así quedarán activos todos los menús contextuales de nodos,
+
+	advertencia!, esta opción desabilita algunos comando y shortcuts convencionales que utilizabamos para hacer otras funciones de la palicación, aunque la mayoría
+
+	de funciones ya las hacen los mismos menues contextuales
+
+
+
+	1_menú modulos: (tab) "mode", (apacerán todos los módulos del programa con sus shortcuts, en el path numérico del teclado, ej: 1,2,3...)
+
+		1.1_texture paint: tab/1
+
+		1.2_object mode: tab/4
+
+		1.3_edit mode: tab6
+
+		1.4_vertex paint: tab/7
+
+		1.5_sculp mode: tab/8
+
+		1.6_weight paint tab/9
+
+
+	2_texture y visualización: (Z) "shade"
+
+		2.1_shade smooth: Z/1
+
+		2.2_solid: Z/2
+
+		2.3_shade flat: Z/3
+
+		2.4_bounding box: Z/4
+
+		2.5_wareframe: Z/6
+
+		2.6_material: Z/7
+
+		2.7_texture:  Z/8
+
+		2.8_rendered: Z/9
+
+
+	3_view/camara: (Q) "view"
+
+		3.1_camara: Q/1
+
+		3.2_bottom: Q/2
+
+		3.3_perse/ortho: Q/3
+
+		3.4_left: Q/4
+
+		3.5_right: Q/6
+
+		3.6_front: Q/7
+
+		3.7_top: Q/8
+
+		3.8_back: Q/9
+
+
+	4_sistemas de anclas: (.) "pivot"
+
+		4.1_individual origins: ./2
+
+		4.2_bounding box center: ./4
+
+		4.3_3D cursor: ./6
+
+		4.4_active element: ./7
+
+		4.5_median point: ./8
+
+	
+	5_Mnipulator (Control + Spacebar) "handles"
+
+		5.1_Scale: Control + Spacebar + 2
+
+		5.2_Translate: Control + Spacebar + 4
+
+		5.3_Rotate: Control + Spacebar + 6
+
+		5.4_Manupulator: Control + Spacebar + 8
+
+		
+
+
+
+
+
+modo sculping: 
+
+
+
+(es aconsejable agregarle a la mesh, a modelar un modificador "multi-resolution"), 
+
+para que así, fluya rápidamente de una forma no destructiva la cuál nos permitirá obtener una mesh, low poly y, a la vez una mesh high, poly
+
+
+
+
+	-graduar la brush/tamaño y dureza: B
+
+	-graduar el fallout brush: Shift + B
+
+	-gradual zize brush: [/]
+
+	-edición de la brush por grados: Control + B
+
+	-Stroke Method: Mouse right click, sobre el camvas
+
+	-Smooth Stroke: Shift + T
+
+
+	-brushes
+
+		-brush standad: D
+
+		-smooth brush: S
+
+		-move/elastic: G
+
+		-inflate: I
+
+		-pinch/delinear out: P
+		
+		-creas/delinear In: Shift + C
+
+		-layers: L
+
+		-clay: C
+
+		-flate: Shift + T
+		
+		-
+
+
+	-edición por paint: Shift + Q
+
+	-subdivision Up/Down: Pag Up/Down
+
+	
+
+
+
+
+
+
+	

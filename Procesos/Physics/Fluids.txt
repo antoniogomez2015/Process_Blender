@@ -1,0 +1,23 @@
+
+
+Agua/Water:
+
+
+	1_creamos la mesh, con la forma general que representará el fluido
+
+		1.1_luego vamos a properties/Physics/Fluid/Fluid
+
+
+	2_creamos la mesh, con la forma de un cubo contenedor del fluido
+
+		2.2_luego vamos a properties/Physics/Fluid/Domain (para crear así, un elemento pasivo de resistencia)
+
+
+
+
+2_creamos la mesh, con la forma de contenedor del fluido
+
+		2.2_luego vamos a properties/Physics/Fluid/Domain (para crear así, un elemento pasivo de resistencia)
+
+
+	

@@ -1,0 +1,244 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	General:
+	________
+
+	_tenemos la posibilidad de crear topologia y retopología rápidamente en blender para lo cuál, debemos de
+
+	hacer una serie de pasos y procesos que posteriormente nos permitirán hacer un retopología de un cabeza
+
+	humana entre otros en tan sólo unos minutos
+
+
+	_de ésta manera, primeramente en la escena debemos de tener cargado ó creado un modelo ó motivo en el cuál,
+
+	deseamos hacerle la retopología ó crear geometría auxiliar sobre éste
+
+
+
+	Addon:
+	______
+
+	_B-Surface, es un addon, que ha viene preinstalado en blender, más éste no biene activado de ésta manera,
+
+	tendremos que activar éste de forma manual
+
+
+	_para lo cuál, debemos de abrir la preferencia de la aplicación shortcut, "Control + Alt + U", en la cuál,
+
+	podremos ir a la sección de addons, y buscar el addon, b-surface, activar éste y guardar las preferencias
+
+	del programa para que así, éste esté disponible posteriormente
+
+
+
+	Alignnement:
+	____________
+
+	_también, es aconsejable trabajar al centro del grid y viewport 3d, para que así, podamos trabajar 
+
+	posteriormente de forma siétrica entre otras ventajas
+
+
+	_para lo cuál, debemos de colocar el cursor en el centro del grid, para lo cuál, debemos de abrir el menú
+
+	de "Snap", shortcut, "Shft + S", en el cuál, debemos de escoger la opción de "Cursor To Center"
+
+
+	_para posteriormente también, alinear al centro la geometría ha topologizar para lo cuál, debemos de abrir
+
+	el menú de "Set Orion", shortcut, "Shift + Control + Alt + C", en el cuál, dispondremos de diferentes
+
+	opciones como
+
+
+		_"Orion To 3D Cursor"
+
+
+		_y "Geometry To Orion"
+
+
+	_de ésta manera, podremos alinear todos los elementos al centro del grid, y viewport 3d
+
+
+
+	PolyMesh Object:
+	________________
+
+	_y para crear la retopología debemos crear un nuevo objeto de tipo polymesh, ya que blender no nos permite
+
+	crear geometría de la nada
+
+
+	_de ésta manera, debemos de crear un objeto de tipo polymesh, y hacer éste vacío ó eliminar todos sus
+
+	sub-elementos para lo cuál, debemos de hacer "Shift + A/Add/Mesh/Plane"
+
+
+	_para a continuación con éste nuevo elemento el cuál, podremos renombrar en el outliner, como "Retpologia",
+
+	entrar a su modo de edición, shortcut, "Tab"
+
+
+	_para a continuación seleccionar todos sus sub-elementos, shortcut, "A/A", y proceder ha borrar éstos
+
+	shortcut, "Supr"
+
+
+	_para que así, el objeto de tipo polymesh, quede vacío y listo para ser llenado por la geometría que
+
+	conformará la topología del motivo ó character, posteriormente
+
+
+
+	Shrinkwrap:
+	___________
+	
+	_para posteriormente al objeto de topo polymesh, que hemos creado y debajo vació previamente ahora lo 
+
+	debemos de seleccionar y aplicar un modificador de tipo "Shringwarp", ya que éste addon, trabaja 
+
+	necesariamente con éste modificador
+
+
+	_y en las opciones de "Target", de éte modficador seleccionaremos el objeto de tipo polymesh, el cuál, se
+
+	corresponderá con el elemento ha retopologizar
+
+
+	_para que así, ésta futura geometría se siña y siga la morfología del motivo ó character, respectivamente
+
+
+
+	Realtime:
+
+	_así, como también, en la parte superior del modificador "Shringwrap", debemos de activarle el cuarto ícono
+
+	de "Cage", (que es como un triángulo invertido y el otro que son cuatro vertex) para que así, éste siempre 
+
+	se actualize y muestre los cambios realizados en tiempo real
+
+
+	
+	Display:
+
+	_para por último con el objeto de tipo polymesh, seleccionado ir ha "Properties/Object Object/Display", y
+
+	allí, activar la opción de "X-Ray", para que así, podamos ver a través, de él posteriormente
+
+
+
+
+	Grease Pencil:
+	______________
+
+	_y para la creación de la geometría el sistema hace uso de la herramienta de grease pencil, a través, 
+
+	podremos indicar a través, de sus brushes, donde y como deseamos la geometría y topología resultante
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo polymesh, que hemos dejado vacío y renombrado en
+
+	éste caso como "Retopologia", y con éste seleccionado entrar a su modo de edición shortcut, "Tab"
+
+
+
+	New Layer:
+
+	_para a continuación ir a las propiedes del viewport 3d, shortcut, "N", y ubicar en la parte superior las
+
+	opciones de "Grease Pencil Layers", las cuáles, debemos de activar y así, como también, darle a la opción
+
+	de "Mew", 
+
+	
+	_para que así, se cree una nueva layer, de grease pencil, en la cuál, podremos trabajar y, a su vez, en las
+
+	opciones del panel greae pencil layer, debemos de pasar la opción de "Scene", ha "Object", para que así,
+
+	el grease pencil, se siña a las superficies poligonales sobre las cuáles, éste pase
+
+
+
+	Grease Pencil Tab:
+
+	_para a continuación en el viewport 3d, al panel de herramientas shortcut, "T", en el cuál, debemos de 
+
+	ubicar la pestaña de "Grease Pencil", 
+
+
+	_en la cuál, debemos de ubicar las opciones de "Stroke Placement", y cambiar la opción de "Cursor", por la
+
+	opción de "Surface", para que así, el brush, activo contemple y se seña a las respectivas superficies en
+
+	el viewport 3d 
+
+
+
+
+
+	Ajuste y Suavizado de Geometría Resultante:
+	___________________________________________
+
+
+	Smooth:
+
+	_posteriormente de haber creado el proceso de topología de una área determinado podremos también, suavizar
+
+	ésta para que así, ésta se integre y quede menos forzada en determinado casos
+
+
+	_para lo cuál, podremos hacer selecciones de sus-elementos respectivo con "C", ó "B", y otros métodos de
+
+	selección de blender
+
+
+	_para a continuación abrir el menú "Special", shortcut, "W", en el cuál, podremos seleccionar la opción de
+
+	"Smooth", la cuál, suvizará los sub-elementos seleccionados eliminando así, tensiones, deformaciones y 
+
+	demás imperfecciones existentes en la geometría seleccionada
+
+
+	_más ésta acción ó comando lo podemos aplicar múltiples veces, a través, del shortcut, "Shift + R", el 
+
+	cuál, repite la última acción aplicada; hasta lograr el resultado ó apariencia deseada
+
+
+
+	Propportional Edit:
+
+	_ésta opción nos permitirá hacer edición grupal de áreas determinadas para lo cuál, debemos primeramente
+
+	seleccionar los sub-elementos deseados y a continuación debemos activar ésta herramienta, shortcut, "O"
+
+
+	_más para poder utilizar éste modo de edición debemos de utilizar el modo de "Translation", de 
+
+	sub-elementos shortcut, "G + Mouse and Drag"
+
+
+		_más en el modo de "Translate/G", podremos también, graduar el rádio de acción de éste modo a 
+
+		través, de "Mouse Croll Up/Down"
+
+
+	_y para variar los criterios de acción de ésta modalidad de edición podremos disponer de un shortcut,
+
+	"Shift + O"
+
+
+
+

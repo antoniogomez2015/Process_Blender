@@ -1,0 +1,90 @@
+
+
+
+
+	blender compositor Reroute node
+
+		https://www.youtube.com/watch?v=4yQc2zBM3gE
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Reroute Node:
+	_____________
+
+	_tenemos la posibilidad de organizar los trazados ó relaciones entre los nodos de ésta manera, podremos organización ó 
+
+	mejorar la visualización entre los nodos de una manera más estructurada
+
+
+	_así como también, aumentar las posibilidades de conexión ya que a través, de un punto de intercepción podremos sacar 
+
+	múltiples conexiones a otros nodos como si fuese un distribuidor de conexiones y direcciones
+
+
+	_de ésta manera, podremos agregar puntos de conversión y desviación para mejorar el ordenamiento entre la relación entre los
+
+	nodos y a su vez, aumentar las posibilidades de conexión y su interpretación
+
+
+	
+	Crear Reroute:
+	______________
+
+	_Shift + A/Add/Layout/Reroute
+
+		_por medio de éste comando a través, de el panel node editor, podremos agregar un nodo de tipo "Dot", el cuál, podremos
+		
+		mover a través, del shortcut, 
+
+
+			_"G and Drag" ó 
+
+
+			_Mouse Right Click
+		
+
+
+	
+	Crear Reroute Interactive:
+	__________________________
+
+		_de ésta manera, también, tendremos la posibilidad de crear dots, de forma interactiva para que así, podamos agregar
+
+		dots, en relación a las necesidades de conexión y complejodad del arbol ó tree, de nodos
+
+
+		_de ésta manera, podremos crear nodos de forma interactia entre un path, ó trazao entre dos nodos para lo cuál,
+
+		podremos aplicar la siguiente acción
+
+
+			_"Shift + Mouse Left Click and Drag"
+
+
+		_para que así, podamos hacer una línea transversal ó paralela sobre una trazado ó path, para que creemos un dot, en
+
+		el punto de intercepción donde hemos hecho "Shift + Mouse Left Click and Drag"
+
+
+		_para que así, se cree un nuevo dot, partiendo ó dividiendo el path, ó trazado entre ambos nodos de ésta manera, 
+
+		podremos mover y ajustar y conectar éste dot, que hemos creado en relación  nuestras necesidades
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

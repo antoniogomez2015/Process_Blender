@@ -1,0 +1,60 @@
+
+
+
+Dinamicas en Blender
+
+	
+	V2V y Lynda
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Fluid Fluid:
+____________
+
+
+
+	_más luego de haber creado un elemento y de convertir éste en un elemento contenedor ó domain, dentro del sistema de
+
+	fluidos de blender
+
+
+	_debemos ahora crear otro elementro el cuál hará de emisor del fluido dentro del sistema y del contenedor que hemos 
+
+	creado
+
+
+	_para lo cuál, debemos de crear un elemento de geometría en el viewport 3d, el cuál, debemos introducir dentro del 
+
+	elemento contenedor para que así, el fluido generado por éste se suscriba dentro del área del contenedor que hemos
+
+	creado y personalizado previamente
+
+
+	_de ésta manera, con el elemento que hará de emisor seleccionado vamos a las opciones de "Properties/Physics/", y
+
+	le damos a la opción de "Fluid"
+
+
+	_para que así, éste elemento sea parte del sistema de fluidos y nos aparescan las opciones de "Type", en la cuál,
+
+	escogeremos la opción de "Fluid"
+
+
+	_para que así, éste elemento se convierta en un emisor e fluidos dentro del sistema de fluidos
+
+
+	_teniendo en cuenta que la cantidad de fluido dentro del contenedor generado será en relación al tamaño del elemento
+
+	que hará de emisor en relación al tamaño del contenedor
+
+
+	_y posterior de haber hecho el cálculo de la simulación podría colocar éste elemento dentro de una nueva layer, de 
+
+	visualización en el viewport 3d, hsortcut "M", para que así, ésta layer, no nos ostaculize la visualización de la 
+
+	simulación después de haber calculado ésta
+
+

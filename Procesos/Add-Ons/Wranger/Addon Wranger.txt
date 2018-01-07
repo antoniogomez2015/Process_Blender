@@ -1,0 +1,223 @@
+
+
+
+
+	Blender 2.75: El addon Node Wrangle
+
+		hhttps://www.youtube.com/watch?v=SX9dtDqk1Rs
+
+
+sculpt_brushes
+
+B-Surfaces
+
+Import Export Images as Planes  | por defecto
+
+Import Export Sketchfab Exporter
+
+Mesh Bsurfaces  | por defecto
+
+Mesh F2  | por defecto
+
+Mesh Loop Tools  | por defecto
+
+Artis Paint Panel (revisar error)
+
+Commotion Master
+
+Stencil Widget Master
+
+Animation Node Master
+
+Molecular
+
+	Using The Molecular Addon In Blender
+		https://www.youtube.com/watch?v=Rd4gsO2U6No
+
+
+CubeSurfer
+
+	How to Mesh Particles with Blender using CubeSurfer
+		https://www.youtube.com/watch?v=ArVXkfXHDWg
+
+			Blender - How to create a Particle Based Audio Visualizer [HD]
+				https://www.youtube.com/watch?v=2KNO_laPA9s
+
+			WEIRD SH!T EP001 - Modifier Magic [BLENDER]
+				https://www.youtube.com/watch?v=j5WHEG9OtHo
+
+			Blender 2.74: Point Density Texture in Cycles [Tutorial/English/Feature/HD]
+				https://www.youtube.com/watch?v=9FV03stf6X0
+
+			Blender Tutorial: 9 Ways to Destroy Things
+				https://www.youtube.com/watch?v=wJFE2pb0Ri4
+
+
+Bevel Curve Tools v0.1 - Blender Addon
+	https://www.youtube.com/watch?v=xfOlvZNgDt0
+
+
+blender-sculpt-tools
+
+
+BLAM - the camera calibration 
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Wranger:
+	________
+
+	_éste nos permitirá automatizar muchas de las tareas en el panel node editor, en el modo "Render Cycles"
+
+
+	_éste addon, ya biene incluido en blender, de forma por defecto, el cuál, sólo tendremos que activarlo yendo a
+
+	las propiedades de blender, shortcut, "Control + Alt + U", y buscamos "Wranger", para que así, podamos ubicar
+
+	y activar éste addons
+
+	_en el cuál, a la hora de activar podremos ver en su parte inferior una opción desplegable la cuál, nos mostrará
+
+	una lista de shortcuts, los cuáles, debemos de utilizar para aplicar las ventajas de éste addon sobre los nodos
+
+	del panel "Node Editor"
+
+
+	_y posteriormente de haber activar éste addon, demos de darle a la opción de "Save Users Setting", para que así,
+
+	ésta configuración se mantenga y siempre esté disponible a la hora de abrir la aplicación
+
+
+	
+	Consideraciones:
+	________________
+
+	_para que éste addon, sea aplicable luego de haber activado dentro de la aplicación; es pasar al modo de 
+
+	renderización de "Render Cycles", así, como también, de seleccionar el motivo ó character, en el viewport, ó 
+
+	outliner, y posteriormente ir al panel "Node Editor", y allí, activar la opción de "Use Node", y es así, y sólo 
+
+	entonces que las opciones de éste addon, estarán visibles y utilizables
+
+
+	_de ésta manera, a partir de éste punto en el panel "Tool", shotcut, "T", del panel "Node Editor", shortcut, 
+
+	"Shift + F3", podremos ver una nueva tag, "Wranger", en la cuál, encontraremos todas las opciones de éste addon
+
+
+
+	Wranger Shortcuts: (En Node Editor Mode)
+	__________________
+
+
+		_Dots: Shift + Mouse Left Click and Drag
+
+			_podemos arrastrar el mouse, sobre un path, de conexión entre dos nodos para que así, el sistema genere 
+
+			un "Dot", el cuá, nos permitirá organizar mejor los elementos así, como otras funcionalidades
+
+
+		_Split Conexction: Control + Mouse Left Click and Drag
+
+			_podemos arrastrar el mouse, sobre un path, de conexión entre dos nodos para que así, el sistema elimine
+
+			el path, de conexión entre ambos nodos y así, ahora éstos queden de forma independiente
+
+	
+		_Tool Bar: Control + Spacebar
+
+			_éste nos mostrará todas las opciones del tal del addons, en una ventana modal más accesible
+
+
+		_Mix Node: Alt + Mouse Right Click and Drag
+
+			_debemos luego arrastrar hasta el nodo ha conectar para que así, se genere el mix node, conectado de 
+
+			ambos nodos como inputs
+
+
+		_Suiches In Mix Nodes: Alt + S 
+
+			_con el nodo "Mix", seleccionado ó ambos nodos inputs, se intercambiarán los inputs, de posición
+
+
+		_Intercambiar Node: Shift + S
+
+			_podremos intercambiar un nodo por otro sin tener que desconectar éste lo cuál, es muy práctico y rápido
+
+
+		_Frame: Control + J
+
+			_podemos hacer secciones de grupos rápidamente de ésta manera, podremos mover nodos más fácilamente e
+
+			identificarlos, renombrar éstas secciones colorearlas, otros
+
+
+		_Output: O | Control + Shift + Mouse Left Click, (sober un nodo determinado)
+
+			_podremos conectar un nodo al nodo de salida ó "OutPut", fácilmente
+
+			_la opción de "Control + Shift + Mouse Left Click", es más avanzada por que permite conectar cualquier
+
+			tipo de nodo al nodo de salida y recrea todos los nodos intermedios necesarios, especialmente útil para
+
+			ver partes de efectos de forma independiente, otros
+
+
+		_Smart Conexction: Control + Mouse Right Click and Drag
+
+			_debemos luego arrastrar hasta el nodo ha conectar para que así, se genere la conexión entre ambos nodos
+
+			la cuál, se realizará por el tipo de datos más común entre ambos nodos, así, si ambos nodos ha conectar
+
+			no tienen algún tipo de dato en común, el sistema generará los nodos que hayan falta entre éstos para 
+
+			lograr la conexión lo cuál, es especialmente útil y ahora mucho tiempo
+
+
+			_Smart Conexction Pro: Control + Shift + Mouse Right Click and Drag
+
+				_ésta opción es idéntica a la anterior más ésta nos preguntará que tipo de conexión deseamos 
+
+				realizar en relación a las conexiones posibles
+
+
+
+		_Texture Nodes: Control + T
+
+			_podremos agregar todos los nodos relacionados con carga una textura ó un shader, para lo cuál, sólo 
+
+			debemos de seleccionar el nodo de destino ó del material y con éste seleccionado aplicamos el shortcut
+
+
+		_Delete Nodes: Alt + X
+
+			_tenemos la posibilidad de borrar todos los nodos dentro del node editor que no estemos utilizando ó que
+
+			no estén conectados, dicha función nos pedirá confirmación para ejecutarse
+
+
+		_Images Reload:
+
+			_podremos recargar todas las imágenes refrescando así, sus estados, especialmente útil cuando hacemos 
+
+			cambios en edición de imágenes ó cambiamos éstas
+
+
+		_Curves/Normals Sinc: Shift + C
+
+			_de ésta manera, podremos seleccionar varios nodos de tipo curva y seleccionando como último nodo
+
+			de tipo curva al cuál, los otros nodos que seleccionamos priemro tomarán de éste la información de su curva
+
+			_ha modo de nodo padre, para posteriormente aplicar el shortcut
+			
+
+

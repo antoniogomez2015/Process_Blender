@@ -1,0 +1,118 @@
+
+
+
+Dinamicas en Blender
+
+	
+	V2V y Lynda
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Fluid Domain:
+_____________
+
+
+
+	_los domains, ó contenedores de fluidos disponen de las siguientes características y parámetros:
+
+
+
+	Bake (Req. Memory ...):
+
+		_el contenedor ó domain, es el único con la característica ó propiedad de poder lanzar la simulación de todo
+
+		el sistema de fluidos
+
+		
+		_de ésta manera, a través, del botón "Bake", podremos ejecutar con el cálculo de la simulación de fluidos
+
+
+		_así, al hacer "Bake". el sistema comenzará ha calcular la simulación y nos mostrará el proceso en una barra
+
+		de progreso en la parte superior de la aplicación a través, de porcentajes, y de ésta manera, podremos ver el
+
+		proceso del cálculo de la simulación como también, de cancelar ésta a través, de un botón "X", justo al lado 
+
+		de ésta barra de progreso de cálculo
+
+
+		_así, éste proceso de visualización durará en relación a diferentes criterios como la resolución del contenedor,
+
+		la duración de la simulación en la sección de "Domain/Time", y a la complejidad de elementos dentro del contenedor
+
+
+		_y por último, al terminar la simulación ésta nos se reproducirá automáticamente ni cuando se está calculando ni
+
+		después de haber terminado de hacer el cálculo de la simulación, de ésta manera, para visualizar la simulación 
+
+		posteriormente ha su cálculo, debemos mover el cabezal del tiemeline, hacia adelante y hacia atras para visualizar
+
+		el comportamiento y calidad de la simulación dentro del contenedor, también, podremos pulsar "Play", en el timeline,
+
+		shortcut "Alt + A"
+
+
+		_y posteriormente de hacer el cálculo podremos ver que el contenedor habrá desaparecido por que éste se ha 
+
+		convertido en el fluido mismo resultate posteriormente de hacer el cálculo
+
+
+	
+
+
+	Resolution:
+
+		_ésta opción nos permite configurar la resolución que tendrá la "grilla", ó cuadrícula tanto de ancho, alto
+
+		y profundidad del contenedor de fluidos, (ha modo de Maya)
+
+
+		_así, podremos ajustar la resolución para la previsualización como para la del render final
+
+
+	Render Display:
+
+		_del mismo que en el paso anterior podremos también, seleccionar el modo de visualización disponiendo de entre
+
+		las opciones de;
+
+
+			Final:
+
+				_modo de visualización  de calidad más alta
+
+
+			Preview:
+
+				_modo de visualización  de calidad media
+
+
+			Geometry:
+
+				_modo de visualización de calidad baja
+
+
+	Time:
+
+		_ésta opción nos permite configurar la duración que tendrá la simulación dentro ó en relación a la duración del 
+
+		timeline
+
+
+	Path:
+
+		_ésta opción es muy importante ya que permite indicarle al sistema la ruta de salida donde será volcado el 
+
+		cálculo frame to frame
+
+		
+		_es recomendable crear un directorio dentro de la estructura de archivos de nuestro proyecto y así, dentro de éste
+
+		directorio crear sub-directorios para no sobre escribir cálculos previos
+
+
+
+

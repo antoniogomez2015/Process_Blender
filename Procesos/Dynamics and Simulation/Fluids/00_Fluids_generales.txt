@@ -1,0 +1,57 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Características:
+	________________
+
+		_los fluidos nos permitirán realizar simulaciones y animaciones de líquidos y compuestos complejos
+
+		para lo cuál, debemos primero convertir ha un objeto de tipo mesh, en un objeto dinámico de tipo 
+
+		"fluid", para luego configurar éste ha nuestras necesidades
+
+
+
+	Externalización:
+	________________
+
+
+		_las simulaciones de fluidos no se guardan dentro de la escena de blender, si no en una ruta externa
+
+		en nuestro disco duro
+
+
+		_por ende es altamente recomendable ir a las opicones del objeto proxi, en "Properties/Physics/",
+
+		e indicar una ruta personalizada donde se guardarán todas las simulaciones realizadas
+
+
+		_también, hay que tener en cuenta que si guardamos todas las simulaciones dentro de un mismo directorio
+
+		éstas se irán sobre escribiendo cada vez que repitamos la simulación, éstas opciones sólo estarán 
+
+		disponibles en las opciones de "Physics/Domain"
+
+
+	
+	Simulación:
+	___________
+
+	
+		_la duración de la simulación tependerá de la duración del timeline, para ésto debemos configurar las
+
+		propiedades en "Properties/Render", así, podremos ajustar la duración del timeline, de ésta manera es
+
+		altamente recomendable para los procesos de pruebas de simulación colocar un duración del timeline, en
+
+		unos rangos en los 100, frames, así, como también ajustar el rate, de animación entre 24f, a 30f 
+

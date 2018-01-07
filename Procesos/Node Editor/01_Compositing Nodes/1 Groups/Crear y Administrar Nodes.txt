@@ -1,0 +1,169 @@
+
+
+
+
+	Introduction to Blender's Node Groups
+
+		https://www.youtube.com/watch?v=57YjX3nfb8Q
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Crear y Administrar Nodes:
+	__________________________
+
+	_ésta opción nos permitirá poder crear grupos de nodos y emcapsularlos dentro de un sólo nodo ha modo de grupo ha modo de
+
+	"Compounds", de "Softimage/ICE"
+
+
+	_de ésta manera, podremos crear nodos complejos y personalizados de procesos completos e incluso tener éstos grupos de nodos
+
+	disponibles para otros proyectos
+
+
+	_ya que a través, de los grupos de nodos podremos intercarmbiar nodos con otros proyectos por medio de las opcionces de "Link",
+
+	y "Append", de ésta manera, podremos importar ó relacionar grupos de nodos creados previamente en un proyecto a un proyecto 
+
+	determinado
+
+
+
+	Node Grups:
+	___________
+
+
+	NOTA: los nodos de render entre otros no son admitidos en el proceso de grupos dentro de blender/node editor/compositing
+
+
+
+	_de ésta manera, para crear un grupo debemos de seleccionar los nodos que deseamos sean parte del node group, y una con vez
+
+	con los nodos respectivos seleccionados dispondremos de dos opciones para la creación de un grupo
+
+
+		_Shift + A/Add/Group/Make Group
+
+			_para que así, un nuevo grupo sea creado a partir de los seleccionados
+
+
+		_Control + G
+
+			_para que así, un nuevo grupo sea creado a partir de los seleccionados
+
+
+
+	_de ésta manera, podremos crear estructuras complejas de nodos donde expresemos procesos dentro de otros procesos ya que 
+
+	podremos crear nodos dentro otros nodos
+
+
+
+
+	Navegar entre Grupos:
+	_____________________
+
+	_luego de haber creado un nodo podremos navegar entre nodos ó entrar y salir dentro un nodo respectivamente para lo cuál,
+
+	dispondremos del shortcut
+
+
+		_Tab | Tabulador
+
+
+	_para que así, luego de haber creado un nodo podamos salir de dentro de éste y podamos posteriormente renombrar el grupo 
+
+	con un nombre descriptivo
+
+
+	_así, como volver ha entrar en éste y realizar las conexiones tanto de entrada como de salida según la lógica con la que se
+
+	ha consevido éste node group
+
+
+
+
+	Append | Link:
+	______________
+
+	_también, tendremos la posibilidad de importar ó relacionar grupos previamente creados dentro de proyecto más recientes 
+
+	de ésta manera, podremos avanzar mucho más rápido y realizar proyectos más estables al tener la posibilidad de estandarizar
+
+	procesos en nodos ya pre construidos
+
+
+	_de ésta manera, podremos importar ó relacionar nodos ha un proyecto nuevo para lo cuál, debemos de ir al menú "File", 
+
+	shortcut "Shift + F1"
+
+
+	_para que así, tendamos a disposición las opciones de 
+
+
+		_"Append"
+
+		_"Link"
+
+
+	_a través, de las cuáles, podremos navegar a través, del explotador de archivos de blender, hasta el respectivo proyecto 
+
+
+		_"ProjectName/Node Tree/NodeGroupName"
+
+
+	en el cuál, hemos guardado los node groups, a las cuáles, deseamos acceder para que así, podamos importar ó relacionar éstos
+
+	dentro de nuestro proyecto
+
+
+	_y una vez hemos importado ó relacionado un node group, ha nuestro proyecto debemos hacer de éste para lo cuál, debemos de
+
+	estar en el panel "node editor/composite", para que así, podamos aplicar el shortcut
+
+
+		_"Shift + A/Add/Group/"
+
+
+	_para que así, los nodos que hayamos importado ó relacionado ha nuestro proyecto ahora aparezcan en la lista dentro del tag,
+
+	de node group, y podamos hacer uso de éstos en nuestras composiciones
+
+
+
+
+	UnGroup:
+	________
+
+	_más también, cuando hemos importado ó relacionado un grupo y deseamos incorporarlo dentro de otro proceso el cuál, no es
+
+	compatible con toda la lógica con la cuál, fué creado el nodo importado ó relacionado tendremos la posibilidad de deshacer
+
+	el nodo importado ó relacionado 
+
+	
+	_para que así, el nodo importado ó relacionado desaparezca en su conformación como node group, más su contenido de sub-nodos
+
+	quede en el panel node "editor/compositing", y podamos disponer de esa configuración de nodos que es la que nos serve
+
+
+	_para lo cuál, debemos de estar fuera del node group, respectiva ha desagrupar shortcut, "Tab", y ua vez allí, dispondremos
+
+	de dos opciones para desagrupar un node group
+
+
+
+		_Shift + A/Add/Group/UnGroup
+
+			_para que así, el respectivo node grup, seleccionado sea desagrupado
+
+
+		Alt + G
+
+			_para que así, el respectivo node grup, seleccionado sea desagrupado
+
+

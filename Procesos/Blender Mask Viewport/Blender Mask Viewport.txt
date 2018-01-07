@@ -1,0 +1,188 @@
+
+
+
+	Introduction to Masking in Blender - BlenderVFX.com
+
+		https://www.youtube.com/watch?v=gvoZSVkazd0
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	UVMap Editor:
+	_____________
+
+	_luego de haber creado una escena con los elementos deseados debemos de hacer render de ésta, shortcut, "F12", para que
+
+	así, podamos ir al panel uvmap editor, shortcut, "Shift + F10"
+
+
+	_para que así, podamos seleccionar el render realizado en la sección inferior del panel uvmap editor en la sección 
+
+	de "render result", y demás archivos, en caso de que no lo muestre por defecto ó de que hayan muchas texturas cargadas ó
+
+	creadas en el proyecto respectivo
+
+
+	_para a continuación en la parte inferior del panel uvmap editor, ir a las opciones de "mode", por defecto ésta opción estará
+
+	en la opción de "View", la cuál, debemos de cambiar ha "Mask", para que así, podamos generar un máscara sobre el motivo deseado
+
+
+	_para que así, podamos ir creado puntos ó vertex, que conformarán la máscara en el perímetro de un motivo para lo cuál, debemos
+
+	de ir haciendo 
+
+
+
+		Crear Máscaras:
+		_______________
+
+
+		_"Mouse Left Click + Control"
+
+			_para de ésta manera ir creando puntos ó vertex, e ir conformando la respectiva máscara
+
+
+		_"Mouse Left Clicck + Control and Deag"
+
+			_más si vamos arrastrando el mouse, mientras vamos creando los puntos ó vertex, éstos se crearán dejando
+
+			un handle, en cada vertex, y a su vez, éstos crearán los paths, ó trayectorias de forma curvas ha modo
+
+			besier y no linear, para que así, podremos posteriormente controlar la curvatura de la spline, a través,
+
+			de los handles, que se han creado
+
+
+		_más para agregar nuevos vertex, sober un mask, existente debemos aplicar el siguiente shortcut
+
+
+			_"Mouse Left Click"
+
+				_sobre un path, ó trazado de la máscara entre vertex, y vertex, para que así, un nuevo vertex, 
+
+				sea agregado en ese respectivo punto donde se hizo mouse left click
+
+
+
+
+		Cerrar Máscaras:
+		________________
+
+
+		_más para cerrar máscaras debemos de aplicar el shortcut
+
+
+		_"Alt + C"
+
+			_para que así, la máscara con el último vertex, seleccionado sea cerrada automáticamente
+
+
+
+		Mask Feather:
+		_____________
+
+		_más también, tendremos la posibilidad de hacer "feather", sobre las máscaras realizadas incluso sobre vertex, 
+
+		independientes para lo cuál, debemos de apllicar el siguiente shortcut
+
+
+			_"Shift + Mouse Left Click"
+
+				_para que así, aparezca otro contorno de color verde a través, del cuál, podremos hacer ajustes
+
+				de feather, sobre la máscara resultante
+
+
+			_"Alt + S"
+
+				_más para escalar feather, dispondremos de ésta comando automatizado
+
+
+
+	
+
+
+
+
+
+
+	Node Editor:
+	____________
+
+	_primero debemos abrir el node editor para lo cuál, podremos expander hacia arriba el área del timeline, para que así,
+
+	podamos sustituir ésta por el área del node editor, a través, del shortcut, "Shift + F3"
+
+
+	_para posteriormente ir a la parte inferior del panel node editor y allí, activar las opciones de "Use Nodes", y la opción
+
+	de "Backdrop"
+
+
+
+	_Shift + A/Add/Outout/Output File
+
+		_a través, de ésta nodo podremos exportar la resultado del proceso posteriormente
+
+
+	_Shift + A/Add/Output/Viewer
+
+		_a través, de éste nodo podremos visualizar el resultado del proceso directamente en el node editor ha modo de fondo
+
+
+
+	_Shift + A/Add/Input/Mask
+
+		_para que así, podamos buscar entre las máscaras disponibles en el campo de máscaras de éste nodo
+
+
+
+	_Shift + A/Add/Color/Mix
+
+		_para que así, por ejemplo podamos conectar la salida del nodo "Render Layers/image", a la entrada del nodo "Mix/Image"
+
+
+		_y a su vez, la salida del nodo "Mask/Mask", e la entrada del nodo "Mix/Fac"
+
+
+		_y posteriormente la salida del nodo "Mix/image", a la entrada del nodo "Viewer/Image"
+
+		
+		_de ésta manera, podremos el máscara aplicada a la imágen del render, en algunos casos será necesario invertir el
+
+		sentido de la máscara para lo cuál, podríamos ir al panel uvmap editor y abrir el panel propiedades shortcut, "N",
+
+		y allí, ir hasta las opciones de "Mask/Opacity", y allí, darle al ícono de invertir, de ésta manera, habremos optenido
+
+		un matte, del motivo
+
+
+
+	_Shift + A/Add/Color/Invert
+
+		_más si agregamos luego del nodo "Mix", un nodo de "Invert", crearemos un matte, perfecto del motivo el cuál, podremos
+
+		utilizar para un sin número de procesos de producción
+
+
+
+
+	Animation Mask:
+	_______________
+
+	_más también, tendremos la posibilidad de animar máscaras para los casos de correcciones de elementos ó secuencias animadas
+
+	para lo cuál, debemos de seleccionar una máscara y con éste ó un vertex, de ésta seleccionado y aplicar el shortcut, "I",
+
+
+	_para posteriormente avanzar en el tiempo y modificar la forma de la máscara en relación al movimiento del motivo y de ésta
+
+	manera, seguir agregando keyframes, y animar así, la respectiva máscara a través, del tiempo
+
+
+
+

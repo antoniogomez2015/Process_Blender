@@ -1,0 +1,94 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Output Setting:
+	_______________
+
+	_lo primero que debemos de saber ó averiguar es las características del clip, ha trackear para que así, haya correspondencia
+
+	entre el clip, analizado y trackeo resultante en cualquiera de sus aplicaciones
+
+
+	_ya que de lo contrario habrán defaces e incoherencia entre los puntos de referencia así, de las perspective resultante entre
+
+	otros factores
+
+
+	_de ésta manera, debemos de transpolar las características del clip, ha trackear con la configuración de la aplicación de ésta
+
+	manera, debemos de ir ha
+
+
+		_"Properties/Render Render/Dimensions"
+
+
+	_y allí, indicar las mismas dimensiones del clip, ha tracker así, como también, es necesario indicar el "frame rate", ó a que
+
+	cantidad de fotogramas fue grabao ó creado el clip, ó secuencia de imágenes ha trackear
+
+
+	_así, como también, debemos al timeline, y allí indicar en las opciones de "Start/End", la duración exacta del clip, para que
+
+	tracking, no tenga inconvenientes de frames, vacíos al llegar al final del análisis lo cuál, condicionará el resultado
+
+
+	más también, en el panel 
+
+
+		_"Movie Clip Editor/Properties (N)/Footage Settings, Footage Information" 
+
+
+	_dispondremos de más opciones a tra´ves, de las cuáles, podremos controlar de forma más eficiente el material ha analizar
+
+
+
+
+
+	Movie Clip Editor Tracking Settins:
+	___________________________________
+
+	_así, como también, tendremos la posibilidad de indicar las características tanto de la cámara, las dimensiones, el objetivo,
+
+	otros
+
+
+	_para lo cuál, estando en el panel "Movie Clip Editor", debemos de ir a su panel de propiedades yendo ha
+
+
+		_"Movie Clip Editor/Properties (N)/Tracking Settings"
+
+
+	_y allí, ir hasta las opciones de 
+
+
+		_"Camara/Camara Presset"
+
+
+	_así, como también, el aspecto de pixeles, centro óptico como también, la focal utilizada en milímetros incluso la distorsión
+
+	posible óptica
+
+
+
+
+	

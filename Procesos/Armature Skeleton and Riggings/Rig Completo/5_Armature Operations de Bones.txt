@@ -1,0 +1,125 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Armature Operations:
+____________________
+
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Split:
+	______
+
+
+	_esta opción permite romper el emparentamiento de un cadena ó chain, de una serie de bones,
+
+	seleccionados pero dentro del mismo armature, ó skeleton system
+
+
+	_esta opción nos permite hacer diferentes estructuras y cadenas específicas y una mejor 
+
+	administración de los bones y sus relaciones, jerarquías ó cadenas/chains
+
+
+	_así, en el modo "Edit Mode", podremos seleccionar los bones, deseados e ir ha 
+
+	"Armature/", y seleccionar la opción de "Split"
+
+
+	_shortcut: "Y"
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Fill Between Joint:
+	__________________
+
+
+	_esta opción nos permite juntar diferentes bones, ó cadenas/chains, sin la necesidad de 
+
+	emparentarlas esto nos ayuda a sincronizar ó hacer de forma de "snap", entre diferentes bones,
+
+	para otras funciones
+
+
+	_para esto, en el modo "Edit Mode", debemos seleccionar el efector de un bone, y el root, de otro
+
+	bone, luego, con ambos seleccionados vamos ha "Armature/Fill Between Joint"
+
+
+	_Shortcut: "F"
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Parent Bones:
+	_____________
+
+
+	_esta opción nos permite emparentar diferentes bones, y cadenas/chains, dentro de un mismo armature 
+
+	ó skeleton system por ej, en paso anterior hicimos snap, de bones, existentes y creados nuevos más 
+
+	ahora podemos unir estas cadenas que ahora se encuentran pegadas ó contiguas aunque separadas 
+
+
+	_para esto, primero seleccionamos el bone, "hijo", que por lo general siempre es el primer bone, de 
+
+	la siguiente cadena y, luego seleccionamos el bone, "padre", que por lo general es el útimo bone,
+
+	de la primera cadena
+
+
+	_luego con ambos bones, deseados seleccionados vamos ha "Armature/Parent/Make", luego seleccionamos 
+
+	"Conneted", así, al mover el bone, respectivo de la primera cadena veremos que también ahora responde 
+
+	el bone, respectivo de la siguiente cadena ahora emparentada
+
+
+	_ Shortcut: "Ccontrol + P", para así, abrir el panel "Make Parent", y seleccionamos la opción 
+
+	de "Connected"
+	
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Separate Bones:
+	_______________
+
+
+	_esta opción nos permite separa bones, y cadenas/chains, en diferentes armatures ó skeleton system
+
+
+	_para esto, en el modo "Edit Mode", seleccionamos los bones, ó cadenas deseados y vamos ha
+
+	"Armature/Separate Bones", así, los bones, y cadenas seleccionadas ahora conformarán otro armature,
+
+	en el explorer
+
+	_shortcut: "P"
+
+	
+
+
+
+

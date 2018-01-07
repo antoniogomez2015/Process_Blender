@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Selections:
+	___________
+
+	_éste consiste en un proceso de selección y borrado de lopps, de geometría de forma manual para ir así,
+
+	disminuyendo la cantidad de geometría poco a poco
+
+
+	_para lo cuál, primeramente debemos entrar ha "Edit Mode", shortcut, "Tag"
+
+
+	_en el cuál, debemos de entrar en el modode sub-elementos edges, shortcut, "Control + Tab", para que así,
+
+	se nos abra el panel contextual "Mesh Select Mode", en el cuál, debemos de selecciona la opción de "Edge"
+
+
+
+	Ring Loop:
+
+	_para posteriormente seleccionar un ring loops, ó selección de bordes ó aristas en paralelo las cuáles,
+
+	deseamos disminuir posteriormente, para lo cuál, debemos de seleccioanr un borde ó edge, ó arista para
+
+	a continuación hacer "Control + Alt + Mouse Right Click", sobre un edge, borde ó arista contigua a la que
+
+	tenemos seleccionada en el sentido u orientación al que deseamos se genere la selección de "Ring Edges",
+
+
+	_para que así, todos los edges, que estén contiguos al edge,  seleccionado  previamente den ahora también,
+
+	seleccionado
+
+
+
+	Checker Deselect:
+
+	_para a continuación reducir todos los edges paralelos y contiguos seleccionado a la mitad para lo cuál,
+
+	con todos los edges, seleccionado aún vamos ha "Select/", y allí, aplicamos la opción de "Cehcker Deselect",
+
+	
+	_para que así, la selección de ring edge, sea simplificada a la mitad lo que nos servirá posteriormente 
+
+	para disminución de geometría
+
+
+
+	Multi Edge Loops:
+
+	_para posteriormente convertir la selección de "Edge Ring", ahora en selecciones múltiples de "Edge Loops",
+
+	para lo cuál, con los edges, seleccionados vamos ha "Select/", y allí, aplicamos la opción de "Edge Loops",
+
+
+	_para que así, ahora cada edges, correspondiente al edge ring, sea convertido ahora en todo un edge loops,
+
+	independiente que serán lo que eleminaremos posteriormene
+
+
+
+	Delete Edge Loops:
+
+
+	_para a continuación con los edges, aun seleccionados aplicamos el shortcut, "Supr", para que así, aparesca
+
+	el menú contextual de "Delete/", en el cuál, debemos de seleccionar la opción de "Edge Loops", para que
+
+	así, sean eliminados los edge loops, seleccionado
+
+
+	_para que así, de ésta manera, vayamos simplificado la geometría pudiéndo así, repetir todo éste proceso
+
+	hasta simplificar la geometría hasta tener la  reducción de geometría deseada
+
+	

@@ -1,0 +1,133 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Bipedo Skeleton System:
+_______________________
+
+
+
+	Chains:
+	_______
+
+	
+	_para construir el arquetipo humano básico, necesitamos hacer las siguientes cadenas de bones, ó huesos
+
+	éstas son:
+
+
+	Spine/Neck/Head:
+	________________
+
+	_ésta es cadena principal por que es a través, de la cuál, se sostendrán y articularán las demás cadenas,
+
+	así, estará conformada por tres bloques bien distinguidos, el primer bloque será el princial el cuál, es el
+
+	lumbar siendo la primera vertebra el primer bone, ó root, de la estructura del "Armature", y el segundo 
+
+	bloque será la serie de bones, dorsales, y el siguiente bloque será el de las cervicales así, como también,
+
+	le serán agregados a continuación los bloques del cuello ó neck, y seguido y po último el bloque de la cabeza
+
+	ó head así, éstas cadenas estarán conformadas por los siguientes bones y en el siguiente orden:
+
+
+		_"Spine_lumbar1"
+
+			_"Spine_lumbar2"
+
+				_"Spine_lumbar3"
+
+					_"Spine_dorsal1"
+
+						_"Spine_dorsal2"
+
+							_"Spine_dorsal3"
+
+								_"Spine_dorsal4"
+
+									_"Neck1"
+										_"Neck2"
+											_"Head"
+
+		_"Hips"
+
+			_éste último apéndise sadrá del primer bone, creado de la espina dorsal ó columna 
+
+			y se proyectará hacia abajo hasta la cola del hueso sacro para que así, éste haga 
+
+			un balance en el movimiento de la columan con el contra movimiento de las piernas
+
+
+
+	Shoulder/Arm/Hand:
+	__________________
+
+	_ésta cadena estará dentro de la misma estructura de que la cadena principal de spine, más estará 
+
+	separada por bones, independientes la cuál, contendrá la chain, ó cadena del shoulder, ó hombro,arm,
+
+	ó braso forearm, ó ante braso y hand, ó mano y dedos de la misma
+
+	la cuál, tendrá la siguiente estructura y orden:
+
+
+		_"L_Escapule"
+
+			_"L_Humero"
+
+				_"L_Radio"
+
+					_"L_Hand_Metacarpo"
+
+						_"L_Finger_Pnky1,2,3" 
+
+						_"L_Finger_Anular1,2,3" 
+
+						_"L_Finger_Midle1,2,3" 
+
+						_"L_Finger_Index1,2,3" 
+
+						_"L_Finger_Tumb1,2" 
+
+
+
+	Leg/Toe:
+	________
+
+	_ésta cadena estará dentro de la misma estructura de que la cadena principal de spine, más estará 
+
+	separada por bones, independientes la cuál, contendrá la chain, ó cadena de la pierna ó leg, así,
+	
+	como a continuación la cadena ó chain, del toe/fie, ó foot, a cuál, tendrá la siguiente estructura 
+
+	y orden:
+
+
+
+		_"L_Femur"
+
+			_"L_Tibia"
+
+				_"L_Metatarso"
+
+					_"L_Finger_Toe"
+
+
+	
+
+
+
+
+

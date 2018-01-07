@@ -1,0 +1,224 @@
+
+
+
+	Tutorial Bake Ambient Occlusion - Español
+		https://www.youtube.com/watch?v=POktDfoBawY
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	General:
+	________
+
+	_tenemos la posibilidad de crear una nueva textute map, de ambient occlusion, la cuál, podremos utilizar para 
+
+	diferentes procesos como el del realismo en el proceso de composición y render
+
+
+	_así, como también, como parte del proceso de de pintura y detalles de sobreados para poses y retratos y
+
+	representaciones combinadas entre diferentes mapas personalizados en el panel "Texture Map"
+
+
+
+	Requerimientos:
+	_______________
+
+	_el motivo ó character, ya tendrá que tener creados el proceso de UVs, y por lo general ya tendrá que tener un
+
+	Diffuse Color Map
+
+
+
+	
+	Previsualización del AO:
+	________________________
+
+	_tendremos la posibilidad de visualizar en el viewport, 3d, como se vería ó quedaría el ambient occlsion map,
+
+	antes de clearlo, tanto su relación entre las luces y las sombras y su interacción con la iluminación si no
+
+	que también, sus detalles y características de resolución
+
+	
+	_de ésta manera, para previsualizar el AO, en el viewport, 3d, debemos de ir al panel viewport, 3d, en la parte
+
+	interior de "shading", seleccionar la opción de "Rendered", shortcut: "Shift + Z"
+
+
+	_para posteriormente ir al panel de "Properties/World World", y allí, bajar hasta las opciones de 
+
+	"Ambient Occlusion", la cuál, debemos de activar para que así, la AO, sea visible en el viewport 3d, en el modo
+
+	de "Rendered"
+
+
+	_de ésta manera, en la sección de "Ambient Occlusion", dispondremos de los valores de valores a configurar:
+
+
+		_Factor:
+
+			_el valor por defecto es "1", más podemos incrementar el efecto de AO, y que éste se vea más 
+
+			acusado en la escena más aumentaremos el "noise", ó gruido granulado el cuál, tendremos que 
+
+			corregir aumentando la resolución del AO, posteriormente
+
+
+		_Blend Mode:
+
+			_la opción por defecto es "Add", más podemos cambiar ésta por "Multiply", para aumentar el
+
+			efectos y hacer que éste se represente de una forma más acusada
+
+
+
+	AO Resolución:
+	______________
+
+	_cuando aumentamos la intensisdad del AO, por lo general aparecerá noise, o ruido granulado el cuál, debemos de
+
+	eliminar ó minizar yendo a las opciones de "Properties/ World World/Gather"
+
+
+	_de ésta manera, podremos colocar la opción de:
+
+
+		_Raytrace:
+
+			_ésta es la opción más recomendada, también, tendremos la opción de "Approximate"
+
+
+		_Samples:
+
+			_aumentando la cantidad de samples, en vez de "1", podríamos colocar "30", más ó menos para que
+
+			así variamos la cantidad de grano visible
+
+
+			NOTA: para objetos rugosos es comveniente dejar gran cantidad de ruido para aumentar el realismo,
+
+			sólo para objeto muy lisos es en los que se buscará elimninar todo el ruido
+
+
+	AO Map:
+	_______
+
+	_para el proceso del volcado de la información de la creación del AO Map, es necesario una nueva textura sobre la 
+
+	cuál, se volcará toda la información sobre la nueva textura en relación a los UVs, creados previamente sobre el
+
+	motivo ó caracter
+
+
+	NOTA: la nueva textura ha generar para el proceso de AO Map, tendrá que tener el mismo tamaño que la textura 
+
+	creada para el "Diffuse Color Map", para que no hayan desfaces entre ambas imágenes y el UVMap, que es el mismo
+
+	para ambas
+
+
+	_para luego ir al panel "UV Map Editor", en la parte inferior de éste ir a la opción de "Image/New Image", 
+
+	shortcut, "Alt + N"
+
+
+	_para que así, se nos abra un panel contextual en el cuál, podremos darle un nombre ha la nueva textura ha generar
+
+	así, como tambíen, unas dimensiones, color; por defecto y transparencia; opcional y profundidad de color la 
+
+	dejamos desactivada, para que así, procedamos ha crear la nuevatextura dándole ha "OK"
+
+
+	_para posteriormente guardar la imágen en nuestro disco duro, estando en el panel "UV Map Editor", con la nueva
+
+	textura cargada en éste panel le damos al shortcut, "F3", para que así, se nos abra el explorador de blender a
+
+	través, del cuál, podremos guardar la nueva textura generada
+
+
+	
+	Volcado del AO Map:
+	___________________
+
+	_ahora para hacer el volcado del AO Map, sobre la textura que hemos creado, debemos de ir al viewport, 3d, y allí,
+
+	seleccionar el motivo ó character, y entrar en "Edit Mode", shortcut, "Tabulador", y proceder ha seleccionar 
+
+	todos los sub-elementos del motivo ó character, shortcut, "A/A"
+
+
+	_para posteriormente ir al panel "UV Map Editor", shortcut, "Shift + F10", y allí, en la parte inferior de éste
+
+	seleccionar la nueva textura que hemos creado para el proceso de AO Map, para que así, ésta nueva textura quede
+
+	asignada temporalmente al motivo ó character
+
+
+	_para posteriormente ir a las opciones de "Properties/Render Render", y bajar hasta las opciones de "Bake", y
+
+	allí, en las opciones de "Bake Mode", seleccionar la opción de "Ambient Occlusion"
+
+
+	_de ésta manera, en la sección de "Bake/Ambient Occlusion", dispondremos de las siguientes opciones:
+
+
+		
+		_Bake from Multires:
+
+			_opción para extrar mapas entre la diferencia entre una mesh, base y la modificada por el 
+
+			modificador de superficie "Multiresolution"
+
+
+		_Normalized:
+
+			_ésta opción ayuda ha normalizar y ha optener un mejor mapa resultante
+
+
+		_Bake to Vertex Color:
+
+			_ésta opción opción creará el mapa a través, de la cantidad de vertex, point, existente en la
+
+			maya lo cuál, en éste caso no es recomendado
+
+
+		_Clear:
+
+			_ésta opción nos permitirá limpiar la textura de un volcado previo
+
+
+		_Selected to Active:
+
+			_(Indeterminado)
+
+
+		_Margin:
+
+			_ésta opción nos permitirá aumentar la influencia del mapa ha generar en relación a las 
+
+			distancias entre las diferentes "Inslan", en la distribución de los UVs
+
+
+		_Split:
+
+			_(Indeterminado)
+
+
+		_Distance:
+
+			_(Indeterminado)
+
+
+		_Bias:
+
+			_(Indeterminado)
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_también, tenemos la posibilidad de incorporar audio para una mayor sincronización entre el audio y la
+
+	cinemática y timming, de animación, otros
+
+
+
+Audio:
+
+
+	_para lo cuál, lo primero será crear un nuevo panel el cuál, debemos cargar el panel 
+
+	"Video Secuence Editor", shorcut; "Shift + F8"
+
+
+	_para luego, en el panel video secuence editor, ir a las opciones de "Add/Sound", y en el explorador
+
+	seleccionar el audio ha utilizar de referencia para la sincronización de animación, ó a través, del
+
+	shorcut; "Shift + A/Sound"
+
+
+	_más también, podremos tener una visualización menos del waveform, del audio en el panel 
+
+	video secuence editor, dentro del mismo clip, que ha sido cargado, para ésto, debemos ir a las opciones
+
+	del panel de opciones derecho del panel, shortcut: "N", y yendo a las opciones de "Sound/", y chequeamos
+
+	las opciones de "Draw Waveform", más para ésta opción es conveniente el estirar la visualización del clip,
+
+	en la verticar para que así, podamos visualizar mejor la forma de honda y de una manera más cercana, shorcut:
+
+	"Control + mouse midle click and drag up/down, left/right"
+
+
+	_así, como también, en el timeline, podremos activar y desactivar ciertas características sobre el audio
+
+	las cuales son:
+
+
+		_Timeline/Playback/Audio Scrubbing
+
+			_para que así, podamos arrastrar el audio con el cabezal del timeline
+
+
+		_Audio Muted:
+
+			_de ésta manera, podremos silenciar el audio cuando ya no desiemos escucharlo en ciertos
+
+			momentos que estemos animando otros elementros, otros
+
+
+
+Audio Spectrum:
+
+
+	_así, como también, tendremos la posibilidad de no tanto escuchar el audio sino que también, tendmores la 
+
+	posibilidad de visualizar ha modo de espectro de honda
+
+
+	_para ésto, debemos de haber importado el audio en el panel "video secuence editor", lo cuál, lo explicamos 
+
+	en el paso anteiror si desemos también escuchar el audio mientras lo vemos ó visualizamos aunque éste paso 
+
+	no es necesario para visualizarlo
+
+
+	_de ésta manera, para visualizar el audio debemos ir al panel "Graph Eitor", shortcut; "Shift + F6"
+
+
+	_para luego, seleccionar un elemento ó motivo con una propiedad animada, éste motivo puede ser en el modo 
+
+	object mode, estandar ó en el modo pose mode
+
+
+	_y leugo de seleccionar el motivo con al menos una propiedad animada vamos al panel "graph editor/key/", y 
+
+	seleccionamos la opción de "Bake Sound to F-Curve", para que así, se habra el explorar en el cuál, tendremos
+
+	que cargar el audio
+
+
+	_para que así, éste audio sea representado de forma de honda descriptiva a través, de la cuál, podremos ver los
+
+	picos de animación que necesitamos a parte del audio audible para terminar de sincronizar el audio con las
+
+	animaciones y cinemáticas
+
+
+
+
+

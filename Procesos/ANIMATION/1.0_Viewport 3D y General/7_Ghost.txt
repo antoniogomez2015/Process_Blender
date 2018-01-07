@@ -1,0 +1,56 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+_____________
+
+	_también, tendremos la posibilidad de habilitar las opciones de ghost, ó fantasma para las opciones de
+
+	"Pose Mode", sólamente para las opciones de animación y visualización de pose mode, osea para characters
+
+
+	_de ésta manera, podremos ver el timming, y flow, de las animaciones en su plena ejecución, otros
+
+
+
+
+Ghost:
+______
+
+
+	_para lo cuál, tendremos que tener un character, ó elemento seteado con las herramientas de "Armature",
+
+	a través, de un skeleton, simple ó complejo
+
+
+	_para luego, entras en las opciones de "pose mode", en el viewport, panel 3d
+
+
+	_para luego si, ir a las opciones de "properties/armature data/", y buscar las opciones de "Ghost", en
+
+	la cuál, podremos seleccioanr por ejemplo:
+
+
+	_Around Frame, y seleccionar un rango de fotogramas ha mostras, ej; "Range: 3", así, como también, 
+
+	podríamos indicar los pasos "Steps:", lo cuál, distanciará los keyframes, entre si mostrados
+
+
+
+
+Workflow:
+_________
+
+
+	_lo más recomendado es aplicar el modo ghost, ha un elemento determinado de un character, por ejemplo; en el handle
+
+	de una mano para que así, podamos ver el comportamiento de éste a través, de su trayectoria de animación y poder así,
+
+	hacer las correcciones pertinentes en éste
+

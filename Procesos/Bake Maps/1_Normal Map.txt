@@ -1,0 +1,225 @@
+
+
+
+Sesión 3: IHMAN 3D School Retopología de un personaje con Blender
+	https://www.youtube.com/watch?v=QMLgQ839YRQ
+
+		minuto: 2:08hora
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	New Material:
+	_____________
+
+
+
+	_primero debemos de crear un nuevo "material", en el cuál, volcaremos el normal map, generado
+
+	de las normal map
+
+
+	_para ésto, seleccionamos la mesh, en baja resolución y vamos al panel "UV Image Editor",
+
+	shortcut "Shift + F10"
+
+
+	_a continuación el el panel "UV Image Editor", le damos al "+", plus, para crear una nuevo 
+
+	textura la cuál podemos renombrar ej: "Normal Map", así dejamos ésta nueva textura seleccionada
+
+
+	
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	Resolución Proxi:
+	_________________
+
+
+	_para el mapa de nomales pueda proyectar correctamente la diferencia del volúmen de mesh, de alta
+
+	resolución en el mesh, de baja resolución es preciso que el mesh, de baja resolución tenga una
+
+	alta resolución temporal para que éste cuente con suficiente geometría con la cuál, poder hacer
+
+	la transferencia correctamente y que no se note la acutancia de edges, de la geometría en baja
+
+	resolución
+
+
+	_para esto, debemos agregarle a la mesh, del modelo en baja resolución el modificador "SubSuf",
+
+	a través, de shortcut "Control 0,1,2,3,4,5,6,", así tendremos que indicarle la mayor resolución posible
+
+	ej, entre valores entre 4,5 ó 6, de ser posible y soportable por el sistema
+
+
+	_así, al finalizar el proceso de la creación de los diferentes mapas podremos eliminar éste modificador
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	Selecciones:
+	____________
+
+
+	_primero seleccionamos el modelo ó character, de alta resolución
+
+
+	_luego seleccionamos el modelo ó character, en baja resolución
+
+
+	_así, podremos ir y configurar las opciones de render/bake/
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	Bake:
+	_____
+
+
+	_ya con los modelos correctamente seleccionados como se indica en el paso anterior vamos ha
+
+	las opciones de "Attributes/Render/Bake"
+
+
+
+		_Bake Mode:
+
+			_en este caso elegimos la opción de normals, para crear un mapa de normales
+
+
+		_Bake from Multires:
+
+			_
+
+
+		_Normal/Space:
+
+			_elegimos la opción por defecto "Tangent"
+
+
+		_Bake Vertex Color:
+
+			_
+
+
+		_Selected to Active:
+
+			_activamos la opción de "Selected to Active", para que tome como referencia los elementos
+
+			seleccionados
+
+
+		_Bake:
+
+			_y para finalizar la opción le damos ha "Bake", así, esperamos el proceso
+
+			y podremos ver que la textura que creamos y renombramos "Normal Map", ahora contiene la
+
+			información del normal map
+
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	Save Normal Map:
+	________________
+
+
+	_a continuación debemos inmediatamente guargar el normal map, generado para que éste no sea
+
+	eliminado del programa
+
+
+	_para esto, vamos al panel "UV Image Editor/Image/Save As Image", ó a través, de su shortcut 
+
+	"F3"
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+
+	Aplicar Normal Map:
+	___________________
+
+
+	_primero debemos crearle un nuevo material ó u utilizar un material existente en el mesh, de
+
+	low resolution, al cuál, deseamos asignarle el normal map
+
+
+	_luego debemos ir a la sección de "Textures", del mesh, deseado y crear una nueva textura "+",
+
+	ó seleccionar una existente como por ej, la que hemos creada previamente y renombramos "Normal Map"
+
+
+	_ahora debemos ir a la sección "Mesh/Texture/Type", y seleccionar que deseamos el tipo de 
+
+	"image or Movie", para así, cargar una imágen personalizada que es el mapa que exportamos previamente
+
+
+	_también, debemos seleccionar esta imágen en la sección de "Mesh/Texture/Image/Source:", en la cuál,
+
+	debemos indicar la ruta de la fuente donde se encuentra la imágen "Nomal map", que exportamos previa
+
+	mente en este caso
+
+
+	_luego en la sección "Mesh/Texture/Image Sampling", debemos activar la opción de "Normal Map", para 
+
+	que así, éste puede ser activable y utilizable
+
+
+	_ahora en la sección de "Mesh/Texture/Mapping/Coordinates:", debemos seleccionar la opción de "UV", 
+
+	para que así, la textura utilize el mapa de cordenadas que creamos nosotros para el modelo, y, en 
+
+	"Map", debemos selecciona la opción de "UVMap"
+
+
+	_y en la sección de "Mesh/Texture/Influente:", debemos deseleccionar la opción de "Difuse", y 
+
+	activar la opción de "Geometry/Normal", de ésta manera el mapa estará activado
+
+
+	_más ahora para visualizar el normal map, en el viewport, y sobre el modelo debemos ir a las opciones
+
+	del panel derecho, shortcut "N", y ir a la sección de "Shading", y seleccionar la opción de "GLSL",
+
+	esta opción de visualización requiere que haya iluminación en la escena para ésto, agregamos una light,
+
+	ej, "Hemi", de esta manera podremos ver que ahora el mapa de normales será visible en el viewport
+
+
+	_así, como también entrar en el modo de visualización de textura, para ésto podemos hacer a través,
+
+	de su shortcut "Alt + Z"
+
+
+

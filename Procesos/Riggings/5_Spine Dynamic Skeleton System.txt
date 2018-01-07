@@ -1,0 +1,109 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Spine Dynamic Skeleton System:
+	______________________________
+
+		
+		Skeleton system:
+		________________
+
+		_primero debemos crear un object, de tipo armature, yendo ha "shortcut: Shoft + A/Add/Armature/Single Bone"
+
+
+		_luego procedemos ha crear el skeleton system, correspondiente a la chain, ó cadena de bones, ó huesos 
+
+		correspondientes a la spine, ó columna vertebral
+
+
+
+		Spline:
+		_______
+
+		_ahora procedemos ha crear una spline, "shortcut: Shift + A/Add/Curve/Bezier", ésta spline, que hemos creado la
+
+		renombramos ej; "spine_proxi_handle"
+
+
+		_ahora demos seleccionar ésta curve bezier, que hemos creado y entrar al "edit mode", para emular la posición
+
+		y forma de la spine, ó columna, a través, de la creación de más vexter, para ésto seleccionamos dos ó más vertex,
+
+		ha sub-dividir y luego abrimos el menú "special", shortcut "W", y seleccionamos la opción de sub-divide para que
+
+		así, podamos mover éstos verxtes, hasta emular la forma de la spine, del skeleton system
+
+
+
+		Spline IK:
+		__________
+
+		_ahora seleccionamos el skeleton system, y vamos al modo "pose mode", shortcut "control + tab"
+
+
+		_ya en el modo "pose mode", procedemos ha seleccionar el último bone, creado de la spine, correspondiente a la base
+
+		del cuello ó neck, y con éste seleccionado vamos ha "Properties/Bone Constrinats/", y seleccionamos "Spline IK", 
+
+		así será agregado
+
+
+		_y ahora vamos ha "Properties/Bone Constrinats/", y seleccionamos el constraint, que hemos agregado y vamos ha las 
+
+		opciones de "Target/", y seleccionamos allí, la spline, que creados en el paso anterior, en éste es 
+
+		"spine_proxi_handle", y luego en las opciones de "Chain Length", indicamos la misma cantidad de divisiones en 
+
+		relación a la cantidad de bones, que tiene la spine, en el skeleton system, para que así, ésta flexione con mismas
+
+		características
+
+
+
+		Spine Handles Control:
+		______________________
+
+		_ahora debemos crear handles, controladores que deformen la spine, del skeleton system  a través, de la spline, que 
+
+		creamos la cuál, controlará al constraint "Spline Ik"
+
+		
+		_tenemos la posibilidad de hacer "Hooks", ó puntos de anclas en los sub-elementos vertex, de controlar de spline,
+
+		para ésto debemos seleccionar la spline, y entrar ha "edit mode", luego debemos seleccionar una sub-elemento vertex,
+
+		ha controlar luego, con éste seleccionado abrimos el menú "Hook", shortcut "Control + H", y seleccionamos la opción 
+
+		de "Hook to New Object", así, en éste punto del vextes, se agregará un nuevo elemento null, de tipo "empty", con el
+
+		cuál, en "object mode", podremos controlar esa parte de la apline
+
+
+		_aunado ha ésto podremos también, crear un elemento de tipo spline, el cuál pueda hacer de handle controlador más 
+
+		visual, el cuál, podremos emparentar en objeto null, para ésto, primero seleccionamos el objeto null, luego 
+
+		seleccionamos el objeto handle, y con ambos seleccionados abrimos el menú "Set Parent To", y seleccionamos la opción 
+
+		de "object"
+	
+
+
+

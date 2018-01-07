@@ -1,0 +1,65 @@
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Introducción:
+	_____________
+
+		_tenemos la posibilidad de visualizar las trayectorias de animación en el viewport, para así, poder ver
+	
+		y calcular la cinemática de animación para hacer correcciones, otros
+
+
+
+
+	Motion Path:
+	____________
+
+
+		_para ésto vamos al panel tools, shortcut "T", y vamos ha la pestaña de "Animation/Motion Paths", y le 
+	
+		damos ha "Calculate", para que así, nos aparezca una ventana contextual preguntandonos la duración del
+
+		path, ó trazado para que así, el trazado de animación sea visible en el viewport
+
+	
+		_así, cono también, en el panel "properties/object", tendremos una sección de "Motion Paths", en la cuál, 
+
+		podremos controlar la reproducción entre otras características
+
+
+		_ó en la secicón de "properties/armature", habrá también, una sección de "Motion Paths", en la cuál, 
+
+		encontraremos las mismas opciones de configuración
+
+
+		_en éstas opciones del panel properties, dispondremos de más opciones como por ejemplo; podremos indicar 
+
+		un rango de fotogramas ha calcular así, como de mostrar frames, en el viewport, 3d, entre otras opciones
+
+		disponibles
+
+
+
+		Workflow:
+		_________
+
+		_para crear motion paths, de animación lo más recomendable es crear éstos para un elemento ó handle, determinado
+
+		de ésta manera, lo más recomendable es seleccionar un elemento por ejmplo; en elemento handle, de una mano
+
+		
+
+		_y con éste seleccionado ir a las opciones de motion path, en el panel "Properties/Object Data Object/Motion Path",
+
+		para que así, podamos aplicarle ó crearle un motion path, ha elemento en concreto y poder ver así, el comportamiento
+
+		y trayectoria de animación en el viewport, y poder así, hacer las correcciones correspondientes sobre éste
+
+
+

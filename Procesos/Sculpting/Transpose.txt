@@ -1,0 +1,384 @@
+
+
+
+Blnder Sculpting "Transpose", emulación
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	_en el modo de modo de "Sculpting", cuando llevamos un modelo avanzado ó comenzando, tenemos
+
+	la posiblidad de mover partes de nuestro modelo, ej, podríamos mover un brazo ó sus dedos para
+
+	así, hacer ajustes de composición y de pose entre otros
+
+
+	_para esto, estando en el mismo modo de sculpting, podemos entrar directamente en el modo de
+
+	"Edit Mode", para esto, simplemente accedemos a través, de comando ó shortcut "Tab", si la 
+
+	necesidad de tener que previamente salir de la modalidad de "Dyntopo/Enable Dyntopo"
+
+
+	_ya estando en el modo "Edit Mode", dispondremos de varias opcioens las cuales permitirán el
+
+	ajuste y reposición de las partes de interés de nuestro modelo ó motivo
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Reubicar el Cursor 3D:
+______________________
+
+
+
+	Cursor 3D:
+	__________
+
+		tenemos la posibilidad de mover de forma específica el cursor a un punto determinado, para
+
+		esto contamos con el siguiente menú de opciones
+
+			
+			_Snap:
+
+
+				_Selection to Grid
+
+					_lo seleccionado irá hacia la grilla
+
+
+				_Selection to Cursor
+
+					_lo seleccionado irá hacia el cursor al centro
+
+
+				_Selection to Cursor (offset)
+
+					_lo seleccionado irá hacia el cursor manteniendo su proporción ó forma original
+
+
+				_Cursor to Selected
+
+					_el cursor irá a los seleccionado
+
+
+				_Cursor to Center
+
+					_el cursor irá al centro dek axis plane
+
+
+				_Cursor to Grid
+
+					_el cursor irá a un plano de la grilla más cercano
+
+
+				_Cursor to Active
+
+
+					_(indeterminado)
+
+
+
+		-----------------------------------------------------------------------------------------
+
+
+		NOTE: 	también podemos ubicar el cursor de forma manual a través, de "Mouse left click",
+
+			en un punto deseado del viewport
+
+
+		NOTE:	también, tenemos la posibilidad de central el cursor al centro del axis, a través,
+
+			de un shortcut "Shift + C"
+
+		
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Punto de Orientación:
+_____________________
+
+
+
+
+	Pivot Point:
+	____________
+
+
+		tenemos también, la posibilidad de cambiar el modo ó croterio de acción de axis, de los
+
+		elementos ó sub-elementos, seleccionados, para que así, este responda a la posición del
+
+		cursor u otros elementos, otros
+
+
+		Shoftcut: (Indeterminado)
+
+
+
+			_Active Element: Shortcut "Alt + [.] (punto, Doc)"
+
+				_
+
+
+			_Median Point: (Default); Shortcut "Control + [,] (coma)"
+
+
+				_
+
+
+			_Individual Origins: Shortcut "Control + [.] (punto, Doc)"
+
+				_
+
+
+			_3D Cursor: Shortcut "[.] (punto, Doc)"
+
+				_
+
+
+			_Bounding box Center: Shortcut "[,] (coma)"
+
+				_
+			
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Ajuste ó movimiento en bloque:
+______________________________
+
+
+
+
+	Proportional Editing:
+	_____________________
+
+
+		_tenemos la posibilidad de mover, ajustar ó editar una determinada cantidad de elementos ó
+
+		sub-elementos seleccionados de forma unificada ó relativa a través, de diferentes modos
+
+		proporcionales y relativos a un radio de acción y a una tolerancia determinada entre otros.
+
+		
+		Shortcut: (indeterminada)
+
+
+
+			_Proportional Editing Off/On:
+
+
+				_Connected: Shortcut "Alt + O (Oooo)"
+
+					_
+
+
+				_Proyected 2D: Shortcut "indeterminado"
+
+					_
+
+
+				_Enable: Shortcut "O (Oooo)"
+
+					_
+
+
+				_Disable:
+
+					_Shortcut "O (Oooo)"
+
+
+
+
+			_Proportional Editing Falloff:
+
+
+
+				_Random: Shortcut "Shift + O (Oooo)"
+
+					_
+
+ 
+				_Constant: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Linear: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Sharp: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Inverse Square: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Root: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Sphere: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+				_Smooth: Shortcut "Shift + O (Oooo)"
+
+					_
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Cambiar el centro de la masa del objeto:
+________________________________________
+
+
+
+
+	Set Orion:
+	__________
+
+
+		_tenemos la posibilidad de ajustar el orión, y masa del objeto, para esto, contamos con el
+
+		el menú Set Orion, shotcut "Control + Shoft + Alt + C"
+
+
+
+			_Geometry to Orion:
+
+				_
+
+
+			_Orion to Geometry:
+
+				_
+
+
+			_Orion to 3D Cursor:
+
+				_
+
+
+			_Orion to Center of Mass:
+
+				_
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Selecciones especiales:
+_______________________
+
+
+
+
+	Snap Element:
+	_____________
+
+
+		también, disponemos de la opción de Snap Element, shortcut "Control + Shift + Tab"
+
+
+
+			_Increment:
+
+				_
+
+
+			_Vertex:
+
+				_
+
+
+			_Edges:
+
+				_
+
+
+			_Face:
+
+				_
+
+
+			_Volume:
+
+				_
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Ediciones especiales:
+_____________________
+
+
+
+
+	Orientation:
+	____________
+
+
+		más aún contamos con el ajuste ó cambio de la orientación del mismo cursor para que
+
+		éste baya en relación a la orientación del elemento ó sub-elemento seleccionado, 
+
+		para esto hacemos "Alt + Spacebar"
+
+
+		
+			_Global:
+
+				_
+
+
+			_Local:
+
+				_
+
+
+			_Normal:
+
+				_
+
+
+			_Gimbal:
+
+				_
+
+
+			_View:
+
+				_
+

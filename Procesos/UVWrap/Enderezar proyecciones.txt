@@ -1,0 +1,44 @@
+
+
+1_primero colocamos la proyección "Island", en viewer del UV/ Image editor lo más rectangular ó geométrica posible
+
+
+2_luego colocamos selección de vertex
+
+
+3_ahora vamos a seleccionar los vertex que corresponden a un polygon/quads, que son 4 vertex, para alinearlos 
+
+en su sentido vertical y horizonta, ó X/Y, para que este quad, sirva de referencia para una restructuración de la proyección del island 
+
+
+
+	3.1_primero seleccionaremos los primeros 2 vertex contiguos, en relación a la cordenada vertical ha enderezar ó alinear,
+
+	luego con los vertex seleccionado vamos a las opciones de Weld/Align, yendo ha UVs/Weld-Align/Align X, ó con el shortcut "W",
+
+	luego repetimos el proceso para los otros 2 vertex, contigios que conforman el quad
+
+
+	3.2_luego seleccionaremos los primeros 2 vertex contiguos, en relación a la cordenada horizontal ha enderezar ó alinear,
+
+	luego con los vertex seleccionado vamos a las opciones de Weld/Align, yendo ha UVs/Weld-Align/Align Y, ó con el shortcut "W",
+
+	luego repetimos el proceso para los otros 2 vertex, contigios que conforman el quad
+
+así, quedará un quad, perfectamente derecho y alineado en relación a sus cordenadas X/Y
+
+
+
+4_ahora a vamos a el modo de selección por "faces", y seleccionamos el quad/face, modelo que hemos alineado previamente
+
+
+5_luego vamos al panel 3D View, y vamos a las opciones de UVs, yendo ha Mesh/UVWrap/Follow Active Quads, ó shortcut "U"/Follow Active Quads,
+
+así, se enderezarán todos los quads, en relación el quad, de muestra que habíamos ajustado previamente
+
+
+
+
+
+
+

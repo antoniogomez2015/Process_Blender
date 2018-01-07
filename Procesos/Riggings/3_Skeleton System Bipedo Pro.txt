@@ -1,0 +1,125 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Skeleton System Pro Sugerido:
+	_____________________________
+
+
+		Descripción:
+		____________
+
+
+		_a continuación serán expresadas las cadenas ó chains, de bones, ó huesos sugerido para un character, bípedo para
+
+		que éste funcione correctamente en "pose mode", de forma profesional
+	
+	
+
+		Chains:
+		_______
+
+
+		Spine, Neck and Head:
+		_____________________
+
+		_la primera cadena es la principal, la cuál, partiría de la creación del "Armature", shortcut "Shift + A",
+
+		"Add/Armature/Sinble Bone", para la cuál, es aconsejable antes de crearla tener el cursor en el centro del axis, de
+
+		la escena, shortcut "Shift + S/Snap/Cursos to Center"
+
+
+		_así, podremos entrar ha "edit mode", y comenzar ha extruir éste bone, en el sentido y dirección de "spine", así, 
+
+		podremos crear los respectivos bones, que conformarán la spine
+
+
+		_a continuación se presentarán los respectivos bones, de la spine:
+
+
+			_Hip /Chest1/ Chest2/ Chest3_orbit/ Chest4
+
+
+		_para continuar con los bones del neck and head
+
+
+			_Neck_base/ Neck_Superior/ Head
+
+
+		así, en una sóla cadena ó chain, que va desde el coxis, hasta la coronilla de cabeza abremos creado el sistema
+
+		central y principal del character
+
+
+
+		Shoulder, Arm and Hand:
+		_______________________
+
+		_la próxima cadena ó chain, sería la del brazo ó arm, para ésta podemos partir extruyendo el bone, de la spine,
+
+		más cercano a la estructura del arm, creando un bone, en el área vacía entre una cadena y otra para que así, éste
+
+		bone, lo podamos eliminar sin inconvenientes
+
+
+		_así, luego podremos comenzar ha extruir los bones que conformarán la siguiente estructura:
+
+
+			_Clavícula/ Escàpula/ Humero/ Radio
+
+
+		_más por otra parte, también serán creadas las estructuras de la hand:
+
+		
+			_Meta_Carso/ Finger1 /Finger2 Finger3
+
+
+		y así, haremos para el resto de los cinco dedos
+
+
+		
+		Leg and Foot:
+		_____________
+
+		_la siguiente y última cadena ó chain, de bones, es la de la pierna y pie, así, podremos partir del bone respectivo
+
+		ha la hip, ó cadera ó hueso base, extruyendo éste creando un hueso en el espacio vacío para luego éste ser borrado
+
+		posteriormente
+
+
+		_así, podremos comenzar ha estruir la cadena de huesos correspondiente a la pierna ó leg:
+
+
+			_Femur/ Tibia
+
+
+		_para luego continuar con la cadena de pie ó foot ó toe:
+
+			
+			_Meta_Tarso/ Tarso/ Finger1/ Finger2 Finger3
+
+	
+		y así, podremos repetir éste proceso para los cinco dedos del pie
+
+			
+
+
+

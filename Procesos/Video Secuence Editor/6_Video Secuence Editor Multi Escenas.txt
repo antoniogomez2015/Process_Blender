@@ -1,0 +1,136 @@
+
+
+
+	Tutorial Editar videos con Blender - Parte 11 - Textos desde Blender: Materiales del Texto
+
+		https://www.youtube.com/watch?v=TN0Ik3A39-I&t=203s
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Múltiples Escenas:
+	__________________
+
+	_en el "video secuence editor", tendremos la posibilidad de cargar múltiples escenas sean éstas del "viewport 3d", como
+
+	del "node editor", para que así, podamos extender las posibilidades de producción, composición e integración por medio 
+
+	del panel "video secuence editor"
+
+
+
+
+	
+	Creación de Escenas:
+	____________________
+
+
+		Escena Master:
+		______________
+
+		_en primer lugar lo que tendremos que hacer y entender es que la escena en la que tenemos configurado y realizado 
+
+		la secuencia ó filstrip, de clips, ó strips, en el panel "video secuence editor", debemos de renombrarla con un 
+
+		nombre distintivo ejemplo; "Secuenciador", ya que ésta escena no la podremos utilizar para cargar ó crear otro tipos 
+
+		de contenidos alternativos ó compositivos por que ésto crearía conflictos
+
+
+		_ya que una escena no se puede meter dentro de si misma, lo que quiere decir es que para cada elemento ó conjunto 
+
+		de elementos compositivos deben de componerse en una escena a parte incluyendo la propia escena de 
+
+		"video secuence editor", la cuál, también, debe de estar por a parte
+
+
+		Escenas de Composición:
+		_______________________
+
+		_de ésta manera, cada elemento ó conjunto de elementos compositivos que consivamos incorporar de forma independiente
+
+		ó grupal al panel "video secuence editor", debemos de crearlos y renombrarlos en una escena por a parte en el panel
+
+		"viewport 3d"
+
+
+		_para que así, en un paso siguiente podamos hacer uso y llamado éstos en el panel "video secuence editor", para que
+
+		así, éstos estén disponibles para el proceso de composición
+
+
+	
+		Consideraciones:
+		________________
+
+		_cuando creamos una escena en blender, la cuál, vamos ha usar como elementos compositivos dentro del panel 
+
+		"video secuence editor", por lo general lo más recomendable es crearla con fondo trasparente para que ésta pueda
+
+		integrarse con los demás clips, y elemento del secuenciador del panel "video secuence editor",
+
+
+		_de ésta manera, podremos ir al panel "Properties/Render Render/Shading/Alpha", y allí, podremos cambiar la opción
+
+		por defecto "Sky", por la opción "Transparent", para que así, la composición comporte con un fondo transparente
+
+
+
+	
+	Integración de Escenas:
+	_______________________
+
+	_de ésta manera, luego de haber creado tanto la escenas exclusivas tanto del secuenciador "video secuence editor", como las
+
+	escelas de los elementos compositivos es hora de integrar todas éstas para su funcionamiento e integración
+
+
+	_de ésta manera, debemos de ir primeramente a la escena y al panel del secuenciador del panel "video secuence editor", y una
+
+	vez allí, aplicar el shortcut 
+
+
+		_"Shift + A/Scene/"
+
+
+
+	_y en éste punto seleccionar la escena que deseamos importar a través, de su nombre descriptivo, de ésta manera, podremos ir
+
+	cargando las diferentes escenas a través, del tiempo y la interacción y composiciones ha realizar
+
+
+
+		Consideraciones:
+		________________
+
+		_las escenas importadas con fondo transparente debemos de seleccionar su respectivo clip, ó strip, en el panel
+
+		"video secuence editor", y aplicar el shortcut
+
+
+			_"Shift + A/Effects/Transform"
+
+
+		_en el cuál, podremos ir a las opcioens de propiedades de éste shortcut, "N", y ubicar las opciones del efecto
+
+		específicamente las opciones de "Blend", en las cuáles, debemos seleccionar el modo de "Alpha Over", para que así,
+
+		el fondo se interpretado como transparente
+
+
+
+
+
+
+
+
+
+
+
+
+	

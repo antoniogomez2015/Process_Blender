@@ -1,0 +1,173 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+		Blender: material piel humana 3: el mapa de textura parte 1
+
+			https://www.youtube.com/watch?v=EQlQQTBXZzw&t=2s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	8_Specualar Shader:
+
+	_éste nos permitirá controlar las zonas especulares del motivo ó character, lo que lo hará más realista a su vez, 
+
+	podremos controlar así, de forma consciente las áreas donde deseamos que éste tenga más brillo ó valores de 
+
+	luminancia ó especilaridad, otros
+
+
+
+	Preparación:
+
+	_el mapa de specular debe de realizar de forma similar al proceso de "Bump Mix", a partir de la sumaria de alguno ó
+
+	de todos los mapas, anteriores 
+
+
+	_así, como también, incluso, podríamos simplemente hacer una variante de la composición que ha teníamos en Photoshop,
+
+	de la composición del proceso de "Bump Mix" 
+
+
+	_para que así, sólo tengas que dedicarnos ha hacer ajustes sobre éste mapa resultante en relación al tipo de 
+
+	especularidad así, de ésta manera, incluso podremos modificar éste mapa ó composición resultante, pudienso así, 
+
+	pintar, revelar, velar partes del motivo para así, hacer partes más reflectantes que otros, por ejemplo en frente u
+
+	otras partes del cuerpo el relación a la morfología y tipo de motivo ó character, que éste sea
+
+
+
+	_para por último proceder ha acoplar éste como una imágen única shortcut, "Control + Shift + E"
+
+
+	_para luego, desaturar éste shortcut, "Control + Alt + U", así, como también, podremos aplicar curvas, niveles y
+
+	otros tipos de ajustes de reconstrucciones en relación al resultado deseado en blancos y negros, de ésta manera,
+
+	en las áreas en blanco habrá más efecto especular y las áreas más ocuras habrá menos especularidad
+
+
+	_de ésta manera, como podemos ver a través, del specular map, podremos es filtrar la luz, ó especularidad que
+
+	será capas de reflejar el motivo ó character, para que así, éste mo refleje de todas partes por igual
+
+
+	NOTA: en la práctica lo más recomendable es abrir el "Bump Mix", resultante hecho previamente y sobre éste crear
+
+	una nueva layer, y sobre ésta crear un velado en grises ha modo de pintura de las áreas que deseamos que no reflejen
+
+	tanto y dejando sólo las áreas que si deseamos que tengan una especularidad normal ó fuerte
+
+
+	_de ésta manera, ha modo de resumen; al utilizar como punto de partida el "Bump Mix", el brillo escular tratará de
+
+	meterse en la porosidad y detalles de la suma de "Diffuse Maps", para que el "Bump Mix", guarda esa información de
+
+	relieves y depresiones
+
+
+	_para posteriormente guardar éste renombrándolo como, ej: "Speculap Map.png"
+
+
+
+
+	Aplicación:
+
+	_para posteriormente volver ha blender, y allí, ir ha "Texture Paint/Slots/Add Texture Paint Slot/", y allí seleccionar
+
+	la opción de "Diffuse Color", para que así, creemos un nuevo slot, de textura el cuál, podremos renombrar ej, "Bump Mix"
+
+
+	_para posteriormente ir ha "Properties/Textures Textures/", y allí, bajar hasta las opciones de "Images", para que así,
+
+	podamos cargar la textura que hemos generado de forma compuesta en Photoshop
+
+
+	_para luego ir a "Properties/Textures Textures/", y allí, bajar hasta las opciones de "Influence", y allí desenmarcar la 
+
+	opción de "Diffuse Color", y activar la opción de "Geometry/Specular/Intensity", y en su opacidad colocar un valor de, ej: 
+
+	"0.200%", en éste caso
+
+
+
+	Configuración:
+
+	_más al aplicar el mapa de specular sober el motivo ó character, por lo general no veremos su efecto y ésto es por que
+
+	previamente para tener una mejor visualización hemos desactivar en las opciones del material la opción de "Specular", 
+
+	la cuál, debemos de activar nuevamente
+
+
+	_para lo cuál, debemos de ir ha "Properties/Material Material/Specular/Intensity", y allí, colocar un valor bajo de;
+
+	"0.3", o similar
+
+
+
+	Iluminación:
+
+	_así, como también, el specular map, requiere una iluminación que emita sombras por ende la iluminación de Hemi, no es la
+
+	más recomendada para éste tipo de aplicaciones por que ésta emula al sol y emite luz en todas direcciones
+
+
+	_de ésta manera, lo más recomendable es cambiar las luces de tipo hemi, por luces puntuales como spot, y point ó área
+
+
+	_así, de ésta manera, debemos entender que el brillo resultante de la escularidad sobre el motivo ó character, dependerá
+
+	de la ditancia de la fuente de luz, y de la intensidad colocada tanto en "Properties/Material Material/Specular/Intensity", 
+
+	como en "Properties/Texture Texture/Influence/Specular/Intensity", de ésta manera, tendremos hacer una ponderación entre
+
+	todos éstos factores en relación al resultado deseado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

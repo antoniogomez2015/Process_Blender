@@ -1,0 +1,10 @@
+
+
+
+1_al crear una nueva textura en el UV/ Image editor panel y crear las extracciones de UVs, esta nueva textura 
+
+con los UVs, no se relaciona con el material de la mesh, como un nodo
+
+
+
+2_

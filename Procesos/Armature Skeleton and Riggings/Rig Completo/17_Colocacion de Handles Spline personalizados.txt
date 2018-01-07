@@ -1,0 +1,206 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Handles Personalizados:
+_______________________
+
+	_luego de haber terminado el proceso del rigging, podemos ahora personalizar el tipo de handles, 
+
+	presentados en el character, para mejorar así, la presentación del mismo así, como también, para tener
+
+	una mejor visualización y compresión de los elementos que son rig, de los que no
+
+
+	_más por otra parte también, podremos lograr un mayor resalte a través, de la asignación de color ha los
+
+	handles personalizados e incluso separarlos por lados y tipos, otros
+
+
+
+Crear handles Personalizados:
+_____________________________
+
+	_para lo cuál, podemos proceder ha hacer nosotros mismos nuestros handles, personalidos a través, de la 
+
+	creación de geometría, para que así, podamos hacer formas ha nuestro gusto y que emulen a las partes ha 
+
+	controlar
+
+
+	_para ésto, debemos en "object mode", hacer shortcut; "Shift + A/Mesh/", y agegar un "Circle", el cuál, 
+
+	podemos personalizar sus subelementos a través, del shortcut, "F6", (ésta opción funciona sólo si aplicamos
+
+	"F6", a penas creamos el "Circle"), de ésta manera, podremos aumentar y disminuir sus sub-elementos
+
+
+	_más si entramos al modo de edición "edit mode", con el mesh, circle, seleccionado, podremos editar sus 
+
+	sub-elementos para que así, podamos lograr formas totalmente personalizadas y adaptadas a las necesidades 
+
+	visuales y de la forma anatomica relativa donde se va ha montar el handle, respectivo
+
+
+
+Remonbrar handles personalizados:
+_________________________________
+
+	_es altamente recomendable en éste punto renombrar cada uno de los handles, personalizados que hemos realizado,
+
+	para ésto damos el siguiente ejemplo de como debería ser un nombre para un handle, personalizado:
+
+
+		_"L_Handle_Hand"
+
+
+	_y así, sucesivamente para el resto de handles, personalizados que hayamos creado
+
+
+
+Organización de handles personalizados:
+_______________________________________
+
+	_ya cuando hayamos creado todos los handles, personalizados para todas las partes ó articulaciones de nuestro
+
+	character, a las cuales se les haya hecho el proceso previo del rigging, entonces, debemos proceder primeramente
+
+	ha organizar los handles, personalizados que hemos creado
+
+
+	_de ésta manera, seleccionaremos todos los handles, personalizados que hemos creado y los organizaremos dentro
+
+	de una layer, ó capa a parte de las demás layers
+
+
+	_ésto es con el objetivo de que éstos handles, originales no estén visibles en la escena luego de haber asígnado
+	
+	una instancia de éstos al character, original y así, no hagan estorvo en la escena
+
+
+	_así, luego de haber seleccionados todos los handles, personalizados que hemos creado hacemos shortcut: "M", para
+
+	que nos aparezca un panel contextual con el grupo de layers, disponibles para la escena, es recomendable escoger 
+
+	la penúltima layer, ya que por lo general la última layer, corresponde ha la iluminación, cámara ó escena en general
+
+
+
+Implementación de handles personalizados:
+_________________________________________
+
+
+	Requisitos:
+	___________
+
+	_para comenzar con la implementación de los handles, personalizados sobre el character, debemos primordialmente estar
+
+	en "Pose Mode"
+
+
+	_y en lo que se refiere al character, éste debe contemplar los handles, ha personalizar, es decir, éste debe de tener 
+
+	ó dispones de los bones, ó huesos respectivos ha intercambiar por lo handles, personalizados para que éstos serán 
+
+	sustituidos ó intercambiadas por las formas de los handles, personalizados
+
+
+	_así, el character, debe de tener éstos bones, que harán de handles, total mente configurado para éste proceso; como
+
+	por ejemplo, que estén desparentados, ó con la rotación heredada desconectada, entre otros
+
+
+
+	Bone Groups:
+	____________
+
+	_en éste punto es altamente recomendable la creación de grupos de bones, éstos grupos pueden ser por lados, left/right, ó
+
+	por tipo de bones, de tipo handles, ej; un grupo para todos los handles, de una extremidad ó sección, otros
+
+
+	_éstos nos permitirá agrupar y distinguir handles a través, de colores resaltantes así, como también, una fácil selección
+
+	de éstos de forma grupal
+
+
+	_para lo cuál, debemos en pose mode, ir a las opciones de "properties/armature/Bone Groups", y allí, darle al "+", Plus,
+
+	para que así, un nuevo grupo sea creado el cuál, podremos renombrar con un nombre distintivo al handle, ó grupo de handles,
+
+	ha configurar con un color y un grupo de selección
+
+
+	_y por último, debemos de seleccionar lo bones, de tipo handles, en pose mode, que pertenecerán ha ese grupo y con éstos
+
+	bones de tipo handles, seleccionados volvemos ha "properties/armature/Bone Groups", y con el grupo respectivo seleccionado
+
+	hacemos "Assign", para que así, éstos bones, de tipo handles, queden asignados al grupo respectivo
+
+
+	_y posteriormente podremos en cualquier momento cambiar el color ha cualquier grupo, ya que el sistema cuenta con una serie
+
+	de pressets, los cuales disponen de una serie de colores variados para tal fin
+
+	
+
+	Asignación:
+	___________
+
+	_para lo cuál, lo primero será en pose mode, seleccionar el bone, del sistem armature, al cuál, deseamos cambiar por una
+
+	forma ó shape, personalizada	
+
+
+	_y con éste bone, seleccionado bamos ha las opciones de "porperties/bone/display/custom shape/", y allí, podremos 
+
+	seleccionar el nombre del objecto de la forma personalizada que previamente hemos creado y personalizado, ej; "Handle_Elbow"
+
+
+	_para leugo, activar ó chequear la opción de "Wireframe", en la misma sección de "Display", para que así, la forma sea visible
+
+	en el character, en modo pose mode
+
+
+	Ajuste:
+	_______
+
+	_así, como también, hasta cierto grado podremos ajustar la forma personalizada desde las opciones de display del bone, del 
+
+	sistema, para lo cuál, disponemos de la opción de "Scale", a través, de la cuál, podremos aumentar ó disminuir el tamaño de 
+
+	ésta forma personalizada
+
+
+	_pero para una edición más avanzada por hacer rotaciones, distorciones, otros, debemos primeramente seleccionar el objecto
+
+	de la forma personalizada y en entrar "Edit Mode", para que así, podamos seleccioanr todos sus sub-elementos vertex, por ej,
+
+	y proceder ha rotarlos, distorcionarlos, otros
+
+
+	_de ésta manera, ésto cambios se verán reflejados en la disposición de ésta forma en el character, como handle, personalizado
+
+
+	
+
+21
+
+
+
+
+
+
+
+

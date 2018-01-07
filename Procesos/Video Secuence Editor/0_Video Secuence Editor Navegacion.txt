@@ -1,0 +1,187 @@
+
+
+
+	How to Master Video Editing in Blender.
+
+		https://www.youtube.com/watch?v=42AQ_EtRVq4
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Video Secuence Editor:
+	______________________
+
+	_en el video secuence editor podremos navegar y novernos así, como también, administrar material y secuencias de imágenes
+
+	y clips, de videos entre otras muchas posibilidades de producción
+
+
+
+	Navegación Shortcuts:
+	_____________________
+
+
+		_Scroll Up/Down:
+
+			_ésta opción nos permitirá hacer zoom, ó acercamiento en el panel de forma horizontal pudiendo así, tener
+
+			más detalle y posibilidades de edición
+
+
+
+		_Control + Scroll Click and Drag:
+
+			_éste comando nos permitirá hacer zoom, de forma vertical lo que nos permitirá hacer más anchas ó gruesas
+
+			las strips, ó clips, de video y audio, otros
+
+
+			_ésta opción es especialmente útil para visualizar clips, de audio en los cuáles, hemos activado la 
+
+			visualización del espectro de audio en el panel propiedades del clip
+
+
+		_0:
+
+			_éste comando nos permitirá centrar la vista del panel en la ubicación del cabezal
+
+
+
+		_.:
+
+			_éste comando nos permitirá centrar todo el panel en relación a la duración del timeline del secuenciador
+
+
+		_Home ó Shift + R:
+
+			_éste comando nos permitirá centrar la vista en relación a todo el ancho del viewport, del panel
+
+
+
+
+	Duración del Timeline:
+	______________________
+
+		_el panel "Video Secuence Editor", estará superditado el viewport 3d, y su timeline, de ésta manera, debemos de ir 
+
+		al panel "timeline", y allí, indicar ó cambiar la duración de éste en relación de la duración de disemos que tenga
+
+		el timeline, ó secuenciador del panl "Video Secuence Editor", de ésta manera, tendremos dos formas de hacerlo
+
+
+			_la primera opción en cambiando la duración a través, de los valores numéricos en la parte inferior del panel
+
+			timeline
+
+
+			_la opción opción es colocando el cabezal en el frme, donde deseamos que inicie y termine el secuenciador y
+
+			una vez allí, aplicar los shortcut, respectivos los cuáles son
+
+
+				_S/E
+
+
+
+	Edición de Clips/Strips:
+	________________________
+
+
+		_Handles Arrows
+
+			_los handles, son una flecha ó arrow, a cada extremos de un clip, ó strip, a través, de los cuáles podremos
+
+			redimensionar la longitud ó duración de clip, que posea información en el área ha extendible
+
+
+			_de ésta manera, podremos seleccionar un clip, shortcut, "
+
+				_"Mouse Right Click"
+
+
+			_sobre un clip, ó strip, en el secuenciador del panel "Video Secuence Editor"
+
+
+			_para que así, podamos posarnos sobre una de las arrows, ó flechas de los extremos de un clip, ó stip, y allí,
+
+			aplicar el shortcut
+
+	
+				_"G and Left/Right and Dag"
+
+
+			_para que así, podamos aumentar ó dinminuir la longitud ó duración de un clip, ó strip, respectivamente
+
+
+			_también, podremos realizar éste proceso a través, de la secuencia
+
+
+				_"Mouse Right Click and Left/Right and Drag"
+
+
+			_sobre una de las arrows, ó flechas de un clip, ó strip, respectivo para que así, podamos cambiar la duración
+
+			respectivamente
+
+
+		_K (Cut) (corte suave)
+
+			_ésta opción nos permitirá dividir un clips en varias partes para que así, podamos utilizar éstas partes
+
+			en varias partes de la secuencia así, como también, descartar las áreas nos deseadas del clip, respectivo
+
+
+		_Shift + S (Cut Cabezal)
+
+			_ésta opción nos permitirá cortar la duración inicial de un clip, sin tener que hacer varios cortes y 
+
+			eliminar la parte inicial no deseada a través, de dos sub-clips, como en la opción anterior de "(Cut)"
+
+
+		Shift + K (Cut Hard) (corte duro)
+
+			_ésta opción nos permitirá hacer un corte duro ó definitivo lo que quiere decir que ya posteriormente no
+
+			podremos volver ha redimensionar el clip, simplemente por que ya la informaición a la que haremos referencia
+
+			ya no existe dentro del clip
+
+
+			_si no que cuando estiremos un clip, con un corte duro se extenderá el último fotograma de éste permaneciendo
+
+			la imágen estática lo es útil también, para una serie de procesos
+
+
+		_Alt + O (Clear Strip Offset) (borrar frames extendidos)
+
+			_ésta opción nos permitirá eliminar las áreas que clips, que hemos extendido a los cuáles, le hayamos aplicado
+
+			cortes duros como los explicados en la opción anterior
+
+			_de ésta manera, podremos posar el cabezal del timeline, sobre un área de frames, extendidos sobre un clip,
+
+			para que así, a través, de éste shortcut, podremos borrar éstos frames, extendidos de forma automática
+
+
+
+		_S (Slip Content) (Desplazamiento de contenido)
+
+			_tenemos la posibilidad de desplazar contenido de un clip, ó strip, sin la necesidad de tener que mover el clip,
+
+			respectivo lo que es especialmente útil cuando ya tenemos creado un strip, de clips, complejos y no deseamos
+
+			descuadrar éstos
+
+
+			_de ésta manera, a través, de ésta opción podremos desplazar contenido de forma dinámica sin la alteración 
+
+			de los clips
+
+
+
+	

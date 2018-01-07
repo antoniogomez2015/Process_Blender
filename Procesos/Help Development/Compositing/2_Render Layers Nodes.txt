@@ -1,0 +1,31 @@
+
+
+DETALLES
+
+
+los nodos de entrada facilitan información de cualquier tipo de recurso ó instancia
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+_Render Layers Nodes:
+_____________________
+
+
+
+	_tipos de recursos aceptados por el sistema de "Compositing":
+
+	
+		_tomar directamente de la cámara activa en un escena seleccionada
+
+
+		_de jpg,png,..ext, como una imágen estática
+
+
+		_un clip, como secuencia de imágenes ó video
+
+
+		_ó sólo un valor de color

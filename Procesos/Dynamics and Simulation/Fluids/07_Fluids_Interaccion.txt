@@ -1,0 +1,107 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_tendremos la posibilidad de controlar la interacción tendrá el fluido con geometrías complejas del
+
+		sistema de colisionadores de ésta manera, podremos configurar el comportamiento y refinamiento que
+
+		tendrá el fluido en relación al tipo de elementos y superficies con las que éste fluido tendrá que
+
+		interactuar
+
+	
+		_de ésta manera, podremos controlar éstos comportamientos tanto para elementos de tipo emisores ó
+
+		inflow, como elementos de tipo ostáculos como copas, otros
+
+
+		_para que así, el fluido no se desborde ó se salga de contenedores con caras simples ó dobles como 
+
+		copas entre otros para que así, el fluido respete los límites de una superficie contenedora ó 
+
+		colisionadora
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó contenedor del fluido, en éste
+
+		caso es recomendable de que éste mesh, no tenga modicadores aplicados, de ser así, éstos deberán ser
+
+		aplicados previamente
+
+
+
+	Fluid:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Fluid", para éste objeto así, éste estará disponible para los procesos de simulación
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+	Volume Initialization:
+	______________________
+
+
+		_de ésta manera, debemos de seleccionar un elementos de tipo mesh, el cuál, hemos convertido ha tipo emisor
+
+		"fluid/inflow"
+
+
+		_y con éste seleccionado ir a sus opciones de "Volume Initialization", y llí, ver que disponemos de las siguientes
+
+		opciones ó comportamientos
+
+
+
+			_Volume:
+
+				_volúmen encerrado, es el modo por defecto el cuál, contempla el área del "box", ó área perimetral 
+
+				del elemento general de la geometría ó mesh
+
+
+			_Shell:
+
+				_shell, ó cáscada si contempla la topología de la geometría generara pero sólo en caras superficiales
+
+				y en superficies no muy complejas
+
+
+			_Both:
+
+				_ésta opción en ambos, si contempla la total topología de una geometría lo cuál, nos permnitirá hacer
+
+				elementos más complejos para que interactúen con los fluidos
+
+
+				_más ésta opción requerirá más memoría por parte del sistema y tiempo de cálculo
+		
+
+		
+
+
+
+
+

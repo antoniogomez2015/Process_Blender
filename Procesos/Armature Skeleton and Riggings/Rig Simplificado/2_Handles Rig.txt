@@ -1,0 +1,348 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Handles:
+	________
+
+	_luego de haber creado el sistema de armature, y las diferentes cadenas ó chains, debemos de crear los 
+
+	huesos ó bones, auxiliares a través, de los cuáles, podremos manejar el character, y sus diferentes cadenas
+
+
+	_para lo cuál, debemos tener seleccionado el objeto de tipo armature, y con éste seleccionado entrar en su
+
+	edit mode, shortcut, "tab"
+
+
+	_para a continuacíón proceder ha extruir determinados bones, en relación a los handles, que necesitemos
+
+	para controlar las diferentes extremidades ó chains, de bones, del character, respectivo
+
+
+	_de ésta manera, a continuación haremos referencia a los handles, más comúnes los cuáles, lo más 
+
+	recomendado es crearlos en una mitad del character, por lo general la izuqierda, éstos son:
+
+
+		_Handle Head
+
+			_éste ya lo hemos creado en el proceso de creación de la spine
+
+
+		_Handle Shoulder:
+
+			_éste lo creamos en el proceso de creación del arm y shoulder
+
+
+			_el cuál, utilizaremos posteriormente a través, de un forma personalizada
+
+
+			Parent Shoulder - Arm:
+
+			_éste require que hagamos un proceso de emparentamiento ha éste para lo cuál, debemos
+
+			seleccionar primero el "L Handle Arm", (handle de la muñeca), y luego debemos de 
+
+			seleccionar el handle de mano ó "L Handle MetaCarpo" 
+
+
+			_y por último seleccionar el bone, "L Shoulder", para posteriormente hacer el 
+
+			emparentamiento abriendo el menú contextual "Make Parent", shortcut, "Control + P", 
+
+		
+			_y allí, seleccionar la opción de "Keep offset", para que así, ahora sí, el hombro ó 
+
+			shoulder, pueda mover  toda la 	articulación del hombro al unísono 
+
+			"shoulder/arm/hand/fingers", dede la base de la	escápula
+
+		
+
+
+		_Handle Elbow:
+
+			_debemos de crear éste extruyendo el efector del "L Humero", hacia atras ó mejor aún
+
+			creando un nuevo bone, colocando el cursor 3d, en la parte posterior del codo ó elbow,
+
+
+			_para posteriormente sin ningún bone, seleccionado hacer "Shift + A", para que así, se
+
+			cree un nuevo bone, en éste punto el cuál, debemos de renombrar como "handle Elbow" 
+
+
+			_así, como también, debemos de seleccionar éste en edit mode, e ir a las opciones de
+
+			"Properties/Bone Bone/Deform", y allí, desactivar ésta opción
+
+
+		_Handle Arm:
+
+			_éste lo creamos en el proceso de creación del arm, como "foreArm", ó "L Radio"
+
+
+		_Handle Hand:
+
+			_éste lo creamos en el proceso de creación del arm, como "L MetaCarpo"
+
+			_éste require que hagamos un proceso de emparentamiento ha éste para lo cuál, debemos
+
+
+			Parent Fingers - Hand:
+
+			_para lo cuál, debemos de seleccionar el armature object, y con éste seleccionado debemos
+
+			ir al "Edit Mode", shortcut, "Tab"
+
+
+			_para a continuación proceder ha seleccionar el root, de cada cadena ó chains, de bone, del
+
+			de los fingers, de la respectiva mano ó hand
+
+
+			_para posteriormente y por último seleccionar el bone, del metacarpo el cuál, es 
+
+			"L MetaCarpo"
+
+
+			_y con todos los bones, respectivos seleccionados abrir el panel "Make Parent", shortcut,
+
+			"Control + P", y en éste seleccionar la opción de Keep Offset", 
+
+		
+			_para que así, ambos sistemas queden relacionados, de ésta manera, ahora al mover ó rotar
+
+			la mano ó hand, también, se moverá el sistema de hand/fingers, todos al unísono
+		
+
+			
+
+
+
+		_Handle Finger:
+
+			_éste lo creamos en el proceso de creación correspondiente de cada falange, de ésta
+
+			manera, convertiremos cada bone, de cada falange en un handle, con una forma personalizada
+
+
+		_Handle Chest:
+
+			_éste lo creamos en el proceso de creación de la "Spine", como "L Handle Chest"
+
+
+			_el cuál, requiere un emparentamiento con el sistema del shoulder, u hombro
+
+
+			Parent Shoulder - Chest:
+
+			_y luego de ya tener todo el brazo ó arm, al hombro ó shoulder, debemos ahora emparentar
+
+			el hombro ó shoulder, a chest, ó pecho ó ribcage
+
+
+			_para lo cuál, debemos de seleccionar el armature object, y con éste seleccionado debemos
+
+			ir al "Edit Mode", shortcut, "Tab"
+
+
+			_para a continuación proceder ha seleccionar primeramente el bone, del shoulder, "L Sholulder",
+
+			para posteriormente seleccionar el bone, del pecho ó chest, éste es "Handle Chest-Spine3"
+
+
+			_y con ambos bones, respectivos seleccionados abrir el panel "Make Parent", shortcut,
+
+			"Control + P",  y en éste seleccionar la opción de Keep Offset", 
+
+		
+			_para que así, ambos sistemas queden relacionados, de ésta manera, ahora al mover ó rotar
+
+			pecho ó chest, también, se moverá el sistema de shoulder/arm/hand/fingers, todos al unísono
+
+
+
+		_Handle Hip:
+
+			_éste lo creamos en el proceso de creación de la "Spine", como "L Handle Hip"
+
+			_el cuál, requiere un emparentamiento con el sistema del shoulder, u hombro
+
+
+
+			Parent Leg - Hip:
+
+			_para lo cuál, debemos de seleccionar el armature object, y con éste seleccionado debemos
+
+			ir al "Edit Mode", shortcut, "Tab"
+
+
+			_para a continuación proceder ha seleccionar primeramente el bone, del "root", de la pierna
+
+			ó leg, "L Femur", para posteriormente seleccionar el bone, de la cadera ó hip, éste es 
+
+			"Handle Hip"
+
+
+			_y con ambos bones, respectivos seleccionados abrir el panel "Make Parent", shortcut, 
+
+			"Control + P", y en éste seleccionar la opción de Keep Offset", 
+
+		
+			_para que así, ambos sistemas queden relacionados, de ésta manera, ahora al mover ó rotar
+
+			la cadera ó hip, también, se moverá el sistema de leg/foot/fingers, todos al unísono
+
+
+
+
+		_Handle Knee:
+
+
+			_debemos de crear éste extruyendo el efector del "L Femur", hacia atras ó mejor aún
+
+			creando un nuevo bone, colocando el cursor 3d, en la parte posterior de la rodilla ó knee,
+
+
+			_para posteriormente sin ningún bone, seleccionado hacer "Shift + A", para que así, se
+
+			cree un nuevo bone, en éste punto el cuál, debemos de renombrar como "handle Knee" 
+
+
+			_así, como también, debemos de seleccionar éste en edit mode, e ir a las opciones de
+
+			"Properties/Bone Bone/Deform", y allí, desactivar ésta opción
+
+
+
+
+		_Handle Foot/Ankle:
+
+
+			_debemos de crear éste extruyendo el efector del "L Tibia", hacia atras ó mejor aún
+
+			creando un nuevo bone, colocando el cursor 3d, en la parte posterior del tobillo ó ankle,
+
+
+			_para posteriormente sin ningún bone, seleccionado hacer "Shift + A", para que así, se
+
+			cree un nuevo bone, en éste punto el cuál, debemos de renombrar como "handle Ankle" 
+
+
+			_así, como también, debemos de seleccionar éste en edit mode, e ir a las opciones de
+
+			"Properties/Bone Bone/Deform", y allí, desactivar ésta opción
+
+
+			_éste requiere un constraint, de tipo "Copy Rotation", para lo cuál, debemos de tener 
+
+			seleccionado el armature, y estar en "Pose Mode", para a continuación seleccionar el handle,
+
+			en éste caso "L Handle Ankle"
+
+
+			_para a continuación agregar un constraint, shortcut, "Control + Shift + C", para que así,
+
+			nos aparesca el panel "Add Constraint (With Targets)", y seleccionar en éste "Copy Rotation"
+
+
+			_en el cuál, en la opción de "Target", debemos de seleccionar el "armature", para que así,
+
+			podamos a continuación seleccionar el "Bone", en éste caso "L Handle MetaTarso"
+
+
+			_para que así, al rota el piel a través, del metar carpo se mueva también el handle, del
+
+			ankle, ó tobillo
+
+
+
+
+		L Handle MetaTarso:
+
+			
+			_éste lo creamos en el proceso de creación del foot
+
+
+			_el cuál, utilizaremos posteriormente a través, de un forma personalizada para manejar a
+
+			través, de ésta la rotación del pie, lo handles, reslacionados al pie
+
+
+
+
+
+		Handle ToeBall:
+
+			_éste lo creamos en el proceso de creación del foot
+
+
+			_el cuál, utilizaremos posteriormente a través, de un forma personalizada para manejar a
+
+			través, de ésta la rotación de la bola del pie, ó de los fingers, del pie
+
+
+
+
+
+	Bone Groups:
+	____________
+
+	_luego de haber creado todo el sistema de handles, a través, de la designación y creación de nuevo bones,
+
+	los cuáles, utilizaremos de forma auxiliar y influencia sobre el proceso de "weight map", ya que ha éstos
+
+	les hemos desactivado la opción de "Dform"
+
+
+		NOTA: éste proceso de desactivarle la opción de "defrom", sólo se le ha realizado a los bones
+
+		auxiliares los cuáles, pertenecen a una cadena diferentes a la principal u original, ya que a los
+
+		bones como "hips, chest, head", no se les ha aplicado por que éstos cumplen con más de una función
+
+
+	_de ésta manera, podremos seleccionar por ejemplo todos los bones, que harán de handles, de lado izquierdo
+
+	y con éstos seleccionados y estando en "Pose Mode", ir ha "Properties/data Object Data/Display/Bone Groups", 
+
+	y allí, darle a la opción de "+", para que así, se cree un nuevo grupo de huesos el cuál, podremos renombrar 
+
+	ej, "Left/Right/Center"
+
+
+	_de ésta manera, podremos en a continuación en éste panel seleccionar una serie de presets, de colores los
+
+	cuáles, podremos asignárselos a los bones, seleccionados a través, del botón "Assign", para que así, los
+
+	bones, seleccionados tomen ahora éste color personalizado
+
+
+	_de ésta manera, podremos repetir éste proceso para los bones, del lado derecho y del central del character
+
+
+	_para que así, posteriormente los shapes, personalizadas que coloquemos posteriormente pos bones, proxis,
+
+	tomen el color de dichos pressets, asignados respectivamente
+
+	
+	
+
+
+

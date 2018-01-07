@@ -1,0 +1,295 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+	023 Curso Blender - Rigging de personajes (Manual)
+
+		https://www.youtube.com/watch?v=vKjCKN_NqQs
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+		_primero debemos tener listo nuestro character por lo general en una versión low poly, ó en retopology, adaptado
+	
+		para el proceso de riggings, and skinning, ó envelope, es decir, éste debe estar en baja resolución y con las 
+
+		extremidades abiertas ó separadas para facilitar el proceso, así, como también, el centro de gravedad del character,
+
+		que signa la mitad del mismo debe de coincidir con la midad de plano del axis, del viewport
+
+
+
+	Skeleton System ó Armature:
+	___________________________
+
+		
+		Armature:
+		_________
+
+		_és recomendable primero colocar el cursor en el centro de gravedad del character, previamente, para ésto vamos al
+
+		modo edit, y seleccionamos los vextes, del área circundante a la cintura del character, y luego hacemos shortcut,
+
+		"shift + s/Cursor to Seleted", así, el cursos irá hasta el punto medio de los sub-elementos seleccionados
+
+
+		_luego creamos un skeleton system, para ésto, debemos crear un objeto de tipo armature, estando en modo object, yendo 
+
+		ha "shift + A/Add/Armature/Single Bone", así, éste se creará en la posición del cursor
+
+
+
+		Display:
+		________
+
+		_para poder visualizar las chains, de bones, a través, del character, debemos seleccionar el armature, object, e ir
+
+		ha "properies/data object data/display", y activar la opción de "X-Ray", para que así, podamos ver a través, de la
+
+		geometría ó mesh, de nuestro character
+
+
+
+		Skeleton System:
+		________________
+
+		_ahora debemos seleccionar el "Single Bone", que creamos en el paso anterior y entramos al modo de edición, "edit",
+
+		shortcut, "Tab", así, en el modo de edit, podremos ver que el "single bone", se compone de un "root", ó raíz, y un
+
+		"head", ó cabeza
+
+
+		_ahora debemos empezar ha modular el skeleton system, deseado sobre la mesh, de nuestro character, en relación a la
+
+		lógica y cinemática de nuestro characarter 
+
+		
+		_para ésto, debemos seleccionar la "head", ó cabeza de nuestro "single bone",
+
+		en "edit mode", y comenzar ha mover ésta así, como de extruir ésta para crear nuevos bones, a través, del shortcut,
+
+		"E + mouse and drag", ó también moviendonos hasta un punto de destino con "control + mouse left click", de ésta manera
+
+		podremos ir creando las diferentes chains, ó cadenas que conforman nuestro character, ej; una cadena de bones, y joints,
+
+		los "arms", ó brazos, otra para las "legs", y así, secesivamente, todo éste proceso por lo general lo hacemos en el lado
+
+		izquierdo del character, contemplando la posibilidad de reflejar todo el proceso hacia el otro lado posteriormente para
+
+		ahora tiempo y proceso
+
+
+		_también, tenemos la posibilidad de la creación de chains, y bones, de forma simétrica a través, de la opción en el mode
+
+		"edit mode/tools/options/", activando la opción de "X Axis Mirror", para que ésta opción funcione correctamente es aconsejable
+
+		que el cursor y pivit, se encuentre en el centro del axis, del plano del viewport, para que así, mantenga la correlación 
+
+		entre ambos lados
+
+
+
+		Chains:
+		_______
+
+		_es recomendable separar las chains, ó cadenas de las otras partes ó cadenas, a la hora de realizar y configurar las diferentes 
+
+		cadenas de huesos y articulaciones que conforman las diferentes partes de nuestro character, como arms, legs, otros, del 
+
+		skeleton system, por que de ésta manera obtendremos mejores resultados para los diferentes procesos como el proceso de "mirrow",
+	
+		animación, kinnemática, entre otros
+
+
+		_de ésta manera podremos realizar secuencias de forma contínua entre cadena y cadena de bones y joint,s que conforman nuestro
+
+		character y luego, romper las relaciones de emparentamiento de forma correcta entre las diferentes chains, ó cadenas de bones y 
+
+		joints, ya que simplemente borrando directamente los bones, que unen las diferentes chains, ó cadenos no es suficiente ya que
+
+		con éste método se mantienen las relaciones y uniones entre los bones y chains
+
+
+		_así, para borrar ó eliminar los bones, que hacen de puentes entre las diferentes chains, y a su vez, para romper las conexiones
+
+		entre éstos y sus respectivas chains y joints, primero debemos asegurarnos de que estamos en "edit mode", luego debemos seleccionar
+
+		un respectivo bone, y luego debemos aplicar "Armature/Split" 
+
+		
+			Split Chain: Shortcut "Y"
+			_____________________
+			
+
+
+		de ésta manera podremos ver que el bone, respectivo ahora estará desconectado de las cadenas y articulaciones a las cuales éste 
+
+		pertenecía y ya que es así, podremos eliminar éste bone, el cuál, ya no necesitamos sin que ésto implique repercuciones ó un mal 
+
+		funcionamiento del skeleton system
+
+
+		_así, como también, tenemos la posibilidad de unir chains, ó cadenas para ésto, primero debemos estar en "edit mode", luego debemos
+
+		seleccionar primero el "head ó tip", del respectivo bone, ha conectar con el respectivo "root", del otro bone, a conectar luego,
+
+		con ambos elementos seleccionados debemos aplicar "Armature/Fill Between Bones"
+
+
+			Mix Chain: shortcut "F"
+			___________________			
+
+
+		_más ésta opción expresada en el paso anterior lo que una unir ó reconstruir la ocntinuidad de bones, que conforman una respectiva
+
+		chain, ó cadena más no une ó solda los bones, que están sepadados como diferentes cadenas ó chains
+
+
+		_más para unir bones desconectados para que éstos ahora sí estén unidos como bones, y joints, de una misma cadena para ésto, primero
+
+		debemos estar en "edit mode", luego debemos seleccionar ambos bones, a soldar y, luego debemos aplicar "Armature/Parent/Make"
+
+
+			Parent-Combine Chain: shortcut "control + P" (Parent Make/)
+			______________________________			
+
+
+				_Connected:
+
+					_éste opción suprime la distancia posible entre ambos bones y une soldando éstos en una misma cadena ó chain
+
+
+				_Keep OffSet:
+
+					_éste opción conserva ó respecta la posible distancia entre ambos bones, y los une soldando éstos en una misma 
+
+					cadena ó chain, conservando todas sus relaciones conservando las distancias entre los bones
+
+
+			UnParent: Shortcut "Alt + P" (Clear Parent)
+			__________________
+
+					_más tambén, tenemos la posibilidad inmediata de desparentear la relaciones entre bones, para así, rápidamente
+
+					quitar ó eliminar las características de emparentamiento
+
+
+		_pero tambén, tenemos la posibilidad de separar bones, ó chains, en diferentes "armatures", para ésto primero debemos estar en "edit mode"
+
+		luego debemos seleccionar los bones, ha separar en una nuevo armature, luego vamos ha "Armature/Separate Bones"
+
+
+			Divide Armatures: shortcut "P"
+			__________________________
+
+
+		_así, como también tenemos la posibilidad de unir armatures separados en sí, para ésto debemos estar en "object mode", luego debemos 
+
+		seleccionar ambos armatures a fusionar, luego debemos aplicar "Object/Joint"
+
+
+			Fusion Armature: shortcut "Control + J"
+			_________________________
+
+
+		_así, ambos armatures, quedarán unidos ó fusionados en uno solo tanto en el viewport, como en el outliner, más si luego deseamos unir 
+
+		los bones debemos aplicar "Armature/Fill Between Bones/(F)", y si deseamos fusionar éstos bones, debemos aplicar "Armature/Parent/Make",
+
+		"control + p"
+
+
+		_más por otra parte, alternativamente podemos también. cambiar las características del "roll", y recalcular éste bajo diferentes criterios
+
+		ésta función está disponible en "edit mode", así, podremos hacer recálculos en positivo y en negativo a través, de las tangentes como a 
+
+		través de los axis
+
+
+			Recalculate Roll Shortcut "Control + N"
+			_________________________
+			
+
+
+
+		Rename:
+		_______
+
+		_es altamente aconsejable al finalizar de configurar el skeleton system, renombrar todas las chains, respectivas renombrando
+
+		todos los bones, partiendo de un prefijo que hará ferencia al lado de producción sea éste el derecho "R_", ó el	izquierdo 
+
+		"L_", para así, el sistema puede tomar éste prefijo y hacer un diplicado de forma reflejada hacia el otro sentido
+
+
+
+		Bones Gropups:
+		______________
+
+		_también tenemos la posibilidad de agrupar de forma visual los grupos de bones, de chains, de las diferentes partes de nuestro 
+
+		character, por medio del skeleton system, para ésto, primero seleccionamos el armature, respectivo vamos al modo de "pose mode", 
+
+		shortcut "Control + Tab", luego vamos ha "properties/data object data/bones groups", y allí, le damos al plus ó (+), para crear
+
+		un nuevo group, ó grupo de bones
+
+		
+		_luego en modo "pose mode", aún, debemos seleccionar los bones, deseados de una chain, ó cadena por ejemplo la "Spine", dorsal,
+
+		así, con los bones, de la spine, seleccionados volvemos ha  "properties/data object data/bones groups", y allí, le damos ha 
+
+		"Assign", así, éstos bones, quedarán asignados al grupo respectivo
+
+
+		_más ahora sólo tendremos que seleccionar el  "properties/data object data/bones groups/Color", entre una serie de colores 
+
+		preestablecidos disponibles, es así, como de ésta manera podremos personalizar el color de las diferntes cadenas de bones y joints
+
+
+		Orientation Bones Axis:
+		_______________________
+
+		_al crear chains, ó cadenas de bones, ó huesos complejas en los diferentes skeleton systems, de los diferentes characters, es posible 
+
+		que necesitemos ajustar la dirección de los bones, para las articulaciones en las que éstas quedan inclinadas ó desfazadas del eje 
+
+		perpendicular de la flexión natural del respectivo joint, ó articulación
+
+
+		_para éstos casos contamos con la opción de "Rool", para ésto primero debemos estar en "edit mode", luego debemo seleccionar el bone,
+
+		respectivo ha ajustar, luego vemos ha "Properties/Bone Bone/Transform/Roll", y allí podemos ajustar la rotación axis, que más se ajuste
+
+		al ángula y cordenada de rotación de la articulación, cuidando de que todas las articulaciones ó joints, roten en la misma cordenada, ej:
+
+		de que todos los joints, roten en la cordenada "Z", en el mismo ángulo de rotación sin importar la inclinación ó desface de éstos
+
+
+		_una opción de visualización que ayuda en éste proceso es estando en "edit mode", vamos a "Properties/Data Object Data/Display", y allí,
+
+		activamos la opción de "Axes", así, podremos ver en el viewport, cada de unos de los axis, para cada una de las articulaciones ó josint,
+
+		de cada bone, del skeleton system
+
+
+
+

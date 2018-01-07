@@ -1,0 +1,14 @@
+
+
+shift + A Add/Metaball/Ball
+
+	esta opción nos permitirá también crear ceometría para el proceso creativo para el proceso posterior 
+
+	del esculpido entre otras funciones dinámicas
+
+
+	_vamos creando formas más complejas agregando más "Balls"
+
+	_al terminar de agregar balls, seleccionamos todos los handles que conforman las balls, 
+
+	y aplicamos "Mesh from Curve/Meta/Surf/Text" Alt + C, en "Modo Object", para así, convertir las metaball, en este caso en una mesh, editable 

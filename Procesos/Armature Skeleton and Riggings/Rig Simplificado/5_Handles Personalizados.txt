@@ -1,0 +1,105 @@
+
+
+
+	Riging de Personaje en Blender Parte1
+
+		https://www.youtube.com/watch?v=Jcl0lJE6Y4M
+
+
+	Riging de Personaje en Blender Parte2
+
+		https://www.youtube.com/watch?v=3EeapmDYLfI&t=1438s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Handles Personalizados:
+	_______________________
+
+	_luego de haber creado del armature system, y de haber configurado éste y sus respectivos hadlles, y 
+
+	emparentamientos con las diferentes chains, del character
+
+
+	_también, tendremos la posibilidad de personalizar los handles, para que así, éstos tengan una forma
+
+	referencial y sobre todo más accesible y de una mejor tamaño y color ya que previamente hemos creado grupos
+
+	de handles, tanto para el lado derecho, izquierdo y central respectivamente
+
+
+
+	Consideración:
+
+	_para lo cuál, no debemos de utilizar elementos de tipo cuves, ni nurbs, si no más bien, elemento de tipo
+
+	"PolyMesh", para lo cuál en object mode, debemos de aplicar el shortcut "Shift + A/Add/Mesh", en el cuál,
+
+	podremos escoger por ejemplo "Circle"
+
+
+	_el cuál, entrando a su edit mode, podremos ajustar ó personalizar la forma por una forma characterística
+
+	en relación al tipo de handle, ha representar
+
+
+	_el cuál, posteriormente lo podremos renombrar ej, "Proxi Handle Ankle"
+
+
+
+	Aisgnación:
+
+	_para posteriormente seleccionar el objeto de tipo armature, y con éste seleccionado ir ha su edit mode,
+
+	shortcut, "Tab"
+
+
+	_y allí, seleccionar el respectiva handle, ha personalizar, para luego con éste seleccionado ir a las 
+
+	opciones "Properties/Bone Bone/Display/", y allí, ir a las opciones de "Custom Shape", en el cuál, podremos
+
+	seleccionar el objeto de tipo mesh, que hará de handle, dentro del sistema de armature
+
+
+	_y posteriormente en las opciones de "Display", activar la opción de "Wireframe", para poder así, 
+
+	visualizar la respectiva forma dentro del sistema de armature
+
+
+	_así, como también, en la misma sección de "Display", podremos ajustar el tamaño de éste desactivando la 
+
+	opción de "Bone Size", pudiéndo así, ajustar la "Scale"
+
+
+	
+	Edition:
+
+	_más en los casos en los que las formas no coincidan con las cordenadas del sistema, en esos casos debemos
+
+	seleccionar los respectivos objetos de tipo mesh
+
+
+	_y entrar en su modo edit mode, y proceder ha seleccionar todos sus sub-elementos, shortcut, "A/A", para
+
+	posteriormente comenzar ha hacer modificaciones de rotación en sus diferentes cordendas "X,Y,Z", hasta 
+
+	lograr en lo más posible hacer coincidir las cordenadas
+
+
+	_para finalmente salir del edit mode, y volver al character, y entrar en el pode mode, y continuar con el
+
+	proceso de edición
+
+
+	_de ésta manera, podremos repetir todo éste proceso para el resto de los handles, hasta haber personalizado
+
+	todos los handles, del character
+
+
+	
+
+
+

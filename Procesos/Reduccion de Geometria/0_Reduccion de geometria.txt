@@ -1,0 +1,156 @@
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	General:
+	________
+
+	_tenemos la posibilidad de hacer reducciones de geometría para que así, podamos bajar la cantidad de 
+
+	geometría poligonal lo cuál, es especialmente útil y necesario en procesos de producción para animación,
+
+	video juegos, otros
+
+
+	_los procesos de reducción de geometría tienen aplicaciones en procesos de retopología automática, así, 
+
+	como también, en procesos de conversión de de geometría optenida a través, del proceso de "Curves", y
+
+	"NURBS"
+
+	_las cuáles, por lo general no permiten de una manera eficiente en su configuración bajar la cantidad de
+
+	geometría resultante de una topología determinada
+
+
+	_de ésta manera, para lograr el objetivo de bajar la cantidad de geometría disponemos de los siguientes
+
+	métodos:
+
+
+
+	Decimation:
+	___________
+
+	_disponemos en blender, de forma nativa de un modificador a través, del cuál, podremos hacer decimation, 
+
+	ó disminución de geometría al modo que lo hace "ZBrush"
+
+
+	_éste proceso contempla la conversión en gran medida de la geometría ha triads, ó triángulos poligonales
+
+	sober todo en reducciones muy grandes de polígonos lo cuál, no siempre es conveniente
+
+
+	_para lo cuál, debemos de seleccionar el objeto de tipo polymesh, y con éste seleccionado ir ha el panel
+
+	"Properties/Modifiers/", y allí, seleccionar el modificador "Decinamte"
+
+
+
+	Configuración:
+
+	_el cuál, dispone de varias opciones ó criterios de acción donde el más recomendado es "Collapse", el cuál,
+
+	tratará en lo más posible de mantener la polígonos en forma de "Quads", y de mantener la topología y 
+
+	morfología original
+
+
+	_para que así, a través, de la opcion de "Ratio", por medio de un slider, podamos disminuir la cantidad de
+
+	geometría resultante en el objeto
+
+
+	_de ésta manera, cuando estemos conformes con la geometría resultante debemos de darle a la opción de
+
+	"Apply", para que así, los cambios se apliquen de forma permanente y podamos posterior seguir con el 
+
+	proceso de edición, mapeo, texturizado, animación, render, otros
+
+
+
+
+	Selections:
+	___________
+
+	_éste consiste en un proceso de selección y borrado de lopps, de geometría de forma manual para ir así,
+
+	disminuyendo la cantidad de geometría poco a poco
+
+
+	_para lo cuál, primeramente debemos entrar ha "Edit Mode", shortcut, "Tag"
+
+
+	_en el cuál, debemos de entrar en el modode sub-elementos edges, shortcut, "Control + Tab", para que así,
+
+	se nos abra el panel contextual "Mesh Select Mode", en el cuál, debemos de selecciona la opción de "Edge"
+
+
+
+	Ring Loop:
+
+	_para posteriormente seleccionar un ring loops, ó selección de bordes ó aristas en paralelo las cuáles,
+
+	deseamos disminuir posteriormente, para lo cuál, debemos de seleccioanr un borde ó edge, ó arista para
+
+	a continuación hacer "Control + Alt + Mouse Right Click", sobre un edge, borde ó arista contigua a la que
+
+	tenemos seleccionada en el sentido u orientación al que deseamos se genere la selección de "Ring Edges",
+
+
+	_para que así, todos los edges, que estén contiguos al edge,  seleccionado  previamente den ahora también,
+
+	seleccionado
+
+
+
+	Checker Deselect:
+
+	_para a continuación reducir todos los edges paralelos y contiguos seleccionado a la mitad para lo cuál,
+
+	con todos los edges, seleccionado aún vamos ha "Select/", y allí, aplicamos la opción de "Cehcker Deselect",
+
+	
+	_para que así, la selección de ring edge, sea simplificada a la mitad lo que nos servirá posteriormente 
+
+	para disminución de geometría
+
+
+
+	Multi Edge Loops:
+
+	_para posteriormente convertir la selección de "Edge Ring", ahora en selecciones múltiples de "Edge Loops",
+
+	para lo cuál, con los edges, seleccionados vamos ha "Select/", y allí, aplicamos la opción de "Edge Loops",
+
+
+	_para que así, ahora cada edges, correspondiente al edge ring, sea convertido ahora en todo un edge loops,
+
+	independiente que serán lo que eleminaremos posteriormene
+
+
+
+	Delete Edge Loops:
+
+
+	_para a continuación con los edges, aun seleccionados aplicamos el shortcut, "Supr", para que así, aparesca
+
+	el menú contextual de "Delete/", en el cuál, debemos de seleccionar la opción de "Edge Loops", para que
+
+	así, sean eliminados los edge loops, seleccionado
+
+
+	_para que así, de ésta manera, vayamos simplificado la geometría pudiéndo así, repetir todo éste proceso
+
+	hasta simplificar la geometría hasta tener la  reducción de geometría deseada
+
+	

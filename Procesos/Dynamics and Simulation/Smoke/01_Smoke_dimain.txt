@@ -1,0 +1,205 @@
+
+
+
+
+Blender Dynamics / Smoke
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un domain, es el master, de un sistema gaseoso o humo, el cuál, será el delimitador ó contenedor último 
+
+		del humo como también, éste controlará las emisiones de humo de los respectivos emisores así, como los 
+
+		procesos de simulación y render, otros
+
+
+		_así, también, podremos agregar elementos que hagan de obstáculos ó contenedores personalizados como 
+
+		copas, otros, para realizar simulaciones de humo más complejas
+
+		
+		_entendiendo así, que los sistemas gaseosos o humo se conforman de sistemas de partículas para representar
+
+		las simulaciones
+
+
+		_de ésta manera, éstos sistemas gaseosos requieren para una correcta representación de iluminación "lights",
+
+		para que así, éstos uliminen los sistemas de partículas que representarán el sistema gaseoso
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó contenedor del fluido
+
+
+
+	Smoke:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Smoke", para éste objeto así, éste estará disponible para los procesos de simulación
+
+
+	Domain:
+	_______
+
+
+		_ahora con el objeto proxi, seleccionado vamos ha "Properties/Physics/Smoke/", y seleccionamos
+
+		la opción de "Domain", así, éste objeto proxi, se comportará con el contenedor del Smoke así, como
+
+		el controlador de todo el sistema gaseoso
+
+
+
+	Simulate/Preview:
+	_________________
+
+		_para relizar a previsualizar una simulación gaseosa ó de humo no es preciso haberla simulado previamente
+
+		si no, que prodremos visualizarla y simularla directa y simultáneamente en el viewport 3d, a través, del 
+
+		shortcut: Alt + A
+
+
+		_para lo cuál, y a su vez, debimos previamente de haber creado un elemento de tipo mesh, al cuál, le hemos
+
+		activado igualmente las opciones de "Physis/Smoke/Flow", y colocado a su vez, dentro del contenedor ó domain, 
+
+		respectivo para que así, éste elemento pueda emitir humo dentro del respectivo contenedor
+
+
+	Settings:
+	_________
+
+
+		Resolution:
+		___________
+
+		_el contenedor principal se comporta como un grilla tridimensional al mejor estilo de "Maya 3d", en la cuál,
+
+		podremos configurar el tipo de humo así, como la resolución de éste, al aumentar la cantidad de "Divisions",
+
+		cambiará el tipo de humo ó sistema gaseoso
+
+		
+		_así, como también, podremos ajustar parámetros de densidad, temperatira, tiempo y vorticidad ó remolinos
+
+
+
+
+		Time:
+		_____
+
+		_éste valor nos permite acelerar ó desacelerar la simulación sin que éste afecto la simulación en si misma,
+
+		entendiendo así, que éste valor lo que hace es de factor "motion control", para que así, podamos ajustar ó
+
+		variar la velocidad de reproducción de la simulación previamente creada y calculada
+
+
+
+
+		Densit:
+		_______
+
+		_éste nos permite especificar cuál, es la densidad del contendor comparada con la densidad del emisor de
+
+		humo ó elemento gaseoso
+
+	
+		_así, al indicar valores positivos a la densidad del contenedor el humo que emite el emisor se elevará 
+
+		más rápido al éste poseer una densidad menor que la densidad del contenedor
+
+		
+		_por el contrario, si indicamos que la densidad del contenedor tendrá valores negativos entonces ésta tendrá
+
+		una densidad menor que la densidad del emisor de humo, por ende el humo en vez de ir hacia arriba el humo irá 
+
+		hacia abajo tipo neblina
+
+
+
+
+		Temp:
+		_____
+
+		_la temperatura tendrá un comportamiento similar al de la densidad, del paso ó tópico anterior de ésta manera,
+
+		podremos hacer que el humo suba ó baje en relación al emisor
+
+
+
+
+
+
+		Vorticit:
+		_________
+
+		_éste valor representa la capacidad del humo de hacer remolinos en el desenvolvimiento del mismo
+
+		a través, del tiempo, ésta opción dependerá de la resolución del contenedor
+		
+
+
+
+		Border Collision:
+		_________________
+
+		_Vertically Open, ésta opción nos permitirá hacer que el contenedor principal esté abierto totalmenteó lo que 
+
+		permitirá que el humo generado se escape por cualquiera de las caras del contenedor 
+
+
+		_ó que tenga un comportamiento sin fin ó sólo sangrado en la parte superior del mismo, dejando 	escapar ó 
+
+		desapareciendo el humo de ésta manera, el sistema dispone de los siguientes controles
+
+
+
+			Open:
+			_____
+
+			_ésta opción hacer que el contenedor principal esté abierto ó que tenga un comportamiento sin  en todos 
+
+			los lados del mismo, dejando escapar ó desapareciendo el humo
+
+
+			Collide All:
+			____________
+
+			_ésta opción permite que el contenedor repela ó que éste presente un comportamiento cerrado y refleje así, 
+
+			el humo ó sistema gaseoso que colisione en cualquiera de sis perímetros
+
+
+			Vertically Open:
+			________________
+
+			_ésta es la opción por defecto y permitirá que el humo pueda escaparse por la parte superior del contenedor, 
+
+			domain, ó sistema
+
+
+
+		Adaptative Domain:
+		__________________
+
+		_
+
+		
+
+

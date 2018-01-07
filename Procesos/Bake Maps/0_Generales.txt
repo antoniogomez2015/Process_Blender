@@ -1,0 +1,42 @@
+
+
+
+Sesión 3: IHMAN 3D School Retopología de un personaje con Blender
+	https://www.youtube.com/watch?v=QMLgQ839YRQ
+
+		minuto: 2:08hora
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+	_primero debemos tener el modelo ó character, tanto en versión haigh resolution
+
+
+	_como también, la versión en low resolution, ó en retología, ambos en el mismo lugar ó
+
+	en modo super puestos uno sobre otro para este proceso
+
+
+
+	-----------------------------------------------------------------------------------------
+
+
+	_el modelo también, debe de contar ya con el UVMap, creados por nosotros de forma personalizada
+
+	para que así, a través, de éstos pueda proyectar los diferentes materiales los diferentes mapas
+
+	deseados
+
+
+
+
+	

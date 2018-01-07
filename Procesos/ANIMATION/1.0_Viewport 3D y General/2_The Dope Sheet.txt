@@ -1,0 +1,73 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_éste panel nos permite ver y configurar los keyframes, en línea y en sus diferentes propiedades por
+
+	separado, ésto permite una gran flexibilidad a la hora de la edición y timming, de animación otros
+
+
+	_lo cuál, nos permitirá mover keyframes, en bloques y de forma individual yendo más allá de las 
+
+	propiedades del timeline
+
+
+
+
+Navegación:
+
+
+	The Dope Sheet Panel: Shft + F12
+
+
+	Zoom: scroll mouse ó Control + mouse midle click and drag left/right
+
+
+	Pan: Shift + mouse midle and drag left/right
+
+
+	Play/Stop: Alt + A
+
+	
+	Mover el cabezal frame to frame: Alt + Scroll mouse
+
+
+	Mover el cabezal de 10 en 10 frames: Shift + Arrows up/down
+
+
+	Mover el cabezal Star Star/End Frame: Shift + Arrows left/right
+
+
+	Set Star Frame workArea: S
+
+
+	Set End Frame workArea: E
+
+
+	Marks: M
+
+	Rename Mask: Control + M
+
+
+
+Edit Keyframes:
+
+
+	_para poder mover keyframes, de posición dentro del panel the dope sheet, debemos seleccionar una línea
+
+	vertical de keyframes, ó un keyframe, en particular haciendo "mouse right click", para luego arrastrar 
+
+	éste hasta una nuea ubicación y, para finalizar la operación debemos "mouse left click", para que así,
+
+	la línea de keyframes, quede fijada en la nueva ubicación
+
+
+
+

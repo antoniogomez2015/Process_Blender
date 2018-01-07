@@ -1,0 +1,202 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Brush Alphas:
+	_____________
+
+	_así, como también, tendremos la posibilidad de agregar texturas en alphas, para que así, podamos agregar detalles
+
+	más complejos como poros e inperfecciones en la piel y demás posibilidades para cuáles, nos permitirán agregar
+
+	realismo en nuestro character, ó motivo
+
+
+	Alphas:
+
+	_para lo cuál, debemos estar primeramente en el modo "Texture Paint", e ir a las opciones "Texture Paint/Tools",
+
+	yendo a su vez, a las opciones de "Texture", en la cuál, debemos darle ha "+ New", para que así, se cree un nuevo
+
+	slot, de textura para la brush, respectiva la cuál, podremos renombrar
+
+
+	
+	_para posteriormente ir ha las opciones de "Properties/Texture/", y allí, seleccionar el modo de cargar texturas
+
+	para brushes, el cuál, está representado por un cuadrado cuadriculado de colores blanco con rojo y no el ícno de
+
+	materiales el cuál, nos permitirá cargar materiales para texturas generales del character, ó motivo
+
+
+
+	Brush Mapping:
+	______________
+
+	_para posteriormente ir a las opciones de "Properties/Texture/Tools", y allí, bajar hasta las opciones de 
+
+	"Brush Mapping", y seleccionar unos de los modos de transferencia de imágenes como alphas, ó texturas los cuáles,
+
+	son los siguientes:
+
+
+		_Stencil:
+
+			_éste es el modo más recomendado el cuál, nos permitirá ver y manipular la textura ha proyectar
+
+			directamente en el viewport 3d, a través, de los siguientes comandos:
+
+	
+				_Move: "Mouse Right Click and Drag"
+
+				_Rotation: "Control + Mouse Right Click and Drag"
+
+				_Scale: "Shift + Mouse Right Click and Drag"
+
+					
+
+
+		_View Plane:
+
+			_éste nos permitirá enmascarar la textura en relación al tamaño de la brush, en un momento 
+
+			determinado así, como también, tendrmeos más limitados los controles sobre la textura ha proyectar
+
+
+		_Random:
+
+			_(indeterminado)
+
+
+		_3D:
+
+			_(indeterminado)
+
+
+		_Tiled:
+
+			_(indeterminado)
+
+
+
+	Brush Stroke:
+	_____________
+
+	_así, como también, podremos ajustar la forma en que proyecta ó aplica la deformación por textura ó alpha, sobre
+
+	el motivo ó character, shortcut, "E", a través, de los siguientes criterios ó configuraciones prestablecidas las 
+
+	cuáles, son:
+
+
+		
+		_Dots:
+
+			_ésta es la opción por defecto y nos permitirá la aplicación de la deformación de forma constante
+
+			ó a través, de la aplicación por puntos suspensivos contínuos
+
+
+		_Drag Dots:
+
+			_ésta opción nos permitirá la aplicación de un punto en un área determinada la cuál, la podremos
+
+			previsualizar directamente en el viewport
+
+
+		_Space:
+
+			_(indeterminado)
+
+
+		_Anchored:
+
+			_(indeterminado)
+
+
+		_Airbrush:
+
+			_ésta opción es similar la "Dots", pero con intérvalos más organicos y espaciados así, como
+
+			también, ésta es acumulativa ha modo de sprites
+
+
+		_Line:
+
+			_ésta opción nos pemritirá crear líneas para generar hard surface, otros
+
+
+		_Curve:
+
+			_ésta opción nos permitirá crear una curva la cuál, podremos editar y a través, de ésta aplicar
+
+			deformaciones sobre el motivo, presentando ésta y haciendo "enter", sober el viewport, 3d
+
+
+
+	Brush Stroke Aleatory:
+
+		_y en general para crear un espaciado errático y así, más orgánico debemos de jugar con los valores de:
+
+		"Texture Pint/Tools/Stroke/", yendo a las opciones de "Jilter:", y "Spacing", la opción de "Spacing",
+
+		sólo está disponible para la modalidad de "Stroke/Space"
+
+
+			_Spacing:
+
+				_de ésta manera, si aumentamos el valor del spacing, podremos aumentar también, el 
+
+				espaciado entre "dots", creado alternando así el patrón dejado por éstos lo que es 
+
+				especialmente útil para la creación de aleatoriedad orgánica
+
+
+			_Jilter:
+
+				_y el valor de jilter, si es genérico para todas las modalidades y éste lo que hace
+
+				es que alterna hacia arriba y hacia abajo el muestra de la textura respectiva generando
+
+				así, alternatividad y separación aleatoria orgánica en valores altos
+
+
+	
+
+	NOTA: para la creación de detalles a través, de texturas como alphas, debemos tener el color de las brush, en 
+
+	color "Black", para que así, se creen los poros hacia adentro y no hacia afuera así, como también, debemos de 
+
+	colocar las opciones de "Blend", en "Sustract"
+
+
+
+	Brush Curve:
+	____________
+
+	_así, como también, tendremos las opciones de "Curves", a través, de la cuál, podremos configurar como se 
+
+	comporta la interpolación de la brush, respectiva
+
+
+	_para lo cuál, debemos ir a las opciones de: "Texture Pint/Tools/Curve"
+
+	
+	_de ésta manera, contaremos con unos presets, así, como también, podremos personalizar la curva a través, de una
+
+	interface, gráfica
+

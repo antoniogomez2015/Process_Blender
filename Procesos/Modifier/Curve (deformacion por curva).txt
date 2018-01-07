@@ -1,0 +1,38 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_el motive, debe de tener una cierta geometría para que éste sea capas de representar la deformación
+
+
+	Curve:
+	______
+
+
+		_para ésto, seleccionamo sel mesh, motive, en "objet mode", y vamos ha "Properties/Modifiers/", y agregamos el
+
+		modificador "Curve"
+
+
+		_luego vamos a las opciones de "Curve/Object", en la cuál, podremos seleccionar el objeto a deformar más también,
+
+		podremos seleccioanr la cordenada de acción de la deformación
+

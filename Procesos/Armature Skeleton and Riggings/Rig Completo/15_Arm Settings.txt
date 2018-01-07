@@ -1,0 +1,35 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Arm Settings:
+_____________
+
+	_más ahora si desemos los movimientos de la mano hand, ó mano no estén superditados por los movimientos
+
+	del brazo y antebrazo, debemos seleccionar el bone, correspondiente al metacarpo de la mano, en éste caso 
+
+	es el bone, "L_carpo", y con éste bone, seleccionado iremos ha "properties/bone/relations", y deschequearemos
+
+	la opción de "Inherit Rotation"
+
+	
+	_para que así, la mano siempre mantenga su lugar en relación a los movimientos del brazo y ante brazo ó el
+
+	sistema del shoulder, en general
+
+
+
+
+

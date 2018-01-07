@@ -1,0 +1,87 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Skeleton Sketching:
+___________________
+
+
+
+	_también, tendremos ha nuestra disposición la creación interactiva de chains, ó cadenas de bones,
+
+	dentro de un armature, ésto es especialmente útil para la creación de tails, colas ó spine, ó 
+
+	columnas, tentáculos, otros
+
+	------------------------------------------------------------------------------------------------
+
+
+
+	Sketching:
+	__________
+
+	_así, podremos proceder ha crear un armature, base, yendo ha "Shift + A/Armature/Single Bone", para
+
+	luego con éste seleccionado entrar ha su modo de edición "Edit Mode", shortcut, "Tab"
+
+
+	_para luego ir a las opciones del panel 3d viewport, del lado derecho, shortcut, "N", y bajar hasta
+
+	las opciones de "Skeleton Sketching", y activar éstas
+
+
+	_para que así, a partir de éste punto podamos comenzar ha hacer un desplazamiento sobre una de las 
+
+	views, para que así, generemos un trazado sobre el cuál, se generarán las chains, de bones, nuevas
+
+
+
+	Stroke:
+	_______
+
+	_así, como en las opciones de stroke, dispodremos de diferentes opciones con diferentes criterios las
+	
+	cuales nos permitirán seleccionar diferentes modos de creación de bones, como la creación de bones, 
+
+	constante en la cuál, todos tendrán un mismos tamaño ó la adaptativa en la cuál, en relación al trazado
+
+	así mismo tendrán el tamaño los diferentes bones, otros
+
+
+
+	Subdivisions:
+	_____________
+
+	_y a continuación de haber creado un stroke, volver a las opciones de "Skeleton Sketching", e ir a 
+
+	las opciones de "Subdivisions", e indicar la cantidad de bones, que deseamos incorporar dentro del
+
+	"Stroke", que hemos generado en el paso anterior
+
+
+
+	Convert to Bones:
+	_________________
+
+	_para justo a contunuación darle al botón de "Convert to Bones", para que así, la cantidad de bones,
+
+	indicados en el paso anterior sean representados en el stroke, respectivo que hemos creado previamente
+
+
+	_y para por último darle al botón de "Delete Strokes", para que así, el stroke, sea borrado si ya no lo
+
+	necesitamos para otro proceso de creación de bones
+	
+
+
+

@@ -1,0 +1,491 @@
+
+
+BLENDER Navegación y shortcuts nativos versión blender 2.75
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Navegación:
+___________
+
+
+
+	Orbit: (mouse midle click and drag)
+
+
+	_Zoom: (mouse midle click + Control and drag Up/Down) (mouse scroll)
+
+
+	_Pan: (mouse midle click + Shift and drag)
+
+
+	_Maximized Viewer: Shift + Spacebar
+
+
+
+
+
+
+	_Grab/Move: G (+XYZ)
+
+
+	_Rotate: R (+XYZ)
+
+
+	_Rotate Cursor 3D: Shift + W (Object Mode)
+
+
+	_Scale: S (+XYZ)
+
+
+	_Clear Transform: Alt + G/R/S (para des-hacer acciones de Grab/Rotate/Scale)
+
+
+
+
+
+
+	_Center Viewer and Cursor: Shift + C
+
+
+
+	SHADIN:
+
+		_wareframe mode/Shade Mode: Z/Z (Object Mode/ Edit Mode)
+
+
+	MODES:
+
+		_Weight Map: Control + Tab
+
+
+	Snap: Shift + Tan
+
+	
+	
+
+
+		
+--------------------------------------------------------------------------------------------------------------
+
+
+Selecting:
+__________
+
+
+	_Select/De-Select All: A/A
+
+
+	_Lasso: Mouse left click + Control + Drag (Edit Mode)
+
+
+	_Brush: C (Edit Mode)
+
+
+	_Edge Loops/Ring: (seleccione un "edge", y luego:), Shift + Alt + Mouse right click
+
+	
+	_Isaolate Rectangle: Control + B
+
+
+	_All Center: Alt + G (seleccionar elemento y alinearlos todos al centro del axis) (Object Mode)
+
+	
+	_Select Multi Object: Shift + Alt + Mouse Right Click
+
+
+	_Inverse Selection: Control + I (Object Mode)
+
+
+	_Select Linked: Shift + L (Object Mode)
+
+
+	_Selecte Grupped: Shift + G  (Object Mode)
+
+
+	_Remove From Grup: Control + Alt + G (Object Mode)
+
+
+	_Move Texture Space: Shift + T + Drag (Object Mode)
+
+	
+	_Scale Texture Space: Shift + Alt + T (Object Mode)
+
+
+	_Proportional Editing Mode: O "Enable", (gradua radio brush "Mouse Scroll Up/Down")
+
+
+	_Proportional Editing FallOff: Shift + o/o/o/o..
+
+
+	_Proportional Editing Mode: Alt + O "Connected"
+
+
+	_Select Child/Parent: [ ó ] (Edit Mode / Pose Mode)
+
+
+	_Extend Child/Parent: Shift + [ ó ] (Edit Mode / Pose Mode)
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Menús:
+______
+
+	
+
+	_Mesh Select Mode: Control + Tab (modo de sub-elementos) / (Edit Mode)
+
+	
+	_Snap Element: Control + Shift + Tab
+
+	
+	_Specials: W
+
+
+	_Convert To: Alt + C
+
+
+	_Add Constraint: Control + Shift + C
+
+
+	_Set Orion: Control + Alt + Shift + C
+
+
+	_Clear Parent: Alt + P
+
+
+	_Set Orion: Control + Shift + Alt + C
+
+
+	_Booleans: Control + Shift + B
+
+
+	_Select Menú: Shift + Alt + Mouse Right Click (para seleccionar elementos superpuestos en el viewport)
+
+	
+	_Undo History: Control2 + Alt2 + Z (Object Mode)
+
+
+	_Insert Keyframe Menú: I (Object Mode)
+
+
+	_Delete Keyframe: Alt + I
+
+
+	_Set Active Keying Set: Control + Alt + Shift + I (Object Mode)
+
+
+	_Make Single User: U (Object Mode)
+
+ 
+	_Make Local: L (Object Mode)
+
+	
+	_Make links: Control + L (Object Mode)
+
+
+	_Make Track: Control + T (Object Mode)
+
+
+	_Clear Track: Alt + T (Object Mode)
+
+
+	_Make Proxy: Control + ALt + P
+
+	
+	_Move to Layer: M (Object Mode)
+
+
+	_Open Recent: Control + Shift + O (Object Mode)
+
+
+	_Restrict Render: W (seleccionar elementos y restringir al render) (Object Mode)
+	
+
+	_Debug Menú: Control + Alt + D (Object Mode)	
+
+	
+	_Transfer Mesh Data: Control + Shift + T (Object Mode)
+
+
+	_Redraw Timer: Control + ALt + T (Object Mode)
+ 
+
+	_Mirrow: Control + M + X/Y/Z (Object Mode)
+
+
+	_Set To Parent: Control + P
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Modeling:
+_________
+
+
+
+	Vertex: (Shortcut: Control + V)
+	_______
+
+
+		_Conect vertex: 
+
+			_seleccionar 2 vertex y aplicar (J)
+
+
+		_Desconectar vertex:
+
+			_seleccionar 2 vertex y aplicar (V)
+
+
+
+
+	Edges: (Shortcut: Control + E)
+	______
+
+
+		_Bridge Edge Tool: (indeterminado)
+
+	
+		_Edge Crease: Shift + E
+
+
+
+
+
+	Faces: (Shortcut: Control + F)
+	______
+
+
+		_Duplicar faces: Shift + D
+
+
+		_Loop Cut and Slide: Control + R
+
+
+		_Knife: K
+
+
+		_Extrude: E
+
+		
+		_Insert Faces: I
+
+
+		_bevel: Control + B
+
+		
+		_Make Edge/Face: F (NGons también)
+
+
+		_Fill: Alt + F
+
+
+		_Poke Faces: Alt + P (converger al centro) 
+
+
+		_Triangule Faces: Control + T
+
+
+		_Triads to Quads: Alt + J
+
+
+		_Recalculate Normals: Control + N
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Rigging:
+________
+
+
+	tutorial blender rigging con rigify español
+		https://www.youtube.com/watch?v=7PsNdODBdMo
+
+
+
+	tutorial blender poner huesos(rigging)con rigify parte 1/2
+		https://www.youtube.com/watch?v=bd2iuwtILbE
+
+
+
+	tutorial blender rigging basico ,español
+		https://www.youtube.com/watch?v=2Lm1Ukjj5mE
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Sculpting:
+__________
+
+
+	Taller Escultura Digital con Blender IHMAN 3D SCHOOL
+		https://www.youtube.com/watch?v=UXHjMqnmB9E
+
+
+	------------------------------------------------------------------------------------------------------
+
+
+
+	Brush:
+	______
+
+
+		_Brush Radio: F + Mouse left click and drag
+
+
+		_Brush Strengt: Shift + F + Mouse left click and drag
+
+
+		_Brush Subdivisiones: Shift + D
+
+
+		_Strengt Hok: 3/4
+
+
+		_Smooth Stroke (Lazzi Mode): Shift + S
+
+
+
+	Brushes:
+	________
+
+
+		_F Grab: G ó 0
+
+
+		_F Brush: X ó 2
+
+	
+		_F Clay: C ó 5
+
+
+		_F Snake Hook: K
+
+
+		_F Layer: L
+
+
+		_F Pinch Mag: P
+
+
+		_F Inflate Deli: I
+
+
+		_F Smooth
+
+
+		_F Mask: M
+
+	
+		_F Blob: 1
+
+
+		_F Crease: 6 ó Shift + C
+
+
+		_F Draw: 7
+
+		
+		_F Fill/Deepen: 8
+
+
+		_F Polish: 9 ó Shift + T
+
+
+
+
+	_Lasso Masking: Control + Shift + Mouse left click and drag
+
+
+	_Rectangle Masking: B + Mouse left click and drag
+
+
+	_Rectangle Hiden: H + Mouse left click and drag
+
+
+	_Rectangle Un-Hiden: H + Shift + Mouse left click and drag
+
+
+
+	Menús:
+	______
+
+
+		_Stroke Method: E
+
+
+		_Angle Control: R
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Sculpting:
+__________
+
+
+
+	_Crease Pencil: D + mouse left click + drag
+
+
+	_Delecte Crease Pencil D + mouse right click + drag
+
+
+	_Brush function indeterminada: Control + ALt + F
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Spline:
+_______
+
+
+
+	_
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Armature Skeleton System:
+_________________________
+
+
+	_

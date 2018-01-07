@@ -1,0 +1,327 @@
+
+DEFORMER:
+_________
+
+
+SubSurf: 
+
+	efecto de smooth ó suavisado de geometría (niveles de subdivisión: control + 1,2,3,4,...0)
+
+
+
+
+
+Simple Deform:
+
+	este deformador contiene varios modos de deformación de la maya incorporados, estos son:
+
+		_Twist
+
+		_Bend
+
+		_Taper
+
+		_Stretch
+
+
+
+Wave:
+
+	este modificador permite hacer simulaciones de ondulaciónes de tipo ondas de agua ó líquidos
+
+
+
+Cast:
+
+	este modificador permite hacer deformación similar a la aberración de barril y barrilete
+
+
+
+Curve:
+
+	este modificador nos permite deformar la geometría a través de una curva spline de forma libre o a través de un grupo y en cordenadas
+
+
+
+
+Displace:
+
+	este modificador permite hacer deformaciones a través de imágenes proyectadas sobre la geometría, a través de sus valores de luminancia
+
+
+
+Hook:
+
+	este modificador nos permite hacer una deformación entre 2 geometrías, donde la geometría deformada tendrá que disponer de un "Group", creado
+
+	previamente en la zona a deformar de dicha geometría
+
+		_Object: aqui seleccionaremos la 2 geometría la cuál insidirá en la fuerza de deformación sobre el "Group", creado previamente sobre la mesh deformada
+
+
+
+
+Laplacian Smooth:
+
+	este modificador nos permite hacer un suavizado en una deformación de una geometría hecha a través de una selección dentro de un "Group"
+
+
+
+
+Laplacian Deform:
+
+
+	este deformador nos permite hacer deformaciones por "Pin", ó marioneta (similar a after effects)
+
+	1_creemos selecciones de deformación personalizadas a través de cluster/hooks, para entramos en el modo edit, y hacemos una selección de vertex
+
+	y luego aplicamos control + H, Mesh/Vertex/Hooks/ "Hooks to New Object"
+
+
+	2_luego debemos hacer un "Groups", con los vertex utilizados para crear los "Hooks", para esto vamos ha control + H/ Select Hooks/, y seleccionamos cada de los hooks, creados
+
+	para así recuperar las selecciones hechas previamente para crear los hooks
+
+
+	3_luego, con las selecciones de los vertices seleccionamos vamos a Data Object Data/Vertex Groups/Assign, para crear un nuevo grupo con la selección de vertices Y lo renombramos ej: Handles
+
+
+	4_ahora agregamos el modificador "Laplacian Deform:", y seleccionamos el "Group", que creamos
+
+
+	5_ahora aplicamos la opción "Bind", para comenzar la edición y deofrmación a través de los handles ó locator creados y animar
+
+
+
+Smooth:
+
+	este modificador permite suaviar  ó incrementar la topología de las formas de la meshes
+
+
+
+
+ShrinkWrap:
+	
+	este modificador permite deformar una geometría con sub elementes seleccionados en "Groups", a través de otro elementos como un mesh,
+
+	la deformación se realiza por aproximación y movimniento (similar a "Proyect", de ZBrush), especialmente útil para proyectar geometría como ropa ó el ultra low mesh sobre un high mesh
+
+
+
+
+Wrap:
+	
+	este modificador permite deformar una mesh, a través de 2 elementos ó meshes (from/to), por medio de una selección a través de un group
+
+
+	
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+GENERATE:
+_________
+
+
+
+SubSurf:
+
+	este modificador "subdivisión surface", nos permite sub dividir la goemetría para su visualización y edición de forma destructiva y no destructiva
+
+	podemos graduar los niveles de subdivisión: control + 1,2,3,...0
+
+
+
+
+Array:
+
+	este modificador nos permite modular elementos de geometría deseada, en forma de instancias, así, 
+	
+	almodificar la geometría original se modificarán las instanacias!
+
+
+		_relative offset: toma una posición relativa a la maya original para crear las instancias
+
+		_contant offset: tomo la posición del origen de la geometría original para crear todas las instancias a partir de este
+
+
+Bevel:
+
+	este modificador nos permite generar biseles a la geometría
+
+	podemos hacer Bavels especiales en un área espeficica seleccionando edges, en modo de edit, de la geometría y aplicar: control + E Mesh/Edges/ "Edges Bavel Weights"
+
+	así, podremos colocar las opciones de "Limit Method/Weight/Pocent"
+
+
+
+
+Edge Split:
+
+
+	este modificador nos permite generar bordes duros dentro de la geometría deseada, para esto seleccionamos edges/faces, en modo edit, y aplicamos control + E Mesh/Edges/ "Mark Sharp"
+
+		_Edge Angle: permite variar el ángulo más favorable en relación a la vista
+
+		_Sharp Edges: activa o desactiva el marcado de los bordes
+
+
+
+Mask:
+
+	este modificador nos permite hacer máscaras de geometría determinada
+
+	primero tendremos que seleccionar los sub elementos en modo edit, luego, con estos seleccionamos crearemoa un grupo con estos, 
+
+	para esto vamos ha: propiedades/data object data/vertex group, y le damos al "+", para crear un nuevo grupo, luego le damos  ha " asign", para asignar la selección
+
+	así, se creará un "group", este lo podemos renombrar haciendo doble click en este
+
+	
+	luego en el modificador:
+
+		Mode: seleccionamos "Vextex Group"
+
+		Vertex Group: seleccionamod el grupo creado
+
+	así, podremos ver que solo la geometría contenida en el grupo estará visible en modo Object
+
+
+
+
+Boolean:
+
+	este modificador nos permite sumar ó sustraer geometrías entre sí
+
+	(si no vemos resultado es por que blender conserva el segundo operador ó geometría seleccionada visible, podremos apagar el ojo de esta en el outliner, ó enviarlo a otra capa)
+
+	el modificador debemos aplicarselo a la geometría a la cuál deseamos hacerle la deformación
+
+		_diference: sustrae la segunda geometría sobre la primera
+
+		_union: suma ambas geometría en una nueva geometría resultante
+
+		_intersect: intersecta el volúmen de la primeta geometría en el área del volúmen de intersección de la segunda geometría y, genera un esa forma de geometría resultante
+
+
+
+Mirrow:
+
+	este modificador nos permite reflejar geometría en una cordenada determinada en relación el punto de origen de la geometría original;
+
+	esta geoemtría espejo funcionará en modo de instancia así, al modificar la geometría original se modificará la geometría reflejada
+
+
+
+
+Remesh:
+
+	este modificador es un equivalente a la tecnología "Dynamesh", de ZBrush, aun que esta se reconfigura en tiempo real, excelente para el proceso creativo de crear conceptos de esculpido en modo "Sculp Mode"
+
+
+
+
+MultiResolution:
+
+	este modificador nos permite subdividir la geometría con un algoritmo manejable excelente para el proceso de esculpido digital
+
+	en el modo "Sculp Mode"
+
+
+
+
+Skin:
+
+	este modificador permite crear geometría guiada por nosotros para crear arquetipos (similar ó equivalente a ZSpheres)
+
+	1_se creará un Add/Mesh/Plane, en el centro del grid, luego entraremos el modo de "edit", y con los subelementos seleccionados aplicaremos alt + M, (marge to center),
+
+	para así, acoplar todos los vertex al centro y optener un solo vertex central con el cuál extruir la marioneta
+
+
+	2_luego con la geometría del vextex solo seleccionada en modo "object", aplicaremos los siguiente modificadores en el suigiente orden descendente:
+
+		_Mirrow
+
+		_Skin
+
+		_Subsurf
+
+	3_algunas opciones y tips:
+
+		_escalar spheres o articulaciones: control + A
+
+		_G: permite mover y rotar a travès de las carticulacions contiguas
+
+
+
+Screw:
+
+	este modificador permite modular un elemento de forma torneada ó en forma atornillada
+
+
+
+
+Solidify:
+
+	este modificador permite agregar "Thickness", ó grosor a las geometrías
+
+
+
+
+Build:
+
+	este modificador permite animar una reconstrucción de la geometría desde un paso/step 0 a 100 (start/lengh)
+
+	lo cuál se traducirá a fotogramas de 0 a 100, en el timeline
+
+
+
+
+Decimate:
+
+	este modificador nos permite disminuir la cantidad de geometría que contiene una mesh (equivalente al Decimation Master de ZBrush)
+
+	puede hacer disminuciones en triads y en quads
+
+
+
+Triangulate:
+
+
+	este modificador nos permote convertir los subelementos "Faces", a "Triads", dentro de una geometría
+
+
+
+
+Wareframe:
+
+	este modificador nos permite hacer una rejilla ó malla con volúmen a través de las faces, de una geoemtría existente
+
+	
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+SIMULATE:
+_________
+
+
+
+Explode: 
+
+	este modificador nos permite hacer explociones de la geometría a través de un amisor dinámico de partículas
+
+
+	1_seleccionamos la mesh deseada para la exploción y vamos al modo edit, y seleccionamos los sub elementos faces, deseados 
+
+	para la exploción de la geometría, y con estos, hacemos un "Group", yendo ha Data Object Data/Vertex Group/New Groups/Assign, rename groups, ej: explode
+
+
+	2_ahora con la mesh, deseada para la exploción vamos a propiedades/particles/new particles (+)
+
+	3_luego agregamos el modificador "Simulate/Explode", este debe ir después ó por debajo del modificador "ParticleSystem", el cuál es creado al crear el sistema de partículas

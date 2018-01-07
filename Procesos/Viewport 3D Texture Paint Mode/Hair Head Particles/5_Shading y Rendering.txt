@@ -1,0 +1,84 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+	Creating a Realistic Head in Blender -- part 09 -- Beard, Eyebrows, and Eyelashes
+		https://www.youtube.com/watch?v=zsyKhJ-BOJk
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Shading:
+	________
+
+	_y posteriormente luego de haber configurado el sistema de partículas y hebras en el lugar, cantidad y apariencia
+
+	deseada es hora entonces de aplicar un material ó shader, ha éste sistema de partículas para que así, éste tome
+
+	una apariencia más relista de cara ha un cabello humano
+
+
+	_para lo cuál, con el motivo ó character, ó geometría auxiliar con el sistema de partículas asignado seleccionada
+
+	vamos ha "Properties/Material Material/", y allí, le damos ha "+", para que así, se cree un nuevo slot, de material
+
+	sobre el motivo
+
+
+	_para posteriormente darle a la opción de "+ New", para que así, se cree una nueva textura vacía sobre el motivo
+
+	ó character, la cuál, podremos renombrar como "HeadHair"
+
+
+	_para posteriormente asignarle un color característico del cabello ha representar como castaño ó netro, otros
+
+
+	_así, como también, es recomendable bajarle en gran medida el valor especular ha éste material para que así, el
+
+	cabello no sea tan reflectante de forma poco natural
+
+
+	_para posteriormente volver a las opciones de "Properties/Particles Particle/Render/", y allí, seleccionar en la
+
+	sección de material el respectivo material, en éste caso "HairHead", para que así, las partículas y hebras tomen
+
+	ahora la apariencia del respectivo material
+
+
+
+	Rendering:
+	__________
+
+	_así, como también, podremos ajustar las opciones de renderización y apariencia del sistema de partículas y 
+
+	hebras que harán de cabello
+
+
+	_para lo cuál, dispondremos de las opciones de "Properties/Particles Particle/Children/", en la cuál, escogeremos
+
+	la opción de "Simple", la cuál, nos permitirá varias opciones de configuración
+
+
+	_como por ejemplo opciones de interpolación y duplicación de hebras, tanto para la visualización como para las
+
+	renderizables, es recomendable colocar la misma cantidad para ambas, "Display: 10, Render: 10"
+
+
+	_así, como también, dispondremos de valores para crear aleatoriedad, variaciones, formas, otros, a través, de los
+
+	cuáles, podremos variar el aspecto del sistema de partículas y hebras respectivamente
+
+
+
+
+
+ 
+
+
+
+

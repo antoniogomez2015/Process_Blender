@@ -1,0 +1,112 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sculpting / Modeling:
+_____________________
+
+
+	_lo primero que tendremos que tener creado es nuestro motivo, sea éste modelado ó esculptido ó una combinación de 
+
+	ambos
+
+
+
+UVMap:
+______
+
+	_luego de hacerle ha nuestro motivo ó character,  el proceso de UVMap, para que así, éste tenga uvs, personalizados
+
+	sobre las cuáles, se pueda proyectar la textura, y proceso de pintado, otros
+
+
+
+
+UV Texture Editor / New Texture:
+________________________________
+
+
+	_para posteriormente entar en "edit mode", y proceder ha seleccionar todos los sub-elementos del motivo ó character,
+
+	shortcut: "A/A"
+
+
+	_para luego justo al terminar el proceso de UVMap, en el panel UV Texture Editor, shortcut "Shift + F10", debemos de 
+
+	ir a la parte inferior de éste panel y allí, darle a la opción de "+ New" 
+
+
+	_para que así, nos aparesca un panel contextual en el cuál, podamos asignarle un nuevo nombre a la textura ha generar
+
+	así, como también, una dimensiones ej; 2048 x 2048px
+
+	
+	_y en las opciones del panel contextual "Generate Type", seleccionaremos por ejemplo la opción de "UV Grid", para que
+
+	así, el sistema carge una textura cuadriculada de ejemplo
+
+
+	_para que así, sobre ésta nueva textura sean volcados los procesos de pintura y proyección de imágenes
+
+
+
+
+Texture Paint:
+______________
+
+
+	Properties / New Material:
+
+
+	_luego debemos de ir al panel texture paint, y allí, posterior ir al panel "properties/material material", y allí 
+
+	serciorarnos de que el motivo ó character, tenga asignado un material, el cuál, podremos renombrar ej: 
+
+	"MotiveMaterial", ó si no éste no posee material debemos darle a la opción de "+ New", para que así, un nuevo
+
+	material sea asignado
+
+
+
+	Properties / New Texture:
+
+
+	_luego debemos de ir al panel texture paint, y allí, posterior ir al panel "properties/texture texture", y allí darle
+
+	a la opción de "+ New", para que así, el sistema crear una nueva textura vacía para el motivo ó character, la cuál,
+
+	podremos renombrar ej; "DiffuseMotive"
+
+
+	_para posteriormente más abajo en el panel "properties/texture texture", ir hasta la opción de "Type", y allí, 
+
+	seleccionar la opción de "image or Movies"
+
+
+	_para posteriormente más abajo en el panel "properties/texture texture", ir hasta la opción de "Image", y allí,
+
+	proceder ha seleccionar una de las imágenes existentes cargadas en memoria la cuál, debe ser la imágen que creamos
+
+	para el motivo en el panel "UV Image Editor", en éste caso la imágen con un motivo cuadriculado
+
+
+	_para que así, el character, ó motivo ahora si disponga de una textura creada y asignada para el proceso de pintura
+
+	y proyección de imágenes
+
+
+	_de ésta manera, ya podremos volver al panel "Texture Paint", y comenzar con el proceso de pintura y texturizado sin
+
+	problemas ó inconvenientes de materiales y texturas
+
+
+
+

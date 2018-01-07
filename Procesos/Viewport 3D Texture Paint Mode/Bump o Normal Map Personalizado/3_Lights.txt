@@ -1,0 +1,29 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+
+	Light:
+	______
+
+	_para a continuación crear un luz, de tipo "Hemi", la cuál, debemos de color sobre el motivo ó character, y a su 
+
+	vez, delante de éste para que así, iluminemos éste y tengamos así, una mejor visualización del motivo ó character
+
+	y sus partes y de los materiales y texturas de éste
+
+
+

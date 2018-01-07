@@ -1,0 +1,93 @@
+
+
+
+
+Blender Dynamics /Smoke
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+	_tenemos la posibilidad de hacer caches de simulaciones de humos ó sistema gaseosos para que así, podamos 
+
+	hacer simulaciones complejas y en alta resolución sin tener que forzar la representación simulada en el 
+
+	viewport 3d, en tiempo real
+
+
+
+	Compresión:
+	___________
+
+	_éste proceso requiere que hayamos guardado ó salvado la escena previamente ha éste proceso, para ésto	
+
+	seleccionamos el contenedor del humo "domain", y luego vamos a las opciones de "Properties/Physics/
+
+	Smoke Cache/", y allí, podremos seleccionar entre tipos de compresión 
+
+
+		Light:
+		______
+
+		_una compresión suave lo cuál, creará archivo de una tamaño mayor en el disco duro
+		
+
+
+		Heavy:
+		______
+
+		_una compresión fuerte lo cuál, creará archivo de un menor tamaño mayor en el disco duro
+
+
+
+
+	Frames:
+	_______
+
+	_así, como también, podremos indicar que longitud de frames, durará la simulación y a partir de que punto comenzará
+
+	y en punto terminará en relación a la duración total del timeline
+
+
+	_para lo cuál, dispondremos en las opciones de "Smoke Cahe/Start-End", para que así, podamos indicar la duración ó
+
+	la cantidad de frames, ha simular
+
+
+
+	Bake:
+	_____
+
+	_para posteriormente realizar el proceso de pre calculado de la somulación con las parámetros indicados, para lo cuál,
+
+	podremos ir a las opciones de "Smoke Cahe/Bake", para que así, el sistema comienze ha generar el pre calculado de cache
+
+	de la respectiva simulación de humo
+
+
+	
+
+	Mesh Motive:
+	____________
+
+	_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó fluido
+
+
+
+
+	Smoke:
+	______
+
+	_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las opciones 
+
+	de "Smoke", para éste objeto así, éste estará disponible para los procesos de simulación
+
+		
+
+
+

@@ -1,0 +1,245 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Handles Proxis:
+	_______________
+
+
+		_para controlar la kinemática invertida de las extremidades del character, tenemos la posibilidad de
+
+		crear huesos ó bones extras para controlar los sistemas de kinemática invertida
+
+
+		_éstos bones ó huesos extras debemos crearlos en el final de cada extremidad a controlar por ejemplo:
+
+		en cada muñeca ó tobillo
+
+
+		_también, tenemos la posibilidad de agregar más bones, ó huesos entre las extremidades para controlar
+
+		por ejemplo: para controlar el movimiento e los codos "elbow", y las rodillas "neek"
+
+
+	
+	Creación de bones ó huesos:
+	___________________________
+
+
+		_éstos respectivos bones, debemos crearlos a partir de los tip, ó cabezas de el último bone
+
+
+		_luego debemos seleccionar el bone, creado y luebo debemos desemparentar éste bone, creado para ésto;
+
+		debemos seleccionar ésto nuevo bone, y aplicar shortcut "Alt + P", y seleccionar "Clear Parent", así,
+
+		éste bone, podrá ser utilizado como bone, handle, controlador
+
+
+
+	Parent Bones Proxis:
+	____________________
+
+
+		_luego de haber creado los bones, que harán de handles, proxis, controladores de los diferentes iks,
+
+		del skeleton system, tendremos que emparentar éstos según la lógica de la kinemática ó articulaciones
+
+		lógicas del character, así, por ejemplo;
+
+
+			_tendremos que emparentar tanto los handles de las muñecas y los codos con el respectivo bone,
+
+			que corresponda al torax, ó chest, donde rotará lateralmente el torso para que así, al rotar el
+
+			torso en arco también, roten los brasos al éstos ser dependientes de ésta vertebra de la spina 
+
+			dorsal del character
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+A continuación se presenta un estructura de bones, handles, controladores para un character bípedo optimizado y profesional
+
+
+
+	Parent Bone Proxis Handles:
+	___________________________
+
+
+		Master:
+		_______
+
+		_debemos crear un bone, a partir de la base ó root, del coxis, para que así, éste sea el master a partir del
+
+		cuál, se puedan sujetar los demás bones, handles, de forma jerárquica
+
+
+		_para ésto, en "edit mode", debemos seleccionar el root, del coxis, y extruir un bone hacia atras
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+		
+		Spine:
+		______
+
+		_
+
+
+		Neck and Head:
+		______________
+
+		_
+
+
+		Shoulder and Arm:
+		_________________
+
+		_Shoulder: para una articulación más natural y anatómica es recomendable crear un bone, handle, controlador 
+
+		entre el bone, de clavícula y el bone, de la escápula para que así, el honbro y el brazo articulen a través, 
+
+		de éste bone, 
+
+
+		_para ésto, debemos seleccionar en "edit mode", el root, de la escápula y extruirlo hacia atras
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+
+		_posteriormente es recomentable desplazar éste bone, ya desparentacia y enviarlo hacia a tras
+
+
+		_Elbow: y manejar la dirección del joint, del brazo en el espacio es recomendable crear un bone, handle, 
+
+		controlador a la altura del codo ó "elbow"
+
+
+		_para ésto, en "edit mode", seleccionamos el root, de el "L_Radio", y luego extruirlo hacia a tras
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+
+		_posteriormente es recomentable desplazar éste bone, ya desparentacia y enviarlo hacia a tras
+
+
+		_Hand: luego para manejar todo el brazo y el hombro así, como la mano ó hand, debemos crear un bone, handle,
+
+		controlador
+
+
+		_para ésto, en "edit mode", seleccionamos efector del "L_Radio", y lo extruimos hacia arriba
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+
+
+		Leg and Foot:
+		_____________
+
+		_Neek: así, para manejar la articulación de la rodilla en el espacio, debemos crear un bone, handle, controlador
+
+
+		_para ésto, en "edit mode", debemos seleccionar el root, de la "L_Ttibia", y extruirlo hacia adelante
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+
+		_posteriormente es recomentable desplazar éste bone, ya desparentacia y enviarlo hacia adelante
+
+
+		Hand Fingers:
+		_____________
+
+		_Fingers: así, para manejar de una manera rápida el control de la flexión de los dedos es aconsejable crear un bone,
+
+		handle, controlador a la altura donde comienzas las falanges de los dedos ó donde termina el meta carpo
+
+
+		_para ésto, en "edit mode", debemos seleccionar el root, de ej: "L_handle_finger_Pinky1", y extruirlo hacia arriba
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+		
+		_así, éste paso lo debemos repetir para el resto de los dedos ó fingers, restantes
+
+
+		Fingers Tip: más para un control completo de los dedos y su comportamiento al detalle es recomendable crear un bone,
+
+		handle, controlador a la altura de la yema de los dedos a través, de un sistema IK, para cada dedo para sus respectivas
+
+		partes de las falanges
+
+
+		_para ésto, en "edit mode", debemos seleccionar el "tip", de ej: "L_handle_finger_Pinky3", y extruirlo hacia adelante
+
+
+		_luego debemos desparentar éste bone, que hemos creado para un correcto funcionamiento dentro de los parámetros
+
+		target, de los modificadores IK, kinemática invertida, para ésto seleccionamos el bone, respectivo y hacemos
+
+		shortcut "Alt + P/Clear Parent"
+
+
+		_así, éste paso lo debemos repetir para el resto de los dedos ó fingers, restantes
+
+
+	
+		Foot Fingers:
+		_____________
+
+		_"para los dedos de los pies debemos repetir los mismos pasos que para los dedos de las manos"
+
+
+
+
+
+

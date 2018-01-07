@@ -1,0 +1,60 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+	Creating a Realistic Head in Blender -- part 09 -- Beard, Eyebrows, and Eyelashes
+		https://www.youtube.com/watch?v=zsyKhJ-BOJk
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Particles System:
+	_________________
+
+	_y posteriormente de haber creado los vertex groups, y de haber ajustado éstos a través, del weight map, podremos
+
+	ahora asignar ó crear el sistema de partículas a través, del cuál, obtendremos las hebras maestrar por medio de
+
+	las cuáles, representaremos en éste caso el cabello del motivo ó character
+
+
+	_Para lo cuál, debemos de seleccionar el motivo ó character, y con éste seleccionado ir a 
+
+	"Properties/Particles Particle/", y allí, darle ha "+", para que así, se genere un nuevo sistema de partículas
+
+	sobre el motivo ó character, el cuál, podremos renombrar ej: "HeadHair"
+
+
+	_para posteriormente bajar hasta las opciones de type; en ésta misma sección y seleccionar la opción de "Hair"
+
+
+	_para posteriormente bajar hasta las opciones de "Advanced", y activar éstas para que así, podamos editar las
+
+	opciones avanzadas del sistema de partículas
+
+	
+	_y leugo bajar hasta las opciones de "Properties/Particles Particle/Velocity/Normal", y allí, indicar un valor de
+
+	"0.020", en éste caso para hacer un cabello muy corto rapado de caballero
+
+
+	_para posteriormente bajar hasta las opciones de "Properties/Particles Particle/Vertex Group", y allí, entrar en
+
+	las opciones de "Density", y seleccionar uno de los vertex groups, disponibles el cuál, coincida en éste caso con
+
+	el cabello del character ó motivo para que así, el la aplicación de las partículas ó hebras maestras se siñan
+
+	sólo al área del cuero cabelludo indicado a través, del weight map
+
+
+
+ 
+
+
+
+

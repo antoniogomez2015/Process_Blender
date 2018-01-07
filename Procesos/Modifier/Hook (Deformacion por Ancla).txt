@@ -1,0 +1,92 @@
+
+
+
+
+Referencia
+
+	Blender 3D Tutorial - Animate and Deform Meshes with the Hook Modifier by VscorpianC
+
+		https://www.youtube.com/watch?v=1XF3NSTwBTk
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Características:
+	________________
+
+	_el modificador hook, nos permitirá deformar una superficie a partir de otro elemento de tipo empty, de ésta manera, 
+
+	podremos crear superficies dinámicas
+
+
+	_así, como también, controles avanzados a través, de los cuáles, podremos hacer sistemas de rigging, para controlar 
+
+	así, splines, de sistemas de tails, y strands
+
+
+	_así, como también, facial rigs, entre otras muchas posibilidades de deformación para animación en general e 
+
+	interactiva y dinámica, otros
+
+
+
+
+	Hook:
+	_____
+	
+	_de ésta manera, para crear un sistema de control de deformación de superficies a través, del modificador hook, 
+
+	debemos primeramente tener un motivo ó character, creado previamente
+
+
+	_para posteriormente entrar en su edit mode, shortcut, "tab", para a continuación seleccionar uno ó más vertex,
+
+	de forma manual ó extendida a través, de las opciones de extensión de selecciones de "Grow/Shring", shortcut,
+
+	"Control +/-"
+
+
+	_para que así, podamos extender una selección previa para interactuar así, con un área más grande de 
+
+	sub-elementos, de tipo vertex, 
+
+
+	_a partir de los cuáles, se generará el elemento de control ó handle, el cuál, es elemento de tipo empty, a 
+
+	partir del cuál, se generará la deformación sobre la superficie al mover éste handle posteriormente
+
+
+	
+	Create Hook:
+	____________
+
+	_para a continuación con los sub-elementos seleccionados de tipo vertex, y en edit mode, debemos abrir el 
+
+	menú contextual de "Hook", a través, del shortcut, "Control + H"
+
+
+	_en el cuál, seleccionaremos la opción de "Hook to New Object", para que así, el sistema genera un nuevo 
+
+	object, de tipo empty, en el área promediada entre los sub-elementos seleccionados
+
+
+	_y a partir de éste punto de haber creado ó aplicado el sistema de deformación a través, de un handle, 
+
+	también, se habrá agregado un nuevo modificador de tipo hook, sobre el motivo ó character, el cuál, podremos
+
+	editar en las opciones de "Properties/Modifier Modifiers/Hook"
+
+	
+	_de ésta manera, a partir de éste punto podremos mover el objeto que hacer de handle, y éste a su vez, moverá
+
+	los sub-elementos relacionados del mesh, motivo ó character
+
+
+
+
+

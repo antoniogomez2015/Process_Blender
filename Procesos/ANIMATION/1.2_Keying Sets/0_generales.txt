@@ -1,0 +1,112 @@
+
+
+
+Blender 2.70: Animando con Keying Sets
+	https://www.youtube.com/watch?v=VdmOImWsidM
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Características:
+	________________
+
+	_tenemos la posibilidad de configurar nuestros propios presets, ó grupos de animación ó propiedades animables
+
+	para que así, podamos animar al unísono una serie de propiedades y elementos que hemos connformado como un grupo 
+
+	ó set animable respectivamente
+
+
+	_el cuál, puede estar conformado por propiedades, atrubutos y elementos completos como por ejemplo;
+		
+	el color de un shader, los atributos de position, en la cordenada "X", solamente, todos éstos de forma
+
+	combinada ó mixta dentro de un mismo keyset
+
+
+	_ésta modalidad de animación también, nos permite la creación de "sub-character set", en otras 
+
+	aplicaciones 3d
+
+
+	_de ésta manera, podremos crear keyset, para el arm, ó brazo, otros para leg, ó pierna y así, 
+
+	sucesivamente
+
+
+	_lo cuál, es especialmente útil para characters, complejos los cuáles, disponen de accesorios y de 
+
+	elementos ocacionales y recurrentes los cuáles, es conveniente animar como un keyset, por aparte
+
+
+	_e incluso para la simplificación de characters, complejos ya de ésta manera, podremos crear un keyset,
+
+	sólo los handles, del character, evitando así, que se creen keyframes, para los bones, ó huesos y demás
+
+	elementos del character,
+
+
+	_lo cuál, simplificará el proceso de animación y procesos para el sistema de blender
+
+
+
+	Prestaciones:
+	_____________
+
+	_lo cuál, tiene como ventaja ver y tener solamente visible y activo los elementos, atributos y 
+
+	propiedades de las cuáles, está conformado el keyset
+
+
+	_lo cuál, es más práctivo para su manejo en el curve editor, y el dope sheet, así, como también, para
+
+	el sistema ya que keyset, más pequeños serán más livianos para el sistema de animación y la aplicación
+
+	en si misma
+
+
+
+	Insert Keyframe Menú:
+	_____________________
+
+	_para abrir el menú contextual de "Insert Keyframe Menú", en el viewport 3d, debemos de estar en 
+
+	objet mode, y aplicar el siguiente shrtcut, "I"
+
+
+	_en el cuál, podremos ver todos los keyset, creados y disponibles ha elegir
+
+
+
+	active Keying Set Used:
+	_______________________
+
+	_y para activar ó seleccionar un keyset, existente podremos ir hasta la sección del panel timeline, a la
+
+	derecha de éste en la parte inferior dispondemos de un campo en el cuál, hay dos llaves ó keys
+
+
+	_de ésta manera, podremos hacer mouse left click, en éste campo para desplegar los keysets, disponibles
+
+	los cuáles, serán los mismos que en el menú contextual "Insert Keyframe Menú"
+
+
+	_con la diferenciaque que si seleccionamos un keyset, en la sección "active Keying Set Used", ésta será
+
+	tomada como keyset, seleccionada
+
+
+	_lo que quiere decir que posteriormente al fijar un keyframes, con el shortcut, "I", ya nos nos 
+
+	aparecerá el menú contextual "Insert Keyframe Menú", preguntándonos a que keyset, deseamos fijar los
+
+	nuevos keyframes, por que ya habrá un keyset, seleccionado previamente
+
+
+
+

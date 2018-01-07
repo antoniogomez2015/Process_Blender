@@ -1,0 +1,144 @@
+
+
+BLENDER Navegación y shortcuts nativos versión blender 2.75
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Sculpting:
+__________
+
+
+
+
+	General:
+	________
+
+
+		_Isolate Section: Alt + B and Drag
+
+
+		_Rectangle Hiden: H + Mouse left click and drag
+
+
+		_Rectangle Un-Hiden: H + Shift + Mouse left click and drag
+
+
+
+
+
+
+
+
+	
+	------------------------------------------------------------------------------------------------------
+
+
+
+	Brush:
+	______
+
+
+		_Brush Radio: F + Mouse left click and drag
+
+
+		_Brush Strengt: Shift + F + Mouse left click and drag
+
+
+		_Brush Subdivisiones: Shift + D
+
+
+		_Strengt Hok: 3/4
+
+
+		_Smooth Stroke (Lazzi Mode): Shift + S
+
+
+
+	Brushes:
+	________
+
+
+		_F Grab: G ó 0
+
+
+		_F Brush: X ó 2
+
+	
+		_F Clay: C ó 5
+
+
+		_F Snake Hook: K
+
+
+		_F Layer: L
+
+
+		_F Pinch Mag: P
+
+
+		_F Inflate Deli: I
+
+
+		_F Smooth
+
+
+		_F Mask: M
+
+	
+		_F Blob: 1
+
+
+		_F Crease: 6 ó Shift + C
+
+
+		_F Draw: 7
+
+		
+		_F Fill/Deepen: 8
+
+
+		_F Polish: 9 ó Shift + T
+
+
+
+
+	Masking:
+	________
+
+
+		_Lasso Masking: Control + Shift + Mouse left click and drag
+
+
+		_Rectangle Masking: B + Mouse left click and drag
+
+		
+		_Invert Mask: Control + I
+
+	
+		_Un-Masking: Alt + M
+
+
+
+
+	
+
+
+
+	Menús:
+	______
+
+
+		_Stroke Method: E
+
+
+		_Angle Control: R
+
+

@@ -1,0 +1,27 @@
+
+
+proceso de creación UVMapping
+
+
+tutorial: Tutorial 3D Lata de refresco / soda can Blender 2.6 parte 2 (texturas y partículas)
+	https://www.savetubevideo.com/?v=7CTj414CDmA
+
+
+
+	1_entramos al modo de "edit mode", luego procedemos a crear las marcas de cordes de UVs,
+
+	2_para esto vamosal al panel de herramientas izquierdo, shortcut "T", t vamos a la pestaña de "Shading/Uvs",
+
+	3_ahora vamos al modo de sub elementos, y seleccionamos edges, shortcut "mouse roght click", y seleccionamos un edge loops, del área de corte que deseemos
+	
+	4_ahora con esta serie de edges, seleccionamos vamos al menú de herramientas y aplicamos en "UVs/UV Mapping/Mark Seam", así este loops, quedará marcado en color (Rojo), 
+
+	quedando seleccionado para el proceso de extración de uvs, este proceso de selección de edges loops, y marcado "Mark Seam", en todas las áreas de cortes que desiemos
+
+	5_ahora nos vamos el panel "UVImage editor", shortcut Shift + F10
+
+	6_ahora seleccionamos todos los sub elementos que conforman la geometría mesh, shortcut Control + A/A
+
+	7_ahora vamos a las opciones de "Mesh/UV Unwrap", ó en panel de herramientas izquierdo, shortcur "U", en el modo "edit mode", y aplicamos "Unwrap", así, se proyectarán los UVs, 
+
+	en relación a los cortes que indicamos a través de marcas "Mark Seam"

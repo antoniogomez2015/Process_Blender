@@ -1,0 +1,137 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Normal ó Bump Map:
+	__________________
+
+	_posteriormente tendremos que crear el nuevo mapa de normales ó bump map, sobre el cuál, deseamos hacer el 
+
+	volcado ó edición ó creación dinámica ó en vivo del proceso de normales en si y en general
+
+
+	_para lo cuál, debemos de ir al panel "Texture Paint", para posteriormente ir al panel "Slots", shortcut, "T",
+
+	
+	_para que así, podamos acceder a las opciones de "Available Paint Slots", y allí, darle a la opción de:
+
+	"Add Texture Paint Slot", para que así, se nos abra una lista de opciones de varios tipos de mapas posibles ha
+
+	crear, para que así, de ésta manera, seleccionemos la opción de:
+
+
+		_Diffuse Color:
+
+		_para que así, a partir de éste punto se nos abra una ventana contextual a través, podremos configurar 
+
+		las características de éste nuevo mapa ha crear
+
+
+		_de ésta manera, podremos indicar un nombre para éste mapa así, como también, indicar unas dimensiones 
+
+		las cuáles, para éste caso en el cuál, deseamos agregar alto detalle sobre el motivo ó character, es 
+
+		recomendable crear un mapa con unas dimensiones de "4096 x 4096"
+
+
+		_éstas dimensiones de mapas son útiles hasta el acercamiento sobre el motivo hasta de primer plano sobre
+
+		el rostro más para un taishop, ó ultra primer plano, será necesario la creación de un mapa con unas
+
+		dimensiones de "8000 x 8000px", ó "10000 x 10000px"
+
+		
+		NOTA: éstas consideraciones de tamaños para textura son sólo para motivos ó character, de sólo una cabeza
+
+		lo que quiere decir que para characters, ó motivos mayores como cuerpos completos requerimemos dimensiones
+
+		de texturas mucho mayores del doble ó más del doble de tamaño
+
+
+		_en la sección de color, debemos de indicar "0.5,0.5,0.5", para que así, creemos un gris perfecto ó un 
+
+		gris medio
+
+
+		_así, como también, tendremos que activar la opción de "32bits", de coma flotante para que así, 
+
+		aumentemos la resolución y poder de transferencia de datos y por ende detalles sobre el motivo ó 
+
+		character, lo cuál, nos permitirá hacer detalles como arrugas y poros hasta de "1 pixel, de ancho", 
+
+		para que no se vea pixelado
+
+
+
+	_para que así, pocedamos ha seleccionar el character, y entrar en el modo "edit mode", shortcut, "Tabulador", 
+
+	y seleccionar todos sus sub-elementos, shortcut, "A/A"
+
+
+	_posteriormente de hacer creado el nuevo mapa de normales debemos guardar éste en nuestro disco duro para lo 
+
+	cuál, debemos ir al panel "UV Map Editor", shorctut, "Shift + F10"
+
+
+	_psts luego en la parte inferior el panel uv map editor entrar en la opción de "Browse Image to be Linked", para
+
+	que así, ésta nueva imágen quede relacionada con el "Slot", de textura en el panel "Texture Paint/Slots/", y 
+
+	podamos ahora si, comenzar ha trabajar sobre el nuevo mapa de textura de normal map ó bump
+
+
+	_para posteriormente proceder ha guardar ésta imagen que hemos creado y cargado sobre el motivo ó character, para
+
+	lo cuál, en el panel uv map editor, debemos ir a la sección de "Image/Save As Image", ó shortcut, "F3"
+
+
+
+	Light:
+	______
+
+	_para a continuación crear un luz, de tipo "Hemi", la cuál, debemos de color sobre el motivo ó character, y a su 
+
+	vez, delante de éste para que así, iluminemos éste y tengamos así, una mejor visualización del motivo ó character
+
+	y sus partes y de los materiales y texturas de éste
+
+
+	
+	Visualización:
+	______________
+
+	_en las opciones de "Viewport 3d/Tools/Slots/Blend Type", éste shader se agrega por defecto con un modo de
+
+	fusión de "Mix"
+
+
+	_lo cuál, hará que podamos ver el material del shader, en su color original, en éste caso de color gris
+
+	medio con lo cuál, podremos trabajar para realizar todos los detalles deseados sobre el motivo ó character
+
+
+	_más si deseamos integrar éste shader, y textura con el resto de shaders, y texturas existentes podemos
+
+	cambiar el modo de fusión de "Mix", ha "Color", para que así, podamos crear detalles sobre el motivo ó
+
+	character biendo el color de todas las texturas de fondo, otros
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Change Pivot:
+_____________
+
+
+
+	_tenemos la posibilidad de cambiar la ubicación del pivot, de un elemento temporalmente ó
+
+	permanentemente para diferentes usos ó requerimiento, esto es especialmente útil para el
+
+	proceso de emparentamiento y rigging
+
+
+	------------------------------------------------------------------------------------------------
+
+
+
+	Reubicación del Cursor 3D:
+	__________________________
+
+	
+	_lo primero es ubicar el cursor 3d, en el lugar deseado donde necesitamos colocar posteriormente
+
+	el pivot, ó axis, del elemento deseado
+
+
+	_para esto, podemos directamente hacer "mouse left click" sobre una ubicación determinada para
+
+	ubicar en esa posición el cursor 3d
+
+
+	_también, disponemos seleccionar unos determinados elementos ó sub-elemento, vertex, por ej, y,
+
+	luego hacer shortcut: "Shift + S", para abrir el menú "Snap", y selecciona la opción de 
+
+	"Snap/Cursor to Seleted", así, el cursor tomará la ubicación ponderada entre los elementos 
+
+	seleccionados
+
+
+
+
+	------------------------------------------------------------------------------------------------
+
+
+
+	Ajuste Temporal del Pivot:
+	__________________________
+
+
+	_así, luego de haber ubicado el cursor 3d, en el lugar deseado podemos ir a las opciones de "Pivot Point",
+
+	en la barra de opciones de la interface, y seleccionar la opción de "3D Cursor", así, el "Pivot", tomará 
+
+	la posición actual del cursor 3d, ésto lo podemos hacer también a través, del shortcut ". (doc/punto)",
+
+	ya que la posición por defecto es "Median Point", shortcut "Control + , (coma)"
+
+
+	NOTA:	esta opción es temporal ó variable ya que el pivot penderá de la posición actual del cursor 3d, 
+
+		así, si la posición del cursor 3d, cambia en el tiempo y en el espacio también, cambiará la posición 
+
+		del pivot, en la misma proporción y medida
+
+
+
+
+	------------------------------------------------------------------------------------------------
+
+
+
+	Ajuste Permanente del Pivot:
+	____________________________
+
+
+	_así, luego de ubicar el cursor 3d, en la ubicación deseada podemos ir al panel izquierdo, shortcut "T",
+
+	y buscar las opciones de "Edit/Set Orion/", y seleccionar la opción de "Orion to 3D Cursor", así. el Pivot,
+
+	tomará la posición actual de cursor de forma permanente así, posteriormente sea cambiada la posición del 
+
+	cursor, para también, disponemos de un menú contextual a través, de un shortcut "Control + Alt + Shift + C",
+
+	así, se nos abrirá el menú "Set Orion/", en el cuál, seleccionaremos la opción de "Orion to 3D Cursor"
+
+
+

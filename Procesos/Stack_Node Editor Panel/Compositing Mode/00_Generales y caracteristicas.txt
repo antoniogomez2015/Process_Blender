@@ -1,0 +1,118 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+General:
+________
+
+
+	_ésta modalidad nos permite intervenir material que hayamos renderizado en la aplicación así, como material de archivo
+
+	importado previamente
+
+
+	_de ésta manera, podremos personalizar, editar e incluso hacer modificaciones para performance, films, y games, en vivo
+
+	y en directo para obtener resultados en el timeline
+
+
+
+	Activación:
+	___________
+
+	_para ésto, debemos abrir un nuevo panel y cargar en éste el panel "Node Editor", ó ir directamente a los presets, de la 
+
+	parte superior de la aplicación y seleccionar el modo de configuración de "Compositing"
+
+
+	_podremos ver de aqui en adelante que el panel de Node Editor, soporta diferentes aplicaciones ó ediciones de diferentes
+
+	elementos de forma similar ó con elementos en común
+
+
+	_MODE: así, iremos a continuación en las opciones de la parte inferior del panel "Node editor", y seleccionar entre los 
+
+	modos disponibles:
+
+
+		_Texture:
+
+			_para crear y editar nodos de texturas
+
+
+		_Shaders:
+
+			_para crear y editar nodos de materiales 
+
+
+		_Compositing:
+
+			_para crear y editar nodos de renders y footage, así, en éste caso seleccionaremos ésta opción
+
+			ya que será ésta la que ocuparemos para lo cuál, sólo tendremos que seleccionar el ícono que
+
+			en su descripción dice "Compositing"
+
+
+		_Animation:
+
+			_para crear y editar nodos de animación y motion graphycs, (ésta opción es por una add-ons)
+
+
+
+	_USE NODE: así, luego de haber abierto el panel Node Editor, y de haber seleccionado el modo de "Compositing", debemos 
+
+	ahora activas la opción de "Use Node"
+
+
+	_para ésto también, debemos ir a las parte interior del panel node editor y chequeamos la opción de "Use Nodes", de
+
+	ésta manera, se cargará los primeros nodos los cuales son:
+
+
+		Render Layers;
+
+			_éste nodo corresponde al módulo de render, por lo cuál, debemos hacer un render de los elementos de 
+
+			la escena, shortcut, "F12", para que así, éste render realizado sea cargado en el nodo "Render Layer", 
+
+			para que así, éste render sea tomado para el proceso de "Compositing"
+
+
+			Composite:
+
+				_éste nodo corresponde a la salida del sistema de nodos en general que mostrará el resultado
+
+				de la composición
+
+
+	_y a partir de ésta punto donde ya iremos agrgando más nodos al panel Node editor, en el modo compositing, es altamente
+
+	recomendable tener visible en panel "UV Image Editor", en el modo "Render Result", para que así, a través, de éste podamos 
+
+	ver los resultados y modificaciones de los nodos que vayamos agregando en modo compositing, como configuración general ó
+
+	básica
+
+
+
+
+
+
+
+
+
+
+
+
+
+

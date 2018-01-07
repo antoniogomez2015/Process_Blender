@@ -1,0 +1,62 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_así, como también, tenemos la posibilidad de hacer animaciones sobre un trazado de animación ha modo de
+
+	path, ó trayectoria de animación
+
+
+	_ésto es especialmente útil para tener el control absoluto de la trayectoria de animación, en animaciones
+
+	complejas donde necesitamos precisión, ya que podremos visualizar la trayectoria de animación en el viewport,
+
+	así, como editar ésta en tiempo real practicamente
+
+
+
+
+Follow Path:
+
+
+	_ésta modalidad funciona tanto para el modo estándar de animación en object mode, así, como en pose mode
+
+
+	_para lo cuál, tendremos que tener un elemento al cuál, animar sobre una trayectoria, previamente creado
+
+
+	_para luego, con éste elemento ó motivo seleccionado ir a las opciones de "properties/constraint/", y
+
+	seleccioanr el constraint, de "Follow Path"
+
+
+	_a través, de cuál, podremos seleccinar el trazado el cuál, tendremos que tener creado previamente según 
+
+	la lógica de la animación ha realizar, así, podremos vincular éste path, ó trazado con el constraint, 
+
+	Follow Path/Target,
+
+
+	_para luego indicar la cordenada de trabajo así, como la dirección en X/Y/Z, que tendrá que tener el objecto
+
+	para que éste se alinie con el trazado en su dirección correcta
+
+
+	_y a través, de la opcíón de "Offset", es que podremos animar el motivo sobre el trazado, moviendo éste
+
+	parámetro ha un valor de entre "0-1", ó "0-100"
+
+
+	_y por último tendremo el parámetro de "influence", a través, del cuál, podremos indicar cuan fidedigno
+
+	será ese seguimiento del motivo sobre el path 
+
+
+

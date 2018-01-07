@@ -1,0 +1,89 @@
+
+
+
+	Grease Pencil en Blender 2.73
+
+		https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Paint 2d:
+	________
+
+	_para comenzar con el proceso de pintura en 2d, debemos de borrar el cubo, de geometría que aparece por defecto 
+
+	así, como de la luz, y demás elementos existentes en la escena excepto la cámara la cuál, ya tendremos que tener
+
+	configurada y posicionada
+
+
+	
+	Grease Pencil:
+	______________
+
+	_para posteriormente ir al panel viewport 3d, y allí, a "Tools", shortcut, "T", para posteriormente allí, buscar
+
+	la "pestaña", de "Grease Pencil", y allí, activar la opción de "Continous Drawing", para la plicación contínua
+
+	de pintura sobre el lienzo
+
+
+	_así, como también, debemos de ir ha el viewport 3d, properties, shortcut, "N", y bajar hasta las opciones de
+
+	"Display", y allí, podremos desativar la opción de "Grid Floor", ó incluso activar la opción de "Only Render",
+
+	para que así, no tengamos limitaciones en la visualización en el canvas a la hora pintar sobre éste
+
+
+	
+	Grease Pencil 2D Animation:
+	___________________________
+
+	_luego de haber configurado todo el sistema para la creación con Grease Pencil, podremos ahora comenzar con el
+
+	proceso de animación
+
+
+	_para lo cuál, debemos crear la primera composición ó trazados sobre el canvas en el "frame 1", del panel
+
+	"Dope Sheet/Grease Pencil", ó en el frame, a partir del cuál, desemos comenzar la animación
+
+
+	_para posteriormente de haber terminado con el ese frame, desplazarnos hasta el siguiente frame en el intervalo
+
+	deseado, para ir sólo al siguiente frame, podremos hacer uso de las "arrows", del del teclado
+
+
+	NOTA: el panel Dop Sheet, no dispone de interpolación de keyframes, para la modalidad de "Grease Pencil", de ésta
+
+	manera debemos interpretar que la modalidad de animación para grease pencil, está orientada ha el "Stop Motion"
+
+
+	
+	Orion Skinning:
+	
+	_ésta opción nos permitirá ver el esbozo, de los trazados anteriores también, conocido como efecto de papel 
+
+	cebolla
+
+
+	_dicho efecto lo podremos configurar a través, de colores, indicando así, el color que tendrán los trazados de
+
+	keyframes, anteriores y que colores tendrán los elementos en keyfremes, futuros
+
+
+	_así, como también, podremos configurar la cantidad de frames, visibles tanto hacia adelante como hacia atras
+
+
+
+
+	
+
+
+
+	
+	

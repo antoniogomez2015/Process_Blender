@@ -1,0 +1,95 @@
+
+
+
+
+	Using Frame Nodes in Blender for Clean and Organized Node Setups
+
+		https://www.youtube.com/watch?v=IuGJ_PDwOPI&t=476s
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Frame Layout Node:
+	__________________
+
+	_tenemos la posibilidad de organizar los nodos de forma visual dentro del panel node editor, para que así, a través, de grids,
+
+	ó recuadros podamos enmarcar grupos de nodos identificandolos con una etiqueta ó rótulo descriptivo así, como también, con un
+
+	marco de un color determinado
+
+
+	_de ésta maenra, podremos crear secciones que enmarquen ó delimiten procesos dentro de la creación de nodos para que así,
+
+	obtengamos una mejor visualización y compresión de todo el sistema ó arbol ó tree, de nodos en su conjunto y de forma grupo ó
+
+	por procesos independientes
+
+
+	
+	Crear Frame:
+	____________
+
+	_Shift + A/Add/Layout/Frame
+
+		_a través, de éste shortcut, podremos crear un nodo de tipo "Frame", vacío en el cuál, podremos incorporar los nodos
+
+		deseados en relación a la lógica del grupo de nodos que deseamos enmarcar dentro del node editor
+
+
+
+	
+	Personalizar Frame:
+	___________________
+
+		_de ésta manera, luego de que hemos creado podremos personalizar éste para que así, éste posea una etiqueta ó rótulo
+
+		distintivo como un nombre personalizado así, como también, éste posee un color característico que lo distinga de los
+
+		demás nodos y grupos ó marcos dentro del node editor
+
+
+		_para lo cuál, debemos de seleccionar el nodo frame, respectivo y con éste seleccionado ir al panel de propiedades 
+
+		del panel node editor, shortcut, "N"
+
+
+		_para que así, podamos acceder las respectivas opciones del node frame, para que así, podamos personalizar todas las
+
+		característicasl de node frma, en relación a nuestras necesidades	
+
+
+
+
+	Agregar Sub-Nodos:
+	__________________
+
+
+		_de ésta manera, luego de haber creado en node "Frame", debemos de arrastrar y soltar dentro de éste nodo "frame",
+
+		los nodos que deseamos que sean parte de éste grupo ó marco visual dentro del node editor, para que así, los nodos que
+
+		vayamos arrastrando dentro del nodo "Frame", vayan formando parte de éste
+
+
+
+	Extraer Sub-Nodos:
+	__________________
+
+
+	_Alt + P
+
+		_más en ocaciones requerimenos también, extraer nodos dentro de un grupo ó marco de nodos para lo cuál, dispondremos
+
+		de éste shortcut, a través, del cuál, pdoremos extraer nodos del grupo 
+
+
+		_para que así, éstos nodos ya no pertenezcan al respectivo grupo ó marco para que así, éstos nodos ahoran queden 
+
+		de forma libra como nodos independientes dentro del node editor
+	
+
+

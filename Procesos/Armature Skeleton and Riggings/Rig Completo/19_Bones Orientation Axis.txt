@@ -1,0 +1,61 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Bones Orientations:
+___________________
+
+
+	tenemos la posibilidad en skeleton systems, complejos de cambiar la orientación de rotación
+
+	de los bones, y cadenas para que todos los bones, en lo posibles se articulen en las mismas
+
+	cordenadas axis
+
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Display:
+	________
+
+
+	_primero seleccionamos el armature, ó skeleton system, y entramos ha "Edit Mode", shortcut "Tab"
+
+
+	_luego vamos a las propiedades del armature, respectivo "Armature/Display", y activamos las opciónes
+
+	de "Axes", "X-ray", y "names", si lo consideramos pertinente
+
+	
+	_de esta manera podremos ver las respectivas cordenadas de los bones, así, como sus nombres, otros
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Roll:
+	_____
+
+
+	_ahora en "Edit Mode", podemos seleccionar un bone, al cuál, deseamos cambiarse su cordenada axis,
+
+	de articulación e ir a las opciones de "Bone/Bone/Transform/Roll", en las cuales podremos mover ó
+
+	desplazar las cordenadas posibles para así, buscar el ángulo de rotación más adecuado así, la 
+
+	cordenada similar a la del bone, root, de la cadena ó chain
+

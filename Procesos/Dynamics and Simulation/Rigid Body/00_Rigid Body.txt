@@ -1,0 +1,208 @@
+
+
+
+
+Blender Dynamics /Rigid Body
+
+
+	referencia:
+
+		Simulación de física y movimiento en Blender
+
+			https://www.youtube.com/watch?v=Tg3FJe2RuGs
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Rigid Body:
+	___________
+
+	_tenemos la posibilidad de crear cuerpos rígidos los cuáles, podrán interactuar en sí, de forma pasiva como
+
+	de forma activa e interactuar a su vez, a través, de su masa ó densidad e incluso con animaciones 
+
+	indepencientes entre otras muchas posibilidades
+
+
+
+	Workflow:
+	_________
+
+	_de ésta manera, debemos de crear una geometría la cuál, deseamos sea un cuerpo rígico ó lo que es lo mismo
+
+	un cuerpo dinámico como por ejemplo una plano para que éste haga de suelo sobre el cuál, colisionarán otras
+
+	superficies ó geometrías comoplejas topológicamente que interactúen con éste plano
+
+
+	_y una vez, tenemos la respectiva geometría seleccionada vamos ha "Physis/Rigid Body", y una vez, allí, activamos
+
+	ésta opción para que así, éste elemento ya se comporte como un elemento dinámico específicamente como un elemento
+
+	rigid body
+
+
+
+
+	Rigid Body Type:
+	________________
+
+	_de ésta manera, una vez, hayamos convertido un elemento en un elemento dinámico específicamente en un elemento
+
+	rigid body, podremos seleccionar que tipo ó que comportamiento asumirá éste elemento dentro del sistema de ésta
+
+	manera, dispondremos de las siguientes opciones
+
+
+		
+		Active:
+		_______
+
+		_al indicar que un elemento dinámico de tipo rigid body, sea de tipo "Active", éste responderá a la fuerza
+
+		de gravedad por defecto así, como otros elementos en la escena de tipo dinámicos rigid body, sean éstos
+
+		activos ó pasivos, dinámicos ó animados
+
+
+		Passive:
+		________
+
+		_al indicar que un elemento dinámico de tipo rigid body, sea de tipo "Passive", éste no responderá a la 
+
+		fuerza de gravedad por defecto más así, responderá a la interacción con otros elementos en la escena de tipo 
+
+		dinámicos rigid body, sean éstos activos ó pasivos, dinámicos ó animados
+
+
+
+	Simulate:
+	_________
+
+	_de ésta manera, ya cuando tenemos los elementos correctamente configurados en relación si éstos serán elemento dinámnicos
+
+	activos ó pasivos debemos realizar la simulación de tipo rigid body, para lo cuál, sólo tendremos que hacer "play", 
+
+	en el timeline, de forma normal shortcut, "Alt + A", para que así, el sistema realize la respectiva simulación
+
+
+	_y posteriormente tendremos la posibilidad de movernos por la simulación realiza con tan sólo desplazar el cabezal del
+
+	timeline, ya que en éste caso éste nos mostrará el evance de la simulación a través, de éste por medio de una línea
+
+	de color amarilla ó mozta
+
+
+
+
+	Rigid Body Dynamic:
+	___________________
+
+	_ésta opción nos permnitirá activar ó desactivar el comportamiento natural de elemento de tipo rigid body, de tipo 
+
+	"Active"
+
+
+	_de ésta manera, activando ó desactivando ésta opción podremos indicarle al sistema que deseamos que éste elemento responda
+
+	a la gravedad por defecto ó no
+
+
+	_de ésta manera, si desactivamos ésta opción el respectivo elemento rigid body de tipo active, ahora se comportará como un
+
+	elemento rigid body, de tipo passive, ya que éste elemento permanecerá de forma estática en el espacio no respondiendo 
+
+	a la fuerza de la gravedad por defecto
+
+
+	NOTA: ésta opción es especialmente útil cuando por ejemplo; deseamos dejar el primer eslabón de una cadena estático para que
+
+	así, toda la cadena cuelgue de éste primer eslabón y pendulee posteriormente sobre éste punto y a su vez, conserve su estado
+
+	dinámico de un objecto rigid body de tipo active
+
+
+
+	Rigid Body Animated:
+	____________________
+
+	_ésta opción nos pemritirá agregar interacción más allá de la ofrecida por la fuerza de gravedad por defecto de ésta menera,
+
+	podremos agregar fuerza inicial a través, de animación sobre elementos para que así, éstos interactúen entre si a través,
+
+	de una mayor interacción por medio del uso de animación previa sobre los elementos dinámicos respectivos
+
+
+
+	Rigid Body Collisions:
+	______________________
+
+	_ésta opción nos pemritirá seleccionar el tipo bounding box, ó contorno que representará a las geometrías dinámicas así, para
+
+	elementos geométricos dispondremos diferentes tipos de elementos geométricos que bastarán para representar a la mayoría de las
+
+	superficies ha nivel general
+
+
+	_como también, dispondremos de forma más personalizadas hasta la forma totalmente personalizada como la tipo "mesh", la cuál,
+
+	representará y respetará a los elementos por su morfología de forma estricta lo cuál, es especialmente útil para elementos
+
+	muy complejos u orgánicos, otros
+
+
+	
+	Rigid Body Surface Response | Sensitivity:
+	__________________________________________
+
+	_así, como también, dispondremos de controles adicionales para el control de otras comportamientos colarales muy importante
+
+	en el proceso los cuáles son
+
+
+
+		Fricción:
+		_________
+
+		_ésta opción nos permitirá controlar cuanta resistecia ofrece una superfie dinámica de tipo rigid body, en relación
+
+		ha otra superficie de tipo rigid body
+
+
+		_de ésta manera, una superficie podrá ser más abrasiva ó repelente en relación al tipo de interacción deseada
+
+
+
+		Bounciness:
+		___________
+
+		_ésta opción nos permitirá controlar cuanta repelencia ó adhesión ofrece una superfie dinámica de tipo rigid body, 
+
+		en relación ha otra superficie de tipo rigid body
+
+
+		_de ésta manera, una superficie podrá ser más repelida por ó atraida respectivamente en relación al tipo 
+
+		de interacción deseada
+
+
+
+		Collision Margin:
+		_________________
+
+		_ésta opción nos permitirá indicar un margen mínimo entre superficies de forma personalizada
+
+
+		Margin:
+		_______
+
+		_ésta opción nos permitirá indicar un valor exacto el cuál, será tomado como margen entre dos superficies 
+	
+
+
+
+		
+		

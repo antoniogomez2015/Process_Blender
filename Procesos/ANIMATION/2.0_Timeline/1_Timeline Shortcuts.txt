@@ -1,0 +1,46 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Timeline Shortcuts:
+	___________________
+
+
+		_Play/Stop: Alt + A
+
+
+		_Timeline Start/End: S/E | P and Drag
+
+
+		_Nav Start/End: Shift + Arrow Keyboard Left/Right | Control + Shift + Up/Down
+
+
+		_Next/Back Frame: Arrow Keyboard Left/Right | Alt + Mouse Scroll Up/Down
+
+		
+		_Next/Back 10 Frame: Shift + Arrow Keyboard Up/Down
+
+
+		_Next/Back Keyframes: Up/Down
+
+
+		_View All: Inicio ó Home
+
+
+		_markers: M
+
+		
+		_Marker Name: Control + M
+
+
+
+
+
+

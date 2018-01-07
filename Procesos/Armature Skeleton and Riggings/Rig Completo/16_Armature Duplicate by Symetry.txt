@@ -1,0 +1,172 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Armature Duplicate by Symetry:
+______________________________
+
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Mesh Character:
+	_______________
+
+	_primero debemos tener en la ubicación ó pose deseada la mesh, respectiva del character
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Skeleton System:
+	________________
+
+	_luego debemos tener igualmente el skeleton system, ó armature, en diferentes chains, en
+
+	relación a la cinemática del character, en uno de sus lados, por lo general en el lado
+
+	izquierdo
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Rename:
+	_______
+
+	_en blender, es altamente aconsejeble renombrar los bones, y chains, creadas ya que blender
+
+	cuenta con herramientas específicas para el duplicado por simetría así como para el 
+
+	renombramiento de los bones reflejados ó duplicados por simetría, ej: "L_Arm", para que así,
+
+	éste al ser reflejado y renombrado automáticamente pase ha llamarse "R_Arm"
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Pivot:
+	______
+
+
+	_para lograr un duplicado por simetría adecuado el pivot, de referencia para dicho proceso debe
+
+	de estar en el centro del axis, para así, obtener una distancia relativa entre el sistema duplicado
+
+	y el existente previamente
+
+
+	_para esto, primero en modo "Edit Mode", hacemos "Shift + S", para abrir el panel "Snap", y 
+
+	seleccionamos la opción de "Snap/Cursor To Center", así el cursor 3D, se irá al centro del plano axis
+
+
+	_ahora vamos a las opciones de "Pivot Point", y seleccionamos la opción de "3D Cursor", así, el Pivot,
+
+	se irá a la posición actual del cursor 3d, otra manera más fácil de hacer esto es a través, del 
+
+	shortcut ". (doc/punto)", y, para volver al modo de por defecto "Median Point", shortcut "Contrl + ,"
+
+
+	_màs para la edición tanto de mover como seguir extruyendo ó creando más cadena en el modo de simetría
+
+	es altamente recomendable que el pivot, del skeleton system, ó armature se encuentre en el centro del
+
+	axis, para esto, ya que tenemos temporalmente el axis, en el centro del plano a través, del cursor 3d,
+
+	podríamos hacer "Control + Alt + Shift + C", para entrar al panel "Set Orion/Orion to 3D Cursor" 
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Mirrow:
+	_______
+
+
+	_y, aún en el modo "Edit Mode", procedemos a seleccionar todos bones de las cadenas a duplicar por
+
+	simetría
+
+
+	_luego con todos los bones, de las cadenas deseadas seleccioandos hacemos un duplicado éstos haciendo
+
+	"Shift + D", y "esc", para que éstos duplicados mantengan la misma posición que los originales
+
+
+	_luego con todos los bones, duplicados aún seleccionados vamos ha "Armature/Mirrow/X Global", más
+
+	"enter", ó mouse left click, en un área disponible en el canvas, para finalizar la operación de 
+
+	reflejado
+
+
+	_otra forma de hacer este útimo paso es con todos los bones, duplicados aún seleccionados hacemos
+
+	"Control + M", y a continuación la cordenada de duplicación entre "X,Y,Z"
+
+
+	_de esta manera los bones, y chain, duplicados tomarán la posición reflejada de los originales
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Rename Chains:
+	______________
+
+
+
+	_así, en el modo "Edit Mode", podremos seleccionar los bones y las cadenas reflejadas y hacer 
+
+	shortcut "W", para entrar al menú de "Specials", y seleccionar la opción de "Flip Names", ó yendo
+
+	ha "Armature/Flip Names"
+
+
+	_de esta manera podremos ver que todos los nombres de los bones, reflejados y renombrados ahora
+
+	su nombre ha cambiado de la siguiente manera, ej: de: "L_Arm", a "R_Arm", y así, sucesivamente
+
+
+
+	---------------------------------------------------------------------------------------------
+
+
+	Edit Symetry:
+	_____________
+
+
+
+	_tenemos la posibilidad editar y mover, escalar y, seguir extruyendo bones, y cadenas/chains, de
+
+	forma simétrica en relación al duplicado por simetría que ya hemos hecho para que así, ej: al 
+
+	moverl un bone, del lado izquierdo éste también, se mueva en el lado derecho automáticamente
+
+	
+	_para esto, vamos al panel izquierdo, shortcut "T", "Panel/Option/", en el cuál, encontraremos
+
+	la opción de "X-Axis Mirrow", por esto es altamente recomendable trabajar el character, por 
+
+	simetría en la ubicación correcta para que nos coincida la cordedanada de reflejado con la
+
+	cordenada "X" 
+
+

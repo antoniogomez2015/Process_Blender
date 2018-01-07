@@ -1,0 +1,153 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Render Multi Layers:
+_____________________
+
+
+
+	_tenemos la posibilidad de crear sistemas multi layers, para que así, podamos hacer particiones de render ó reservas
+
+	de ésta manera, podremos renderizar y trabajar los elementos de forma independiente en el panel "Node Edior/Compositing",
+
+	para el proceso de producción y post-producción
+
+
+	Layers Viewport 3D:
+	___________________
+
+	_así, lo primero que tendremos que hacer luego de tener creada nuestra escena ó motivo ha renderizar y someter al procedo
+
+	de producción es directamente agrupar ó segmentar los elementos deseados en layer, los cuales deseamos someter ha diferntes
+
+	procesos de producción
+
+
+	_para lo cuál, debemos de seleccionar los elementos deseados tanto en el vieport, 3d, como en el panel outliner, y con éstos
+
+	seleccionados debemos ir al panel "Layer", shortcut; "M", en el viewport, para que así, podamos enviarlos ha layers, diferentes 
+
+	de la layer, global ó general por defecto
+
+
+
+	Render Layers:
+	______________
+
+	_para luego configurar las layers, de render las cuales están relacionadas directamente con las layers, de salida del panel
+
+	"Node editor / Compositing"
+
+
+	_para lo cuál, debemos ir al panel "Properties/Render Layers", en el cuál, podremos ver la layer, base "RenderLayer", así, 
+
+	podremos darnos cuenta que ésta layer, tiene el mismo nombre que el nodo por defecto en el panel "Node Editor/Compositing",
+
+	ya que ésta representa ésta layer, en si misma de la salida del render, ésta layer, en su configuación representa la layer,
+
+	de "Beauty", hablando en terminos de "Maya", la cuál, contendrá todos los contenidos y elementos de la escena por ender no
+
+	es recomendable modificar sus sub-layers, y elementos preconfigurados
+
+
+	_CREATE LAYERS: de ésta manera, tendremos que crear más layers, en relación a la cantidad de layers, que creamos en panel de 
+
+	"Layers", del viewport 3d, ó mejor dicho, en relación a cuentas capas de renders deseamos dividir la producción de nuestro 
+
+	proceso de render 
+
+
+	_para lo cuál, debemos darle al Plus, ó "+", del panel "Properties/Render Layers/ +", para que así, una nueva layer, sea 
+
+	agregada la cuál, podremos renombrar con un nombre descriptivo
+
+
+	_SETTING NEW LAYERS: para posteriormente bajar hasta las opciones de de "Propesties/Render Layer/Layer/Scene", y en éstas 
+
+	opciones indicar las layers, correspondientes, por lo general deberíamos de seleccionar la misma layer, que hemos 
+
+	seleccionado para un determinado contenido en la sección de layers, del viewport 3d, en los pasos anteriores
+
+
+	_y posteriormento justo al lado encontraremos las opciones de "Layers", en las cuales podremos asignar una nuva layer, de 
+
+	contenido de render ha modo de reserva de las demás
+
+
+	_es recomendable colocar las layers, en el mismo orden, por ejemplo si un determinado contenido en el viewport 3d, lo colocamos
+
+	en la layer, número "2", entonces en la sección de "Properties/Render Layer", tanto en las secciones de "Scene", como de "Layer",
+
+	debemos de también, colocarlo ó seleccionar sólo la layers, número "2"
+
+
+	_de ésta manera, tendremos que repetir éstos procesos para las cantidades de layers, creadas en la sección de layers, del 
+
+	viewport 3d, ó del contenido que deseamos fragmentar para el proceso de producción
+
+
+
+_y en las opciones de "Properties/Render Render", debemos de bajar hasta las opciones de "Film/", y activar la opción de "Transparent",
+
+para que así, los elementos que renderizen ha modo de reservas de otros éstos conserven transparencias
+	
+
+
+Multi Render:
+_____________
+
+	_de ésta manera, luego de haber creado todos las "Layers Pass", en el paso anterior ahora sólo tendremos que hacer el proceso de 
+
+	render convencional para lo cuál, podemos usar el shortcut "F12", ó ir al menú "Render/Render Image", en la parte superior de la
+
+	interface
+
+
+	_de ésta ésta manera comenzará ha generarse el render en el panel "UV Image Editor", en el modo "Render Result". más ahora con 
+
+	la diferencia del proceso convencional de que ahora hay más pestañas en las parte inferior las cuales son:
+
+
+		_Slot 1:
+
+			_en ésta opción podemos a través, de slots, guardar diferentes versiones de renders, que vayamos haciendo
+
+
+		_Composite:
+
+			_en ésta opción podemos seleccionar entre los diferentes renders ó pases ó reservas que hayamos configurado 
+
+			previamente en el proceso anterior de "Properties/Render Layer"
+
+
+		_Combined:
+
+			_en ésta opción podremos ver el resultado conbinado de todo el proceso de layer, en conjunto
+
+
+
+	_de ésta manera, ahora podremos también, seleccionar el pass, ó reserva que hemos generado en el nodo "Render Layer", en el 
+
+	panel "Node Editor/Compositing/Render Layer", de ésta manera, podremos filtrar entre los diferentes pases ó render ha utilizar
+
+	en los diferentes procesos de producción
+
+
+	_así, como también, podemos amplicar las posibilidades del proceso duplicando el nodo de "Render Layer", en el panel 
+
+	"Node Editor/Compositing", e ir seleccionando diferentes pases ó reservas en relación a los diferentesprocesos de producción ha
+
+	realizar
+
+
+

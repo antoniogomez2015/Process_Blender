@@ -1,0 +1,101 @@
+
+
+
+
+Blender Dynamics / Smoke
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+	_ésta opción nos permitirá emular mucha más resolución de la que realmente hemos indicado en el valor de "Division",
+
+	para que así, podamos aumentar la resolución aparente del sistema de simulación de humo
+
+
+	_sin la necesidad de tener que aumentar la sub-divisiones del valor de "division", lo cuál, implicaría un aumento
+
+	considerable de cálculo y tiempo de espera y espacio en disco en general
+
+
+	_de ésta manera, el sistema tratará de hacer una interpolación entre el valor de baja resolución que hemos indicado
+
+	con el resultado aproximado de una configuración en alta resolución
+
+
+
+	Smoke High resolution:
+	______________________
+
+	_para lo cuál, debemos de seleccionar al elemento contenedor ó domain, del sistema de humo y con éste seleccionado ir
+
+	a las opciones de "Physis/Smoke/", y allí, activar la opción de "Smoke High Resolution", para que así, a partir de éste
+
+	punto la simulación previa desaparezca
+
+
+	_para que así, tengamos que volver ha calcular nuevamente la simulación con los cambios de interpolación de simulación
+
+
+	_ésta opción no nos permitirá de igual manera desplazar el cabezal del timeline, poder así, visualizar la simulación
+
+	de ésta manera, ésta opción de "Smoke High resolution", es más recomendable utilizarla con el sistema de "Smoke Cache"
+
+
+		Resolution:
+		___________
+
+		_incluso para las opciones de "Smoke High resolution", podremos aumentar exponencialmente los valores de 
+
+		interpolación aumentando ó disminuyendo los valores de resolution
+
+
+		Noise Method:
+		_____________
+
+		_así, como también, dispondremos de diferentes algoritmos para la incorporación de riudo turbulento 
+
+		a la interpolación ó resultado final
+
+
+		Strength:
+		_________
+
+		_ésta opción nos permitirá indicar la cantidad de fuerza ó capacidad de penetración de la interpolación sobre 
+
+		los elementos ó partículas de la simulación de humo respectivamente
+
+
+		Flow Sampling:
+		______________
+
+		_ésta opción nos permitirá indicar un patrón ó algoritmo de sampleo entre los que podremos seleccionar el
+
+
+			Full Smaple:
+			____________
+
+			_sampleo contínuo es el que ofrece una mayor calidad
+
+
+			Linear:
+			_______
+
+			_éste realizará un análisis ó sampleo ponderado y constante a través, de toda la simulación
+
+
+			Nearest:
+			________
+
+			_éste realizará el sampleo en relación a la aglomeración de las partículas del sistema donde realizará
+
+			una interpolación más acusada que en el resto de las áreas
+
+
+	
+

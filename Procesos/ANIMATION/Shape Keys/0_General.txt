@@ -1,0 +1,54 @@
+
+
+
+	Blender 2.68: Animación con Graph Editor
+		https://www.youtube.com/watch?v=8UKEGOy-x9g
+
+
+	Blender 2,68: Animar objetos con Shape Keys
+		https://www.youtube.com/watch?v=tvb4dM4QKd4
+
+
+	Blender 2.68: Rigging avanzado con Shape Keys y Custom Bones
+		https://www.youtube.com/watch?v=Bl2FHX80KTo&t=15s
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Características:
+	________________
+
+	_a través, de las shape keys, podremos crear animación no lineal de forma controlada a través, de 
+
+	deformación premeditadas las cuáles, podremos integrar y fusionar entre sí, para lograr distorciones y
+
+	rasgos característicos sobre un motivo ó character
+
+
+	_de ésta manera, podremos lograr expresiones y líneas de expresión marcadas entre otras posibilidades
+
+
+	_otra utilidad latente es para transformación de elementos en tiempo así, podremos envejecer en 
+
+	elementos y hacer que éste tenga otra apariencia posteriormente
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+

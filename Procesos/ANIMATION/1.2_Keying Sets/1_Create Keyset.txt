@@ -1,0 +1,194 @@
+
+
+
+Blender 2.70: Animando con Keying Sets
+	https://www.youtube.com/watch?v=VdmOImWsidM
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Create Keyset:
+	______________
+
+	_para crear un keyset, personalizado no tendremos que necesariamente tener ningún elementos seleccionado
+
+	previamente
+
+
+	_de ésta manera, podremos ir directamente ha "Properties/Scene Scene/Keying Sets/", y allí, darle a "+",
+
+	para agregar así, un nuevo "Slot", el cuál, estará vacío inicialmente
+
+
+	_para que así, a partir de éste punto la nuevo keyset, seleccionada en el panel key sets, estará 
+
+	seleccionada en el panel del "timeline/Active Keying Set Used", y lista para usar
+
+
+	_de ésta manera, el nuevo keyset, creado lo podremos renombrar e incuso indicar un descripción para éste
+
+
+	_así, como también, a partir del momento de la creación del nuevo keyset, se habrá agregado una nueva 
+
+	sección "Active keying Set", justo debajo de la sección de "Keying Sets"
+
+
+	_en la cuál, se irán listando todos las propiedades, atributos y elementos los cuáles, conformarán el
+
+	keyset, en general y específico a la vez
+
+
+
+
+	Asignación Consideraciones:
+	___________________________
+
+	_para asignar propedades, atributos y elementos ha un keyset, si es necesario que tengamos seleccionado
+
+	al respectivo elemento ha animar
+
+
+	_ya que las propiedades, atributos, elementos ha asignar ha un keyset, no son genéricas ni transferibles
+
+	entre diferentes elementos
+
+
+	_lo que quiere decir, que los componentes que conforman un keyset, obedecen sólo ha un elemento; por ej;
+
+	a las extremidades de un character, ó algún sistema de accesorios, otros
+
+
+	_e incluso elementos mixtos como el color diffuso de un shader, propiedades de rotación en una sólo 
+
+	cordenada, handles, de animación, otros
+
+
+	_todos al unísono en sólo control de keyset, de animación el cuál, podremos modificar rápidamente en los
+
+	diferentes páneles de animación como el curve editor, dops sheet, otros
+
+
+
+	Agregar Atributos al Key Set:
+	_____________________________
+
+	_en blender disponemos de tres formas distintas de agregar nuevos atributos en key set, que hayamos 
+
+	creado, éstas son:
+
+
+		Primer Método:
+
+		_primero nos posamos sobre un atributo con el mouse, por ejemplo sobre un atributo de 
+
+		"Translation X", en el panel de propiedades del viewport 3d, shortcut, "N"
+
+
+		_y a continuación aún con el mouse sobre la respectiva propiedad aplicar el shortcut, "K",
+
+		para que así, dicha propiedad ó atributo sea agregado dentro de la lista de elementos del
+
+		keyset
+
+
+		_la cuál, podremos visualizar e editar en el panel "Properties/Scene Scene/Active Keing Set",
+
+		de ésta manera, podremos ver que a través, de éste método asistido las propiedades se configuran
+
+		automáticamente sin nuestra intervención lo cuál, es muy práctico y rápido
+
+
+
+		Segundo Método:
+
+		_otra forma de agregar atributos y propiedades ha un keyset, es posicionándonos sobre éstas con
+
+		el mouse, y haciendo "mouse right click", para que así, se abra el menú contextual de 
+
+		propiedades
+
+
+		_en el cuál, podremos escoger la opción de "Add Single to Keying Set", para agregar un atrubito
+
+		ó propiedad de forma individual al mismo modo que el método anterior a través, del shortcut, "K"
+
+
+		_más también, en éste segundo método dispondremos del comando "Add All to Keying Set", lo cuál,
+
+		nos permitirá agregar todas las propiedades relacionadas a la seccionada al unísono, por ejemplo
+
+		las propiedades "Translation", lo que nos evitaría tener que agregar una ha una y saturar el 
+
+		sistema
+
+
+
+		Tercer Método:
+
+		_el tercer método es agregar atributos, propiedades y elementos de forma manual lo cuál, es más
+
+		complicado más nos brinda un mayor control y posibilidades de integración y capacidades del
+
+		sistema
+
+
+		_para lo cuál, en la sección roperties/Scene Scene/Active Keing Set", debemos darle ha "+", para
+
+		que así, se agrege un nuevo slot, vacío el cuál, podremos renombrar con un nombre característico
+
+
+		_para a continuación en las opciones de "ID Block", seleccionar el tipo de objeto ha seleccionar
+
+		para posteriormente indicar ó seleccionar como se llama éste tipo de objeto dentro de las 
+
+		instancias creadas por nosotros en el outliner, ó dentro del sistema así, podremos ver que 
+
+		tendremos un rango mucho de elementos ha seleccionar los cuáles, pueden ser desde una camara, 
+
+		luz, material, grease pencil, particles, curves, nodes, otros
+
+
+		_para a continuación en las opciones de "Data Path", seleccionar el tipo de abributo ó propiedad
+
+		por ejemplo, "Scale", (éste método requerirá un mayor conocimiento de nuestra parte para conocer
+
+		así, todos los atributos y parámetros posibles y como integrarlos e interpretarlos)
+
+
+		_y la opción "All Items", marcará todos los atributos posibles dentro de una propiedad, por ej,
+
+		dentro de la propiedad "Rotation", ésta tiene tres atributos "X,Y,Z"
+
+
+		_de ésta manera, si desemos sólo uno ó más atributos por separado debemos de desactivar la 
+
+		opción de "All Items", para que así, aparescan las opciones de "Index", lo cuál, no es más que
+
+		un array
+
+
+		_a través, del cuál, podremos indicar la propiedad ha seleccionar por ejemplo; para seleccionar
+
+		la primera propiedad disponible utilizaremos el primer valor del array 
+
+
+		_éste es "Index: 0", el cuál, equivaldrá en éste caso ha "X", e "Index: 1", para "Y", e 
+
+		"Index: 2", para "Z"
+
+
+		_y por último tendremos las opciones de "F-Curve Grouping", en las cuáles, podremos indicar el
+
+		tipo de animación, dichas opciones las tendremos por defecto en el menú de preferencias de la
+
+		aplicación sección animación
+
+
+
+
+

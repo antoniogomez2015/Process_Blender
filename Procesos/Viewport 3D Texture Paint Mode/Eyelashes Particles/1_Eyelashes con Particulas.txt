@@ -1,0 +1,236 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_tenemos la posibilidad de crear pestañas a través, del sistema de partículas de blender, de ésta manera, 
+
+	podremos configurar unas pestañas con volúmen y totalmente configurables así, como también, éstas podrán 
+
+	interacturar con otros elementos dinámicos en la escena como fluidos, elementos soft body, y rigid body, otros
+
+
+
+	Sistema de Partículas:
+	______________________
+
+	_donde primeramente debemos crear un sistema de partículas sobre el motivo ó character, para lo cuál, debemos de
+
+	seleccionar éste e ir ha "Properties/Particles Particle", y allí, le damos a la opción de "+ New", 
+
+
+	_para que así, el sistema genere un sistema de partículas sobre el motivo ó character, el cuál, podremos 
+
+	configurar y personalizar posteriormente
+
+
+
+
+
+	
+	Configuración de Partículas:
+	____________________________
+
+	_y luego de haber creado el sistema de partículas sobre el motivo vamos más abajo hasta la opción de "Type", en 
+
+	la cuál, escogeremos la opción de "Hair"
+
+
+	_para luego bajar y activar la opciones de "Advanced", para poder así, configurar posteriormente las opciones
+
+	avanzadas del sistema de partículas
+
+
+	_para posteriormente bajar hasta las opciones de "Velocity/Emitter Geometry/Normal", y bajar éste valor	hasta un 
+
+	número muy pequeño como "0.01", lo cuál, disminuirá la cantidad de hebras maestras así, como el tamaño ó longitud de éstas
+
+
+	_y luego debemos de bajar hasta la opción de "Render/", y allí activar la opción de "Strand render", el cuál, nos
+
+	permitirá mejorar la calidad del render resultante y sobre todo que se pueda interpretar el texturizado en relación
+
+	a la dirección de las normales de cada hebra
+
+
+	_así, como también, en esa misma sección debemos de activar la opción de "B-Spline", la cuál, nos va ha permitir
+
+	redondear ó suavizar la curvatura del cabello resultante al cuál, le asignaremos un valor general de "3", ésto lo
+
+	que hacer es que a cada uno de los cabellos los divide en tres fragmentos
+
+
+	_para posteriormente bajar hasta las opciones de "Children/", en la cuál, escogeremos la opción de "Simple", lo 
+
+	cuál, hará una interpolación de los cabellos "hijos", creados a través, de los valores indicados a continuación
+
+	tanto para los valores de:
+
+
+		_Display:
+
+			_visualización de hebras en el viewport 3d, para edición
+
+
+		_Render:
+
+			_cantidad de hebras ha renderizar para el proceso final
+
+			_para el proceso de creación y de edición es recomendable utilizar valores de "Display: 10",
+
+			"Render: 10"
+
+
+		_Size:
+
+			_
+
+
+		_Random:
+
+			_
+
+
+	_así, como también, dentro de la misma sección de "Children/", debemos de ubicar la opción de "Radios", la cuál,
+
+	debemos de asignarle un valor muy bajo, más ó menos de "0.01", lo cuál, hará que los sub-pelo ó cabellos creados
+
+	no se dispersen demaciado en relación a la hebra maestra respectiva lo cuál, podremos ver al momento de salir del
+
+	modo "Paticle Edit"
+
+
+
+
+	Creación de Eyeshes:
+	____________________
+
+	_para lo cuál, lo más recomendable es hacer que el sistema no emita ninguna hebra temporalmente para que así,
+
+	podamos ubicar de forma personalizada y una ha una las hebras específicas que conformarán las pestañas ó eyeshes
+
+
+	_para lo cuál, debemos ir hasta la parte superior hasta las opciones de: "Emission/Number", y colocar allí, un
+
+	valor de "0", para que así, el sistema de partículas deje de emitir partículas aleatorias por defecto
+
+
+
+	Particle Edit:
+
+	_para luego, con el motivo ó character, seleccionado y éste con el sistema de partículas aplicado vamos en el
+
+	viewport 3d, al modo de "Particle Edit"
+
+
+	_y en el modo "Particle Edit", dispondremos de un panel de  herramientas a través, del cuál, podremos modificar
+
+	y estilizar el sistema de partículas generado
+
+
+	_para lo cuál, estando en el modo "Particle Edit", podremos ir al panel "Tools", shortcut, "T", en el cuál,
+
+	dispondremos de las siguientes herramientas de edición de cabello ó partículas, las cuáles son:
+
+
+		_None:
+
+			_ésta no hace ningúna acción, es como un seguro del sistemaó posición estática
+
+
+		_Comb:
+
+			_ésta nos permitirá peinar pelo, cabello ó el sistema de partículas
+
+
+		_Smooth:
+
+			_ésta nos permitirá suavizar pelo, cabello ó el sistema de partículas
+
+
+		_Add:
+
+			_ésta nos permitirá añadir pelo ó cabellos, ó fur
+
+
+		_Length:
+
+			_ésta nos permitirá cambiar la longitud del pelo, cabello ó el sistema de partículas
+
+
+		_Puff:
+
+			_
+
+
+		_Cut:
+
+			_ésta nos permitirá cortar pelo, cabello ó el sistema de partículas
+
+
+		_Weight:
+
+			_
+
+
+
+	New Eyeshes:
+
+	_para luego si comenzar ha crear nuestra pestaña en el lugar deseado para lo cuál, con el motivo ó character,
+
+	seleccionado debemos ir al panel "Tool", shortcut, "T", y seleccionar la herramienta de "Add", a la cuál, en la
+
+	parte inferior de ésta podremos configurar los dos parámetros de los cuáles, dispone, éstos son:
+
+
+		_Radius:
+
+			_es recomendable utilizar un rádio pequeño como "5", para el brush, shortcut, "Shift + Fel valor "
+
+
+		_Count:
+
+			_el valor más recomendable para la creación de pestañas es de "5", unidades
+
+
+	_de ésta manera, ya estamos listos para comenzar ha aplicar las pestañas de forma personalizada para lo cuál, no
+
+	debemos hacer "Mouse Left Click and Drag", por que de ésta manera, crearemos una línea de fibras muy junta lo 
+
+	cuál, en éste caso no es lo deseado
+
+
+	_lo que debemos hacer entonces es ir colocando hebra ha hebra en el lugar deseado con un tamaño de brush, lo 
+
+	bastante pequeño para que así, éste no permita ésta labor
+
+
+	_y luego de haber bordeado todo el ojo, podremos entonces proceder ha "peinear", las pertañas del motivo ó 
+
+	character, a través, de la herramienta "Comb", hasta lograr un sentodo y distirbución uniforme de las hebras
+
+	maestras, entendiéndo así, que las pestañas de la parte deben de apuntar hacia arriba y las pestañas de abajo
+
+	deben de apuntar hacia abajo
+
+
+	
+
+
+
+	
+
+
+
+
+

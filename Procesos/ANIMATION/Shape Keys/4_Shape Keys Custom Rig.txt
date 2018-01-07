@@ -1,0 +1,61 @@
+
+
+
+	Blender 2.68: Animación con Graph Editor
+		https://www.youtube.com/watch?v=8UKEGOy-x9g
+
+
+	Blender 2,68: Animar objetos con Shape Keys
+		https://www.youtube.com/watch?v=tvb4dM4QKd4
+
+
+	Blender 2.68: Rigging avanzado con Shape Keys y Custom Bones
+		https://www.youtube.com/watch?v=Bl2FHX80KTo&t=15s
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Shape Keys Custom Rig:
+	______________________
+
+	_posteriormente de haber creado y generado todo el proceso de shape keys, podremos también, crear un
+
+	sistema de rigging, personalizado para que así, a través, de formas personalizadas 
+
+
+	_poder relacionar éste sistema de rig, con las respectivas shape keys, para que así, no tengamos que 
+
+	ir hasta la sección ó panel de shape keys, y aplicar sus respectivos sliders
+
+
+	_si no que a través, de la modalidad de un rig, personalizado podremos relacionar ambos sistemas para
+
+	que así, al mover el sistema de rig, se acccionarán en la misma proporción las shape keys, de forma
+
+	automática y sincronizada
+
+
+
+	Armature:
+	_________
+
+	_
+
+
+	Driver:
+	_______
+
+	_
+
+
+
+
+
+
+

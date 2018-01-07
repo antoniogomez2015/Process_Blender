@@ -1,0 +1,62 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Skeleton System Flexible:
+	_________________________
+
+
+		_como alternativa para ciertos requerimientos especiales como la realización de "tails", ó colas, tentáculos, hairs,
+
+		fibras, otros, disponemos con una modalidad de bones, la cuál, dispone de una configuración especial ó extra, para
+
+		que así, podamos realizar éste tipo de rig, especiales
+
+
+		_para ésto, hacemos el proceso normal de creación de skeleton system, shortcut "Shift + A/Add/Armature/Single Bone"
+
+
+		_para luego configurar nuestro skeleton system, a través, de las chains, ó cadenas deseadas
+
+
+		_más ahora para acceder a las propiedades especiales ó extras debemos estar tanto en "edit mode", como en "object mode",
+
+		para luego ir ha "Properties/Data Object Data/Display/", y llí, debemos elegir la opción de "B-Bone"
+
+
+		_ahora cambiamos el modo "edit mode", para luego seleccionar el bone, respectivo para posteriormente ir ha 
+
+		"Properties/Bone Bone/Deform(activamos ésta opción si está desactivada)/Curved Bones/", y lllí, en "Segments:",
+
+		debemos indicar la cantidad de segmentos en la que deseamos que el respectivo bone, se subdivida para que éste tome 
+
+		más capacidad de flexión, ej: "Segments: 3", así, podremos repetir éste paso para cada uno de los bones, de forma 
+
+		personalizada para cada uno de los bones, respectivos
+
+
+		_por último para ver las acciones del efecto funcionando debemos ir al modo "pose mode", y articular el skeleton system
+	
+
+		
+	
+	
+
+
+

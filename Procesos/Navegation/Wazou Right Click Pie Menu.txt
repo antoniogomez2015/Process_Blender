@@ -1,0 +1,28 @@
+
+
+Grease Pencil
+
+
+
+	Tutorial:
+
+		RMB Pie Menus 001
+			https://www.youtube.com/watch?v=VIrfGCjaXSM
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Wazou Right Click Pie Menu:
+___________________________
+
+
+	
+	Activation: Preferences/Add-ons/3D View: Wazou Right Click Pie Menu
+
+
+	Location: Mouse Left Click, en el canvas en el modo "Edit Mode"
+
+
+	

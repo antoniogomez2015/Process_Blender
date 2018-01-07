@@ -1,0 +1,373 @@
+
+master en programacion: https://www.youtube.com/channel/UC7mirgLdHJUoqbaGi_KOr2w
+
+cgcookie
+
+Modificador array en Blender
+	https://www.youtube.com/watch?v=AWXRy44lkSI&list=PLFmkfOdaXDrT5BAoBHk1c3XJKkcD7CbEf&index=17
+
+
+Tutorial facial rig basico en blender españo
+	https://www.youtube.com/watch?v=MqT2ehkZvLw
+
+Camera tracking en blender [2.72] Español
+	https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+Curso de Blender GRATIS - Presentación
+	https://www.youtube.com/watch?v=NSiGlLiMHh8&list=PLFmkfOdaXDrT5BAoBHk1c3XJKkcD7CbEf
+
+Texturizado de Casa
+	https://www.youtube.com/watch?v=JPNS01ODTlQ
+
+tutorial blender unwrap mapeado uv modelos organicos
+	https://www.youtube.com/watch?v=K3frGXFIidk
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Guía de comandos nativa de blender, versión v1.74
+
+
+
+Navegation / transform: 
+
+	(translate / scale / rotate); (restringir movimiento indicado cordenada X, Y, Z, múltiple cordenada + shift + nueva cordenada)	
+
+
+	grab move: G + drag (translate)	G+ mouse midle button (así busca la cordenada más cercana) 
+
+	scale object: S
+
+	rotate: R
+
+	shear: control + shift + alt + S
+
+	bend: shift + W (en relación al cursor)
+
+	shrink fatten: alt + S
+
+	Zoom In/Out: mouse scroll ó control + mouse scroll click + up/down drag  ó  +/-, numpad
+
+	Pan: shift + mouse scroll + draw ó control + mouse scroll 
+
+	Orbit: mouse scroll + drag
+
+	Axis a cursor: dot (.)
+
+	Axis a orion object: coma (,)
+
+	hiden axis In/Out: control + spacebar
+
+	snap: shift + tab
+
+	navegate center pivot: alt + , (coma) (mode object)
+
+	pivot point / bounding box: , (coma) (mode object)
+
+	pivot point / 3D cursor: . (dot / punto) (mode object)
+
+	pivot point / median pivot: control + , (coma) (mode object)
+
+	pivot point / individual pivot: control + . (dot / punto) (modo object)
+
+	pivot change: menu/object/transform/orion (mode object)
+
+
+
+
+Modes:
+
+	object mode: tab
+
+	edit mode: tab
+
+	weight paint: control + tab (mode object)
+
+	texture mode> alt + alt2 + Z
+
+	vertex paint mode: V
+
+
+
+
+Select:
+
+	select objects (object y edict mode): mouse right click
+
+	axis normal ó local: control + alt + spacebar
+
+	select all on/off: A
+
+	lasso select: control + drag
+
+	rectangle select: B (border select)
+
+	circular select: C (circle select), graduar radio del circulo: +/-, numpad
+
+	select more/less: control + (+/-), numpad
+
+	select linked: control + L (selección de sub elementos relacionados)
+
+	invert selection: control + I
+
+	ring select: (select un edge precio) + control + alt + mouse right click + edge contiguo
+
+	loop select: (select un edge precio) + shift + alt + mouse right click + edge contiguo
+
+	loop select: (select un face precio) + alt + mouse right click + edge contiguo (shift para seguir agregando más loops a la selección)
+
+	more selection: control + +
+
+	less selection: control + -
+
+
+
+general:
+
+	new group: control + G
+
+	remove from group: control + alt + G
+
+	remove all groups: control + alt + shift + G
+
+	add select to active group: control + shift + G
+
+	remove select to active group: alt + shift + G
+
+
+
+Views:
+
+	view wareframe (edit mode): Z
+
+	view texture/solid: alt + Z
+
+	view rendering: shift + Z
+
+	Full screen mode In/Out: shift + spacebar ó Alt + F10 ó control + up/down arrows keyboard
+
+	view select: dot (.), numpad
+
+	view select: shift + C (mode object)
+
+	global local view: slash (/), numpad 
+
+	view all: home/inicio
+
+	perspective/orthographic views: 5, numpad
+
+	from view: 1, numpad
+
+	right view: 3,numpad
+
+	top view: 7, numpad
+
+	back view: control + 1, numpad
+
+	left view: control + 3, numpad
+
+	bottom view: control + 7
+
+	camara view: 0
+
+	hacer camara activa: control + 0
+
+
+
+Tools:
+
+	Extrude: E
+
+	Insert faces: I
+
+	Insert Loop: control + R
+
+	Bavel: control + B
+
+	Edge Crise: shift + E
+
+	Knife: K
+
+	Knife Proyect:
+
+		_seleccionamos la mesh, que proyectará su forma (esta forma debe ser un elemento bidimensional)
+
+		_luego seleccionamos con shift, la mesh, donde se proyectará la forma de la otra mesh
+
+		_ahora entramos al modo de edición edit mode, y aplicamos Knife Proyect, en el panel tools
+
+	Proportional edition: O
+
+	Proportional edition options: shift + O	
+
+
+
+	Spin: alt + R (modular en rotación sub-elementos faces, en modo edit)
+
+
+
+	
+
+
+Menus:
+
+	Sub element mode: control + tab
+
+	sub-elements: F6 (al crear geometría poligonal)
+
+	Specials: W
+	
+	Orient: alt + spacebar
+
+	Extrude: alt + E
+
+	marge: alt + M
+
+	vertex: control + V
+
+	Edges: control + E
+ 
+	Faces: control + F
+
+	Delete: X
+
+	Snap: shift + S
+
+	set origin: control + alt + shift + C
+
+	Snap element: control + shift + tab
+
+	Vertex Groups: congrol + G
+
+	UV Mapping: U
+
+	Separate Objects: P
+
+	debug menu: control + alt + D
+
+	layers: M (mode object)
+
+	select similar: shift + G	
+
+	mirrow: control + M + (cordenada: X, Y, Z)
+
+	Hooks: control + H (select vertex)
+
+	Undo history: control + alt + Z
+
+	convert to: alt + C (object mode)
+
+	clear parent: alt + P (mode object)
+
+	set parent to: control + P (mode object)
+
+	make local: L (mode object)
+
+	make singular user: U (mode object)
+
+	make links: control + L (mode object)
+
+	make proxi: control + alt + P
+
+	select linkes: shift + L (mode object)
+
+	select grupped: shift + G (mode object)
+
+	clear tracks: alt + T (mode object)
+
+	redraw timer: control + alt + T (mode object)
+
+	insert keyframes: I (mode object)
+
+	delete keyframes: alt + I
+
+	change kayframes: control + alt + shift + I
+
+	apply: control + A (mode object)
+
+	add constrain: control + shift + C (mode object)
+
+	clear object constraints: control + alt + C
+
+	transfer mesh data: control + shift + T
+
+	Preferences: control + alt + U
+
+
+
+
+Edit Mode:	
+
+	duplicate: shift + D
+
+	duplicate link: alt + D
+
+	hiden elements: H
+
+	unhiden elements: alt + H
+
+	split sub elements seleccionados: Y
+
+	convert polygon to triads: control + T
+
+	unir object (join): control + J (mode object)
+
+	separar objects: (select faces): P (separate menu)
+
+	
+
+
+Render:
+
+	_render Frame: F12
+
+	_render selection: para hacer marco de render control + B, luego Alt + Z (Cycles Render)
+
+	_quitar render selection: control + alt + B
+
+
+
+general:
+
+	save over: control + control2 + S
+
+
+
+
+//////////////////////////////////////////(Games)///////////////////////////////////////////////
+
+
+Navegación: shift + F
+
+	move: w/s/a/d
+
+	gravity: G
+	
+
+
+
+	
+preferencias: control + alt + U, y configuraciones generales
+
+
+
+	_Editing/ New F-Curve Default: (tipo de interpolación de trayectorias de animación)
+
+	_Sytem/ Compute Device: / CUDA / (escoger tarjeta disponibles)
+
+
+
+	//////////////////////////////////////////(Add-ons)///////////////////////////////////////////////
+
+	_agregar opciones de modelado extras: bridge ....
+
+		1_preferences/add on; y escribimos (loop), y activaremos las opciones de (Mesh loop Tools)
+
+	
+	_User Interface: Pie Menus Official (menús contextuales de navegación como maya)
+
+	_panel propiedades/icon scene/Units (en unidades escoger "Metrics", y en inclinación escoger "Degrees")
+
+	_Mesh Bsurfaces GPL Edition: permite hacer reropología sobre modelos esculpidos en Sculpt mode luego en Edit mode
+		

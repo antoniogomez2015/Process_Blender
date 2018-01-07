@@ -1,0 +1,150 @@
+
+
+
+3D Camara tracking en blender
+
+
+	referencia:
+
+		Camera tracking en blender [2.72] Español
+
+			https://www.youtube.com/watch?v=Kup4ppJTeSg&feature=iv&src_vid=AAiGOXHYNJE&annotation_id=annotation_2054695499
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Soncronización del video:
+_________________________
+
+
+	_lo primero es ir al explorador y ubicar el respectivo video y hacer "mouse right click", sobre éste y
+	
+	entrar a las opciones de "propiedades/detalles", para poder ver así, las características del video como
+
+	dimensiones de éste así, como su "frame rate"
+
+
+	_para que así, de ésta manera podamos indicar éstas mismas propiedades dentro de las opciones de 
+
+	"Render Render", de blender y ajustar tanto las "dimensiones", el frame rate así, como el escalado del 
+
+	video ha un 100%
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Cargar el material de archivo:
+______________________________
+
+
+	_a partir de éste punto podemos abrir una interface, diseñada para éste proceso complejo y dedicado, ésta
+
+	configuración es: en los sets, de tipos de configuración de interface, en la parte superior de blender
+
+	debemos seleccionar la configuración de "Motion Tracking", para que así, se abran los paneles de "Movie 
+
+	Clip Editor", entre otros al unísono
+
+
+	_para así, luego en el panel "Movie Clip Editor", darle al botón "Open", y navagar hasta la ubicación del
+
+	archivo de video ó secuencia de imagenes y proceder ha cargarlo dentro de éste respectivo panel
+
+
+	_para a continuación ajustar el timeline, a la duración del video cargado, para ésto vamos a las opciones
+
+	del panel timeline, y en "Start/End", podremos ajustar la duración del timeline, a la del video para que
+
+	así, también se ajuste en el panel "Movie Clip Editor", ó también, podemos colocar el cabezal en el lugar 
+
+	donde deseamos que termine el clip, y le damos al shortcut: "E" 
+
+
+	Clip Panel:
+	___________
+
+
+	_en el panel derecho shortcut: "T", del panel "Movie Clip Editor", tenemos la opción de "Prefetch", la 
+
+	cuál, hace una cache, de la carga en memoria del video para que así, podramos reproducir éste de forma
+
+	fluida
+
+
+	_
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Tracking:
+_________
+
+
+	NOTE:	_la navegación dentro del viewport, del panel "Movie Clip Editor", "Zoom", con el scroll, del 
+		mouse y "pan", se hace con "mouse midle click and drag"
+
+
+
+	_tenemos la posibilidad de hacer el trackeo de dos maneras, una automática y otra manual, en éste caso la
+
+	haremos de forma manual
+
+
+	_para ésto, sobre el viewport, del panel "Movie Clip Editor", debemos hacer "Control + Mouse left click", 
+
+	sobre un punto de alto contraste del video para que así, se cree un aspa y un área de búsqueda de trackeo
+
+	
+
+	Punto de Track:
+	_______________
+
+
+	_más tenemos la posibilidad de ajustar éste punto de track, para cambiar éste de posición sobre el video
+
+	debemos moverlo a través, del aspa, haciendo "mouse left/right click and drag", sobre ésta
+
+
+	_y para aumentar ó disminuir el área de rastreo exterior contamos con un handle a la derecha de éste
+
+
+
+	Trackear:
+	_________
+
+
+	_cuando ya hemos ubicado un punto de trackeo podremos ahora si comenzar a trackear a partir de éste punto
+
+	para ésto, vamo al panel izquierdo "Clip", del panel "Movie Clip Editor", y vamos hasta la sección de 
+
+	"Track", en la cuál, podremos hacer track, hacia adelante ó hacia atras
+
+
+	_de forma manual debemos realizar mínimo 8 tracks, para lograr la conformación de la cámara 3d
+
+
+
+	Tracker Auto:
+	_____________
+
+
+	_más tenemos la posibilidad de hacer un trackeo automático en el cuál, el sistema detectará todas los
+
+	tracks, posibles en el video
+
+
+	_para ésto debemos ir al panel izquierdo "Clip", del panel "Movie Clip Editor", y vamos hasta la sección
+
+	de "Marker/Detect Features", para que haga un reconocimiento y asignación automática de marcas de tracks,
+
+	sobre el video respectivo
+
+
+
+
+

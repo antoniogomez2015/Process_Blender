@@ -1,0 +1,141 @@
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Opciones de blender
+
+
+
+	-------------------------------------------------------------------------------------------------------------
+
+
+	Render:
+
+	_ésta es la primera sección de éste panel en la cuál, podremos tanto lanzar el render de animación e imágen
+
+	como también, la forma como mostrará la ventana de render el programa como también, las opciones de aceleración
+
+	3d, y cuda
+
+
+
+	Dimensions:
+	___________
+
+	_en éstas opciones podremos seleccionar tanto presets, de formatos de videos estándares comosd, hd, otros así, 
+
+	como también, opciones para personalizar un tamaño personalizado
+
+
+	_también, podremos ajustar la duración del timeline, para las animaciones ha ralizar pudiendo indicar así, tanto
+
+	el frame, de inicio como el frame, final de la animación
+
+
+	_así, como también, podremos ajustar el aspect ratio, ó proporcion del aspecto del pixel de salida para la animación
+
+	y render
+
+	
+	_también, tendremos opciones para ajustar el frame rate, ó intervalo de animación así, como time remapping, ó remapeo
+
+	de tiempo, especialmente útil para la pos edición de las animaciones
+
+
+	_así, como también, tendremos opciones adicionales como borde de render, crop, ó recorte
+
+
+
+	Output:
+	_______
+
+	_en éstas opciones podemos indicar la ruta de salida del render así, como el formato de archivo de salida y 
+
+	características de color como rgb, bw, otros
+
+
+	_así, como la compresión que tendrá el render y la profundidad de color, otros
+
+
+
+	Sampling:
+	_________
+
+		_ésta sección dispone de dos presets, los cuales son preview, y final
+
+		
+		_más dispone de unas opciones de "Integrator", las cuál, ofrece las siguientes opciones:
+
+
+			_Path Tracing:
+
+				_
+
+
+			_Branched Path Tracing:
+
+				_
+
+
+		_también, podemos activar las opciones de "Square Samples", para el sample de pixeles cuadráticamente
+
+
+		_así, como también, ofrece opciones de ocnfiguración como:
+
+
+			_Seed: ó envíos:
+
+				_
+
+
+			_Clamp Direct:
+
+				_
+
+
+			_Clamp Indire:
+
+				_
+
+
+		_y las opciones de samples para la calidad directa del render:
+
+			
+			_Render:
+
+				_
+
+
+			_Preview:
+
+				_
+
+
+		_también, ofrece unas opciones de muestras ó Patterns:
+
+		
+			_Sobol:
+
+				_
+
+
+			_Correlated Multi-jilter:
+
+				_
+
+
+	
+
+
+
+
+
+
+
+

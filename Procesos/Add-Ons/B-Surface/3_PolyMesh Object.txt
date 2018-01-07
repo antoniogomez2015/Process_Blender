@@ -1,0 +1,42 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	PolyMesh Object:
+	________________
+
+	_y para crear la retopología debemos crear un nuevo objeto de tipo polymesh, ya que blender no nos permite
+
+	crear geometría de la nada
+
+
+	_de ésta manera, debemos de crear un objeto de tipo polymesh, y hacer éste vacío ó eliminar todos sus
+
+	sub-elementos para lo cuál, debemos de hacer "Shift + A/Add/Mesh/Plane"
+
+
+	_para a continuación con éste nuevo elemento el cuál, podremos renombrar en el outliner, como "Retpologia",
+
+	entrar a su modo de edición, shortcut, "Tab"
+
+
+	_para a continuación seleccionar todos sus sub-elementos, shortcut, "A/A", y proceder ha borrar éstos
+
+	shortcut, "Supr"
+
+
+	_para que así, el objeto de tipo polymesh, quede vacío y listo para ser llenado por la geometría que
+
+	conformará la topología del motivo ó character, posteriormente
+
+

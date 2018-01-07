@@ -1,0 +1,102 @@
+
+
+
+
+Projectin image/Texture painting en blender
+
+
+	referencia:
+
+
+		Blender Character Texture Painting (8 videos)
+
+			https://www.youtube.com/playlist?list=PLyelx0TsmSpeQE2LpgM8Qwnco-9mrNG0O
+
+
+		Texture Painting | Quick start | Blender | 3min
+
+			https://www.youtube.com/watch?annotation_id=annotation_2819062597&feature=iv&src_vid=oueZ2j-olOE&v=LcCQKuWPhXk
+
+
+		Tutorial Blender cabeza realista [3/4] (Texturizado)
+	
+			https://www.youtube.com/watch?v=1Qw0M2K8XVo
+
+
+		Blender - "Micky" Ch.1 - Pt. 9 - Texture painting with Clone Brush
+
+			https://www.youtube.com/watch?v=DooeJwglbDU
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Painting in Cycles:
+___________________
+
+
+	Activar Cycles:
+	_______________
+
+	_primero debemos ir a la parte superior de la aplicación y selección la opción del motor de render "Cycles 
+
+	Render"
+
+
+
+	Convertir Materiales:
+	_____________________
+
+	_y luego, debemos convertir los materiales ha compatibles con cycles sistem, para ésto vamos a la sección 
+
+	de materiales "Material/Surface/", y allí, debemos darle a la opción de "Use Nodes"
+
+
+
+	Abrir Node Editor:
+	__________________
+
+	_para ésto, debemos abrir un nuevo panel en la interface, y agregar en éste el panel de "Node Editor", 
+
+	shortcut, "Shift + F3"
+
+
+	_luego, debemos seleccionar la mesh, ha cargar en el panel node editor
+
+
+	_y en el panel "node editor", debemos activar lo siguiente:
+
+
+		_Use Nodes
+
+
+		_Botón "Node Shader Nodes"
+
+
+	para que así, los nodos de materiales estén visibles y editables
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Painting in Render Blender Standar:
+___________________________________
+
+
+	_en la opción básica ó por defecto de blender de render no requiere que hagamos el proceso de los pasos 
+
+	anteriores para el render cycles, de ésta manera podremos prodecer ha aplicar materies y demás procesos 
+
+	explicados en pasos posteriores al paso "4"
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+

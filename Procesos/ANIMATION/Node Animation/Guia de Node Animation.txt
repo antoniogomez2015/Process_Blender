@@ -1,0 +1,40 @@
+
+
+
+Blender Node Animation
+
+	http://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes
+
+		Add/Ons
+
+			https://github.com/JacquesLucke/animation_nodes
+
+
+		Tutorials (30 videos)
+
+			Animation Nodes Addon
+
+
+		Animation Nodes Tutorials (8 videos)
+
+			https://www.youtube.com/playlist?list=PLFSQhJg6cGLIZwDpScK1v1m1NSZnrCTQN
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Tutorial: Introduction to the Animation Nodes Addon in Blender
+
+		https://www.youtube.com/watch?v=2uTqd5XEoso
+
+
+	Using The Molecular Addon In Blender
+
+		https://www.youtube.com/watch?v=Rd4gsO2U6No
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+
+
+
+	Grease Pencil en Blender 2.73
+
+		https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_a través, de la herramienta de Grease pencil, podremos crear tanto ilustraciones como incluso animaciones por
+
+	medio de diferentes métodos y creterios los cuáles, veremos ha continuación
+
+
+
+	Interface:
+	__________
+
+	_lo más recomendable es crear un nuevo preset, de interface, en el cuál, podamos configurar las ventanas de la
+
+	interface, para que trabajemos mejor con la herramientas, funciones y alternativas de grease pencil
+
+
+	_así, el viewport 3d, lo convertiremos en el canvas de trabajo sobre el cuál, pintaremos
+
+
+	_y en la parte de bajo del panel "Timeline", debemos de cambiar éste por el panel "Dope Sheet", shortcut, 
+
+	"Shift + F12"
+
+
+	_para posteriormente en la parte inferior del panel "Dope Sheet", cambiar la opción de "Dope Shhet", por la
+
+	opción de "Grease Pencil"
+
+
+	_así, como también, debemos ir ha "Properties/Render Render/", allí, configurar las opciones de animación como
+
+	"Frame Range", como las de "Frame Rate", lo cuál, determinará el tipo de animación ha realizar
+
+
+	_para posteriormente abrir las preferencias del programa shortcut, "Control + Alt + U", y allí, vamos a la
+
+	sección de "Edit/", y allí, activamos las opciones de "Smooth Stroke", y "Simplify Stroke", NOTA: éstas opciones
+
+	pueden variar en relación a la versión de blender
+
+
+
+	
+	Camara:
+	_______
+
+	_así, podremos en el viewport 3d, la vista oxonométrica "Top", shortcut, "7", para posteriormente colocar la 
+
+	cámara en esa posición shortcut, "Control + Alt + 0", 
+
+
+	_para luego, seleccionar la cámara e ir ha "Properties/Data Objet Data/Lens/", y allí, elegir la opción 
+
+	"Orthographic"
+
+
+	_para posteriormente en esa misma sección en "Orthographic Scale", colocar un valor de "16", para que así, la
+
+	cámara ocupe toda el área del canvas
+
+
+	_y para que se ajuste el zoom, de la cámara sobre todo el área de visualización disponible shortcut, "Inicio/Home"
+
+
+
+	World Background:
+	_________________
+
+	_para posteriormente ir ha "Properties/World World/Horizon Color", y allí, podremos indicar por lo general un 
+
+	color gris muy claro ó blanco para así, posteriormente tener éte color de fondo para el proceso de pintura
+
+
+	_para luego, volver al viewport 3d, y allí abrir el panel de opciones shortcut, "N", y bajar en éste hasta las
+
+	opciones de "Display", y allí, seleccionar la opción de "World Background", para que así, el color que hemos
+
+	indicado en las opcione de "World", se aplique como fondo en el viewport 3d
+
+
+	
+	Paint:
+	______
+
+	_ahora podemos comenzar con el proceso de pintura el cuál, puede consistir en puntura sobre el fondo totalmente
+
+	plano y 2d, ó a través, de la incorporación de planos de geometría  con deformaciones ó volúmenes como también,
+
+	de elementos con total volumetría 3d, otros
+
+
+
+
+
+	
+
+
+
+
+
+	
+	

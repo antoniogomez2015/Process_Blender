@@ -1,0 +1,254 @@
+
+
+
+
+	Gestión de proyectos con Pack Blender libraries
+
+		https://www.youtube.com/watch?v=mXlc2soCR8Y
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Gestión de Proyectos:
+	_____________________
+
+	_la gestión de proyectos es especialmente útil en proyectos grandes los cuáles, se conforman de varios archivo
+
+	de blender, como librerías y demás elementos como shader, texturas, caches, otros
+
+
+
+	Librería:
+	_________
+
+	_una librería es un documento de blender, cuyo contenido está categorizado, es decir, documentos de tipo blender,
+
+	conformado por ejemplo, automóviles, ó character bases con rigs, platas, árboles, props, otros
+
+
+	_la cuál, podremos posteriormente utilizar ó llamar en otros proyectos más grandes los cuáles, requieran esos 
+
+	tipos de elemento que ya están preconstruidos previamente
+
+
+	_de ésta manera los elementos que formarán parte de una librería dentro de un documento de blender, es altamente
+
+	recomendable irganizar éstos dentro de elementos de tipo "Empty", dentro del outliner, y a su vez, convertir éstos
+
+	elementos de tipo "Empty", en "Groups", los cuáles, a su vez, serán muy fácilmente importables dentro de otros
+
+	documentos de tipo blender, más grandes
+
+
+	_más también, es recomendable renombrar éstos con un nombre característico al tipo de elementos que éstos contienen
+
+
+
+	Append:
+	_______
+
+	_la opción de incorporalación de elementos de blender dentro de otros nos permitirá incorporar elementos de librerías
+
+	ha; objetos libres, grupos, secciones de escenas, punceles, materiales, texturas, otros, parte del documento tomado 
+
+	como librería ó archivo de tipo blender, embebido
+
+
+	_y los elementos relacionados en el modo "Append", serán tomados como una rèplica del original y no como una 
+
+	instancia, lo cuál, los hará un objeto único a partir de ese instante
+
+
+	_de ésta manera, debemos de interpretar que la opción de "Append", lo que hace es importar un elemento de otro 
+
+	documento ó librería y crear un copia independiente de la original la cuál, podrá ser modificada de forma libre
+
+	en relación a si el objeto original es modificado posteriormente
+
+
+
+
+	Link:
+	_____
+
+	_más la opción de link, se comportará exactamente igual que la opción de append, más con la diferencia de que los
+
+	objetos importados con la opción de link, éstos no se podrán transformar en el proyecto importado de ninguna forma,
+
+	ni siquiera espacialmente
+
+
+	_lo cuál, nos indica que deseamos que el objeto importado tenga alguna apariencia ó posición específica, debemos
+
+	aplicar éstos cambios en el documento ó librería original
+
+
+	_más si agrupamos los objetos dentro de "Groups", en el documento original, al importar éstos posteriormente por
+
+	medio del "Link", en éste caso no importaremos el objeto, si no que importaremos ahora el grupo, para uqe así, 
+
+	podremos modificar espacialmente ha los respectivos "Groups", para que así, en éste caso se muevan también, los 
+
+	elementos que éste tiene dentro aunque sea de forma limitada
+
+
+	_más cuando agregamos elementos de tipo characters, con sistema de huesos ó armatures a través, del método link,
+
+	el sistema si nos proporcionará más opciones de edición como el modo "Pose Mode", para poder así, animar el 
+
+	character, y demás
+
+
+	_de ésta manera, podremos endender que la modalidad de importar archivos ó librerías de "Link", nos permitirá crear
+
+	copias dependientes, mientras que la opción de "Append", nos permite hacer copias independientes
+
+
+	_así, si posteriormente hacemos modificaciones sobre los objetos originales en sus respectivos documentos éstos
+
+	cambios se verían reflejados de forma automática en los proyectos en los cuáles, éstas librerías ó archivos blender,
+
+	hayan sido importados con la opción de "Link"
+
+
+	_lo cuál, es especialmente útil, para la construcción y composición de escenas grandes las cuáles, estarán sujetas
+
+	ha cambios posteriormente y como también, en el desarrollo de characters, lo cuáles, podrán estar aún en desarrollo
+
+	mientras que a su vez, éstos se están animado, otros
+
+
+	
+	Consideraciones:
+
+	_el método de importaciones ó relacionamiento "Link", es similar ha un proyecto after effects, de cara a los 
+
+	archivos importados como librerías dinámicas
+
+
+	_lo que quiere decir que si cambiamos la ubicación sea de los archivos importados como la del propio archivo de
+
+	proyecto de estino, el relacionamiento se romperá, indicándonos un error blender, al momento de volver ha abrir éste
+
+	proyecto principal ó de destino
+
+
+	_y en dado caso de que ésto haya sucedido, podremos en el documento ó proyecto que nos esté indicando el error ir
+
+	ha "File/External Data/Find Missing Files", para que así, nos aparesca el explorador de blender en el cuál, podremos
+
+	ubicar las dependencias no encontradas y restablecer el proyecto pudiendo guardar éste con nueva ruta para las
+
+	dependencias con problemas
+
+
+	_para lo cuál, requeriremos cerrar y volver a abrir el dicumento del proyecto para que éste recargue todas las
+
+	dependencias y rutas respectivas
+
+
+
+
+	
+	NOTA: también, disponibles las opciones del menú "File/External Data", a través, de la cuál, también, podremos gestionar
+
+	la data de los documentos y archivos de blender
+
+
+
+
+
+	Package Libreries:
+	__________________
+
+	_más de forma más avanzada tendremos la posibilidad de no sólo importar documento de tipo blender, ó librerías 
+
+	dentro de otro proyecto de blender, si no que también, ahora podremos incritar éstos archivos dentro de un proyecto
+
+	para que así, éstos pertenescan en el proyecto
+
+
+	_de ésta manera, para empaquetar las librerías ó documentos de tipo blender, importados dentro de un proyecto más
+
+	grande, podremos incorporar éstos dentro del proyecto que los contiene para que así, hagamos éste proyecto ahora
+
+	más portable y controlable para flujo y proceso de produccion
+
+
+	_para lo cuál, debemos debemos de abrir el menú de búsqueda contextual, shortcut, 
+
+
+		_"Spacebar", 
+
+	
+	_y allí, en el buscador tipeamos 
+
+
+
+		_"Pack Blender Libreries" 
+
+
+
+	_y seleccionamos ésta opción para posteriormente guardar el documento del proyecto de blender
+
+
+	_y posteriormente ahora si podríamos llevarnos éste documento del proyecto principal del blender, sin tomar en cuenta
+
+	las librerías importadas dentro de éste por que ahora ésta han sido empequetadas dentro del proyecto principal
+
+
+
+	UnPackage Libreries:
+	____________________
+
+	_más posteriormente el sitio de destino podríamos extrar las librerías ó documentos de blender empaquetados dentro
+
+	del proyecto principal para que así, podamos editar éstar de forma independiente por más partes del equipo y trbajar
+
+	al unísono en el mismo proyecto pero ahora por partes
+
+
+	_para lo cuál, debemos de abrir el menú de búsqueda contextual, shortcut, "Spacebar", y allí, en el buscador
+
+	tipeamos 
+
+
+
+		_"UnPack Blender Libreries" 
+
+
+
+	_y seleccionamos ésta opción para posteriormente guardar el documento del proyecto de blender
+
+
+	_de ésta manera, podremos que ahora se han creado las nuevas dependencias ó archivos tipo blender, correspondientes
+
+	a las respectivas librerías los cuáles, podremos editar y seguir trabajando en ellos sin problemas
+
+
+
+
+
+	Pack All Into To Blend:
+	_______________________
+
+	_ésta opción permite empaquetar archivos dentro de blender, como shaders, texturas, imágenes, dinámicos, otros
+
+
+	NOTA: ésta opcion no empequeta documentos de blender importados sea a través, de la opción de "Append", ó "Link"
+
+
+
+
+	
+
+	
+
+
+
+
+

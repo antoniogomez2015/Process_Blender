@@ -1,0 +1,94 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Error Calcule:
+	______________
+
+	_luego de haber terminado el proceso de tracking, automático a través, de todos los tracks points, que ha agregado el sistema
+
+	de forma automática
+
+
+	_y a su vez, de haber editado y eliminado los tracks points, desde el panel "Movie Clip Editor/Graph Mode"
+
+
+	_también podremos graduar ó limitar el umbral de error aceptado para que así, a través, de un rango mínimo de precisión indicado
+
+	de forma personalizado por nosotros podamos eliminar ó descartar los tracks points, que cumplan con ese rango mínimo indicado
+
+	por nosotros de forma más práctiva que las opciones que nos ofrece el panel "Movie Clip Editor/Graph Mode"
+
+
+	_para lo cuál, podremos editar éste rango ó umbral yendo ha
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Solve"
+
+
+	_y allí, ubicar las opciones de
+
+
+
+		_Keyframe A:
+
+			_ésta opción nos permitirá seleccionar un rango inicial de los keyframes, creado por el sistema para el análisis
+
+
+		_Keyframe B:
+
+			_ésta opción nos permitirá seleccionar un rango final de los keyframes, creado por el sistema para el análisis
+
+
+
+	_por dfecto el rango indicado es de entre "0-30", más lo más indicado para aumentar la fiabilidad es indicar un rango de entre
+
+
+		_"0-100"
+
+
+			NOTA: si da problemas volver ha colocar un rango de "0-30"
+
+
+	_para que así, una vez hayamos indicado el rango deseado en el paso anterior podamos darle en la misma ubicación al botón de
+
+
+		_"Solve Camara Motion"
+
+
+	_para que así, una vez haya terminado el proceso el panel "Movie Clip Editor", nos muestre en la parte inferior de éste el rango
+
+	de error generado por el sistema y la ponderación de todos los tracks points, en éste ejemplo; no indico in valor ó rango de
+
+
+		_Solve error: 4.9223
+
+
+	_de ésta manera, ahora debemos proceder ha tratar de bajar éste error a la mínima expresión posible para que así, el resultado
+
+	ha generar sea lo más exacto posible
+
+
+
+
+
+

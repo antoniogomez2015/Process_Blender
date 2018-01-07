@@ -1,0 +1,215 @@
+
+
+
+
+	Z-Pass/Depth
+
+
+
+		P2DESIGN tutorial Z pass
+
+			https://www.youtube.com/watch?v=nJkTlaY1nl4
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Escena:
+	_______
+
+
+	_primeramente debemos de tener nuesta escena creadas con los elementos ha renderizar en pases totalmente creados
+
+	y mapeados y animados correctamente respectivamente
+
+
+	_así, como también, es recomendable que cada elemento ha hacer isolate tenda aplicado un material único ó propio
+
+	para que así, se pueda hacer la distinción en el proceso de ID Material, correctamente
+
+
+	_más para el proceso de Z-Pass, ó DOF, (Dept Of Field), debemos de tener una cámara creada y configurada en la
+
+	escena
+
+
+	_de ésta manera, debemos de seleccionar la respectiva cámara en el viewport, u outliner, e ir al panel 
+
+	"Data Object data", para que allí, podamos activar la opción de "Limits", y poder visualizar así, directamente
+
+	en el viewport 3d, el alcance que tendrá la cámara en relación a la escena por medio de una línea de color blanca
+
+
+	_más para éste proceso lo más recomendable es colocar la cámara general en una vista axonométrica lateral a la línea
+
+	guía del alcance de la cámara para que así, podamos hacer los ajustes de forma visual y comporativa en relación a la
+
+	cantidad de elementos en la escena y su disposición en ésta
+
+
+	_para que así, podamos ajustar éste alcance que tendrá la cámara en relación a los elementos existentes en la escena
+
+	de ésta manera en el panel "Data Object data", dispondremos de la sección "Clipping", en la cuál, podremos ajustar
+
+	el alcance que tendrá la cámara ajustando el punto de entrada "Start", y el punto final "End", los cuáles, a su vez,
+
+	debemos de anotar por éstos los requeriremos en el proceso de composición posterior	
+
+
+
+	Configuración de Pases:
+	_______________________
+
+
+	_para luego ir al panel "Render Layers/Passes", y allí, seleccionar los pases deseamos en relación el proceso ha
+
+	realizar ó nuestras necesidades en éste caso los pases:
+
+
+
+		_Z
+
+
+	_para que así, éste sea contemplado por el sistema a la hora del render
+
+
+
+
+	Configuración de Render:
+	________________________
+
+
+	_para posteriormente ir a el panel "Render Render/Output/", y allí, en las opciones de archivo de salida seleccionar
+
+	la opción de "OpenEXR Multilayer", para que así, podamos integrar todos los pases en éste tipo de archivo único
+
+
+			
+
+	Renderizado de Pases:
+	_____________________
+
+
+	_para luego hacer el render, donde previamente hemos escogido el tamaño de salida y la ruta de salida para los 
+
+	archivos en caso de que estemos renderizando una secuencia de imágenes ó video, más en los casos de que estemos
+
+	renderizando un frame, único debemos entonces lanzar el render y guardar el renrizado el cuál, es mostrado en el 
+
+	viewport del panel UVMap Editor, shortcut, "F3"
+
+
+
+	Compositing:
+	____________
+
+
+	_de ésta manera, podremos componer los pases que hemos renderizado directamente en blender para lo cuál, podremos
+
+	posarnos sobre el panel viewer 3d, y cargar en éste panel el panel "Node Editor", shortcut, "Shift F3"
+
+
+	_para a continuación ir a las opciones del panel node editor, en la parte inferior de éste, y cambiar a las opciones 
+
+	de tipo de nodos a trabajar por "Compositing", para que así, estén disponibles los nodos de tipo composición
+
+
+	_de ésta manera, en el panel node editor, debemos de cargar el archivo multi-pass, que hemos renderizado previamente
+
+	para lo cuál, debemos de agregar los siguientes nodos:
+
+
+		_Shift + a/Add/Input/Multiple Images/
+
+			_para que así, el sistema agrege un nodo con rende multipass, que hemos creado previamente
+
+
+		_Shift + a/Add/Output/Viewer
+
+			_podamos ver éste pase de forma independiente directamente ó la composición generada en fondo y 
+
+			a tamaño completo del panel node editor, para lo cuál, debemos ir a la parte inferior de éste panel 
+
+			y activar la opción de 	"Backdrop"
+
+
+			_en ocaciones será necesario hacer doble click, sobre el nodo de viewer, para que así, éste muestre
+
+			el pase que tiene relacionada en el fondo del panel node editor
+
+
+		_Shift + a/Add/Vector/Map Range/
+
+			_de ésta manera, debemos de conectar el render del canal ó mapa "Z", ó depth of field, el cuál, por
+
+			lo general será llamado como "Depth", en el render pass "OpenEXR Multilayer", con el node 
+
+			"Map Range/Value"
+
+
+			_para que así, podamos mover el rando de alcance exacto de la cámara real en mapa "Z", para que así,
+
+			haya correspondencia y éste sea visible
+
+
+		_Shift + a/Add/Vector/Normalize
+
+			_más también, podríamos sustituir el nodo "Map Range", por un nodo "Normalize", para que éste nodo
+
+			haya los cálculos automáticamente por nosostros y nos tengamos que indicarle los datos del alcance
+
+			de la cámara como en el caso del nodo Map Range, más en el nodo Map Range, como podremos ver tendremos
+
+			más posibilidades de edición y control
+
+
+		_Shift + a/Add/Color/Mix
+
+
+			_para a continuación conectar el nodo "Map Range/Output Value", en el nodo "Mix/Fac", para que así,
+
+			podamos cambiar los colores de los inputs, 1 y 2, respectivamente así, debemos colocar el primer 
+
+			input, en un color "blanco", y el segundo input, en un color negro
+
+
+			_para a continuación ir a las opciones del nodo "Map Range/From Min and From Max", y allí, colocar
+
+			los calores de alcance de DOF, de la cámara las cuáles, debimos anotar previamente ó podríamos
+
+			seleccionar la respectiva cámara e ir a las opciones "Data object Data/Lens/Clipping", en la cuál,
+
+			podremos tomar los valores de "Start/End", y colocarlos en los valores de "From Min and From Max"
+
+
+			_para que podamos ver reflejado en mapa "Z-Map", correctamente formado en el viewport, a través, 
+
+			de viewer
+
+
+		_Shift + a/Add/Converter/ColorRamp
+
+
+			_más adicionalmente podríamos conectar el nodo "Map Range", a un nodo ColorRamp, para que así, 
+
+			podamos ajustar ó graduar el efecto del mapa depth, generado para así, podamos viariar el rango
+
+			dinámico de todos representado por éste en relación a nuestras necesidades
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+
+
+
+	Tutorial Editar videos con Blender - Parte 4 - Uso de Proxy para vista previa
+
+		https://www.youtube.com/watch?v=pSuA2kFlnzE
+
+
+
+	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Proxys:
+	_______
+
+	_en el video secuence editor nos permite la creación de proxis, a través, de los cuáles, podremos crear instancias de
+
+	material de archivo de resolución más baja para que así, el sistema pueda editar y administrar de forma más rápida éstos
+
+	clips, ó strps, pesados con monos recursos del sistema
+
+
+
+	Crear Proxy:
+	____________
+
+	1_para lo cuál, debemos de seleccionar un clip, en el panel "video secuence editor", e ir al panel herramientas shortcut, "N",
+
+	y en el cuál, debemos ubicar la opción de "Proxy/Timecode"
+
+
+	2_en la cuál, debemos darle al botón 
+
+
+		_"Set Selected Strip Proxies"
+
+
+	_para que así, nos aparezca una ventana contextual la cuál, nos mostrará diferentes escalas de conversión en porcentajes, en
+
+	éste caso escogeremos la opción de "25%", la más baja y a continuación le daremos al botón "OK"
+
+
+	3_para a continuación darle al botón justo debajo de
+
+
+		_"Rebuild Proxy and Timecode Indices"
+
+
+	_para que así, el sistema comience el proceso de conversión de una instancia a la resolución escogida previamente en el paso
+
+	anterior
+
+
+	_para que así, una vez, termiando el proceso de la creación del proxy, éste nuevo proxy, sustituya al clip, original cargado
+
+	en el panel "video secuence editor", para el proceso de edición y visualización
+
+
+	_de ésta manera, el clip, original de resolución complerá ahora sólo aplicará en el proceso del render final no para los modos
+
+	de visualización y edición
+
+
+
+	Image Preview:
+	______________
+
+	_más cuando más de un panel "video secuence editor", donde uno de éstos lo tenemos configurado en modo "Image Preview",
+
+	tendremos la posibilidad de colocar éste también, ha una resolución reducida
+
+
+	_para lo cuál, debemos de ir ha éste panel y en sus propiedades shortcut, "N", ir hasta la sección de "
+
+
+		_"View Settings/Proxy Render"
+
+
+	_y allí, desplegar el panel de opciones y seleccionar la misma resolución que configuramos el proxy, en éste caso "25%",
+
+	para que así, haya correlación entre el proxy, realizado y el panel de visualización
+
+
+	_lo que nos permitirá poder trabajar mucho mejor con material de archivo y producción más pesados y con menos recursos 
+
+	del sistema de nuestro equipo
+
+
+	_ésta opción es especialmente útil para cuando importamos la salida del panel "Node Editor", dentro del panel
+
+	"video secuence editor"
+
+
+
+
+	

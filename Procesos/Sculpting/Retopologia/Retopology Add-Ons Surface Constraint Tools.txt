@@ -1,0 +1,46 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Retopology:
+___________
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Workflow: Surface Constraint Tool:
+__________________________________
+
+
+
+	Basico:
+	_______
+
+
+	_primero debemos estar en el modo "Object Mode"
+
+
+	_luego debemos ir ha "Menú Left/Toolbar/Surface Constraint Tools", shortcut: "T"
+
+
+
+	Surface Proxi:
+	______________
+
+
+	_ahora debemos desplegar la sección "Surface Constraint", y allí, seleccionar la mesh, que hemos
+
+	modelado por lo general en nodo sculpting
+
+
+	
+	
+
+
+
+
+
+

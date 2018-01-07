@@ -1,0 +1,151 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Eyeslashes Render:
+	__________________
+
+	_para posteriormente de haber creado y asignado el material para las pestañas es hora de configurar las opciones
+
+	de render
+
+
+	_para lo cuál, debemos de ir a las opciones del material respectivo yendo ha "Properties/Material Material/", y
+
+	allí, bajar hasta las opciones de "Shadows/", y activar la opción de "Receive Transparent"
+
+
+	_y así, como también, en la misma zona un poco más arriba que en el paso anterior debemos de subir hasta las 
+
+	opciones en "Strands/", y allí, activar la opción de "Blender Units", lo cuál, nos permitirá ajustar ahora 
+
+	opciones para el "Root", ó raiz y "Top", ó punta de la hebras ó cabellos; activándonos así, las opciones de:
+
+	"Properties/Material Material/Strands/Size/", "Root/Top"
+
+
+		_para que así, por ejemplo en "Root", coloquemos un valor muy bajo ej: "0.00100", y en "Top", indicar un 
+
+		valor de "0.00050"
+
+
+
+	Eyelashes Texture:
+	__________________
+
+	_y para aumentar el realismo y que las pestañas no se vena planas podremos hacer uso de exturas las cuáles, 
+
+	funcionenal unísono con las hebras de partículas
+
+
+	_para lo cuál, debemos de ir a "Properties/Material Material/Transparency/", y allí, activar ésta opción y 
+
+	escoger el modo "Z Transparency", así, como también, el valor de "Alpha", debemos de colocarlo en un valor de
+
+	"0", para que así, la opacidad del shader, ahora lo controle la textura que asignaremos posteriormente
+
+
+	_para a continuación ir a las opciones de "Properties/Texture Texture", y en la sección de "Material", 
+
+	seleccionar un nuevo slot, para luego darle a la opción de "+ New", para que así, creemos una nueva textura vacía
+
+	para el material de las eyelashes
+
+
+	_y justo a continuación en la misma sección de "Properties/Texture Texture", debemos de seleccionar en las 
+
+	opciones de "Type", la opción de "Blend"
+
+
+	_y leugo justo a continuación en la misma sección de "Properties/Texture Texture", bajar hasta la opción de 
+
+	"Influence/Diffuse", y allí, desactivar la opción de "Col",  activar la opción de "Alpha", la cuál, dejaremos
+
+	con el valor de "1", por defecto para que así, el valor de opacidad del material y shader, se controle ahora
+
+	por éste degradado de blanco ha negro
+
+
+		_para luego invertir éste mapa para lo cuál, debemos de ir a las opciones de "Properties/Texture Texture",
+
+		y allí, bajamos hasta las opciones de "Colors/", y allí, activamos la opción de "Bump", y a su vez, le
+
+		damos al ícono de de "<->", para invertir el sentido de acción del mapa para que así, la raiz, de las
+
+		pestañas sea visible y las puntas de las hebras sean poco visibles
+
+
+
+	Texture Mapping:
+
+	_para posteriormente ir ha "Properties/Texture Texture", y bajar hasta las opciones de "Mapping", y en la opción
+
+	de "Coordinates", seleccionar la opción de "Strand/Paticle", para que así, el mapa de textura se alinie en 
+
+	relación a la longitud de la hebra ó partícula
+ 
+
+		NOTA: "la opción de Projection, la dejamos en Flat, como está por defecto"
+
+
+
+	Opcional:
+	_________
+
+	_y en las opciones de "Properties/Particles Particle/Children/Sample", dispondremos de diferentes opciones a 
+
+	través, de las cuáles, podremos configurar aleatoriedad, tamaño, ruido, forma, umbral, otros, como elementos que
+
+	nos podrán ayudar ha lograr un aspecto más realista de las pestañas
+	
+
+
+
+	Mirrow Eyelashes:
+	_________________
+
+	_y por último, al haber creado las pestañas y configurado éstas podremos también, duplicar éstas de un lado ha 
+
+	otro para que así, ahorremos trabajo en motivo ó characters, simétricos
+
+	
+	_para lo cuál, debemos de estar en el "Particle Edit", en el cuál, podremos seleccionar todos los elementos ó
+
+	hebras, shorctut, "B/C", para hacer una selección ó por rectángulo ó por lazo "en el modo de partículas 
+
+	(Tip Select Mode)", el cuál, lo podemos seleccioanr en la parte inferior del panel viewport 3d, "Particle Edit" 
+
+
+	_para luego ir al menú inferior y hacer "Particle/Mirrow", para que así, las partículas aplicadas en un lado se
+
+	proyecten hacia el otro lado automáticamente
+
+
+	NOTA: ésta función funcionará si el centro de las partículas se encuentras en el centro del viewport 3d, lo cuál,
+
+	debemos de cerciorarnos al momento de comenzar ha aplicar las partículas sobre el motivo de lo contrario no hará
+
+	el efecto de espejo con lsa partículas respectivas
+
+
+
+	
+
+	
+
+
+
+	
+
+
+
+
+

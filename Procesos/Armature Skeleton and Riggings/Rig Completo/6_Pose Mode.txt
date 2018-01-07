@@ -1,0 +1,56 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Pose Mode:
+_________
+
+
+
+	_más al crear un elemento u objeto de tipo "armature/bone", y con este seleccionado tendremos
+
+	el siguiente modo diponible "Pose Mode"
+
+
+	---------------------------------------------------------------------------------------------
+
+
+
+	Kinemática:
+	___________
+
+
+	_ahora para que el armature ó skeleton, tenga un comportamiento de kinemática en cadena/chain,
+
+	disponemos de modo de acción, este es "Pose Mode", para activar éste, debemos selecciona un
+
+	armature, ó cadena bone, ó huesos, luego ir a la sección de modos y seleccionar el modo 
+
+	"Pose Mode"
+
+
+	Pose Mode:
+	__________
+
+
+	_ya en el modo "Pose Mode", podremos seleccionar cualquier bone, y articularlo con el comportamiento
+
+	característico de la kinemática "iK", en forma de cadena ó chain, con todos sus elementos hijo, para 
+
+	esto disponemos de las herramientas de translation "G", ó de rotate "R", ambas opciones activarán el
+
+	movimiento kinemático del sistema
+	
+
+	

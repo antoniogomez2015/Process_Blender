@@ -1,0 +1,141 @@
+
+
+
+Tutorial:
+
+	tutorial blender crear normal map a partir de modelo high poly
+		https://www.youtube.com/watch?v=cUrRYb6fjOQ
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+generales:
+__________
+
+	_primero debemos estar en el modo de render "Blender Render"
+
+
+	--------------------------------------------------------------------------------------------------------------------
+
+
+
+	1_tenemos el motive/mesh, low poly esculpido base con UVs creados
+
+	
+
+	2_luego ha éste le aplicamos un modificador multiresolution, para proceder con el proceso de escultipo de alto nivel
+
+
+
+	3_para luego, terminar con el proceso de alto detalle para crear los relieves para piel, arrugas, otros en la máxima
+
+	resolución posible del modificador multiresolution (de 4 a 7, niveles)
+
+	
+
+	4_para leugo de haber terminado con el proceso de esculpido, proceder ha diplicar éste motivo, shortcut; "Shift + D",
+
+	sin que éste se mueva de su posición original para que así, éste mantenga una correlación con el motivo original de 
+
+	cordenadas y, ha dicho motivo duplicado le aplicaremos el modificador multiresolution, para que así, el character, 
+
+	ó motive tome toda resolución del proceso de esculpido a través, del motidicador multiresolution
+
+
+
+	5_así, como también, haremos otro duplicado del motivo ó character, original al cuál, le eliminaremos el modificador
+
+	multiresolution, para así, obtener un mesh, low poly, procurando que cuando hagamos éste nuevo duplicado del motivo 
+
+	original éste mantenga la misma posición que el original para que así, mantenga una correlación de cordenadas
+
+
+	
+	6_para luego, crear la nueva textura sobre la cuál, se volcarán los datos de las normales entre ambas meshes, para lo
+
+	cuál, tendremos que abrir un nuevo panel en la interface en el cuál, abriremos el módulo de "UVImage Editor", shortcut;
+
+	"Shift + F10", 
+
+
+	y ya en el panel IV image Editor, debemos de crear una textura en éste, para ésto, debemos darle al "+", plus, para 
+
+	que nos abra una ventana contextual en la cuál, podremos indicar un nombre para ésta textura ejejmplo; "Normal Map",
+
+	así, como también, indicar unas dimensiones an ancho y alto, es recomendable crear texturas con un tamaño mínimo de 2k.
+
+	ó 2048 x 2048px
+
+
+	para posteriormente asignar esa nueva textura al mesh, low poly, ó de baja resolución para cuál, debemos seleccionar 
+
+	éste mesh, en baja resolución y entrar en su modo de edición ó "edit mode", shortcut; "Tabulador", para que así, sean 
+
+	visibles los UVs, en el panel UVImage Editor, y es en ese punto en que debemos de seleccioanr en el ícono de "images",
+
+	en la parte inferior del panel UVImage Editor, la imagen que hemos creado para volcar los normales, en éste caso es la
+
+	textura "Normal Map", de ésta manera, la textura quedará asignada para su uso en el mesh, de baja resolución
+
+
+	
+	7_posteriormente podremos ocualtar el mesh, del motivo ó character, original temporalmente para que así, éste no nos
+
+	moleste en la visualización para el proceso de volcado de la textura normal map
+
+
+	
+	8_ahora debemos seleccionar ambos motivos tanto el de alta resolución como el de baja resolución, seleccionando primero
+
+	el mesh, de alta resolución, para  luego conjuntamente con "Shift", seleccionar el mesh, con baja resolución
+
+
+
+	9_luego con ambos meshes, seleccionados vamos ha Properties/render/Bake/Bake Mode/Normals
+
+
+		9.1_Bake from Multires: esta opción es por si hemos hecho el proceso de esculpido con el modificador 
+		
+		multiresolution
+
+
+		9.2_Normal Space: Tanget
+
+
+		9.3_Selected to Active: checamos esta opción
+
+
+
+	10_por último hacemos "Bake", así, se transferirá la información del mapa bump, entre la diferencia de un modelo high 
+
+	y el modelo low,
+
+	esto lo convertira en una textura la cuál volcará los UVs, que realizamos sobre el modelo en el UV/image editor
+
+
+
+	11_ahora vamos al panel UV/image editor/image/Save As Image "F3", para así, guardar el mapa generado normal map
+
+
+
+	12_ahora podriamos seleccionar el modelo low poly y crearle un nuevo material y textura
+
+		_tipo de textura elegir "image or movie"
+
+		_image/open (abrimos la imagen normal map generada) 
+
+		_dordenadas elegimos "UV"
+
+		_image sampling: checamos "Normal Map"
+
+		_influentece: desactivamos "Difuse", y activamos la "Geometry"
+
+
+
+	13_si deseamos ver la acción del normal map, en tiempo real en el viewport, vamos al menu "N"/Display/Shading/GLSL, 
+
+	luego pasamos el modo de visualización ha texture mode "alt + Z"
+
+
+
+

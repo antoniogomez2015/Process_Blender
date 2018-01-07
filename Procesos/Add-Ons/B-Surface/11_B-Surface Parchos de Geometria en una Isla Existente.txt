@@ -1,0 +1,65 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	B-Surface Parchos de Geometría en una Isla Existente:
+	_____________________________________________________
+
+
+
+	_tenemos la posibilidad de crear ó completar la geometría en una isla existente ó también, podríamos decir,
+
+	que podemos  completar áreas restantes de extrusión de una isla
+
+
+	
+	Seleción:
+
+	_para lo cuál, primeramente debemos de hacer una selección de líneas de vertex, en forma de "L", partiendo 
+
+	del área más larga y con más polígonos hasta el área con menos polígonos
+
+
+	_más el "vertex", en el cuál, convergen ambas líneas de tertex, tanto la horizontal como la vertical; éste
+
+	vertex, no debemos de seleccionarlo para que así, el sistema no se confunda y no nos de problemas
+
+
+	
+	Trazados:
+
+	_para a continuación crear al menos dos trazados, con el brush, de la herramienta grease pencil, shortcut,
+
+	"D", sostenido, creando así, un trazado en el área cercana al vertex, donde convergen ambas líneas de 
+
+	selecciones de vertex, y el otro trazado en vertex, final de la línea de selección de vertex, opuesta
+
+
+	_y éstos trazados siempre deben de ser creados de adentro hacia afuera en relación a las líneas de vertex,
+
+	seleccionadas previamente
+
+
+	
+	Add Surface:
+
+	_para a continuación ir a las opciones de b-surface, y aplicar "Add Surface", para que así, la geometría
+
+	resultante entre las dos líneas de vertex, sea agregada de forma ordena y también, en relación a los
+
+	trazados generados por el brush, de la herramienta grease pencil
+
+
+
+
+

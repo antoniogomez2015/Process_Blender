@@ -1,0 +1,228 @@
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Camara de Blender
+
+
+
+	_la camara dispone de parámetros los cuales nos permitirán configurar sus caracteríscas como dimensiones, 
+
+	resolución, otros
+
+
+	_para lo cuál, debemos de ir a las opciones de "properties/render render"
+
+
+	-------------------------------------------------------------------------------------------------------------
+
+
+
+	Camara Control:
+	_______________
+
+		_para manejar la cámara y ubicarla en el luegar deseado dentro del viewport, tenemos varias opciones
+
+		y alternativas para hacerlo
+
+
+		_primero, de forma externa a través, de los viewports, y las vistas axonométricas guiándonos a través,
+
+		de éstas
+
+
+		_otra opciones es posicionarnos en la vista de la cámara, shortcut; "0", (cero en el keyboar path), para
+
+		leugo seleccionar el marca de la cámara ó la cámara misma en el viewport, ó outliner, para luego proceder
+
+		a través, de las herramientas de edición de translation, rotacion, mover la cámara, shortcuts, "G/R", and
+
+		drag
+
+
+		_y la mejor opción es a través, del viewport 3d, y nos ponemos en la vista a través, de la cámara, shortcut,
+
+		"0", en el keyborar path, del teclado y luego vamos al menu lateral derecho, shortcut, "N", y yendo hasta
+
+		las opciones de "View", para activar allí, la opción de "Lock Camara to view"
+
+		para que así, podamos orbitar con la cámara como si fuera la viewta de objeto, así, podremos hacer
+
+		"mouse midle click and drag", sobre cualquier parte del viewport, para que así, veamos que la cámara orbia
+
+		al rededor del eje del centro del viewport
+
+
+		y aunado ha eso podemos tambien hacer translation y rotation "g/r"
+
+
+
+
+
+	Lens:
+	_____
+
+	_ésta es nos permite seleccionar entre diferentes opciones ó modalidades como:
+
+
+		_perspective
+
+			_
+
+
+		_Orthographic:
+
+			_
+
+
+		_Parametric:
+
+			_
+
+
+	_Focal Lenght:
+
+		_
+
+
+	_Unidades de medida:
+
+		_
+
+
+	_Shift:
+
+		_
+
+
+	_Clipping:
+
+		_
+
+
+	Camara:
+	_______
+
+	_Pressets:
+
+		_
+
+
+	_Sensor:
+
+		_
+
+
+	
+	Display:
+	________
+
+		_Limits:
+
+			_
+
+		_Mist:
+
+			_
+
+
+		_Sensor:
+
+			_
+
+
+		_Name:
+
+			_
+
+
+		_Passepartout:
+
+			_
+
+
+		Guides:
+
+			_
+
+
+		_Size:
+
+			_
+
+
+	Safe Area:
+	__________
+
+		_Pressets:
+
+			_
+
+
+		_Title Safe margins:
+
+			_
+
+
+		_Action Safe Margins:
+
+			_
+
+
+		_Center Title Safe Margin:
+
+			_
+
+
+		_Center Action Safe Margin:
+
+			_
+
+
+
+	Depth of Field:
+	_______________
+
+		_Focus:
+
+			_
+
+		
+		_Viewport:
+
+			_
+
+
+		_F-stop:
+
+			_
+
+
+		_Blades:
+
+			_
+
+
+		_Apertire:
+
+			_
+		
+
+
+	
+	
+
+
+
+
+
+
+
+
+

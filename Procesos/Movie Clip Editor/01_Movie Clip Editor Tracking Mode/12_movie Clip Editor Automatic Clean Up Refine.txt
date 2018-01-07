@@ -1,0 +1,68 @@
+
+
+
+
+	Tutorial basico tracking de seguimiento (Blender 2.67) [Español]
+
+		https://www.youtube.com/watch?v=AnTX9BkiAoU
+
+	Camera tracking en blender [2.72] Español
+
+		https://www.youtube.com/watch?v=Kup4ppJTeSg
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Movie Clip Editor:
+	__________________
+
+
+
+	Clean Up:
+	_________
+
+	_de ésta manera, una vez hemos determinado el rango mínimo aceptable para éste tipo de track determinado podremos ir a las
+
+	opciones de "Clean Up", yendo ha
+
+
+		_"Movie Clip Editor/Tools (T)/Solve Tag/Clean Up/Error"
+
+
+	_y en ésta opción podremos indicar un valor numérico el cuál, será el rango mínimo aceptable que hemos determinado para que así,
+
+	pocedamos ha darle al botón de
+
+
+		_"Clean Tracks"
+
+
+	_en la misma ubicación un poco más arriba para que así, el sistema descarte ó elimine los tracks points, que estén sobre el 
+
+	rango indicado 
+
+	
+	_de ésta manera, el sistema anáisis y optimización ya no utilizará las muestras muy erroneas que hemos descartado ó eliminado
+
+	lo que arrojará como resultado un cálculo más exacto que acercará más al rango mínimo deseado ó especificado por nosotros en el
+
+	análisis en el panel "Movie Clip Editor/DopeSheet Mode"
+
+
+	_para por último volver ha darle al botón de
+
+
+		_Solve Camara Motion
+
+
+	_para que así, el sistema vuelva ha realizar el cálculo para que así, éste ahora arroje un reusltado más preciso y ajustado
+
+	a los requerimiento del refinamiento que hemos realizado y al umbral ó rango máximo de error permitido
+
+
+
+
+

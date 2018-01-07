@@ -1,0 +1,86 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un obstable, es un obtáculo el cuál, nos permitirá crear escenas complejas y con contenedores 
+
+		personalizados como copas, envaces, otros, los cuáles, colisionarán con los fluidos generados en el
+
+		sistema de fluidos		
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó contenedor del fluido, en éste
+
+		caso es recomendable de que éste mesh, no tenga modicadores aplicados, de ser así, éstos deberán ser
+
+		aplicados previamente
+
+
+
+	Fluid:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Fluid", para éste objeto así, éste estará disponible para los procesos de simulación
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+	obstable:
+	_________
+
+
+		Introducción:
+		_____________
+
+
+		_los ostáculos nos permitirá introducir elementos que harán resistencia al fluido como su fuesen parte del mismo
+
+		contenedor ó limitador del fluido de ésta manera, podremos integrar diferentes elementos de escena y elementos
+
+		interactivos los cuáles, interactúen a su vez, con el sistema de fluido
+
+
+		Aplicación:
+		___________
+
+
+		_ahora con el objeto proxi, seleccionado vamos ha "Properties/Physics/Fluid Type/", y seleccionamos
+
+		la opción de "obstacle", así, éste objeto proxi, se comportará como el contenedor del fluido así, como
+
+		colisionador ó interceptor del fluido
+
+
+		_éstos elementos de tipo mesh, que hemos convertir ha elemetos de dinámicos de tipo ostable, debemos introducirlos
+
+		dentro del contenedor ó domain, para que así, éstos interactúen en un momento determinado ó de forma permanente con
+
+		el sistema de fluidos en general
+
+
+		_de ésta manera, podremos encaminar el fluido como en un rio, otros
+
+
+
+
+

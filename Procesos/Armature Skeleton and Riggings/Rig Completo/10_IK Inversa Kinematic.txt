@@ -1,0 +1,88 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+IK Inversa Kinematic:
+_____________________
+
+
+	_más ahora podremos aumentar las capacidades de la kinematica directa, utilizando la inversa kinemática
+
+	para que así, tengamos un character, más manejable y con movimiento más naturales, otros
+
+
+
+	Constraint Inverse Kinematic:
+	_____________________________
+
+	_para éste proceso lo primero es que tenemos que estar en el "Pose Mode"
+
+
+	_y leugo, debemos seleccionar el último bone, de la cadena ó chain, ha convertir en IK, por ej, de una pierna
+
+	compuesta por "L_Femur/L_Tibia", tendríamos que escoger el útimo bone, ó hueso de la cadena, en éste caso
+
+	sería el bone "L_Tibia"
+
+
+	_y con éste bone, seleccionado vamos a las opciones de "propesties/constraint/", y seleccionar la opción de:
+
+	"Inverse Kinematic", ó shortcut: "Control + Shift + C"
+
+
+	_de ésta manera, le habremos aplicar el constrains el bone, respectivo del sistema de IK, sobre esa respectiva
+
+	extremidad
+
+
+	IK Settings:
+	____________
+
+	_de ésta manera, tendremos que seleccioanr el respectivo bonn, "L_Tibia", siguiendo nuestro ej, y con éste bone,
+
+	seleccionado vamos a las opciones de "properties/constraint/", para configurar así éste constraint
+
+
+	_así, en la opción de "Target", en el constraint, debemos seleccionar el sistema de "Armature", de ésta manera,
+
+	se activará la opción de bone, para que así, podamos escoger un bone, del sistema que en el paso anterior cargamos
+
+
+	_y dicho bone, será el que hemos creado para que sea el handle, del "toe", con el nombre de "L_Handle_toe"
+
+
+
+	_más ahora para controlar la rodilla ó knee, y dirección de la pierna debemos seleccionar en la opción de 
+
+	"Pole Target", el sistema "Armature", nuevamente para que así, nos aparezca la opción de seleccioanr un bone, que
+
+	realize éste trabajo y haga de handle knee
+
+
+	_y dicho será el que hemos creado para que sea el handle, del "knee", con el nombre de "L_Handle_knee"
+
+
+	_así, como también, tendremos la posibilidad de hacer corección de dirección de la pierna ya que en ocaciones ésta
+
+	queda en un sentido incorrecto al configurar el IK, system, para ésto, disponemos de la opción de "Pole Angle: 0"
+
+
+	_así, como también, es conveniente que limitemos la acción ó alcance que tendrá el sistema de IK, por lo general
+
+	para una extremidad normal lo normal serán cadenas ó chains, de "2", para lo cuál, disponemos del parámetro de:
+
+	"Chain Lengt: 2"
+
+
+

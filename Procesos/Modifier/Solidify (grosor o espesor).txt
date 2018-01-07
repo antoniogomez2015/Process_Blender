@@ -1,0 +1,38 @@
+
+
+
+
+Referencia
+
+	IHMAN 3D SCHOOL Tutorial 2 Modificadores: Lattice
+
+		https://www.youtube.com/watch?v=cWabqEVTwxg
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Motive:
+	_______
+
+
+		_especialmente útil para forma abiertar a las cuales se les pueda aplicar un "grosor ó espesor"
+
+
+	Solidify:
+	________
+
+
+		_para ésto, seleccionamo el mesh, motive, en "objet mode", y vamos ha "Properties/Modifiers/", y agregamos el
+
+		modificador "Solidify"
+
+
+		_luego vamos a las opciones de "Modify/Thick", en la cuál, podremos ajustar el grosor ó espesor que desemos
+
+		agregarle al motive
+

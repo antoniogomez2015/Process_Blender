@@ -1,0 +1,344 @@
+
+
+
+	Grease Pencil en Blender 2.73
+
+		https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Paint 2d:
+	________
+
+	_para comenzar con el proceso de pintura en 2d, debemos de borrar el cubo, de geometría que aparece por defecto 
+
+	así, como de la luz, y demás elementos existentes en la escena excepto la cámara la cuál, ya tendremos que tener
+
+	configurada y posicionada
+
+
+	
+	Grease Pencil:
+	______________
+
+	_para posteriormente ir al panel viewport 3d, y allí, a "Tools", shortcut, "T", para posteriormente allí, buscar
+
+	la "pestaña", de "Grease Pencil", y allí, activar la opción de "Continous Drawing", para la plicación contínua
+
+	de pintura sobre el lienzo
+
+
+	_así, como también, debemos de ir ha el viewport 3d, properties, shortcut, "N", y bajar hasta las opciones de
+
+	"Display", y allí, podremos desativar la opción de "Grid Floor", ó incluso activar la opción de "Only Render",
+
+	para que así, no tengamos limitaciones en la visualización en el canvas a la hora pintar sobre éste
+
+
+	
+	Grease Pencil Layers:
+	_____________________
+
+	_así, como también, debemos de ir ha el viewport 3d, properties, shortcut, "N", en la parte superior y activar
+
+	las opciones de "Grease Pencil Layers"
+
+
+	_para posteriormente allí, darle ha "New layer", para que así, el sistema cree una nueva layer, la cuál, podremos
+
+	renombrar ej; "Base", sobre la cuál, podremos pintar
+
+
+
+	Brushes:
+	________
+
+	_para entrar en el modo de pintado directamente el viewport 3d, ó canvas de pintura podremos utilizar diferentes
+
+	shortcuts, y modos para agilizar el proceso:
+
+
+	Brush Paint:
+
+	_a través, del shortcut, "D", sostenido hasta hacer "Mouse Left Click", sobre un área del canvas para que así, el
+
+	cursor cambiar al brush, de pintura respectivo
+
+
+	Erase Brush:
+
+	_también, tendremos la posibilidad de borrar para lo cuál, debemos de aplicar el siguiente shortcut, 
+
+	"Mouse Right Click and Drag", sobre cualquier área del canvas para que así, de ésta manera, poco ha poco vayamos
+
+	borrando los trazos realizados previamente
+
+	
+	NOTA: ésta modalidad requiere que previamente el cursor se encuentre en modo "Crease Pencil Brush", shortcut, "D"
+
+
+
+
+	Grease Pencil Panel Views:
+	__________________________
+
+	_más también, para la facilitación del proceso dispondremos de unos menús contextuales a través, de los cuáles,
+
+	podremos tener accesos rápidos a la mayoría de las acciones de las brushes, y sistemas del Grease Pencil, los 
+
+	cuáles son los siguientes:
+
+
+		_Opciones del panel Layer Grease Pencil, en "Tools-Grease Pencil/", Shortcut, "D + W", fuera del modo 
+
+		"Grease Brush", "D"
+
+
+		_Opciones del panel Grease Pencil Principal, en "Tools-Grease Pencil/", Shortcut, "D + Q", fuera del 
+
+		modo "Grease Brush", "D"
+
+
+		_así, como también, podremos activar ó desactivar las opciones de edición de trazos, shortcut, "D + Tab",
+
+		ó de los páneles: "Tools-Grease Pencil/Edit Stroke, y Sculpt Strokes"
+
+
+	_lo cuál, nos permitirá trabajar de forma más rápida y con más espacio de trabajo ya que ahora podremos colapsar
+
+	los paneles de "Tools/T", y de "Properties/N"
+
+
+
+
+	Grease Pencil Colors:
+	_____________________
+
+	_también, podremos hacer de los diferentes modos de color disponibles en grease pencil, los cuáles, nos 
+
+	pemritirán interacturar de diferentes maneras
+
+
+		Stroke:
+
+			_en la modalidad de pintura de grease pencil, el brush, ó pincel es interpretado como una trazado
+
+			ó stroke, lo que quiere decir que para cambiar el color de trazo debemos de ajustar éste valor de
+
+			color en la opción de "Stroke", y no en la opción de "Fill"
+
+
+		Fill:
+
+			_más también, dispondremos de una opción de relleno relacional el cuál, creará un rellenos de 
+
+			color entre las áreas más cercanas entre trazados lo cuál, es inovador y alternativo a la vez,
+
+			lo cuál, nos permitirá hacer efectos interesantes de relleno rápidamnete
+
+
+			_y si incrementamos si valor ha un valor mayor que "0", entonces éste tratará de cerrar ó
+
+			complementar de forma circular los trazados para rellenar éstos del color seleccionado
+		
+
+
+		Volumetry:
+
+			_y la modalidad volumetryc, nos permitirá puntar a través, de una brush, que ahora pinta en 3d,
+
+			la cuál, hará rellenos con diferencia de densidad acumulativa tanto en el plano del canvas con
+
+			también, en la cordenada "Z", el cuál, pintara con el color de del modo "Stroke"
+
+
+		High Quiality:
+
+			_
+
+
+
+
+	Grease Pencil Edición de Trazos:
+	________________________________
+
+	_luego de haber creado frames, y trazos sobre el canvas también, podremos ajustes posteriores sobre los trazos
+
+	realizados
+
+
+	_lo cuál, no da ha entender que los trazos realizados en el modo Grease Pencil, en blender, son vectores como los
+
+	de Illustrator
+
+
+	_para lo cuál, debemos de activar las opciones de "edición de trazados", shortcut, "D + Tab", y a partir de éste
+
+	punto el viewport 3d, pasará de estar en el modo "Object Mode", ha pasar ahora al modo de "Edit Strokes"
+
+
+	_de ésta manera, ahora podremos seleccionar cualquier "vertex", con "mouse right click", los cuáles componen un 
+
+	trazo realizado en el canvas a través, de las brushes, de Grease Pencil, y mover éste ha través, del shortcut, 
+
+	"G + Drag", hasta una nueva ubicación
+
+
+	_y para ésto también, podremos hacer uso de la edición proporcional, shortcut, "O/O", y "mouse midle and drag",
+
+	para ajustar así, el radio de acción de la edición proporcional
+
+
+	_así, como también, en el modo de edición de trazos podremos hacer uso de los diferentes modos de selección de 
+
+	que dispone blender, como la seleccionar de sub-elementos circular, shortcut, "C", ó la rectángular, shortcut,
+
+	"B"
+
+
+	NOTA: todos éstos modo de edición y selección en encuentran en el Menú ó Panel View "D + Q", incluso un modo de
+
+	selecciona adicional por lazo, shortcut, "Control + Mouse Left Click and Drag"
+
+
+	_por otra parte, dispondremos del menú "Select", del panel viewport 3d, a través del cuál, podremos acceder ha
+
+	más modos de selección de sub-elementos, como "L", el cuál, nos permitirá seleccionar todo un trazado entero con
+
+	sólo seleccionar un "Point"
+
+
+	_y con "Control + +/-", dle path, numérico podremos expander y contraer selecciones
+
+
+	_más también, podremos hacer uso del cursor 3d, para hacer rotaciones, y del shortcut, ",", y "Control + , y .",
+
+	para ir cambiando los modos de rotación en relación al cursor 3d, y demás elementos
+
+
+	
+	Función:
+
+	_la edición de trazos es útil para una serie de funciones y procesos los cuáles, desde el proceso de ajuste en 
+
+	el proceso de puntado hasta la creación de geometría, paths, de animación, otros
+
+
+	_de ésta manera, por ejemplo en el proceso de pintura la edición de trazos nos puede ayudar para la replicación
+
+	de keyframes, con sólo ajustes ó variaciones en algunas partes ó con rotaciones sistemáticas, de ésta manera, no
+
+	tendremos que volver ha dibujar todo el elementos si no que sólamente tendremos que modidicar la partes deseada
+
+
+	_lo cuál, nos pemritirá mantener la continuidad, exactitud y rapidez, deseada
+
+
+
+	Crease Pencil Sculpt:
+	_____________________
+
+	_más también, tendremos la posibilidad de esculpir los trazos que hayamos hecho previamente con un brush, de
+
+	grease pencil
+
+
+	_para lo cuál, debemos de tener activado el modo de "edición de trazos", shortcut, "D + Tab"
+
+
+	_y posteriormente debemos de seleccionar el trazo ha esculpir para lo cuál, debemos de seleccionar al menos uno
+
+	de sus sub-elementos, haciendo "mouse right click", sobre uno de éstos, de ésta manera, éste trazo será el último
+
+	trazo seleccionado en el sistema de grease pencil 
+
+
+	_así, el punto ó point, selecionado lo podemos dejar deseccionado ó lo podemos deseleccionar ya que lo que 
+
+	importa es indicarle al sistema que éste es el último trazo seleccionado y por ende será el trazo ha utilizar 
+
+	para el proceso de esculpura
+
+
+	
+	Sculpting Brush:
+
+	_para posteriormente tener la posibilidad de ajustar el tamaño y dureza de la brush, general ha utilizar en el
+
+	proceso de escultura
+
+
+	_así, de ésta manera, podremos utilizar los mismos comando que para el proceso de "Texture Paint", shortcuts,
+
+	"F and Drag", para el tamaño y "Shift F and Drag", para la dureza
+
+
+	
+
+	Sculpting Mode:
+	
+	_más el estar en el "Edit Stroke", del modo Grease Pencil, no significa que ya estemos en el modo de escultura 
+
+	de grease pencil
+
+
+	_y para activar el modo de escultura primeramente debemos de estar en el modo "Edit Stroke", shortcut, "D + Tab",
+
+	para posteriormente ir al menú "GPencil/Sculpt Stroke", para que así, entremo en el modo de escultura, y en éste
+
+	punto se habrán bloqueado todos los controles de la aplicación; por que combiene previamente haber colocado la
+
+	vista del canvas en una aplicación que permita editar toda el área deseada así, como de haber hecho todas las
+
+	configuraciones previas de grease pencil, otros
+
+
+	_entendiéndo así, que éste es un modo especial el cuál, bloqueará la pantalla, osea que no podremos navegar en
+
+	en ella y hacer paneos
+
+
+	_así, como también, se bloquearán todos los controles de la brushes, ha excepción de dejar sólo el de tamaño y
+
+	dureza de la brush, activa através, de los siguientes comando automáticos:
+
+
+		_Radius:
+
+			_haciendo "Mouse Scroll Up/Down", podremos ajustar el tamaño de la brush, activa
+
+
+		_Stretch:
+
+			_haciendo "Shift + Mouse Scroll Up/Down", podremos ajustar la dureza de la brush, activa
+
+
+	_y para salir de éste modo debemos hacer "Esc"
+
+
+
+	Convert Grease Pencil:
+	______________________
+
+	_así, como también, tendremos la posibilidad de convertir los trazados de grease pencil para utilizar éste como
+
+	elemento de geometría, otro
+
+
+	_para lo cuál, luego de haber creado éstos podemos ir al panel "Viewport 3D/Tools (T)", ó a través, del shortcut,
+
+	"Alt + C", para que así, nos aparesca el menú contextual de conversión del grease pencil, el cuál, nos permitirá
+
+	convertir los trazados ha diferentes tipos de elementos aprovechables en el proceso y produccion 3d
+
+
+	
+
+
+
+	
+	

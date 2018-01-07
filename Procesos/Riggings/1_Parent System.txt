@@ -1,0 +1,36 @@
+
+
+
+Referencia:
+
+
+
+	rigging en Blender 2.5 parte 1a
+		https://www.youtube.com/watch?v=H5X3ANj4FUQ
+
+
+	Introdução ao Rigging | BlenderPower
+
+		https://www.youtube.com/watch?v=-TlCHftthiQ
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Parent System:
+	______________
+
+		_tenemos la posibilidad de hacer emparentamiento simples de forma directa entre elementos determinados, ésto quiere
+
+		decir que podemos meter elementos dentro de otros para que así, al mover un elemento "padre", éste arrastre al 
+
+		elemento "hijo"
+
+
+		_para ésto, primero seleccionamos al elemento que será el "hijo", a continuación debemos seleccionar al elemento que
+
+		hará de "padre", luego abrimos el menú de "Set Parent To", shorcut: "Control + P", y seleccionamos la opción de 
+
+		"Object", en "object mode", así, ambos elementos quedarán emparentados en la relación determinada
+

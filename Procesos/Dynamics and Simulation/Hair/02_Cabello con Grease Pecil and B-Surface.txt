@@ -1,0 +1,29 @@
+
+
+
+
+
+	Blender: usar bsurfaces para tiras de pelo largas
+		https://www.youtube.com/watch?v=wYVlFxUqm78
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Cabello con Grease Pecil and B-Surface:
+	_______________________________________
+
+	_tenemos la posibilidad de crear cabello de tipo mapeado a través, de tiras ó strips, de geometría la cuál, será mapeada
+
+	porteriormente con textura de cabella
+
+
+	_ésta técnica también, se puede combinar con la generación de cabello a través, de sistema de partícles/hair, para lograr
+
+	resultados más realistas
+
+
+
+

@@ -1,0 +1,169 @@
+
+
+
+	Blender 3D / rigging: How to adjust the roll of bones in a bones chain the proper way / HD
+
+		https://www.youtube.com/watch?v=6lXKX93fcyc
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Roll Bone System:
+	_________________
+
+
+	Planteamiento:
+
+	_posteriormente de haber creardo el objeto de tipo armature y de editar éste, ajustado y reflejado como 
+
+	proceso base de un character
+
+
+	_así, como posteriormente de haber creado los bones, que harán de handles, personalizados y luego, haber
+
+	configurado éstos con shapes, personalizadas
+
+
+	_nos encontraremos que muchos bones, especialmente los reflejados nos coinciden en sus axis, de rotación
+
+	con sus root bones, padres de las respectivas cadenas lo cuál, implicará un problema en relación a las
+
+	articulaciones según la lógica del character, ó motivo
+
+
+	_éste fenómeno también, sucede cuando extruimos bones, a partir de un bone, base ó root, en determinadas
+
+	chains, ó cadenas de huesos en un armature
+
+
+
+
+	Roll:
+	
+	_para éstos casos en los cuáles, se desfazan los axis, de los bones, generados como los de los bones, 
+
+	reflejados; diponemos de las opciones de "Roll"
+
+
+	_en la cuál, podremos reorientar los bones, así, como también, dispondremos de una serie de pre 
+
+	configuraciones para reorientar rápidamente los bones, ha unas cordenadas de trabajo específicas
+
+
+
+
+	Edit Roll:
+
+	_de ésta manera, cuando desiemos hacer correcciones sobre la orientación de un bone, determinado 
+
+	primeramente debemos de seleccionar el objeto de tipo armature, y con éste seleccionado debemos estar 
+
+	en "Edit Mode", shortcut, "Tab"
+
+
+	_para a continuación seleccionar el repectivo bone, determinado para que así, dispongamos de dos opciones:
+
+
+		_ir las propiedades del viewport 3d, shortcut, "N" "Viewport 3d/Transform/Tail/Roll"
+
+
+		_ó yendo ha "Properties/Bone Bone/Transform/Roll"
+
+
+	_y a través, del control de roll, podremos "rotar", sobre la cordenada de trabajo del bone, por ejemplo,
+
+	podríamos hacer rotación sobre la cordenada "X"
+
+
+
+
+
+	Setting Roll:
+
+	_más a través, de las opciones de "Roll", básicas de un bone, podremos hacer rotaciones sobre su cordenada
+
+	de trabajo base más no podremos cambiar dicha cordenada de trabajo por otra 
+
+
+	_para lo cuál requerimos de opciones más avanzadas para lograr dicho resultado las cuáles las encontraremos
+	
+	yendo a las opciones de "Edit Mode/Armature/Bone Roll"
+
+
+	_en las cuáles, encontraremos diferentes herramientas como: 
+
+
+		_Set Roll: 
+
+			_la cuál, nos permitirá hacer "Roll", ó rotación sobre el eje de trabajo del bone, de forma
+
+			práctiva y rápida a través, de un shortcut, "Control + R"
+
+
+
+		_Clear Roll:
+
+			_así, como tmabién, podremos resetear las transformaciones realizadas sobre un bone, a 
+
+			través, de un shortcut, rápido "Alt + R"
+
+
+			NOTE: los problemas más comúnes de deformación se corrigen estando en edit mode, y 
+
+			seleccionando el respectivo bone, y resetendo éste a través, del comando "Clear Roll"
+
+
+
+	_más también, dispondremos de un menú completo de opciones más avanzadas a través, de los cuáles, si 
+
+	podremos ajustar y cambiar el set, de cordenadas de acción y trabajo de un bone, determinado 
+
+
+	_lo cuál, nos permitirá hacer correcciones sobre los defaces y cambios de cordenadas en un bone, el cuál 
+
+	ha sido afectado en el proceso de extursión como de reflejado de huesos respectivamente
+
+
+	_para lo cuál, podremos ir a las opciones de "Edit Mode/Armature/Bone Roll/Recalculate Roll", ó a través,
+
+	del shortcut, "Contro + N"
+
+
+	_para que así, se nos abra el panel contextual de "Recalcuclate Roll", en el cuál, dispondremos de toda
+
+	una serie de opciones a través, de las cuáles, podremos configurar los respectivos bones
+
+
+
+
+	Subdivide:
+
+	_una técnica de creación de chains, de bones, es crear un sólo bone, del tamaño de la longitud de la cadena
+
+	de huesos ha crear y con éste seleccionado en edit mode, abrir el menú special, shortuct, "W", y en éste
+
+
+	_seleccionar la opción de "Subdivide", para luego ir a las opciones de éste yendo al panel "tool", del
+
+	viewport 3d, shortcut, "T", y bajando inmediatamente en éste hasta la parte inferior de éste e incrementando
+
+	así, la cantidad de bones, deseados para la respectiva cadena ó chain
+
+
+	_ó a través, del menú contextual de opciones a través, del shortcut, "F6", para que así, de forma más rápida
+
+	podamos configurar la cantidad de subdivisiones deseadas sobre el bone, respectivo 
+
+
+	_lo que nos permitirá generar chains, ó cadenas personalizadas y sobre todo sin la variación de cordenadas 
+
+	entre bones
+
+
+
+
+
+

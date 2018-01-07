@@ -1,0 +1,58 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Navegación:
+
+
+	Zoom: scroll mouse ó Control + mouse midle click and drag left/right
+
+
+	Pan: Shift + mouse midle and drag left/right
+
+
+	Play/Stop: Alt + A
+
+	
+	Mover el cabezal frame to frame: Alt + Scroll mouse
+
+
+	Mover el cabezal de 10 en 10 frames: Shift + Arrows up/down
+
+
+	Mover el cabezal Star Star/End Frame: Shift + Arrows left/right
+
+
+	Set Star Frame workArea: S
+
+
+	Set End Frame workArea: E
+
+
+	Marks: M
+
+	Rename Mask: Control + M
+
+
+
+Lenght:
+
+
+	_la longitud ó duración del timeline, estará superditada a la configuración del panel 
+
+	"properties/render/aspect ratio/frame ratio"
+
+
+	_de ésta manera podremos escoger el intervalo de animación ej, 24f,30f, otros
+
+
+	_así, como también, la duración de la animación en "star frame/end frame"
+
+
+
+

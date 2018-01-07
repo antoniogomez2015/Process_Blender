@@ -1,0 +1,26 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	B-Surface Conversión:
+	_____________________
+
+
+	_y al finalizar el proceso de creación de geometría ó retopología ahora podremos aplicar el modificador
+
+	"Shringwrap", para que así, podamos continuar con el proceso de producción como el de creación de UVs,
+
+	texturizado, render, otros
+
+
+

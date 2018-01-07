@@ -1,0 +1,63 @@
+
+
+
+
+Blender Dynamics / Fluids
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+		_un objeto dinámico de fluido de tipo de "Control", es un objeto de tipo mesh, el cuál, podrá 
+
+		interactuar con el fluido de ésta manera, podremos crear elementos entren ó que salgan del fluido para
+
+		que así, éstos elementos puedan empujar el fluido ó hacer olas dentro de éste entre otras posibilidades
+
+
+	
+	Mesh Motive:
+	____________
+
+		_es preciso primero tener ha un objeto mesh, el cuál, hará de próxi, ó contenedor del fluido, en éste
+
+		caso es recomendable de que éste mesh, no tenga modicadores aplicados, de ser así, éstos deberán ser
+
+		aplicados previamente
+
+
+
+	Fluid:
+	______
+
+
+		_ahora con el respectivo mesh, proxi, seleccionados vamos ha "Properties/Physics/", y activamos las 
+	
+		opciones de "Fluid", para éste objeto así, éste estará disponible para los procesos de simulación
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+	control:
+	________
+
+
+		_ahora con el objeto proxi, seleccionado vamos ha "Properties/Physics/Fluid Type/", y seleccionamos
+
+		la opción de "control", así, éste objeto proxi, se comportará como el propio fluido así, éste prodrá
+
+		interactuar con el demás fluido existente
+
+		
+
+
+
+
+

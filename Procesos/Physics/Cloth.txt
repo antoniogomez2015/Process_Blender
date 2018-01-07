@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+
+1_creamos la mesh, que hará de colisionador
+
+	1.1_y vamos al properties/Phisics/ "Collision", así esta mesh, se convertirá 
+
+	en un elemento pasivo que ofrecerá resistencia a elementos dinámicos
+
+
+2_creamos la mesh, que hará de cloth, y la ubicamos en relación a la gravedad deseada
+
+	2.1_y vamos al properties/Phisics/ "Cloth", así esta mesh, se convertirá en un elemento de tipo
+
+	tela el cuál caerá con la gravedad a posibles coliciones
+
+
+3_podemos también hacer sujeciones del elemento cloth, haciendo selecciones de partes de sus subelementos
+
+	3.1_con la mesh, con cloth, vamos al modo "Weight Paint", control + tab, desde el modo object
+
+	y procedemos a pintar las áreas que deseamos que se mantengan estáticas del cloth, a la hora de la simulación
+
+	El weight se expresa en colores que representan la fuerza abrasiva del mismo, yendo del color màs suave
+
+	hasta el más intento; verde - amarillo - rojo, siendo rojo el más intenso, y el azul el neutro ó no modificado
+
+
+4_luego seleccionamos la mesh, con el cloth, y vamos a properties/physics/cloth, y activamos la opción "Pinning",
+
+	y seleccionamos el grupo creado en el proceso de "Weight Paint"
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////

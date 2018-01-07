@@ -1,0 +1,54 @@
+
+
+
+	Grease Pencil en Blender 2.73
+
+		https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Visualización:
+	______________
+
+	_previamente también, podremos visualizar la animación realizado para tener así, una mejor idea y apreciación de
+
+	la misma para lo cuál, disponemos de un shortcut, "Control + F11", para que así, blender, nos brinde una nueva
+
+	ventana ha modo de reproductor a través, de la cuál, podamos tener una visualización de la reproducción la cuál,
+
+	podremos controlar haciendo "Control + Mouse Left Click + Drag Left/Rigt", para controlar así, el avance de ésta
+
+	vista previa de la animación
+
+
+	_y con "Enter", podremos detener ésta y haciendo click, podremos interactuar con ésta
+
+
+
+
+	Render:
+	_______
+
+	_para posteriormente de creado todas las ilustraciones y animación podremos ahora exportar ó extrar ésta 
+
+	animación para seguir con el proceso
+
+
+	_para lo cuál, debemos de ir a la parte inferior del panel viewport 3d, en la cuál, al final encontraremos dos
+
+	íconos relacionados con el render
+
+
+	_pero previamente debemos de ir "Properties/Render Render", y allí, ajustar el formato de salida, la duración
+
+	ruta de destino, otros
+
+
+
+	
+	

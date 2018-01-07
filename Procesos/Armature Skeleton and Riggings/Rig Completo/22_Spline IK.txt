@@ -1,0 +1,112 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Shape Keys:
+___________
+
+
+
+	_para este proceso podemos utilizar tanto una mesh, low poly, de nuestro character
+
+
+
+
+	--------------------------------------------------------------------------------------------
+
+
+
+	Basic:
+	______
+
+
+	_en el "Object Mode", vamos ha "Properties/Object Data/Shape Keys", del objeto
+
+
+	_y creamos una "Shape Keys", a través, del signo de agregar ó plus "+", así, se creará la 
+
+	forma ó shape, básica ó estándar del modelo, esta forma ó shape, representa al modelo original
+
+	sin modificación ó deformación
+
+
+
+	--------------------------------------------------------------------------------------------
+
+
+
+	Deform:
+	_______
+
+
+	_más para agregar ó crear versiones de deformaciones de la mesh, vamos al "Object Mode", y ha la 
+
+	sección de "Object Data/Shape Keys", del objeto y creamos una nueva "Shape Keys", a través, del 
+
+	signo de agregar ó plus "+", así, se creará una nueva "Shape Keys", la cuál, podremos renombrar
+
+	con un nombre característico, ej; "Smile"
+
+
+	Options:
+	________
+
+
+	_así, al crear un "Shape Key", diferente a la "Basic", éstas contarán con las siguiente opciones:
+
+
+		_Value:
+
+			_slider, de control ó transición entre un shape keys, y otra
+
+
+		_Range:
+
+			_rango mínimo de acción por lo general va de "Min: 0 / Max: 1"
+
+
+		_Blend:
+
+			_este valor indicar las shape keys, a fusionar, por lo general es la shape keys,
+
+			"Basic", con la shape key, seleccionada actulmente
+
+
+
+	Workflow Deform:
+	________________
+
+
+	_primero creamos una "Shape Key", diferente de "Basic"
+
+
+	_luego entramos ha "Edit Mode", de la mesh, deseada del character
+
+
+	_luego procedemos ha hacer la deformación de la mesh, es recomendable utilizar las opciones de
+
+	edición proporcional shortcut "o", para así, hacer una edición de vertex, y demás sub-elementos
+
+	de la mesh, deseada
+
+
+	_así, al volver al modo "Object Mode", podremos ver que al mover slider de las opciones en
+
+	"Object/Object Data/Shape Keys/Value", la mesh, del character, hace la transición entre el estado
+
+	de la mesh shape key, "Basic", y la que hemos creado nueva, este paso lo podremos repetir para 
+
+	cuantas shape keys, desiemos
+	
+

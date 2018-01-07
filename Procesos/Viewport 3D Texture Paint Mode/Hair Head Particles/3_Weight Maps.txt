@@ -1,0 +1,50 @@
+
+
+
+	Blender 2.71: Creando pestañas con partículas de pelo
+		https://www.youtube.com/watch?v=o9tJdYSH1do
+
+	Creating a Realistic Head in Blender -- part 09 -- Beard, Eyebrows, and Eyelashes
+		https://www.youtube.com/watch?v=zsyKhJ-BOJk
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Weight Maps:
+	____________
+
+	_para posteriormente de hacer seleccionado los sub/elementos faces, y de haber creado los vertex groups, 
+
+	respectivo podremos ahora si ir al panel "Weight Maps", shortcut, "Control + Tab", desde el panel "Object Mode"
+
+
+	_para que así, de ésta manera, podamos ver que el área respectiva a un respectivo vertex group, ahora estará
+
+	perfectamente pintada en el mapa weight map, de forma automática
+
+
+	
+
+	Weight Map Detail:
+	__________________
+
+	_de igual manera debemos entender que el paso de crear los weight maps, a través, de vertex group, no es más
+
+	que una guía ó un comienzo por lo cuál, ya en el panel "weight map", podremos ajustar, editar, borrar e incluso
+
+	complementar la creación de weight maps, a través, de vertex groups
+
+
+	_de ésta manera, dispondremos de una serie de brushes, los cuáles, no permitirán editar el weight map, a través,
+
+	de pinceles para agregar, sustraer, suavizar, mezclar, otros
+
+
+
+
+
+
+

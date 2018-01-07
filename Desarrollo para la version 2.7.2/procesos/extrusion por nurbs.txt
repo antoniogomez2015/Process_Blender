@@ -1,0 +1,17 @@
+
+
+extrución de forma hecha con splines a través de plane tipo path
+
+
+
+	1_creamos la spline que hará de path, yendo  al menú "add/curve/path", shortcut Shift + A, creado el path, y lo ajustado para que tome la forma deseada
+
+	2_creamos la forma que se proyectará ño extruirá a través del path,  yendo  al menú "add/curve/path", shortcut Shift + A,
+
+	3_ahora para realizar la extrución nuebs, seleccionamos la spline que hará de path, y vamos sus opciones de "Curve edit", y buscamos la opciones
+
+	"Geometry/Babel", y en Bavel Object, selecciona la spline, con la forma que será extruida
+
+	4_para desvincular las splines de la mesh, resultante y seguir editando la mesh, independiente debemos hacer en "Menú/Object/Convert to", y seleccionar la opción
+
+	de "Mesh converto from Curve Meta/Surface", así ésta se transformará una mesh poligonal, shortcut "Alt + C",

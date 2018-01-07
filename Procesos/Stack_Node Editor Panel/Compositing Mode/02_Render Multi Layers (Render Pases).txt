@@ -1,0 +1,53 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Render Multi Pass Layers:
+__________________________
+
+
+
+	_continuando con el proceso anterior de la creación de render layers, con reservas ó particiones de contenidos extraidos
+
+	aparte con canales alpha, para sus respectivas reservas
+
+
+	_tenemos ahora también, la posibilidad de agregar ha éstos render layer, ó cualquier tipo de render layer, la posibilidad
+
+	de agregar pases de render adicionales ha éstas render layers, y particiones creadas para aumentar así, las posibilidades
+
+	de producción y post-producción
+
+
+	_así, por ejemplo ha una render layer, partition, podemos también, agregarle un "pass", de "specular", ó "shadows", u otros
+
+	pases de interés según sea el requerimiento de producción así, como también, crear éstos render pass, adicionales sobre el
+
+	render layer, master ó "beauty", principal
+
+
+	Multi Pass:
+	___________
+
+
+	_así, para ésto proceso debemos configurar previamente el render layer, si éste tendrá partición ó no, para luego bajar hasta
+
+	las opciones de "Pases", en la cuál, podremos activar y desactivas éstos pases adicionales
+
+
+	_así, por ejemplo, para la creación adicional de un pass de para la creación de "Depth of Field", debemos activar el pass, 
+
+	llamado en "Blender", como simplemento "Z", éste ya biene activado por defecto
+
+
+
+

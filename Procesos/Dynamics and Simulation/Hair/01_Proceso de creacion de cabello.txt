@@ -1,0 +1,250 @@
+
+
+
+Creación de cabello en blender
+
+
+	referencias
+
+		Pelo / Cabello en Blender 2.59 - TUTORIAL - Perublend3D
+
+			https://www.youtube.com/watch?v=ABt2HNJqJYg
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Partículas:
+	___________
+
+
+	_primero prcedemos ha seleccionar el elemento deseado para aplicarle ha éste un sistema de partículas
+
+
+	_luego con el objeto seleccionado vamos ha al panel de "properties/particles/", y le damos al plus (+), para crear y
+
+	asignarle al objeto seleccionado un nuevo sistema de particulas, éste lo podemos renombrar, ej: "HairSystem"
+
+
+	_luego vamos ha "properties/particles/Type", y seleccionamos la opción de "Hair"
+
+
+	_luego en"properties/particles/Emission", podemos configurar tanto el número de partículas como la longitud de los mismos
+
+	
+		_Number:
+
+		_Hair Length:
+
+
+
+	Replicación:
+	____________
+
+
+	_ésta opción nos permite variar la cantidad de partículas/hair, que serán representadas tanto en el viewport, como en el
+
+	render, para ésto, vamos ha "properties/particles/Childen", donde podremos ajustar los siguientes parámetros:
+
+
+		_Display:
+
+		_Render:
+
+
+	_también, tendremos disponibles las opciones de partículas dinámicas las cuales permiten hacer que éstas reaccionen a las
+
+	fuerzas implícitas por defecto en el entorno como gravedad por ejemplo, para ésto, vamos ha "properties/particles/Hair Dynamics",
+
+	y activamos ésta opción, así, las partículas que representan el cabello reaccionarán a la gravedad cuando le demos ha play
+
+	en el timeline, shortcut "Alt + Enter"
+
+
+	_también, tendremos disponibles las siguientes opciones de efectos asicionales:
+
+
+		_Clump:
+
+		_Clump Noise:
+
+		_Shape:
+
+		_Uniform:
+
+		_Size:
+
+		_Endpoint:
+
+		_Random:
+
+		_Radius
+
+		_Roundness:
+
+		_Seed:
+
+		_Threshld:
+
+
+	_así, como también, contamos con los siguientes presets:
+
+		
+		_Nothing:
+
+		_Curl:
+
+		_Radial:
+
+		_Wave:
+
+		_Braid:
+
+		_Spiral:
+
+
+
+	Fields Weights:
+	_______________
+
+		
+		_Gravity:
+
+		_All:
+
+		_Force:
+
+		_Vortex:
+
+		_Magnetic:
+
+		_Wind:
+
+		_Curve Guide:
+
+		_Texture_
+
+		_Smoke Flow:
+
+		_Harmonic:
+
+		_Charge:
+
+		_Lennard-jon:
+
+		_Turbulence:
+
+		_Drag_
+
+		_Boid:
+
+		_Use For Growing:
+
+		_Effect Children
+
+		_Stiffness:
+
+
+	Vertex Groups:
+	______________
+
+
+		_ésta opción nos permite hacer selecciones de grupos de vextex, para marginar la aplicación del hair system, sobre
+
+		el motive, para los diferentes criterios expresados en la lista siguiente:
+
+
+		_Density:
+
+		_Length:
+
+		_Clump:
+
+		_Kink:
+
+		_Roughness 1:
+
+		_Roughness 2:
+
+		_Roughness E:
+
+
+
+
+		_para crear un nuevo grupo, debemos ir ha "properties/Data Object Data/Vertex Groups", y le damos ha plus (+),
+
+		luego podremos renombrar éste nuevo vertex groups, ej: "hairGroup"
+
+
+		_luego entramos al modo de "edit mode", y seleccionamos los vertex, deseamos del motivo de los cuales se emitirá
+
+		el hair system, y a continuación vamos ha "properties/Data Object Data/Vertex Groups", y le damos ha "Assign",
+
+		así, los vertex, seleccionados serán agregados ha éste respectivo grupo
+
+
+		_de ésta manera podremos ir ha "properties/particles/vertex groups/density", y seleccionar allí, el grupo repectivo
+
+		creado el cuál, marginará el alcance del hair system
+
+
+
+
+	Display:
+	________
+
+
+	_una de las opciones más importantes es "properties/particular/color/steps:", la cuál, permite indicar la cantidad y 
+
+	detalle ha renderizarse valores entre "6", generan buenos resultados, por lo general éste valor debe de conincir con 
+
+	de la opción de render; "properties/particular/render/B-pline/Steps:", en el número indicado
+
+
+
+
+	Material:
+	_________
+
+
+		Color Material:
+		_______________
+
+
+		_tenemos la posibilidad de agregarle un material al hair system, para que éste tenga una mejor representación visual
+
+
+		_para ésto, primero seleccionamos el mesh, motive, y luego vamos ha "properties/material", y le damos la plus, ó (+),
+
+		para crear y agregar un nuevo material al objeto seleccionado, renombramos ésto ej: "hairMaterial"
+
+
+		_es recomendable bajar al mínimo ó eliminar el espécular del material para el cabello
+
+
+		_luego vamos ha agregarle una textura al material para el cabello que hemos creado, para ésto vamos ha "properties/texture",
+
+		y le damos ha (+), New, y luego en "properties/texture/type", seleccionamos la opción de "Blend", para agregar así, un nodo 
+
+		de degradado como textura, ésta hace la fusión de dos colores
+
+
+		_ahora vamos a las opciones de "properties/texture", y activamos la opción de "Ramp", así, nos aparecerán las opciones de ambos
+
+		colores de la rampa, los cuales se componen de "RGBA", así, editaremos éstos a los colores que le desiemos asignar al cabello 
+
+		más desactivaremos los valores de alpha, para cada uno de éstos ambos colores, colocando así "R:0/G:0/B:0/A:1"
+
+
+
+		Alpha Material:
+		_______________
+
+
+		_
+
+
+
+

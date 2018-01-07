@@ -1,0 +1,119 @@
+
+
+
+
+	OpenEXR MultiLayer
+
+
+
+		Introducción a la postproducción con Blender, Compositor de nodos para un dender de arquitectura..
+
+			https://www.youtube.com/watch?v=r4BlLpAFu8M&t=44s
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	OpenEXR MultiLayer:
+	___________________
+
+
+
+	Escena:
+	_______
+
+
+	_primeramente debemos de tener nuesta escena creadas con los elementos ha renderizar en pases totalmente creados
+
+	y mapeados y animados correctamente respectivamente
+
+
+
+	Configuración de Render:
+	________________________
+
+
+	_para posteriormente ir a el panel "Render Render/Output/", y allí, en las opciones de archivo de salida seleccionar
+
+	la opción de "OpenEXR Multilayer", para que así, podamos renderizar múltiples tipos de pases encapsulados en éste
+
+	tipo de archivo y de formato
+
+
+	
+	Configuración de Pases:
+	_______________________
+
+
+	_para luego ir al panel "Render Layers/Passes", y allí, seleccionar los pases deseamos en relación el proceso ha
+
+	realizar ó nuestras necesidades
+
+
+
+	Renderizado de Pases:
+	_____________________
+
+
+	_para luego hacer el render, donde previamente hemos escogido el tamaño de salida y la ruta de salida para los 
+
+	archivos en caso de que estemos renderizando una secuencia de imágenes ó video, más en los casos de que estemos
+
+	renderizando un frame, único debemos entonces lanzar el render y guardar el renrizado el cuál, es mostrado en el 
+
+	viewport del panel UVMap Editor, shortcut, "F3"
+
+
+
+	Composición de Pases en Blender: (opcional)
+	________________________________
+
+	_de ésta manera, podremos componer los pases que hemos renderizado directamente en blender para lo cuál, podremos
+
+	posarnos sobre el panel viewer 3d, y cargar en éste panel el panel "Node Editor", shortcut, "Shift F3"
+
+
+	_para a continuación ir a las opciones del panel node editor, en la parte inferior de éste, y cambiar a las opciones 
+
+	de tipo de nodos a trabajar por "Compositing", para que así, estén disponibles los nodos de tipo composición
+
+
+	_de ésta manera, en el panel node editor, debemos de cargar el archivo multi-pass, que hemos renderizado previamente
+
+	para lo cuál, debemos de agregar los siguientes nodos:
+
+
+		_Shift + a/Add/Input/Multiple Images/
+
+			_para que así, el sistema agrege un nodo con rende multipass, que hemos creado previamente
+
+
+		_Shift + a/Add/Output/Viewer/
+
+			_para que así, podamos relacionar una de las salidas de pases ha éste nodo "Viewer", para que así,
+
+			podamos ver éste pase de forma independiente directamente en fondo y a tamaño completo del panel
+
+			node editor, para lo cuál, debemos ir a la parte inferior de éste panel y activar la opción de
+
+			"Backdrop"
+
+			_en ocaciones será necesario hacer doble click, sobre el nodo de viewer, para que así, éste muestre
+
+			el pase que tiene relacionada en el fondo del panel node editor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

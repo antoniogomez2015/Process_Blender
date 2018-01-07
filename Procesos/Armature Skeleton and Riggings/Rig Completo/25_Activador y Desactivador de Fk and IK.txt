@@ -1,0 +1,138 @@
+
+
+
+Rigging in blender
+
+
+	Digital Tutors - Introduction to Rigging in Blender
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+_más tenemos la posibilidad avanzada de intercambiar entre los tipos de kinemática disponibles en
+
+un character, así, podremos fácilmente en una determinada circustancia de animación cambiar de
+
+kinemática inversa "IK", (Inverse Kinematic) ha kinemática directa "FK", (Fordward Kinematic)
+
+
+
+
+Bone Add Properties:
+____________________
+
+	_los primero que tendremos que hacer será seleccionar el bone, que hace de handle, controlador 
+
+	ej, para controlar el "arm/foreArm/hand"
+
+
+	_y con éste seleccionado en "pose mode", y ha sus opcioens de "properties/bone/custom properties/",
+
+	y allí, darle ha "Add", para que así, una nueva propiedad sea agregada ha éste bone
+
+
+	_así, dicha propiedad la podremos editar dándole al botón de "edit", podremos renombrar ésta y así,
+
+	como asignarle un valor mínimo y un valor máximo, otros
+
+
+
+
+IK Constrinat:
+______________
+
+	_para luego seleccionar el bone, en el cuál, hemos aplicado un contraint, de tipo "IK", para luego ir 
+
+	a las opciones del "constraint ik/influence:/"
+
+
+	_y a continuación hacer "mouse right click", sobre el slider, "Influence:", del "constraint IK", y 
+
+	seleccionar la opción de "Add Drivers", para que así, éste quede relacionado con el panel 
+
+	"Graph Editor/Drivers"
+
+
+
+
+Drivers:
+________
+
+	_para luego, abrir un nuevo panel en la interface, en el cuál, cargaremos el panel "Graph Editor", shortcut;
+
+	"Shift + F6", y en la parte inferior del panel graph editor, en su opción por defecto de "F-Curve", la 
+
+	cambiaremos por la opción de "Drivers"
+
+
+	_y a continuación en el panel graph editor, seleccinaremos la acción en el panel derecho en éste caso 
+
+	"Inflience(L_radio:IK)", para que así, podamos ver representado la acción de forma gráfica y con ésta 
+
+	seleccionada desplegaremos el panel derecho de opciones shortcut, "N"
+
+
+	_así, de ésta manera, bajaremos en las opciones del panel derecho que hemos desplegado en el paso anterior
+
+	hasta las opciones de "Drivers"
+
+
+	_y en las opciones de "Drivers/Type", seleccionaremos la opción de "Averaged Value"
+
+
+	_para luego bajar hasta las opciones de "Type", y seleccionar la opción de "Single Property"
+
+
+	_y justo a continuación en el ícono de "Object", seleccionar el "Armature", para que así, nos aparezca
+
+	un campo justo debajo de éste en el cuál, tendremos que introducor el path, que corresponde con el bone,
+
+	respectivo
+
+
+	_así, en "pose mode", volveremos ha seleccionar el bone, que hace de handle, controlador en éste caso del 
+
+	"arm/foreArm/hand", y vamos ha "properties/bone/custom properties/", y allí, nos posamos sobre la propiedad 
+
+	personalizada que hemos creado para éste bone, específicamente sobre su propiedad numérica en éste caso es 
+
+	la propiedad que hemos renombrado como "L_Arm_IK_FK"
+
+
+	_para a continuación hacer "mouse right click", sobre ésta y seleccionar la opción de "Copy Data Path"
+
+
+	_para luego volver al panel "graph editor/panel derecho/drivers/", hasta el campo de "Path", que habiamos
+
+	dejado pendiente en unos de los pasos anteriores ó penúltimo y allí, en ese campo procedemos ha pegar el path,
+
+	que hemos copiado de la nueva propiedad del bone, handle, y para pegarlo hacemos uso del shortcut; "Control + V"
+
+
+
+Controllers:
+____________
+
+	_para que así, al haber terminado de configurar el elemento controlado y el controlador en el proceso anterior
+
+	podamos proceder ahora ha seleccionar el bone, que hace de handle, del "arm/foreArm/hand" 
+
+
+	_en "pose mode", y en el 3d view, panel, en el cuál, desplegaremos su panel derecho de opciones shortcut, "N",
+
+	e iremos hasta abajo hasta las opciones de "Properties", donde nos aparecerán todos las nuevas propiedades que 
+	
+	le hayamos agregado ha el bone, respectivo
+
+
+	_para que así, de ésta manera, podamos controlar que tipo de kinemática actuará sobre ese determinado sistema ik,
+
+	a través, del slider, de la propiedad la cuál, intercambiará el valor de la kinemática entre "IK/FK"
+	
+
+	
+
+

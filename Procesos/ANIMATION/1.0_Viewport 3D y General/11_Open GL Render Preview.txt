@@ -1,0 +1,58 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Introducción:
+
+	_así como también, disponemos de la posibilidad de hacer un render preview, en OpenGL, para que así,
+
+	podamos tener una apreciasión en tiempo real de la animación sin retardos ó delays
+
+
+	_ésto es especialmente útil para apreciar el timming, y demás comportamientos en tiempo real
+
+
+
+
+OpenGL Render Preview:
+
+
+	_para lo cuál, lo primero será ir a las opciones en "properties/render/output", y allí configurar las
+
+	opciones de salida de archivo, como su ruta de destino, así, si el sistema sobre  escribirá los archivos
+
+	existentes
+
+
+	_así, como también, tendremos que elegir el formato de archivo de salida, es recomendable escoger un archivo
+
+	de tipo de imágen, ej; jpg, ó png, ya que el sistema tiene la capacidad de reproducir luego ésta secuencia
+
+	de imagenes ha modo de video
+
+
+	_así, como también, podremos escoger el espacio de color, profundidad de bits, y lo más importante, el nivel
+
+	de compresión del archivo, por defecto se encuentra en una compresión de "15%"
+
+
+	_y para por último darle ha "Render/OpeGL Render Animation", en la pestaña superior de la aplicación
+
+
+
+	_más posteriormente para visualizar la animación tendremos que ir a "Render/Play Rendered Animation", en la
+
+	pestaña superior de la aplicación ó shortcut; "Control F11"
+
+
+	_de ésta manera, podremos tener una visualización fidedigna del flow y timing, de la animación
+
+
+
+
+"

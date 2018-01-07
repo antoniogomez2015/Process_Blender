@@ -1,0 +1,29 @@
+
+
+
+	Blender: retopologizar una cabeza en pocos minutos con bsurfaces
+
+		https://www.youtube.com/watch?v=0wmqMchmM6c
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Addon:
+	______
+
+	_B-Surface, es un addon, que ha viene preinstalado en blender, más éste no biene activado de ésta manera,
+
+	tendremos que activar éste de forma manual
+
+
+	_para lo cuál, debemos de abrir la preferencia de la aplicación shortcut, "Control + Alt + U", en la cuál,
+
+	podremos ir a la sección de addons, y buscar el addon, b-surface, activar éste y guardar las preferencias
+
+	del programa para que así, éste esté disponible posteriormente
+
+

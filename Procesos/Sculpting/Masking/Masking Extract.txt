@@ -1,0 +1,43 @@
+
+
+Grease Pencil
+
+
+
+	Tutorial:
+
+		Grease Pencil en Blender 2.73
+			https://www.youtube.com/watch?v=Ia76g0qdyp8
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Masking Extract:
+________________
+
+
+	_al tener enmascarada un área tenemos la posibilidad de extraer esta área ó zona enmascarada,
+
+	para esto, podemos ir al menú lateral izquierdo, shortcut "T", e ir ha "Tab/Sculpt/Extract Mask",
+
+	así, se creará un objecto nuevo
+
+
+		_otra opción hacerlo a través, de su shortcut: "Control + Shift + B", y en la parte interior
+
+		de este menú contraremos la opción "Mask Extract"
+
+
+	_este objeto nuevo que se ha creado podemos editarle ó configurarle sus características de creación,
+
+	así, en el momento de su creación podemos acceder a sus opciones de creación yendo ha:
+
+
+		_en el menú lateral isquierdo, shortcut: "T", en la parte inferior del mismo
+
+
+		_otra opción es aplicando el shortcut "F6"
+
+	

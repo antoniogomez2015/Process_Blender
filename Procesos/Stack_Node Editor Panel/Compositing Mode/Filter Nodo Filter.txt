@@ -1,0 +1,68 @@
+
+
+
+Node Editor / Compositing
+
+	
+	DT Compositing
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Nodos:
+______
+
+
+	Node Editor/Compositing/Add/Filter/:
+
+
+	_tenemos ha nuestra disposición el nodo de "Filter", el cuál nos permitirá disponer de una serie de filtro de forma 
+
+	agrupada así, dispondremos de los siguientes filtros ó efectos:
+
+
+		Shadow:
+
+			_es una efecto de pseudo shadow, a través, del efecto de emboss, similar al de Photoshop
+
+
+		Kirsc:
+
+			_éste es un efecto similar ha un neo invertido en radiografía, similares ha los de Photoshop
+
+
+		Prewilt:
+
+			_éste es similar al anterior "Kirsc", aunque un poco más leve
+
+
+
+		Sabel:
+
+			_éste también es ismilar al anterior "Kirsc", aun un poco más leve y difuminado
+
+
+		Laplace:
+
+			_éste tiene la propidad de hacer transparente la layer, en proporción al valor indicado
+
+
+		Sharpen:
+
+			_éste hace el efecto de enfoque a través, del efecto de embos, ó encontrar border, similar
+
+			al de Photoshop
+
+
+		Soften:
+
+			_éste hace el efecto de desenfoque suave
+
+
+
+
+
+
+

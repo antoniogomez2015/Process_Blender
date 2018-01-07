@@ -1,0 +1,63 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	TexDraw:
+	________
+
+	_la brocha ó brush, más recomendada para éste proceso es la brocha convencional de pintado ó texturizado a 
+
+	través, de la cuál, podremos aplicar todo tipo de detalles de forma libre y por medio de imágenes en alpha y en
+
+	color
+
+
+
+	Brush Painting:
+	_______________
+
+	_la fuerza aplicada para generar el normal map ó bump map, la va ha generar dos aspectos, éstos son:
+
+
+		_el aspecto de color "black and white", ó blanco y negro, en donde blanco nos permitirá la creación de
+
+		relieves y el negro nos permitirá la creación de depresiones sobre la superficie 
+
+
+		_y por otro lado tendremos la dureza de la pincel ó weight, ó "Strength" shortcut: "Shift + F"
+
+
+
+	Brush Settings:
+	_______________
+
+	_donde las características más recomendadas para la creación de detalles finos y arrugas debería de ser como
+
+	mínimo la siguiente:
+
+		
+		Radio del Pincel:
+
+			_el radio aconsejado para crear arrugas debería de ser de un mínimo de "Radio: 1px", ha menos
+
+
+		Strength:
+
+			_la fuerza mínima debería de ser de "Strength: 0.100", para que así, podamos hacer detalles 
+
+			suaves y sutiles
+

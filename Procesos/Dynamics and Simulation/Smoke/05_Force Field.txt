@@ -1,0 +1,92 @@
+
+
+
+
+Blender Dynamics / Smoke
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Descripción:
+	____________
+
+	_los sistema de simulación de humos son sensibles a las opciones dinámicas de "Force Field", ó campos de fuerza
+
+	de ésta manera, podremos hacer que los sistema dinámicos de humos interactúen con fuerzas de tipo viento, vortex,
+
+	campos de atracción y repulsión, otros
+
+
+	_de ésta manera, podremos aumentar considerablemente las posibilidades de los sistema dinámicos de emisión de humo
+
+
+
+
+	Force Field Wordflow:
+	_____________________
+
+	_para lo cuál, debemos de crear un elemento de tipo mesh, por ejemplo; un plano el cuál, lo colocamores en relación
+
+	a la dirección y posición en la cuál, deseamos que éste interactúe con el sistema de emisión de humo
+
+
+	_para a continuación seleccionar éste elemento y con éste seleccionado ir a las opciones de "Physis/Force Field", y
+
+	activamos éstas opciones para éste objeto
+
+
+	_para que así, aún con el elemento seleccionado podamos ir a las opciones "Physis/Force Field/Type", y allí, seleccionar
+
+	una de las opciones disponibles ó tipo de fuerza ha interacturar con el sistema de generación de humo en éste caso
+
+
+	_para posteriormente volvar ha calcular la simulación shortcut, "Alt + A", y poder ver así, la inveracción de la fuerza
+
+	seleccionada ha interactuar con el sistema de humo
+
+
+	
+	Force Field options:
+	____________________
+
+
+		Strength:
+		_________
+
+		_éste parámetro nos permitirá agregar fuerza ó influencia sobre el sistema de emisor de fluidos tanto en valores
+
+		positivos como en valores negativos
+
+		
+
+		Noise:
+		______
+
+		_ésta opción nos permitirá agregar ruido ó turbulencia suave a la fuerza emitida ó ejercida sobre el sistema
+
+		emisor de humo
+
+
+
+		Flow:
+		_____
+
+		_ésta opción nos permitirá agregar turbulencia fuerte a la fuerza emitida ó ejercida sobre el sistema
+
+		emisor de humo
+
+
+	
+		Seed:
+		_____
+
+		_ésta opción nos permitirá agregar influencia ó fuerza previa de la fuerza emitida ó ejercida sobre 
+
+		el sistema emisor de humo
+
+
+	
+

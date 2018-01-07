@@ -1,0 +1,23 @@
+
+
+
+Blender: material de piel humana 1: consideraciones para el bump map
+	https://www.youtube.com/watch?v=A7QzJ1J4faQ
+
+
+Blender: material de piel humana 2: el bump map
+
+	https://www.youtube.com/watch?v=no6Wt1c3BPg
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	UV Map:
+	_______
+
+	_el character, ó motivo debe de tener creado el proceso de UVs, a través, del cuál, se podrán proyectar y volcar
+
+	todas las texturas sobre éstos uvs
