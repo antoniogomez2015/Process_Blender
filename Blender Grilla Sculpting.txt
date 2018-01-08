@@ -1,0 +1,16 @@
+
+
+
+
+
+	Blender Grilla para que de 8 partes iguales para personales:
+
+
+		Properties Menu (N)/Display:
+
+
+			_Lines: 0
+
+			_Scale: 100
+
+			_Subdivisions: 20
