@@ -61,6 +61,8 @@ Navegation / transform:
 
 	snap: shift + tab
 
+	Shift + C: (resetear la posición del cursor 3d, al centro del axis)
+
 	navegate center pivot: alt + , (coma) (mode object)
 
 	pivot point / bounding box: , (coma) (mode object)
@@ -92,6 +94,8 @@ Modes:
 
 
 Select:
+
+	select sub elements inslands (edit mode): Control + L
 
 	select objects (object y edict mode): mouse right click
 
@@ -134,6 +138,8 @@ general:
 	add select to active group: control + shift + G
 
 	remove select to active group: alt + shift + G
+
+	Isolate Geometry: / "Slash" (Edit Mode/Object Mode)
 
 
 
@@ -183,7 +189,7 @@ Tools:
 
 	Insert Loop: control + R
 
-	Bavel: control + B
+	Bavel: control + B (recalcular la escala antes: "Control + A")
 
 	Edge Crise: shift + E
 
@@ -266,7 +272,7 @@ Menus:
 
 	make singular user: U (mode object)
 
-	make links: control + L (mode object)
+	make links: control + L (mode object) (seleccionar de último al elemento que tiene la información ha clonar, ej; el material)
 
 	make proxi: control + alt + P
 
@@ -308,6 +314,8 @@ Edit Mode:
 	unhiden elements: alt + H
 
 	split sub elements seleccionados: Y
+
+	Divide Vertex: V
 
 	convert polygon to triads: control + T
 

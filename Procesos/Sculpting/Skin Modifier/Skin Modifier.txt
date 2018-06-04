@@ -1,0 +1,260 @@
+
+
+
+Blnder Sculpting "Transpose", emulación
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	_en modificador nos permitirá poder crear una geometría base personalizada la cuál, nos ayudará ha construir
+
+	un character, ha modo de "ZSpheres", ó "ZSketches", de ZBrush
+
+
+
+
+
+	Referencia:
+
+		1. Creación de personaje en Blender - Skin modifier y cargar referentes
+
+			https://www.youtube.com/watch?v=UanIPpdGnOE
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+	Geometría Base:
+	_______________
+
+
+	_primeramente debemos de crear una geometría base como una plano por ejemplo
+
+
+	_de ésta manera, debemos de seleccionar el plano que hemos creado y entrar en su modo de edición;
+
+	"edit mode", shortcut, "Tab", específicamente al modo de "Vertex" 
+
+
+	_para a continuación abrir el panel contextual de "Merge", shortcut, "Alt + M", en el cuál, debemos
+
+	de seleccionar la opción de "At Center", para que así, todos los vertex seleccionados se colapsen 
+
+	al centro 
+
+
+	_para que así, nos quede un unico vertex a partir del cuál, comenzaremos ha realizar el proceso de
+
+	generación de maya base
+
+
+
+
+	Mirror Modifier:
+	________________
+
+	_una vez hemos simplicado los sub elementos que la geometría a un solo vertex en el paso anterior, debemos
+
+	de aplicar ha éste elemento un modificador "Mirror"
+
+
+	_para que así, los elementos que se proyectende un lado como extremidades, otros, sean reflejados en el 
+
+	lado opuesto del plano de exis
+
+
+
+
+	Skin Modifier:
+	______________
+
+	_para justo a continuación agregar el modificador "Skin", el cuál, nos permitirá generar el volúmen de la
+	
+	geometría ha emular de forma dinámica
+
+
+
+
+	Subdivision Surface Modifier:
+	_____________________________
+
+	_para justo a continuación agregar el modificador "Subdivision surface", el cuál, nos permitirá suavizar 
+
+	y subdividir la geometría resultando permitirendonos generar resultados más orgánicos y naturales
+
+
+	_más para tener una mejor visualización dispondremos de la opción "Optimal Display", la cuál, nos permitirá
+
+	visualizar la geometría resultante con una menor cantidad ó densidad de geometría
+
+
+	_ésta opción es especialmete útil para la conformación de elementos complejos como manos, otros
+
+
+
+
+	Skin Modifier Workflow:
+	_______________________
+
+	_ahora vamos ha realizar el proceso de extrusión y edición de la geometría ha generar por medio de la
+
+	extrusión del sub elemento vertex de la geometría base que creamos inicialmente, más las características
+
+	del modificador "Skin"
+
+
+
+	Extrusion:
+	__________
+
+
+	_debemos de colocar el primer vertex ó la posición inicial del sistema en la posición del "hip", ó cadera 
+
+	del character
+
+
+	_para a continuación proceder ha extruir, shortcut "E", la "Spine", ó columna vertebral del character, para 
+
+	extruir en una cordenada específica, podremos una vez extruido con el shortcut, "E", podremos presionar 
+
+	seguidamente el shortcut "Z", en éste caso para extruir hacia arria ó hacia abajo
+
+
+
+	System Root:
+	____________
+
+
+	_en el sistema del modificar "Skin", el último vertex extruido siempre será el vertex principal del sistema, 
+
+	el cuál, será representado por un circulo de color negro de gran tamaño sobre éste
+
+
+	_por lo que tendremos que seleccionar el vertex correspondiente al "Hip", ó cadera del character, para a 
+
+	continuación con éste vertex seleccionado ir a las opciones del modificador skin, y una vez allí, activar 
+
+	la opción de "Mark Root", para que así, el vertex seleccionado ahora pase ha hacer el vertex principal 
+
+	del sistema
+
+
+
+	Node Scale:
+	___________
+
+	_para escalar ó cambiar el tamaño de un nodo ó vertex, debemos seleccionar éste y aplicar el shortcut, 
+
+	"Control + A", y arrastrar para que así, podamos hacer variaciones sobre el tamaño ó escala de la geometría
+
+	ha generar en relación a las necesidades del modelo de referencia, otros
+
+
+	_más también, para modelar un character, podremos hacer escalados por cordendas específicas de ésta manera,
+
+	podremos por ejemplo crear un pecho el cuál, deseamos ensanchar más a los ancho
+
+
+	_para lo cuál, podremos aplicar el shorcut, "Control + A", para seguidamente aplicar el shortcut, "X", para 
+
+	que así, el vertex sea escalado sólo en la cordenada "X", de ésta manera, el pecho será escalado sólo a 
+
+	lo ancho
+
+
+	
+	Node Division:
+	______________
+
+	_en ocaciones requeriremos dividir dos ó más vertex seleccionados para que así, podamos aumentar el detalle
+
+	y la capacidad de interpretar el volúmen en un character
+
+
+	_para lo cuál, podremos seleccionar dos vertex ó más y con éstos seleccionados abrir el panel "Specials",
+
+	shortcut, "W", en el cuál, debemos de seleccionar la opción "Subdivide", para que así, un nuevo vertex sea
+
+	agregado entre los dos vertex seleccionados, otros
+
+
+
+	Simplify Surface:
+	_________________
+
+	_cuando generamos estructuras complejas como un toe, ó pie por ejemplo; en los que tendremos que del tobillo
+
+	ó tarso sacar tando el metatarso y fingers, como un talón ó calcáneo a través, de extrusión de vertex
+
+
+	_es bastante probable que obtengamos una mesh, compleja y poco ordenada y agregada, por lo cuál, tendremos 
+
+	que seleccionar el vertex a partir del cuál, son extruidos los demás 
+
+
+	_en éste ejemplo sería el vertex correspondiente al inicio del metatarso, y con éste vertex seleccionado
+
+	proceder ha ir a las opciones del modificar "Skin", y darle a la opción de "Mark Loose" 
+
+
+	_para que así, el sistema haga una ponderación entre una forma residual al volúmen de vertex extruidos por 
+
+	nosotros generados ó contiguos para que así, a través, de éste procedimiento podamos suavizar la forma 
+
+	resultante del pie en éste caso
+
+
+
+
+	Sculpting:
+	__________
+
+	_más ahora para poder esculpir el modelo de geometría que hemos creado an los pasos anteriores, debemos de
+
+	colapsar ó aplicar los modificadores que hemos aplicado sobre el modelo
+
+
+	_así, debemos aplicar los modificadores en el siguiente orden:
+
+
+		_1_"Mirror"
+
+		_2_"Skin"
+
+		_3_"Subdivision Surface"
+
+
+	_ya que si aplicamos los modificadores en un orden diferente podremos obtener resultados inerperados
+
+
+	_más también, dispondremos de un procedimiento mucho más fácil, para lo cuál, debemos de pasar al mode
+
+	"Object Mode", shortcut, "Tab"
+
+
+	_para posteriormente seleccionar la geometría correspondiente el modelo ó motivo y con ésta seleccionada
+
+	abrir el panel contextual "Convert To", shortcut, "Alt + C", en el cuál, debemos seleccionar la opción
+
+	de "Mesh from Curve/Meta/Surf/Text"
+
+
+	_para que el así, el sistema colapse los modificadores existentes en el modelo en el orden correcto y
+
+	genere una geometría totalmente editable y esculpible
+
+
+
+
+
+
+
+
+
+

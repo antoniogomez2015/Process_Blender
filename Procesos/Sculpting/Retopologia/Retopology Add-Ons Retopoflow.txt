@@ -1,0 +1,312 @@
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Retopology:
+___________
+
+
+	Reference:
+
+		7. Creación de personaje en Blender - Retopology parte 1
+
+			https://www.youtube.com/watch?v=92vpd906Gzo&list=PLuZobCUFxSRsdPRH2WGj7-ObYqT7zIfXy&index=7
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Workflow: Retopoflow:
+_____________________
+
+
+	
+	Add-ons:
+	________
+
+
+	_primero debemos instalar y activar el add-ons, "Retopoflow"
+
+
+		_Activación: Blender User Preferences/Add-ons/"Mesh: "View 3D Retopoflow" 
+
+
+		_Location: 3D View/EditMode/Retopolog
+
+
+
+
+	Create Tubes:
+	_____________
+
+
+		Instalación:
+		____________
+	
+		_tenemos la posibilidad de crear loops, de geometría tubular lo cuál, es especialmente útil para 
+
+		creación de partes como brazos, piernas, cuellos, dedos, otros
+
+
+
+		Activar y Configurar:
+		_____________________
+
+		_para lo cuál, debemos ir al panel "tools", shortcut, "T", e ir al tag, "View 3D Retopoflow", para a 
+
+		continuación proceder ha seleccionar la mesh, base del motivo sobre la cuál, deseamos crear la 
+
+		retopología
+
+
+		_para a continuación proceder ha seleccionar la opción de "View 3D Retopoflow/Contours", para que así, 
+
+		el sistema asigne automáticamente el valor en "Source Object"
+
+
+		
+		Crear Loops:
+		____________
+
+
+		_para luego proceder ha hacer trazados perpendiculares a la extremidad ó tubo ha emular con la nueva 
+
+		topología 
+
+
+		_de ésta manera, debemos hacer trazados haciendo "Mouse left click and drag", atravezando completamente
+
+		la extremidad ó tubo ha emular
+
+
+		_de ésta manera, debemos de repetir éste proceso hasta terminar de rellenar el área ha emular a través,
+
+		de una serie de loops, paralelos unos de otros
+
+
+		
+		Editar Loops:
+		_____________
+
+		_más una vez creada la serie de loops, sobre la extremidad ó tubo respectivamente, podremos seleccionar,
+
+		mover y rotar los loops, independientemente unos de otros para que así, podamos ajustar la topología
+
+		resultante en relación al tipo de topología deseada
+
+
+		_para lo cuál, tendremos que posarnos sobre un loop, creado para que éste cambie de color para a 
+
+		continuación proceder ha hacer "Mouse right click", para que aparezca un ícono de "translate and rotate"
+
+
+		_a través, del cuál, podremos mover el loop, ó hacer el efecto de "Slice", shortcut, "G", como también, 
+
+		de rotar el loop, shortcut, "R"
+
+
+		
+		Confirm Geometry:
+		_________________
+
+		_de ésta manera, una vez hemos creado los loops, que conformarán la geometría y a su vez, hayamos 
+
+		editado los loops, deseados
+
+
+		_podremos generar la geometría resultante para lo cuál, debemos de aplicar el comando "Enter", de ésta
+
+		manera, la nueva geometría será volcada sobre la superficie de la extremidad ó tubo respectivamente
+
+
+
+
+	Create Surfaces:
+	________________
+
+
+		General:
+		________
+
+		_tendremos la posibilidad de crear bordes de faces, sobre una superficie a través, de un brush, ha 
+
+		modo de spline, para que así, a través, de éstos bordes de faces, podramos posteriormente crear
+
+		superficies más complejas posteriormente de ser necesario
+
+
+
+		Brush:
+		______
+
+		_para lo cuál, primeramente tendremos que estar en modo "Edit Mode", shortcut, "Tab", para 
+
+		posteriormente proceder ha seleccionar el model ó motivo sobre el cuál, deseamos crear la retopología
+
+
+		_para a continuación ia al panel tools, shortcut, "T", para luego ir al tag, "View 3D Retopoflow", 
+
+		y una vez allí, activar el modo de "Polystrips"
+
+
+		_para que así, nos aparezca el brush, sobre la superficie el cuál, podremos graduar su tamaño a través,
+
+		del shortcut, "F", an drag
+
+
+
+		Create Faces Edges:
+		___________________
+
+		_una vez hemos configurado el brush, en el paso anterior, podremos proceder ha crear nueva geometría
+
+		para lo cuál, debemos de hacer "Mouse left click and drag", sobre la superficie
+
+
+		_para que así, a través, de una spline, sobre la superficie el sistema irá creando nueva geometría
+
+		totalmente editable
+
+
+		_de ésta manera, éste paso lo podremos repetir las veces que sea necesario sobre el motivo en relación
+
+		a la topología ha emular ó lograr
+
+
+		_para que así, podamos crear superficies complejas formando rectángulos los cuáles, podremos rellenar
+
+		posteriormente entre otro tipo de superfices más complejas aún
+
+
+		_más también, tendremos la posibilidad de interceptar éstos edges de faces, tanto en sus extremos 
+	
+		como también, en cualquier punto de su trayectoria, ésta opción es especialmente útil en los extremos
+
+		de los "edges faces", para la creación de superficies rellenas posteriormente por el sistema
+
+
+		
+		Density Edges Faces:
+		____________________
+
+		_más también, tendremos la posibilidad de graduar la densidad de topología generada en cada edge face,
+
+		para lo cuál, debemos de seleccionar el edge faces, con el shortcut, "Mouse right click", sobre la 
+
+		parte media del edge faces, para que así, éste se coloree de color verde quedando así, seleccionado
+
+
+		_en éste punto éste en la parte media del edge faces, nos mostrará la cantidad de faces, en numero
+
+		de la cuál, está conformado el edge faces
+
+
+		_para que así, podamos variar ésta cantidad de faces, dispondremos del shortcut, 
+
+		"Shift + Mouse Midle Click and Drag"
+
+
+
+		Edit Comands:
+		_____________
+
+		G: arrastrar, editar ó estirar un edges faces, seleccionado
+
+		X: éste comando nos permitirá eliminar edges faces, seleccionado previamente
+
+		K: éste comando nos permitirá dividir un edge faces, en un punto ó face, seleccionado previamente
+
+
+
+		Edit Spline Edge Faces:
+		_______________________
+
+		_una vez hemos creado los edge faces, tendremos la posibilidad de editar éstos donde primeramente
+
+		podremos editar las splines generadas por el sistema en cada uno de los edges faces, generados
+
+
+		_para lo cuál, debemos de primeramente seleccionar un "edge faces", tanto en su parte centro ó
+
+		en uno de sus extremos haciendo "Mouse right click"
+
+
+		_para que así, éstos se coloreen de color verde y a su vez, se hagan visibles los handles, ó 
+
+		manejadores de las splines
+
+
+		_para que así, podamos haver una ó dos veces, "Mouse right click", ahora sobre uno de los handles,
+
+		deseados a editar hasta que sólo el handle, quede seleccionado sin los faces, respectivamente
+
+
+		_para que así, podamos mover el handle, en una dirección a través, del shortcut, "G", and drag
+
+
+		
+		Create Surfaces:
+		________________
+
+		_una vez hemos creado "edges faces", y las hemos unido transversamente como se ha indicado en los
+
+		anteriores podremos entonces proceder ha rellenar éstas superficies para que así, podamos generar
+
+		superficies más complejas
+
+
+		_para lo cuál, sólo tendremos que seleccionar al menos dos "edges faces", opuestas haciendo 
+
+		"Mouse right click", como también, podremos seleccionar las cuatro edges faces, relacionadas
+
+
+		_para a continuación aplicar el shortcut, "Shift + F", para que así, el sistema rellene el área
+
+		entre los edges faces, relacionados
+
+
+		
+		Edit Vertex Edges Faces:
+		________________________
+
+		_más también, tendremos la posibilidad de editar los vertex que conforman los edges faces, ó las
+
+		superfaces, generadas en el paso anterior
+
+
+		_para lo cuál, debemos de dejar sostenido el shortcut, "T", para a continuación proceder ha aplicar
+
+		el shortcut, "G", and drag
+
+
+		_para que así, podamos ir moviendo y editar las superficie generada
+
+
+
+		Generate Geometry:
+		__________________
+
+		_de ésta manera, una vez hemos creación los edges faces, y las surfaces, respectivamente tendremos
+
+		la posibilidad de crear geometría a partir de ésta sobre la superficie de referencia
+
+
+		_para lo cuál, debemos de aplicar el shortcut, "Enter", de ésta manera, la geometría quedará de forma
+
+		permanente sobre la superficie de referencia
+
+
+
+
+
+
+
+
+
+
+
+
+
