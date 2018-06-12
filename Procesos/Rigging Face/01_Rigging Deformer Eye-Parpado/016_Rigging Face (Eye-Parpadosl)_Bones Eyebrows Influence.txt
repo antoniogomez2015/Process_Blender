@@ -1,0 +1,57 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Eyebrow Influence:
+	________________________
+
+
+	_al cerra el ojo ó parpadear, el arco de bones, que representan cada párpado no convergen en el mismo punto al
+
+	unirse ambos párpados, tanto el superior como el inferior
+
+
+	_de ésta manera, hacemos uso del sistema de seguimiento entre tando los bones, que hacen de "handles", como 
+
+	los bones, que hacen de "deformers", a través, de los constraints, "Copy Locations"
+
+
+	_de ésta manera, podremos cerrar lo ojos e ir viendo que bones, se superponen en el proceso de parpadeo de los
+
+	ojo para que así, podamos ir seleccionando los bones, respectivos que hacen de "deformers"
+
+
+	_y con cada uno seleccionado y estando en el "Pose mode", ir al panel "Properties/Bone Constraint", y una vez 
+
+	allí, hacer variaciones sobre el valor de "Influece", del respectivo contraint, aplicado al bone, en cuestión
+
+
+	_éste proceso lo debemos repetir con todos los bones, que hacen de "deformers", hasta que ambos párpados
+
+	coincidan y el ojo se vea perfectamente cerrado
+
+
+	_como también, debemos de repetir éste proceso para el otro ojo, para el ojo derecho
+
+
+
+
+
+
+
+
+
+

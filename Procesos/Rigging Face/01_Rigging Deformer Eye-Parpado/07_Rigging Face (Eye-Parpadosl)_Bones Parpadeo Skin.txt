@@ -1,0 +1,55 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Parpadeo Skin:
+	____________________
+
+	_de ésta manera, debemos seleccionar el bone, del centro del ojo con el nombre de "L_EyeRot_Control", por
+
+	ejemplo, para a continuación duplicar éste bone
+
+
+	_para que así, podamos primeramente re escalar éste bone, para posteriormente re ubicar éste bone sobre el 
+
+	arco superior del ojo, siñiéndonos a los vertex que conforman el arco del ojo
+
+
+	_tratando de que éstos bones, queden dentro de la geometría de la mesh, base del character, procurnado así,
+
+	de que éstos bones, interactúen con la geometría a la hora de realizar el skinning, ó weights, ó pesos del 
+
+	character, posteriormente
+
+
+	_de ésta manera, iremos duplicando éste bone, respectivamente hasta cubrir todo el arco superior del párpado 
+
+	del ojo
+
+
+	_ésta serie de bones, la podremos renombrar como "LParpUp_1,2,3...", y "LParpDown_1,2,3...", respectivamente
+
+
+	NOTA: ésta serie de bones, debemos de dejarle activada la propiedad de "Properties/Bone Bone/Deformer"
+
+
+
+
+	
+
+
+
+

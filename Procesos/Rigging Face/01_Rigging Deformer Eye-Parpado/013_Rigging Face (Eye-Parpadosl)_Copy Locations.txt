@@ -1,0 +1,52 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Copy Location:
+	______________
+
+	_primeramente debemos de seleccionar la layer, que corresponde al "Armature", y con ésta layer, seleccionada
+
+	entrar en el modo "Pose mode"
+
+
+	_para a continuación proceder ha seleccionar primeramente el bon, "L_ParpUp_Handle", tipo handle, y seguidamente
+
+	con "shift", presionado el bone, de tipo "Deformer" "L_ParpUp_1", respectivo
+
+
+	_para a continuación abrir el menú contextual de "Add Constraint", a través, del shortcut, "Control + Shift + C",
+
+	en el cuál, debemos seleccionar el contraint "Copy Location"
+
+
+	_para que así, ahora por ejemplo, al mover el bone, "L_EyeParpUp", arqueado 30, grados ahora también, se muevan
+
+	al unísono tanto los bones, "handles,", como los bones, "Deformers", respectivamente
+
+
+	_éste mismo proceso lo podremos repetir para los handles, y bones, deformers, del párpado inferior y así, como
+
+	también, con los del ojo derecho respectivamente
+
+
+
+
+
+
+
+
+

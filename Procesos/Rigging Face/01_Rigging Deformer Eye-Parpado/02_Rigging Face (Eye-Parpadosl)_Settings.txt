@@ -1,0 +1,46 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Settings:
+	_________
+
+
+	NOTA: debemos realizar éste proceso antes de aplicar el proceso de "Skinning", ó "Envelope", ó "Weights", entre
+
+	el mesh, del character, y el "Armature", base que hemos creado previamente
+
+
+
+	_de ésta manera, primeramente seleccionaremos el "Armature", del character, y con éste seleccionados iremos al 
+
+	penel "properties/Data Object Data/Display", en la cuál, seleccionaremos el tipo de visualización para los bones 
+
+	de tipo "B-Bone"
+
+
+	_en éste modo de visualización de bones, lo más seguro es que veamos los bones, muy gruesos para lo cuál,
+
+	podremos seleccionar todos los bones con el shortcut, "AA"
+
+
+	_para a continuación proceder ha escalar todos los bones con el shortcut, "Control + Alt + S", and drag, para
+
+	que así, adelgacemos los bones hasta un tamaño que consideremos pertinente
+
+
+
+

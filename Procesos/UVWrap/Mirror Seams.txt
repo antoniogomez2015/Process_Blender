@@ -1,0 +1,65 @@
+
+
+
+
+	20 Tips to Speed Up UV Mapping in Blender
+		https://www.youtube.com/watch?v=bWPD2aEd8tY
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Edge Select Mode:
+	_________________
+
+	_una opción para seleccionar edges, y que éstos se conviertan directamente ha mark seams, es activar la
+
+	opción del panel "Tools/Options/Edge Select Mode", en el cuál, podremos seleccionar la opcíon de "Tag Seam"
+
+
+
+
+	Mirror Seams:
+	_____________
+
+
+	_primeramente debemos de seleccionar el mesh, del character, y con éste seleccaionado entrar en su 
+
+	"Edit mode", a través, del shortcut, "Tag"
+
+
+	_para posteriormente proceder ha seleccionar al menos un edge, con un seams, aplicado de los que hemos creado 
+
+	en uno de los lados del character 
+
+
+	_para a continuación abrir el panel contextual de "Select Similar", a través, del shortcut, "Shift + G"
+
+
+	_en el cuál, debemos de seleccionar la opcíon de "Seams", de ésta manera, todos los seams, que hemos creado
+
+	se seleccionarán en el character
+
+
+	_para posteriormente conlos seams, seleccionados previamente ir al panel "Select", en el cuál, debemos de
+
+	seleccionar lao opción de "Mirror", para que así, los mismos "Edges", sean seleccionados en el lado opuesto
+
+
+	_para por último con los edges, del character, seleccionados abrir el panel contextual de "Edges", a través,
+
+	del shortcut, "Control + E", en el cuál, podremos seleccionar la opción de "Mark Seam"
+
+
+	_para que así, los edges, opuestos del character, se conviertan ha mark seams, al igual que el lado original
+
+
+
+
+
+
+
+

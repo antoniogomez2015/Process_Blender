@@ -1,0 +1,77 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mirror Eye System:
+	__________________
+
+	_una vez que hemos terminado de realizar el proceso de creación de los bones, que conformarán todos los
+
+	controles del párpado del ojo izquierdo en éste caso, como los son;
+
+
+	_el hueso del centro del ojo, el hueso ha 30, grados tanto para el abrir y cerrar el párado superior como el
+
+	párpado inferior, la serie de huesos arqueados tanto del párpado superior como del párpado inferior
+
+
+	_e igualmente los huesos duplicados de los arcos de los párpados para se usados como handles
+
+
+	_en éste punto podremos seleccionar la layer, correspondiente al armarture, y con ésta seleccionada entrar en
+
+	el modo "Edit mode", shortcut, "Tab"
+
+
+	_para que así, procedamos ha seleccionar todos los bones, correspondientes al ojo izquierdo que hemos nombrado
+
+	en pasos anteriores
+
+
+	_y con éstos seleccionados proceder ha colocar el cursor 3D, en el centro del viewport, a través, del shortcut,
+
+	"Shift + C"
+
+
+	_para a continuación colocar el modo de "Pivot Point", en el modo de "Cursor 3D", a través, del shortcut, ".".
+
+	punto en el teclado
+
+
+	_para a continuación proceder ha duplicar todos los bones, del ojo izquierdo que hemos seleccionado previamente
+
+	a través, del shortcut, "Shift + D", + mouse right click, para que los bones, duplicados se queden en el mismo
+
+	sitio de los bones, originales de los cuáles, fueron duplicados
+
+
+	_para posteriormente proceder ha reflejar los bones, del lado izquierdo al lado derecho para lo cuál, debemos de
+
+	ir al panel "Armature/Mirror/X Global", ó a través, del shortcut, "Alt + M", en "Edit mode", y para aceptar la
+
+	transformación debemos de aplicar "Enter"
+
+
+	_para que así, los bones, seleccionados sean reflejados al lado derecho del character, respectivamente
+
+
+	_para posteriormente y aún con los bones, reflejados seleccionados podremos ir al panel "Armature/Flip Names",
+	
+	para que así, el sistema renombre los bones, seleccionados cambiando los prefijos de "L_", ha "R_", por ejemplo
+
+
+
+

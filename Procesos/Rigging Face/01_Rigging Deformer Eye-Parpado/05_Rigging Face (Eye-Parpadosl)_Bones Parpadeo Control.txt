@@ -1,0 +1,100 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Parpadeo Control:
+	_______________________
+
+	_para a continuación proceder ha seleccionar el bone, que hemos creado en el paso anterior "L_EyeRot_Control",
+
+	el cuál, debemos de duplicar, shortcut, "Shift + D", y mouse right click, para que así, el bone, se quede
+
+	en el mismo lugar que el bone, original
+
+
+	_éste bone, lo podremos renombrar como ej: "L_EyeParpUp"
+
+
+	_para a continuación proceder ha seleccionar el effector, del bone, "L_EyeRot_Control", para a continuación
+
+	proceder ha colocar el "3D Cursor", en esa ubicación a través, del menú contextual de "Snap", shortcut, 
+
+	"Shift + S", en el cuál, debemos de seleccionar la opción de "Cursor to Selected"
+
+
+	_para a continuación proceder ha seleccionar el bone, que hemos creado con el nombre de "L_EyeParpUp", y 
+
+	y proceder ha rotar éste a través, del shortcut, "R", and drag
+
+
+	_para que así, procedamos ha rota el bone, en ésta caso unos 30, grados hacia arriba para conformar así, el
+
+	arco que representará al párpado superior del character
+
+
+	_para posteriormente volver ha repetir éstos mismos pasos para la creación del bone, correspondiente al 
+
+	párpado inferior con el nombre de "L_EyeParpDown"
+
+
+	_éstos bones, nuevos que hemos creado es recomendable restringir sus parámetros de transformación de ésta
+
+	manera, despliegaremos las propiedades del panel viewport 3d, a través, del shortcut, "N"
+
+
+	_en el cuál, en las opción de "Transform", desctivaremos las opciones de "Location X/Y/Z", y "Scale X/Y/Z",
+
+	como también, "Rotate Y/Z", dejando sólo activa la propiedad "Rotate X", tanto para el controlador principal
+
+	del párpado superior e inferior respectivamente	
+
+
+	NOTA: ha éste bone, debemos desactivarle la propiedad de "Properties/Bone Bone/Deformer", para que así, éste
+
+	bone, no tenga acción en el proceso de skinning, ó envelope, ó weights, posteriormente
+
+
+
+
+	Parent:
+	_______
+
+	_a continuación debemos de seleccionar la layer, correspondiente al "armature", y con ésta layer, seleccionada
+
+	debemos de entrar en el modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación selecciónar el bone, que hemos creación y renombrado como "L_EyeParpDown", para
+
+	posteriormente seleccionar el bone, principal de la cabeza llamado "Head"
+
+
+	_así, con ambos bones seleccionados abrir el panel "Make Parent", a través, del shortcut, "Control + P",
+
+	en el cuál, debemos de seleccionar la opción de "Keep Offset"
+
+
+	_para que así, el bone, que hemos creado obedezca a al movimiento de la cabeza posteriormente
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Auxiliar Bone:
+	______________
+
+	_en éste punto, debemos de seleccionar la layer, correspondiente al "Armature", para a continuación entrar en su
+
+	modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación crear un nuevo bone, a través, del shortcut, "Shift + A", el cuál, coloremos verticalmente 
+
+	debajo del ojo izquierdo en éste caso y, con efector hacia abajo, prolongando éste bone, hasta la altura de la 
+
+	mandíbula 
+
+
+	_para posteriormente extruir éste bone, hacia atras hasta casi la distancia y altura de la oreja
+
+
+	_para posteriormente volver ha extruir el bone, cercano a la oreja y prolongarlo hasta poco más allá, del
+
+	esfenoide más cercano al "rabito", del ojo
+
+
+	_éstos bones, los podremos renombrar como por ejemplo; "L_Head_Parp_Aux_1,2,3"
+
+
+	_a continuación repetiresmo éste mismo proceso para crear y re ubicar un bone, el cuál, colocaresmo por dentro
+
+	del tabique de la naris el cuál, podremos renombrar como "Nose_Aux"
+
+
+
+	_éstos bones, euxiliares conectados tendrán acción sobre el skinning, ó envelope, ó weights, de la cabeza
+
+	del character, con el objetivo de hacer contrapeso en relación a acción que realizarán los "weights", de los
+
+	párpados sobre la cabeza
+	
+
+
+
+
+
+
+
+
+

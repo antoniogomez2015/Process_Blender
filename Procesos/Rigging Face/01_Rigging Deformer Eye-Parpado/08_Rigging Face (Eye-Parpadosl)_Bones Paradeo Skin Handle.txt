@@ -1,0 +1,52 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Paradeo Skin Handle:
+	__________________________
+
+	_para a continuación proceder ha seleccionar los bones, que hemos creado en el paso anterior y con todos éstos
+
+	seleccionados proceder ha duplicar éstos a través, del shortcut, "Shift + D" + mouse right click, para que así,
+
+	los bones, duplicados queden en el mismo lugar que los bones originales
+
+
+	_ésta serie de nuevos bones, que hemos duplicado la podremos renombrar como "LParpUp_1,2,3.._Handle", y 
+
+	"LParpDown_1,2,3.._Handle", respectivamente
+
+
+	_para posteriormente sólo seleccionar los bones, que hemos duplicado con el nombre de "LParpUp_1,2,3.._Handle",
+
+	y con éstos seleccionados proceder ha escalar éstos a través, del shortcut, "Control + Alt + S", + Y, para que
+
+	así, éstos bones, se hagan más cortos que los bones, originales
+
+
+	_así, como también, es a consejable escalar éstos proporcionalmente para que también, sean más  gruesos a través, 
+
+	del shortcut, "S", and drag,
+
+
+	_de ésta manera, los nuevos bones, serán siempre visibles unos de otros sin ostaculizarse unos con otros
+
+
+
+
+
+
+

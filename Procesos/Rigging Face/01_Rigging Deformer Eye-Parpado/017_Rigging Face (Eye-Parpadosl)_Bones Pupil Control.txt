@@ -1,0 +1,91 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bone Pupil Control:
+	___________________
+
+	_para animar la dilatación y contracción de la pupila de forma controlada, primeramente debemos de seleccionar
+
+	el mesh, correspondiente a la pupila dentro del group, del eye
+
+
+
+
+	Handle Controler:
+	_________________
+
+	_primeramente debemos de seleccionar la layer, correspondiente con el armature, del character, y con éste
+
+	seleccionado entrar en el modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación crear un nuevo bone, el cuál, re escalaremos y colocaremos delante de la pupila para un
+
+	mejor manejo 
+
+
+	_así, como también, éste bone, lo debemos de renombra por ejemplo "L_pupil_handle"
+
+
+	_éstos pasos debemos repetirlos para el otro ojo, en éste caso el ojo derecho
+
+
+
+	
+	Vertex Groups:
+	______________
+
+	_para a continuación entrar en el modo de edición de éste a través, del shortcut, "Tab", para seguidamente entrar
+
+	en el modo de sub elementos vertex
+
+	
+	_para que así, podamos seleccionar los vertex correspondientes al área central de la pupila, de ésta manera, con
+
+	los vertex seleccionados vamos al panel "Properties/Data Object Data/Vertex Groups", y una vez allí, debemos de
+
+	darle al plus "+", para crear un nuevo grupo de vertices
+
+
+	_el cuál, debemos de renombrar con el mismo nombre que hemos renombrado el bone, que hará de controlador de la
+
+	dilatación y contracción de la pupila del ojo, para por último darle al botón de "Assign"
+
+
+	_para posteriormente invertir la sección de la pupila a través, del shortcut, "Control + I", y con la cuál,
+
+	debemos de crear un nuevo grupo de vertices el cuál, podremos renombrar como "pupil_invert"
+
+
+
+
+	Armature Modifier:
+	__________________
+
+	_para posteriormente en el modo "Object mode", proceder ha seleccionar la layer, que corresponde con la pupila
+
+	y con ésta seleccionada ir al panel "Properties/Modifiers", y una vez allí, agregar el modificador "Armature"
+
+
+	_
+
+
+
+
+
+
+

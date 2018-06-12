@@ -1,0 +1,81 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Parents Eyes:
+	_____________
+
+	_en éste punto debemos de emparentar el group, de la mesh, del ojo dentro del armature, y relacionarlo a su vez, 
+
+	al bone, correspondiente al ojo llamado en éste ejemplo como "L_EyeRot_Control"
+
+
+	_para lo cuál, la opción más fácil es seleccionar el "armature", del character, que hemos creado previamente y
+
+	con éste seleccionado pasamos el modo "Pose Mode", para a continuación proceder ha seleccionar el bone, 
+
+	"L_EyeRot_Control"
+
+
+	_de ésta manera, una vez hemos seleccionado el bone "L_EyeRot_Control", en "Pose mode", debemos de ir al panel 
+
+	"Outliner", shortcut, "Shift + F9"
+
+
+	_para que así, podamos seleccionar el group, correspondiente en éste caso al ojo izquierdo el cuál, debemos de
+
+	arrastrar sobre la layer, del "Armature"
+
+
+	_para que así, nos aparezca el panel contextual "Set Parent To", en el cuál, tendremos que seleccionar la
+
+	opción de "Bone"
+
+
+	_para que así, ahora el group, del ojo quede emparentado el armature, de ésta manera, ahora el group, del ojo
+
+	izquierdo ahora estará incluido dentro del armature, no estando así, en su posición original dentro del 
+
+	panel outliner
+
+
+	_y como previamente habíamos dejado seleccionado el bone, "L_EyeRot_Control", en "Pose mode", del "Armature",
+
+	entonces ahora el group, del ojo izquierdo habrá quedado relacionado al bone, "L_EyeRot_Control"
+
+
+	_de ésta manera, ahora al al volver ha seleccionar el bone, "L_EyeRot_Control", del armature, en pose mode,
+
+	y de rotar éste a través, del shortcut, "R", and drag 
+
+
+	_podremos ver que ahora la transformación del grupo del ojo isquierdo estará superditada a las acciones del 
+
+	bone, "L_EyeRot_Control"
+
+
+
+	_de ésta manera, podremos repetir todo éste proceso para emparentar también, al ojo derecho
+
+
+	
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+
+
+
+
+	Shape Keys - Facial Rig
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Introducción:
+	_____________
+
+	_existen diferentes métodos para realizar un facial rig, entre los que encontramos:
+
+
+		_rig por shape keys a set drivers a bones:
+
+			_Como hacer hablar al personaje 3d , primera parte
+				https://www.youtube.com/watch?v=5nMa6kJe1ck
+
+				Como hacer hablar al personaje 3d ,segunda parte
+					https://www.youtube.com/watch?v=2XgVaMOxnLk
+
+					Como hacer hablar al personaje 3d, tercera parte
+						https://www.youtube.com/watch?v=xOEtl8KP7TU
+
+
+			Tutorial facial rig basico en blender español [1/2]
+				https://www.youtube.com/watch?v=MqT2ehkZvLw
+
+
+
+		_rig por facial mocap (track points references):
+
+			_CGI Facial MocapTutorial : "Facial Mocap Using Blender"
+				https://www.youtube.com/watch?v=jwJhwcPFh70
+
+
+		_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Emparentar Arcos de Párpados:
+	_____________________________
+
+	_a continuación debemos de seleccionar la layer, correspondiente al armature, y con ésta seleccionada entrar
+
+	en el modo "Edit mode", a través, del shortcut, "Tab"
+
+
+	_para que así, procedamos ha seleccionar los bones, correspondientes al arco superior de bones, que harán de
+
+	handles, a los cuáles, los hemos renombrado como "L_ParpUp_1,2,3.._Handle"
+
+
+	_para por último seleccionar seguidamente al bone, "L_EyeParpUp", correspondiente al bone, dentro del ojo en 30,
+
+	grados de la parte superior del párpado
+
+
+	_para que así, abramos el menú contextual "Make Parent", a través, del shortcut, "Control + P", en el cuál,
+
+	seleccionaremos la opción de "Keep Offset"
+
+
+	_para que así, al volver el modo "Pose mode", podamos ahora rotar el bone, "L_EyeParpUp", para que así, ahora
+
+	todo el arco de bones, "L_ParpUp_1,2,3.._Handle", se mueva al unísono permitiendo así, cerrar el ojo ó hacer
+
+	el efecto de parpadeo
+
+
+	_éste mismo proceso lo podremos repetir para el párpado inferior de éste mismo ojo izquierdo entre los bones,
+
+	"L_ParpDown_1,2,3,..._Handle", y el bone, "L_EyeParpDown"
+
+
+	_así, como también, podremos repetir todo éste proceso a su vez, para el otro ojo derecho
+
+
+
+	NOTA: en éste punto, debemos de ir seleccionando cada uno de los bones, "Handles", tanto los 
+
+	"L_ParpUp_1,2,3.._Handle", como los "L_ParpDown_1,2,3,..._Handle", para a continuación con cada uno de éstos
+
+	seleccionados ir al panel "Bone Bone/Deform" 
+
+
+	_en la cuál, debemos de desactivar la opción de "Deform", para cada bone, respectivamente para que así, éstos
+
+	bones, no tengan acción sobre el mesh, del character, principal posteriormente
+
+	
+
+
+
+
+
+
+

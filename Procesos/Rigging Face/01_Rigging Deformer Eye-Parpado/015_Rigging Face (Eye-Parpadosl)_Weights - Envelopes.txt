@@ -1,0 +1,98 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Weights Envelopes:
+	__________________
+
+	_una vez hemos creado los bones, auxiliares debemos de agragar ha éstos weights, ó pesos en relación a la mesh,
+
+	base del character
+
+
+	_donde primeramente debemos de seleccionar la layer, que corresponde con el "Armature", y con ésta la layer,
+
+	seleccionada entrar en el modo "Pose mode", para a continuación proceder ha seleccionar el bone, 
+
+	"L_Head_Parp_Aux_1"
+
+	
+	_para a continuación proceder ha seleccionar el mesh, del character, y seguido a continuación seleccionar el 
+
+	bone, "L_Head_Parp_Aux_1"
+
+
+	_y con ambos elementos seleccionados abrir el menú contextual "Set Parent To", en el cuál, debemos de seleccionar
+
+	la opción de "Width Automatic Weights"
+
+
+	_para que así, ahora éstos bones, tomen partida en la deformación de la geometría base del character
+
+
+	_éste proceso de aplicación de "weights", lo debemos de repetir para todos los bones, que harán de bones,
+
+	auxiliares
+
+
+	_más también, en el modo "Weight Paint", dispondremos de una opción alternativa; para la cuál, debemos de 
+
+	seleccioanr un bone, y abrir el panel contextual de "Special", a través, del shortcut, "W"
+
+
+	_en el cuál, debemos de seleccionar la opción de "Assign Automatic form Bones", para que así, el bone, 
+
+	seleccionado sea agregado al sistema de envelope, ó weights, activo
+
+
+
+
+	Adjustment Deformers:
+	_____________________
+
+	_en muchos caso será necesario retocar los weights, de los bones, deformadores de los arcos de los párpados
+
+	para lo cuál, debemos de seleccionar la layer, "Armature"
+
+
+	_y con ésta seleccionada entrar en el modo "Pose mode", para a continuación proceder ha seleccionar uno de los
+
+	bones, ha editar sus weights, posteriormente
+
+
+	_para seguidamente proceder ha selecciona el mesh, del character, para que así, el sistema se vaya ha el modo
+
+	"Object mode"
+
+
+	_para a continuación seleccionar manualmente el modo "Weight Paint", ya que éste modo se activa correctamente
+
+	sólo si hay una selecciona previamente en el modo "Pose mode"
+
+
+	_para que así, podamos ir incrementando la influencia de los bones, de harán de deformadores de los párpados
+
+	de ésta manera, mejoraremos su comportamiento en relación a las nacesidades de ajustes requeridas
+	
+
+
+
+
+
+
+
+
+

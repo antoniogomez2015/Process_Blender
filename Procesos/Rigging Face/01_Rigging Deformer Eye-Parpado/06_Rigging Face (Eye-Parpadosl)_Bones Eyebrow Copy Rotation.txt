@@ -1,0 +1,89 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Eyebrow Copy Rotation:
+	____________________________
+
+
+	_en éste punto, debemos de transferir el movimiento de la morfología del ojo a los párpados a través, del
+
+	movimiento orbital del ojo
+
+
+	_para lo cuál, debemos primeramente seleccionar la layer, correspondiente al "Armature", y con ésta seleccionada
+
+	entrar en el modo "Pose mode"
+
+
+	_para a continuación proceder ha seleccionar el bone, interno del ojo llamado en éste caso como 
+
+	"L_EyeRot_Control", para seguidamente seleccionar el bone, "L_EyeParpUp", ó bone, ha 30 grados controlador del 
+
+	párpado superior del ojo
+
+	
+	_y con ambos bones, seleccionados y siguiendo el orden indicado debemos de abrir el panel contextual de 
+
+	"Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, debemos de seleccionar la opción de "Copy Rotation", para que así, la rotación del ojo quede
+
+	transferida ahora también, al párpado superior en éste caso
+
+
+	_más ahora debemos de seleccionar el bone, en éste caso L_EyeParpUp", e ir al panel "Properties/Bone Constraint",
+
+	y una vez allí, ir a las opciones del constraint, agregado "Copy Rotation/Space", en el cuál, debemos de
+
+	seleccionar las opciones de "Local Space", "Local Space"
+
+
+	_de ésta manera, la deformación se representará correctamente entre el ojo y el párpado respectivo
+
+
+	_éstos mismos pasos debemos repetirlos para el controlador y párpado inferior respectivamente como también,
+
+	para el otro ojo, en éste caso el ojo derecho
+
+
+
+
+	Incluence:
+	__________
+
+
+	_así, como también, estando dentro de las opciones del constraint, "Copy Rotation", podremos también, controlar
+
+	la opción de "Influence"
+
+
+	_para que así, el ojo no sólo deforme la posición pasiva de los párpados sino que también, el ojo desplace de
+
+	cierta manera entre los párpados
+
+
+	_un valor recomendado para la influencia para la mayoría de los casos es de "0.2"
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bone Eye Center:
+	________________
+
+	_para a continuación proceder ha crear un nuevo bone, shortcut, "Shift + A", el cuál, debemos re ubicar dentro
+
+	de la esclerótica del ojo ó justo en centro de la pupila del ojo
+
+
+	_éste bone, debemos colocarlo dentro del ojo de manera que el "root", del bone, quede en centro del radio del ojo,
+
+	y que el efectos del bone, quede a nivel de la pupila ó cristalino del ojo para que éste bone, no sobre salga 
+
+	del ojo en el proceso de rotación posteriormente
+
+
+	_entendiendo así, que el bone, rota a partir de la posición del root, en "pose mode"
+
+	
+	_éste bone, lo podremos renombrar como ej: "L_EyeRot_Control"
+
+
+	NOTA: ha éste bone, debemos desactivarle la propiedad de "Properties/Bone Bone/Deformer", para que así, éste
+
+	bone, no tenga acción en el proceso de skinning, ó envelope, ó weights, posteriormente
+
+
+
+	Parent:
+	_______
+
+	_a continuación debemos de seleccionar la layer, correspondiente al "armature", y con ésta layer, seleccionada
+
+	debemos de entrar en el modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación selecciónar el bone, que hemos creación y renombrado como "L_EyeRot_Control", para
+
+	posteriormente seleccionar el bone, principal de la cabeza llamado "Head"
+
+
+	_así, con ambos bones seleccionados abrir el panel "Make Parent", a través, del shortcut, "Control + P",
+
+	en el cuál, debemos de seleccionar la opción de "Keep Offset"
+
+
+	_para que así, el bone, que hemos creado obedezca a al movimiento de la cabeza posteriormente
+
+
+
+
+
+
+

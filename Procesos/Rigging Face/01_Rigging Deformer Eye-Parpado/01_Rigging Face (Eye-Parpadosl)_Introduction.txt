@@ -1,0 +1,37 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Introducción:
+	_____________
+
+	_a través, de una serie de bones, agregados a la cabeza del character, podremos controlar la interacción de los
+
+	ojos del character, con los párpados
+
+
+	_así, como tambíen, podremos controlar las acciones de parpadear y hacer expresiones con los ojos en general
+
+	las cuáles, a su vez, podremos controlar posteriormente con expresiones y drivers keys, otros
+
+
+
+
+
+
+
+
+

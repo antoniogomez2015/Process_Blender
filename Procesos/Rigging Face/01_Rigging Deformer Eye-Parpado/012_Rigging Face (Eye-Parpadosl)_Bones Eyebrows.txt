@@ -1,0 +1,140 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Eyebrows:
+	_______________
+
+
+	Crear Bones:
+	____________
+
+	_ahora procederemos ha seleccionar la layer, correspondiente al "Armature", y con ésta seleccionada entraremos
+
+	al modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha crear un nuevo bone, el cuál, escalaremos shortcut, "S", y "Control + Alt + S",
+
+	and drag, hasta la ubicación y posición deseada la cuál, es el inicio de la ceja ó la parte más próxima a la 
+
+	naris
+
+
+	_éste bone, lo podremos renombrar como "L_eyebrow_1,2,3"
+
+
+	_para posteriormente proceder ha duplicar éste bone, que hemos creado y renombrado previamente a través, del
+
+	shortcut, "Shift + D", 
+
+
+	_para posteriormente re ubicar el bone, duplicado en la parte media de la ceja, para luego nuevamente volver
+
+	ha duplicar el bone, para re ubicarlo en la parte final de la ceja respectivamente
+
+
+
+
+	Mirror Bones:
+	_____________
+
+	_una vez que hemos terminado de realizar el proceso de creación de los bones, que conformarán todos los
+
+	controles de la ceja ó eyebrow
+
+
+	_en éste punto podremos seleccionar la layer, correspondiente al armarture, y con ésta seleccionada entrar en
+
+	el modo "Edit mode", shortcut, "Tab"
+
+
+	_para que así, procedamos ha seleccionar todos los bones, correspondientes a la ceja del ojo izquierdo
+
+
+	_y con éstos seleccionados proceder ha colocar el cursor 3D, en el centro del viewport, a través, del shortcut,
+
+	"Shift + C"
+
+
+	_para a continuación colocar el modo de "Pivot Point", en el modo de "Cursor 3D", a través, del shortcut, ".",
+
+	(punto en el teclado)
+
+
+	_para a continuación proceder ha duplicar todos los bones, de la ceja del ojo izquierdo que hemos seleccionado 
+
+	previamente a través, del shortcut, "Shift + D", + mouse right click, para que los bones, duplicados se queden 
+
+	en el mismo sitio de los bones, originales de los cuáles, fueron duplicados
+
+
+	_para posteriormete abrir el panel contextual "Special", a través, del shortcut, "W", en el cuál, encontraremos
+
+	las opciones de "Simetrize", "FlipName", y "AutoName Left/Right..."
+
+
+	_ó posteriormente proceder ha reflejar los bones, del lado izquierdo al lado derecho para lo cuál, debemos de
+
+	ir al panel "Armature/Mirror/X Global", ó a través, del shortcut, "Alt + M", en "Edit mode", y para aceptar la
+
+	transformación debemos de aplicar "Enter"
+
+
+	_para que así, los bones, seleccionados sean reflejados al lado derecho del character, respectivamente
+
+
+	_para posteriormente y aún con los bones, reflejados seleccionados podremos ir al panel "Armature/Flip Names",
+	
+	para que así, el sistema renombre los bones, seleccionados cambiando los prefijos de "L_", ha "R_", por ejemplo
+
+
+
+
+	Parent Bones:
+	_____________
+
+	_de éta manera, debemos de seleccioanr la layer, del "Armature", del character, y con ésta seleccionada entrar
+
+	en "Edit Mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar todos los bones, correspondientes a la ceja ó eyebrow, izquierda
+
+	y con todos éstos bones, seleccionados ahora debemos de seleccionar adicionalmente el bone, de la cabeza ó 
+
+	"head"
+
+
+	_para a continuación abrir el panel contextual de "Make Parent", a través, del shortcut, "Control + P", en el
+
+	cuál, debemos de seleccionar la opcíon de "Keep Offset"
+
+
+	_para que así, los bones, de la ceja izquierda queden emparentados al bone, principal de la cabeza del 
+
+	character
+
+
+	_éste mismo proceso lo debemos de repetir para los bones, de la ceja ó eyebrow, derecha
+
+
+
+
+
+
+
+

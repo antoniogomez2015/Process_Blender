@@ -1,0 +1,73 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Principal:
+	________________
+
+	_ahora primeramente procederemos ha seleccionar la layer, del armature, para a continuación proceder ha entrar
+
+	en el modo "Edit mode", shortcut, "Tab"
+
+
+	_para luego, seleccionar el bone, de la cabeza ó head, para posteriormente proceder ha crear un nuevo bone,
+
+	dentro del sistema a través, del shortcut, "Shift + A", para que así, un nuevo bone, sea agregado a la escena
+
+
+	_para que así, el nuevo bone, que hemos creado lo podamos re ubicar dentro del rostro del character, entre el
+
+	mentón ó mandíbula del character, y la frente del mismo
+
+
+	_éste bone, lo podremos renombrar como ej: "Head_Parpa_Eye"
+
+
+	_éste bone, tiene la función de ayudar ha mantener el rostro en su apariencia original en el proceso de
+
+	deformación realizado controles de los ojos, cejas, otros
+
+
+	
+
+	Parent:
+	_______
+
+	_a continuación debemos de seleccionar la layer, correspondiente al "armature", y con ésta layer, seleccionada
+
+	debemos de entrar en el modo "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación selecciónar el bone, que hemos creación y renombrado como "Head_Parpa_Eye", para
+
+	posteriormente seleccionar el bone, principal de la cabeza llamado "Head"
+
+
+	_así, con ambos bones seleccionados abrir el panel "Make Parent", a través, del shortcut, "Control + P",
+
+	en el cuál, debemos de seleccionar la opción de "Keep Offset"
+
+
+	_para que así, el bone, que hemos creado obedezca a al movimiento de la cabeza posteriormente
+
+
+	
+
+
+
+
+
+

@@ -39,6 +39,11 @@ _____________________
 
 
 
+	Shortcut: Control + Shift + V (edit mode / object mode)
+
+
+
+
 	Create Tubes:
 	_____________
 

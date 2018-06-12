@@ -75,6 +75,7 @@ Navegation / transform:
 
 	pivot change: menu/object/transform/orion (mode object)
 
+	
 
 
 
@@ -115,15 +116,24 @@ Select:
 
 	invert selection: control + I
 
-	ring select: (select un edge precio) + control + alt + mouse right click + edge contiguo
+	Isolate: / (slash)
 
-	loop select: (select un edge precio) + shift + alt + mouse right click + edge contiguo
 
-	loop select: (select un face precio) + alt + mouse right click + edge contiguo (shift para seguir agregando más loops a la selección)
+
+	ring select: (select un loop de faces) + control + alt + mouse right click + edge contiguo
+
+	loop select: (select un vertex-edge preciso) + shift + alt + mouse right click + edge contiguo
+
+	loop select: (select un face preciso) + alt + mouse right click + edge contiguo (shift para seguir agregando más loops a la selección)
 
 	more selection: control + +
 
 	less selection: control + -
+
+	Select Region: (seleccionar un vertex y luego seleccionar otro vertex distante, para que así, se seleccionen todas
+
+	las faces que sean enmarcadas en esa área): Control + Shift + Mouse Right Click
+
 
 
 
@@ -144,6 +154,9 @@ general:
 
 
 Views:
+
+
+	4 Views 1 View: Control + Alt + Q (dividir el viewport en 1 vista y 4 vistas)
 
 	view wareframe (edit mode): Z
 
@@ -175,9 +188,16 @@ Views:
 
 	bottom view: control + 7
 
+
+	Camara View Object Shift + Numpad 1,3,7 (para que la cámara se alinie a la dirección del objeto seleccionado)
+
+
 	camara view: 0
 
 	hacer camara activa: control + 0
+
+	Set Camata to View: Control Alt + Numpad 0
+	
 
 
 
@@ -210,6 +230,9 @@ Tools:
 
 
 	Spin: alt + R (modular en rotación sub-elementos faces, en modo edit)
+
+
+	Repeat Last Action: Shift + R
 
 
 
@@ -300,28 +323,87 @@ Menus:
 
 	Preferences: control + alt + U
 
+	Transform Orientation: Alt + Spacebar
+
+		_Orient to Face: Control + Alt + Spacebar (orienta el pivot, en relación a un face, seleccionado)
+
+
+	Material Specials Menu: Shift + Q 
+	
 
 
 
-Edit Mode:	
 
-	duplicate: shift + D
+Edit Mode: 
 
-	duplicate link: alt + D
 
-	hiden elements: H
+	Mix General:
 
-	unhiden elements: alt + H
+		_Delete/Diosolve X:
 
-	split sub elements seleccionados: Y
+			_Dissolve Sub elements: Control X (eliminar vertex y edges, son eliminar las faces): Control + X
 
-	Divide Vertex: V
 
-	convert polygon to triads: control + T
 
-	unir object (join): control + J (mode object)
 
-	separar objects: (select faces): P (separate menu)
+	Vertex: (Control + V)
+
+		duplicate: shift + D
+
+		duplicate link: alt + D
+
+		hiden elements: H
+
+		unhiden elements: alt + H
+
+		split sub elements seleccionados: Y
+
+		Rip: Divide Vertex: V
+
+		Rip Fill: Divide Vertex (agregando nuevas faces): Alt + V
+		
+		Split: (duplicar vertex a los existentes seleccionados en la misma maya)
+
+		Connect Vertex Path: (conectar dos vertex seleccionados a través, de un path, de edges ó vertex entre la
+
+		geometría existente de por medio): J
+
+
+		Slide: (desplazar vertex seleccionados sobre los edges, contiguos): Shift + V, ó GG, an drag
+
+
+		Bevel: (Convertir un vertex en cuatro vertex ha modo de rombo): Control + Shift + B
+
+
+		convert polygon to triads: control + T
+
+		unir object (join): control + J (mode object)
+
+		separar objects: (select faces): P (separate menu)
+
+
+
+	Edges: (Control + E)
+
+
+		_Edge Create: (crear bordes duros): Shift + E
+
+		_Bevel: Control + B
+
+
+
+	Faces: (Control + F)
+
+		_Poke Faces: (colapsar faces, ha cuatro vertex al centro de cada face)
+
+
+
+
+	Transform:
+
+		_Bend: Shift + W (distorción a partir de la ubicación del cursor 3D)
+
+		_Shear: Control + Alt + Shift + S (distorsión de sesgado de sub elementos seleccionados)
 
 	
 
@@ -339,6 +421,152 @@ Render:
 general:
 
 	save over: control + control2 + S
+
+
+
+
+
+
+UV Image Editor:
+
+	10 Essential UV Tips and Tricks | Blender Tutorial
+		https://www.youtube.com/watch?v=brnaAL-QwhU
+
+
+	_"Unwrap" (como si hiciésemos "U", "/Unwrap" en el viewport 3d): E
+
+
+	_"Mark Seams", (seleccionar edges directamente en el uveditor): Control + E 
+
+
+	_"Stitch", (coser ó fusionar diferentes islands): V
+
+		_debemos de seleccionar edges que sean contiguos a otro insland y presionar "V", para que el sistema
+
+		nos muestre temporalmente como quedarían los insland, soldados, y si estamos de a cuerdo debemos
+
+		de aplicar enter para coformar la transformación
+
+
+	_"Pack Inslands":, (re rodenar las inslands en el espacio de uvmap, de forma más optimizada): Control + P
+
+
+	_"Weld/Align":, (soldar vertex seleccionados): W | Weld: soldar, Straighten: enderezar, Align: alinear
+
+
+	_"Average Insland Scale":, (ponderar tamaños de inslands, seleccionadas para que cubran un área cuadrada): Control + A
+
+
+	_"Minimize Stretch":, (comienza un proceso de estiramiento de las áreas más aglutinadas, éste proceso se terminará solo 
+
+	cuando apliquemos "Enter", tmabién, podremos ir hacia adelante ó hacia atras con "Scroll mouse"): Control + V
+
+
+	_"Follow Active Quads":, (ésta opción nos pemritirá poder hacer unwrap, con mayas totalmente cuadráticas, es decir;
+
+	con faces, totalmente cuadradas)
+
+		_de ésta manera, podremos partir de una extracción de unwrap, realizada a partir de "Mark Sems", de por
+
+		ejemplo de una brazo
+
+		
+		_más ahora tendremos la posibilidad de seleccionar los vertex de esa respectiva island, en el uv imagen editor,
+
+		para a continuación volver al viewport 3d, y abrir el panel contextual "UV Mapping", a través, de el shortcut, 
+
+		"U", donde podremos seleccionar la opción de "Reset"
+
+
+		_para a continuación volver ha abrir el panel contextual de "UV Mapping", a través, del shortcut, "U",
+
+		donde podremos seleccionar la opción de "Fllow Quads", en la cuál, a su vez, podremos seleccionar la opción
+
+		de "Even", que es la opción que nos arrojará un resultado más geométrico y estable
+
+
+	_"Move the UV fron View 3D":, (mover los uvs, directamente desde el viewport 3d, lo cuál, es especialmente útil
+
+	para hacer coincidir partes de la topología con un área de la textura respectiva de forma más visual tomando en
+
+	cuenta el volúmen 3d, directamente)
+
+
+		_de ésta manera, una hemos generado el proceos de uvs, en sus respectivas inslands, podremos hacer ajustes
+
+		sobre la textura aplicada en ciertas áreas respectivamente
+
+
+		_para lo cuál, debemos de seleccionar uno ó más vertexs, ó edges, y con éstos seleccionados abrir el panel
+
+		contextual "UV Mapping", shortcut, "U", en el viewport 3d
+
+
+		_en el cuál, podremos seleccionar la opción de "Move the UV fron View 3D", para a contiuación proceder ha
+
+		hacer "Mouse left click", sobre el área del motivo ha editar sus uvs
+
+
+		_para a continuación proceder ha arrastrar haciendo "mouse left click and drag", para que así, en vivo y
+
+		en directo podamos hacer edición de los uvs, directamente en el viewport 3d, éstas acciones también, se
+
+		llevarán a cabo en el uv imagen editor
+
+
+
+
+	_"Puppet Pin":, (tenemos la posibilidad de editar partes de inslands, de forma elástica ha modo de puppet pin,
+
+	de ésta manera, podremos editar partes como dedos y extremidades de forma integral y flexible)
+
+
+		_donde primeramente debemos de ir al menú "UV Imagen Editor/UVs/Live Unwrap", para que así, podamos
+
+		edición en vivo sobre el editor
+
+
+		_para a continuación estando en el "UV Imagen Editor", debemos de estar en vertex editing, shortcut,
+
+		"Control + Tab" 
+
+
+		_para a continuación proceder ha seleccionar uno ó más vertex a los extremos de un insland de los 
+
+		cuáles, deseamos mover ó editar
+
+
+		_para a continuación aplicar el shortcut, "P", para que así, podamos convertir los vertex seleccionados
+
+		en puppet pins, los cuáles, a su vez, se convertirán en color rojo como referencia, ó yendo ha "Uvs/Pin"
+
+
+		_para a continuación proceder ha seleccionar uno ó varios "pins", de color rojo y con éstos pins,
+
+		seleccionados mover éstos, shortcut, "G", and drag
+
+
+		_de ésta manera, los vertex intermedios se moverán en relación a la posición de los "pins", de color 
+
+		rojo de ésta manera, debemos de crear pins, en relación a las áreas que deseamos que se mantengan 
+
+		estáticas y las que deseamos sean movidas por los pines
+
+
+		_y por último para eliminar ó desactivar los "pins", creados previamente una vez hayamos terminado de
+
+		realizar el proceso de edición
+
+
+		_en éste caso, debemos de seleccionar los vertex, que hacen de pines, y con éstos seleccionados aplicar
+
+		el shortcut, "Alt + P", para que así, éstos vertex seleccionados pasen ha hacer vertex convencionales,
+
+		ó yendo ha "UVs/UnPin"
+
+
+
+
 
 
 
