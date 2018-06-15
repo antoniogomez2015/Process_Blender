@@ -1,0 +1,99 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones Deformers:
+	____________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	
+
+	Workflow:
+	_________
+
+	_en éste punto debemos de extruir los bones, "L/R_Lip_Handle_Up/Down_1,2,3,..", que hemos creado en pasos 
+
+	anteriores
+
+
+	_y éstas extrusiones que conformarán nuevos bones, debemos de irlas colocando sobre los labios entendiendo así,
+
+	que cuando extruimos un handle control, debemos de prolongarlo hasta el siguiente handle control, hasta 
+
+	conformar todo el labio ó lip
+
+
+	_para lo cuál, debemos de "root", del primer handle control, en éste caso del bone, "L_Lip_Handle_M", y una vez
+
+	seleccionado el root, de éste bone, debemos de extruir éste a través, del shortcut, "E"
+
+
+	_para a continuación seleccionar el siguiente "root", del handle control, siguiente para posteriormente abrir el
+
+	panel contextural "Snap", a través, del shortcut, "Shift + S", en el cuál, debemos de seleccionar la opción de 
+
+	"Cursor To Select"
+
+
+	_para posteriormente proceder ha seleccionar el "Effector", del bone, que habíamos extruido en el paso anterior
+
+	y con éste seleccionado abrir el panel contextual "Snap", a través, del shortcut, "Shift + S", en el cuál, 
+
+	debemos de seleccionar la opción de "Selection To Cursor"
+
+
+	_de ésta manera, cubriremos todo el área del arco de los labios, éste proceso lo debemos de repetir para todos
+
+	los handles control, hasta haber cubierto toda el área de los labios
+
+
+	_éstas series de bone, la podremos renombrar por ej; "L/R_Lip_Up/Down_Deform_1,2,3,..."
+
+
+
+	NOTA: ésta serie de bones, si debemos de tener activa la opción de "Deform", yendo ha "Properties/Bone Bone/",
+
+	y una vez allí, debemos de activar la opción de "Deform"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

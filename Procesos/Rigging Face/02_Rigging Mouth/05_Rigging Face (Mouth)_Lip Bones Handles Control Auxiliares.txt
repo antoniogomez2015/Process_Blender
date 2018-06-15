@@ -1,0 +1,93 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones Handle Controls Auxiliares:
+	_____________________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuacion proceder ha seleccionar los bones, que hacen de "handle controls", llamados 
+
+	"L_Lip_Handle_Up_1,2,3..."
+
+
+	_y con éstos seleccionados proceder ha duplicar éstos a través, del shortcut, "Shift + D", más mouse right click,
+
+	para que así, los nuevos bones, duplicados se queden en el mismo lugar que los bones, originales
+
+
+	_para posteriormente proceder ha escalar éstos bones, procurando de que éstos bones, queden más anchos pero
+
+	menos largos para que así, los bones, handles controls, queden aún visibles
+
+
+	_para lo cuál, debemos de ir al menú "Pivot Point", y seleccionar la opción de "Individual Origins", ó a través,
+
+	del shortcut, "Control + . (punto)"
+
+
+	_éstos nuevos bones, auxiliares debemos renombrarle ej, "L/R_Lip_Handle_Up/Down_1,2,3.."
+
+
+	
+
+
+	Parents:
+	________
+
+	_para posteriormente en "Edit mode", shortcut, "Tab", proceder ha seleccionar los nuevos bones, que hemos 
+
+	creado con el nombre de "L_Lip_Handle_Up_1,2,3...", que harán de handle contrrols
+
+
+	_para seguidamente seleccionar el bone, "Mandibule", y con todos los bones, seleccionados y en el orden 
+
+	especificado proceder ha abrir el panel "Make Parent", a través, del shortcut, "Control + P" 
+
+
+	_en el cuál, debemos de seleccionar la opción de "Keep Offset",  para que así, ahora los bones, auxiliares 
+
+	respondan a las transformaciones de la mandíbula y a su vez, de la cabeza en general
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones Handle Controls Aux Copy Locations:
+	_____________________________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar el bone, correspondiente al bone, auxiliar, ej; el bone, 
+
+	"L_Lip_Handle_Up_Aux_1"
+
+
+	_para seguido seleccionar el bone, handle control, respectivo en éste caso, el bone, "L_Lip_Handle_Up_1", y con
+
+	ambos bones, seleccionados en el orden indicado
+
+
+	_debemos abrir el panel contextual "Add Contraint", a través, del shortcut, "Control + Shift + C", en el cuál,
+
+	debemos de seleccionar el contraint, "Copy Location"
+
+	
+	_para que el bone, auxiliar de los labios respectivo tome ahora la deformación por translación realizada 
+
+	anteriormente por el bone, handle control, respectivo sobre a su vez, del bone, "deformer", sobre una parte
+
+	específica del labio respectivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

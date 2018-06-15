@@ -1,0 +1,152 @@
+
+
+
+
+	_rig por bones deformers:
+
+			_Blender Eye Rigging Tutorial
+				https://www.youtube.com/watch?v=CCGekumdLLU
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Eye Master Control:
+	___________________
+
+	_primeramente debemos seleccionar la layer, correspondiente al "Armature", y con ésta seleccionada entrar en
+
+	edit mode, shortcut, "Tab"
+
+
+	_para a continuación proceder ha crear un nuevo bone, el cuál, debemos de re ubicar y re escalar verticalmente
+
+	frente al character, y a través, del cuál, controlaremos ambos ojos posteriormente 
+
+
+	_éste bone, lo podremos renombrar ej, "Eye_Master_Control"
+
+
+
+
+	Eye Target:
+	___________
+
+	_para a continuación proceder ha seleccioanr el bone, que hemos creado en el paso anterior aún en el modo
+
+	edit mode, para a continuación proceder ha duplicar éste bone, shortcut, "shift + D"
+
+
+	_para que así, podamos colocar éste nuevo bone, duplicado frente al ojo correspondiente, en éste caso, frente
+
+	al ojo izquierdo
+
+
+	_éste bone, lo podremos renombrar como "L_Eye_Target"
+
+
+	_éste proceso lo debemos repetir para conformación del controlador del ojo derecho
+
+
+
+
+	Parent Controls:
+	________________
+
+	_para a continuación aún en edit mode, proceder ha seleccionar tanto los bones, "L_Eye_Target", y 
+
+	"R_Eye_Target"
+
+
+	_para posteriormente seleccionar el bone, "Eye_Master_Control", y con todos los bones, seleccionados en el
+
+	orden indicado proceder ha abrir el panel contextual de "Make Parent", shortcut, "Control + P"
+
+
+	_para que así, podamos elegir la opción de "Keep Offet", de ésta manera, ahora los bones, controladores de
+
+	los ojos serán hijos del bone "Eye_Master_Control"
+
+	
+	_lo cuál, permtirá la gerarquización de los elementos relacionados con el head, ó cabezal del character
+
+
+
+	
+	IK Controls:
+	____________
+
+	_posteriormente debemos de seleccionar la layer, "Armature", del sistema principal y con ésta seleccionada
+
+	entrar en "Pose mode"
+
+
+	_para a continuación proceder ha seleccionar el bone, controlar del ojo en éste caso, "L_Eye_Target", para
+
+	posteriormente proceder ha seleccionar el bone, correspondiente eje central del ojo en éste caso, el bone,
+
+	"L_EyeRot_Control"
+
+
+	_de ésta manera, con ambos bones, seleccionados debemos aplicar un "Modifier", para lo cuál, debemos de abrir
+
+	el panel contextual de "Add IK", shortcut, "Shift + I", para que así, seleccionemos la opción 
+
+	"To Active Bone", de ésta manera, un modificador de tipo IK, se agregado al último bone, seleccionado
+
+
+	_como también, con ambos bones, seleccionados podremos ir al panel "Properties/Constraint/", y una vez allí,
+
+	seleccionar el constrint, "IK"
+
+
+	_para a continuación ir a las opciones del modificador yendo a las opciones de "Properties/Modifiers/", y una
+
+	vez allí, ajustar el valor de "IK/Chain Length", a un valor de "1"
+
+
+	_éste proceso lo debemos de repetir para el ojo derecho en éste caso
+
+	
+	_de ésta manera, si ahora movemos los controladores de los ojos, ó el controlador master, de los ojos ahora
+
+	rotarán también, los ojos al unísono
+
+
+	_y por último, debemos de seleccionar el bone, handle control, en éste caso con el nombre de "Eye_Master_Control",
+
+	en "Edit mode", shortcut, "Tab" 
+
+
+	_para a continuación proceder ha seleccionar el bone, principal de la cabeza con el nombre de "Head", y con
+
+	ambos bones, seleccionados y en el orden indicado
+
+
+	_debemos de abrir el panel contextural de "Make Parent", a través, del shortcut, "Control + P", en el cuál,
+
+	podremos seleccionar la opción de "Keep Offset"
+
+
+	_para que así, de ésta manera, el rig master, de los ojos acompañe el mivimiento de la cabeza posteriormente
+
+	en el proceso de animación
+
+
+
+	NOTA: a éstos ojos controladores que hemos realizado es combeniente desactivar la opción de "deformer", para
+
+	lo cuál, debemos seleccionar el bone, respectivo e ir a las opciones de "Properties/ Bone Bone", y una vez
+
+	allí, bajar hasta la opción de "deformer"
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones  Constraint Stretch To:
+	_________________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar el handle control, contiguo ó seguido el primero en éste caso
+
+	el bone, "L_Lip_Handle_Up_1", para leugo, proceder ha seleccionar el bone, deformer, anterior en éste caso el
+
+	bone, "L_Lip_Up_Deform_1"
+
+
+	_para leugo, con ambos bones, seleccionados en el orden especificado abrir el panel contextual de 
+
+	"Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, seleccionaremos el constraint "Stertch To", para que así, de ésta manera, al mover el bone,
+
+	handle controla también, se mueva de forma relación el bone, que hace de "deformer"
+
+
+	_éste proceso lo debemos repetir para todos los bones, handle controls, y los bones, deformers, contiguios
+
+	hasta haber relacionado todos los bones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

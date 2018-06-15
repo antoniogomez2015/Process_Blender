@@ -1,0 +1,43 @@
+
+
+
+
+	Blender Add-Ons Guide
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Animation:
+	__________
+
+
+		Mix Pose
+
+			Free Blender Mix Poses – Addon demo
+				https://www.youtube.com/watch?v=oT7-IlVgIw0
+
+			https://github.com/TheDuckCow/pose-tools
+
+
+
+
+	Render:
+	_______
+
+		Amaranth
+
+			https://pablovazquez.art/amaranth/
+
+
+
+
+
+
+
+

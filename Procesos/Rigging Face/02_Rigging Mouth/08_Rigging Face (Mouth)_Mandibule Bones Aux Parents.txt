@@ -1,0 +1,59 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mandibule Bones Auxiliares Parents:
+	___________________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar todos los bones auxiliares de los handle control, llamados en éste
+
+	caso "L_Lip_Handle_Up_Aux_1,2,3...", otros
+
+
+	_para a continuación proceder ha seleccionar el bone, "Mandibule", y con todos los bones, seleccionados y en el
+
+	orden especificado podremos abrir el panel contextual de "Make Parent", a través, del shortcut, "Control + P"
+
+
+	_en el cuál, podremos seleccionar la opcíon de "Keep Offset", para que así, todos los bones, de los labios 
+
+	obedezcan a las transformaciones del bone, de la mandíbula en "Pose mode", posteriormente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

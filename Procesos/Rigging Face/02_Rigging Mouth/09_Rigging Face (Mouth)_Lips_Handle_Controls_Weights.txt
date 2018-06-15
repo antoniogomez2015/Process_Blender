@@ -1,0 +1,86 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lips Handle Controls Weights:
+	_____________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar unos de los bones, a editar su weight, ó pesos ó envelope
+
+
+	_para seguidamente seleccionar el mesh, base del character, haciendo mouse right click, sobre éste directamente
+
+	para que así, podamos pasar al modo de "Weight Paint"
+
+
+	_de ésta manera, podremos proceder ha editar los pesos de los bones, con la propiedad "Deform", activada como 
+
+	los son los bones, correspondientes a los "Handle Controls", de los lips, llamados en éste caso como 
+
+	"L_Lip_Handle_Up_1", otros..
+
+
+
+
+	Auto Weights:
+	_____________
+
+	_de ésta manera, ya en el modo "Weight Paint", podremos ir seleccionando los bones, "L_Lip_Handle_Up_1,2,3..",
+
+	e ir asignándoles pesos automáticos para lo cuál, debemos abrir el panel de "Special", a través, del shortcut,
+
+	"W"
+
+
+	_en el cuál, podremos seleccionar la opción de "Assign Automatic from bones", para que así, el sistema le 
+
+	asigne automáticamente una influencia automática ha bone, respectivo en relación al mesh, base del character
+
+
+	_éste proceso lo debemos de peretir para todos los bones, handle controls, de los labios del character
+
+
+	_así, como también, éste proceso también, requerirá ajustes manuales en relación a las necesidades y 
+
+	comportamientos del character en función de los movimientos ha realizar por la boca, otros
+
+
+	_para lo cuál, dispondremos de las herramientas de pintura y brochas del modo "Weight Paint"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

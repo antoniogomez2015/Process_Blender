@@ -1,0 +1,68 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones Handles Control:
+	__________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuaciónp proceder ha crear un nuevo bone, shortcut, "Shift + A", el cuál, debemos re escalar y re
+
+	ubicar dentro de los labios del character, formando tanto un arco superior y un arco inferior
+
+
+	_para lo cuál, debemos de ir duplicando éste bone, a través, del shortcut, "Shift + D", más mouse right click,
+
+	para que el bone, duplicado conserve la misma posición del bone, original
+
+
+	_pudiendo generar la mitad de bones, tanto superiores como inferiores para a continuación proceder ha 
+
+	seleccionar todos los bones, generados para a continuación proceder ha duplicar éstos a través, del shortcut,
+
+	Shift + D, más mouse right click, para que así, los bones, duplicados se queden en el mismo lugar
+
+
+	_para posteriormente reflejar éstos al lado opuesto a traves´del shortcut, "Control + M", para seguidamente
+
+	aplicar el comando "X", como la cordenada ha reflejar los bones seleccionados para luego aplicar "Enter"
+
+
+	_para a continuación abrir el panel contextual de "Specials", a través, del shortcut, "W", en el cuál, 
+
+	podremos seleccionar la opción de "Flips Names", para inverir los prefijos de los bones, seleccionados
+
+
+	_éstos bones, los podremos renombrar, ej: "L_Lip_Handle_Up_1,2,3...."
+
+
+
+	NOTA: ha ésta serie de bones, debemos de desactivarla la opción de "Deform", para lo cuál, debemos de seleccionar
+
+	un bone, respectivo y con éste seleccionado ir al panel "Properties/Bone Bone/", y una vez allí, debemos de
+
+	desactivar la opcíon de "Deform", para que así, éstos bones, no tengan influencia sobre el proceso de deformación
+
+
+
+
+
+

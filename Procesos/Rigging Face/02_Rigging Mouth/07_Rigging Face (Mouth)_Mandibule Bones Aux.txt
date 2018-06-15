@@ -1,0 +1,82 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mandibule Bones Auxiliares:
+	___________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha crear un nuevo bone, shortcut, "Shift + A", el cuál, re ubicaremos y re 
+
+	escalaremos desde la parte tracera de la lengua ó tonge, hasta la parte bajo del mentón del character, 
+
+
+	_y posteriormente extruiremos el root, del bone, principal que creamos en la parte tracera de la lengua
+
+	para extender ésta nueva extrusión hacia un poco a delante hacia la lengua
+
+
+	_éstos nuevos bones, que hemos creado los podremos renombrar como "Mandibule", y "Mandibule_Tonge"
+
+
+
+	
+	Parent Bones:
+	_____________
+
+	_para posteriormente aún en "Edit mode", shortcut, "Tab", proceder ha seleccionar el bone, que hemos 
+
+	renombrado como "mandibule"
+
+
+	_para seguidamente proceder ha seleccionar el bone, "Head", de ésta manera, con ambos bones, seleccionados en
+
+	el orden especificado proceder ha abrir el panel contextural "Make Parent", a través, del shortcut, 
+
+	"Control + P"
+
+
+	_en el cuál, podremos seleccionar la opción de "Keep Offset", para que así,toda la mandíbula ahora responda
+
+	a los mivimientos generales de la cabeza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

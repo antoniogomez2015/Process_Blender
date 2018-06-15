@@ -15,16 +15,6 @@
 
 
 
-	Bone Pupil Control:
-	___________________
-
-	_para animar la dilatación y contracción de la pupila de forma controlada, primeramente debemos de seleccionar
-
-	el mesh, correspondiente a la pupila dentro del group, del eye
-
-
-
-
 	Handle Controler:
 	_________________
 
@@ -33,9 +23,9 @@
 	seleccionado entrar en el modo "Edit mode", shortcut, "Tab"
 
 
-	_para a continuación crear un nuevo bone, el cuál, re escalaremos y colocaremos delante de la pupila para un
+	_para a continuación crear un nuevo bone, extruyendo el bone, "L_EyeRot_Control", hacia adelante el cuál, 
 
-	mejor manejo 
+	posteriormente re escalaremos y colocaremos delante de la pupila para un mejor manejo 
 
 
 	_así, como también, éste bone, lo debemos de renombra por ejemplo "L_pupil_handle"
@@ -45,13 +35,17 @@
 
 
 
-	
 	Vertex Groups:
-	______________
+	___________________
 
-	_para a continuación entrar en el modo de edición de éste a través, del shortcut, "Tab", para seguidamente entrar
+	_para animar la dilatación y contracción de la pupila de forma controlada, primeramente debemos de seleccionar
 
-	en el modo de sub elementos vertex
+	el mesh, correspondiente a la pupila dentro del group, del eye
+
+
+	_para a continuación entrar en el modo de edición de éste a través, del shortcut, "Tab", para seguidamente 
+
+	entrar en el modo de sub elementos vertex
 
 	
 	_para que así, podamos seleccionar los vertex correspondientes al área central de la pupila, de ésta manera, con
@@ -63,7 +57,9 @@
 
 	_el cuál, debemos de renombrar con el mismo nombre que hemos renombrado el bone, que hará de controlador de la
 
-	dilatación y contracción de la pupila del ojo, para por último darle al botón de "Assign"
+	dilatación y contracción de la pupila del ojo, en éste caso "L_pupil_handle", para por último darle al botón 
+
+	de "Assign"
 
 
 	_para posteriormente invertir la sección de la pupila a través, del shortcut, "Control + I", y con la cuál,
@@ -81,7 +77,26 @@
 	y con ésta seleccionada ir al panel "Properties/Modifiers", y una vez allí, agregar el modificador "Armature"
 
 
-	_
+	_para que así, con el mesh, correspondiente a la pupila seleccionado podamos ir a las opciones de 
+
+	"Properties/Modifiers", y una vez allí, proceder ha configurar el modificador "Armature", que hemos aplicado
+
+
+	_de ésta manera, en las opciones de "Object", debemos de seleccionar el "Armature", global de todos los huesos
+
+	del character
+
+
+	_para a continuación más abajo proceder ha seleccionar el "Group", de vertex que hemos creado y renombrado con
+
+	el mismo nombre que el bone, controlador de la pupila
+
+
+	_para que así, posteriormente al re escalar el bone, controlador de la pupila, en éste caso el bone, 
+
+	"L_pupil_handle", la geometría correspondiente al centro de la pupila sea re escalada en relación al bone,
+
+	controlador "L_pupil_handle"
 
 
 

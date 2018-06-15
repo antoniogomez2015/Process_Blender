@@ -1,0 +1,69 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Maxilars and Mandibule Aux:
+	___________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para que así, creemos un nuevo bone, el cuál, debemos de re escalar y re posicionar dentro de la bocal, del
+
+	character 
+
+
+	_para a continuación proceder hacer un arco de extrusiones del bone, ha modo de amalgamas dentro de los dientes 
+
+	inferiores del character, tanto del lado izquierdo como del lado derecho
+
+
+	_éste proceso lo debemos repetir para los dientes superiores del character
+
+
+	_ésta serie de bones, la podremos renombrar como "L/R_Teeth_Up/Down_Aux_1,2,3.."
+
+
+
+
+	Parents:
+	________
+
+	_para posteriormente en "Edit mode", shortcut, "Tab", proceder ha seleccionar los nuevos bones, que hemos 
+
+	creado con el nombre de "L/R_Teeth_Down_Aux_1,2,3,...", que harán de handles, de la lengua
+
+
+	_para seguidamente seleccionar el bone, "Head", y con todos los bones, seleccionado y en el orden especificado
+
+	proceder ha abrir el panel "Make Parent", a través, del shortcut, "Control + P" 
+
+
+	_en el cuál, debemos de seleccionar la opción de "Keep Offset",  para que así, ahora los bones, de la 
+
+	mandíbula respondan a las transformaciones de la cabeza en general
+
+
+
+
+
+
+
+
+

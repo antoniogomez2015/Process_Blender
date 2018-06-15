@@ -1,0 +1,66 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Lip Bones Deformers:
+	____________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar el primer bone, que conforma el arco de bones, deformadores 
+
+	"horizontales", de los labios "L/R_Lip_Up/Down_Deform_1,2,3,...", específicamente el bone, "L_Lip_Up_Deform_1"
+
+
+	_para a continuación proceder ha seleccionar bone, handle control, "L_Lip_Handle_M", y con ambos bones, 
+
+	seleccionados abrir el panel contextual "Make Parent", a través, del shortcut, "Control + P", en el cuál,
+
+	debemos de seleccionar la opcíon de "Keep Offset"
+
+
+	_para que así, el bone, deformador obedezca a los movimientos del bone, handle control de ésta manera, debemos
+
+	de repetir éste paso para el resto de bones, tanto de deformadorse como handle controls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
