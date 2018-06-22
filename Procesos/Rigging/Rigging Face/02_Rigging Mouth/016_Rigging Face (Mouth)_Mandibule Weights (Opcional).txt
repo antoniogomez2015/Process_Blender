@@ -1,0 +1,123 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mandibule Weights:
+	__________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+
+	Automatic Weights:
+	__________________
+
+	_para a continuación proceder ha ir al panel outliner, shortcut, "Shift + F9", para posteriormente proceder ha
+
+	arrastrar la layer, correspondiente a la mandíbula y a los maxilares la cuál, debemos de arrastrar sobre la 
+
+	layer, correspondiente con el "Armature", del character
+
+
+	_para que así, se abra el panel "Set Parent To", en el cuál, debemos seleccionar la opción de 
+
+	"With Automatic Weights"
+
+
+	_ó también, podremos proceder ha seleccionar el mesh, de la mandíbula y maxilares que estén conformados por una
+
+	sola mesh, para a continuación proceder ha seleccionar seguidamente la layer, el "Armature", del character
+
+
+	_de ésta manera, con ambas layers, seleccionadas en el orden indicado, proceder ha abrir el panel contextual
+
+	de "set parent to", a través, del shortcut, "Control + P"
+
+
+	_en el cuál, debemos de seleccionar la opcíon de "With Automatic Weights"
+
+
+
+
+	Edit Weights:
+	_____________
+
+	_para posteriormente proceder ha seleccionar la layer, correspondiente al "Armature", del character y con ésta
+
+	seleccionada entrar en el modo "Pose mode"
+
+
+	_para a continuación proceder ha seleccionar unos de los bones, auxiliares de la mandíbula y con éste 
+
+	seleccionado, proceder seguidamente ha seleccionar el mesh, de la mandíbula
+
+
+	_para posteriormente con el mesh, respectivo seleccionado entrar en el modo "Weights Paint", para proceder así,
+
+	ha editar los pesos ó weights, de los respectivos bones, en relación al mesh, de la mandíbula en este caso
+
+
+	
+
+	Assign Automatic from bones:
+	____________________________
+
+	_estando aún en el modo "Weight paint", tendremos la posibilidad de agregar pesos automáticos para bones,
+
+	específicos, en los casos en los que un bone, no tenga pesos aplicados en relación a una mesh, determinada
+
+
+	_para lo cuál, primeramente debemos de seleccionar el bone, respectivo para posteriormente abrir el panel
+
+	contextual de "Special", a través, del shortcut, "W", en el cuál, debemos de seleccionar la opcíon de 
+
+	"Assign Automatic fron bones"
+
+
+
+
+	Bone Weight Paint:
+	__________________
+
+	_de ésta manera, una vez hayamos relacionado las meshes, respectivas correctamente con el "armature", del
+
+	character, entonces si podremos comenzar ha pintar los pesos de la mandíbula correctamente
+
+
+	_de ésta manera, a través, de los pinceles de puntura del modo weight paint, podremos ir pintando hasta 
+
+	llegar hasta el color "rojo", en las áreas generales de la mándíbula por áreas cubiertas por cada bone
+
+
+	_para que así, la mandíbula se movida cuando se articule el bone, "Mandibule", ya que éste a su vez, 
+
+	arrastrará el chain bone, de la mandíbula, lengua, otros
+
+
+
+
+
+
+
+
+
+
+
+
+

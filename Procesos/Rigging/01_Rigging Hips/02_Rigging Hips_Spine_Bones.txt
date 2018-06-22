@@ -1,0 +1,33 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Spine Bone:
+	___________
+
+	_para posteriormente con ésta layer, seleccionada entrar en "Edit mode", shortcut, "Tab", para que así, podamos
+
+	comenzar con la edición y creación de bones, del sistema ha generar
+
+
+	_de ésta manera, tendremos un bone, con el root, hacia abajo y el efector hacia arriba el cuál, prodremos
+
+	renombrar como "Armature" 
+
+
+
+
+
+

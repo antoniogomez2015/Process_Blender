@@ -1,0 +1,98 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Parents:
+	________
+
+
+		Parent Hip Bone:
+		________________
+
+		_ahora debemos de ir al modo "Edit mode", shortcut, "Tab", en el cuál, debemos de seleccionar el 
+
+		bone, que hemos renombrado como "Hip", para a continuación seleccionar el bone, llamado en éste caso 
+
+		"Armature"
+
+
+		_para que así, con ambos bones, seleccionados proceder ha abrir el panel contextual de "Make Parent", 
+
+		a través, del shortcut, "Control + P"
+
+
+		_en el cuál, debemos de seleccionar la opcíon de "Keep Offset", para que así, el bone, "Armature", 
+
+		controle ahora al bone, "Hip", en el mode "Pose mode"
+
+
+
+		Parent Gluteo Bone:
+		___________________
+
+		_y aún estando en el modo "Edit mode", debemos de seleccionar el bone, en éste caso "L_Gluteo", para
+
+		a continuación proceder ha seleccionar el bone, "L_Hiliaca"
+
+
+		_para que así, con ambos bones, seleccionados proceder ha abrir el panel contextual de "Make Parent", 
+
+		a través, del shortcut, "Control + P"
+
+
+		_en el cuál, debemos de seleccionar la opcíon de "Keep Offset", para que así, el bone, "L_Hiliaca", 
+
+		controle ahora al bone, "L_Glueo", en el mode "Pose mode"
+
+
+
+		Parent Hilica Bone:
+		___________________
+
+		_y aún estando en el modo "Edit mode", debemos de seleccionar el bone, en éste caso "L_Hiliaca", para
+
+		a continuación proceder ha seleccionar el bone, "Hip"
+
+
+		_para que así, con ambos bones, seleccionados proceder ha abrir el panel contextual de "Make Parent", 
+
+		a través, del shortcut, "Control + P"
+
+
+		_en el cuál, debemos de seleccionar la opcíon de "Keep Offset", para que así, el bone, "Armature", 
+
+		controle ahora al bone, "L_Hiliaca", en el mode "Pose mode"
+
+
+		_de ésta manera, ahora al rotar en el modo "Pose mode", el bone, llamado "Armature", rotará toda la 
+
+		"Spine", del character 
+
+
+		_más cuando rotemos el bone, llamado "Hip", ahora rotaremos todo el sistema del hip, citura y cadera
+
+		del character
+
+
+	
+
+
+
+	
+
+
+
+
+

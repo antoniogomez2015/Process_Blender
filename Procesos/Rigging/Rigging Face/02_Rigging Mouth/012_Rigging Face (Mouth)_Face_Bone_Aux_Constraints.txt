@@ -1,0 +1,71 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Constraint Stretch To:
+	______________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar el bone, que hará de handle, por ejemplo; "L_Face_Aux_Nose_Handle",
+
+	para seguidamente proceder ha seleccionar un bone, que hará de "deformer", de una cadena diferente
+
+
+	_para seguidamente abrir el panel contextural de "Add Constraint", a través, del shortcut, 
+
+	"Control + Shift + C", y en el cuál, debemos de selecciona el constraint, "Stretch To"
+
+
+	_éstos pasos los debemos de repetir para todas las chains, entre si que todas queden relacionadas
+
+
+	
+
+
+	Parents:
+	________
+
+	_más también, estando en "edit mode", shortcut, "Tab", tendremos que emparentar cadenas de bones, que aún no 
+
+	queden concatenados del todo 
+
+
+	_para lo que habrá que seleccionar los bones, "deformers", de una ó más cadenas para a continuación proceder 
+
+	ha seleccionar el boe, que hará de handle, deseado
+
+
+	_para a continuación con todos los bones, seleccionados y en el orden correcto, para seguidamente abrir el 
+
+	panel "Make Parent", a través, del shortcut, "Control + P"
+
+
+	_en el cuál, debemos de seleccionar lao pción de "Keep Offset", para que así, todos los bones, "deformers",
+
+	ahora si abedezcan a los bones, que harán de handles, del sistema
+
+
+
+
+
+
+

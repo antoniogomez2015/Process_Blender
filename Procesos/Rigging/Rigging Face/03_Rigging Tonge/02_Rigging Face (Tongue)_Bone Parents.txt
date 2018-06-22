@@ -1,0 +1,52 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Parents Bones:
+	______________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar los bones, que hemos creado como controladores de la tonge, ó
+
+	lengua los cuáles, hemos renombrado como "Tonge_Aux_1,2,3,...", y "Tonge_Aux_Handle_1,2,3.."
+
+
+	_para a continuación seleccionar el bone, "Mandibule", de ésta manera, con todos los bones, seleccionados en el
+
+	orden indicado, proceder ha abrir el panel contextual "Make Parent", a través, del shortcut, "Control + P"
+
+
+	_en el cuál, podremos seleccionar la opcíon de "Keep Offset", para que así, los bones, controladores de la 
+
+	lengua ahora obedescan a la mandíbula articulada así, como también, a los movimientos de la cabeza en general
+
+
+
+	
+
+
+
+
+
+
+
+
+

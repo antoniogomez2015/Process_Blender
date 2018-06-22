@@ -1,0 +1,42 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Gluteo Mayor Bone:
+	__________________
+
+	_aún estando en "Edit mode", debemos de seleccionar el root, del bone, que hemos renombrado como "L_Hiliaca",
+
+	para posteriormente exturir éste a través, del shortcut, "E", and drag, en dirección tracera hacia el glueo
+
+	mayor del character, bajando un poco el efector de éste bone, generado
+
+
+	_éste nuevo bone, lo podremos renombrar como "L_Gluteo"
+
+
+	_éste bone, tiene como finalidad mantener la deformación del gluteo cuando la articulación de la pierta es
+
+	aplicada tanto hacia a delante como hacia atras
+
+
+
+
+
+
+
+
+
+

@@ -329,6 +329,12 @@ Menus:
 
 
 	Material Specials Menu: Shift + Q 
+
+
+	Pose Mode:
+	__________
+
+		_Recalculate Roll: Control + N
 	
 
 

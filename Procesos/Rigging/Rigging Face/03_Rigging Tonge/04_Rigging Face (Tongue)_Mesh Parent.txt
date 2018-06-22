@@ -1,0 +1,57 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Parent Mesh:
+	____________
+
+	_primeramente debemos de seleccionar la layer, correspondiente el "Armature", y con ésta seleccionada entrar
+
+	en "Pose mode", para a continuación proceder ha seleccionar el bone, en éste caso "Tonge_Aux_Handle_1", para 
+
+	seguidamente seleccionar el mesh, de la lengua ó tonge, del character
+
+
+	_para a continuación en modo "Object mode", shortcut, "Tab", debemos irnos al panel "Outliner", shortcut, 
+
+	"Shift + F9", y en el cuál, debemos de seleccionar el mesh, correspondientes a la "lengua", del character
+
+
+	_la cuál debemos de arrastrar sobre ícono de la layer, correspondiente al "Armature", del character, para 
+
+	que así, nos aparezca el panel contextual de "Set Parent To"
+
+
+	_en el cuál, debemos de seleccionar la opción de "With Automatic Weights", para que así, el mesh, de la 
+
+	lengua ahora quede con pesos automáticos en relación al bone, seleccionado en el paso anterior
+
+
+	_para que así, en pasos posteriores poder hacer un ajuste de pesospersonalizado
+
+
+
+
+
+
+
+
+
+
+
+
+

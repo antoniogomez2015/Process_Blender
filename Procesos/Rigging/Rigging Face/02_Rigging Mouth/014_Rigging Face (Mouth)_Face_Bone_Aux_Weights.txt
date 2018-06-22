@@ -1,0 +1,86 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Face Bones Aux Weights:
+	_______________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode", shortcut, "Tab"
+
+
+	_para a continuación proceder ha seleccionar un bone, de la estructura de bone, ha editar
+
+
+	_para seguidamente proceder ha seleccionar la mesh, del character, de ésta manera, una vez hemos seleccionado
+
+	la mesh, base del character, debemos de entrar en el modo "Weight Paint"
+
+
+	
+
+
+	Assign Automatic fron bones:
+	____________________________
+
+	_como éstas cadenas de bones, son nuevas ó posteriores a la asignación principal del "weights", será necesario
+
+	la incorporación indenpediente de los nuevos bones, de forma manual
+
+
+	_de ésta manera, aún estando en el modo "Weight Paint", debemos de seleccionar un bone, al cuál, deseamos 
+
+	asignale nuevos pesos 
+
+
+	_para a continuación abrir el panel "Specials", a través, del shortcut, "W", en el cuál, debemos de seleccionar
+
+	la opción de "Assign Automatic form bones"
+
+
+	_para que así, podamos personalizar y editar los pesos y alcance de cada bone, respectivamente
+
+
+
+
+	Paint Weights:
+	______________
+
+	_de ésta menera, una vez hemos asignado pesos automáticos manualmente a través, del método anterior podremos
+
+	ahora pintar y personalizar los pesos de cada bone, haciendo uso de las brushes, en el modo weight paint
+
+
+	_hasta conseguir la deformación e influencia deseada de cada bone, sobre la geometría en relación a las
+
+	caracteríscas del character
+
+
+
+
+
+
+
+
+
+
+
+
+
+

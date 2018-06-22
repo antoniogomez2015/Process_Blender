@@ -1,0 +1,74 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Gluteo Constraint:
+	__________________
+
+	_ahora tenemos que relación la rotación ó articulación del femur con el hueso que hemos creado para el 
+
+	gluteo mayor
+
+
+	_para lo cuál, estando en el modo "Pose mode", debemos de seleccionar primero el bone, "L_Femur", para a
+
+	continuación proceder ha seleccionar el bone, de "L_Glueteo"
+
+
+	_de ésta manera, con ambos bones, seleccionados y en el orden especificado, proceder ha abrir el panel 
+
+	contextual de "Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, debemos de seleccionar el constraint, "Conpy Rotation", para que así, el bone, "L_Gluteo",
+
+	ahora emule la rotación del bone, "L_Femur"
+
+
+	_para a continuación proceder ha seleccionar el bone, "L_Glueo", y con éste bone, seleccionado ir al panel
+
+	"Properties/Bone Constraint", en el cuál, debemos de ir al constraint "Copy Rotation/Space", y una vez allí
+
+
+	_debemos de colocar los valores de "Local Space", "Local Space"
+
+
+	_así, como también, con el bone, "L_Glueo", aún seleccionado debemos de ir al modo "Edit mode", a través,
+
+	del shortcut, "Tab"
+
+
+	_para a continuación abrir el panel contextual de "Recalculate Roll", a través, del shortcut, "Control + N",
+
+	en el cuál, debemos de seleccionar la opción de "Global + X"
+
+
+	_para que así, una vez volvamos al modo "Pose mode", y volvamos ha mover el bone, que hace handle, del femur
+
+	en éste caso el bone, "L_Femur_Handle", podremos ver que ahora el bone, "L_Glueo", ahora rota automáticamente
+
+	en la misma dirección que rota el bone, "L_Femur"
+
+
+	
+
+
+
+	
+
+
+
+
+

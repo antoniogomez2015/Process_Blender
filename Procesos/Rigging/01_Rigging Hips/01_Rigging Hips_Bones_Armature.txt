@@ -1,0 +1,46 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Bones Armature:
+	_______________
+
+	_primeramente debemos de crear una layer, de tipo "Armature", a través, del shortcut, "Shift + A", para que así,
+
+	se abra el panel contextual de "Add"
+
+
+	_en el cuál, debemos de entrar en las opciones de "Armature", en la cuál, a su vez, debemos de seleccionar la 
+
+	opción de "Single Bone"
+
+
+	_para que así, el sistem agrege un nuevo bone, al viewport 3d, de ésta manera, debemos de re ubicar éste bone,
+
+	dentro de la pelvis ó hip, del character
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

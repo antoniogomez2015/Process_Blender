@@ -1,0 +1,247 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Descripción:
+	____________
+
+	_la siguiente estructura de bones, sobre la parte más superficial del rostro tiene dos objetivos 
+
+	fundamental los cuáles son los siguientes
+
+
+		_mantener la estabilidad de la maya ó mesh, tras las deformaciones sufridas por la boca a través, de los 
+
+		bones, deformadores en las acciones específicas de abrir y cerrar la boca como de las diferentes 
+
+		expresiones de la boca por medio de los bones, deformadores y handles, creados y configurados previamente
+
+
+		_como también, la distorción de áreas estratégicas realizadas voluntariamente a través, de los handles,
+
+		de control como parte del rig, y animación general del facial rig
+
+
+
+
+
+	Lógica:
+	_______
+
+	_el objetivo es hacer que los bones, que harán de handles, arrastren a los bones transversables que tendrán
+
+	influencia de la deformación sobre la geometría
+
+
+	_de ésta manera, para lograr éste fin es necesario la utilización de múltiples cadenas de huesos como también,
+
+	la complementación de constraints, los cuáles, se aplicarán posteriormente
+
+
+
+
+
+	Face Bone Aux:
+	______________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+
+	Chains 1:
+	_________
+
+	_y estando aún en "Edit mode", shortcut, "Tab", procederemos ha crear un nuevo bone, shortcut, "Shift + A",  
+
+	el cuál, debemos de re escalar y re ubicar, en el costado de la fosa nasal izquierda en éste caso, colocándolo 
+
+	horizontalmente pero a su vez, apuntando al rostro ha modo de handle control
+
+
+	_dejando el "root", del bone, hacia el exterior y el efector del bone, de cara al rostro del character, para 
+
+	que así, podamos extruir el efector de éste bone, proyectando éste hacia la comesura del extremo izquierdo de
+
+	la boca del character
+
+
+	NOTA: podemos no hacer coincidir el efector del último bone, de la chain, ó cadena extruida en el paso anterior 
+
+	y el handle, de la comesura de la boca temporalmente para identificar las cadenas de bones, para el proceso 
+
+	ha realizar
+
+
+
+
+	Chains 2:
+	_________
+
+	_y estando aún en "Edit mode", shortcut, "Tab", procederemos ha seleccionar el bone, que hará de handle, en la
+
+	chain, anterior y con éste seleccionado procederemos ha duplicar éste a través, del shortcut, "Shift + D"
+
+
+	_el cuál, debemos de re ubicar, en el lagrimal izquierdo del ojo
+
+
+	_para luego proceder ha extruir el efector de éste bone, proyectando éste hacia la fosa nasal izquierda
+
+
+	NOTA: podemos no hacer coincidir el efector del último bone, de la chain, ó cadena extruida en el paso anterior 
+
+	y el handle, de la fosa nasal temporalmente para identificar las cadenas de bones, para el proceso 
+
+	ha realizar
+
+
+
+	
+	Chains 3:
+	_________
+
+	_y estando aún en "Edit mode", shortcut, "Tab", procederemos ha seleccionar el bone, que hará de handle, en la
+
+	chain, anterior y con éste seleccionado procederemos ha duplicar éste a través, del shortcut, "Shift + D"
+
+
+	_el cuál, debemos de re ubicar, en el pómulo izquierdo del character
+
+
+	_para luego proceder ha extruir el efector de éste bone, una vez, proyectando éste hacia la fosa nasal izquierda
+
+
+	_y para posteriormente volver ha seleccionar el efector del bone, anterior que hará de handle, en ésta cadena
+
+	y con éste seleccionado volver ha extruir éste bone, proyectándolo ésta vez hasta la comesura de la bora en 
+
+	su extremo izquierdo
+
+
+	NOTA: podemos no hacer coincidir los efectores de los últimos bones, de la chain, ó cadena extruida en el paso 
+
+	anterior  y el handle, tanto de la fosa nasal como del handle, de la coba, temporalmente para identificar las 
+
+	cadenas de bones, para el proceso ha realizar
+
+
+
+
+	Nomenclaruta:
+	_____________
+
+	_formando así, un triángulo en ma mejilla iquierda del character 
+
+
+	_ésta serie de bone, la podremos renombrar de la siguiente manera:
+
+		_L_Face_Aux_Mouth_Nose
+
+			_L_Face_Aux_Pomule_Mouth
+
+				_L_Face_Aux_Nose_Eye
+
+					_L_Face_Aux_Nose_Pomule
+
+						_L_Face_Aux_Pomule_Mouth
+
+
+		_L_Face_Aux_Nose_Handle
+
+		_L_Face_Aux_Eye_Handle
+
+		_L_Face_Aux_Pomule_Handle
+
+
+
+
+	NOTA: a los bones, que harán de handles, es preciso desactivarles la opción de "Deform", para lo cuál, debemos
+
+	de seleccionar un bone, que hará de handle, para a continuación con éste seleccionado ir al panel
+
+	"Properties/Bone Bone/", y una vez allí, desactivar la opcíon de "Deformer"
+
+
+
+
+
+
+
+	Mirror Bones:
+	_____________
+
+
+	_todas éstas acciones debemos de repetirlas para el lado opuesto del character, en este caso para el lado 
+
+	derecho para lo cuál, debemos seleccionar todos los bones, que hemos creado en los pasos anteriores y con éstos
+
+	seleccionados proceder ha duplicar éstos bones
+
+
+	_a través, del shortcut, "Shift + D", más mouse right click, para que los bones, duplicados se queden enel 
+
+	mismos lugar que los bones, originales
+
+
+	_para posteriormente colocar el cursor en el centro del viewport, shortcut, "Shift + C", para a continuación
+
+	proceder ha cambier el modo de "Pivot point", a la opción de de "3D Cursor", a través del shortcut, ".", (punto)
+
+
+	_para seguidamente hacer "mirror", de los bones, seleccionados a través, del shortcut, "Control + M", más "X",
+
+	para indicar así, la cordenada de trabajo
+
+
+	_para posteriormente proceder ha invertir los prefijos de los nombres de los bones, seleccionados y que han sido
+
+	invertidos para lo cuál, debemos de abrir el panel contextual de "Specials", a través, del shortcut, "W", en el 
+
+	cuál, debemos de seleccionar la opción de "Flip Names"
+
+
+
+
+	Parents:
+	________
+
+	_a continuación aún en "Edit mode", shortcut, "Tab", debemos de proceder ha seleccionar todos los bones, 
+
+	auxiliares que hemos creado y configurado para el controla facial del rostro, como lo son las chains, de
+
+	"L_Face_Aux_Mouth_Nose", y "L_Perfil_Aux_Mandibule_1"
+
+
+	_para seguidamente proceder ha seleccionar el bone, principal de la cabeza "Head", para a continuación con
+
+	todos los bones, seleccionados en el orden indicado, proceder ha abrir el panel contextual de "Make Parent"
+
+
+	_a través, del shortcut, "Control + P", en el cuál, debemos de seleccionar la opción de "Keep Offset", para
+
+	que así, éstas series de bones, obedescan a las transformacione de la cabeza en general posteriormente
+
+
+
+
+
+
+
+

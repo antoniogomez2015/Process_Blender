@@ -1,0 +1,67 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Constraint Stretch To:
+	______________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode"
+
+
+	_para a continuación proceder ha relacionar una cadena de huesos con otra para que así, todas las cadenas al
+
+	unísono deformen la geometría como un todo
+
+
+	_para lo cuál, debemos de seleccionar un bone, que haga de "deformer", de una cadena para seguidamente 
+
+	seleccionar un bone, que haga de handle, de otra cadena
+
+
+	_para a continuación con ambos bones, seleccionados y en el orden indicado, para entonces abrir el panel 
+
+	contextual de "Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, debemos de seleccionar el constraint, de "Stretch To", para que así, una vez arrastremos el 
+
+	handle, de la primera cadena que hemos relacionado, también, se mueva el bone, que hemos relacionado de la
+
+	otra cadena
+
+
+	_de ésta manera, debemos de repetir éstos procesos hasta a ver terminado de relacionar todas las cadenas
+
+	por medio de constraints
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+

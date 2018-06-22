@@ -1,0 +1,39 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Tibia Bone:
+	___________
+
+	_para seguidamente volver ha exturir el efector del bone, "L_Femur", para conformar así, la "tibia", del 
+
+	character, y conformar así, la pierna ó leg, del character
+
+
+	_éste nuevo bone, lo podremos renombrar como "L_Tibia"
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

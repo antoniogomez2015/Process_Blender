@@ -1,0 +1,46 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Hiliacas:
+	_________
+
+	_para a continuación aún en "edit mode", proceder ha seleccionar el bone, que hemos renombrado como "Hip", 
+
+	para posteriormente proceder ha duplicar éste bone, a través, del shortcut, "Shift + D"
+
+
+	_para posteriormente colocar éste bone, a la altura de la hiliaca izquierda del character
+
+
+	_éste bone, lo podremos renombrar como "L_Hiliaca"
+
+
+	_éste bone, tendrá la finalidad de mejorar la articulación de la pierna correctamente tanto en su movimiento 
+
+	hacia adelante y hacia atras con la ayuda de huesos auxiliares
+
+
+
+	
+
+
+
+	
+
+
+
+
+

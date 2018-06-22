@@ -1,0 +1,49 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Weights:
+	________
+
+	_primeramente debemos de seleccionar un bone, "deformer", de la lengua en modo "Pose mode"
+
+
+	_para a continuación proceder ha seleccionar el mesh, de la lengua para seguidamente proceder ha entrar en el
+
+	modo "Weight Paint"
+
+
+	_de ésta manera, podremos seleccionar el bone, de la lengua deseado y proceder ha ir pintando las áreas de la
+
+	lengua con color rojo hasta amarillo y verde en relación a la influencia deseada
+
+
+	_para que así, vayamos personalizado la deformación deseada sobre la lengua por los handles, y bones, 
+
+	deformadores, de ésta manera, conformaremos el rigging, de la lengua
+
+
+
+
+
+
+
+
+
+
+
+

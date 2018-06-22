@@ -1,0 +1,82 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Tonge Aux Bones:
+	________________
+
+
+
+	First Chain:
+	____________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Edit mode", shortcut, "Tab"
+
+
+	_para a continuación crear una nueva chain bone, la cuál, debemos de re ubicar y re escalar en la parte tracera 
+
+	de la lengua ó tonge, del character
+
+
+	_la cuál, debemos de ubicar verticalmente ya éste bone, hará de handle, para a continuación proceder ha extruir
+
+	el efector de éste bone, una vez proyectándolo hacia la punta de la lengua
+
+
+	_el primer bone, que creamos y colocamos verticalmente y que hará de handle, debemos de desactivarle la opción
+
+	de "Deformer", para lo cuál, con éste bone, seleccionado debemos ir al panel "Properties/Bone Bone", y una vez
+
+	allí, debemos de desactivar la opción de "Deform"
+
+
+
+
+	More Chains:
+	____________
+
+	_para a continuación aún en "edit mode", debemos de seleccionar el primer bone, que creamos y que hará de handle,
+
+	para proceder ha duplicar éste bone, a través, del shortcut, "Shift + D"
+
+
+	_para posteriormente colocar éste bone, en el punto donde se ubica el efector del último bone, extruido de la
+
+	cadena ó chain, anterior
+
+
+	_para a continuación proceder ha extruir el efector de éste bone, duplicado proyectándolo una vez más hacia
+
+	adelante, de ésta manera, debemos de repetir éstos procesos creando más cadenas de bones, hasta terminar
+
+	de cubrir toda la lengua
+
+
+	_ésta serie de bones, la podremos renombrar como "Tonge_Aux_1,2,3,..", para los bones, que harán de "deformers"
+
+
+	_y "Tonge_Aux_Handle_1", para los bones, que harán de handles
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Handles Bones:
+	______________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "hip", para que así, podamos proceder ha extruir un nuevo bone
+
+
+	_así, como también, debemos de crear bones, auxiliares sobre la chain, de la spine, principal del character,
+
+	para que éstos bones, hagan de handles, a través, de los cuáles, podremos controlar la acción de la spine,
+
+	posteriormente
+
+
+	_de éste manera, debemos de extruir hacia adelante el "efector", de cada uno de los bones, que conforman la 
+
+	columna vertebral correspondiente al área lumbra y a parte del torax, los cuáles, hemos renombrado como: 
+
+	"Spine_Lumbar_1,2,3"
+
+
+	_ha éste bone, que hemos creado debemos de desactivarle la opción de "Deform", para lo cuál, debemos de
+
+	seleccionar el bone, respectivo y con éste seleccionado ir al panel "Properties/Bone Bone/", y una vez allí,
+
+	desactivar la opcíon de "Deform"
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

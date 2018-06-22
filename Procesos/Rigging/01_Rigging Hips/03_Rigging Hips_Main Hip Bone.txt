@@ -1,0 +1,44 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Main Hip Bone:
+	______________
+
+
+	_de ésta manera, aún estando en "Edit mode", debemos de seleccionar y el bone, que hemos renombrado como 
+
+	"Armature", para con éste seleccionado duplicar a través, del shortcut, "Shift + D", más mouse right click, 
+
+	para que el bone duplicado se queden en el mismo lugar que el bone, original
+
+
+	_para posteriormente con el bone, duplicado aún seleccionado, proceder ha rotar éste bone, 180, grados para 
+
+	que así, el root, de éste bone, quede hacia arriba y el efector quede hacia abajo
+
+
+	_ha éste nuevo bone, debemos de desactivale la opción de "Deform", para lo cuál, debemos de seleccionado e ir
+
+	a las opciones de "Properties/Bone Bone/", y una vez allí desactivar la opcíon de "Deform"
+
+
+	_el cuál, a su vez, podremos renombrar como "Hip"
+
+
+
+
+
+

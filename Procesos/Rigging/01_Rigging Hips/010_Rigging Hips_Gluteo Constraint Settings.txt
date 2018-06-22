@@ -1,0 +1,42 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Gluteo Constraint Settings:
+	___________________________
+
+
+	_así, como también, podremos graduar la influencia de la rotación del bone, "L_Gluteo", en relación a la
+
+	rotación ejercida por el bone, "L_Femur", para lograr así, un movimiento cinemático y anatómico más natural
+
+
+	_de ésta manera, estando aún en el modo "Pose mode", debemos de seleccionar el bone, "L_Gluteo", y con éste
+
+	seleccionado ir al panel "Properties/Bone Constraint", y una vez allí, editar las opciones de "Influecne"
+
+
+	_para así, podamos hacer ajustes personalizados en relación a la interacción y al tipo de character
+
+
+	_donde un valor recomendado para influencia es de "0.2"
+
+
+
+
+
+
+
+

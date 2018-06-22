@@ -1,0 +1,127 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	NOTE: éstas opciones son alternativas u opcionales y sólo para los casos en los que tanto los maxilares como la 
+
+	mandíbula estén coformados por una sóla mesh, dentro del character, de ésta manera, si los maxilares y la 
+
+	mandíbulas están conformadas por meshes, diferentes no hace falta aplicar éstos controles de éste paso
+
+
+
+	Fabe Bone Aux:
+	______________
+
+	_también, debemos de crear otra chain ó cadena de bones, que bordeé el perfil ó mandíbula del character, de
+
+	ésta manera, estando aún en el modo "Edit mode"
+
+
+	_de ésta manera, debemos de crear un nuevo bone, un bone, shorcut, "Shift + A", el cuál, debemos de re escalar
+
+	shortcut, "Control + Alt + S", y re posicionar en el mentón del character
+
+
+	_para a continuación extruir éste varias veces hasta llegar a la altura del lóbulo de la oreja para 
+
+	posteriormente proceder ha volver extruir un bone, hasta la altura del esfenoide y un poco más allá cercano
+
+	más al ojo
+
+
+	_así, como también, a partir del efector del bone, anterior correspondiente el lóbulo de la oreja, debemos
+
+	de extruir otro bone, que abarque desde el lóbulo de la oreja hasta la parte más alta de la oreja ó hélice,
+
+	ó helix
+
+
+	_éste serie de bones, la podremos renombrar como:
+
+		_L/R_Perfil_Aux_Mandibule_1,2,3,4,5
+
+		_L/R_Perfil_Aux_Mandibule_Lobulo
+
+		_L/RPerfil_Aux_Lobulo_Helix
+
+		_L/R_Perfil_Aux_Lobulo_Esfenoid
+
+
+
+
+
+	Mirror Bones:
+	_____________
+
+
+	_todas éstas acciones debemos de repetirlas para el lado opuesto del character, en este caso para el lado 
+
+	derecho para lo cuál, debemos seleccionar todos los bones, que hemos creado en los pasos anteriores y con éstos
+
+	seleccionados proceder ha duplicar éstos bones
+
+
+	_a través, del shortcut, "Shift + D", más mouse right click, para que los bones, duplicados se queden enel 
+
+	mismos lugar que los bones, originales
+
+
+	_para posteriormente colocar el cursor en el centro del viewport, shortcut, "Shift + C", para a continuación
+
+	proceder ha cambier el modo de "Pivot point", a la opción de de "3D Cursor", a través del shortcut, ".", (punto)
+
+
+	_para seguidamente hacer "mirror", de los bones, seleccionados a través, del shortcut, "Control + M", más "X",
+
+	para indicar así, la cordenada de trabajo
+
+
+	_para posteriormente proceder ha invertir los prefijos de los nombres de los bones, seleccionados y que han sido
+
+	invertidos para lo cuál, debemos de abrir el panel contextual de "Specials", a través, del shortcut, "W", en el 
+
+	cuál, debemos de seleccionar la opción de "Flip Names"
+
+
+
+
+	Parents:
+	________
+
+	_a continuación aún en "Edit mode", shortcut, "Tab", debemos de proceder ha seleccionar todos los bones, 
+
+	auxiliares que hemos creado y configurado para la parte exterior de la mandíbula del rostro,
+
+
+	_para seguidamente proceder ha seleccionar el bone, principal de la cabeza "Head", para a continuación con
+
+	todos los bones, seleccionados en el orden indicado, proceder ha abrir el panel contextual de "Make Parent"
+
+
+	_a través, del shortcut, "Control + P", en el cuál, debemos de seleccionar la opción de "Keep Offset", para
+
+	que así, éstas series de bones, obedescan a las transformacione de la cabeza en general posteriormente
+
+
+
+
+
+
+
+

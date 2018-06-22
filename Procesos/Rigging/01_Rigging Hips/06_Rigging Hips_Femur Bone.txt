@@ -1,0 +1,35 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Femur Bone:
+	___________
+
+	_para a continuación aún en "edit mode", proceder ha extruir el efector del bone, "L_Hiliaca", creando así,
+
+	el "Femur", del character, el cuál, podremos renombrar como "L_Femur"
+
+
+
+	
+
+
+
+	
+
+
+
+
+

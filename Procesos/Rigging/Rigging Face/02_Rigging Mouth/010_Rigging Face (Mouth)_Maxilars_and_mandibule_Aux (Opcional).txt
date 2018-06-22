@@ -16,6 +16,15 @@
 
 
 
+
+	NOTE: éstas opciones son alternativas u opcionales y sólo para los casos en los que tanto los maxilares como la 
+
+	mandíbula estén coformados por una sóla mesh, dentro del character, de ésta manera, si los maxilares y la 
+
+	mandíbulas están conformadas por meshes, diferentes no hace falta aplicar éstos controles de éste paso
+
+
+
 	Maxilars and Mandibule Aux:
 	___________________________
 

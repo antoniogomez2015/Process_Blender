@@ -1,0 +1,72 @@
+
+
+
+
+	_rig por bones deformers:
+
+			Blender Mouth Rigging Tutorial (EN - ES subtitles)
+
+				https://www.youtube.com/watch?v=Map_ro-xUwg
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Face Mandibule Influence:
+	_________________________
+
+	_primeramente debemos de seleccionar la layer, que corresponde con el "Armature", principal del character, para
+
+	a continuación entrar en su "Pose mode"
+
+
+	
+	Descripción:
+	____________
+
+	_para ajustar la apertura de la boca en relación a la articulación de la mandíbula, debemos de ajustar los
+
+	parámetros los constraints "Copy Locations", hasta conseguir un punto medio 
+
+
+	_en el cuál, la boca se quede en su posición original excepto el labio inferior el cuál, debe de estirar en
+
+	relación a la articulación de la mandíbula
+
+
+
+
+	Contraint Copy Locations:
+	_________________________
+
+	_de ésta manera, debemos de ir seleccionando cada uno de los bones, "deformers", de la boca llamados
+
+	en éste caso "L/R_Lip_Handle_Up_1,2,3..."
+
+
+	_para a continuación con éste bone, respectivo seleccionado ir al panel properties, yendo ha
+
+	"Properties/Bone Constraint", en el cuál, podremos ajustar el valor de "Influence"
+
+
+	_hasta conseguir el valor deseado en relación a la posición de la boca respectivamente lo cuál, debemos de
+
+	repetir ajustando todos los deformadores del sistema de la boca
+
+
+
+
+
+
+
+
+
+
+
+
+

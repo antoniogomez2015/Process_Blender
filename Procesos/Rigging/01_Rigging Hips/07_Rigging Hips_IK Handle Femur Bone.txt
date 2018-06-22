@@ -1,0 +1,86 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	IK Handle Femur Bone:
+	_____________________
+
+	_para a continuación aún en "edit mode", proceder ha extruir el efector del bone, "L_Femur", hacia adelante
+
+	para crear así, un handle, al cuál, debemos de desactivarle la opcíon de "Deformer"
+
+
+	_el cuál, podremos renombrar como "L_Femur_Handle"
+
+
+	_para lo cuál, con el bone, seleccionado debemos ir al panel "Properties/Bone Bone", y una vez allí, debemos
+
+	de desactivar la opción de "Deform"
+
+
+	_así, como también, debemos de desvincular ó desemparentar éste bone, para lo cuál, debemos de seleccionar
+
+	el bone y abrir el panel "Clear Parent", en el cuál, debemos de seleccionar la opción de "Clear Parent"
+
+
+	_para que así, ahora podamos mover el bone, que hará de handle, sin que éste efecte la gerarquía de bones,
+
+	precedidos de éste
+
+
+	_para luego pasar al modo "Pose mode", para agregar el sistema de kinemática inversa al femur
+
+
+	_para a continuación proceder ha seleccionar el bone, que hemos renombrado como "L_Femur_Handle", y 
+
+	seguidamente seleccionar el bone, "L_Femur"
+
+
+	_de ésta manera, con ambos bones, seleccionados y en el orden especificado proceder ha abrir el panel
+
+	contextual de "Add IK", a través, del shortcut "Shift + I", en el cuál, debemos de seleccionar la opción de
+
+	"To Active Bone",
+
+
+	_para a continuación aún estando en el modo "Pose mode", proceder ha seleccionar el bone, "L_Femur", para
+
+	a continuación ir al panel "properties/Bone Constraint", y en el cuál, debemos de ir a las opciones de 
+
+	"IK/Chain Length", en la cuál, debemos de indicar un valor de "1"
+
+
+	_para que así, podamos controlar la articulación del femur a través, del handle control, que hemos creado
+
+
+	_una de las caracteísticas importantes entre otras de agregar un sistema de IK, al femur, es que nos
+
+	permitirá ejercer el movimiento de "Roll", sobre la pierna lo que nos permitirá poder rotar el pie sobre
+
+	el talón del mismo
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

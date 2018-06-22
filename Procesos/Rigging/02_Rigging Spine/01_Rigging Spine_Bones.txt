@@ -1,0 +1,60 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	NOTE: éste proceso continua a partir del proceso de creación del sistema del "Hip", del character, de ésta 
+
+	manera, el sistema se continuará específicamente a partir del bone, renombrado como "Hip"
+
+
+
+	Spine Bones:
+	____________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "hip", para que así, podamos proceder ha extruir éste bone
+
+
+	_creando una nueva cadena seguida de bones, de "tres", bones, correspondientes a las vertebras lumbares y a 
+
+	un par de vertebras toráxicas
+
+
+	_éstos bones, los podremos renombrar como; "Spine_Lumbar_1,2,3"
+
+
+
+	_para seguidamente crear un último bone, el cuál, vaya desde una de las vertebras bajas del toras extruidas
+
+	en el paso anterior, hasta la primera vertebra del cuello ó vertebra cervical
+
+
+	_éste bone, lo podremos renombrar como; "Spine_Chest"
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

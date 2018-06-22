@@ -1,0 +1,59 @@
+
+
+
+
+	_Blender Pelvis Rigging Tutorial
+
+		https://www.youtube.com/watch?v=3iOMt5kpoHM
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mirror:
+	_______
+
+	_estando aún en el modo "Edit mode", shortcut, "Tab", debemos seleccionar todos los bones, del sistema que 
+
+	hemos creado
+
+
+	_para a continuación una vez hemos seleccionado los bones, respectivos debemos proceder ha duplicar éstos a
+
+	través, del shortcut, "Shift + D", más mouse right click, para que así, los bones, duplicamos mantengan su 
+
+	lugar origianl
+
+
+	_para posteriormente colocar el 3D cursor, en el centro del viewport 3d, debemos de aplicar el shortcut,
+
+	"Shift + C"
+
+
+	_para posteriormente en las opciones del panel "Pivot Point", seleccionar la opción de "3D Cursor", ó a través,
+
+	del shortcut, ".", punto
+
+
+	_para posteriormente hacer mirror, de los bones, seleccionados a través, del shortcut, "Control + M", más la
+
+	cordenada "X", para posteriormente aplicar "Enter", para aceptar la operación de "Mirror"
+
+
+	_para luego aún con los bones, seleccionados abrir el panel contextual "Specials", a través, del shortcut, "W", 
+
+	en el cuál, debemos de seleccionar la opcíon de "Flip Names" 
+
+
+	_para que así, los prefijos de los nombre de los bones, seleccionados sean cambiados de "L/R"
+
+
+
+
+
+
+
