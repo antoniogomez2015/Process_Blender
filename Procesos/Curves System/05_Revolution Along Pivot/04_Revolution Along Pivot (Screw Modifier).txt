@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Screw Modifiers:
+	________________
+
+	_para a continuación con el objeto de tipo curve, seleccionado sea en el modo edit mode, ó en el objet mode,
+
+	vamos a las opciones de "Properties/Modifiers Object Modifier/", en la cuál, seleccionaremos la opción de
+
+	"Screw", 
+
+
+	_para que así, automáticamente se cree una geometría de tipo nurb, en revolución en relación al axis, del
+
+	objeto de tipo curve, y a su forma de la spline, respectiva
+
+	
+	_y en las opciones de éste modificador podremos ajustar tanto la dirección de las normales como los "Steps",
+
+	ó resolución que tendrá la geometría resultante hasta cierto grado 
+
+
+	_como también, el ángulo de rotación, la cordenada de acción, otros
+
+
+
+
+
+
+
+

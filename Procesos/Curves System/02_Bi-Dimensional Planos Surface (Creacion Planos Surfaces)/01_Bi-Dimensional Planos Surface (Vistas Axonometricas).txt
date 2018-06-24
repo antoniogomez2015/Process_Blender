@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Vistas Axonométricas:
+	_____________________
+
+	_tenemos la posibilidad de crear formas complejas en blender, a partir de la creación alambrica de formas
+
+	en un plano ó cordenadas bisimensional 
+
+
+	_para lo cuál, lo más recomendable es proceder con la edición de sub-elementos vertex de la curva una vista 
+
+	axonométrica de una cámara en específico, shortcut, "1/3/7", y para colocar la vista en axonométrica, 
+
+	shortcut, "5"
+
+
+	_de ésta manera, garantizaremos que los vertex, y spline, generadas estén todos en una misma cordenada lo cuál,
+
+	será requerido para poder crear una superficie a partir de éstos en un plano "2D"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	

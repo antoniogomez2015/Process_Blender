@@ -1,0 +1,127 @@
+
+
+
+
+	Características y comportamientas de las curves and splines, en blender
+
+
+		Tutorial de como crear un logo 3D en blender con curvas beizer I
+			https://www.youtube.com/watch?v=kuLOBNxtd3I
+
+
+		Blender Surface Modelling With Network Curve
+			https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+Brujeria
+	https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Curve Extrude:
+	______________
+
+	_más posteriormente tendremos la posibilidad de hacer extrusiones de las splines, ó curves, para que así,
+
+	podamos conformas formas más complejas a través, de imágenes de referencia, otros
+
+
+	_para lo cuál, dispondremos de dos métodos los cuáles, son:
+
+
+		_podremos hacer una extrusión convencional seleccionando el último vertex, y extruyendo éste a 
+
+		través, del shortcut, "E"
+
+
+		_más también, podremos seleccionar el último vertex, y con éste seleccionado posicionarnos en otra
+
+		ubicación deseada y hacer "Control + Mouse Left Click", para que así, el sistema cree otro nuevo
+
+		vertex, en esa nueva posición y así, vayamos creando formas más complejas
+
+
+	_debemos de tener en cuentra que debemos de cerrar las formas que creemos a través, de curves splines, para lo
+
+	cuál, al llegar nuevamente al primer vertex, creado debemos hacer shortcut, "Alt + C", para que así, la spline,
+
+	sea automáticamente cerrada
+
+
+	
+
+	Curve Extrude Advanced:
+	_______________________
+
+	_también, tendremos la posibilidad de extruir curvas en points, ó vertex, intermedios para lo cuál, debemos
+	
+	de tener creados previamente un objecto de tipo curve, en el viewport, y escena, para con éste seleccionado
+
+	entrar a su modo de edición shortcut, "Tab"
+
+
+	_para luego extruir sus vertex, hasta lograr la spline, deseada más cuando deseamos extruir un vertex, el
+
+	cuál, no es el último ni el primero tendremos el problema de que éste se extruye pero no mantiene la 
+
+	continuidad del trazado si no que es creada como una nueva spline, dentro del mismo objeto de tipo curva
+
+	
+	_lo cuál, no siempre es lo deseado para lo cuál, dispondremos del siguiente proceso para hacer que éste
+
+	tipo de extrusiones de vertex, intermedios si mantengan la continuidad en una misma spline
+
+
+	_para lo cuál, debemos entonces seleccionar un vertex, intermedio el cuál, deseamos extruir pero éste 
+
+	mantenga la misma continuidad de la spline, existente y con éste seleccionado aplicamos el siguiente
+
+	shortcut, "Shift + D", para duplicar el vertex, seleccionado para a continuación sin mover el mouse, hacer
+
+	"E + Mose Left Click and Drag", hasta un nuevo punto para crear así, más geometría extruida ó una nueva
+
+	extensión de la spline existente
+
+
+	_aunque a través, de éste método no logramos que ambos splines, se conviertan en uno sólo más si logramos
+
+	que aparenten estarlo
+
+
+	_también, podremos hacer un "Split", shortcut, "Y", en edit mode, de knot, seleccionado para que así,
+
+	éste knot, sea duplicado en el mismo lugar que el original a paritr del cuál, podremos continuar el 
+
+	proceso
+
+
+
+
+	Extrude Scale:
+	______________
+
+	_más también, podremos escalar vertex, de spline, a través, de los cuáles, es creada geometría para lo 
+
+	cuál, también, escalaremos dicha geometría
+
+
+	_para lo cuál, debemos tener un elemento de tipo "Curve", en el proyecto y viewport 3d, para que así, 
+
+	podamos seleccionar éste entrando a "Edit Mode", shortcut, "Tab"
+
+
+	_para posteriormente seleccionar un vertex, y aplicar el shortcut, "Alt + S", para que así, podamos 
+
+	eslacar ésta área de esa respectiva geometría
+
+
+	
+
+
+
+
+

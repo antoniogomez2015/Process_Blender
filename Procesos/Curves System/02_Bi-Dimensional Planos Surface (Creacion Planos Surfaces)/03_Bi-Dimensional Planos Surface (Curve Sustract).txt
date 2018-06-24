@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Sustract Curve:
+	_______________
+
+	_más tendremos la posibilidad de hacer formas aún más complejas con la posibilidad de sustraer formas para 
+
+	crear así, agujeros dentro de una forma ó spline, más grande
+
+
+	_para lo cuál, dispondremos de diferentes métodos los cuáles, son los siguientes:
+
+
+
+
+	Método 1:
+	_________
+
+	_colocar el cursor 3d, en el lugar donde deseamos que se cree la nueva spline, y hacemos 
+
+	"Shift + A/Add/Circle ó Bezier", para agregar así, una nueva spline, dentro del sistema 
+
+
+	_la cuál, si está cerrada hará sustracción sobre la spline, cerrada principal
+
+
+	
+
+
+	Método 2:
+	_________
+
+	_más también, podremos hacer lo mismo de una forma más rápida, en la cuál, primeramente no debemos tener
+
+	ningún vertex, seleccionado y posteriormente sólo tendremos que hacer "Control + Mouse Left Click" 
+
+
+	_en un área determinada del viewport 3d, para que así, un nuevo "Vertex", ó "Knot", sea agregado al 
+
+	viewport 3d, en el área donde hemos hecho click 
+
+
+	_a partir del cuál, podremos extruir hasta conseguir la forma deseada, teniendo en cuenta que dicha 
+
+	forma deberá estar cerrada en sus extremos
+
+
+
+
+
+	NOTE: es recomendable que tanto las splines, externas ó principal como las internas ó sustractivas se encuentren
+
+	con el mismo tipo de handle, activado, es decir, que si la spline, exterior tiene un tipo de handle, de tipo
+
+	"Vector", las handles, internas es recomendado que también, tengan un tipo de handle, de tipo "Vector", para
+
+	evitar así, ructura de la surface, generada e inonpatibilidad del sistema general
+		
+
+
+
+
+
+
+
+
+
+	
+
+	

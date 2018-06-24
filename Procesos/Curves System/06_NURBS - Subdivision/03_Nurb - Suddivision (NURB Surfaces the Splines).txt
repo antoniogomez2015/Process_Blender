@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Surface NURB:
+	_____________
+
+	_y luego de haber editado todas las formas ó splines, replicadas y moduladas entonces es hora de crear la
+
+	forma NURB, resultante para lo cuál, debemos de seleccionar todos los vertex, de todas las splines, creadas
+
+	dentro de éste objeto ha crear, shortcut, "A/A"
+
+
+	_para a continuación crear la forma ó surperficie NURB, shortcut, "F", para que así, el sistema cree la 
+
+	superficie nurb, resultante de las splines, seleccionadas
+
+
+	_la cuál, podremos editar ó ajustar entrando nuevamnete al "Edit Mode", del sistema NURB
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Spline to the Extrude:
+	______________________
+
+	_para a continuación crear otro objeto de tipo curve, a través, del cuál, debemos de crear otra spline,
+
+	con la forma deseada ha extruir sobre la trayectoria de la otra spline, que creamos previamente
+
+
+	_para lo cuál, debemos de repetir los mismos pasos anteriores de creación y edición de splines
+
+
+	_de ésta manera, la forma que hemos creado de tipo spline, hará de motivo, es decir, que ésta será la forma 
+
+	extruida ó proyectada sobre la spline, que hará de path, ó trayectoria
+
+
+	_para generar así, una surface, de geometría de tipo nurb, a partir de ésta proceso
+
+
+	_los más lógico y recomendable es colocar ésta spline, que hará de motivo de forma escalada y conjunta al
+
+	primer vertex ó knot, de la spline, que hará de path
+
+
+	_para que así, tanto el sistema como nosotros tengamos una idea de la surface, ha extruir, su tamaño, y forma 
+
+	resultado en relación a la spline, que hace de motivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

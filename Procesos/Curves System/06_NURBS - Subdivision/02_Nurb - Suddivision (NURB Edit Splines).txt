@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	NURB Edit Splines:
+	__________________
+
+	_posteriormente de haber creado una nurb, base en la escena debemos editar ésta hasta lograr la forma
+
+	deseada a construir, para lo cuál, debemos de seleccioanr el objeto de tipo nurb, que hemos creado y con
+
+	éste seleccionado entramos a su modo de edición, shortcut, "Tab"
+
+
+	_para que así, podamos ver que las nurbs, son representadas de modo subdivision surface, lo cuál, quiere
+
+	decir que las splines, y posteriormente las superficies estarán representadas a partir de tres vertex, ó
+
+	puntos
+
+
+	_de ésta manera, debemos de seleccionar un vertex, e ir lo ubicando en las áreas deseadas así, como también,
+
+	debemos de ir extruyendo éstos hasta conformar la forma deseada
+
+
+	_así, como también, de ir seleccionando las spline, que vayamos creando shortcut, "Control + L", para que
+
+	así, podamos ir duplicando éstas shortcut, "Shift + D", para posteriormente ir reubicando éstas de forma
+
+	paralela y con variaciones de transformación en relación a las anteriores
+
+
+	_y para cerrar splines, luego de haber ajustado y extruido los vertex, necesarios para construir así, la 
+
+	forma deseada en muchos requerimemos
+
+
+	_para lo cuál, debemos de seleccioanr tanto el primer como el último vertex, de la spline y a continuación 
+
+	aplicaremos el sortcut, "F", ó "Alt + C", para que así, la spline, sea cerrada automáticamente
+
+
+
+
+
+
+
+
+
+
+
+

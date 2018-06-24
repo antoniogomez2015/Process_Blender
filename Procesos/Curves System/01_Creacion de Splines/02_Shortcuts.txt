@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Edit mode:
+	__________
+
+
+	_Select Branch: Control + L
+
+
+	_Set Handle Type: V
+
+
+	_Extrude: E
+
+
+	_Specials: W
+
+		_Subdivide
+
+		_Switch Direction
+
+		_Set Goal Weight
+
+		_Set Curve Radius
+
+		_Smooth ...
+
+
+	_Tilt: Control + T (rotar curve sobre si misma)
+
+
+	_Split: Y (crea un nuevo branch, a partir de un knot, seleccionado)
+
+
+	_Separate: P (crear nuevo objeto a través, de knots, seleccionados)
+
+
+	_Make Segments: F (unir dos knots, a través, de un segmento)
+
+
+	_Toggle Cyclic: Alt + C (cerrar curvas aiertas, seleccionado al menos un knots)
+
+
+	_Recalc Normals: Control + N (re distribución de las normales de la spline)
+
+
+	_Hooks: Control + H
+
+
+	_Scale Knot: Alt + S (escalar vertex para escalar parte de la geometría extruida u obtenida del proceso)
+
+
+	
+
+	
+
+
+
+
+
+
+
+

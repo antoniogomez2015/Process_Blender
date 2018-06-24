@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Tri-Dimensional Surface (Extrude Surfaces):
+	___________________________________________
+
+	_tenemos la posibilidad de crear formas complejas en blender, formas tridimensionales a partir de la 
+
+	creación de formas complejas Bi-Dimensionales ó planos de surface 2d, creados previamente
+
+
+	_para lo cuál, luego de haber terminado el proceso de creación y rellenado de la forma 2d, podremos ir a 
+
+	"Priperties/Data Objet data/Geometry/", y allí, tendremos la siguientes opciones:
+
+
+
+
+
+	Magnification:
+	______________
+
+
+
+		_Extrude: 
+
+			_a través, de éste parámetro podremos hacer que la "surface", cobre volúmen en una tercera 
+
+			cordenada en éste caso la cordenada "Z"
+
+
+
+		_Offset:
+
+			_éste valor nos permitirá expandir la forma para ajustar y evitar lo vertex, montados unos 
+
+			sobre otros
+
+
+
+
+
+	Bevel:
+	______
+
+
+		_Depth:
+
+			_éste valor nos permitirá crear un bisel para dar así, una apariencia con más volúmen y con una
+
+			resolución y suavizadp mayor 
+
+
+		_Resolution:
+
+			_éste valor nos permitirá aumentar la resolución ó geometría asignada al bisel generado
+
+			previamente
+
+
+	
+
+
+
+
+	

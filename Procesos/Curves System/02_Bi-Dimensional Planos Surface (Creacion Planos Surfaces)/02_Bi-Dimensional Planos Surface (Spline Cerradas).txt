@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Splines Cerradas:
+	_________________
+
+	_para la generación de planos 2d, ó bi-dimensionales de tipo "Nurb", ó "Surface", de geometría a partir de	
+
+	spline, es necesario que las splines, generadas estén cerradas
+
+
+	_es decir, que los extremos de la spline, respectiva deben estar unidospara lo cuál, debemos de seleccionar
+
+	al menos uno de los vertex ó knot, para a continuación hacer "ToggleCyclic", shortcut, "Alt + C"
+
+
+	_para que así, la spline, respectiva sea cerrada, de ésta manera, podremos ahora si, crear geometrías planas
+
+	a partir de splines, posteriormente
+
+
+
+
+
+	
+
+	

@@ -1,0 +1,121 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Surface Along Spline Taper:
+	___________________________
+
+
+	_así, como también, tendremos la posibilidad de crear el efecto "Taper", es decir, hacer que la surface,
+
+	generada a través, del path, sea en un punto inicial más delgada ó más gruesa en el inicio ó en el final,
+
+	como también, en puntos intermedio del recorrido
+
+
+
+
+	Create Spline:
+	______________
+
+
+	_para lo cuál, debemos de crear una nueva spline, yendo ha curve/spline, ó a través, del menú contextual
+
+	"Add", shortcut, "Shift + A"
+
+
+	_en el cuál, debemos de seleccionar la opción de "Curve/Bezier", para que así, sea agregado un nuevo 
+
+	objeto de tipo spline 
+
+
+
+
+	Edit Spline:
+	____________
+
+	_en éste caso lo más aconsejable es colocar la cámara superior ó "Top", shortcut, "7", y colocar la vista 
+
+	axonométrica a través, del shortcut, "5"
+
+
+	_para a continuación seleccionar la respectiva layer, u objecto para entrar así, a su modo de "Edit mode",
+
+	a través, del shortcut, "Tab"
+
+	
+	_para que así, podamos seleccionar los dos vertex, que lo componen para luego abrir el menú contextual de
+
+	"Set Handle Type", a través, del shortcut, "V"
+
+
+	_en el cuál, debemos de seleccionar el modo de "Vector", para que así, se alinien tando los vertex, ó como
+
+	los handles, respectivos en el eje horizontal
+
+
+
+
+	Graphic:
+	________
+
+
+	_de ésta manera, una vez tengamos los sub-elementos de la spline, alineados horizontalmente debemos de 
+
+	subir ó bajar los vertex de inicio y final respectivamente en relación a la orientación del efecto taper,
+
+	ha crear
+
+
+	_entendiendo así, que el vertex inicial de la spline, corresponderá al punto inicial de la surface, creada
+
+	y el último vertex corresponderá al punto final de la superficie generada
+
+
+
+
+	Taper Controller:
+	_________________
+
+	_de ésta manera, una vez hemos creado el objeto de tipo spline, que controlará el efecto de taper, y una
+
+	vez hemos editado éste correctamente
+
+
+	_podremos estonces proceder ha seleccionar el objeto que hace de path, de la surface, generada previamente
+
+	y con éste seleccionado ir a las opciones "Curve/Spline/Geometry/Taper Object"
+
+
+	_para que así, una vez alli, proceder ha seleccionar la spline, que hemos creado y preparado para tal fin
+
+
+	_para que así, a través, de ésta spline, poder hacer variaciones sobre el grosor y demás comportamientos
+
+	de la forma ó geometría resultante
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Set Pivot:
+	__________
+
+	_primeramente debemos asegurándonos que el el cursor y el povot, se encuentrar en el centro del viewport, 
+
+	los cuáles, podremos ajustar de la siguiente manera:
+
+
+
+		3D Cursor:
+		__________
+
+		_el cursor 3d, lo podremos ajustar gracias a las opciones del menú contextual de "Snap", shortcut, 
+
+		"Shift + S", y en el cuál, debemos de seleccionar la opción de "Cursor To Center"
+
+
+		_a través, de un shortcut, más directo "Shift + C"
+
+
+		
+		Pivot:
+		______
+
+		_y el pivot, lo podremos ajustar gracias a las opciones del menú contextual "Set Orion", shortcut, 
+
+		"Shift + Control + ALt + C", en el cuál, debemos de seleccionar la opción de "Orion To 3D Cursor" 
+
+
+
+	_para que así, pueda realizarse el proceso de revolución de la geometría sobre su propio eje posteiormente
+
+
+
+
+
+
+
+

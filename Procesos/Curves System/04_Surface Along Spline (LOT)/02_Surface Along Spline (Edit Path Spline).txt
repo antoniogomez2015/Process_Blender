@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Edit Path Spline:
+	_________________
+
+	_para el proceso de modelado ó ajuste de la forma ó trayectoria ha crear lo más recomendado es ir a las 
+
+	opciones del panel viewport 3d, shortcut, "N", en las cuáles, podremos bajar hasta las opciones de 
+
+	"Curve Display" 
+
+
+	_en la cuál, debemos de desactivar las opciones de "Handle", y "Normals", para que así, tengamos una mejor 
+
+	visualización en el viewport 3d, a la hora de mover y ajustar los vertex, de la spline, respectiva
+
+
+	_de ésta manera, podremos conformar la figura, forma ó path, deseado así, como también, tendrmeos la 
+
+	posibilidad de cerrar ésta spline, de requerirlo así, a través, del shortcut, "Alt + C"
+
+
+
+
+
+
+
+	

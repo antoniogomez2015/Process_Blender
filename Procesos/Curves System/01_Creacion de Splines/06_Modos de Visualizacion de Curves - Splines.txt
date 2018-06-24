@@ -1,0 +1,48 @@
+
+
+
+
+	Características y comportamientas de las curves and splines, en blender
+
+
+		Tutorial de como crear un logo 3D en blender con curvas beizer I
+			https://www.youtube.com/watch?v=kuLOBNxtd3I
+
+
+		Blender Surface Modelling With Network Curve
+			https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+Brujeria
+	https://www.youtube.com/watch?v=sL5yU-Xip3Q
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Configuración:
+	______________
+
+
+	_para el proceso de creación de las formas a través, de splines, lo más recomendable es ocultar los handles, 
+
+	ó manejadores y las normales de las splines
+
+
+	_para lo cuál, podremos ir al panel de propiedades del viewport 3d, shortcut, "N", y bajar hasta la parte 
+
+	inferior de éste hasta las opciones de "Curve Display", y allí, deseleccionar la opciones de "Handles", y
+
+	"Normals", para que así, éstos ya no sean visibles
+
+
+
+
+	
+
+
+
+
+

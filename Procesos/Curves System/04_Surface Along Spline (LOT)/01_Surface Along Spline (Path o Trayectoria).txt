@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Surface Along to Spline:
+	________________________
+
+	_tenemos la posibilidad de crear extruir formas ó surfaces, moduladas ó instanciadas con variaciones a 
+
+	través, de una spline, motivo ó modelo y otra spline, ha modo de path, ó trayectoria de modelado 
+
+
+	_la forma ó spline, motivo ó modelo puede estar cerrada ó no, y la spline, que hará de path, ó trayectoria
+
+	de extrusión puede estar cerrada ó no 
+
+
+	_lo cuál, permite una gran flexibilidad a la hora de modelar elementos complejos y que a su vez, éstos sean 
+
+	perfectamente maleables y modificables a través, del tiempo
+
+
+
+	
+	Path ó Trayectoria:
+	___________________
+
+	_para lo cuál, debemos primeramente de crear una spline, de tipo "Bezier", la cuál, hará de path, ó 
+
+	trayectoria de animación, donde lo más recomendado es crear un objeto de tipo "Curve", a través, del 
+
+	shortcut,"Shift + A/Add/Curve/Path" 
+
+
+	_para que así, un elemento simple de tipo curve, sea agregado el viewport 3d, y	escena el cuál, podremos 
+
+	editar y ajustar posteriormente
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

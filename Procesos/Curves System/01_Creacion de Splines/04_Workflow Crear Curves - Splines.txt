@@ -1,0 +1,57 @@
+
+
+
+
+
+	
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Curve Bezier Workflow:
+	______________________
+
+	_tenemos la posibilidad de crear superficies complejas a través, de la creación y edición de curvas de tipo
+
+	bezier, para lo cuál, debemos seguir el siguiente proceso y configuración
+
+
+	_para que así, de ésta manera, podremos crear elementos como logotipos, planos y extruidos, y forma con
+
+	volúmen tridimensional, otros
+
+
+
+	Curve Beizer Creation:
+	______________________
+
+	_primeramente debemos de crear un tipo de curva bazier, para lo cuál, sobre le viewport 3d, hacermos
+
+	shortcut, shift + A, ó yendo ha "Add/Cuve/Bezier", para que así, una curva bezier, sea agregada al 
+
+	viewport 3d, y escena
+
+
+	
+	Curve Bezier Edición:
+	_____________________
+
+	_y para entrar en modo "Edit mode", de la curva ó spline, de tipo bezier, debemos de aplicar el shortcut,
+
+	"Tab", para que así, podamos manejar los controles y proceder ha modificar ésta
+
+
+
+
+
+
+

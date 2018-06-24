@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Lot Extrusion Spline Path:
+	__________________________
+
+
+	Path ó Trayectoria:
+
+	_tenemos la posibilidad de crear extruir formas moduladas ó instanciadas con variaciones a través, de una
+
+	spline, motivo ó modelo y otra ha modo de path, ó trayectoria de modelado 
+
+
+	_la forma ó spline, motivo ó modelo puede estar cerrada ó no, y la spline, que hará de path, ó trayectoria
+
+	de extrusión puede estar cerrada ó no 
+
+
+	_lo cuál, permite una gran flexibilidad a la hora de modelar elementos complejos y que a su vez, éstos sean 
+
+	perfectamente maleables y modificables a través, del tiempo
+
+
+	
+	Curves Splines:
+
+	_para lo cuál, debemos primeramente de crear una spline, la cuál, hará de path, ó trayectoria de animación,
+
+	donde lo más recomendado es crear un objeto de tipo "Curve", "no surface", a través, del shortcut,
+
+	"Shift + A/Add/Curve/Path", para que así, un elemento simple de tipo curve, sea agregado el viewport 3d, y
+
+	escena el cuál, podremos editar y ajustar posteriormente
+
+
+
+	Modeling:
+
+	_para el proceso de modelado ó ajusta de la forma ha crear lo más recomendado es ir a las opciones del panel
+
+	viewport 3d, shortcut, "N", en las cuáles, podremos bajar hasta las opciones de "Curve Display", en la
+
+	cuál, debemos de desactivas las opciones de "Handle", y "Normals", para que así, tengamos una mejor 
+
+	visualización en el viewport 3d, a la hora de mover y ajustar los vertex, de la spline, respectiva
+
+
+	_de ésta manera, podremos conformar la figura, forma ó path, deseado así, como también, tendrmeos la 
+
+	posibilidad de cerrar ésta spline, de requerirlo así, a través, del shortcut, "Alt + C"
+
+
+
+
+	Motivo ó Modelo:
+
+	_para a continuación crear otro objeto de tipo curve, a través, del cuál, debemos de crear otra spline,
+
+	con la forma deseada ha extruir para lo cuál, debemos de repetir los mismos pasos que en el caso anterior
+
+
+
+
+	Extrusión Lot por Path:
+	_______________________
+
+	_para pos último, seleccionar la objeto de tipo curve, en "Objet Mode", que hará de path, de extrusión y
+
+	con éste seleccionado ir ha "Properties/Data Object Data/Geoemtry", y allí, ubicar las opciones de 
+
+	"Bevel Object", y seleccionar el objeto de tipo "Curve", el cuál, hará de motivo ó modelo ha extruir
+
+
+	_para posteriormente hacer ajustes de cordenadas y posición en casos de no obtener la forma deseada a 
+
+	partir del momento de creación de la forma resultante sobre el path, ó trazado de extrisión
+
+
+	
+	Reolución:
+
+	_para posteriormente de haber creado la forma resultante podremos ajustar la resolución y apariencia de
+
+	ésta
+
+	_para lo cuál, con el objeto respectivo seleccionado debemos entrar ha un "Edit Mode", shortcut, "Tab", e
+
+	ir hasta "Data Objet Data/Shape/Resolución", y allí, ajusar los valores de "Preview", a través, de los
+
+	cuáles, ajustaremos la resolución e interpolación de la forma resultante lo que afectará a la 
+
+	visualización, render y conversión ha geometría de tipo polymesh, posteriormente
+
+
+
+	Taper:
+
+	_así, como también, podremos de ser necesario otra curve/spline, a través, de la cuál, podremos ajustes 
+
+	u oxilaciones cargando éste objeto en las opciones de la "Curve/Spline/Geometry/Taper Object"
+
+
+	_para que así, a través, de ésta spline, poder hacer variaciones sobre el grosor y demás comportamientos
+
+	de la forma ó geometría resultante
+
+	

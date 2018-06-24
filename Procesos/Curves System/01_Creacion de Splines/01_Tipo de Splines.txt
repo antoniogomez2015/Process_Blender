@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Crear Splines:
+	______________
+
+	_para lo cuál, debemos de estar en el modo "Object mode", para que así, podamos crear un nuevo objecto a través,
+
+	del shortcut, "Shift + A", podamos abrir el menú contextual de "Add", ó yendo ha "Add/Curve/"
+
+	
+	_en el cuál, podremos entrar en "Curve", en el cuál, encontraremos diferentes opciones de creación de splines,
+	
+	como los son:
+
+
+
+		_Bezier:		
+
+			_éste es la modalidad más común de crear splines, ya que es la forma en la cuál, podremos crear
+
+			curvas con handles, ha modo de "Illustrator", a través, de los cuáles, podremos controlar la
+
+			deformación de las curvas por medios de nodos
+
+
+
+		_Circle:
+
+			_éste modo consiste en una spline cerrada ha modo de circulo el cuál, es muy práctivo para
+
+			crear formas geométricas circulares para diferentes tipos de procesos
+
+
+
+		_Nurbs Curve:
+
+			_ésta modalidad es idéntica a las anteriores más ésta opcíon no dispone de handles, 
+
+			controladores, para su edición y creación, ya que el suavizado que se le da a las pline, es 
+
+			conseguido a través, de punto de fuerza de tipo NURB, así, como para su creación ó extrusión
+
+
+
+		_Nurb Circle:
+
+			_éste modo consiste en una spline, de tipo Nurb, cerrada ha modo de circulo el cuál, es muy 
+
+			práctivo para crear formas geométricas circulares para diferentes tipos de procesos
+
+
+
+		_Path:
+
+			_éste modo es una variante del modo "Nurbs Curve", con la diferencia que la spline, resultante
+
+			siempre estará en el mismo punto de los punto de tensión y creación de tipo Nurb, ha diferencia
+
+			que el modo "Nurbs Curve", que la spline, siempre estará un "Knot", atras
+
+
+
+		_Draw Curve:
+
+			_ésta modo es una opcíon a través, de la cuál, podremos crear spliner, orgánicas dentro de
+
+			otras splines, creadas previamente para complementaciones y generación en general
+
+
+			_para lo cuál, debemos de haber creado una spline, previamente de haber entrado en su 
+
+			"Edit mode", shortcut, "Tab"
+
+
+			_para posteriormente abrir el menú contextual de "Add", shortcut, "Shift + A", en el cuál,
+
+			podremos seleccionar la opcíon de "Draw Curve", para que así, se active un pincel ó brush
+
+
+			_a través, del cuál, podremos crear spline, a mano alzada y de forma libre sobre el viewport
+
+
+
+		_Curve Simplify:
+
+			_ésta modo es una opcíon a través, de la cuál, podremos simplificar spliner, orgánicas ó
+
+			geométricas seleccionadas
+
+			
+			_para lo cuál, debemos de haber creado una spline, previamente de haber entrado en su 
+
+			"Edit mode", shortcut, "Tab"
+
+
+			_para posteriormente abrir el menú contextual de "Add", shortcut, "Shift + A", en el cuál,
+
+			podremos seleccionar la opcíon de "Curve Simplify" 
+
+
+			_para que así, las splines, seleccionadas sean simplificadas en una copia de la spline, 
+
+			original en el panel outliner, y viewport 3d
+
+
+
+
+
+
+
+
+

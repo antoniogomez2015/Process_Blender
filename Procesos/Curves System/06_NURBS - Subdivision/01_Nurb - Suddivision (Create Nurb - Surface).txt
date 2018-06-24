@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	NURBS - Subdivisions:
+	_____________________
+
+	_tenemos la posibilidad de crear formas complejas en blender, formas tridimensionales totalmente 
+
+	configurables a través, de la modalidad de "Surface NURBS"
+
+
+	_lo cuál, nos permitirá extruir anillos de splines, y formas abiertas replicadas con variaciones así, como 
+
+	también, de extruir splines, en paralelo sólamente para el constructivismo de elementos complejos como 
+
+	automóviles y elementos de diseño industrial, otros
+
+
+
+
+	NURBS:
+	______
+
+	_para lo cuál, primeramente debemos de crear un elemento de tipo nurb, en el viewport 3d, para lo cuál,
+
+	podemos hacer uso del shortcut, "Shift + A/Add/Surface/", y allí darle a la opción de:
+
+
+
+		_Nurb Curve:
+
+			_éste modo nos permitirá crear una spline, de tipo nurb, abierta a través, de la cuál, 
+
+			podremos crear formas complejas extruyendo sus sub-elementos vertex
+
+
+
+		_Nurb Circle:
+
+			_éste modo nos permitirá disponer de una spline, tipo nurb, cerrada de forma circular
+
+			la cuál, la podremos utilizar para diferentes procesos de creación y paso contínuo
+
+
+		_Nurb Surface:
+
+			_éste modo nos permitirá crear una superficie de sub-division abierta y genérica a
+
+			través, de la cuál, podremos crear formas más complejas
+
+
+		_Nurb Sphere / Cylinder / Tours:
+
+			_ésta opción nos permitirá crear formas geométricas como cilindros, esferas y torus,
+
+			de tipo sub-division surface
+
+
+			_a través, de las cuáles, podremos crear formas más complejas
+
+
+
+
+	_para que así, el sistema agrege una nueva nurb, base la cuál, podremos editar posteriormente entrando a su 
+
+	modo de edición
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

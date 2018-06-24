@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Revolution Along Pivot:
+	_______________________
+
+
+	_tenemos la posibilidad de crear geometría a partir de un curve, spline, a través, de la cuál, podremos
+
+	crear un objeto en revolución a sus ejes y posición del pivote, de tipo nurbs
+
+
+	_lo cuál, nos permitirá realizar objetos complejos rápidamente y totalmente editables los cuáles, a su vez,
+
+	los podremos convertir posteriormente en objeto de tipo polymesh
+
+
+
+	
+	Create Spline:
+	______________
+
+	_para lo cuál, primeramente debemos de crear un objeto de tipo curve, a través, del cuál, debemos de crear
+
+	una spline, la cuál, hará de guía de extrusión posteriormente
+
+
+	_de ésta manera, debemos de abrir el menú "Add", a través, del shortcut,  "Shift + A", en el cuál, a su vez,
+
+	debemos de ir a la sección de "Add/Curve/Path ó Bezier", para que así, un objeto de tipo curve, sea
+
+	agregado a la escena y viewport 3d
+
+
+
+
+
+
+
+
+

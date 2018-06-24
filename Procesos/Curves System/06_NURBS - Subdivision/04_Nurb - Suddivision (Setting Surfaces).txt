@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Setting Surfaces:
+	_________________
+
+	_para lo cuál, debemos de selecionar ésta e ir ha "Properties/Data Objet Data/Shape", y una vez allí, 
+	
+	ajustar los valores de "Resolution | U/V", tanto para previsualización como para render, los cuáles 
+
+	determinarán la apariencia y conversión, render, otros
+
+
+
+	Active Spline:
+	______________
+
+	_así, como también, en el proceso de de modelado y creación de surface nurb, ó ajuste de splines, podremos
+
+	ajustar el comportamiento y alcance de las surface nurbs, generadas sobre las esplines, respectivas por
+
+	medio de las opciones de "Properties/Data Objet Data/Active Spline", en la cuál, podremos hacer ajustes en
+
+	los valores de "Order", y "Resolution"
+
+
+	_a través, de los cuáles, podremos hacer que surface nurbs, ocupen menos ó más espacio posible en relación
+
+	a la splines, así, como tambíen, hacer desplazamientos de ésta ha modo de "Offset"
+
+
+
+
+
+	

@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	PolyMesh:
+	_________
+
+	_más por último tendremos la posibilidad de convertir ésta geometría resultante de tipo nurb, ha una 
+
+	geometría de tipo polymesh, a través, del menú contextual "Convert To" del shortcut, "Alt + C", en el cuál,
+
+	debemos de seleccionar la opción de "Mesh From Curve/Meta/Surf/Text"
+
+
+	_para que así, una geometría de tipo polymesh, sea generara la cuál, posteriormente podremos someter ha
+
+	un proceso de reducción de geometría a través, de diferentes métodos
+
+
+
+
+
+

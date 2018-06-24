@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Convert Polymesh:
+	_________________
+
+	_más también, tendremos la posibilidad de convertir splines, tanto aditivas ó sustractivas para optener 
+
+	así, geometría de tipo "PolyMesh"
+
+
+	_la cuál, podremos modificar posteriormente y aplicar materiales  y proceso de UVs, y texturas y demás 
+
+	procesos de producción 
+
+
+	_para lo cuál, tendremos a nuestra disposición los siguientes métodos:
+
+
+
+
+	Convert Curvas:
+	_______________
+
+	_una vez hayamos creado una forma compleja y personalizada a través, de la edición de un curva de tipo 
+
+	Beizer, podremos convertir ésta en "Polymesh"
+
+		
+	_para lo cuál, debemos de estar en "Object Mode", y con la spline, beizer, seleccionada aplicar el
+
+	shortcut, "Alt + C", para que así, nos aparesca un menú contextual "Convert To", 
+
+
+	_en el cuál, podamos elegir la 	opción de "Mesh From Curve/Meta/Surf/Text", para que así, la spline,
+
+	de tipo beizer, sea convertir ahora en sub-elementos vextex, de un objeto "Polymesh"
+
+
+	_el cuál, ahora podremos seguir editando en "Edit Mode", así, como seleccionando vertex, y rellenando
+
+	faces, shortcut, "F", y posteriormente extruyendo faces, otros
+
+
+
+
+	Convert Surfaces:
+	_________________
+
+	_ésta opción es idéntica a la anterior más con la única diferencia de que ahora podemos partir de que 
+
+	la forma creada a partir de la edición y creación de vertex, formando una spline, a partir de una curva
+
+	de tipo beizer
+
+
+	_está rellenada creando una superficie sobre ésta a través, de la opción de: 
+
+	"Properties/Data Objet Data/Shape/", en la cuál, hemos activado la opción de "2D", la cuál, rellenará
+
+	las splines, cerradas y contemplará sus sub-splines, internas ó externas, aditivas ó sustractivas
+
+
+	_para lo cuál, a partir de éste punto podremos repetir el proceso de conversión del método anterior;
+
+
+	_primero debemos de estar en "Object Mode", y con la spline, beizer, seleccionada aplicar el shortcut, 
+
+	"Alt + C", para que así, nos aparesca un menú contextual "Convert To", 
+
+
+	_en el cuál, podamos elegir la 	opción de "Mesh From Curve/Meta/Surf/Text", para que así, la spline,
+
+	de tipo beizer, sea convertir ahora en sub-elementos vextex, de un objeto "Polymesh"
+
+
+	_el cuál, ahora podremos seguir editando en "Edit Mode", así, como seleccionando vertex, y rellenando
+
+	faces, shortcut, "F", y posteriormente extruyendo faces, otros
+
+
+	_de ésta manera, la surface, creada en modo "Curve/Edit Mode/2D", ahora se convertirá en geometría 
+
+	totalmente editable en modo "Polymesh"
+
+
+	_la cuál, se adaptará y respetará todas las áreas sustractivas de la forma resultante y, ésta la 
+
+	podremos extruir y modificar posteriormente para diferentes procesos, otros
+
+
+
+
+
+
+
+	
+
+	

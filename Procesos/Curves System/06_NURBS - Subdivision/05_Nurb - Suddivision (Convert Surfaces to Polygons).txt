@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Extende:
+	________
+
+	_más alternativamente de haber creado la superficie nurb, resultante podremos convertir ésta en "Polymesh", 
+
+	para poder así, aplicar materiales, procesos UVs, Texturas, y demás procesos de producción
+
+
+	_para lo cuál, debemos seleccionar el objeto de tipo nurb, en "Object Mode", y con éste seleccionado 
+
+	aplicar el shortcut, "Alt + C", para que así, nos aparesca el menú contextural "Convert To", 
+
+
+	_en el cuál, debemos de seleccionar la opción de "Mesh From Curve/Surf/Text", para que así, ahora el 
+
+	objeto de tipo NURB, sea convertido a un objeto de tipo PolyMesh, el cuál, podremos editar posteriormente 
+
+	de forma normal y convencional
+
+
+
+	

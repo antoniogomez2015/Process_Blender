@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Surface Creation:
+	_________________
+
+	_así, luego de haber creado una forma compleja a partir de un curva spline, podremos convertir ésta una una
+
+	superficie de geometría 2d, de tipo NURB, ó de tipo "Surface" 
+
+
+	_la cuál, estará compuesta de sólo una spline ó tenga más splines dentro haciendo sustracciones ó "holes", 
+
+	dentro de la spline, principal
+
+
+	_de ésta manera, luego de haber creados las plines, cerradas respectivas vamos al panel 
+
+	"Properties/Data Objet Data/Shape", y una vez allí, seleccionamos la opción de "2D" 
+
+
+	_para que así, la topología sea rellenada por una superficie y la morfología sea simplificada en un plano 2d, 
+
+	y limitado ha éste lo cuál, quiere decir, que ya no podremos mover vertex, en una tercera cordenada
+
+
+
+
+
+
+
+
+
+	
+
+	

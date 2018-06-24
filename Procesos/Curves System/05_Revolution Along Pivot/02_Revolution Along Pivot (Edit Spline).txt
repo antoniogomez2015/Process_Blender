@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Edit Spline:
+	____________
+
+
+	_ahora el objeto de tipo curve, que hemos creado previamente lo debemos de editar hasta lograr la forma 
+
+	deseada de la spline, para lo cuál, debemos de aplicar el shortcut, "Tab"
+
+
+
+
+	Visualización:
+	______________
+
+	_para lo cuál, en éste caso lo más recomendado es ir a las opciones del panel viewport 3d, shortcut, "N", 
+
+	estando en el modo "Edit mode", del objeto de tipo curve, y bajar en las opciones del panel veiwport 3d 
+
+
+	_hasta abajo hasta la opciones de "Curve Display", y allí, desactivar las opciones de "Handle", y 
+
+	"Normals", para que así, tengamos una mejor visualización de la spline, en el viewport 3d, podamos hacer 
+
+	la edición de forma más rápida
+
+
+
+
+	Set Handle Type:
+	________________
+
+	_así, como también, es aconsejable abrir el panel de "Set Handle Type", shortcut, "V", en edit mode, en el
+
+	cuál, debemos de elegir la opción de "Vector", para que así, lo handles, no tengan influencias sobre la
+
+	spline, resultante y resulte así, más fácil la edición de los vertex, y spline, resultantes
+
+
+
+
+	Vertex Extrude:
+	_______________
+
+
+	_y para crear la spline, en la forma deseada lo más recomendado es colocarnos en una vista azonométrica, 
+
+	shortcut, "5"
+
+
+	y elegiar una de las vistas por ejemplo; "From", shortcut, "1"
+
+
+	_para a continuación comenzar ha extruir vertex seleccionados a través, del shortcut, "E", y de ajustar 
+
+	los vertex, a partir del punto central del grid, donde convergen todos los ejes en relación a la forma 
+
+	deseada resultante
+
+
+	_entendiendo así, de la forma ó surface, resultante deberá rotar sobre su propio eje a partir del punto
+
+	central del grid, del viewport, y el cursor 3d, posteriormente para crear así, la forma en revolución
+
+
+
+
+
+

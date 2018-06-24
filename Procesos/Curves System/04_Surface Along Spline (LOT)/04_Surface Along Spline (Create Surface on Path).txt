@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Create Surface on Path:
+	_______________________
+
+	_para pos último, seleccionar la objeto de tipo curve, en el modo "Objet Mode", que hará de path, ó
+
+	trayectoria de extrusión y con éste seleccionado ir ha "Properties/Data Object Data/Geoemtry"
+
+
+	_y ina vez allí, ubicar las opciones de "Bevel Object", y seleccionar el objeto de tipo "Curve", el cuál, 
+
+	hará de motivo ó modelo ha extruir
+
+
+	_para posteriormente hacer ajustes de cordenadas y posición en casos de no obtener la forma deseada a 
+
+	partir del momento de creación de la forma resultante sobre el path, ó trazado de extrisión
+
+
+	
+	Resolución:
+	___________
+
+	_para posteriormente de haber creado la surface, resultante podremos ajustar la resolución y apariencia 
+
+	de ésta
+
+
+	_para lo cuál, con el objeto respectivo seleccionado debemos entrar ha un "Edit Mode", shortcut, "Tab", 
+
+	e ir hasta "Data Objet Data/Shape/Resolución", 
+
+
+	_y una vez allí, ajusar los valores de "Preview", a través, de los cuáles, ajustaremos la resolución e 
+
+	interpolación de la forma ó surface, resultante lo que afectará a la visualización, render y conversión 
+
+	ha geometría de tipo polymesh, posteriormente
+
+
+
+
+	Taper:
+	______
+
+	_así, como también, podremos de ser necesario otra curve/spline, a través, de la cuál, podremos hacer
+
+	ajustes u oxilaciones cargando éste objeto en las opciones de la "Curve/Spline/Geometry/Taper Object"
+
+
+	_para que así, a través, de ésta spline, poder hacer variaciones sobre el grosor y demás comportamientos
+
+	de la forma ó geometría resultante
+
+
+
+
+
+
+
+
+
+	

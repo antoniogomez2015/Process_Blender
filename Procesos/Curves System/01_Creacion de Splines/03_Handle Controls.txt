@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Set Handle Type: Shortcut "V"
+	________________
+
+
+	_Automatic: 
+
+		_modo por defecto, la extrusión abedece a la dirección del handle, de la dirección de la extrusión 
+
+		y sería una curva smooth/suave
+
+	
+		_ésta opcíon no afecta la posicíon y dirección de los handles, a la hora de realizar extrusión ó
+
+		movimiento de los knots, y siempre crear spline, curvos ó suavizados
+
+
+
+	_Vector: 
+
+		_este modo permite hacer una extrusión con ángulo recto obviando la dirección de los handles, lo 
+
+		cuál, hace ha éste modo el más recomendado para el proceso de creación de formas complejas
+
+		
+		_ésta opcíon alinea todos los handles, de los knots, seleccionados con la dirección de los segmentos 
+
+		de la spline, lo cuál, limpia y crear spline, con ángulo recto y sin curvas
+
+
+	
+	_Aligned: 
+
+		_este modo permite hacer una extrusión sin ángulos agudos, suavizando así, todos lo knot, 
+
+		seleccionados y a su vez, unificando los handles
+
+
+
+	_Free: 
+
+		_este modo libera la correlación entre ambos handles, de esta manera podemos hacer ediciones 
+
+		independientes el uno del otro en relación al vertex al cuál pertenecen
+
+
+		_ésta opcíon es idéntica ha "Automatic", ó ha "Aligned", paro ésta opcíon dejará los handles,
+
+		independientemente el uno del otro en relación a los knots, respectivos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
