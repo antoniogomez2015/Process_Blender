@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Path - Trayectoria:
+	___________________
+
+	_de ésta manera, una vez creado el módulo, podremos comenzar ha crear la spline, que hará de path, ó
+
+	trayectoria de modulación de la surface, ha generar posteriormente
+
+
+	_para lo cuál, en el modo "Object mode", shorcut, "Tab", debemos de abrir el menú contextual de "Add", a
+
+	través, del shortcut, "Shift + A"
+
+
+	_en el cuál, debemos de seleccionar la opción de "Curve/Bezier", para que así, un objeto de tipo spline,
+
+	sea agregado a la escena
+
+
+	_el cuál, debemos editar entrando en su modo de "Edit mode", shortcut, "Tab", para proceder así, ha extruir
+
+	sus vertex, shortcut, "E", hasta lograr la forma ó trayectoria deseada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

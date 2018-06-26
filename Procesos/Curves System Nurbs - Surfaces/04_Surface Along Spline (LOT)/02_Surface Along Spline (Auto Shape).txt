@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Surface Along to Spline:
+	________________________
+
+	_una vez hemos creado la trayectoria podremos crear surfaces, sobre el path, de forma nativa, utilizando
+
+	las opciones de configuración de la pripia spline
+
+
+	_de ésta manera, debemos de seleccionar el objeto ó layer, ó entrar en "Edit mode", shortcut, "Tab",
+
+	para que así, podamos ir al panel "Properties/Data Object Data"
+
+
+	_y una vez allí, bajar hasta las opciones de "Bevel/Depth", el cuál, debemos de aumentar para para que así,
+
+	la spline, cobre volúmen y superficie de "surface"
+
+
+	_la cuál, podremos configurar yendo a las opciones de "Properties/Data Object Data/Shape/Fill", en la cuál,
+
+	podremos elegir por ejemplo; "Fill", para así, el sistema genere un "Tube"
+
+
+	_para lo cuál, debemos también, de colocar las opciones de "3D", yendo ha
+
+	"Properties/Data Object Data/Shape/", en la cuál, debemos de activas las opciones de "3D"
+
+
+	_ésta modalidad de creación de surface, también, acepta las opciones de "Taper", como también, podremos
+
+	hacer variaciones de resolución otros
+
+
+	_como también, podremos hacer variar la formas nativas por formas personalizadas a través, de las opciones
+
+	de "Target"
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

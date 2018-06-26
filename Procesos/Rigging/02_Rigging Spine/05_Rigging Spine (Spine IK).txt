@@ -1,0 +1,79 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Clear Parent:
+	_____________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	bone, "Handle_Spine_Lumbar_4", ó el último handle, de superior de la spline, el cuá tiene una orientación
+
+	vertical
+
+
+	_y con éste seleccionado debemos de abrir el menú "Clear Parent", a traves, del shortcut, "Alt + P", en el
+	
+	cuál, debemos de seleccionar la opción de "Clear Parent"
+
+
+
+
+	IK:
+	___
+
+	_para a continuación pasar al modo "Pose mode", en el cuál, debemos de seleccionar el bone, 
+
+	"Handle_Spine_Lumbar_3", y seguidamente también, seleccionar el bone, "Spine_IK_2", ó el último bone, de la
+
+	segunda cadena de bones, auxiliares
+
+
+	_para que así, con ambos seleccionados y en el orden especificado podamos abrir el menu de "Add Ik", a través,
+
+	del shortcut, "Shift + I"
+
+
+	_en el cuál, debemos de seleccionar la opción de "To Active Bone"
+
+
+
+
+	IK Settings:
+	____________
+
+	_para a continuación seleccionar el bone, "Spine_IK_2", y con éste seleccionado ir a las opciones de
+
+	"Properties/Bone Constraint/Ik", y una vez allí, cambiar los valores de "Chainlength", por "2"
+
+
+	_para que así, ahora al mover el bone, "Handle_Spine_Lumbar_3", sea articulada toda la cadena de bones,
+
+	de auxiliares 2, a través, del último handle, de la cadena de bones, auxiliares 1
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

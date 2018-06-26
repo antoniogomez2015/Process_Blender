@@ -1,0 +1,64 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Parent Chains:
+	_____________
+
+	_primeramente debemos de estar en el modo "Pose mode", shortcut, para a continuación seleccionar el bone, 
+
+	handle, de la primera cadena axuliar llamado "Handle_Spine_Lumbar_1", 
+
+
+	_para a continuación seleccionar el bone, de la spine, llamado "Spine_Lumbar_1", y con ambos seleccionados
+
+	debemos de abrir el menú contextual de "Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, debemos de seleccionar el constraint, de "Stretch To", para que así, al mover el bone, que hace
+
+	de handle, de la spline, llamado "Handle_Spine_Lumbar_1", ahora mueva esa parte de la región de la spine
+
+
+	_éste mismo proceso lo debemos repetir para el handle, siguiente de la spine, de ésta manera, debemos de
+
+	seleccionar el bone, "Handle_Spine_Lumbar_2", para a continuación seleccionar el bone, "Spine_Lumbar_2"
+
+
+	_para que así, con ambos bones, seleccionados abrir el menú "Add Contraint", a través, del shortcut, 
+
+	"Control + Shift + C", en el cuál, debemos de seleccionar el constraint, "Stretch To" 
+
+
+
+
+	_de ésta manera, ahora al mover el bone, llamado "Handle_Spine_Lumbar_3", handle, de la primera cadena 
+
+	axuliar, podremos ver ahora que sólo se moverán y articularán solo los bones, de las cadenas auxiliares en
+
+	su conjunto más la spline, principal
+
+
+	
+
+
+
+	
+
+
+
+
+

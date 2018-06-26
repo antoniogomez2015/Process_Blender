@@ -1,0 +1,62 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Spine Auxiliar Bones 2:
+	_______________________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "hip", para que así, podamos proceder ha extruir un nuevo bone
+
+
+	_el cuál, proyectaremos hasta el efector del segundo bone, subiendo por la "spine", llamado "Spine_Lumbar_2",
+
+	ó hasta el handle, llamado "Handle_Spine_Lumbar_2"
+
+
+	_el cuál, a su vez, debemos de extruirlo una vez más hasta el siguiente efector del bone "Spine_Lumbar_3", ó
+
+	el root, del handle, "Handle_Spine_Lumbar_3"
+
+
+	_ésta nueva chain ó cadena de bones, ó huesos la podremos renombrar como "Spine_IK_1,2"
+
+
+	_es preciso desactivarle la opción de "Deform", ha ésta cadena de bones, para lo cuál, debemos de seleccionar
+
+	un bone, respectivo e ir ha "Properties/Bone Bone/Deform", para que así, podamos desactivar ésta opcíon
+
+
+
+	NOTE: ésta nueva cadena de bones, la podremos reconcoes posteriormente por es la cadena de bones, que sube
+
+	por la columna vertebral y es la mas gruesa en el modo de visualización del armature "B-Bones"
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+

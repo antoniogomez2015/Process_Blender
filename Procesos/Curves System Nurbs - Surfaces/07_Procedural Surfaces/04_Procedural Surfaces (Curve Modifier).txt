@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Curve Modifier:
+	_______________
+
+	_una vez hemos creado tanto el módulo con el paht, ó trayectoria, podremos entonces volver ha seleccionar
+
+	el objeto del módulo y con éste seleccionado ir ha "Properties/Modifiers"
+
+
+	_y una vez allí, agregar el modificador de "Curve", a través, del cuál, podremos hacer señir la modulación
+
+	de la surface, generada sobre el path, ó trayectoria que previamente hemos creado
+
+
+	_para lo cuál, debemos de ir hasta las opciones de "Modifier/Curve/Object", en la cuál, debemos de 
+
+	seleccionar el objeto de tipo spline, que corresponde con el path, que hemos creado previamente
+
+
+	_para posteriormente un poco más abajo de las opciones de modificador, indicar la cordenada de trabajo
+
+	deseada en relación al efecto deseado
+
+
+	_para que así, de ésta manera, ahora la surface, genera sea señida a la trayectoria indicada, de ésta 
+
+	manera, podremos contruir geometría proceduralmente
+
+
+
+
+
+
+
+
+
+
+
+	

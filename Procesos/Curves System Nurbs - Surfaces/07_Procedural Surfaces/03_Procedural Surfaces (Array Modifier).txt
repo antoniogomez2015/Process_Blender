@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Array Modifier:
+	_______________
+
+	_una vez hemos creado tanto el módulo con el paht, ó trayectoria, podremos entonces volver ha seleccionar
+
+	el objeto del módulo y con éste seleccionado ir ha "Properties/Modifiers"
+
+
+	_y una vez allí, agregar el modificador de "Array", a través, del cuál, podremos modular el módulo que
+
+	previamente hemos realizado y configurado en una cordenada específica según la lógica del módulo respectivo
+
+
+	_de ésta manera, modularemos el módulo respectivo tanto en cantidad de instancias, separación y distancia
+
+	hasta lograr el comportamiento y apariencia en conjunta deseada
+
+
+
+
+
+
+
+
+
+
+
+
+	

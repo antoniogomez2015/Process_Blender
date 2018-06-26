@@ -23,11 +23,14 @@
 	efector del bone, "hip", para que así, podamos proceder ha extruir un nuevo bone
 
 
-	_el cuál, será como una nueva columna vertebral auxiliar, éste nuevo bone, a partir del efector del bone
+	_el cuál, será como una nueva columna vertebral auxiliar, éste nuevo bone, será creado a partir del efector 
 
-	"Hip", extenderemos su longitud desde la base del la columna hasta el bone, del "Chest", que creamos en
+	del bone, "Hip" 
 
-	pasos anteriores
+
+	_extenderemos su longitud desde la base del la columna hasta el bone, del "Chest", que creamos en pasos 
+
+	anteriores
 
 
 	_éste bone, lo podremos renombrar como; "Spine_Aux"

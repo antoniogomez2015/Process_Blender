@@ -29,7 +29,7 @@
 	efector del bone, "hip", para que así, podamos proceder ha extruir éste bone
 
 
-	_creando una nueva cadena seguida de bones, de "tres", bones, correspondientes a las vertebras lumbares y a 
+	_creando una nueva cadena de bones, de "tres", bones, correspondientes a las vertebras lumbares y a 
 
 	un par de vertebras toráxicas
 
@@ -38,7 +38,7 @@
 
 
 
-	_para seguidamente crear un último bone, el cuál, vaya desde una de las vertebras bajas del toras extruidas
+	_para seguidamente crear un último bone, el cuál, vaya desde una de la última vertebra del toras extruida
 
 	en el paso anterior, hasta la primera vertebra del cuello ó vertebra cervical
 

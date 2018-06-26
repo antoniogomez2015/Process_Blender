@@ -1,0 +1,18 @@
+
+
+
+
+
+
+	GES import/export
+		https://ssoftadd.github.io/gesPage.html
+
+
+		Blender addon for export
+
+
+		Softimage addon for import
+
+
+		Github link to sources for Blender
+			https://github.com/Tugcga/GES-ImportExport

@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+	Blender Tutorial: Bezier & NURBS Curves, Bevel, Extrude, Sweeping a Shape
+		https://www.youtube.com/watch?v=ImNtC2mbPZ0
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	Module:
+	_______
+
+	_primeramente debemos de crear un módulo el cuál, modularemos posteriormente para generar susfaces, más
+
+	complejas
+
+
+	_para lo cuál, debemos de crear éste módulo a partir de splines, sufaces, ó polygons
+
+
+	_de ésta manera, el módulo deberá estar abierto en sus extremos y por lo general ser simétrico, tanto en
+
+	su inicio como en su final para que sea modulable ha modo de instancias
+
+
+
+
+	Instancia:
+	__________
+
+	_una vez hemos realizado el módulo podremos duplicar éste como una instancia a través, del shortcut, 
+
+	"Alt + D", para que así, la copia ó instancia ahora quede superditada a los combios realizados sobre la
+
+	original
+
+
+	_lo cuál, nos pemritirá una gran flexibilidad de edición al poder modificar el resultado ó hacer variaciones
+
+	de forma externa a la mesh, modulada respectivamente
+
+
+
+
+	Mirror:
+	_______
+
+	_así, como también, tenemos la posibilidad de eliminar la mitad de la geometría del módulo para aplicarle
+
+	ha éste un modificador de tipo "Mirror", para que así, tengamos aún más controlar en la edición simétrica
+
+	y controlada sobre el módulo respectivo
+	
+
+
+	
