@@ -1,0 +1,65 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Spain Stretch:
+	______________
+
+	_primeramente debemos de estar en el modo "Pose mode", para a continuación proceder ha ir seleccionar el bone,
+
+	"Spine_IK_2", correspondiente a la segunda cadena auxiliar
+
+
+	_para posteriormente ir al panel "Properties/Bone Constraint", en el cuál, debemos verificar si el constraint,
+
+	"IK", tiene la opción "Stretch", activada ya que ésta opcíon es requerida
+
+
+	_para a continuación con éste bone, aún seleccionado ir al panel "Properties/Bone Bone", y un vez allí, bajar 
+
+	hasta las opciones de "Inverse Kinematics"
+
+
+	_en la cuál, podremos hacer variaciones sobre el parámetro de estiramiento para éste bone, en específico en 
+
+	relación a las necesidades del character, por ejemplo; un valor de "0.1"
+
+
+	_así, como también, posteriormente debemos seleccionar el bone, "Spine_IK_1", anterior de ésta cadena y
+
+	repetir el proceso de ir al al panel "Properties/Bone Bone", y un vez allí, bajar hasta las opciones de 
+
+	"Inverse Kinematics"
+
+
+	_en la cuál, podremos hacer variaciones sobre el parámetro de estiramiento para éste bone, en específico en 
+
+	relación a las necesidades del character, por ejemplo; un valor de "0.1"
+
+
+
+	_para que así, al articular la columna a través, del bone, "Handle_Spine_Lumbar_4", la columna en general
+
+	sufra estiramiento, ésta opción es especialmente útil para characters, tipo cartoon
+
+
+
+	
+
+
+
+
+

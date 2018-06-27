@@ -18,9 +18,26 @@
 	Parent Chains:
 	_____________
 
-	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", donde debemos de seleccionar el bone, 
 
-	bone, "Handle_Spine_Lumbar_2", ó el segundo handle, de la primera cadena de bones, auxiliar
+	"Handle_Spine_Lumbar_3", ó el tercer handle, de la primera cadena de bones, auxiliar para seguidamente 
+
+	seleccionar el bone, "Spine_IK_2", de la segunda cadena de bone, auxliar 
+
+
+	_y con ambos bones, seleccionados y en el orden especificado debemos abrir del menú "Make Parent", a través, 
+
+	del shorcut, "Control + P", en el cuál, escogeremos la opcíon de "Keep Offset"
+
+
+	_para que así, con ambos bones, seleccionados y en el orden especificado abrir el menú "Clear Parent", a través,
+
+	del shortcut, "Alt + P", en el cuál, seleccionaremos la opción de "Clear Parent"
+
+
+	_para a continuación seleccionar el bone, "Handle_Spine_Lumbar_2", ó el segundo handle, de la primera cadena 
+
+	de bones, auxiliar
 
 
 	_para a continuación seleccionar el bone, "Spine_IK_2", de la segunda cadena de bone, auxliar, y con ambos

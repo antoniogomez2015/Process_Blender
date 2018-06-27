@@ -18,9 +18,28 @@
 	Parent Chains:
 	_____________
 
-	_primeramente debemos de estar en el modo "Pose mode", shortcut, para a continuación seleccionar el bone, 
+	_primeramente debemos de estar en el modo "Pose mode",
 
-	handle, de la primera cadena axuliar llamado "Handle_Spine_Lumbar_1", 
+
+	_para a continuacion seleccionar el bone, "Handle_Spine_Lumbar_3", para seguidamente seleccionar el bone, 
+
+	"Spine_Lumbar_3", para que así, con ambos bones, seleccionados en el orden especificado
+
+
+	_proceder ha abrir el menu de "Add Constraint", a través, del shortcut, "Control + Shift + C", en el cuál,
+
+	debemos de seleccionar la opción de "Stretch To"
+
+	
+	_para que así, al mover el bone, que hace de handle, de la spline, llamado "Handle_Spine_Lumbar_3", ahora 
+
+	se mueva esa parte de la región de la spine
+
+
+	
+
+
+	_para luego seleccionar el bone, handle, de la primera cadena axuliar llamado "Handle_Spine_Lumbar_1", 
 
 
 	_para a continuación seleccionar el bone, de la spine, llamado "Spine_Lumbar_1", y con ambos seleccionados

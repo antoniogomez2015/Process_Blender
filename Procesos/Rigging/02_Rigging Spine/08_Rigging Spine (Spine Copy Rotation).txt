@@ -1,0 +1,139 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Desactive Constraints:
+	______________________
+
+	_primeramente debemos de estar en el modo "Pose mode", para a continuación proceder ha ir seleccionado los bones,
+
+	"Spine_Lumbar_3,2,1", respectivamente
+
+
+	_para con éste bone, seleccionado ir a las opciones de "Properties/Bone Constraint", y una vez allí desactivar
+
+	el ojo de visualización del constraint, temporalmente para los tres bones, de la spine
+
+
+
+
+	Reset Roll:
+	___________
+
+	_para a continuación estando en el modo "Edit mode", shortcut, "Tab", en el cuál, debemos de seleccionar el bone,
+
+	"Spine_Lumbar_1,2,3"
+
+
+	_para luego ir al panel propiedades, shortcut, "N", en el cuál, debemos de ir a las opciones de transformación
+
+	en el cuál, debemos de ubicar el parámetro de "Roll", de cada bone, el cuál, debemos de colocar en "0"
+
+
+	
+
+	Copy Rotation:
+	______________
+
+	_para a continuación aún en el modo "Pose mode", proceder ha seleccionar el bone, "Spine_Aux", principal de la
+
+	spine, para seguidamente seleccionar el primer bone, de la primera cadena de bones, auxiliar, llamado
+
+	"Spine_Lumbar_1"
+
+
+	_para que así, con ambos bones, seleccionados y en el orden especificado, proceder ha abrir el menu contextual
+
+	de "Add Constraint", a través, del shortcut, "Control + Shift + C"
+
+
+	_en el cuál, debemos de seleccionar el constraint, "Copy Rotation", para a continuación con el bone, 
+
+	"Spine_Lumbar_1", seleccionado ir al panel "Properties/Bone Constraint"
+
+
+	_en el cuál, debemos de ir a las opciones de "Local Space", en las cuáles, debemos de colocar los valores de
+
+	"Local Space", "Local Space"
+
+
+	_como también, de activar las opciones de inversión de cordenadas "Inver X", "Inver Z", con el objetivo de que
+
+	ahora cuando rotemos el bone, de la spine, auxiliar llamado en éste caso como "Spine_Aux", se muevan también, 
+
+	los bones, de la cadena principal de la spine, en la misma dirección
+
+
+	_mientras que a su vez, vamos activando respectiva los constraint, "Stretch to", de cada bone, respectivamente
+
+	mientras vamos agregando y configurando el constraint, copy rotation
+
+
+
+
+	NOTE: es preciso que los constraints, de "Copy Rotation", queden sobre los constraints, de "Stretch To",
+
+	dentro de la esctrura de apilamiento del panel "Properties/Bone Constraints"
+
+
+
+
+	Logica:
+	_______
+
+	_de ésta manera, una vez hemos realizado todo el sistema podremos que ahora el sistema tendrán un 
+
+	comportamiento diferentes en relacion ha que elementos tengamos activados ó no
+
+
+	Modo 1:
+	_______
+
+	_es decir, que mientras los constraint, "Stretch To", tengan desactivados el "ojo", de los bones, 
+
+	"Spine_Lumbar_1,2,3", la columna obedecerá a la rotación del bone, "Spine_Aux"
+
+
+	_la cuál, a su vez, rotará toda la spine, de forma gradual y controlada, dejando a su vez la acción
+
+	del bone, "Handle_Spine_Lumbar_4",  inoperativa en relacion a los bones, de la spine
+
+
+
+	Modo 2:
+	_______
+
+	_más si los bones "Spine_Lumbar_1,2,3", tienen los contraints "Stertch To", activados el "ojo",
+
+	el control de la columna estará llevado a cabo por el bone, "Handle_Spine_Lumbar_4"
+
+
+	_dejando inoperativo la acción del bone, "Spine_Aux", temporalmente en relación a la columna vertebral
+
+
+	_de ésta manera, debe entenderse que éstas acciones de transición entre los diferentes modos las 
+
+	realizaremos a través, de "Set Drivers", posteriormente comoparte del rig
+	
+
+
+
+	
+
+
+
+
+
