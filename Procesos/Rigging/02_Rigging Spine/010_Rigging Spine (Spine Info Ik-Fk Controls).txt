@@ -1,0 +1,34 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Info Text:
+	__________
+
+	_debemos de crear un nuevo objeto de tipo "Text", el cuál, tambíen, colocaremos sobre el character,
+
+	y específicamente sobre el slider, que hemos crearemos posteriormente
+
+
+	_ésta layer, de texto debemos editar su contenido por "Spine Master OFF | On"
+
+
+	
+
+
+
+
+

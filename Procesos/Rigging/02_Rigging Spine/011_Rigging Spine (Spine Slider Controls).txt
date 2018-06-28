@@ -1,0 +1,88 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Slider Controls:
+	________________
+
+	_una vez hemos creado todo el sistema de la spine, es hora de controlar éste a través, de acciones dirigidas
+
+	por medio del sistema "Drivers Keys", del sistema
+
+
+	_para lo cuál, crearemos un nuevo objeto de tipo "Armature/Single Bone", para lo cuál, debemos abrir el menú 
+
+	contextual de "Add", shortcut, "Shift + A", en el modo "Object mode"
+
+
+	_éste nuevo bone, armature, inicial lo podremos colocar sobre el character
+
+
+	_para a continuación con la layer, del nuevo armature, seleccionada entrar en el mode "Pose mode", para que
+
+	así, podamos renombrar el bone, base como "Ik|Fk Switch"
+
+
+	_éste nuevo armature, y bone, tienen como finalidad de hacer de "slider", controlador ha modo de suiche, de
+
+	entre los modos de kinemática inversa y kinemática directa de la espina dorsal del character
+
+
+	NOTE: la layer, del nuevo armature la debemos de colocar en la posición del texto en "Off", inicialmente y
+
+	NO en el valor de "On"
+
+
+
+
+	Limit Location Constraint:
+	__________________________
+
+	_primeramente debemos de seleccionar la layer, de tipo armature, que creamos previamente y con ésta 
+
+	seleccionada debemos entrar en el modo "Pose mode"
+
+
+	_para que así, podamos abrir el menú contextual de "Add Constraint", en el cuál, debemos de seleccionar el
+
+	constraint, "Limit Location"
+
+
+	_para que así, podamos limitar la translación ó movimientos del bone, base del armature, que hemos creado
+
+	para que éste haga de slider control
+
+
+	_de ésta manera, debemos de limintar los movimientos de translación de la cordenada "X", en un rango positivo
+
+	y negativo que ocupe el rango entre la palabra "On | Off", que ésta sobre el bone, respectivamente
+
+
+	_así, como también, auxiliarmente debemos de activar los limitadores de las cordenadas "Y | Z", dejando los
+
+	valores de éstos en "0", para que así, el bone, respectivo no se mueva en éstas cordenadas por error
+
+
+	_como también podremos lismitar los parámetro de "translation Y|Z", en el panel propiedades respectivamente
+
+
+
+	
+
+
+
+
+

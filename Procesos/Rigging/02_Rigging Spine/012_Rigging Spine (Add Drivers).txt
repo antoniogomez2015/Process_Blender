@@ -1,0 +1,60 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Add Drivers:
+	____________
+
+	_de ésta manera, debemos de seleccionar la layer, del "armature", principal del character, y con éste 
+
+	seleccionado en el modo "Pose mode"
+
+
+	_para que así, podamos seleccionar los bones, principales, de la spine, específicamente a los bones, de la zona
+
+	lumbar a los cuáles, les hemos aplicado constraints, de tipo "Copy Rotation"
+
+
+	_de ésta manera, con el bone, llamado en éste caso "Spine_Lumbar_1,2,3", seleccionado, vamos a el panel de
+
+	"Properties/Bone Constraint", y una vez allí, ubicamos el constraint, "Copy Rotation/"
+
+
+	_para que así, hagamos "Mouse Right Click", sobre el parámetro de "Influence", para que así, nos aparezca un
+
+	menú contextual en el cuál, debemos de escoger la opcíon de "Add Driver/Manually Create Later (Single)"
+
+
+	_para que así, éste parámetro sea controlable posteriormente por el sistema de "Set Driver Keys", del sistema
+
+
+	_éstos mismos pasos los debemos repetir para los demás bones, de la spine, con el constrinat, "Copy Rotation",
+
+	aplicado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
