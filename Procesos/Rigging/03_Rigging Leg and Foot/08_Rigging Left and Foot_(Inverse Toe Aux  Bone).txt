@@ -1,0 +1,96 @@
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Inverse Toe Auxiliar Bone:
+	__________________________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "L_Inverse_Toe"
+ 
+
+	_para que así, podamos extruir éste bone, hacia arriba hasta la punta de porco más abajo del ankle, ó tobillo 
+
+	del pie del character
+
+	
+
+	_éste bone, lo podremos de renombrar como "L_Inverse_Toe_Aux"
+
+
+
+
+
+	Clear Parent:
+	_____________
+
+	_y es wtando aún en el modo "Edit mode", y con el bone, que hemos renombrado como "L_Inverse_Toe_Aux", aún
+
+	seleccionado debemos abrir el menú contextual de "Clear Parent", a través, del shortcut, "Alt + P"
+
+
+	_en el cuál, debemos de seleccioanr la opción de "Clear Parent", para que así, éste bone, se comporte como
+
+	una cadena de bones, independiente
+
+
+
+
+	Set Parent:
+	___________
+
+	_más tambien, estando aún en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, 
+
+	"L_Metatarso", para seguidamente seleccionar el bone, "L_Toe_Back_Handle"
+
+
+	_para que así, con ambos bones, seleccionados abrir el menú contextual de "Make Parent", y en el cuál, 
+
+	debemos de seleccionar la opción de "Keep Offset"
+
+
+	_para que así, el bone, "L_Metatarso", quede subordinado al movimiento del bone, "L_Toe_Back_Handle", el
+
+	cual, a su vez, por herencia también, articulará la pierna del character, al arrastrar éste al bone, 
+
+	"L_Calcaneo"
+
+
+
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

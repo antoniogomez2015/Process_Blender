@@ -1,0 +1,69 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Info Text:
+	__________
+
+	_y en el modo "Object mode", debemos de seleccionar la layer, de tipo text, que hemos creado para utilizarla
+
+	como hablador para el controlador de "Spine Master OFF | On"
+
+
+	_para proceder ha duplicar ésta a través, del shortcut, "Shift + D", la cuál, debemos de colocar sobre la layer,
+
+	de texto original de la cuál, la hemos copiado
+
+
+	_para posteriormente proceder ha entrar en su modo de edición shortcut, "Tab", para que así, podamos editar 
+
+	su contenido por el siguiente: "IK | FK Switch On Off"
+
+
+
+
+	Slider:
+	_______
+
+	_así, como también, debemos de seleccionar la layer, de tipo "Armature", que utilizamos para crear el bone,
+
+	que hará de slider, en el controlador anterior
+
+
+	_para que así, en el modo "Pose mode", proceder ha seleccionar éste respectivo bone, que hemos llamado 
+
+	previamente como "Spine Master Switch"
+
+
+	_para proceder ha duplicar éste a través, del shortcut, "Shift + D", el cuál, debemos de colocar más arriba
+	
+	haciendo coincidir éste bone, con el texto hablador que hemos configurado en el paso anterior 
+
+	"IK | FK Switch On Off"
+
+
+
+	_éste layer, la podremos renombrar con el mismo nombre en el panel outliner, para su fácil identificación
+
+	posteriormente en el panel "F-Cure Editor/Drivers"
+
+
+	
+
+
+
+
+

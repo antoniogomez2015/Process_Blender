@@ -1,0 +1,71 @@
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Leg -Toe IK Constraint:
+	_______________________
+
+	_primeramente debemos de estar en el modo "Pose mode", para a continuación seleccionar el bone, "L_Calcaneo", 
+
+	para seguidamente seleccionar el bone, "L_Tibia"
+
+
+	_para que así, con ambos bones, seleccionados abrir el menú contextual de "Add Ik", a través, del shortcut,
+
+	"Shift + I", en el cuál, seleccionaremos la opción de "To Active Bones"
+
+
+	_para que así, un constraint, de tipo "IK", sea agregado el bone, "L_Tibia", el cuál, a su vez estará 
+
+	controlado por el bone, "L_Calcaneo"
+
+
+
+
+	IK Setting:
+	___________
+
+	_para a continuación proceder ha seleccionar el bone, "L_Tibia", y con éste seleccionado ir al panel 
+
+	"Properties/Bone Constraint/", en el cuál, debemos de ubicar el constraint, "IK"
+
+
+	_en el cuál, a su vez debemos de colocar el parámetro de "Chain Length", en un valor de "2", para que así,
+
+	ahora al mover el bone, "L_Calcaneo", sea articulada la pierna ó leg, en su conjunto
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

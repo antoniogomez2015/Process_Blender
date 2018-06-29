@@ -23,7 +23,14 @@
 	y específicamente sobre el slider, que hemos crearemos posteriormente
 
 
-	_ésta layer, de texto debemos editar su contenido por "Spine Master OFF | On"
+	_ésta layer, de texto debemos editar su contenido por "Spine Master IK-C1 | IK-C2", lo que quiere decir que
+
+	a traés, de éste controlador podremos cambiar de entre los dos modos de kinemática inversa disponibles
+
+
+	_tanto entre el proporcionado por la primera cadena de bones, auxiliares como el de la segunda cadena de bones,
+	
+	auxiliares
 
 
 	

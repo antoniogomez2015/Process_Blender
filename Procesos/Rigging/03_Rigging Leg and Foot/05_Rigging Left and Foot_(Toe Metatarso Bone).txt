@@ -1,0 +1,94 @@
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Metatarso Bone:
+	___________________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "L_Tibia"
+ 
+
+	_para que así, podamos extruir éste hacia adelante colocando el efector de éste nuevo bone, en la "bola", del 
+
+	pie ó a la altura de los "fingers", ó dedos del pie 
+
+
+	_creando así, un nuevo bone, el cuál, podremos renombrar como "L_Metatarso"
+
+
+
+
+	Clear Parent:
+	_____________
+
+	_y es wtando aún en el modo "Edit mode", y con el bone, que hemos renombrado como "L_Metatarso", aún
+
+	seleccionado debemos abrir el menú contextual de "Clear Parent", a través, del shortcut, "Alt + P"
+
+
+	_en el cuál, debemos de seleccioanr la opción de "Clear Parent", para que así, éste bone, se comporte como
+
+	una cadena de bones, independiente
+
+
+
+
+	Set Parent:
+	___________
+
+	_más tambien, estando aún en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, 
+
+	"L_Metatarso", para seguidamente seleccionar el bone, "L_Toe_Back_Handle"
+
+
+	_para que así, con ambos bones, seleccionados abrir el menú contextual de "Make Parent", y en el cuál, 
+
+	debemos de seleccionar la opción de "Keep Offset"
+
+
+	_para que así, el bone, "L_Metatarso", quede subordinado al movimiento del bone, "L_Toe_Back_Handle", el
+
+	cual, a su vez, por herencia también, articulará la pierna del character, al arrastrar éste al bone, 
+
+	"L_Calcaneo"
+
+
+
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

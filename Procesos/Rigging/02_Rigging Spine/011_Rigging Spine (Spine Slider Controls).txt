@@ -41,9 +41,9 @@
 	entre los modos de kinemática inversa y kinemática directa de la espina dorsal del character
 
 
-	NOTE: la layer, del nuevo armature la debemos de colocar en la posición del texto en "Off", inicialmente y
+	NOTE: la layer, del nuevo armature la debemos de colocar en la posición del texto en "IK-C2", inicialmente 
 
-	NO en el valor de "On"
+	y NO en el valor de "IK-C"
 
 
 
@@ -68,7 +68,7 @@
 
 	_de ésta manera, debemos de limintar los movimientos de translación de la cordenada "X", en un rango positivo
 
-	y negativo que ocupe el rango entre la palabra "On | Off", que ésta sobre el bone, respectivamente
+	y negativo que ocupe el rango entre la palabra "IK-C1 | IK-C2", que ésta sobre el bone, respectivamente
 
 
 	_así, como también, auxiliarmente debemos de activar los limitadores de las cordenadas "Y | Z", dejando los

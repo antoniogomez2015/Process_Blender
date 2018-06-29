@@ -1,0 +1,137 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Set Drivers Stretch To Constraint:
+	__________________________________
+
+	_primeramente debemos de seleccionar el "Armature", principal del character, y con éste seleccionado entrar en
+
+	su modo "Pose mode", para posteriormente seleccionar el bone, "Spine_Lumbar_1,2,3"
+
+
+	_para que así, de ésta manera, ahora con la propiedad de los "Constraints Stretch To/Influence", relacionada 
+
+	con el sistema de "Set Driver Keys", ahora podremos abrir el panel de "F-Curve Editor/Drivers", por ejemplo en 
+
+	el panel de "Timeline"
+
+
+	_para lo cuál, debemos de pasar el mouse, sobre el panel "Timeline", para que así, a través, del shortcut, 
+
+	"Shift + F6", poder abrir el panel "F-Curve Editor", en su lugar, en el cuál, debemos de seleccionar el modo
+
+	de "Drivers"
+
+
+	_de ésta manera, podremos desplegar el panel de "Properties", del panel "drivers", a través, del shortcut, "N",
+
+	en el cuál, encontraremos las pestañas de trabajo como:
+
+
+		_F-Curve
+
+		_Drivers
+
+		_Modifiers
+
+		_View
+
+
+	_a través, de las cuáles, podremos configurar todo el sistema ha relacionar
+
+
+
+
+	Workflow:
+	_________
+
+
+
+	Set Drivers:
+	____________
+
+	_con el bone, "Spine_Lumbar_1,2,3", seleccionado y aún en el modo "Pose mode", debemos de ir a la pestaña de
+
+	"Drivers", del panel "F-Curve Editor/Drivers"
+
+	
+	_de ésta manera, en el parámetro de "Type", seleccionaremos la opción de "Averaged Value"
+
+
+	_para que así, en el nuevo parámetro de "Object", que se ha activado debemos de seleccionar el nuevo armatute,
+
+	que creamos previamente que hará de slider, del sistema y que hemos renombrado como "IK | FK Switch Slider"
+
+
+	_para a continuación en el parámetro de "Bone", seleccionar el bone, que hará de slider, que hemos renombrado
+
+	como "IK | Fk Switch"
+
+
+	_para a continuación el parámetro de "Type", dejarlo en éste caso en el valor de "X Location"
+
+
+	_para a continuación el parámetro de "Space", cambiarlo del valor de "World Space", ha "Local Space"
+
+
+	
+
+
+	Modifiers:
+	__________
+
+	_para posteriormente ir a la pestaña de "Modifiers", del panel "F-Curve Editor/Drivers", en el cual, debemos
+
+	seleccionar el modificador de "Generator"
+
+
+	_de ésta manera, en el parámetro de "Y", debemos de dejar un valor de "0", más en el parámetro de "X", 
+
+	debemos de indicar un valor de "25"
+
+
+	_para a continuación volver a la pestaña de "Drivers", y una vez allí, darle al botón de 
+
+	"Update Dependencies", para que así, los parámetros sean actualizados
+
+
+	_para que así, ahora al mover el bone, que hará de slider, en "Pose mode", sean cambiado el valor de
+
+	"Properties/Bone Constraint/Stretch To/Influence", cambie de un valor de entre "0-1"
+
+
+	_lo cuál, hará de "Switch", intercambiando de entre los modos de kinemátiva inversa, de ésta manera, 
+
+	podremos disponer de entre la kinemática a través, de la primera cadena de bone auxiliar como de la
+
+	segunda cadena de bones, auxiliar
+
+
+	_éste proceso lo debemos de repetir para los demás bones, ha relacionar con éte mismo control
+
+
+
+
+
+
+
+
+
+
+
+
+

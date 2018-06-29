@@ -30,7 +30,13 @@
 
 	_de ésta manera, con el bone, llamado en éste caso "Spine_Lumbar_1,2,3", seleccionado, vamos a el panel de
 
-	"Properties/Bone Constraint", y una vez allí, ubicamos el constraint, "Copy Rotation/"
+	"Properties/Bone Constraint", y una vez allí, ubicamos el constraint, "Stretch To/"
+
+
+
+	NOTE: el sistema comenzará con un valor de "Spine Master en (IK-C2)", con los constraint, "Stretch To", con 
+
+	un valor de "0"
 
 
 	_para que así, hagamos "Mouse Right Click", sobre el parámetro de "Influence", para que así, nos aparezca un

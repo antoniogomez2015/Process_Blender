@@ -1,0 +1,62 @@
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Bones:
+	__________
+
+	_primeramente debemos de estar en el modo "Edit mode", shortcut, "Tab", para a continuación seleccionar el 
+
+	efector del bone, "L_Tibia", para que así, podamos proceder ha extruir éste bone
+
+
+	_creando así, un nuevo bone, el cuál, proyectaremos hasta la altura de la base del hueso calcáneo del character 
+
+	y el cuál, a su vez renombraremos como "L_Calcaneo"
+
+
+
+
+	Clear Parent:
+	_____________
+
+	_para a continuación aún en "Edit mode", y con el bone, "L_Calcaneo", seleccionado, debemos de abrir el menú
+
+	contextual de "Clear Parent", a través, del shortcut, "Alt + P", en el cuál, debemos de seleccionar la opción
+
+	de "Clear Parent"
+
+
+	_para que así, éste bone, se comporte como una cadena independiente
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+

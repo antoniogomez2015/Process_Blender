@@ -1,0 +1,115 @@
+
+
+
+
+	_Blender Spine/Torso Rigging Tutorial
+
+		https://www.youtube.com/watch?v=8ZMu4MylZ8o
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Descripción:
+	____________
+
+	_ahora debemos de relacionar tanto el constraint, "IK", del último bone, de la segunda cadena de bones, 
+
+	auxiliares de la spine, al cuál, hemos renombrado como "Spine_IK_2"
+
+
+	_el cuál, lo debemos de relacionar con los constraints, "Copy Rotation", de los bones, "Spine_Lumbar_1,2,3", para
+
+	que así, al activar ó desactivar el "IK", del bone, "Spine_IK_2" 
+
+
+	_sean activadas ó desactivadas también, los constraints, de "Copy Rotation", de los bones, "Spine_Lumbar_1,2,3", 
+
+	respectivamente a través, de los relacionamientos de "Set Drivers Keys"
+
+
+
+
+
+	Add Drivers Copy Rotation Constraint:
+	_____________________________________
+
+	_de ésta manera, debemos de seleccionar la layer, del "armature", principal del character, y con éste 
+
+	seleccionado en el modo "Pose mode"
+
+
+	_para que así, podamos seleccionar los bones, de la cadena principal de la spine, renombrados como
+
+	"Spine_Lumbar_1,2,3"
+
+
+	_de ésta manera, con el bone, llamado en éste caso "Spine_Lumbar_1,2,3", seleccionado, vamos a el panel 
+
+	de "Properties/Bone Constraint", y una vez allí, ubicamos el constraint, "Copy Rotation/"
+
+
+	NOTE: el sistema comenzará con un valor de "IK | FK Switch en (OFF)", con los constraint, "Copy Rotation", 
+
+	con un valor de "1"
+
+
+	_para que así, hagamos "Mouse Right Click", sobre el parámetro de "Influence", para que así, nos aparezca un
+
+	menú contextual en el cuál, debemos de escoger la opcíon de "Add Driver/Manually Create Later (Single)"
+
+
+	_éste ptroceso lo debemos de repetir para el resto de bones, "Spine_Lumbar_1,2,3", con un constraint, de
+
+	tipo "Copy Rotation", aplicado
+
+
+	_para que así, éste parámetro sea controlable posteriormente por el sistema de "Set Driver Keys", del sistema
+
+
+
+
+	Add Drivers IK Constraint:
+	__________________________
+
+	_de ésta manera, debemos de seleccionar la layer, del "armature", principal del character, y con éste 
+
+	seleccionado en el modo "Pose mode"
+
+
+	_para que así, podamos seleccionar el bone, "Spine_IK_2", de la segunda cadena bones, auxiliar de la spine
+
+
+	_de ésta manera, con el bone, llamado en éste caso "Spine_IK_2", seleccionado, vamos a el panel de
+
+	"Properties/Bone Constraint", y una vez allí, ubicamos el constraint, "IK/"
+
+
+	
+	NOTE: el sistema comenzará con un valor de "IK | FK Switch en (ON)", y el valor del constraint, "IK", 
+
+	con un  valor de "1"
+
+
+	_para que así, hagamos "Mouse Right Click", sobre el parámetro de "Influence", para que así, nos aparezca un
+
+	menú contextual en el cuál, debemos de escoger la opcíon de "Add Driver/Manually Create Later (Single)"
+
+
+	
+
+	_para que así, éste parámetro sea controlable posteriormente por el sistema de "Set Driver Keys", del sistema
+	
+
+
+
+
+
+
+
+
