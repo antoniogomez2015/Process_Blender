@@ -1,0 +1,77 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Workflow:
+	_________
+
+	_una vez hemos creado una animación y hemos abierto el panel F-Curve Graph Editor, podremos editar los
+
+	nodos ó vertex que conforman la animación en el gráfico de curvas
+
+
+
+
+	Mover Nodos:
+
+		_para lo cuál, debemos de seleccionar un nodo haciendo "Mouse right click", sobre el nodo
+
+		respectivo para a continuación hacer "G + mouse drag", para que así, podamos el vertex ó nodo
+
+		ha una nueva posición
+
+
+		_así, como también podremos hacer "mouse right click and drag", para que así, podamos arrastrar
+
+		el vertex ó nodo en un mismo paso
+
+
+
+	Ajusta Curvas:
+
+		_de ésta manera, una vez que hemos seleccionado un handle, podremos no sólo rotar ó mover éste 
+
+		en un sentido u otros si no que también, podremos alejar ó acercar éste
+
+
+		_para que así, extendamos la curva ó vector de animación lo que hará cambios de velocidad sobre 
+
+		el punto de animación respectivo, tanto en su punto de entrada ó en su punto de salida respectivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

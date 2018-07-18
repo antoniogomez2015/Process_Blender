@@ -1,0 +1,128 @@
+
+
+
+
+	Como hacer un cambio de camaras en blender
+
+		https://www.youtube.com/watch?v=588V7C6MECY
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	General:
+	________
+
+	_a través, del timeline, tendremos la posibilidad de secuencias cámaras existentes en la escena, de 
+
+	ésta manera, podremos crear planos y secuencias cinematográficas con mucho más coherencia
+
+
+
+
+	Camaras:
+	________
+
+	_workflow, para la creación y gestión de cámaras en la escena
+
+
+
+		_posarnos en la vista de la cámara activa: 0
+
+			_a través, de éste shortcut, podremos mirar a través, de la cámra activa
+
+
+		_Hacer Cámara Activa para Animación y Render: Control + 0
+
+			_a través, de éste shortcut, haremos activa la cámara seleccionada así, como también,
+	
+			nos coloremos en la vista de la cámara
+
+
+
+		_Camara a Vista: Control + Alt + 0
+
+			_a través, de éste shortcut, haremos que la cámrara "Activa" se vaya al punto de
+
+			vista que tengamos en un punto determinado en el viewport 3d
+
+
+			_opcionalmente ha ésta opción dispondremos de otra opción yendo ha "Properties Tool",
+
+			shortcut, "N", y una vez llí, buscamos la opción de "Lock Camara View"
+
+
+			_para que así, podamos navegar con la cámara de forma obital de forma libre por el 
+
+			viewport 3d
+
+
+
+
+	Makers:
+	_______
+
+	_las marcas nos permitirá indicar los cortes a partir de los cuáles, las diferentes cámraras entrarán
+
+	en escena a través, del tiempo
+
+	
+	_de ésta manara, si deseamos secuenciar la primera cámara a partir del frame, "0", debemos de agregar 
+
+	una "marker", en el frame, "0"
+
+
+	_para lo cuál, dispondremos del shortcut, "M", para que así, una nueva marca sea agregada en el freme,
+
+	respectivo en el timeline (renombrar marcas Control + M)
+
+
+	_de ésta manera, debemos de repetir éste mismo proceso si deseamos por ejemplo secuenciar otra cámara 
+
+	a partir del frame, "120"
+
+
+	_de ésta manera, a partir de éste punto tenddríamos que agregar otra marca respectivamente y así, 
+
+	suscesivamente en relación a la cantidad de cámaras ha secuenciar
+
+
+
+
+
+	Secuenciar Camaras:
+	___________________
+
+	_de ésta manera, una vez tengamos creadas las cámaras y los marcadores respectivos, entonces tendremos que
+
+	seleccionar la cámara ha secuenciar
+
+
+	_para seguidamente proceder ha seleccionar el marcador respectivo en el timeline, para que así, con ambos
+
+	seleccionados aplicar el shortcut:
+
+
+
+		_Control + B
+
+
+
+	_ó yendo al panel timeline, "View/Bind Camara to Markers"
+
+
+
+	_para que así, la cámara seleccionada en el viewport, sea asignada a la respectiva marca seleccionada
+
+
+
+
+
+
+
+
+

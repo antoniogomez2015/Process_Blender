@@ -1,0 +1,183 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	F-Curve Modifiers:
+	__________________
+
+
+	_éstas opciones nos permitirá agregar modificadores a las propiedades de animación y directamtne ha los
+
+	keyframes, vertex ó nodos para que así, podamos influencias y hacer variaciones de animación
+
+	
+	_así, como también, potencializar y amplicar las posibilidades de animación, éstos modificares tienen
+
+	la ventaja de que pueden activarse y desactivarse a través, del tiempo y ser animables
+
+
+
+	_de ésta manera, dispondremos de los siguientes modificadores:
+
+
+
+
+
+	Workflow:
+	_________
+	
+	_de ésta manera, para agregar un modificador dispondremos de dos opciones
+
+
+	_la primera es abrieldo el ménu contextual de "Add F-Curve Modifier", a través, del shortcut, 
+
+	"Control + Shift + M", ó yendo al menú "Key/Add F-Curve Modifier"
+
+
+	_otra opción es yendo al panel de propiedades del panel "F-Curve Editor", a través, del shortcut, "N",
+
+	y en el cuál, podremos buscar la pestaña de "Modifier", y una vez allí, agrega el modificador deseado
+
+
+
+
+
+	Built-In Function:
+	__________________
+
+	_éste modificador nos permitirá agregar comportamiento de animación como ciclos senoseidales, patrones
+
+	de decaimineto de animación entre otros
+
+
+	_de ésta manera, podremos agregar características a las animaciones como ruido, aleatoriedad, ritmos,
+
+	entre otras posibilidades auxiliares de animación a través, del tiempo
+
+
+
+
+
+	_de ésta manera, dispondremos de los siguientes controles:
+
+
+
+
+	NOTA: el primer valor que tendremos que bajar es "Use Influence", para que así, podamos ver la animación
+
+	inicial ya que por defecto éste valor biene en "1", y por ende anula la animación original dejándola en 
+
+	una línea recta inapreciable
+
+
+
+
+
+
+	_Nomralize Sine:
+
+		_ésta opción convertirá al volúmen de la forma de onda global del gráfico de animación seleccionado
+
+		en un serie de ondulaciones con la misma morfología ó volúmen que la gráfica de animación original
+
+
+	_Natural Logarithm:
+
+		_ésta opcíon creará una parábola a partir del vertex seleccionado, de ésta manera, se elevará el
+
+		gráfico de animación moviendo el objeto animado de forma exponencia en el espacio y en el tiempo
+
+
+	_Square Root:
+
+		_ésta opción se comportará como una variante de la opción anterior de "Natural Logarithm"
+
+
+	_Tangent:
+
+		_ésta opcíon nos permitirá crear pulsos de ondas con decaimiento desde su punto inicial hasta su
+
+		punto final
+
+
+		_y también, se comportarán en modulaciones en modos de loop, de ésta manera, podremos hacer patrones 
+
+		de animación modulares los cuáles, a su vez se comportarán de forma alternante a través, del tiempo 
+
+		y el espacio
+
+
+	_Cosine:
+
+		_ésta opción creará patrones en ciclo de ondas senoseidales y rítmicos a través, del tiempo
+
+
+	_Sine:
+
+		_ésta opción creará patrones en ciclo de ondas senoseidales y rítmicos a través, del tiempo
+
+
+
+	_Additive:
+
+		_éste parámetro hará que la animación sea exponencial ó aditiva a la existente
+
+
+
+	
+
+
+	_Restrict Frame Range:
+
+		_ésta serie de opciones nos pemritirá entrar la animación original y limitar ó extender ésta
+
+		tanto a partir del punto incial al final
+
+
+		_como antes del inicio y después del inicio lo que nos pemritirá extender mucho más las 
+
+		posibilidades de animación, deformación y personalización de las animaciones
+
+
+		_lo cuál, nos permitirá lograr comportamientos desde refinados hasta inesperados en relación
+
+		a las necesidades de producción, otros
+
+
+	_Use Influence:
+
+		_éste parámetro hará de bypass, permitiréndonos limitar la influencia general del efecto sobre
+
+		la animación base
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

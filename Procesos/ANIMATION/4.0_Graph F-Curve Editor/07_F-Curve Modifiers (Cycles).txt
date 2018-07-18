@@ -1,0 +1,221 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	F-Curve Modifiers:
+	__________________
+
+
+	_éstas opciones nos permitirá agregar modificadores a las propiedades de animación y directamtne ha los
+
+	keyframes, vertex ó nodos para que así, podamos influencias y hacer variaciones de animación
+
+	
+	_así, como también, potencializar y amplicar las posibilidades de animación, éstos modificares tienen
+
+	la ventaja de que pueden activarse y desactivarse a través, del tiempo y ser animables
+
+
+
+	_de ésta manera, dispondremos de los siguientes modificadores:
+
+
+
+
+
+	Workflow:
+	_________
+	
+	_de ésta manera, para agregar un modificador dispondremos de dos opciones
+
+
+	_la primera es abrieldo el ménu contextual de "Add F-Curve Modifier", a través, del shortcut, 
+
+	"Control + Shift + M", ó yendo al menú "Key/Add F-Curve Modifier"
+
+
+	_otra opción es yendo al panel de propiedades del panel "F-Curve Editor", a través, del shortcut, "N",
+
+	y en el cuál, podremos buscar la pestaña de "Modifier", y una vez allí, agrega el modificador deseado
+
+
+
+
+
+	Cycles:
+	_______
+
+	_éste modificador nos permitirá hacer loops, de animaciones de ésta manera, podremos hacer modulaciones
+
+	cíclicas de segmentos de animación determinados para que así, podamos hacer reproducciones infinita
+
+
+	_así, como también, crear variaciones de los modos de ciclo, como de las opciones de restringir rango y
+
+	controlar la influencia del sistema
+
+
+	_a diferencia de la opción similar de ciclo de las opciones de "Set Frame Extrapolation", a través, del
+
+	shotcut, "Shift + E", el cuál, no permitira tantas configuraciones y variaciones
+
+
+
+
+	_de ésta manera, dispondremos de los siguientes controles:
+
+
+	
+
+
+	_Before / After:
+
+		_ésta opción nos permitirá cambiar el comportamiento del ciclo, de ésta manera, podremos 
+
+		cambiar un comportamiento sea en el punto de entrada ó el punto de salida respectivamente
+
+
+		_de ésta manera, podremos agregar más variaedad y flexibilidad en las animaciones
+
+
+
+
+			_Repeat  Mirrored:
+	
+				_éste parámetro repetirá la aniamación existente ó seleccionada, sea en el
+
+				punto de entra ó en el punto de salida respectivamente
+
+
+				_de ésta manera, la animación se desarrollará en el viewport 3d hacia
+
+				adelante y el primer ciclo se desarrollará en reversa
+
+
+				_para el siguiente ciclo se volverá a reproducir hacia adelante nuevamente
+
+				y así, suscesivamente
+
+
+			_Repeat With Offset:
+
+				_éste parámetro repetirá la aniamación existente ó seleccionada pero de 
+
+				forma exponencial
+
+
+				_es decir; la animación se desarrollará normalmente hacia a delante y en el
+
+				primer ciclo también, se reproducirá hacia a delante pero a partir del punto
+
+
+				_donde termino el ciclo de animación anterior, de ésta manera, el objeto
+
+				se desplazará a través, del tiempo y el espacio de forma infinita
+
+				
+				_sea en el punto de entra ó en el punto de salida respectivamente
+
+
+
+			_Repeat Motion:
+
+				_éste parámetro repetirá la aniamación existente ó seleccionada pero de 
+
+				forma de pulso
+
+
+				_es decir; la animación se desarrollará normalmente hacia a delante y en el
+
+				primer ciclo también, se reproducirá hacia a delante
+
+
+				_dando un salto desde el último keyframe, al primero sin interpolación entre
+
+				ellos ó el cambio realizado
+
+
+
+				_sea en el punto de entra ó en el punto de salida respectivamente
+
+
+			_No Cycles:
+
+				_éste parámetro no repetirá ó modulará la animación en un punto determinado
+
+				sea éste un punto de entrada ó un punto de salida respectivamente
+
+
+				_de ésta manera, podremos hacer loops, en un sólo sentido y no en ambos a la 
+
+				vez
+
+
+
+	_así, como también, tendremos la opción de indicar la cantidad de ciclos a repetir a través, del 
+
+	tiempo, de ésta manera, con un valor de "0", los ciclos serán infinitos, más si indicamos un valor 
+
+
+
+	_de "1", "2", ó más indicaremos la cantidad de repeticiones ó loops, ha realizar través, del tiempo
+				
+
+
+	
+	_Restrict Frame Range:
+
+		_ésta serie de opciones nos pemritirá entrar la animación original y limitar ó extender ésta
+
+		tanto a partir del punto incial al final
+
+
+		_como antes del inicio y después del inicio lo que nos pemritirá extender mucho más las 
+
+		posibilidades de animación, deformación y personalización de las animaciones
+
+
+		_lo cuál, nos permitirá lograr comportamientos desde refinados hasta inesperados en relación
+
+		a las necesidades de producción, otros
+
+
+
+	_Use Influence:
+
+		_éste parámetro hará de bypass, permitiréndonos limitar la influencia general del efecto sobre
+
+		la animación base
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

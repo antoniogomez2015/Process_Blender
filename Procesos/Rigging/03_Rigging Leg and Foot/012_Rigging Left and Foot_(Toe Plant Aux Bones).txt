@@ -1,0 +1,61 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Plant Aux Bones:
+	____________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, "L_Inverse_Toe_Aux", para que
+
+	así, podamos proceder ha duplicar éste y estando en la vista de cámara "Top", shortcut, "7"
+
+
+	_en la cuál, podremos re posicionar éste bone, a un costado del pie para a continuación duplicar nuevamente
+
+	éste nuevo bone, el cuál, debemos de colocar en el otro costado el pie
+
+
+	_éstos nuevos bones, los podremos renombrar como "L_Toe_Arc_Inner_Rotation", y "L_Toe_Arc_Outer_Rotation",
+
+	respectivamente
+
+
+	
+
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

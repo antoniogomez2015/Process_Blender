@@ -1,0 +1,53 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Fingers Aux2 Bone:
+	______________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, "L_Toe_Fingers_Rotation", para 
+
+	a continuación proceder ha extruir éste a través, del shortcut, "Shift + D", más mouse right clickm para que el
+
+	nuevo bone, se quede en el lugar original
+
+
+	_para posteriormente re escalar éste bone, a través, del shortcut, "Control + Alt + S", para que así, hagamos
+
+	ha éste bone, más pequeño y más grueso a la vez para que así, este bone, sea diferenciable del original
+
+
+	_éste nuevo bone, auxiliar lo podremos renombrar como "L_Toe_Fingers_Rotation2"
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

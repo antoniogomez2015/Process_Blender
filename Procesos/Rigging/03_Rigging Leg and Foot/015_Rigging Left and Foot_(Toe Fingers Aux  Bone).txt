@@ -1,0 +1,53 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Fingers Aux  Bone:
+	______________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el efector de el bone, "L_Fingers_Toe", 
+
+	para a continuación proceder ha extruir éste hacia arriba
+
+
+	_creando así, un nuevo bone, auxiliar a través, del cuál, podremos controlar que el character, pueda pararse 
+
+	de puntillas
+
+
+	_éste nuevo bone, auxiliar lo podremos renombrar como "L_Toe_Fingers_Rotation"
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

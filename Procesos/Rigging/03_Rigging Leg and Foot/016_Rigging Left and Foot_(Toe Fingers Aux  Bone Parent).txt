@@ -1,0 +1,49 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Toe Fingers Aux Bone Parent:
+	____________________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, "L_Tibia_Aux2", para a 
+
+	continuación seleccionar el bone, "L_Toe_Fingers_Rotation"
+
+
+	_para que así, con ambos bones, seleccionados abrir el menú contextual de "Make Parent", a través, del shortcut,
+
+	"Control + P", en el cuál, debemos de seleccionar la opción de "Keep Offset"
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

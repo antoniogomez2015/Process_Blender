@@ -1,0 +1,103 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Extrapolation Mode:
+	___________________
+
+
+	_éstas opciones nos permitirán definir que hace una curva de animación antes del primer keyframe, y 
+
+	después del último keyframe
+
+
+	_de ésta manera, podremos crea diferentes comportamientos como ciclos, modulaciones, otros de forma
+
+	automatizada
+
+
+	_para lo cuál, debemos de seleccionar un verte ó nodo y con éste seleccionado debemos abrir el menú 
+
+	contextual "Extrapolation Mode", a través, del shortcut, "Shift + E"
+
+
+	_y en el cuál, dispondremos de las siguientes opciones:
+
+
+
+
+		_Constant Extrapolation:
+
+			_ésta es la opcíon por defecto la cuál, mantiene un comportamiento contínuo de la 
+
+			animación a través, de una recta horizontal a través, del tiempo
+
+
+		_Linear Extrapolation:
+
+			_ésta opción prolongará el comportamiento de la animación de forma contínua a través, 
+
+			de una recta pero en la dirección del vertor de animación a través, de la cuál,
+
+			se aplicó la opción de "Linear Extrapolation"
+
+
+			_de ésta maenra, si repetimos éste proceso para el otro handle, de un nodo
+
+				determinado los handles, respectivos se alinearán como en un inicio
+
+
+		_Make Cyclic (F-Modifier):
+
+			_ésta opción prolongará el comportamiento de la animación ha modo de loop, ó ciclo de
+
+			animación de ésta manera, la animación se modulará y se repetirá de forma indefinida
+
+
+			_a partir del punto ó frame, ó vertex node, seleccionado y al cuál, se le ha aplicado
+
+			la opción de "Make Cyclic (F-Modifier)"
+
+
+		_Clear Cyclic (F-Modifier):
+		
+			_ésta opción nos permitirá eliminar el comportamiento de loop, ó ciclo aplicado en el
+
+			paso anterior respectivamente
+
+
+			_de ésta manera, la animación volverá ha su estado inicial
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

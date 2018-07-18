@@ -1,0 +1,60 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	L_Inverse_Toe_Aux2:
+	___________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el efector de el bone, 
+
+	"L_Inverse_Toe_Aux", para que así, podamos extruir éste bone, hacia abajo a través, del shortcut, "E"
+
+
+	_proyectando éste nuevo bone, un poco más abajo de la planta del pie el cuál, a su vez, podremos renombrar
+
+	como "L_Inverse_Toe_Aux3"
+
+
+
+	
+	Clear Parent:
+	_____________
+
+	_más a su vez, también, debemos de desparentar éste nuevo bone, para que así, éste bone, se comporte como una
+
+	cadena de bones, independiente a los demás bones
+
+
+	_para lo cuál, debemos de abrir el menú contextual de "Clear Parent", a través, del shortcut, "Alt + P", en el
+
+	cuál, debemos de seleccionar la opcíon de "Clear Parent"
+	
+
+
+
+
+
+	
+
+
+
+
+

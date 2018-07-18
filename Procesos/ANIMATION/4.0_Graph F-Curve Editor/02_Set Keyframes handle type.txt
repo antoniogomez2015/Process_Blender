@@ -1,0 +1,95 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Handles Modes:
+	______________
+
+
+	_así, como también, podremos cambiar el comportamiento de los nodos para que así, éstos se comporten 
+
+	independientemente, se alinien, otros
+
+
+	_para lo cuál, debemos de seleccionar un handle, y con ése seleccionado debemos abrir el menú contextual 
+
+	de "Set Keyframes handle type", a través, del shortcut, "V"
+
+
+	_y en el cuál, dispondremos de las siguientes opciones:
+
+
+
+		_Free:
+
+			_ésta opción hará los handles, independientes el uno del otro
+
+
+		_Vertor:
+
+			_ésta opción hará que el handles, seleccionado se vaya hacia la direción de la curva de 
+
+			animación sea ésta entrante ó saliente
+
+
+			_de ésta maenra, si repetimos éste proceso para el otro handle, de un nodo determinado los 
+
+			handles, respectivos se alinearán como en un inicio
+
+
+		_Aligned:
+
+			_ésta opción hará los handles, se alinien de forma recta en relación a la orientación del 
+
+			handle, seleccionado
+
+
+			_lo cuál, quiere decir que el handle, opuesto al handle, seleccionado se alineará 
+
+			automáticamente formando una línea recta
+
+
+		_Automatic:
+
+			_
+
+
+		_Auto Clamped:
+
+			_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

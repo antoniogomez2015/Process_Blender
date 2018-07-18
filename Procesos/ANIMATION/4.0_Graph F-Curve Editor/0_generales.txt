@@ -1,0 +1,30 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	General:
+	________
+
+	_el panel F-Curve Graph Editor, nos permitirá editar curvas de animación de parámetros y propiedades
+
+	así, como también, nos pemritirá controlar drivers, ó controladores de animación, otros
+
+
+
+
+
+

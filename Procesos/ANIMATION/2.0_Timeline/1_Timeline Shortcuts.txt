@@ -13,6 +13,12 @@
 	___________________
 
 
+	--------------------------------------------------------------------------------------------------------
+
+	PLAY:
+		
+
+
 		_Play/Stop: Alt + A
 
 
@@ -38,6 +44,120 @@
 
 		
 		_Marker Name: Control + M
+
+
+
+
+	--------------------------------------------------------------------------------------------------------
+
+	MARKS:
+
+	_las marcas nos permitirá poder crear guias de animación, tanto para indicar puntos de animación asi
+
+	como también para crear marcadores de texto para futuras correcciones y para el trabajo en equipo
+
+
+	_como también, nos permitirá secuencias cámaras de animación a través, del tiempo
+
+
+
+		_Add Marker: M
+
+		_Rename Marker: Control + M
+
+		_Delete Marker: X
+
+		_Duplicate Marker
+
+
+
+
+
+	--------------------------------------------------------------------------------------------------------
+
+	FRAME: (Work Area)
+
+	_éstas opciones nos permitirá configurar las opciones de visualización de animación en el timeline,
+
+	de ésta manera, podremos limitar el área de visualización de una serie de frames, determinados
+
+
+	_para que así, el área seleccionada se reproduzca en bucle y con prioridad ante las demás áreas
+
+
+
+		_Set Preview Range: P (mouse left click and drag)
+
+		_CLear Preview Range: Alt + P
+
+		_Set Start Frame: S (en la ubicación del cabezal del timeline)
+
+		_Set End Frame: E (en la ubicación del cabezal del timeline)
+
+
+
+
+	--------------------------------------------------------------------------------------------------------
+
+	PLAYBACK: (Preferencias)
+
+	
+		_Audio Scrubbing:
+
+			_ésta opción permitirá que el audio pueda ser escuchado cuando se arrastre el cabezal 
+
+			del timeline
+
+
+		_Audio Mutted:
+
+			_ésta opción permitirá silenciar el audio al arrastrar el cabezal del timeline
+
+
+		_AV Sync:
+
+			_ésta opción permitirá sincronizar la reproducción de la animación con la reproducción
+
+			del audio respectivamente
+
+
+		_Frame Dropping:
+
+			_ésta opción permitirá hacer saltar frame, de animación en los casos en los que la 
+
+			animación se reproduzca muy lenta
+
+
+		_Follow:
+
+			_Los editores de animación pueden configurarse para seguir siempre el indicador de tiempo 
+
+			a medida que se reproduce la animación. Lo siguiente será hecho al animar y cambiar el 
+
+			frame
+
+
+
+		_Filters:
+
+			_éstas opciones son filtros los cuáles, sincronizarán la reproducción del timeline, entre
+
+			un panel y otro, por ejemplo
+
+
+			_que cuando se reproduzca el cabezal del timeline, también, lo haga en el panel F-Cuve 
+
+			Editor, ó en el dope sheet, otros, al mismo tiempo y de forma sincronizada
+
+
+
+
+
+
+
+
+
+
 
 
 

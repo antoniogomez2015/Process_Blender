@@ -1,0 +1,72 @@
+
+
+
+
+
+
+	_Blender - Advanced Foot Rigging Tutorial - Part 1
+		https://www.youtube.com/watch?v=OhoT4oja3Bc
+
+		Blender - Advanced Foot Rigging Tutorial - Part 2
+			https://www.youtube.com/watch?v=UfLLiu-APas
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Tibia Aux 2 Bone:
+	_________________
+
+	_estando en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, "L_Tibia_Aux1", para que así,
+
+	podamos duplicar éste bone, a través, del shortcut, "Shift + D", más mouse right click, para que así, el bone,
+
+	se quede en el mismo lugar de origen
+
+
+	_para a continuación proyectar éste bone, un poco más abajo hacia la planta del pie así, como también, debemos
+
+	de escalar éste a través, del shortcut, "Control + Alt + S", en el modo de visualización de "armature/B-Bones"
+
+
+	_para que así, los bones, sean distinguibles unos de otros y sean de fácil manejo y visualización
+
+
+
+
+	Clear Parent:
+	_____________
+
+	_más también, debemos de desparentar éste bone, para que así, éste bone, se comporte como una cadena de bone,
+
+	independiente para lo cuál, debemos de seleccionar el bone, "L_Tibia_Aux2"
+
+
+	_para que así, podamos abrir el menú contextual de "Clear Parent", a través, del shortcut, "Alt + P", en el
+
+	cuál, debemos de seleccionar la opción de "Clear Parent"
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+

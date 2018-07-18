@@ -1,0 +1,70 @@
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Workflows:
+	__________
+
+	
+		_Alternative Start End:
+
+			_éste ícono en forma de reloj nos permitirá activar el modo de visualización de 
+
+			"work area", ó a través, del tiempo
+
+
+		_Don't Allow Drame...:
+
+			_éste ícono en forma de candado nos permitirá limitar el movimiento del cabezal del 
+
+			timeline, a sólo el work area, seleccionado
+
+
+		_How to Sync Playback:
+
+			_éstas opciones nos permitirá indicarle al sistema como se sincronizará el audio con la 
+
+			anomación, donde la opción exclusiva de éste sección de "No Sync", ó sin sincronización
+
+
+		_Automatic Keyframe Insertion:
+
+			_ésta opción en forma de punto rojo, nos pemritirá indicarle al sistema la sincronización 
+
+			automática de keyframes, es decir, que al mover el cabezal a través, del tiempo y a su vez
+
+	
+			_de mover un objeto en el viewport 3d, el sistema agregar keyframes, automáticamente por
+
+			nosotros sin la necesidad de aplicar el shortcut, "I"
+
+
+		_Keying Set:
+
+			_éstas opciones nos pemritirá activar la selección de propiedades para ser animadas, 
+
+			tanto propiedades genéricas como loc/rot/sc.., como también, propiedades personalizadas
+
+
+			_y altamente detalladas y especializadas dentro de los characters, set
+
+
+
+
+
+
+
+
+
+
+
+
+
+

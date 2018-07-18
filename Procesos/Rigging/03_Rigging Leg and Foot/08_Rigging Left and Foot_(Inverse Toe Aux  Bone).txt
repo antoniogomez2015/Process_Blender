@@ -27,9 +27,9 @@
 	efector del bone, "L_Inverse_Toe"
  
 
-	_para que así, podamos extruir éste bone, hacia arriba hasta la punta de porco más abajo del ankle, ó tobillo 
+	_para que así, podamos extruir éste bone, hacia arriba hasta poco más abajo del ankle, ó tobillo del pie 
 
-	del pie del character
+	del character
 
 	
 
@@ -54,17 +54,20 @@
 
 
 
+
 	Set Parent:
 	___________
 
 	_más tambien, estando aún en el modo "Edit mode", shortcut, "Tab", debemos de seleccionar el bone, 
 
-	"L_Metatarso", para seguidamente seleccionar el bone, "L_Toe_Back_Handle"
+	"L_Inverse_Toe", para seguidamente seleccionar el bone, "L_Fingers_Toe", para por último seleccionar el bone,
+
+	"L_Inverse_Toe_Aux"
 
 
-	_para que así, con ambos bones, seleccionados abrir el menú contextual de "Make Parent", y en el cuál, 
+	_para que así, con los respectivos bones, seleccionados abrir el menú contextual de "Make Parent", a través,
 
-	debemos de seleccionar la opción de "Keep Offset"
+	del shortcut, "Control + P", y en el cuál, debemos de seleccionar la opción de "Keep Offset"
 
 
 	_para que así, el bone, "L_Metatarso", quede subordinado al movimiento del bone, "L_Toe_Back_Handle", el
