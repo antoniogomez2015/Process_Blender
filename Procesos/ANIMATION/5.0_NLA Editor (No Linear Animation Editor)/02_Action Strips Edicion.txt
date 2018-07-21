@@ -1,0 +1,135 @@
+
+
+
+
+	tutorial blender crear multiples animaciones
+
+		https://www.youtube.com/watch?v=8ibVdczjmGU
+
+
+	Blender: introduccion a las herramientas de animación
+
+		https://www.youtube.com/watch?v=MNxyTfn4Ybw&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_
+
+
+			Blender: nla editor
+
+				https://www.youtube.com/watch?v=QR7-m1pBDgE&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_&index=2
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Action Strips Edición:
+	______________________
+
+	_las actions strips, con clips, de animación encapsulada la cuál, podremos editar, fusionar y ajustar en relación
+
+	a las necedades de animación
+
+
+	_de ésta manera, dispondremos de las siguientes opciones para las action strips:
+
+
+
+
+
+	Scale:
+
+		_tenemos la posibilidad de escalar strips, ó clips, de audio para lo cuál, dispondremos de varias opciones:
+
+
+			_la primera es yendo al panel "NLA Editor/Propesties/Active Track", y una vez allí, ajustar las
+
+			opciones de "Strip Stends/", "Start Frame", "End Frame"
+
+
+			_otra opción es directamente en el panel NLA Editor, en el cuál, debemos de ubicar el cabezal en
+
+			el área donde deseamos re escalar el strip, de animación para a continuación aplicar el shortcut,
+
+
+			_"S", and drag, para que así, podamos escalar el strip, de animación de forma interactiva
+
+
+			_más también, podremos ser más específicos yendo a las opciones "NLA Editor/Properties/Action Clip",
+
+			y una vez allí, ubicar las opciones de "Playback Settings", en la cuál, encontraremos la opcíon
+
+			de "Scale"
+
+
+		_más también, dispondremos de las opciones de "Clear Scale", a través, del shortcut, "Alt + S", para que
+
+		así, podamos recobrar la longitud original del strip, para resetear así, el strip, respectivamente
+
+
+		_como también, podremos fijar una nueva longitud para un strip, para que así, éste se mantenga de forma
+
+		permanente para lo cuál, dispondremos de la opción "Apply Scale", a través, del shortcut, "Control + A"
+
+
+
+
+	Duplicate: (Shift + D)
+
+		_ésta opción nos pemritirá duplicar un strip, que desiemos re utilizar a través, del tiempo
+
+
+
+	_Linked Duplicate: (Alt + D)
+
+		_ésta opción nos pemritirá duplicar un strip, a modo de instancia ya que de ésta manera, la strip,
+
+		duplicada estará superditada a las ediciones realizadas en la strip, original
+
+
+
+	_Split Strip: (Y)
+
+		_ésta opcíon nos permitirá dividir un strip, ó clip, de animación en el punto donde se encuentre
+
+		el cabezal del panel sobre el strip, respectivo, de ésta manera, se generarán dos strips, a partir 
+
+		de una 
+
+
+	_Toggle Mutting: (H)
+
+		_ésta opción nos permitirá desactivar temporalmente la influencia ó acción de strip, ó clip, 
+
+		determinado para que así, podamos hacer ajustes en el resto de strips, respectivamente
+
+
+	_Sync Action Length:
+
+		_
+
+
+	_Reverse:
+
+		_ésta opción nos pemritirá invertir el sentido de animación para que así, el strip, de animación
+
+		ahora se reproduzca de forma inversa
+
+
+		_para lo cuál, debemos de ir ha "NLA Editor/Properties/Active Strip/", y una vez allí, debemos de
+
+		ubicar la opción de "Reversed", para que a´si, podamos activar ésta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

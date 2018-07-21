@@ -1,0 +1,77 @@
+
+
+
+
+	tutorial blender crear multiples animaciones
+
+		https://www.youtube.com/watch?v=8ibVdczjmGU
+
+
+	Blender: introduccion a las herramientas de animación
+
+		https://www.youtube.com/watch?v=MNxyTfn4Ybw&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_
+
+
+			Blender: nla editor
+
+				https://www.youtube.com/watch?v=QR7-m1pBDgE&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_&index=2
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Meta Strips:
+	____________
+
+	_las meta strips, nos permitirá agrupar ó encapsular varios strips, ó clips, de animación en un sólo super strips,
+
+	lo que nos permitirá mover y re ajustar bloques enteros de strips, ó clips, de ainmaión al unísono y así, como
+
+
+	_también, organizar mejor la escena de strips, de nivel general ó global
+
+	
+	NOTA: las meta strips, sólo pueden ser generadas a partir de strips, contiguos en un mismo "Track", así, como también, 
+
+	aceptrán strips, de tipo "Transition", intercalados ó entre los "Action strips", convencionales
+
+
+	_más no funcionan con strips, ó clips, de animación en diferentes tracks y de forma super puesta
+
+
+	_de ésta manera, para crear un "Meta Strip", debemos de seleccionar los strips, contiguos dentro de un mismo "track",
+
+	sean éstos Action strips, como Transition Strips, para que así, con éstos seleccionados aplicar el shortcut 
+
+	"Shift + G"
+
+
+	_para que así, un nuevo meta strip, de color morado sea creado en el lugar de los anteriores strips, seleccionados 
+	
+	previamente
+
+
+	_éste nuevo meta strip, estará segmentado por unas líneas de color más claras las cuáles, indicarán de cuandos 
+
+	strips, éste meta strip, está compuesto
+
+
+	_más si deseamos destruir éste meta strip, y recuperar los strips, del cuál, éste se compone, dispondremos del
+
+	siguiente shortcut, "Alt + G", para que así, los strips, contenidos aparezcan en su lugar original
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

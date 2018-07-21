@@ -1,0 +1,265 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+	Ref: https://easings.net/es
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Easing Type:
+	____________
+
+
+	_éste menú nos pemritirá indicar el tipo de interpolación espacial en el gráfico de curvas de los
+
+	fotogramas claves ó keyframes
+
+
+	_de ésta manera, podremos crear diferentes comportamientos de los fotogramas y las animaciones 
+
+	respectivamente para que así, podamos afectar las características y reacciones de una propiedad en 
+
+	específico
+
+
+	_y en el cuál, dispondremos de las siguientes opciones:
+
+
+
+
+	Interpolation:
+	______________
+
+	_los tipos de interpolación nos ofrecerán las posibilidades básicas de interpolación a elegir en relación
+
+	al tipo de animación ha realizar
+
+
+		Constant:
+		_________
+
+		_éste tipo de interpolación no realizará ningún tipo de interpolación espacial de ésta manera, 
+
+		no habrá transición entre keyframe, ha otro espacialmente
+
+
+		_lo que se traducirá en un salto espacial entre un frame, ha otro directamente en el viewport 
+
+		3d, de ésta manera, podremos hacer el efecto "hold keyframe", ó efecto "start treck"
+
+
+		_éste modo es especialmente útil para hacer blocking, de animación cuadro a cuadro, ó animación 
+
+		pose a pose, lo cuál, es muy utilizado en la animación personajes para marcar las poses iniciales
+
+
+		_sin tener que ver la interpolación intermedia entre keyframe, y keyframe
+
+
+
+		Linear:
+		_______
+
+		_ste tipo de interpolación realizará una interpolación de tipo lineal, es decir; que trazará
+
+		una línea recta entre dos fotogramas creando así, una interpolación directa y constante a 
+
+		través, del tiempo y el espacio
+
+
+		_éste modo es especialmente útil para la creación de samples los cuáles, requieren una 
+
+		interpolación contrante a través, del tiempo y el espacio
+
+
+		_como también, para animaciones mecánicas y de ciertos efectos como rebotes, banboleos, otros
+
+
+
+		Bezier:
+		_______
+
+		_éste tipo de interpolación realizará interpolaciones suavizadas a través, de una curva de 
+
+		animación 
+
+
+		_la cuál, represetará un decaimiento inicial y un decaimiento final entre la transición entre 
+
+		ambos keyframe, de animación
+
+
+		_éste es el modo de interpolación por defecto y el más utilizado para la mayoría de los cosos
+
+		de animación generalizados
+
+
+
+
+	Easing (by Strength):
+	____________________
+
+	_los siguentes modos son presets, a través, de los cuáles, podremos crear comportamientos pre definidos
+
+	en relación al tipo de animación ha realizar
+
+		
+
+		Sinusoidal:
+		___________
+
+		_éste modo de interpolación ofrece una desaceleración muy suavizada a partir del punto de entrada
+
+		y antes del punto de salida
+
+
+		
+		Quadratic:
+		__________
+
+		_éste modo de interpolación es muy similar al modo anterior de "Sinusoidal", más el modo 
+
+		"Quadratic", es un poco más acentudo, ofreciendo así, una desaceleración más acentuada 
+
+		en el suavizado optenido entre ambos keyframes, interpolados respectivamente
+		
+		
+
+		Cubic:
+		______
+
+		_éste modo de interpolación es muy similar al modo anterior de "Quadratic", más el modo 
+
+		"Cubic", es un poco más acentudo, ofreciendo así, una desaceleración más acentuada 
+
+		en el suavizado optenido entre ambos keyframes, interpolados respectivamente
+
+
+		_más incluso es más acentuado en punto de entrada, generando así, un mayor impacto en la
+
+		adeleración y desaceleración inicial que en la final
+
+
+
+		Quartic:
+		________
+
+		_éste modo de interpolación es muy similar al modo anterior de "Cubic", más el modo 
+
+		"Quartic", es un poco más acentudo, ofreciendo así, una desaceleración más acentuada 
+
+		en el suavizado optenido entre ambos keyframes, interpolados respectivamente
+
+
+		_más incluso es más acentuado en punto de entrada, generando así, un mayor impacto en la
+
+		adeleración y desaceleración inicial que en la final
+
+
+
+
+		Quintic:
+		________
+
+		_éste modo de interpolación es muy similar al modo anterior de "Cubic", más el modo 
+
+		"Quartic", es sólo un poco más acentudo, ofreciendo así, una desaceleración más acentuada 
+
+		en el suavizado optenido entre ambos keyframes, interpolados respectivamente
+
+
+		_más incluso es más acentuado en punto de "salida", generando así, un mayor impacto en la
+
+		adeleración y desaceleración inicial que en la final
+
+
+
+		Exponential:
+		____________
+
+		_éste modo de interpolación es muy similar al modo anterior de "Quintic", más el modo 
+
+		"Exponential", es sólo un poco más acentudo, ofreciendo así, una desaceleración más acentuada 
+
+		en el suavizado optenido entre ambos keyframes, interpolados respectivamente
+
+
+
+		Circular:
+		_________
+
+		_éste modo de interpolación ofrece una desaceleración bastante suavizada y en modo de arco perfecto
+
+		a partir del punto de entrada y antes del punto de salida
+
+
+		_ofreciendo así, una interpolación simétrica entre el punto de entrada y el punto de salida
+
+
+
+
+	Dynamic Effects:
+	________________
+
+
+		Back:
+		_____
+
+		_éste modo de interpolación ofrece un impulso en negativo tanto en el punto de entrada como en el punto
+
+		de salida entre ambos keyframes, interpolados
+
+
+		_lo cuál, es especialmente útil para animaciones de personajes, otros
+
+
+		Bounce:
+		_______
+
+		_éste modo de interpolación ofrece una curva de rebotes entre el keyframe, inicial y keyframe, final
+
+		de ésta manra, podremos crear efectos de rebote muy fícilmente entre dos keyframes
+
+
+		Elastic:
+		________
+
+		_éste modo de interpolación ofrece un efecto de rebote seco y de alta velocidad, lo cuál, es algo
+
+		similar al efecto ó modo "Back", aun que la opción "Elastic", es más rápida y simplificada
+		
+		
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

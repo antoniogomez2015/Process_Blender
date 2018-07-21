@@ -1,0 +1,113 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 3ª parte - Dope Sheet) - 3J Kernel
+
+
+		https://www.youtube.com/watch?annotation_id=annotation_2070797769&feature=iv&src_vid=oYv2yLVnEp8&v=wcMMLCFGlJw
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Action Editor:
+	______________
+
+
+	_éste modo de panel Dope Sheet, nos permitirá crear bloques de animación ó strips, para panel 
+
+	NLA Editor, de ésta manera, podremos organizar las animaciones para secuenciarlas posteriormente
+
+
+	_así, como también, podremos relacionar una animaicón que hemos convertido en una action, ó slot, de
+
+	de animación, con otro elemento u objeto en escena 
+
+
+	_de ésta manera, el nuevo objeto cobrará el movimiento, acción ó animación guardada previamente en el slot, 
+	
+	de animación respectivamente
+
+
+	_de ésta manera, en el panel Dope Sheet, debemos de seleccionar el modo "Action Editor", en la parte
+
+	inferior del panel
+
+
+	_para que así, en la misma barra inferior dispongamos de las siguientes opciones:
+
+
+
+
+	Browser Action to be Linked:
+
+		_ésta sección en la parte inferior del panel nos permitirá crear nuevas slots, de animación los
+
+		cuáles, podremos renombrar y ajustar posteriormente, puediendo así, crear y almacenar múltiples
+	
+		animaciones
+
+
+		_de ésta manera, dispondremos de un creados y administrador de animaciones realizadas las cuáles,
+
+		a su vez, podremos posteriormente enviar al panel NLA Editor
+
+
+
+	Push Down:
+
+		_éste botón en la parte inferior del panel nos permitirá enviar la action ó slot, de animación
+
+		que hemos creado, el cuál, se convertirá en un strip, ó clip, de animación en el panel NLA Editor
+
+
+		_el cuál, podremos manipular y ajustar en el panel NLA Editor, entre muchas posibilidades de edición
+
+		secuenciado y configuración de timming, mezclado, fundido, otros
+
+
+
+	Stash:
+
+		_éste botón tiene la misma función que el botón "Push Down", pero con la diferencia que se creará
+
+		un strip, de animación pasivo en el NLA Editor, es decir, que el strip, se creará sin acción
+
+
+		_lo que quiere decir que la animación ancapsulada en el nuevo strip, de animación no se reproducirá
+
+		normalmente y éste estará de color negro indicando que está pasivo y no activo
+
+
+
+	
+		
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+
+
+
+
+	tutorial blender crear multiples animaciones
+
+		https://www.youtube.com/watch?v=8ibVdczjmGU
+
+
+	Blender: introduccion a las herramientas de animación
+
+		https://www.youtube.com/watch?v=MNxyTfn4Ybw&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_
+
+
+			Blender: nla editor
+
+				https://www.youtube.com/watch?v=QR7-m1pBDgE&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_&index=2
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	NLA Editor (No Linear Animation Editor):
+	________________________________________
+
+	_éste panel nos pemritirá gestionar pistas y tracks, de animación los cuáles, podremos secuencias a través, del
+
+	tiempo y el espacio por medio de "Strips", ó clips, de animación encapsulados los cuáles, podremos editar 
+
+	posteriormente
+
+
+	_de ésta manera, podremos secuenciar clips, superponernos y fusionalos, e integrarlos como también, sumarlos, 
+
+	restarlos y multiplicar sus acciones
+
+
+	_lo que nos permitirá aumentar de forma exponencial las características y capacidades de animación así, como 
+
+	también, la capacidad e ajustar el timming de forma más avanzada aún que las posibilidades del panel "Dope Sheet"
+
+
+	_ya que por medio de la posibilidad de re escalado de clips, y de poder moverlos en el espacio, y de poder 
+
+	agregar puntos neutros, transiciones, y modos de fusión entre clips, podremos llegar más allá que en el modo 
+
+	de animación lineal
+
+
+
+
+	
+	Workflow:
+	_________
+
+	_primeramente para poder utilizar el panel NLA Editor, debemos de tener creado previamente al menos una
+
+	animación en el Timeline/Graph Editor/Dope Sheet
+
+
+	_para que así, ésta animación esté lista y disponible para ser agregada al panel NLA Editor, como una
+
+	Strip, ó clip, de animación
+
+
+
+		Tracks:
+		_______
+
+		_los tracks, los podremos agregar manualmente yendo ha "Add/Add Track", más lo más recomendable es
+
+		dejar que el sistema agregar tracks, cada vez que agrege un strip, ó clip, de animacion 
+
+		automáticamente, ya que ésta es su configuración por defecto
+
+
+
+		Strips:
+		_______
+
+		_una vez tenemos una animación disponible ó realizada en los paneles Timeline/Graph Editor/Dope Sheet,
+
+		podremos entonces hace uso de los siguiente botones para convertir ésta en un strip, ó clip, de 
+
+		animación:
+
+
+
+			Dope Sheet/Action Editor/Push Down:
+
+				_de ésta manera, en el Dopè Sheet, y específicamente en el modo "Action Editor", 
+
+				dispondremos de los botones "Push Down", y "Stash"
+
+
+				_a través de los cuáles, podremos enviar un slot, de animación al panel NLA Editor,
+
+				como un strip, ó clip, de animación
+
+
+
+			NLA Editor/Push Action Down:
+
+				_más también, directamente en el panel NLA Editor, dispondremos de un botón que
+
+				apacerá cuando tengamos lista una animación en cualquiera de los editores de 
+
+				animación Timeline/Graph Editor/Dope Sheet
+
+
+				_de ésta manera el botón "Push Action Down", aparecerá disponible en track, de más
+
+				arriba del objeto respectivo en el panel NLA Editor
+
+
+
+		_de ésta manera, cuando creamos una slot, de animación en un strip, ó clip, de animación éste se
+
+		desaparecerá de los paneles Timeline/Graph Editor/Dope Sheet
+
+
+		_ya que a partir de éste punto la animación respectiva es encapsulada dentro del strip, ó clip,
+
+		de animación
+
+
+
+	_de ésta manera, tendremos la posiblidad de editar los strips, ó clips, de animación creados previamente para
+
+	que así, podamos hacer ajustes y cambios en las animaciones convertirdas en clips, de animación
+
+	
+	_para lo cuál, debemos de seleccionar el respectivo clip, ó strip, de animación ha editar en el panel 
+
+	NAL Editor, para posteriormente aplicar la tecla "TAB"
+
+
+	_para que así, entremos en el modo de edición de strips, ó clips, de animación, de ésta manera, a paritr de 
+
+	éste punto, a animación encapsulada dentro del strip, ó clip, de animación aparecerá en los paneles 
+
+	Timeline/Graph Editor/Dope Sheet, para que así, podamos editar ésta
+
+
+	_y una vez hayamos terminado de editar el strip, ó clip, de animación podamos aplicar nuevamente el shortcut,
+
+	"TAB", para volver así, nuevamente al modo "Strip", normalmente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

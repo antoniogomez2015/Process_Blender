@@ -1,0 +1,64 @@
+
+
+
+
+	tutorial blender crear multiples animaciones
+
+		https://www.youtube.com/watch?v=8ibVdczjmGU
+
+
+	Blender: introduccion a las herramientas de animación
+
+		https://www.youtube.com/watch?v=MNxyTfn4Ybw&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_
+
+
+			Blender: nla editor
+
+				https://www.youtube.com/watch?v=QR7-m1pBDgE&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_&index=2
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Action Strips Repeat - Ciclo:
+	_____________________________
+
+	_tenemos la posibilidad de repetir un strip, ó clip, de animación ha modo de ciclo para que así, éste se repira 
+
+	una cantidad de veces determinada
+
+
+	_para que así, no tendamos que estar copiando y pegando un mismo clip, de forma contigua una y otra vez de forma
+
+	innecesaria y poco práctica e interactiva
+
+
+	_para lo cuál, debemos de seleccionar el strip, ó clip, determiando y una vez con el respectivo strip, ó clip,
+
+	seleccionado debemos de ir ha
+
+
+	_NLA Editor/Properties/Action Strip/Playbak/, y una vez allí, uticamos la opción de "Repeat", a través, de la cuál,
+
+	podremos indicar la cantidad de veces que deseamos que se repita la animación ha modo de ciclo
+
+
+	_de ésta manera, podremos var con la strip, ó clip, respectivo cambia de tamaño en relacion a la cantidad de veces
+
+	que éste se repetirá a través, del tiempo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

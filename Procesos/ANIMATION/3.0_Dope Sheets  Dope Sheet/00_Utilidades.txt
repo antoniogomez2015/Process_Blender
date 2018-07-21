@@ -1,0 +1,68 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 3ª parte - Dope Sheet) - 3J Kernel
+
+
+		https://www.youtube.com/watch?annotation_id=annotation_2070797769&feature=iv&src_vid=oYv2yLVnEp8&v=wcMMLCFGlJw
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Dope Shhet:
+	___________
+
+
+	_éste modo de panel Dope Sheet, nos permitirá crear y ajustar el tipo de animación más básica punto a
+
+	punto la cuál, es el modo de animación más clásica y contemporánea
+
+
+	_de ésta manera, podremos mover, estalar, estirar, y reajustar los rombos ó puntos de animación a 
+
+	través, del tiempo lo cuál, nos pemritirá ajustar el timming, de animación de manera, práctica
+
+
+
+
+	Barras Naranjas:
+
+		_aparecerán barras de color naranja cuando un propiedad es animada a través, del tiempo más
+
+		ésta no se mueve en el espacio, es decir, que el objeto 3d, no se mueve en el viewport, a 
+
+		través, del tiempo
+
+
+	
+		
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

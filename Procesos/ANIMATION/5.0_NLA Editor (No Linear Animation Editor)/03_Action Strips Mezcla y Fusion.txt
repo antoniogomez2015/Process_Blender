@@ -1,0 +1,81 @@
+
+
+
+
+	tutorial blender crear multiples animaciones
+
+		https://www.youtube.com/watch?v=8ibVdczjmGU
+
+
+	Blender: introduccion a las herramientas de animación
+
+		https://www.youtube.com/watch?v=MNxyTfn4Ybw&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_
+
+
+			Blender: nla editor
+
+				https://www.youtube.com/watch?v=QR7-m1pBDgE&list=PLKFbfWqR5znMlVOaw87XtcqFbdgWEmBE_&index=2
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	Action Strips Mezcla y Fusión:
+	______________________________
+
+	_tenemos la posibilidad de mezclar ó fusionar strip, ó clips, de animación los cuáles, se encuetran en diferentes
+
+	"tracks", para que así, los strips, ó clips, super puestos puedan interacturar y mezclarse con una tercera
+
+	animación resultante
+
+
+	_para lo cuál, lo más recomendado es seleccionar cada uno de los strips, ó clips, de animación tanto el de arriba 
+
+	como el de abajo, y ha ambos debemos de activarle la opcíon de "NLA Editor/Properties/Active Strip/Auto Blend InOut"
+
+
+	_para que así, ha ambos strips, ó clips, super puestos les aparezca una línea oblicua de fundido entre el área
+
+	super puesta la cuál, indicará el área que será fundida ó fusionada gradualmente entre uno y otro clip, ó strip
+
+
+	_y en las opciones de "NLA Editor/Properties/Active Strip/Blending", dejaremos la opción de "Replace"
+
+
+
+
+
+	_más también, en las mismas opciones de "NLA Editor/Properties/Active Strip/Auto Blend InOut", dispondremos de 
+
+	las opciones de "Blend In", y "Blend Out", cuando dejamos la opción de Auto Blend InOut", desactivada 
+
+
+	_para que así podamos indicar rangos de fusión personalizados, tanto para el punto de entrada como para el punto 
+
+	de salida respectivamente
+
+
+	_de ésta maenra, podremos hacer mezclados personalizados en relación a nuestras neesidades así, como también,
+
+	dispondremos de otros modos de fusión en las opciones de "Blending"
+
+
+	_para que así, dispongamos de otros comportamiendos y modos de fusión entre los diferentes strips, ó clips,
+
+	de animación respectivamente
+
+
+
+
+
+
+
+
+
+
+
+
+
+

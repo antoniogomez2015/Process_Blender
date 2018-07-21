@@ -1,0 +1,154 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	F-Curve Modifiers:
+	__________________
+
+
+	_éstas opciones nos permitirá agregar modificadores a las propiedades de animación y directamtne ha los
+
+	keyframes, vertex ó nodos para que así, podamos influencias y hacer variaciones de animación
+
+	
+	_así, como también, potencializar y amplicar las posibilidades de animación, éstos modificares tienen
+
+	la ventaja de que pueden activarse y desactivarse a través, del tiempo y ser animables
+
+
+
+	_de ésta manera, dispondremos de los siguientes modificadores:
+
+
+
+
+
+	Workflow:
+	_________
+	
+	_de ésta manera, para agregar un modificador dispondremos de dos opciones
+
+
+	_la primera es abrieldo el ménu contextual de "Add F-Curve Modifier", a través, del shortcut, 
+
+	"Control + Shift + M", ó yendo al menú "Key/Add F-Curve Modifier"
+
+
+	_otra opción es yendo al panel de propiedades del panel "F-Curve Editor", a través, del shortcut, "N",
+
+	y en el cuál, podremos buscar la pestaña de "Modifier", y una vez allí, agrega el modificador deseado
+
+
+
+
+
+	Noise:
+	______
+
+	_éste modificador nos permitirá agregar ruido y oscilación aleatoria de manera rítmica y constante a
+
+	través, del tiempo en una curva de animación en una propiedad en específico
+
+
+	_de ésta manera, podremos hacer alteraciones regulares y constantes dentro de una curva de animación
+
+
+
+
+	_de ésta manera, dispondremos de los siguientes controles:
+
+
+	
+
+
+	_Blend Ty:
+
+
+		_Replace:
+
+			_ésta opción mantendrá la misma morfología de la curva de animación original tanto en 
+
+			el espacio como en el tiempo
+
+
+		_Add:
+
+			_ésta opción elevará los valores de la curva de animación la cuál, se elevará de 
+
+ 			posición en el graph editor
+
+
+		_Sustract:
+
+			_ésta opción bajará los valores de la curva de animación la cuál, se bajará de 
+
+ 			posición en el graph editor
+
+
+		_Multiply:
+		
+			_ésta opción simplificará los valores de la curva de animación la cuál, a su vez se
+
+			mantedrá en la posición en el graph editor
+
+
+				
+
+
+	
+	_Restrict Frame Range:
+
+		_ésta serie de opciones nos pemritirá entrar la animación original y limitar ó extender ésta
+
+		tanto a partir del punto incial al final
+
+
+		_como antes del inicio y después del inicio lo que nos pemritirá extender mucho más las 
+
+		posibilidades de animación, deformación y personalización de las animaciones
+
+
+		_lo cuál, nos permitirá lograr comportamientos desde refinados hasta inesperados en relación
+
+		a las necesidades de producción, otros
+
+
+
+	_Use Influence:
+
+		_éste parámetro hará de bypass, permitiréndonos limitar la influencia general del efecto sobre
+
+		la animación base
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

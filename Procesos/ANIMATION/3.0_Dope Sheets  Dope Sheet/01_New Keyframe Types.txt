@@ -1,0 +1,87 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 3ª parte - Dope Sheet) - 3J Kernel
+
+
+		https://www.youtube.com/watch?annotation_id=annotation_2070797769&feature=iv&src_vid=oYv2yLVnEp8&v=wcMMLCFGlJw
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	New Keyframes Types:
+	____________________
+
+
+	_dispondremos de un menú contextual a través, del shortcut, "R", en el cuál, podremos acceder a los
+
+	diferentes tipos de fotogramas claves 
+
+
+	_disponibles tanto en la barra inferior del panel "timeline", como en el panel "Dope Sheet", de ésta
+
+	manera, dispondremos de los siguientes keyframes:
+
+
+
+
+
+	Jitter:
+
+		_Un relleno o un fotograma clave al horno para incrustarlos, o algún otro propósito según sea 
+
+		necesario.
+
+
+	Extreme:
+
+		_Un estado "extremo" o algún otro propósito según sea necesario.
+
+
+	Moving Hold:
+
+		_Un fotograma clave que agrega una pequeña cantidad de movimiento alrededor de una pose de 
+
+		espera. En la Hoja de Droga también dibujará una barra entre ellos.
+
+
+	Breakdown:
+
+		_Estado de avería. p.ej. para transiciones entre poses clave.
+
+
+	Keyframe:
+
+		_Normal keyframe.
+	
+		
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

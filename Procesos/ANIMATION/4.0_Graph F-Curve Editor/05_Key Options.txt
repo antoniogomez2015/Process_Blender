@@ -1,0 +1,110 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Key Options:
+	____________
+
+
+	_a continuación se expresarán las opciones más importantes y relevandel del menú "Key", del panel 
+
+	graph editor
+
+
+	_y en el cuál, dispondremos de las siguientes opciones:
+
+
+
+
+
+	Clean Keyframes:
+
+		_ésta opción eliminará los keyframes, que estén muy juntos, optimizando la animación y
+
+		suavisando ésta a la vez consiguiendo que la curva de animación sea más simple y limpia
+
+
+
+	Discontinuity (Euler) Filter:
+
+		_ésta opcíon nos permitirá corregir saltos y bueltas en las curvas de animación
+
+
+
+	Bake Curve:
+	
+		_ésta opción hará que el keyframe, del punto de entranda de una curva de anmacion se alínie
+
+		a la misma altura del keyframe, seleccionado y sobre el cuál, hemos aplicado "Bake Curve"
+
+
+
+
+
+	Bake Sound to F-Curves:
+
+		_éste opción tomará todos los picos de audio de un archivo de audio externo el cuál, lo
+
+		transpolará a la curva de animación cambiando la forma y morfología de ésta en relación
+
+		al espectro del audio de referencia
+
+
+		_ésta opción es especialmente útil para creación de motion graphics, en la cuál, podremos
+
+		transpolar los hits, del audio hacia un parámetro de animación concreto
+
+
+
+	Jump to Keyframes:
+
+		_ésta hará que el cabezal de navegación se coloque entre dos ó más frames, seleccionados
+
+		lo cuál, es especialmente útil en el proceso de animación cuando deseamos hacer ajustes
+
+
+		_de interpolación entre blockings, y steps motion, entre otras posibilidades de animación
+
+		ya que nos calculará el frame, exacto en el que tendremos que tomar acción para las 
+
+		correcciones respectivas
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

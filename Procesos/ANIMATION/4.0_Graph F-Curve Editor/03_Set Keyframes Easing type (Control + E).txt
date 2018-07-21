@@ -1,0 +1,76 @@
+
+
+
+
+
+	Curso "Aprende a animar con Blender" en español (Tutorial 2ª parte - Graph Editor) - 3J Kernel
+
+		https://www.youtube.com/watch?annotation_id=annotation_676498961&feature=iv&src_vid=89Kf3vDrHF8&v=oYv2yLVnEp8
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	Easing Type:
+	____________
+
+
+	_éste menú nos pemritirá indicar el tipo de interpolación temporal de fotogramas claves ó keyframes,
+
+
+	_y en el cuál, dispondremos de las siguientes opciones:
+
+
+
+
+		_Automatica Easing:
+
+			_ésta opción hará los handles, independientes el uno del otro
+
+
+
+		_Ease In:
+
+			_ésta opción hará una desaceleración inicial en el keyframe, inicial de la animación
+
+
+		_Ease Out:
+
+			_ésta opción hará una desaceleración inicial en el keyframe, final de la animación
+
+
+
+		_Ease In and Out:
+
+			_ésta opción hará una desaceleración tanto en el keyframe, inicial como en el
+
+			keyframe, final de la animación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

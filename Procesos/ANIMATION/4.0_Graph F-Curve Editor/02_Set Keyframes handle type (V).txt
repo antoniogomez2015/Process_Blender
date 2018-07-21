@@ -41,14 +41,23 @@
 
 		_Vertor:
 
-			_ésta opción hará que el handles, seleccionado se vaya hacia la direción de la curva de 
+			_ésta opción hará que el handles, seleccionados se vayan hacia la direción de la curva de 
 
 			animación sea ésta entrante ó saliente
+
+
+			creando así, interpolación lineal entre ambos keyframes, afectados
 
 
 			_de ésta maenra, si repetimos éste proceso para el otro handle, de un nodo determinado los 
 
 			handles, respectivos se alinearán como en un inicio
+
+
+			_también, los handles, convertidos a la opción de vector, se harán independientes uno del
+
+			otro de igual forma que la opción "Free"
+
 
 
 		_Aligned:
@@ -63,14 +72,44 @@
 			automáticamente formando una línea recta
 
 
+			_de ésta manera, los handles, mantendrán la rotación cuando se muevan los keyframes y se 
+
+			mueva la curva de animación en general
+
+
+			_de ésta maenra, ésto puede causar efectos e imprevistos inesperados en la animación 
+
+			resultante, de ésta manera, en muchos casos es mejos hacer uso del modo "Vector"
+
+
+			_ya que de los contrario la animación requirá ajustes manuales para alisar la 
+
+			interpolación resultante
+
+
 		_Automatic:
 
-			_
+			_ésta opción hará los handles, se comporten de forma alineada, ésta es la opcíon por 
+
+			defecto
+
 
 
 		_Auto Clamped:
 
-			_
+			_ésta opción hará que los handles, respondan a las ubicaciones de los demás keyframes, de 
+
+			ésta manera, si acercamos un keyframe, ha otro, los handles, con la opción "Auto Climped"
+
+
+			_se verán afectados haciendo que los handles, se contraigan ó se hagan más pequeños en 
+
+			relación a la cercanía ó lejanía de los keyframes contiguos respectivamente
+
+
+			_lo cuál, permitirá ángulos más duros y flexibles a la vez a través, del tiempoy el 
+
+			espacio
 
 
 
