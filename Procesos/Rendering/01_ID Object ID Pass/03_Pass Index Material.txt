@@ -1,0 +1,56 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+	NOTA: éstas opciones no hacen falta para proceso de "Partitions", ó generación de mattes, es sólo si se realizará
+
+	conjuntamente el proceso de "ID Colors Pass"
+
+
+
+
+	Pass Index Material:
+	____________________
+
+	_para a continuación ir al panel de "Material Material/Settings/Pass Index", para que así, podamos ir seleccionando
+
+	cada uno de los elementos de la e ir agregándole in index, a cada uno de éstos en el mismo orden que lo hemos hecho
+
+	en las opciones de "Object Object/Relations/Pass Index/", del paso anterior para que así, haya coherencia entre
+
+	ambos pases integrados
+
+
+	NOTA: es requerido de que cada elemento ha agregar un index material, dicho elemento debe poseer un material único
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

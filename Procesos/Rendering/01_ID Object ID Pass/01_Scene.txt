@@ -1,0 +1,49 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Escena:
+	_______
+
+
+	_primeramente debemos de tener nuesta escena creadas con los elementos ha renderizar en pases totalmente creados
+
+	y mapeados y animados correctamente respectivamente
+
+
+	_así, como también, es recomendable que cada elemento ha hacer isolate tenda aplicado un material único ó propio
+
+	para que así, se pueda hacer la distinción en el proceso de ID Material, correctamente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

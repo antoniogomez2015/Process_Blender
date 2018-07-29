@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Mist:
+	_____
+
+	_una vez hemos asignado el material correctamente a los respectivos elementos de la escena, podremos ahora ir a 
+
+	las opciones de "Properties/World"
+
+
+	_para que así, podamos bajar hasta las opciones de "Mist", la cuál, debemos de activar para que así, dispongamos
+
+	de las siguientes opciones:
+
+
+
+
+		_Minumum:
+
+			_éste parámetro nos pemritirá indicarle al sistema el umbral mínimo de alcance del efecto en 
+
+			relación a la distancia de la cámara del motivo, por lo general el valor más recomendado es de 
+
+			"0"
+
+
+		_Start:
+
+			_éste parámetro nos pemritirá indicarle al sistema el factor de offset, ó de desplazamiento del
+
+			sistema de depth map, tanto hacia adelante como hacia atras
+
+
+			_por lo general el valor más recomendado para éste parámetro es de "0"
+
+
+		_Depth:
+
+			_éste parámetro nos pemritirá indicarle al sistema el factor de proximidad y contraste del
+
+			sistema de deph map, generado
+
+
+			_de ésta manera, podremos crear un sistema de depth map, más acentuado ó más sutil, el valor más
+
+			recomendado para éste parámetro es de unos "15", en una escena de set normal
+
+
+		_Height:
+
+			_(Indeterminado)
+
+
+
+		_Falloff:
+
+			_éste parámetro nos pemritirá indicarle al sistema el la curva de decaimiento del sistema de
+
+			depth map, ha generar, el parámetro más recomendado y estable es "Linear"
+			
+
+
+	
+
+
+
+
+	
+
+
+		
+
+
+

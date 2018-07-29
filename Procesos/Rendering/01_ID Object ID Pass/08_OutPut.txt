@@ -1,0 +1,48 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	OutPut:
+	_______
+
+
+	_primeramente debemos de crear un nuevo nodo yendo ha "Shift + A/Output/", y una vez allí, debemos de agregar 
+
+	el nodo "FileOutput"
+
+
+	_descartando así, el nodo "Compositing", el cuál, ya no vamos ha utilizar para éste proceso
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+

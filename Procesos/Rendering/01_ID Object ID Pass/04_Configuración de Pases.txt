@@ -1,0 +1,52 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Configuración de Pases:
+	_______________________
+
+
+	_para luego ir al panel "Render Layers/Passes", y allí, seleccionar los pases deseamos en relación el proceso ha
+
+	realizar ó nuestras necesidades en éste caso los pases:
+
+
+
+		_Material Index
+
+		_Object Index
+
+
+	_para que así, éstos sean contemplados por el sistema a la hora del render
+
+
+
+
+	
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Renderizado de Pases:
+	_____________________
+
+
+	_para luego hacer el render, donde previamente hemos escogido el tamaño de salida y la ruta de salida para los 
+
+	archivos en caso de que estemos renderizando una secuencia de imágenes ó video, más en los casos de que estemos
+
+	renderizando un frame, único debemos entonces lanzar el render y guardar el renrizado el cuál, es mostrado en el 
+
+	viewport del panel UVMap Editor, shortcut, "F3"
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

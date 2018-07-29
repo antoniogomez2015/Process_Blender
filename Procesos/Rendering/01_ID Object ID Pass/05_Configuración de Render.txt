@@ -1,0 +1,43 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Configuración de Render:
+	________________________
+
+
+	_para posteriormente ir a el panel "Render Render/Output/", y allí, en las opciones de archivo de salida seleccionar
+
+	la opción de "OpenEXR Multilayer", para que así, podamos integrar todos los pases en éste tipo de archivo único
+
+
+	_OPCIONAL: así, como también, debemos ir a las opciones de "Render Render/Shading/Alpha/", y allí, seleccionar 
+
+	la opción de "Transparent"
+
+
+		
+
+	
+
+
+
+

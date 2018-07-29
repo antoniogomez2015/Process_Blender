@@ -1,0 +1,42 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Pass Index Object:
+	__________________
+
+	_para a continuación ir al panel de "Object Object/Relations/Pass Index/", y ir seleccionando cada uno de los 
+
+	elementos de la escena e ir asignándoles in índex, para que así, el sistema genere las reservas de máscara cada 
+
+	uno de éstos elementos en relación a los demás elementos de la escena
+
+
+
+	
+
+
+
+
+
+
+
+

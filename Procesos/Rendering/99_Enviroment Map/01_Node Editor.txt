@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+	Environment/HDR Lighting in Cycles
+
+
+
+		https://www.youtube.com/watch?v=_4IN4V1SM-A
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Node Editor:
+	____________
+
+	_primeramente debemos de abrir el panel "Node Editor", a través, del shortcut, "Shift + F3", para que así, 
+
+	podamos seleccionar en éste el modo de "Shaders/World"
+
+
+	_para a continuación activar la opción de "use Nodes", como también, también, el modo de render de "Cycles Render",
+
+	en la parte superior de la interface
+
+
+	_para que así, de ésta manera, nos aparezcan los nodos de "Background", y "World Output", los cuáles, utilizaremos
+
+	posteriormente
+
+
+	
+
+
+		
+
+
+

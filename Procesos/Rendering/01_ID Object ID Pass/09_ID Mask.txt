@@ -1,0 +1,45 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	ID Mask:
+	________
+
+
+	_para a continuación proceder ha crear otro nuevo nodo yendo ha "Shift + A/Converter/", y una vez allí, debemos 
+
+	agregar el nodo "ID Mask"
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+

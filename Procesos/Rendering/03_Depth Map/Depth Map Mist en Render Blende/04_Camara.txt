@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Camara:
+	_______
+
+	_una vez hemos creado el sistema podremos seleccionar la cámara de la escena e ir a las opciones de
+
+	"Properties/Data Object Data/Display"
+
+
+	_y una vez allí, activar la opción de visualización de "Mist", para que así, podamos ver una línea contínua la
+
+	cuál, nos indicará el factor del alcance del efecto mist
+
+
+	_para que así, podamos utilizar ésta guía visual para la generación del pass depth map, a través, de las opciones
+
+	de mist
+
+
+	
+
+
+
+
+	
+
+
+		
+
+
+

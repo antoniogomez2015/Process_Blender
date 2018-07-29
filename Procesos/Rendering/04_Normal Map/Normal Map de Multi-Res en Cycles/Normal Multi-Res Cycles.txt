@@ -1,0 +1,295 @@
+
+
+
+
+
+
+
+	Bake normal maps in blender 2.77 Easy (HD)
+
+		https://www.youtube.com/watch?v=_0FwsMkWm0k
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Normal Multi-Res Cycles:
+	________________________
+
+
+
+	Sculpt:
+
+	_primeramente partimos de que tenemos un motivo "low poly", original y al cuál, ya le hemos realizado todo el
+
+	proceso multinivel de escultura digital por medio del modificador "Multi-Res"
+
+
+	_más tanto para visualizar el proceso de esculpido en el panel viewport 3d, en el modo "Object Mode", debemos
+
+	de agregar el modificador "Subdivision Surface", sobre el motivo para que así, éste tenga sub divisiones 
+
+
+	_a través, de las cuáles, éste podrá representar el esculpido para lo cuál, con el motivo seleccionado debemos
+
+	de aplicar el shortcut, "Control + 3, 4, 5", en relación al detalle que desiemos ver
+
+
+
+
+	UVs:
+
+	_primeramente debemos de crearle los uvs, al respectivo motivo "Original", para lo cuál, le crearemos los 
+
+	respectivos mark seams, seleccionando los edges, de corte deseados en el modo edit mode, shortcut, "TAB"
+
+
+	_para que así, una vez hemos seleccionado los edges, respectivos abrir el menú contextual de "Edges", a través, del
+
+	shortcut, "Control + E", y en el cuál, debemos de seleccionar la opción de "Mark Seams"
+
+
+	_para a continuación abrir el panel contextual de UVMap, a través, del shortcut, "U", en viewport 3d, y en el
+
+	modo "Object Mode"
+
+
+	_y en el cuál, debemos de seleccionar la opcíon de "Unwrap", para que así, podamos crear unas uvs, personalizadas
+
+
+
+
+
+	Proxi:
+	
+	_primeramente debemos de duplicar la mesh, del motivo y ocultar la mesh, origina, para que así, ésta no 
+
+	obstaculize la visualización de la mesh, duplicada
+
+
+
+
+
+	Subdivision Surface:
+
+	_para que así, con el mesh, que hará de proxi seleccionado ir ha "Properties/Modifiers/", y una vez allí agregar
+
+	un nuevo modificador de tipo "Subdivision Surface", ó a través, del shortcut, "Control + 3, 4, 5" 
+
+
+	_de ser posible "5", para que así, tengamos una mayor resolucion para el proceso de volcado de información del
+
+	normal map, posteriormente
+
+
+	_más éste modificador lo debemos de aplicar para que así, la densidad de geometría se aplicada sobre el mehs,
+
+	que hará de proxi
+
+
+	NOTA: hay que tener mucho cuidado con subir demaciado las sub divisiones del proxi ya que ésto puede hacer que
+
+	blender se cierre inesperadamente y no pueda continuar con el proceso, lo más recomendado es un valor de "3"
+
+	sub divisiones
+
+
+
+
+
+	Texture:
+	
+	_para a continuación con el mesh, respectivo seleccionado y en el mode "edit mode", debemos abrir también, en otra
+
+	ventana el panel "UV Image Editor", a través, del shortcut, "Shift + F10"
+
+
+	_para que así, con las uvs, del motivo en el panel "UV Image Editor", debemos de crear un nueva textura con las
+
+	diensiones deseadas, ej "2048 x 2048", a la cuál, debemos de signarle un nombre 
+
+
+	_como también, un color, el cuál, será un color de entre morado y fuxsia, el cuál, se asemejará al color del normal 
+
+	map, ó más especificamente "#6972CE"
+
+	
+	_para a continuación desactivas las opciones de "Alpha", y a su vez activar las opciones de "32 bit Float"
+
+	
+	_ésta nueva textura también, la debemos de renombrar yendo ha "Properties/Texture", con un nombre descriptivo
+
+	como por ejemplo; "Normal_Map"
+
+
+	_para seguidamente proceder ha guardar ésta textura en una ruta del disco de nuestro proyecto a través, del 
+
+	shorctut, "F3"
+
+
+
+	
+	Node Material:
+
+	_para a continaación en un nuevo panel abrir el "Node editor", a través, del shortcut, "Shift + F3", para a
+
+	continuación seleccionar el motor de render "Cycles Render", en la parte superior de la interface
+
+
+	_para posteriormente ir al panel "Properties/Material Material", para que así, podamos darle al botón de "New",
+
+	para que así, creemos una nuevo material para el motivo seleccionado previamente el cuál, a su vez debemos
+
+	de renombrar
+
+
+	_para luego, volver al panel "Node editor/Shader", y en el cuál, debemos activar la opción de "Use Nodes",
+
+	para que así, podamos ver el material que hemos creado para el motivo respectivo
+
+
+
+
+	Nodes Relations:
+	
+	_para posteriormente agregar un nuevo nodo yendo ha "Shift + A/Texture/Image Texture", para que así, podamos
+
+	cargar en éste nodo la textura que hemos creado de el normal map, para lo cuál, debemos de seleccionar en el
+
+	campo de búsqueda del propio nodo
+
+
+
+
+
+	Bake Normal:
+
+	_de ésta manera, debemos de tener visible la textura del normal map, en el "Uv Image Editor", y así, como también,
+
+	debemos de seleccionar el nodo de "Image Texture", en el panel "Node Editor" como también, debemos de tener 
+
+	seleccionado el motivo y el cuál, debe estar en el modo "Edit Mode", en el panel viewport 3d
+
+
+	_para a continuación ir al "Properties/Render Render", y en el cuál, debemos de bajar hasta las opciones de "Bake",
+
+	y en el cuál, debemos de activar sólo la opcíón de "Bake Type", seleccionamos la opción de "Normal"
+
+
+	_y en las opciones de "Margin", indicamos un valor de 30, en relación el nivel de normal deseado
+
+
+	_para posteriormente aplicar el botón de "Bake", para que así,el volcado de la información sea realizado sobre la
+
+	textura respectiva en el panel "Uv Image Editor"
+
+
+	_para posteriormente una vez se ha realizado el volcado correctamente sobre la textura podremos ahora guardar la
+
+	textura con la información del volcado en el panel "Uv Image Editor", shortcut, "Alt + S"
+
+
+
+
+
+	Set Nodes:
+
+	_de ésta manera, una vez ya hemos realizado el normal map, ya podremos eliminar el modificador "Multi-Res", del
+
+	motivo yendo ha "Properties/Modifiers"
+
+
+	_donde primeramente debemos de iliminar el nodo "Material", y el nodo "Output", base del material por defecto
+
+
+	_para a continuación proceder ha crear los nodos que permitirán la representación del material correctamente:
+
+
+
+		_Material Output:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Output/Material Output", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Mix Shader", con el "Input/Surface", del nodo "Material Out"¡
+
+
+
+		Mix Shader:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Shaders/Mix Shader", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Mix Shader", con el "Input", del nodo "Textura", ó "Material Out", node
+
+
+
+		Diffuse:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Shaders/Diffuser", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Diffuser", con el "Input", "Shader superior", del nodo "Mix Shader"
+
+
+
+		Glossy:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Shaders/Glossy", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Glossy", con el "Input", "Shader inferior", del nodo "Mix Shader"
+
+
+
+		Fresnel:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Inputs/Fresnel", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Fresnel", con el "Input", Fac", del nodo "Mix Shader"
+
+
+
+		Normal Map:
+
+		_para lo cuál, debemos de ir ha "Shift + A/Vectors/Normal Map", para que así, podamos arrastrar el 
+
+		"Output", del nodo "Normal Map", con el "Input", "Diffuse/Normal", y el "Glossy/Normal", 
+
+		respectivamente
+
+
+		_y en el cuál, también, debemos de seleccionar la opción de "UVs", el "UvMap", que hemos creado 
+
+		previamente
+
+
+
+		Texture:
+
+		_para posteriormente arrastrar el Output", del node "Texture", que creamos inicialmente con el "Input",
+
+		del nodo "Normal Map/Color"
+
+
+		_como también, debemos de seleccionar la opción de "Non-Color Data", para que así, el normal map,
+
+		pueda generse correctamente
+
+
+
+	_de ésta manera, ahora para visualizar el normal map, debemos de inicializar el render interactivo a través,
+
+	del shortcut, "Shift + Z", ó directamente haciendo un render final
+	
+
+
+
+
+
+
+		
+
+
+

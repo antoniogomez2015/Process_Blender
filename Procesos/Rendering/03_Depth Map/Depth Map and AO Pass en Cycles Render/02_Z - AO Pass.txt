@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Z - AO Pass:
+	____________
+
+	_para a continuación ir al panel "Properties/Render Layers/Passes", y una vez allí, activar la opción de "Z", y
+
+	"AO", para que así, se active la renderización del "Depth Map", y "Ambient Occlusion"
+
+
+
+
+	
+
+
+		
+
+
+

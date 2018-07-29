@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+	Environment/HDR Lighting in Cycles
+
+
+
+		https://www.youtube.com/watch?v=_4IN4V1SM-A
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Connections:
+	____________
+
+	_una vez hemos creado todos los nodos que conformarán el sistema podremos ahora conectar todos éstos correctamente
+
+	para lo cuál, debemos hacer la siguiente configuración
+
+
+
+	_primeramente debemos de arrastrar el "Output/Generated", del nodo "Texture Coodinate", hasta el "Input/Vector",
+
+	del nodo "Mapping"
+
+
+	_para a continuación arrastrar el "Output/Vector", del nodo "Mapping", hasta el "Input/Vector", del nodo
+
+	"Enviroment Texture"
+
+
+	_para a continuación arrastrar una variante del "Output/Color", del nodo "Enviroment Texture", hasta el 
+
+	"Input/Value", del nodo "Math"
+
+
+	_como también, debemos de arrastrar el "Output/Color", del nodo "Envoroment Texture", hasta el "Input/Color",
+
+	del nodo "Background"
+
+
+	_seguidamente debemos de arrastrar el "Output/Value", del nodo "Math", hasta el "Input/Strength", del nodo 
+
+	"Background"
+
+
+
+
+	_de ésta manera, podremos ahora ajustar las características y comportamiento del enviroment map, para lo cuál,
+
+	tendremos las opciones del nodo "Mapping/Texture/Rotation/Z", a través, de las cuáles, podremos rotar todo el
+
+	enviroment
+
+
+	_así, como también, dispondremos de las opciones del nodo Math/Value", colocando el método previamente en
+
+	"Multiply", de ésta manera, podremos controlar la influencia del mapa sobre la iluminación global de la escena
+
+
+
+	
+
+
+		
+
+
+

@@ -1,0 +1,48 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Math:
+	_____
+
+
+	_más vamos ahora a agregar un nuevo nodo yendo ha "Shift + A/Converter/", y una vez estemos allí, debemos de 
+
+	seleccionar el nodo "Math", el cuál, conectaremos su "Output/Value", al "Input/Hue", del nodo "Emission"
+
+	
+
+	_de ésta manera, una vez creado y relacionado correctamente el nodo "Math", debemos de color su modo en "Sustract"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

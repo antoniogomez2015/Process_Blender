@@ -1,0 +1,57 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Object Info:
+	____________
+
+
+	_más vamos ahora a agregar un nuevo nodo yendo ha "Shift + A/Inputs/", y una vez estemos allí, debemos de 
+
+	seleccionar el nodo "Object Info", el cuál, conectaremos su "Output/Random", al "Input/Color", del nodo 
+
+	"Hue Saturation/Hue"
+
+
+
+	_de ésta manera, ahora todos los objetos de tipo geometría de la escena a los cuáles, se haya agregado el material
+
+	base que hemos creado
+
+
+	_ahora por medio de su valor "ID", interno se los podrá hacer una variación aletoria de color por medio del nodo 
+
+	"Object Info/Random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

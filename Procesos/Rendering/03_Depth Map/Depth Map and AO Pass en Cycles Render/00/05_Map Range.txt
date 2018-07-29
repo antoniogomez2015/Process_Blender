@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Map Range:
+	__________
+
+	_para a continuación estando en el "Node Editor", debemos de agregar un nuevo nodo a través, del shortcut,
+
+	"Shift + A/Vector/", y una vez allí, agregamos el nodo "Map Range"
+
+
+	_el cuál, a su vez debemos de conectar su "Output/Depth", con el "Input/Z", del nodo "Composite"
+
+
+	_para que así, podamos ajustar el rango "From", "De", y el rando "From", "Desde", del nodo "Map Rane" de ésta 
+
+	manera, visualmente podremos ajustar la densidad del depth map, generado, viéndolo a través, del panel 
+
+	"UV Image Editor"
+
+
+
+	
+
+		
+
+
+

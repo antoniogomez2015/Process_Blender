@@ -1,0 +1,60 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Escena:
+	_______
+
+
+	_primeramente debemos de tener nuesta escena creadas con los elementos ha renderizar en pases totalmente creados
+
+	y mapeados y animados correctamente respectivamente
+
+
+	_una vez terminado el proceso de creación y configuración de nodos para el "ColorPass", podremos ir a las opciones
+
+	de "Properties/Render Layers"
+
+
+	_y una vez allí, crear una nueva render layer, la cuál, podremos renombrar como "ColorPass", para que así, podamos
+
+	bajar hasta las opciones de "Material"
+
+
+	_en la cuál, podremos seleccionar el material que hemos configurado con los nodos correspondientes al ColorPass,
+
+	para que así, éste material le sea aplicado a todos los elementos incorporados dentro de ésta "Layer Render"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

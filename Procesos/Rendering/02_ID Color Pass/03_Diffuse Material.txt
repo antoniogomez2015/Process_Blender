@@ -1,0 +1,53 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Diffuse Material:
+	_________________
+
+
+	_para a continuación proceder ha seleccionar un elemento de la escena para con éste seleccionado proceder ha
+
+	crear un nuevo material base yendo ha "Properties/Material Material"
+
+
+	_de ésta manera, éste material lo podremos renombrar, ej "ColorPass"
+
+
+	_para que así, podamos utilizar éste material para la generación de todos los colores que conformarán el sistema
+
+	de colores del "ColorPass", posteriormente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

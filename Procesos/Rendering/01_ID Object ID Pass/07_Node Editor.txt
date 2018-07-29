@@ -1,0 +1,60 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Compositing:
+	____________
+
+
+	_de ésta manera, podremos componer los pases que hemos renderizado directamente en blender para lo cuál, podremos
+
+	posarnos sobre el panel viewer 3d, y cargar en éste panel el panel "Node Editor", shortcut, "Shift F3"
+
+
+	_para a continuación ir a las opciones del panel node editor, en la parte inferior de éste, y cambiar a las opciones 
+
+	de tipo de nodos a trabajar por "Compositing", para que así, estén disponibles los nodos de tipo composición
+
+
+	_de ésta manera, en el panel "Node Editor/Compositing", encontraremos los siguientes nodos "Render Layers", y
+
+	Composite, de ésta manera, en el nodo "Render Layers", se encontrará el render multi-pass, que hemos renderizado 
+
+	previamente 
+
+
+	_de ésta manera, para extraer y exportar los ID Pass, que hemos creado dispondremos de los siguientes nodos:
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Emission:
+	_________
+
+
+	_de ésta manera, en el panel Node Editor, con el objeto de la escena al cuál, le hemos aplicado el nuevo material
+
+	seleccionado
+
+
+	_vamos ahora a agregar un nuevo nodo yendo ha "Shift + A/Shaders/", y una vez estemos allí, debemos de seleccionar
+
+	el nodo "Emissión", el cuál, conectaremos su "Output/Emission", al "Input/Surface", del nodo "Material Output"
+
+
+	_de ésta manera, descartaremos el nodo "Diffuse", el cuál, no utilizaremos para el resto de proceso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

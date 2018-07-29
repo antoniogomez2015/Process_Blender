@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Save Render:
+	____________
+
+	_y por último podremos guardar el depth map, generado directamente en el panel "UV Image Editor", a través,
+
+	del shortcut, "F3"
+
+
+	_para que así, nos aparezca el explorer de blender en el cuál, debemos de ubicar una ruta de destino así, como
+
+	también, debemos de indicar un nombre para el archivo ha generar
+
+
+
+		
+
+
+

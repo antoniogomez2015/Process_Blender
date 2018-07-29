@@ -1,0 +1,50 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Node Editor:
+	____________
+
+
+	_para a continuación abrir el panel "Node Editor", a través, del shortcut, "Shift + F3", en una ventana de la 
+
+	interface
+
+
+	_para a continuación seleccionar el motor de render "Cycles Render", en la parte superior de la interface
+
+
+	_para posteriormente volver al panel Node Editor, y en el cuál, debemos de seleccionar el modo de "Shaders/Object"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

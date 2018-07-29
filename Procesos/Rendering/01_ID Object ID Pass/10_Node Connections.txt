@@ -1,0 +1,56 @@
+
+
+
+
+	ID Mask
+
+
+
+		Blender Quick Tips: ID Masks
+
+			https://www.youtube.com/watch?v=-CcOBLmvJAs
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Object ID Material:
+	______________________
+
+
+
+	Node Connections:
+	_________________
+
+
+	_de ésta manera, ahora debemos de conectar los nodos para lo cuál, arrastraremos el "Output/IndexOB", del nodo
+
+	"Render Layers", al "Input/ID Value", del nodo "ID Mask", en el cuál, podremos escoger el "index", ha extrar
+
+
+	_para a continuación arrastrar el "Outpu/Alpha", del nodo "ID Mask", hasta el "Input/Image", del nodo "OutPut",
+
+	en el cuál, podremos configurar una ruta de destino del pass render, ha exportar
+
+
+
+	NOTA: más si deseamos visualizar el pass, ha exportar previamente, podremos sustituir el nodo "OutPut", con un
+
+	nuevo nodo yendo ha "Shift + A/Output/Viewer", temporalmente para que así, podamos verificar los pases respectivo 
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+

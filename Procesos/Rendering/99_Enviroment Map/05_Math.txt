@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+	Environment/HDR Lighting in Cycles
+
+
+
+		https://www.youtube.com/watch?v=_4IN4V1SM-A
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Math:
+	_____
+
+	_para a continuación agregar un nuevo nodo yendo ha "Shift + A/Converter/", y una allí, agregamos el nodo 
+
+	"Math", el cuál, conectaremos posteriormente
+
+
+
+	
+
+
+		
+
+
+

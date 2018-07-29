@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+	Environment/HDR Lighting in Cycles
+
+
+
+		https://www.youtube.com/watch?v=_4IN4V1SM-A
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Resolution:
+	___________
+
+	_a parte de configurar un sistema de nodos para la generación de un enviroment map, para usarlo como fondo y 
+
+	como parte de la iluminación global de la escen
+
+
+	_debemos también de configurar la resolución de éste para lo cuál, debemos de ir al panel "Properties/World/",
+
+	y una vez allí, debemos de bajar hasta las opciones de "Setting"
+
+
+	_en la cuál, dispondreoms de las opciones de "Resolution", y "Bounces", a través, de las cuáles, podremos 
+
+	configurar la resolución como la influencia en la iluminación global de la escena en general
+
+
+
+	
+
+
+		
+
+
+

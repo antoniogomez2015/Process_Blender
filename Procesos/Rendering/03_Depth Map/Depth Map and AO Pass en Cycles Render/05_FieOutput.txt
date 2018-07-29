@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	FileOutput:
+	___________
+
+	_para que nos aparezcan los nodos de "Render Layers", y "Composite", para que así, de ésta manera, ahora podamos
+
+	elinar el nodo "Compositte"
+
+
+	_para seguidamente agregar un nuevo nodo yendo ha "Shift + A/Output/", y una vez allí, debemos de agregar el
+
+	nodo "FileOuput"
+
+
+	_y en el cuál, podremos indicar un ruta de destino para render realizado de un respectivo canal, por ejemplo;
+
+	del canal diffuse
+
+
+	_de ésta manera, ahora podremos duplicar éste nodo de "FieOutput", para cada canal de render ha realizar, de ésta
+
+	manera, podremos tener un "FieOutput", para el canal "Diffuse, Depth, AO, Normal, Otros"
+
+
+	_para posteriormente proceder ha conectar los "Outputs", del nodo "Render Layers", con los "Inputs/Image", de
+
+	los respectivos nodos "FieOutput"
+
+
+	_más entre el nodo "Render Layers", y el nodo "FileOutput", debemos de agregar un nuevo nodo yendo ha 
+
+	"Shift + A/Vector", y una vez allí, debemos agregar el nodo "Normalize"
+
+
+	_y en éste punto debemos de volver al panel "UV Image Editor/Layer", y una vez allí, cambiar la opción de
+
+	"Render Layers", por la opción de "Composite", en la parte inferior del panel
+
+
+	_para que así, podamos visualizar los respectivos render pass, y poder personalizar éstos de ser necesario
+
+	como también, realizar ajustes
+		
+
+
+
+
+
+		
+
+
+

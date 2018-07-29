@@ -1,0 +1,53 @@
+
+
+
+
+
+
+	The Blender Cycles ID Mask
+
+		https://www.youtube.com/watch?v=FrPC6nkv7L0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	ID Color Pass:
+	______________
+
+
+
+	Light Path:
+	___________
+
+
+	_más vamos ahora a agregar un nuevo nodo yendo ha "Shift + A/Inputs/", y una vez estemos allí, debemos de 
+
+	seleccionar el nodo "Light Path", el cuál, conectaremos su "Output/Is Camara Ray", al "Input/Strength", del nodo "Material Output"
+
+
+	_de ésta manera, descartaremos el nodo "Diffuse", el cuál, no utilizaremos para el resto de proceso
+
+
+	_de ésta manera, podremos que ahora al utilizar el nodo "Light Path", ahora la luz no se dispersará del material
+
+	"Emission", y el color será totalmente plano y pleno, lo que necesitamos para el proceso de "color pass"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

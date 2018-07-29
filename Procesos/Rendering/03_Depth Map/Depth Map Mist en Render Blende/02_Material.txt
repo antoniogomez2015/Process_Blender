@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Material:
+	_________
+
+	_primeramente debemos de seleccionar un objeto de la escena, por ejemplo; podremos seleccionar el motivo, para
+
+	a continuación proceder ha crear un nuevo material yendo ha "Properties/Material Material"
+
+
+	_y una vez allí, darle a la opción de "New", para que así, un nuevo material sea creado y asignado el objeto
+
+	respectivo, éste nuevo material lo podremos renombrar como por ejemplo; "DepthMapM"
+
+
+	_para que así, podamos entrar en las opciones del material en el panel "Properties/Material", de ésta manera, en
+
+	las opciones de "Diffuse", podremos indicar un color totalmente blanco
+
+
+	_y así, como también, en las opciones de "Shading", activar la opción de "Shadeless", para que así, el material
+
+	no sea influenciable por la luz ambiental de la escena
+
+
+
+	Link Material:
+	______________
+
+	_para a continuación seleccionar los demás elementos de geometría de la escena a través, del shortcut, "A/A",
+
+	seleccionando por último al elemento al cuál, le hemos aplicado el nuevo material que hemos renombrado como
+
+	"DepthMapM"
+
+
+	_de ésta manera, con todos los elementos de geometría seleccionados en la escena debemos ahora de abrir el panel
+
+	"Select Linkeds", y en el cuál, debemos de seleccionar la opción de "Material"
+
+
+	_para que así, a todos los demás elementos seleccionados le sean asignado el material de "DepthMapM"
+
+
+	
+
+
+
+
+	
+
+
+		
+
+
+

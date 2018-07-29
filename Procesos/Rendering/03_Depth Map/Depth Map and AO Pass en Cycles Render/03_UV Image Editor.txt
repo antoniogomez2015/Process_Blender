@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	UV Image Editor:
+	________________
+
+	_de de ésta manera, ahora debemos de abrir un nuevo panel en el cuál, debemos de ubicar el "UV Image Editor", a
+
+	través, del shortcut, "Shift + F10"
+
+
+	_para que así, podamos realizar el primer a través, del shortcut, "F12", para que así, se activen las opciones de
+
+	"Render Result", en el panel "UV Image Editor"
+
+
+	_de ésta manera, ahora podremos ir a las opciones de "UV Image Editor/Pass", y una vez allí, seleccionar la opción
+
+	de "Depth", para que así, podamos visualizar el depth map, renderizado posteriormente
+
+
+	_así, como también, seguidamente debemos de activar la opcíon de "Z Buffer", la cuál, se encuentra al aldo de los
+
+	botones de RGB
+
+
+	
+
+
+
+		
+
+
+

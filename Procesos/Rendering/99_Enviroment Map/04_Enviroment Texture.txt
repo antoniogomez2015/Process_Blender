@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+	Environment/HDR Lighting in Cycles
+
+
+
+		https://www.youtube.com/watch?v=_4IN4V1SM-A
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Enviroment Texture:
+	___________________
+
+	_para a continuación agregar un nuevo nodo yendo ha "Shift + A/Texture/", y una allí, agregamos el nodo 
+
+	"Enviroment Texture", el cuál, conectaremos posteriormente
+
+
+
+	
+
+
+		
+
+
+

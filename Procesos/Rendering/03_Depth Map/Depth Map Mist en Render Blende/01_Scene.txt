@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+	Make Depth Map in Blender with Nodes or Mist
+
+
+		https://www.youtube.com/watch?v=gPwdLOSpMUA
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Scene:
+	_______
+
+	_primeramente partimos de que tenemos una escena creada con la geometría y elementos deseamos
+
+
+	_así, como también, que tenemos una cámara creada y ubicada en el punto de toma deseado de la escena
+
+
+	_como también, que tenemos iluminación creada según la distribución y el tipo de iluminación deseado
+
+
+
+
+	
+
+
+		
+
+
+

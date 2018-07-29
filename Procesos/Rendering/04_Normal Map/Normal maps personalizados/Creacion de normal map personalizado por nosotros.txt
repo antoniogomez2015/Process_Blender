@@ -54,9 +54,11 @@ creando normal map, personalizado en blender
 	______
 
 
-		_ahora en las opciones de texture paint/tools,vamos a la pestaña de slots, y allí, le damos ha "Add Texture Paint",
+		_ahora en las opciones de texture paint/tools, vamos a la pestaña de slots, y allí, le damos ha 
 
-		para así, poder agregar una nueva textura adicional, en éste caso una nueva textura de "normal map"
+		"Add Texture Paint", para así, poder agregar una nueva textura adicional, en éste caso una nueva textura 
+
+		de "normal map"
 
 
 		_así, seleccionaremos y crearemos una nueva textura de normal map, la cuál, la crearemos con las siguientes 
