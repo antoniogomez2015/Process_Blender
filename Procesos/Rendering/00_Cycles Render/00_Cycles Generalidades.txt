@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+	Introducción a Cycles
+
+		https://www.youtube.com/watch?v=4H4zrswtvr4
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Colores de Inputs de Nodos:
+	___________________________
+
+	
+
+	Amarillos:
+	__________
+
+	_los imputs, de color amarillo aceptan imágenes y colores RGB
+
+
+
+	Grises:
+	_______
+
+	_los imputs, de color gris son valores numericos y aceptan también, imágenes en blanco y negro
+
+
+
+
+
+
+
+
+
+
+
+
+

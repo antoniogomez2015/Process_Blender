@@ -209,6 +209,27 @@ Tools:
 
 	Insert Loop: control + R
 
+		_Alinear aristas a uno de los loops, de los extremos, debemos de pulsar "E", una vez hayamos aplicado 
+
+		el nuevo "Edge Loop", mientras los estamos desplazando para que así, nos aparezca una línea guía
+
+
+		_la cuál, tendrá un vertex seleccionado el cuál, nos indicará el sentido ó edge loops, que el sistema
+
+		tomará en cuenta para la alineación
+
+
+		_máms para invertir ó cambiar el edge loop, seleccionado debemos pulsar "F", para que así, el sistema
+
+		ahora tome como referencia el edge loop, opuesto para que así, el edge loop, que hemos creado ahora se
+
+		alinea ha ésta nueva referencia ó edge loop, opuesto
+
+
+		_de ésta manera, ahora el sistema seleccionará el vertex opuesto de la línea guía inicial
+
+
+
 	Bavel: control + B (recalcular la escala antes: "Control + A")
 
 	Edge Crise: shift + E
