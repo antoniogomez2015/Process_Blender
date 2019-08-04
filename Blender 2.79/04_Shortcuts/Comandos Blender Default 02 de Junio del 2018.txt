@@ -7,14 +7,14 @@ Modificador array en Blender
 	https://www.youtube.com/watch?v=AWXRy44lkSI&list=PLFmkfOdaXDrT5BAoBHk1c3XJKkcD7CbEf&index=17
 
 
-Tutorial facial rig basico en blender españo
+Tutorial facial rig basico en blender espaï¿½o
 	https://www.youtube.com/watch?v=MqT2ehkZvLw
 
-Camera tracking en blender [2.72] Español
+Camera tracking en blender [2.72] Espaï¿½ol
 	https://www.youtube.com/watch?v=Kup4ppJTeSg
 
 
-Curso de Blender GRATIS - Presentación
+Curso de Blender GRATIS - Presentaciï¿½n
 	https://www.youtube.com/watch?v=NSiGlLiMHh8&list=PLFmkfOdaXDrT5BAoBHk1c3XJKkcD7CbEf
 
 Texturizado de Casa
@@ -26,16 +26,16 @@ tutorial blender unwrap mapeado uv modelos organicos
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-Guía de comandos nativa de blender, versión v1.74
+Guï¿½a de comandos nativa de blender, versiï¿½n v1.74
 
 
 
 Navegation / transform: 
 
-	(translate / scale / rotate); (restringir movimiento indicado cordenada X, Y, Z, múltiple cordenada + shift + nueva cordenada)	
+	(translate / scale / rotate); (restringir movimiento indicado cordenada X, Y, Z, mï¿½ltiple cordenada + shift + nueva cordenada)	
 
 
-	grab move: G + drag (translate)	G+ mouse midle button (así busca la cordenada más cercana) 
+	grab move: G + drag (translate)	G+ mouse midle button (asï¿½ busca la cordenada mï¿½s cercana) 
 
 	scale object: S
 
@@ -43,13 +43,13 @@ Navegation / transform:
 
 	shear: control + shift + alt + S
 
-	bend: shift + W (en relación al cursor)
+	bend: shift + W (en relaciï¿½n al cursor)
 
 	shrink fatten: alt + S
 
-	Zoom In/Out: mouse scroll ó control + mouse scroll click + up/down drag  ó  +/-, numpad
+	Zoom In/Out: mouse scroll ï¿½ control + mouse scroll click + up/down drag  ï¿½  +/-, numpad
 
-	Pan: shift + mouse scroll + draw ó control + mouse scroll 
+	Pan: shift + mouse scroll + draw ï¿½ control + mouse scroll 
 
 	Orbit: mouse scroll + drag
 
@@ -61,7 +61,7 @@ Navegation / transform:
 
 	snap: shift + tab
 
-	Shift + C: (resetear la posición del cursor 3d, al centro del axis)
+	Shift + C: (resetear la posiciï¿½n del cursor 3d, al centro del axis)
 
 	navegate center pivot: alt + , (coma) (mode object)
 
@@ -100,7 +100,7 @@ Select:
 
 	select objects (object y edict mode): mouse right click
 
-	axis normal ó local: control + alt + spacebar
+	axis normal ï¿½ local: control + alt + spacebar
 
 	select all on/off: A
 
@@ -112,7 +112,7 @@ Select:
 
 	select more/less: control + (+/-), numpad
 
-	select linked: control + L (selección de sub elementos relacionados)
+	select linked: control + L (selecciï¿½n de sub elementos relacionados)
 
 	invert selection: control + I
 
@@ -124,15 +124,15 @@ Select:
 
 	loop select: (select un vertex-edge preciso) + shift + alt + mouse right click + edge contiguo
 
-	loop select: (select un face preciso) + alt + mouse right click + edge contiguo (shift para seguir agregando más loops a la selección)
+	loop select: (select un face preciso) + alt + mouse right click + edge contiguo (shift para seguir agregando mï¿½s loops a la selecciï¿½n)
 
 	more selection: control + +
 
 	less selection: control + -
 
-	Select Region: (seleccionar un vertex y luego seleccionar otro vertex distante, para que así, se seleccionen todas
+	Select Region: (seleccionar un vertex y luego seleccionar otro vertex distante, para que asï¿½, se seleccionen todas
 
-	las faces que sean enmarcadas en esa área): Control + Shift + Mouse Right Click
+	las faces que sean enmarcadas en esa ï¿½rea): Control + Shift + Mouse Right Click
 
 
 
@@ -164,7 +164,7 @@ Views:
 
 	view rendering: shift + Z
 
-	Full screen mode In/Out: shift + spacebar ó Alt + F10 ó control + up/down arrows keyboard
+	Full screen mode In/Out: shift + spacebar ï¿½ Alt + F10 ï¿½ control + up/down arrows keyboard
 
 	view select: dot (.), numpad
 
@@ -189,7 +189,7 @@ Views:
 	bottom view: control + 7
 
 
-	Camara View Object Shift + Numpad 1,3,7 (para que la cámara se alinie a la dirección del objeto seleccionado)
+	Camara View Object Shift + Numpad 1,3,7 (para que la cï¿½mara se alinie a la direcciï¿½n del objeto seleccionado)   
 
 
 	camara view: 0
@@ -211,22 +211,22 @@ Tools:
 
 		_Alinear aristas a uno de los loops, de los extremos, debemos de pulsar "E", una vez hayamos aplicado 
 
-		el nuevo "Edge Loop", mientras los estamos desplazando para que así, nos aparezca una línea guía
+		el nuevo "Edge Loop", mientras los estamos desplazando para que asï¿½, nos aparezca una lï¿½nea guï¿½a
 
 
-		_la cuál, tendrá un vertex seleccionado el cuál, nos indicará el sentido ó edge loops, que el sistema
+		_la cuï¿½l, tendrï¿½ un vertex seleccionado el cuï¿½l, nos indicarï¿½ el sentido ï¿½ edge loops, que el sistema
 
-		tomará en cuenta para la alineación
-
-
-		_máms para invertir ó cambiar el edge loop, seleccionado debemos pulsar "F", para que así, el sistema
-
-		ahora tome como referencia el edge loop, opuesto para que así, el edge loop, que hemos creado ahora se
-
-		alinea ha ésta nueva referencia ó edge loop, opuesto
+		tomarï¿½ en cuenta para la alineaciï¿½n
 
 
-		_de ésta manera, ahora el sistema seleccionará el vertex opuesto de la línea guía inicial
+		_mï¿½ms para invertir ï¿½ cambiar el edge loop, seleccionado debemos pulsar "F", para que asï¿½, el sistema
+
+		ahora tome como referencia el edge loop, opuesto para que asï¿½, el edge loop, que hemos creado ahora se
+
+		alinea ha ï¿½sta nueva referencia ï¿½ edge loop, opuesto
+
+
+		_de ï¿½sta manera, ahora el sistema seleccionarï¿½ el vertex opuesto de la lï¿½nea guï¿½a inicial
 
 
 
@@ -238,11 +238,11 @@ Tools:
 
 	Knife Proyect:
 
-		_seleccionamos la mesh, que proyectará su forma (esta forma debe ser un elemento bidimensional)
+		_seleccionamos la mesh, que proyectarï¿½ su forma (esta forma debe ser un elemento bidimensional)
 
-		_luego seleccionamos con shift, la mesh, donde se proyectará la forma de la otra mesh
+		_luego seleccionamos con shift, la mesh, donde se proyectarï¿½ la forma de la otra mesh
 
-		_ahora entramos al modo de edición edit mode, y aplicamos Knife Proyect, en el panel tools
+		_ahora entramos al modo de ediciï¿½n edit mode, y aplicamos Knife Proyect, en el panel tools
 
 	Proportional edition: O
 
@@ -250,7 +250,7 @@ Tools:
 
 
 
-	Spin: alt + R (modular en rotación sub-elementos faces, en modo edit)
+	Spin: alt + R (modular en rotaciï¿½n sub-elementos faces, en modo edit)
 
 
 	Repeat Last Action: Shift + R
@@ -264,7 +264,7 @@ Menus:
 
 	Sub element mode: control + tab
 
-	sub-elements: F6 (al crear geometría poligonal)
+	sub-elements: F6 (al crear geometrï¿½a poligonal)
 
 	Specials: W
 	
@@ -316,7 +316,7 @@ Menus:
 
 	make singular user: U (mode object)
 
-	make links: control + L (mode object) (seleccionar de último al elemento que tiene la información ha clonar, ej; el material)
+	make links: control + L (mode object) (seleccionar de ï¿½ltimo al elemento que tiene la informaciï¿½n ha clonar, ej; el material)
 
 	make proxi: control + alt + P
 
@@ -346,7 +346,7 @@ Menus:
 
 	Transform Orientation: Alt + Spacebar
 
-		_Orient to Face: Control + Alt + Spacebar (orienta el pivot, en relación a un face, seleccionado)
+		_Orient to Face: Control + Alt + Spacebar (orienta el pivot, en relaciï¿½n a un face, seleccionado)
 
 
 	Material Specials Menu: Shift + Q 
@@ -391,12 +391,12 @@ Edit Mode:
 		
 		Split: (duplicar vertex a los existentes seleccionados en la misma maya)
 
-		Connect Vertex Path: (conectar dos vertex seleccionados a través, de un path, de edges ó vertex entre la
+		Connect Vertex Path: (conectar dos vertex seleccionados a travï¿½s, de un path, de edges ï¿½ vertex entre la
 
-		geometría existente de por medio): J
+		geometrï¿½a existente de por medio): J
 
 
-		Slide: (desplazar vertex seleccionados sobre los edges, contiguos): Shift + V, ó GG, an drag
+		Slide: (desplazar vertex seleccionados sobre los edges, contiguos): Shift + V, ï¿½ GG, an drag
 
 
 		Bevel: (Convertir un vertex en cuatro vertex ha modo de rombo): Control + Shift + B
@@ -428,9 +428,9 @@ Edit Mode:
 
 	Transform:
 
-		_Bend: Shift + W (distorción a partir de la ubicación del cursor 3D)
+		_Bend: Shift + W (distorciï¿½n a partir de la ubicaciï¿½n del cursor 3D)
 
-		_Shear: Control + Alt + Shift + S (distorsión de sesgado de sub elementos seleccionados)
+		_Shear: Control + Alt + Shift + S (distorsiï¿½n de sesgado de sub elementos seleccionados)
 
 	
 
@@ -460,136 +460,136 @@ UV Image Editor:
 		https://www.youtube.com/watch?v=brnaAL-QwhU
 
 
-	_"Unwrap" (como si hiciésemos "U", "/Unwrap" en el viewport 3d): E
+	_"Unwrap" (como si hiciï¿½semos "U", "/Unwrap" en el viewport 3d): E
 
 
 	_"Mark Seams", (seleccionar edges directamente en el uveditor): Control + E 
 
 
-	_"Stitch", (coser ó fusionar diferentes islands): V
+	_"Stitch", (coser ï¿½ fusionar diferentes islands): V
 
 		_debemos de seleccionar edges que sean contiguos a otro insland y presionar "V", para que el sistema
 
-		nos muestre temporalmente como quedarían los insland, soldados, y si estamos de a cuerdo debemos
+		nos muestre temporalmente como quedarï¿½an los insland, soldados, y si estamos de a cuerdo debemos
 
-		de aplicar enter para coformar la transformación
+		de aplicar enter para coformar la transformaciï¿½n
 
 
-	_"Pack Inslands":, (re rodenar las inslands en el espacio de uvmap, de forma más optimizada): Control + P
+	_"Pack Inslands":, (re rodenar las inslands en el espacio de uvmap, de forma mï¿½s optimizada): Control + P
 
 
 	_"Weld/Align":, (soldar vertex seleccionados): W | Weld: soldar, Straighten: enderezar, Align: alinear
 
 
-	_"Average Insland Scale":, (ponderar tamaños de inslands, seleccionadas para que cubran un área cuadrada): Control + A
+	_"Average Insland Scale":, (ponderar tamaï¿½os de inslands, seleccionadas para que cubran un ï¿½rea cuadrada): Control + A
 
 
-	_"Minimize Stretch":, (comienza un proceso de estiramiento de las áreas más aglutinadas, éste proceso se terminará solo 
+	_"Minimize Stretch":, (comienza un proceso de estiramiento de las ï¿½reas mï¿½s aglutinadas, ï¿½ste proceso se terminarï¿½ solo 
 
-	cuando apliquemos "Enter", tmabién, podremos ir hacia adelante ó hacia atras con "Scroll mouse"): Control + V
+	cuando apliquemos "Enter", tmabiï¿½n, podremos ir hacia adelante ï¿½ hacia atras con "Scroll mouse"): Control + V
 
 
-	_"Follow Active Quads":, (ésta opción nos pemritirá poder hacer unwrap, con mayas totalmente cuadráticas, es decir;
+	_"Follow Active Quads":, (ï¿½sta opciï¿½n nos pemritirï¿½ poder hacer unwrap, con mayas totalmente cuadrï¿½ticas, es decir;
 
 	con faces, totalmente cuadradas)
 
-		_de ésta manera, podremos partir de una extracción de unwrap, realizada a partir de "Mark Sems", de por
+		_de ï¿½sta manera, podremos partir de una extracciï¿½n de unwrap, realizada a partir de "Mark Sems", de por
 
 		ejemplo de una brazo
 
 		
-		_más ahora tendremos la posibilidad de seleccionar los vertex de esa respectiva island, en el uv imagen editor,
+		_mï¿½s ahora tendremos la posibilidad de seleccionar los vertex de esa respectiva island, en el uv imagen editor,
 
-		para a continuación volver al viewport 3d, y abrir el panel contextual "UV Mapping", a través, de el shortcut, 
+		para a continuaciï¿½n volver al viewport 3d, y abrir el panel contextual "UV Mapping", a travï¿½s, de el shortcut, 
 
-		"U", donde podremos seleccionar la opción de "Reset"
-
-
-		_para a continuación volver ha abrir el panel contextual de "UV Mapping", a través, del shortcut, "U",
-
-		donde podremos seleccionar la opción de "Fllow Quads", en la cuál, a su vez, podremos seleccionar la opción
-
-		de "Even", que es la opción que nos arrojará un resultado más geométrico y estable
+		"U", donde podremos seleccionar la opciï¿½n de "Reset"
 
 
-	_"Move the UV fron View 3D":, (mover los uvs, directamente desde el viewport 3d, lo cuál, es especialmente útil
+		_para a continuaciï¿½n volver ha abrir el panel contextual de "UV Mapping", a travï¿½s, del shortcut, "U",
 
-	para hacer coincidir partes de la topología con un área de la textura respectiva de forma más visual tomando en
+		donde podremos seleccionar la opciï¿½n de "Fllow Quads", en la cuï¿½l, a su vez, podremos seleccionar la opciï¿½n
 
-	cuenta el volúmen 3d, directamente)
-
-
-		_de ésta manera, una hemos generado el proceos de uvs, en sus respectivas inslands, podremos hacer ajustes
-
-		sobre la textura aplicada en ciertas áreas respectivamente
+		de "Even", que es la opciï¿½n que nos arrojarï¿½ un resultado mï¿½s geomï¿½trico y estable
 
 
-		_para lo cuál, debemos de seleccionar uno ó más vertexs, ó edges, y con éstos seleccionados abrir el panel
+	_"Move the UV fron View 3D":, (mover los uvs, directamente desde el viewport 3d, lo cuï¿½l, es especialmente ï¿½til
+
+	para hacer coincidir partes de la topologï¿½a con un ï¿½rea de la textura respectiva de forma mï¿½s visual tomando en
+
+	cuenta el volï¿½men 3d, directamente)
+
+
+		_de ï¿½sta manera, una hemos generado el proceos de uvs, en sus respectivas inslands, podremos hacer ajustes
+
+		sobre la textura aplicada en ciertas ï¿½reas respectivamente
+
+
+		_para lo cuï¿½l, debemos de seleccionar uno ï¿½ mï¿½s vertexs, ï¿½ edges, y con ï¿½stos seleccionados abrir el panel
 
 		contextual "UV Mapping", shortcut, "U", en el viewport 3d
 
 
-		_en el cuál, podremos seleccionar la opción de "Move the UV fron View 3D", para a contiuación proceder ha
+		_en el cuï¿½l, podremos seleccionar la opciï¿½n de "Move the UV fron View 3D", para a contiuaciï¿½n proceder ha
 
-		hacer "Mouse left click", sobre el área del motivo ha editar sus uvs
-
-
-		_para a continuación proceder ha arrastrar haciendo "mouse left click and drag", para que así, en vivo y
-
-		en directo podamos hacer edición de los uvs, directamente en el viewport 3d, éstas acciones también, se
-
-		llevarán a cabo en el uv imagen editor
+		hacer "Mouse left click", sobre el ï¿½rea del motivo ha editar sus uvs
 
 
+		_para a continuaciï¿½n proceder ha arrastrar haciendo "mouse left click and drag", para que asï¿½, en vivo y
+
+		en directo podamos hacer ediciï¿½n de los uvs, directamente en el viewport 3d, ï¿½stas acciones tambiï¿½n, se
+
+		llevarï¿½n a cabo en el uv imagen editor
 
 
-	_"Puppet Pin":, (tenemos la posibilidad de editar partes de inslands, de forma elástica ha modo de puppet pin,
-
-	de ésta manera, podremos editar partes como dedos y extremidades de forma integral y flexible)
 
 
-		_donde primeramente debemos de ir al menú "UV Imagen Editor/UVs/Live Unwrap", para que así, podamos
+	_"Puppet Pin":, (tenemos la posibilidad de editar partes de inslands, de forma elï¿½stica ha modo de puppet pin,
 
-		edición en vivo sobre el editor
+	de ï¿½sta manera, podremos editar partes como dedos y extremidades de forma integral y flexible)
 
 
-		_para a continuación estando en el "UV Imagen Editor", debemos de estar en vertex editing, shortcut,
+		_donde primeramente debemos de ir al menï¿½ "UV Imagen Editor/UVs/Live Unwrap", para que asï¿½, podamos
+
+		ediciï¿½n en vivo sobre el editor
+
+
+		_para a continuaciï¿½n estando en el "UV Imagen Editor", debemos de estar en vertex editing, shortcut,
 
 		"Control + Tab" 
 
 
-		_para a continuación proceder ha seleccionar uno ó más vertex a los extremos de un insland de los 
+		_para a continuaciï¿½n proceder ha seleccionar uno ï¿½ mï¿½s vertex a los extremos de un insland de los 
 
-		cuáles, deseamos mover ó editar
-
-
-		_para a continuación aplicar el shortcut, "P", para que así, podamos convertir los vertex seleccionados
-
-		en puppet pins, los cuáles, a su vez, se convertirán en color rojo como referencia, ó yendo ha "Uvs/Pin"
+		cuï¿½les, deseamos mover ï¿½ editar
 
 
-		_para a continuación proceder ha seleccionar uno ó varios "pins", de color rojo y con éstos pins,
+		_para a continuaciï¿½n aplicar el shortcut, "P", para que asï¿½, podamos convertir los vertex seleccionados
 
-		seleccionados mover éstos, shortcut, "G", and drag
-
-
-		_de ésta manera, los vertex intermedios se moverán en relación a la posición de los "pins", de color 
-
-		rojo de ésta manera, debemos de crear pins, en relación a las áreas que deseamos que se mantengan 
-
-		estáticas y las que deseamos sean movidas por los pines
+		en puppet pins, los cuï¿½les, a su vez, se convertirï¿½n en color rojo como referencia, ï¿½ yendo ha "Uvs/Pin"
 
 
-		_y por último para eliminar ó desactivar los "pins", creados previamente una vez hayamos terminado de
+		_para a continuaciï¿½n proceder ha seleccionar uno ï¿½ varios "pins", de color rojo y con ï¿½stos pins,
 
-		realizar el proceso de edición
+		seleccionados mover ï¿½stos, shortcut, "G", and drag
 
 
-		_en éste caso, debemos de seleccionar los vertex, que hacen de pines, y con éstos seleccionados aplicar
+		_de ï¿½sta manera, los vertex intermedios se moverï¿½n en relaciï¿½n a la posiciï¿½n de los "pins", de color 
 
-		el shortcut, "Alt + P", para que así, éstos vertex seleccionados pasen ha hacer vertex convencionales,
+		rojo de ï¿½sta manera, debemos de crear pins, en relaciï¿½n a las ï¿½reas que deseamos que se mantengan 
 
-		ó yendo ha "UVs/UnPin"
+		estï¿½ticas y las que deseamos sean movidas por los pines
+
+
+		_y por ï¿½ltimo para eliminar ï¿½ desactivar los "pins", creados previamente una vez hayamos terminado de
+
+		realizar el proceso de ediciï¿½n
+
+
+		_en ï¿½ste caso, debemos de seleccionar los vertex, que hacen de pines, y con ï¿½stos seleccionados aplicar
+
+		el shortcut, "Alt + P", para que asï¿½, ï¿½stos vertex seleccionados pasen ha hacer vertex convencionales,
+
+		ï¿½ yendo ha "UVs/UnPin"
 
 
 
@@ -601,7 +601,7 @@ UV Image Editor:
 //////////////////////////////////////////(Games)///////////////////////////////////////////////
 
 
-Navegación: shift + F
+Navegaciï¿½n: shift + F
 
 	move: w/s/a/d
 
@@ -615,7 +615,7 @@ preferencias: control + alt + U, y configuraciones generales
 
 
 
-	_Editing/ New F-Curve Default: (tipo de interpolación de trayectorias de animación)
+	_Editing/ New F-Curve Default: (tipo de interpolaciï¿½n de trayectorias de animaciï¿½n)
 
 	_Sytem/ Compute Device: / CUDA / (escoger tarjeta disponibles)
 
@@ -628,9 +628,9 @@ preferencias: control + alt + U, y configuraciones generales
 		1_preferences/add on; y escribimos (loop), y activaremos las opciones de (Mesh loop Tools)
 
 	
-	_User Interface: Pie Menus Official (menús contextuales de navegación como maya)
+	_User Interface: Pie Menus Official (menï¿½s contextuales de navegaciï¿½n como maya)
 
-	_panel propiedades/icon scene/Units (en unidades escoger "Metrics", y en inclinación escoger "Degrees")
+	_panel propiedades/icon scene/Units (en unidades escoger "Metrics", y en inclinaciï¿½n escoger "Degrees")
 
-	_Mesh Bsurfaces GPL Edition: permite hacer reropología sobre modelos esculpidos en Sculpt mode luego en Edit mode
+	_Mesh Bsurfaces GPL Edition: permite hacer reropologï¿½a sobre modelos esculpidos en Sculpt mode luego en Edit mode
 		
